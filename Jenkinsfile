@@ -52,6 +52,15 @@ pipeline {
                     '''
             }
         }
-   }
+	    
+    	stage('Archive_Artifacts') {
+            steps {
+            powershell '''
+		Compress-Archive -Path $ENV:WORKSPACE\\Build_Artifacts_Jenkins\\Packages\\* `
+		-DestinationPath $ENV:WORKSPACE\\Build_Artifacts_Jenkins\\$ENV:BUILD_NUMBER-$ENV:BRANCH_TAG.zip
+		'''
+	    }
+        }
+    }
   
 }
