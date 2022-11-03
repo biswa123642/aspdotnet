@@ -1,0 +1,51 @@
+﻿---
+ID: "2b8d1b4f-2ecb-4725-86d8-2e15bd6c72a2"
+Parent: "6c1c36fa-fa32-45e9-896e-b327155adb55"
+Template: "2f7bfe05-bdd4-47ad-844f-3e3997eda6b4"
+Path: /sitecore/content/OneWeb/Kaytee/Data/Multi Column Content Tiles/kaytee/homepage/item5
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "00eccf92-e5bd-4b05-81e9-7b7d3073f484"
+      Hint: Image
+      Value: |
+        <image mediaid="{03B2430F-7B86-4B5C-B300-D3CA39B11162}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220906T045637Z
+    - ID: "27abc734-c594-491e-861d-fc2f17c04907"
+      Hint: BGColor
+      Value: #2ec44b
+    - ID: "3e9b4d48-d3be-48a0-a917-cd07b2be2d54"
+      Hint: Title
+      Value: Hay
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5de8a20f-b10d-4198-baa9-15cbbc827724"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221014T121428Z
+    - ID: "dc6fb3d9-f446-4657-84aa-7445c6ce5d9d"
+      Hint: SubText
+      Value: |
+        High-quality hay is essential in the digestive health of your small pet.&nbsp; Hay provides an excellent source of fiber and plays a vital role in their diet.&nbsp; Choose from varieties of fresh Timothy hay, Alfalfa, Orchard Grass, and more.
+        <br />
+        <h3>Learn More &gt;&gt;&gt;</h3>
+        <br class="t-last-br" />
+    - ID: "e14eb220-b69e-4d99-a279-7666a732a16b"
+      Hint: CTA
+      Value: |
+        <link linktype="external" url="/all-products/small-animal?f=small-animal-by-product-type:Hay" anchor="" target="" />

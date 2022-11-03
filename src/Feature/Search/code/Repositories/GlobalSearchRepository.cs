@@ -146,7 +146,7 @@ namespace CGP.Feature.Search.Repositories
                             Rows = MaxPredictiveResult,
                             OrderBy = new Collection<SortOrder>
                                                     {
-                                                    new SortOrder("title_t", Order.ASC)
+                                                    new SortOrder("title_alpha_sort", Order.ASC)
                                                     }
                         }
                     };

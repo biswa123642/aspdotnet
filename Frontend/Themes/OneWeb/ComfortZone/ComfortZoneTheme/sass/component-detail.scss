@@ -3,34 +3,39 @@
 
 div,
 .component {
-  
-    .ps-widget[ps-sku],
-    .ps-widget[data-ps-sku] {
-        margin-left: 15px;
+    &.ps-widget[ps-sku],
+    &.ps-widget[data-ps-sku] {
+        margin-left: 15px !important;
+        margin-bottom: 20px !important;
+    }
+    &.rich-text{
+        .ps-widget.ps-reviews-button {
+            margin-left:  0 !important;
+            margin-bottom: 30px !important;
+        }
     }
     &.product-variant {
-      
-        
-        
-        .dropdown-wrapper{
+        .dropdown-wrapper {
             display: block;
             width: 100%;
             max-width: 100%;
             position: relative;
             overflow: hidden;
+            z-index: 1;
             cursor: pointer;
             &:after {
                 position: absolute;
-                content: '';
-                width: 0;
-                height: 0;
-                border-style: solid;
-                border-width: 17px 17px 0 17px;
-                border-color: #EF3E33 #0000 #0000 #0000;
+                content: "";
+                width: 23px;
+                height: 38px;
                 top: 50%;
                 right: 9px;
+                -webkit-transform: translateY(-50%);
                 transform: translateY(-50%);
                 z-index: -1;
+                background-image: url(../images/site-icons/icon_caret.png);
+                background-position: 97% 42%;
+                background-repeat: no-repeat;
             }
         }
         select {
@@ -39,23 +44,24 @@ div,
             background-position: calc(100% - 10px) center;
             -webkit-appearance: none;
             background-image: none;
-            color: $secondary-color;
-            padding: 5px 5px;
-            border: 2px solid $black-color;
+            color: #000;
+            padding: 6px 30px 6px 12px;
+            border-radius: 2px;
+            border: 2px solid #b74695;
+            font-weight: normal;
             width: 100%;
             position: relative;
-            @include Montserrat-font-stack();
-            font-size: 2.4rem;
-            font-weight: bold;
-            line-height: 30px;
+            font-family: "Montserrat", sans-serif;
+            font-size: 1rem;
+            line-height: 1.42857143;
             display: inline-block;
-            margin-bottom: 0;          
+            margin-bottom: 0;
             text-align: left;
             cursor: pointer;
+            white-space: normal;
             &:disabled {
                 opacity: 1;
                 -webkit-appearance: none;
-                min-width: 110px;
                 background-image: none;
                 min-width: auto;
                 padding-right: 10px;
@@ -69,6 +75,150 @@ div,
             }
         }
     }
-   
-}
 
+    &.product-details {
+        &.variant-4 {
+            .product-wrapper {
+                .product-title {
+                    h1 {
+                        font-family: "Nunito", sans-serif;
+                        font-weight: bold;
+                        color: #78256c;
+                        font-size: 2.5rem;
+                        margin-top: 22px;
+                        margin-bottom: 11px;
+                        line-height: 1.1;
+                    }
+                }
+                .body-copy {
+                    font-size: 1rem;
+                    font-family: "Montserrat", sans-serif;
+                    color: #000;
+                    line-height: 1.42857143;
+                    ul.checklist {
+                        padding: 0;
+                        list-style: none;
+                        padding-left: 1.5em;
+                        margin-bottom: 11px;
+                        li{
+                            list-style: none;
+                            &:before{
+                                content: "\f046";
+                                font-family: "FontAwesome";
+                                margin-left: -1.5em;
+                                margin-right: 0.5em;
+                            }
+                        }
+                        
+                    }
+                }
+                .product-column3 {
+                    margin-left: -25px;
+                    margin-right: -25px;
+                    > div {
+                        padding-left: 25px;
+                        padding-right: 25px;
+                        margin-bottom: 30px;
+                        img{
+                            display: block;
+                            margin-left: auto;
+                            margin-right: auto;
+                        }
+                    }
+                    .small{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+    &.image {
+        z-index: 10;
+    }
+    &.productimage {
+        .image-placeholder{
+            max-width: 400px;
+            border: none;
+            img{
+                padding: 0;
+            }
+        }
+        .inner-wrap {
+            padding: 0 35px;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 90%;            
+            .image-container{
+                text-align: left;
+                div {
+                    border: 2px solid #6d2e8c;
+                    border-radius: 100%;
+                    cursor: pointer;
+                    padding: 10px;
+                    margin-bottom: 22px;
+                    line-height: 1.42857143;
+                    background-color: #fff;
+                    width: 100px;
+                    height: 100px;
+                    img {
+                        width: calc(100% - 30px);
+                        border: none;
+                        position: absolute;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        left: 15px;
+                    }
+                }
+            }
+        }
+    }
+    
+    
+    /*============================
+        Artical details
+   ==============================*/
+    .article-detail {
+        padding-top: 30px;
+    }
+    .article-left {
+        .author-name {
+            margin-bottom: 20px;
+            font-weight: bold;
+            text-align: left;
+        }
+    }
+}
+@include respond-to(desktop) {
+    .component {
+        &.product-details {
+            &.variant-4 {
+                .product-wrapper {
+                    .product-column3 {
+                        margin-left: -25px;
+                        margin-right: -25px;
+                        > div {
+                            float: left;
+                            width: 33.33333333%;
+                            padding-left: 25px;
+                            padding-right: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@include respond-to(mobile) {
+    div,
+    .component {
+        &.image {
+            &.position-right {
+                text-align: center;
+            }
+        }
+        &.ps-widget[data-ps-sku],
+        &.ps-widget[ps-sku] {        
+            min-width: auto !important;
+        }
+    }
+}

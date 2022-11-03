@@ -1,0 +1,106 @@
+﻿---
+ID: "480fe1fb-24f6-4db2-ae1e-9234c46eb52c"
+Parent: "d4cd0419-1534-4d59-8758-2332bd28d7d4"
+Template: "bc41b87d-2a9b-4689-9f51-80bb5b31a6e7"
+Path: "/sitecore/content/OneWeb/Kaytee/Home/fieldandforest/Products/premier-hay/second-cut-timothy-hay"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{B758C0DC-59DD-4F72-AA42-81FA09C2B431}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: "{37564B0A-E875-4988-9367-9861B6C1DF3B}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{1AA4E6E1-482C-4CE1-A350-BF0CC3A33A1C}"
+          p:before="*"
+          s:ds="{2B757534-DBE2-4B57-BD84-61349A815BAC}"
+          s:id="{4646BD4F-05FF-4A19-9600-4D74F2F1548B}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B21409643-0B35-42B4-91EF-852679AA9D1C%7D&amp;Styles&amp;TitleHeadingLevel=%7B6A44D9C6-61F0-4B69-8E1A-FDC27F96BA0F%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/sxa-product-detail/row-1-1/container-11" />
+        <r
+          uid="{B3F6E20E-D768-4CA8-9FD8-30CD86B098A5}"
+          p:after="r[@uid='{1AA4E6E1-482C-4CE1-A350-BF0CC3A33A1C}']"
+          s:ds="{5F689740-59E0-4DC7-B511-5DD4D7DF367C}"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BFFF92AD1-B9FF-4ED0-9316-F18C1B5B5508%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-product-detail/row-1-1/container-10" />
+        <r
+          uid="{18B3DC86-20AC-4654-B766-943D88AA67E0}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Video"
+          s:id="{3C84ED23-7591-45E0-8850-1AE96D1342B1}"
+          s:par="Reset Caching Options&amp;GridParameters={908E2BC6-C110-4ED7-AF39-7EEACBB31A34}&amp;Styles&amp;CacheClearingBehavior=Clear on publish&amp;RenderingIdentifier"
+          s:ph="/main/sxa-product-detail/row-2-1/container-3/column-1-2/container-5" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{452AB8E8-4711-4795-9C63-06FE6A1BB927}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "055a2c41-4d44-4441-b589-b86f39cc64e5"
+      Hint: HeroBannerContent
+      Value: |
+        Balanced leaf-to-stem ratio
+        
+        Slightly sweet with a soft, flexible texture
+        
+        Hand selected to ensure high nutritional value
+        
+        Grown without pesticides grown specifically for small pets
+        
+        Convenient stay fresh packs, boxed to lock in freshness
+    - ID: "07588c87-7db4-49e1-a788-731da925d1d6"
+      Hint: BackgroundColor
+      Value: #3d3935
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221020T094513Z
+    - ID: "30b0a514-dc94-432c-9655-8c01e474023f"
+      Hint: ExtendedContent
+      Value: "Harvested at the peak freshness specifically for your small pet. Our premier Timothy Hay is cut from the second harvest which yields a leafy, slightly sweet and abundant crop – nourished by long sunny days and cool restorative nights. We pride ourselves in growing premier all-natural Timothy Hay without pesticides. Our hay is hand-selected to ensure high nutritional value. Each convenient stay fresh pack is carefully boxed to protect it from light, air and moisture to lock in freshness, guaranteed."
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "second-cut-timothy-hay"
+    - ID: "63b15778-d2e2-425d-9ecb-7c8589214f31"
+      Hint: AdditionalInfo
+      Value: 90 OZ.
+    - ID: "78351212-39c1-4f87-b066-1c09c6fd7b4c"
+      Hint: HeroBannerLogo
+      Value: |
+        <image mediaid="{D9DF47A8-BCEE-4C34-AA6C-94AF5137C0F9}" />
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: 2nd Cut Timothy Hay
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "eb9f68b0-1186-409e-9ec5-53f563459015"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: Fresh & Flavorful Variety
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221031T133712Z

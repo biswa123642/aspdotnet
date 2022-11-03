@@ -1,0 +1,51 @@
+﻿---
+ID: "64345f0c-eb78-4e63-b457-71bad21bd1ae"
+Parent: "6c1c36fa-fa32-45e9-896e-b327155adb55"
+Template: "2f7bfe05-bdd4-47ad-844f-3e3997eda6b4"
+Path: /sitecore/content/OneWeb/Kaytee/Data/Multi Column Content Tiles/kaytee/homepage/item10
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "00eccf92-e5bd-4b05-81e9-7b7d3073f484"
+      Hint: Image
+      Value: |
+        <image mediaid="{4AE5A388-744E-47C1-AAB7-CA179A43FCF2}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220906T045706Z
+    - ID: "27abc734-c594-491e-861d-fc2f17c04907"
+      Hint: BGColor
+      Value: #2ec44b
+    - ID: "3e9b4d48-d3be-48a0-a917-cd07b2be2d54"
+      Hint: Title
+      Value: " Have any Questions or Comments?"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6f7c5dba-d7f3-4146-99b5-09c8b89f4841"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221003T135002Z
+    - ID: "dc6fb3d9-f446-4657-84aa-7445c6ce5d9d"
+      Hint: SubText
+      Value: |
+        Connect to Kaytee with your questions, comments, or praise for our products.
+        <br />
+        <h3>Learn More &gt;&gt;&gt;</h3>
+        <br class="t-last-br" />
+    - ID: "e14eb220-b69e-4d99-a279-7666a732a16b"
+      Hint: CTA
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{CF0B223C-CC7F-4CBC-AA16-AFEF68DFAE4E}" />

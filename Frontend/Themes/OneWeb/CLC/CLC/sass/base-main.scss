@@ -27,6 +27,7 @@ main {
     font-size: 1.6rem;
     font-weight: bold;
     text-decoration: underline;
+    margin-bottom: 2rem;
   }
 }
 
@@ -51,7 +52,6 @@ h2 {
     text-decoration: none;
     width: 250px;
     text-align: center;
-
     &:hover {
       background-color: $anchor-hover;
       text-decoration: none;
@@ -142,3 +142,12 @@ h2 {
     }
   }
 }
+.modal {
+  .sxa-btn-default,
+  .sxa-btn-submit {
+    appearance: initial;
+    color: black;
+    background-color: #efefef;
+  }
+}
+

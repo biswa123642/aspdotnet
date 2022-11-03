@@ -1,0 +1,32 @@
+{
+  "namespace": "Project.IMS",
+  "references": [ "Feature.*" ],
+  "items": {
+    "includes": [
+      //{
+      //  "name": "Content-IMS",
+      //  "path": "/sitecore/content/OneWeb/IMS",
+      //  "scope": "ItemAndDescendants",
+      //  "allowedPushOperations": "createUpdateAndDelete"
+      //},
+      //{
+      //  "name": "MediaLibrary-IMS",
+      //  "path": "/sitecore/media library/Project/OneWeb/IMS",
+      //  "scope": "singleItem",
+      //  "allowedPushOperations": "createUpdateAndDelete"
+      //},
+      {
+       "name": "MediaLibrary-IMS-Themes",
+       "path": "/sitecore/media library/Themes/OneWeb/IMS",
+       "scope": "ItemAndDescendants",
+       "allowedPushOperations": "createUpdateAndDelete"
+      }
+      //{
+      //  "name": "Forms-IMS",
+      //  "path": "/sitecore/Forms/OneWeb/IMS",
+      //  "scope": "ItemAndDescendants",
+      //  "allowedPushOperations": "createUpdateAndDelete"
+      //}
+    ]
+  }
+}

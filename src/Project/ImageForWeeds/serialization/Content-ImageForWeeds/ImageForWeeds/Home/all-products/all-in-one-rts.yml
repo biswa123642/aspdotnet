@@ -1,0 +1,175 @@
+﻿---
+ID: "f17a1d6d-0842-42c6-aa95-b7c202aad70c"
+Parent: "9dbc5199-98ac-4081-af0c-56458b318868"
+Template: "bc41b87d-2a9b-4689-9f51-80bb5b31a6e7"
+Path: "/sitecore/content/OneWeb/ImageForWeeds/Home/all-products/all-in-one-rts"
+SharedFields:
+- ID: "76fb6ffd-4487-4028-a1cf-705fbe360cba"
+  Hint: Priority
+  Value: "{19F3E919-4991-495F-9207-E1DADFD06F54}"
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: "{F37C755E-E3A3-4FD2-B27C-C27599884107}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{A1633ED7-3EFB-4F66-A9A5-1C1DED9B81F8}"
+          s:ds="local:/data/product-video"
+          s:id="{3C84ED23-7591-45E0-8850-1AE96D1342B1}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;Styles&amp;RenderingIdentifier"
+          s:ph="/main/sxa-product-detail/container-1/row-2-2/column-2-4/row-3-6"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "02a41838-168c-4858-bafd-f0031b877ddc"
+      Hint: ProductAttributes
+      Value: "{6CE83D08-8183-4D5F-A35F-2505565D41CF}|{FFBAFF2E-9D03-4BD6-882D-939F995CF462}|{D0AF8BE0-B1A5-4D22-9C54-4B43FE51EC6A}|{ECF23F43-111A-47D3-BB5A-D3976EBCF449}|{80372C73-96FA-40E4-9D5F-343217697009}|{31CEDC4D-B4D4-4CE4-9CBA-D74389F7B8D9}|{EB78A21A-2301-4A72-ADD3-3E58B30E592F}|{62785F98-0C0B-46A7-8B4B-51620D6D3BB2}|{20902A28-11F8-40D4-8BB3-747D81D53C54}|{FDC6632B-C3A2-4055-989B-D2A32B50201E}|{355546FA-33BB-4ACB-8CFB-12AC11E6BD48}|{A43955EB-7B3A-4198-A924-62306C152BA6}|{434BD634-001A-43DF-ABD6-C3A5F19DC1BA}|{394C94EB-A14E-4860-BCF6-7C114C034213}"
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{B1947D8B-9DDD-4B05-95EC-B83102D67500}" />
+    - ID: "1e2f8b03-c529-4fee-8663-5ec9f6b6a701"
+      Hint: SecondaryCategories
+      Value: "{9BDA1A5F-E88A-4D28-BD94-EEED96C78A55}|{BF2F2817-DAEE-49BD-BBEF-BCDE40FFB95D}|{E2450AF9-25CE-4561-88A2-13F8354A588E}|{CF1D5AD9-48D7-459E-87FC-194E8106A403}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220826T095357Z
+    - ID: "30b0a514-dc94-432c-9655-8c01e474023f"
+      Hint: ExtendedContent
+      Value: "<p>Rid your lawn of tough, grassy weeds with IMAGE<sup>®</sup> All-in-One Weed Killer Ready-to-Spray. The easy-to-use product works best on young, actively growing weeds. Use all summer long to treat crabgrass and other grassy weeds as they emerge from the ground. Kills crabgrass, clover, plantain, chickweed and other weeds and sedges.</p> <p>IMAGE<sup>®</sup> All-in-One Lawn Weed&nbsp;Killer Ready-to-Spray kills Crabgrass, Dandelion, Nutsedge, Clover, and Other Listed Weeds. IMAGE<sup>®</sup> All-in-One Lawn Weed Killer RTS is a selective weed killer for lawn weeds that starts working on contact to kill tough lawn weeds. The active ingredients, Sulfentrazone and Quinclorac, combine to make a powerful weed killer that is designed to kill at the root.</p> <p>Ready-to-Spray: Treats 6,000 sq. ft.</p>"
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "IMAGE All-In-One Weed Killer Ready-to-Spray"
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: "A selective herbicide designed to kill tough weeds to the root! Starts working on contact to kill crabgrass, dandelion, nutsedge, clover and other listed weeds!"
+    - ID: "543b1d82-a096-4893-90b3-35bbb2ab2b1a"
+      Hint: PageHeaderScripts
+      Value: |
+        <meta http-equiv="content-language" content="en-us">  <meta property="og:type"               content="product" />  <!-- Start of Survicate (www.survicate.com) code -->  <script type="text/javascript">    (function (w) {      var s = document.createElement('script');      s.src = 'https://survey.survicate.com/workspaces/0a4fb9fe21e1d4f1b90403e1e4156837/web_surveys.js';      s.async = true;      var e = document.getElementsByTagName('script')[0];      e.parentNode.insertBefore(s, e);    })(window);  </script>  <!-- End of Survicate code -->
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: "<p>A selective herbicide designed to kill tough weeds to the root! Starts working on contact to kill crabgrass and other hard-to-kill sedges, broadleaf and grassy weeds in cool and warm season turfgrasses.</p>"
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "A selective herbicide designed to kill tough weeds to the root! Starts working on contact to kill crabgrass, dandelion, nutsedge, clover and other listed weeds!"
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Image All-In-One Weed Killer Ready-to-Spray"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: "IMAGE® All-in-One Weed Killer RTS"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8257e9d2-50b8-4459-ac0a-e022fec99edc"
+    - ID: "ab818f97-8aa8-4d81-9e70-29c2d400c1fb"
+      Hint: RenderCanonicalTag
+      Value: 1
+    - ID: "b433c832-fadf-498e-b77b-e7933f19ba8e"
+      Hint: Accordion1Title
+      Value: TOP 5 WEEDS
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c95560b6-d1ef-47eb-b4bb-da582a84a444"
+      Hint: Accordion1
+      Value: |
+        <h2>KILLS...</h2>
+        <br />
+        <div class="score-column1 ">
+        <div class="score-center">
+        <div class="score-highlight weed-highlight" style="cursor: pointer;">
+        <img height="137" alt="Crabgrass" width="137" src="-/media/1FEC8B2166BD4F22B1AD6ED55DF1B9DD.ashx" />&nbsp;
+        <div class="caption">
+        <h2 style="z-index: 1;">Crabgrass</h2>
+        <div class="score-call-to-action">
+        </div>
+        </div>
+        </div>
+        <div class="score-highlight weed-highlight" style="cursor: pointer;">
+        <img height="139" alt="Dandelion" width="139" src="-/media/7B4439EA692540FA9A838297406A008D.ashx" />&nbsp;
+        <div class="caption">
+        <h2 style="z-index: 1;">Dandelion</h2>
+        <div class="score-call-to-action">
+        </div>
+        </div>
+        </div>
+        <div class="score-highlight weed-highlight" style="cursor: pointer;">
+        <img height="137" alt="Chickweed" width="137" src="-/media/0C0CD20E90B34F05BEE23C4C86B90D7F.ashx" />&nbsp;
+        <div class="caption">
+        <h2 style="z-index: 1;">Chickweed</h2>
+        <div class="score-call-to-action">
+        </div>
+        </div>
+        </div>
+        <div class="score-highlight weed-highlight" style="cursor: pointer;">
+        <img height="137" alt="Dollarweed" width="137" src="-/media/BFD7349DA2E5488187EDC2F815956629.ashx" />&nbsp;
+        <div class="caption">
+        <h2 style="z-index: 1;">Dollarweed</h2>
+        <div class="score-call-to-action">
+        </div>
+        </div>
+        </div>
+        <div class="score-highlight weed-highlight" style="cursor: pointer;">
+        <div class="score-highlight-header">
+        White Clover Spreading
+        </div>
+        <img height="480" alt="white-clover" width="800" src="-/media/67B0EA3206B8411FBC98E594EB7776E5.ashx" />&nbsp;
+        <div class="caption">
+        <h2 style="z-index: 1;">Clover</h2>
+        <div class="score-call-to-action">
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    - ID: "ca373527-0c18-4282-83b0-121b8a197598"
+      Hint: LongTitle
+      Value: "IMAGE® All-In-One Weed Killer Ready-to-Spray"
+    - ID: "cbab27c6-0f5a-4c0e-a054-d6da8e5cf37d"
+      Hint: Accordion3Title
+      Value: LABEL / SDS
+    - ID: "d359f5e1-8d09-4717-9920-5687aecee004"
+      Hint: Accordion3
+      Value: |
+        <div class="score-column2 equal">
+            <div class="score-left"><img alt="" height="622" width="484" src="-/media/4DFF51FC5EE44EED8B7909C0A2613EB2.ashx" />
+        </div>
+        <div class="score-right">
+        <h2>VIEW THE SAFETY DATA SHEETS (SDS) OR PRODUCT LABELING. </h2>
+        <br />
+        <p>The Following&nbsp;documents have been created in Adobe Acrobat (PDF) format. You can obtain the Acrobat Reader for FREE at the Adobe web site.</p>
+        <hr />
+        <p><span style="background-color: #ffffff; color: #202124;">View Label</span></p>
+        <p><a href="-/media/27EF9BF98D764BB48FC785F666C9C82E.ashx">Image All in One Lawn Weed Killer RTS 24 floz pdf</a></p>
+        <p><span style="background-color: #ffffff; color: #202124;">View SDS</span></p>
+        <p><span style="background-color: #ffffff; color: #202124;"></span><a href="-/media/C6C81D629CF64C9D9E9A81E882EA6A41.ashx">Image Herbicide Consumer Concentrate All-In-One Lawn Weed Killer RTS SDS pdf</a></p></div></div>
+    - ID: "d603a982-51bb-4898-8aed-d25e3c6c416c"
+      Hint: Accordion2
+      Value: |
+        <h2>IMAGE<sup>&reg</sup> All-In-One Weed Killer Ready-to-Spray Application Instructions</h2> <p>Use when weeds are small and actively growing. Mixes automatically as you spray. &nbsp;</p> <p><strong><span style="text-decoration: underline;">Ready-to-Spray Hose End Sprayer Applications:</span></strong></p> <ol>     <li>Shake Well.&nbsp;</li>     <li>Make sure control lever is in the OFF position. Attach to hose.</li>     <li>Turn on water.</li>     <li>Spray Aim towards direction of application and away from you. Turn control lever to ON to begin spraying. Spray evenly and as directed for specified type of treatment area.</li>     <li>To stop when finished turn control lever to OFF. Turn faucet OFF. Discharge residual water pressure by turning control lever ON and OFF again.</li>     <li>Disconnect Sprayer and Store / Discard as instructed.</li> </ol>
+        
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{B1947D8B-9DDD-4B05-95EC-B83102D67500}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220922T074332Z
+    - ID: "ee6a4f12-e8eb-4b34-9d07-d477e8ad63d4"
+      Hint: Accordion2Title
+      Value: HOW TO USE

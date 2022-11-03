@@ -1,0 +1,78 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.hero {
+    &.with-text {
+      .wrap {
+        .field-herobannertitle {
+          h2 {
+            font-size: 4.4rem;
+            @include Ubuntu-font-stack();
+          }
+          .score-highlight-body {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+    &.banner-adjustable-height {
+      background: url("../images/blue_background.jpg");
+
+      .banner-wrapper {
+        width: 80%;
+        margin: 2rem auto;
+      }
+
+      .banner-image {
+        height: 25rem;
+        img {
+          width: auto;
+          height: 100%;
+        }
+      }
+      .inner-container {
+        max-width: initial;
+      }
+      .banner-content-wrapper {
+        max-width: fit-content;
+        left: 57%;
+        text-align: center;
+      }
+      .hero-banner-title {
+        color: $primary-color;
+      }
+      .hero-banner-description {
+        color: #565656;
+      }
+    }
+
+    &.with-carousel {
+      .field-heroimagedesktop {
+        height: 54.5rem;
+        img {
+          object-fit: cover;
+          object-position: 35% 50%;
+          height: 100%;
+        }
+      }
+      .hero-container {
+        background-color: rgba(255, 255, 255, 0.7);
+        max-width: 56rem;
+        height: 31.5rem;
+        transform: none;
+        top: auto;
+        bottom: 0;
+        right: 15%;
+        h2 {
+          font-size: 3.2rem;
+        }
+        .score-highlight-body {
+          font-size: 1.6rem;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}

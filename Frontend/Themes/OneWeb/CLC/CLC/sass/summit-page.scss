@@ -65,6 +65,9 @@
 
   .score-hero-image {
     width: 20%;
+    @include respond-to(desktop){
+      margin-top: -2vw;
+    }
   }
 
   h2 {

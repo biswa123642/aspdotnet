@@ -12,12 +12,16 @@
         .field-heading {
           font-size: 1.6rem;
           @include mont-font-stack();
-          padding: 0 1.5rem;
+          padding: 0 2.5rem;
           font-weight: 600;
           line-height: 1.728rem;
+          display: inline-block;
           &::after,
           &::before {
-            background: none;
+            background: #333;
+            height: 1.2rem;
+            width: 2px;
+            left: 0.6rem;
           }
 
           &:hover {

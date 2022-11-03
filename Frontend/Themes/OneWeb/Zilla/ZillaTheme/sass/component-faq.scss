@@ -81,7 +81,7 @@
                             }
                             &:after {
                                 content: "\e072";
-                                font-family: "Glyphicons Halflings";
+                                @include Glyphicons-Halflings();
                                 padding-left: 10px;
                                 font-size: 20px;
                             }
@@ -178,7 +178,7 @@
                                 background-color: #fff;
                                 border-color: #0000;
                                 color: #b1bf2d;
-                                font-family: "Lato", sans-serif;
+                                @include Lato-font-stack();
                                 font-size: 26px;
                                 font-weight: 900;
                                 text-decoration: none;
@@ -196,7 +196,7 @@
                                 }
                                 &:after {
                                     content: "\e072";
-                                    font-family: "Glyphicons Halflings";
+                                    @include Glyphicons-Halflings();
                                     padding-left: 10px;
                                     font-size: 20px;
                                 }

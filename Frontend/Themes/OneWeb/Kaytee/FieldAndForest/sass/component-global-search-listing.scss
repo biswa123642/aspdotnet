@@ -1,0 +1,61 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.global-search-listing {
+    .search-box {
+      padding: 1.5rem;
+      .search-wrapper {
+        .search-input-wrapper {
+          input {
+            padding: 1rem;
+            box-shadow: none;
+            border: 1px solid #e3e3e3;
+            font-size: 1.6rem;
+            border-radius: 3px;
+          }
+        }
+        &::before {
+          display: none;
+        }
+      }
+    }
+
+    #product-type,
+    #article-type,
+    #others-type {
+      h3 {
+        border-bottom: 2px solid $primary-color;
+      }
+      .product-list {
+        .image-holder {
+          height: 22rem;
+          text-align: center;
+          img {
+            height: 100%;
+          }
+        }
+        .body-copy {
+          text-align: center;
+          h3 {
+            padding: 1rem 0;
+            border-bottom: none;
+
+            a {
+              font-size: 2rem;
+
+              &:hover {
+                color: $primary-color;
+                text-decoration: underline;
+              }
+            }
+          }
+          p {
+            font-size: 1.6rem;
+          }
+        }
+      }
+    }
+  }
+}

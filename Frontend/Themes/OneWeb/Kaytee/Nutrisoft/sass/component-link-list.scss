@@ -1,0 +1,117 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.link-list {
+        &.pdp-navigation {
+            padding: 0;
+
+            ul {
+                padding: 0;
+                li {
+                    display: none;
+
+                    .field-link {
+                        a {
+                            font-size: 6vh;
+                            line-height: 8vh;
+                            font-weight: 700;
+                            font-family: "josefin-sans", sans-serif;
+                            color: $body-color;
+                            padding: 3rem 5rem;
+                            display: inline-block;
+
+                            &:hover {
+                                border: none;
+                            }
+                        }
+                    }
+
+                    &:first-child {
+                        .field-link {
+                            a {
+                                background-color: $brand-yellow;
+                            }
+                        }
+                    }
+
+                    &:last-child {
+                        .field-link {
+                            a {
+                                background-color: $brand-blue;
+                            }
+                        }
+                    }
+
+                    &:nth-child(2) {
+                        .field-link {
+                            a {
+                                background-color: $brand-green;
+                            }
+                        }
+                    }
+
+                    &.active {
+                        display: block;
+                    }
+                }
+            }
+
+            @include respond-to(desktop) {
+                min-height: 15rem;
+
+                .component-content {
+                    position: absolute;
+                    bottom: 0;
+
+                    ul {
+                        display: flex;
+                        align-items: flex-end;
+
+                        li {
+                            display: block;
+
+                            .field-link {
+                                a {
+                                    line-height: 1;
+                                    font-size: 2.15vw;
+                                    padding: 1.9vw 4.5vw 2.4vw 2.5vw;
+
+                                    &:hover {
+                                        padding-top: 2.8vw;
+                                        border-top-left-radius: 5px;
+                                        border-top-right-radius: 5px
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.button-item{     
+    display: none;   
+    margin: 0 -15px;
+    li{
+        background-color: $brand-blue;
+        margin: 0;
+        list-style: none;
+        padding-top: 4vh;
+        .field-link{
+            a{
+                display: none;
+            }
+        }
+    }
+    .item0{
+        background-color: $brand-yellow;
+    }
+    .item1{
+        background-color: $brand-green;
+    }
+    @include respond-to(desktop){
+        display: block;
+    }
+}

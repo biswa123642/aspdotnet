@@ -58,6 +58,9 @@
 }
 @if (Model.EnableWhereToBuy)
 {
+    <script>
+        var PriceSpider;
+    </script>
     <meta name="ps-key" content="@Model.WhereToBuy.Account-@Model.WhereToBuy.Config">
     <meta name="ps-country" content="@Model.WhereToBuy.Country">
     <meta name="ps-language" content="@Sitecore.Context.Language">

@@ -1,0 +1,37 @@
+﻿---
+ID: "0b45bafa-66f3-4ddb-91c8-524e477122e7"
+Parent: "079e6e59-9c37-4e62-8fd5-bbefda82e2ea"
+Template: "21e9bd9f-1259-4a0a-b862-a250abf7a8b1"
+Path: /sitecore/content/OneWeb/Kaytee/Data/Utility Navigation/social media/Item1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1a984fb2-76bd-4a5b-a71b-c163ae3d23e9"
+      Hint: Image
+      Value: |
+        <image mediaid="{9E7679BB-421A-44C8-86FA-47261E784771}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220405T064005Z
+    - ID: "3fbfed70-8606-40c5-9e84-45a03aa258d5"
+      Hint: Link
+      Value: |
+        <link text="Google" linktype="external" url="https://www.facebook.com/Kaytee.Brand/" anchor="" target="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5a581ee7-eed9-42cf-95fd-62df88a65fa1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220901T050025Z
+    - ID: "f35d245b-3a57-4132-a025-00a22429f296"
+      Hint: IconClass
+      Value: "fa fa-facebook fa-2x"

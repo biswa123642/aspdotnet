@@ -144,8 +144,7 @@ main {
                 opacity: 0;
                 position: absolute;
                 + span {
-                    display: inline-block;
-                    margin-left: 0;
+                    display: inline-block;                    
                     padding-left: 40px;
                     width: 100%;
                     font-size: 2.2rem;

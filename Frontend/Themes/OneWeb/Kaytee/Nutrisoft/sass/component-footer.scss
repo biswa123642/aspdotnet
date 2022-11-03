@@ -1,0 +1,80 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+#footer {
+  background-color: $body-color;  
+  color: $dull-white;
+  padding: 2.5rem 3rem;
+  .component {
+    &.rich-text {
+      color: $dull-white;
+      font-size: 1.6rem;
+      line-height: inherit;
+      span {
+        font-size: 1.6rem;
+      }
+    }
+  }
+
+  .link-list {
+    &.inline-link {
+      ul {
+        li {
+          .field-link {
+            margin-bottom: 0;
+            a {
+              color: $light-grey;
+              font-size: 1.6rem;
+              font-weight: 400;
+              margin: 0 15px;
+              &:hover {
+                color: $dull-white;
+                border-bottom: none;
+                text-decoration: none;
+              }
+            }
+          }
+
+          &.even {
+            &:before {
+              background: $light-grey;
+              width: 1px;
+            }
+          }
+
+          &:first-child{
+            .field-link {
+              a {
+                margin-left: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // @include respond-to(tab) {
+  //   .link-list {
+  //     &.inline-link {
+  //       ul {
+  //         li {
+  //           .field-link {
+  //             a {
+  //               margin: 0 15px;
+  //             }
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+  @include respond-to(desktop){
+    .component {
+      &.rich-text {
+        text-align: right;
+      }
+    }
+  }
+}

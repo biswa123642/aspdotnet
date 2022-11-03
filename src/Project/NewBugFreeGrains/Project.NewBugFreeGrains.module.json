@@ -1,0 +1,32 @@
+{
+	"namespace": "Project.NewBugFreeGrains",
+	"references": [ "Feature.*" ],
+	"items": {
+		"includes": [
+			//{
+			//	"name": "Content-NewBugFreeGrains",
+			//	"path": "/sitecore/content/OneWeb/NewBugFreeGrains",
+			//	"scope": "ItemAndDescendants",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//},
+			//{
+			//	"name": "MediaLibrary-NewBugFreeGrains",
+			//	"path": "/sitecore/media library/Project/OneWeb/NewBugFreeGrains",
+			//	"scope": "singleItem",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//},
+			{
+				"name": "MediaLibrary-NewBugFreeGrains-Themes",
+				"path": "/sitecore/media library/Themes/OneWeb/NewBugFreeGrains",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			//{
+			//	"name": "Forms-NewBugFreeGrains",
+			//	"path": "/sitecore/Forms/OneWeb/NewBugFreeGrains",
+			//	"scope": "ItemAndDescendants",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//}
+		]
+	}
+}

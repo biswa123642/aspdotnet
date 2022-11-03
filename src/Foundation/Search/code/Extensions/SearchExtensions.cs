@@ -273,12 +273,20 @@ namespace CGP.Foundation.Search.Extensions
             }
 
             string sortField = inputParameters.ListingSortOrder;
+
             var sortOrder = inputParameters.ListingSortDirection;
             if (!string.IsNullOrEmpty(sortField))
             {
                 solrParameters.QueryOptions.OrderBy = new Collection<SortOrder>
                                                     {
                                                     new SortOrder(sortField, sortOrder)
+                                                    };
+            }
+            else
+            {
+                solrParameters.QueryOptions.OrderBy = new Collection<SortOrder>
+                                                    {
+                                                    new SortOrder("title_alpha_sort", Order.ASC)
                                                     };
             }
             return GetSearchResults(solrParameters, searchableTemplates, inputParameters.IsNotArticleFilterByPageAttribute, checkToLoadChildArticlesOnly);

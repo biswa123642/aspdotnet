@@ -3,30 +3,30 @@
 	"references": [ "Feature.*" ],
 	"items": {
 		"includes": [
-			{
-				"name": "Content-CentralLifeSciences",
-				"path": "/sitecore/content/OneWeb/CentralLifeSciences",
-				"scope": "ItemAndDescendants",
-				"allowedPushOperations": "createUpdateAndDelete"
-			},
-			{
-				"name": "MediaLibrary-CentralLifeSciences",
-				"path": "/sitecore/media library/Project/OneWeb/CentralLifeSciences",
-				"scope": "singleItem",
-				"allowedPushOperations": "createUpdateAndDelete"
-			},
+			//{
+			//	"name": "Content-CentralLifeSciences",
+			//	"path": "/sitecore/content/OneWeb/CentralLifeSciences",
+			//	"scope": "ItemAndDescendants",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//},
+			//{
+			//	"name": "MediaLibrary-CentralLifeSciences",
+			//	"path": "/sitecore/media library/Project/OneWeb/CentralLifeSciences",
+			//	"scope": "singleItem",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//},
 			{
 				"name": "MediaLibrary-CentralLifeSciences-Themes",
 				"path": "/sitecore/media library/Themes/OneWeb/CentralLifeSciences",
 				"scope": "ItemAndDescendants",
 				"allowedPushOperations": "createUpdateAndDelete"
 			},
-			{
-				"name": "Forms-CentralLifeSciences",
-				"path": "/sitecore/Forms/OneWeb/CentralLifeSciences",
-				"scope": "ItemAndDescendants",
-				"allowedPushOperations": "createUpdateAndDelete"
-			}
+			//{
+			//	"name": "Forms-CentralLifeSciences",
+			//	"path": "/sitecore/Forms/OneWeb/CentralLifeSciences",
+			//	"scope": "ItemAndDescendants",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//}
 		]
 	}
 }

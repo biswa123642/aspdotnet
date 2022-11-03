@@ -1,0 +1,32 @@
+{
+  "namespace": "Project.ImageForWeeds",
+  "references": [ "Feature.*" ],
+  "items": {
+    "includes": [
+      //{
+      //  "name": "Content-ImageForWeeds",
+      //  "path": "/sitecore/content/OneWeb/ImageForWeeds",
+      //  "scope": "ItemAndDescendants",
+      //  "allowedPushOperations": "createUpdateAndDelete"
+      //},
+      //{
+      //  "name": "MediaLibrary-ImageForWeeds",
+      //  "path": "/sitecore/media library/Project/OneWeb/ImageForWeeds",
+      //  "scope": "singleItem",
+      //  "allowedPushOperations": "createUpdateAndDelete"
+      //},
+      {
+        "name": "MediaLibrary-ImageForWeeds-Themes",
+        "path": "/sitecore/media library/Themes/OneWeb/ImageForWeeds",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      }
+      //{
+      //  "name": "Forms-ImageForWeeds",
+      //  "path": "/sitecore/Forms/OneWeb/ImageForWeeds",
+      //  "scope": "ItemAndDescendants",
+      //  "allowedPushOperations": "createUpdateAndDelete"
+      //}
+    ]
+  }
+}

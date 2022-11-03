@@ -1,0 +1,75 @@
+﻿---
+ID: "a6e75bc9-849d-4122-b65e-1b1152f6bab3"
+Parent: "128b7202-8a0a-409b-9e22-647ad2d82bb7"
+Template: "bc41b87d-2a9b-4689-9f51-80bb5b31a6e7"
+Path: "/sitecore/content/OneWeb/Kaytee/Home/all-products/wild-bird/ultra-wild-finch"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{E961C26C-E420-4C35-B09D-2F1C65D22851}"
+- ID: "76fb6ffd-4487-4028-a1cf-705fbe360cba"
+  Hint: Priority
+  Value: 0.5
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: "{70B22D15-62D7-4BB4-AF66-CF0A05EA1BDC}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "02a41838-168c-4858-bafd-f0031b877ddc"
+      Hint: ProductAttributes
+      Value: "{6E36F47C-4E41-481B-A968-816110E96531}|{08EB70E0-BC5D-442F-ADE2-F6142190177A}"
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{DB62B96A-EAF6-43D4-8A9C-79CE47760CE4}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220826T072219Z
+    - ID: "30b0a514-dc94-432c-9655-8c01e474023f"
+      Hint: ExtendedContent
+      Value: "<p>Kaytee&reg; Ultra Wild Finch Blend is a mix of four select ingredients designed to attract more finches and is preferred 3-to-1 over Nyjer&reg; seed alone*. Since birds identify food with their sense of sight, Kaytee&reg; has applied this knowledge of visual attraction to create this custom blend of seeds that will attract more birds to your backyard. Kaytee&reg; Ultra Wild Finch Blend does not contain fillers and is ideal for year-round feeding of a variety of wild birds. *Extensive national field testing has shown our Ultra Wild Finch Blend is preferred 3 out of 4 times when compared to Nyjer&reg; and attracts more birds. Nyjer&reg; is a registered trademark of the Wild Bird Feeding Industry.</p>"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Kaytee Ultra Wild Finch Blend
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Kaytee Ultra Wild Finch Blend
+    - ID: "543b1d82-a096-4893-90b3-35bbb2ab2b1a"
+      Hint: PageHeaderScripts
+      Value: |
+        <!-- Facebook Pixel Code -->  <script>  !function(f,b,e,v,n,t,s)  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?  n.callMethod.apply(n,arguments):n.queue.push(arguments)};  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';  n.queue=[];t=b.createElement(e);t.async=!0;  t.src=v;s=b.getElementsByTagName(e)[0];  s.parentNode.insertBefore(t,s)}(window, document,'script',  'https://connect.facebook.net/en_US/fbevents.js');  fbq('init', '660788561495222');  fbq('track', 'PageView');  </script>  <noscript><img height="1" width="1" style="display:none"  src="https://www.facebook.com/tr?id=660788561495222&ev=PageView&noscript=1"  /></noscript>  <!-- End Facebook Pixel Code -->  
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: Kaytee Ultra Wild Finch Blend
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Kaytee Ultra Wild Finch Blend
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Ultra Wild Finch Blend: Wild Bird Feeders: Finch & Thistle Feeders | Kaytee"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Kaytee Ultra Wild Finch Blend
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d9f052d1-3b7c-4ce5-be35-6b849baec771"
+    - ID: "ab818f97-8aa8-4d81-9e70-29c2d400c1fb"
+      Hint: RenderCanonicalTag
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "ca373527-0c18-4282-83b0-121b8a197598"
+      Hint: LongTitle
+      Value: Kaytee Ultra Wild Finch Blend
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{DB62B96A-EAF6-43D4-8A9C-79CE47760CE4}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221025T060504Z

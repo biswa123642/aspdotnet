@@ -648,8 +648,7 @@
                                         padding: 6px 10px;
                                         display: inline-block;
                                         font-family: "Barlow Semi Condensed", sans-serif;
-                                        font-size: 2.8rem;
-                                        text-transform: none;
+                                        font-size: 2.8rem;                                    
                                         font-weight: 400;
                                         text-transform: uppercase;
                                     }
@@ -660,6 +659,25 @@
                                 padding-top: 0;
                             }
                         }
+                
+
+                        &.link {
+                            .field-link {
+                                border-bottom: 2px solid #e0d8d6;
+                            }
+                            a {
+                                color: #000;
+                                padding: 6px 5px;
+                                display: inline-block;
+                                font-family: "Barlow Semi Condensed",sans-serif;
+                                font-size: 2.8rem;                               
+                                font-weight: 400;
+                                text-transform: uppercase;
+                                border: none;
+                            }
+                        }
+                        
+                        
                     }
                 }
             }

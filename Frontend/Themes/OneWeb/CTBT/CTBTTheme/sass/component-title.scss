@@ -1,0 +1,24 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "base/fonts/fonts";
+
+.component {
+    &.title {
+        padding: 0px;
+
+        h1 {
+            &.article-title {
+                @include Arial-font-stack();
+                border: none;
+                color: $heading1-color;
+                cursor: text;
+                //font-size: 3.99rem;
+                font-weight: 900;
+                line-height: 1.1;
+                margin: 0 0 20px 0;
+                padding: 0;
+                //text-transform: uppercase;
+            }
+        }
+    }
+}

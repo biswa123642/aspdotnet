@@ -1,0 +1,179 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.product-details {
+    &.variant-4 {
+      .product-wrapper {
+        h1 {
+          display: none;
+          font-weight: 700;
+          font-size: 5rem;
+          font-family: "josefin-sans", sans-serif;
+          color: $body-color;
+          text-transform: capitalize;
+
+          @include respond-to(desktop) {
+            display: block;
+          }
+        }
+
+        .body-copy {
+          color: $body-color;
+          padding-top: 1.5rem;
+          font-size: 2.4rem;
+          font-family: "josefin-sans", sans-serif;
+          line-height: 1.3;
+
+          p,
+          li {
+            padding-top: 1.5rem;
+            color: $body-color;
+            font-size: 2.4rem;
+            font-family: "josefin-sans", sans-serif;
+            line-height: 1.3;
+
+            a {
+              color: $light-grey;
+
+              &:hover {
+                color: #0e52c1;
+                text-decoration: none;
+              }
+            }
+          }
+
+          ul {
+            margin-left: 2rem;
+
+            li {
+              padding: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.productimage {
+    .image-placeholder {
+      border: none;
+    }
+
+    .inner-wrap {
+      .image-container {
+        div {
+          padding: 0;
+          border: 0;
+        }
+
+        .field-image {
+          img {
+            border: 1px solid #ddd;
+          }
+        }
+      }
+    }
+  }
+
+  &.ps-widget[ps-sku] {
+    margin: 0 1.5rem;
+    max-width: fit-content;
+  }
+
+  &.component-additional-info {
+    .additional-info {
+      padding-top: 2rem;
+      font-size: 3.2rem;
+      font-family: "josefin-sans", sans-serif;
+      font-weight: 700;
+      color: $body-color;
+    }
+  }
+
+  &.product-variant {
+    select {
+      background: #ddd;
+      color: $body-color;
+      font-size: 1.6rem;
+    }
+
+    ul {
+      padding-inline-start: 4rem;
+
+      li {
+        font-size: 1.6rem;
+        list-style: disc;
+        line-height: $line-height;
+      }
+    }
+
+    .product-description-accordion {
+      .panel {
+        .panel-heading {
+          h4 {
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+            padding: 1.2rem 0;
+            margin: auto;
+
+            a {
+              color: $body-color;
+              @include Ubuntu-font-stack();
+
+              &:hover {
+                color: $primary-color;
+              }
+
+              &::after {
+                content: ">";
+                float: right;
+                font-size: 2rem;
+              }
+            }
+
+            a.collapsed {
+              &::after {
+                content: "^";
+              }
+            }
+          }
+        }
+
+        .panel-body {
+          padding: 1.5rem;
+        }
+      }
+    }
+
+    .dimensions,
+    .weight {
+      margin: 2rem 0;
+
+      h4 {
+        @include Ubuntu-font-stack();
+        color: #565656;
+        font-weight: 600;
+      }
+    }
+
+    .variant-id {
+      margin: 2rem 0;
+
+      p {
+        display: flex;
+        flex-direction: column;
+        font-weight: 600;
+        color: #565656;
+        @include Ubuntu-font-stack();
+
+        span {
+          font-weight: 400;
+          @include Roboto-font-stack();
+        }
+      }
+    }
+  }
+
+
+}

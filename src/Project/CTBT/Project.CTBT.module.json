@@ -1,0 +1,32 @@
+{
+	"namespace": "Project.CTBT",
+	"references": [ "Feature.*" ],
+	"items": {
+		"includes": [
+			{
+				"name": "Content-CTBT",
+				"path": "/sitecore/content/OneWeb/CTBT",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			{
+				"name": "MediaLibrary-CTBT",
+				"path": "/sitecore/media library/Project/OneWeb/CTBT",
+				"scope": "singleItem",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			{
+				"name": "MediaLibrary-CTBT-Themes",
+			 	"path": "/sitecore/media library/Themes/OneWeb/CTBT",
+			 	"scope": "ItemAndDescendants",
+			 	"allowedPushOperations": "createUpdateAndDelete"
+//			},
+//			{
+//				"name": "Forms-CTBT",
+//				"path": "/sitecore/Forms/OneWeb/CTBT",
+//				"scope": "ItemAndDescendants",
+//				"allowedPushOperations": "createUpdateAndDelete"
+			}
+		]
+	}
+}

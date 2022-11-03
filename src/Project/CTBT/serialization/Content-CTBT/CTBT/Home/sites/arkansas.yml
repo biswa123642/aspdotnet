@@ -1,0 +1,80 @@
+﻿---
+ID: "6f9b54f7-71d9-4e95-8c65-2d65a7c607bc"
+Parent: "5f720cf9-f045-41a0-adcb-bd59daaf7533"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: /sitecore/content/OneWeb/CTBT/Home/sites/arkansas
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{85EDF795-39D5-44D7-A6F8-A5A7C8A2523F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{86C64392-B927-4D98-AF97-45DA1B17889A}"
+              p:before="*"
+              s:id="{99A633FC-B9A9-44A0-B78A-BCBB08DD02C9}"
+              s:par="Reset Caching Options&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BE1ED351B-D573-4FE5-997C-4589A3D1361F%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+              s:ph="main" />
+            <r
+              uid="{CE9D6294-2790-45AE-8BD1-97B9712C3504}"
+              p:after="*[1=2]"
+              s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+              s:par="Reset Caching Options&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221007T182540Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: arkansas
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <h2> Fayetteville, Arkansas</h2>
+        <p>(36° 0' N, 94° 10' W)
+        </p>
+        <p><b>Annual Rainfall</b> 45.63 inches</p>
+        <p><b>Soil Type</b> Captina silt loam (fine-silty, siliceous, active, mesic Typic Fragiudults)</p>
+        <p><b>Soil pH</b> 6.2</p>
+        <p><b>Temperature</b><br />
+        Average high   January:  46 °F    July:  89 °F<br />
+        Average low    January:  26 °F    July:  69 °F</p>
+        <p><b>Grass Types</b> Tall Fescue, Kentucky Bluegrass</p>
+        <p><b>Mowing Height</b> 1.5 inches</p>
+        <p><b>Fertility</b> 4-5 pounds nitrogen per 1,000 square feet per year</p>
+        <p><b>Irrigation</b> to prevent stress
+        </p>
+        <p>2005 CTBT Kentucky Bluegrass Trial at Fayetteville, AR, showing infection by stem rust in the summer of 2006</p>
+        <br />
+        <br />
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Arkansas
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "54c3e6c1-f35b-411f-a38f-57f87a91d4fd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221013T180830Z

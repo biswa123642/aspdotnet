@@ -3,7 +3,7 @@
 
 #header {
     .header-shell {
-        min-height: 115px;
+        min-height: 96px;
       >div{
         position: fixed;
         width: 100%;
@@ -256,7 +256,11 @@
         }
     }
 }
-
+.on-page-editor{
+    #header .header-shell>div{
+        position: static;
+    }
+}
 @include respond-to(tab) {
     #header {
         .header-shell {
@@ -274,6 +278,7 @@
 @include respond-to(desktop) {
     #header {
         .header-shell {
+            min-height: 114px;
             &.variant-2 {
                 .inner-wrap {
                     .container:not(.col-12) {
@@ -361,8 +366,7 @@
                                         top: 50%;
                                         cursor: pointer;
                                         z-index: 10;
-                                        transform: translateY(-50%);
-                                        z-index: 10;
+                                        transform: translateY(-50%);                                      
                                         &:after {
                                             font-family: "FontAwesome";
                                             content: "\f002";
@@ -568,4 +572,5 @@
     #header .header-shell {
         position: static;
     }
+   
 }

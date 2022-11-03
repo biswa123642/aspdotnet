@@ -1,0 +1,95 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.feature-content-tiles {
+        &.variant-1 {
+            background-color: transparent;
+
+            .content-wrapper {
+                .inner-wrapper {
+                    padding: .5rem 0;
+
+                    .copy-wrap {
+                        .field-image {
+                            line-height: 0;
+
+                            img {
+                                border-radius: 0;
+                               // box-shadow: 0 7px 4px -3px #00000012, 0 4px 1px -2px #0000000d;
+                                line-height: 0;
+                            }
+                        }
+
+
+                        h3 {
+                            box-shadow: 0 2px 5px 0 #00000033, 0 2px 10px 0 #0000001A;
+                            padding: 10px 24px;
+                            line-height: 1.5;
+                            position: static;
+                            text-align: center;
+                            width: 80%;
+                            margin: auto;
+                            font-size: 2.4rem;
+                            color: $white;
+                            border: 5px solid $brand-yellow;
+                            font-weight: 700;
+                            text-decoration: none;
+                            font-family: "josefin-sans",sans-serif;
+                            &:hover{
+                                text-decoration: none;
+                                background-color: $white;
+                            }
+                        }
+                        a{
+                            &:hover,&:focus{
+                                text-decoration: none;
+                            }
+                        }
+                    }
+
+                    &:first-child {
+                        h3 {
+                            background-color: $brand-yellow;
+                            &:hover{
+                                color: $brand-yellow;
+                            }
+                        }
+                    }
+                    &:nth-child(2) {
+                        h3 {
+                            background-color: $brand-green;
+                            border-color: $brand-green;
+                            &:hover{
+                                color: $brand-green;
+                            }
+                        }
+                    }
+                    &:last-child {
+                        h3 {
+                            background-color: $brand-blue;
+                            border-color: $brand-blue;
+                            &:hover{
+                                color: $brand-blue;
+                            }
+                        }
+                    }
+                }
+            }
+            @include respond-to(desktop){
+                .content-wrapper {
+                    .inner-wrapper {
+                        padding: 1.5rem;
+                        .copy-wrap {  
+                            h3 {
+                                width: 100%;
+                            }
+                            
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

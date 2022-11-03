@@ -1,0 +1,148 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+main {
+  min-height: calc(100vh - 214px);
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: $line-height;
+  color: $body-color;
+  background-color: $white;
+  -webkit-font-smoothing: auto;
+  font-family: "josefin-sans",sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $primary-color;
+  font-weight: 700;
+  @include Roboto-font-stack();
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.component {
+  &.content {
+    &.article-subtext {
+      font-size: 2.24rem;
+      font-weight: 700;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 1rem;
+      margin-bottom: 1rem;
+    }
+    line-height: $line-height;
+
+    h1 {
+      font-size: 4.4rem;
+      color: $primary-color;
+      @include Ubuntu-font-stack();
+    }
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $black;
+      @include Roboto-font-stack();
+    }
+    p {
+      margin-bottom: 1rem;
+    }
+
+    a {
+      color: $primary-color;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    li {
+      font-size: 1.6rem;
+    }
+    ul {
+      li {
+        list-style: disc;
+        padding-inline-start: 4rem;
+      }
+    }
+    ol {
+      li {
+        list-style-position: initial;
+      }
+    }
+    sup {
+      line-height: 0;
+    }
+
+    table {
+      td {
+        border: 1px solid;
+      }
+    }
+
+    .product-title {
+      h1 {
+        font-size: 3.1rem;
+        @include Ubuntu-font-stack();
+      }
+    }
+  }
+
+  &.title {
+    h1 {
+      font-size: 4.4rem;
+      color: $primary-color;
+      line-height: 1.1;
+      border-bottom: none;
+      cursor: auto;
+      @include Ubuntu-font-stack();
+    }
+  }
+
+  @include respond-to(desktop) {
+    &.content {
+      &.article-subtext {
+        font-size: 3.2rem;
+      }
+      .product-title {
+        h1 {
+          font-size: 4.4rem;
+        }
+      }
+    }
+  }
+}
+
+.indent-top-xl {
+  padding-top: 20rem;
+  padding-bottom: initial;
+}
+
+.dark-blue-bg {
+  background-color: #005d88;
+
+  .component {
+    &.rich-text {
+      h1 {
+        color: $white;
+      }
+    }
+  }
+}
+
+// .green-band-bg {
+//   background: url("../images/green_band.jpg");
+// }

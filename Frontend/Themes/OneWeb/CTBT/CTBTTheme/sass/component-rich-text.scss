@@ -1,0 +1,51 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "base/fonts/fonts";
+
+.component {
+    &.rich-text {
+        .home-rte {
+            @include respond-to(desktop) {
+                width: 109rem;
+                margin: auto;
+                margin-bottom: 3rem;
+            }
+        }
+
+        .text-wrapper {
+            padding: 30px 6%;
+            border: 2px solid $heading1-color;
+            border-radius: 6px;
+            margin: 3rem 0px;
+
+            @include respond-to(desktop) {
+                padding: 3rem 5rem;
+            }
+
+            p {
+                color: $default-font-color;
+                font-size: 1.8rem;
+                margin: 0 0 10px;
+            }
+        }
+
+        .text-wrap {
+            margin: 40px 0 20px;
+
+            h1 {
+
+                > &span {
+                    font-size: 5.76rem;
+                    line-height: 0.8em;
+                    font-weight: 900;
+                    margin: 40px 0 20px;
+                }
+            }
+
+            h2 {
+                font-size: 3.74rem;
+                line-height: 12.8px;
+            }
+        }
+    }
+}

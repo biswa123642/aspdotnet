@@ -4,6 +4,15 @@
 
 .component {
   .hubspot-form {
+    .hs-richtext {
+      h2 {
+        color: $white;
+      }
+      p {
+        color: $white;
+      }
+    }
+
     .hs-form-field {
       margin: 2rem 0;
     }
@@ -43,6 +52,7 @@
         border-radius: 3px;
         box-shadow: none;
         max-width: 100%;
+        box-sizing: border-box;
 
         &:focus {
           border-color: black;
@@ -58,6 +68,7 @@
 
       .hs-form-booleancheckbox {
         margin-left: 0;
+        width: auto;
         label {
           input[type="checkbox"].hs-input {
             visibility: visible;

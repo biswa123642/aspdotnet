@@ -5,10 +5,7 @@
   background-color: #e6e2e7;
   color: #000;
   overflow: hidden;
-  .row.column-splitter > div {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+  
   .component {
     &content,
     &.rich-text {
@@ -20,12 +17,12 @@
       }
     }
     .footer-left {
-      padding: 30px 25px;
+      padding: 30px 0;
       .component {
         &.image {
-          img {
+          img {         
             max-width: 140px;
-            margin-bottom: 30px;
+            margin-bottom: 23px;
           }
         }
       }
@@ -52,6 +49,7 @@
         }
       }
       &.inline-link {
+        margin-top: 13px;
         ul {
           li:not(:first-child):before {
             background: transparent;
@@ -74,6 +72,9 @@
               }
             }
           }
+         li:first-child .field-link a {
+            margin-left: 0;
+        }
         }
       }
     }
@@ -84,11 +85,22 @@
           border: none;
           justify-content: flex-start;
           margin-bottom: 11px;
+          
           .fa {
             font-size: 24px;
             margin: 4px;
             padding: 0;
             color: #000;
+            transition: all ease-in-out 200ms;
+          }
+          a{
+            border: none;
+            &:hover{
+              text-decoration: none;
+              .fa {
+                color: #808080;
+              }
+            }
           }
         }
       }
@@ -96,6 +108,10 @@
 
     .footer-right {
       position: relative;
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+      padding-top: 30px;
+      padding-bottom: 30px;
       &:before {
         content: "";
         position: absolute;
@@ -131,15 +147,12 @@
           &:hover {
             border-color: #0000;
             background-color: #fff;
-            color: #78256c;
+            color: #78256c !important;
           }
         }
       }
     }
-    &.utility-navigation {
-      &.social-links {
-      }
-    }
+ 
   }
 }
 
@@ -157,7 +170,7 @@
 }
 @include respond-to(below-tab) {
   #footer {
-    &.footer-right{
+    .footer-right{
       background-color: #78256c;
       &:before{
         display: none;

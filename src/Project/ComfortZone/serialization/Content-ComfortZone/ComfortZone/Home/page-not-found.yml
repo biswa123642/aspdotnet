@@ -19,8 +19,9 @@ SharedFields:
           p:before="*"
           s:ds="{995362C6-8FA9-4D2C-8148-D14854FA565D}"
           s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
-          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BFFF92AD1-B9FF-4ED0-9316-F18C1B5B5508%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
-          s:ph="/main/row-1-1" />
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BFF4ADBCA-BDF1-4EBA-8466-888B74F65FEC%7D&amp;Styles=%7BACD20779-DA41-41C0-AEFB-44C727843289%7D%7C%7BD993ED0C-8D17-4D00-8E28-7A0833D29B82%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1"
+          s:ccb="Clear on publish" />
         <r
           uid="{CE92D671-0809-43AC-B305-3884CBD4E9FB}"
           p:after="*[1=2]"
@@ -67,7 +68,7 @@ Languages:
       Value: Page Not Found
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8e92c17d-8381-4c89-87c7-af4a9e67957f"
+      Value: "726007af-ab04-4ce4-bf23-ab9d6dd78c8c"
     - ID: "9bf7a7f6-34f8-4c38-a3d7-2fd0470518b1"
       Hint: HideInSearchResults
       Value: 1
@@ -77,4 +78,4 @@ Languages:
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20221004T064218Z
+      Value: 20221031T104032Z

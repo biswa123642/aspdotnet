@@ -44,8 +44,7 @@
                     line-height: 1.42857143;
                 }
             }
-            .btn,
-            .score-button,
+            .btn,            
             .score-alert,
             .score-button {
                 color: #ffffff;
@@ -59,8 +58,7 @@
                 height: 77px;
                 /*padding-top: 15px;*/
             }
-            .btn:focus,
-            .score-button:focus,
+            .btn:focus,            
             .score-alert:focus,
             .score-button:focus {
                 outline: none;
@@ -93,14 +91,14 @@
             }
             .popup-inner .btg-signup-head {
                 color: #4c4c4c;
-                font-family: "Arial", "Helvetica", sans-serif;
+                @include Helvetica-font-stack();
                 font-size: 18.2px;
                 font-weight: 600;
                 text-decoration: none;
             }
             .popup-inner .btg-signup-body {
                 color: #666666;
-                font-family: "Arial", "Helvetica", sans-serif;
+                @include Helvetica-font-stack();
                 font-size: 14px;
                 font-weight: 400;
                 text-decoration: none;
@@ -113,7 +111,7 @@
             }
             .popup-inner .hbspt-form .hs-form-field {
                 color: #666666;
-                font-family: "Arial", "Helvetica", sans-serif;
+                @include Helvetica-font-stack();
                 font-size: 14px;
                 font-weight: 400;
                 text-decoration: none;
@@ -142,7 +140,7 @@
             .popup-inner .hbspt-form .hs-submit .hs-button {
                 background-color: #b1bf2d;
                 color: #ffffff;
-                font-family: "Arial", "Helvetica", sans-serif;
+                @include Helvetica-font-stack();
                 font-size: 14px;
                 font-weight: 400;
                 text-decoration: none;
@@ -155,7 +153,7 @@
             }
             .popup-inner .hbspt-form .submitted-message {
                 color: #b1bf2d;
-                font-family: "Arial", "Helvetica", sans-serif;
+                @include Helvetica-font-stack();
                 font-size: 18.2px;
                 font-weight: 600;
                 text-decoration: none;
@@ -167,11 +165,11 @@
                 right: 6px;
                 height: 25px;
                 width: 25px;
-                background-color: transparent;
+             
                 background: transparent;
                 border-radius: 0.33em;
                 color: #4c4c4c;
-                font-family: "Arial", "Helvetica", sans-serif;
+                @include Helvetica-font-stack();
                 font-size: 25px;
                 font-weight: normal;
                 text-decoration: none;
@@ -412,12 +410,12 @@
                     display: none;
                 }
                 .rich-text {
-                    font-family: "Arial", "Helvetica", sans-serif;
+                    @include Helvetica-font-stack();
                     font-size: 1.8rem;
                     color: #33322e;
                     line-height: 1.42857143;
                     h3 {
-                        font-family: "Arial", "Helvetica", sans-serif;
+                        @include Helvetica-font-stack();
                     }
                     p {
                         margin: 0 0 10px;
@@ -517,7 +515,7 @@
                                     }
 
                                     &:after {
-                                        font-family: "Glyphicons Halflings";
+                                        @include Glyphicons-Halflings();
                                         content: "\e250";
                                         background-color: #c1272d;
                                         color: #fff;
@@ -588,7 +586,7 @@
                                 background-color: #c1272d;
                                 font-size: 18px;
                                 padding: 12px 20px;
-                                font-family: "Arial", "Helvetica", sans-serif;
+                                @include Helvetica-font-stack();
                                 border-radius: 0;
                                 width: 100%;
                                 color: #fff;
@@ -619,7 +617,7 @@
                 margin-bottom: 3rem;
                 .field-data {
                     p {
-                        font-family: "Arial", "Helvetica", sans-serif;
+                        @include Helvetica-font-stack();
                         font-size: 1.8rem;
                         color: #33322e;
                     }

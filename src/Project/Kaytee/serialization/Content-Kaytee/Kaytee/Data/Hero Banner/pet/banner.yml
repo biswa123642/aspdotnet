@@ -1,0 +1,45 @@
+﻿---
+ID: "f98c2142-0d8f-4bfd-9545-287f590c78b6"
+Parent: "4b8c9bbe-4941-4d38-aeb6-4664674e1db7"
+Template: "f3e6da4e-5d19-49b8-9737-2ee2e9067757"
+Path: /sitecore/content/OneWeb/Kaytee/Data/Hero Banner/pet/banner
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220906T071739Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{44797D45-1F7F-409B-A3E3-86ACCF8DB3BD}" ></image>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7939680c-d2e5-47d0-8bb1-6701802ed3e0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: |
+        <div>
+        <div>
+        <h2>They are More than Just Pets!</h2>
+        <div>
+        Show you care with high quality products for your small animal and pet bird.
+        </div>
+        <div>
+        <a class="score-button" data-ux-module="score_bootstrap/Components/Button" data-ux-state="loaded" href="/#all-products">See all of our Pet Products!</a>
+        </div>
+        </div>
+        </div>
+        <br class="t-last-br" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220906T072604Z

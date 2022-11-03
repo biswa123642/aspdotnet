@@ -1,0 +1,41 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.rich-text {
+        * {
+            font-family: "josefin-sans", sans-serif;
+        }
+        .hero-copy{
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 5rem;
+        }
+
+        h2 {
+            font-size: 4rem;
+            color: $brand-purple;
+            @include respond-to(desktop){
+                font-size: 5rem;
+            }
+        }
+
+        p {
+            font-size: 3rem;
+            font-weight: 700;
+            line-height: 1.6;
+        }
+
+        &.width80 {
+            @include respond-to(desktop) {
+                .component-content {
+                    max-width: 80%;
+                    margin: auto;
+                }
+            }
+        }
+
+    }
+}

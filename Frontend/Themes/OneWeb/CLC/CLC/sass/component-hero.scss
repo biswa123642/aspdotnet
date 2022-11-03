@@ -1,13 +1,16 @@
 @import "abstracts/mixins";
 .component {
-  &.hero {
-    .banner-image {
-      margin: auto;
-      text-align: center;
-      width: 77%;
-      @include respond-to(desktop) {
-        width: 100%;
-      }
+    &.hero {
+        @include respond-to(desktop) {
+            padding-left: 35px;
+            .banner-image {
+                width: 100%;
+            }
+        }
+        .banner-image {
+            margin: auto;
+            text-align: center;
+            width: 77%;
+        }
     }
-  }
 }

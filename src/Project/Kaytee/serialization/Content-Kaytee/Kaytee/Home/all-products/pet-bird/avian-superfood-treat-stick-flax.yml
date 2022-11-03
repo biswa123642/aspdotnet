@@ -1,0 +1,78 @@
+﻿---
+ID: "f09d451a-34b8-44f5-ae98-17a914b63d81"
+Parent: "420a4854-c684-4019-93f0-6ce052fb43ef"
+Template: "bc41b87d-2a9b-4689-9f51-80bb5b31a6e7"
+Path: "/sitecore/content/OneWeb/Kaytee/Home/all-products/pet-bird/avian-superfood-treat-stick-flax"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{E961C26C-E420-4C35-B09D-2F1C65D22851}"
+- ID: "76fb6ffd-4487-4028-a1cf-705fbe360cba"
+  Hint: Priority
+  Value: 0.5
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: "{E9AB32F5-B233-4F74-850A-9E42CB5B925E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "02a41838-168c-4858-bafd-f0031b877ddc"
+      Hint: ProductAttributes
+      Value: "{46BC9355-9C37-4016-9FD3-0E4EA1E10660}|{54C82163-8F52-472E-8229-284D73515F9D}|{3DF13797-D287-403B-AAE7-5E84FF152692}|{3A8E318E-6018-408B-A52D-570134E6520B}|{E95025A5-D2FC-4AEE-B330-8762327CAEBF}|{1241AEF2-9BEB-456E-BC68-0C0DC96AF56B}|{271C1855-AD9C-40F6-B1C8-828B32344E67}|{49E49F2F-B755-46D8-BE25-EAFB523B86F2}|{CD931CC5-18C6-4323-B716-1666616E418D}|{1F4A2B07-65EF-41EC-9104-1D6E1AD005B4}|{DFC1FA9D-C098-44C7-BECB-D3A5150ED948}|{B36ACFEF-E24F-4D46-807B-7BE9CB3F3868}|{43E4EC3E-DD7E-419B-901E-DB97845F9B79}|{8F426877-3912-46D8-855E-7E551B15C2E7}"
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{87E70A43-EDA6-4D92-8E6E-58B302B305E3}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220826T072136Z
+    - ID: "30b0a514-dc94-432c-9655-8c01e474023f"
+      Hint: ExtendedContent
+      Value: "<p>Kaytee Treat Stick with SUPERFOODS adds a nutritious punch for a guilt-free experience. Treat sticks provide a fun way to add healthy and tasty enrichment to your pet’s diet.</p>"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Kaytee Avian Superfood Treat Stick
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Kaytee Avian Superfood Treat Stick
+    - ID: "543b1d82-a096-4893-90b3-35bbb2ab2b1a"
+      Hint: PageHeaderScripts
+      Value: |
+        <!-- Facebook Pixel Code -->           <script>               !function(f,b,e,v,n,t,s)               {if(f.fbq)return;n=f.fbq=function(){n.callMethod?               n.callMethod.apply(n,arguments):n.queue.push(arguments)};               if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';               n.queue=[];t=b.createElement(e);t.async=!0;               t.src=v;s=b.getElementsByTagName(e)[0];               s.parentNode.insertBefore(t,s)}(window, document,'script',               'https://connect.facebook.net/en_US/fbevents.js');               fbq('init', '562294375082439');               fbq('track', 'PageView');           </script>           <noscript><img height="1" width="1" style="display:none"               src=https://www.facebook.com/tr?id=562294375082439&ev=PageView&noscript=1           /></noscript>       <!-- End Facebook Pixel Code --> 
+    - ID: "54e0ca06-91f9-4678-bed7-b6b837f91618"
+      Hint: ReleaseDate
+      Value: 20191025T050000Z
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: Kaytee Avian Flax Superfood Treat Stick
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Kaytee Avian Superfood Treat Stick
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Kaytee Avian Superfood Treat Stick | Kaytee
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Kaytee Avian Flax Superfood Treat Stick
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "870fbe6a-e9a4-4726-92c0-77d24377a15b"
+    - ID: "ab818f97-8aa8-4d81-9e70-29c2d400c1fb"
+      Hint: RenderCanonicalTag
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "ca373527-0c18-4282-83b0-121b8a197598"
+      Hint: LongTitle
+      Value: Kaytee Avian Flax Superfood Treat Stick
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{87E70A43-EDA6-4D92-8E6E-58B302B305E3}"></image>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221025T060454Z

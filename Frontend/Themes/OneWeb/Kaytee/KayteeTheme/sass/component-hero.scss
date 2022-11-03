@@ -5,28 +5,69 @@
 .component {
   &.hero {
     &.with-text {
+      &.orange-overlay {
+        .caption {
+          background-color: #e5ba6c;
+        }
+      }
+      &.blue-overlay {
+        .caption {
+          background-color: #35bcdb;
+        }
+      }
+      &.orange-overlay,
+      &.blue-overlay {
+        .caption {
+          border: none;
+          width: 100%;
+          padding: 4rem;
+          text-align: left;
+        }
+      }
+
       .wrap {
+        background-size: auto 35rem;
+        background-position: 20% 0;
+        background-repeat: no-repeat;
+        padding-top: 28%;
+        height: 51.5rem;
         .field-herobannertitle {
+          transform: none;
+          padding: initial;
+          top: auto;
+          bottom: 0;
+          left: auto;
+          right: 0;
           h2 {
-            font-size: 4.4rem;
+            font-size: 2.4rem;
             @include Ubuntu-font-stack();
           }
+          a {
+            font-size: 1.2rem;
+            font-weight: 700;
+
+            &::after {
+              content: ">>>";
+              margin-left: 1rem;
+            }
+          }
           .score-highlight-body {
-            font-size: 2rem;
+            font-size: 1.6rem;
           }
         }
       }
     }
     &.banner-adjustable-height {
-      background: url("../images/blue_background.jpg");
+      background: url("../images/blue_background.jpg") no-repeat;
+      background-size: cover;
 
       .banner-wrapper {
-        width: 80%;
         margin: 2rem auto;
       }
 
       .banner-image {
         height: 25rem;
+        text-align: center;
         img {
           width: auto;
           height: 100%;
@@ -34,23 +75,25 @@
       }
       .inner-container {
         max-width: initial;
+        display: block !important;
       }
       .banner-content-wrapper {
         max-width: fit-content;
-        left: 57%;
         text-align: center;
       }
       .hero-banner-title {
         color: $primary-color;
+        font-size: 2.4rem;
       }
       .hero-banner-description {
         color: #565656;
+        font-size: 1.6rem;
       }
     }
 
     &.with-carousel {
       .field-heroimagedesktop {
-        height: 54.5rem;
+        height: 35rem;
         img {
           object-fit: cover;
           object-position: 35% 50%;
@@ -60,17 +103,112 @@
       .hero-container {
         background-color: rgba(255, 255, 255, 0.7);
         max-width: 56rem;
-        height: 31.5rem;
+        height: 20rem;
         transform: none;
         top: auto;
         bottom: 0;
         right: 15%;
+        h1 {
+          top: auto;
+          padding: 4rem;
+        }
         h2 {
-          font-size: 3.2rem;
+          font-size: 2.2rem;
         }
         .score-highlight-body {
           font-size: 1.6rem;
           font-weight: 400;
+          color: $body-color;
+        }
+      }
+    }
+
+    @include respond-to(tab) {
+      &.banner-adjustable-height {
+        .banner-wrapper {
+          width: 90%;
+        }
+
+        .banner-image {
+          text-align: initial;
+        }
+        .inner-container {
+          width: 100rem;
+        }
+        .banner-content-wrapper {
+          left: 62%;
+        }
+      }
+    }
+
+    @include respond-to(desktop) {
+      &.with-text {
+        &.orange-overlay {
+          .caption {
+            background-color: rgba(229, 186, 108, 0.7);
+          }
+        }
+        &.blue-overlay {
+          .caption {
+            background-color: rgba(53, 188, 219, 0.7);
+          }
+        }
+        &.orange-overlay,
+        &.blue-overlay {
+          .caption {
+            height: 31.5rem;
+            width: 56rem;
+            float: right;
+          }
+        }
+
+        .wrap {
+          background-size: cover;
+          background-position: 35% 50%;
+          height: 54.5rem;
+          .field-herobannertitle {
+            right: 15%;
+            h2 {
+              font-size: 4.4rem;
+            }
+            a {
+              font-size: 1.8rem;
+            }
+            .score-highlight-body {
+              font-size: 2rem;
+            }
+          }
+        }
+      }
+      &.banner-adjustable-height {
+        .banner-wrapper {
+          width: 80%;
+        }
+
+        .inner-container {
+          width: 100%;
+        }
+        .banner-content-wrapper {
+          left: 57%;
+          padding: 0 2rem;
+        }
+        .hero-banner-title {
+          font-size: 3.2rem;
+        }
+      }
+      &.with-carousel {
+        .field-heroimagedesktop {
+          height: 54.5rem;
+        }
+        .hero-container {
+          height: 31.5rem;
+
+          h1 {
+            padding: 0;
+          }
+          h2 {
+            font-size: 3.2rem;
+          }
         }
       }
     }

@@ -1,0 +1,38 @@
+﻿---
+ID: "314501c1-c8dc-4134-ba8c-6150101171fc"
+Parent: "d2041fd9-3bc9-4b59-8bc2-e66c85b99a51"
+Template: "20a8b875-b660-4893-91a7-b05f80e94666"
+Path: /sitecore/content/OneWeb/IMS/Data/Linked Thumbnail List Folder/Where to Buy/Where to Buy/Menards
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220726T065833Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f8484bb2-c389-4c6a-8c97-2b96e79fce1b"
+    - ID: "8daa9cfe-2ab1-4f9a-86ac-b2092acc9fde"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="https://www.menards.com/main/search.html?search=cadet&amp;sortby=bestMatch&amp;sf_categoryHierarchy=&amp;queryType=allItems&amp;brandName_facet=Cadet&amp;sf_categoryHierarchy=Pet%20%26%20Wildlife_19743" anchor="" target="_blank" />
+    - ID: "b3524bdb-f8ec-4d85-a20b-ef5f2837d74f"
+      Hint: Image
+      Value: |
+        <image mediaid="{A82FAD2A-F85F-463A-80BB-F371513CD4DC}" ></image>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220826T055309Z

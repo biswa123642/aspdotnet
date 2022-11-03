@@ -40,8 +40,6 @@
           }
           &:before {
             @include fa-icon();
-            display: block;
-            right: auto;
             content: $fa-var-angle-right;
             left: 0;
             background-repeat: no-repeat;

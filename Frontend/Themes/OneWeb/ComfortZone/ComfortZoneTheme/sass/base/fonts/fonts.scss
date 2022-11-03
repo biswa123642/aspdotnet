@@ -1,1 +1,61 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i|Nunito:400,700,800|Quicksand:700');
+
+@font-face {
+    font-family: 'URW DIN Cond';
+    src: url('../fonts/URWDINCond-Regular/URWDINCond-Regular-eot.eot');
+    src: url('../fonts/URWDINCond-Regular/URWDINCond-Regular-eot.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/URWDINCond-Regular/URWDINCond-Regular-woff2.woff2') format('woff2'),
+        url('../fonts/URWDINCond-Regular/URWDINCond-Regular-woff.woff') format('woff'),
+        url('../fonts/URWDINCond-Regular/URWDINCond-Regular-ttf.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'URW DIN Cond';
+    src: url('../fonts/URWDINCond-Bold/URWDINCond-Bold-eot.eot');
+    src: url('../fonts/URWDINCond-Bold/URWDINCond-Bold-eot.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/URWDINCond-Bold/URWDINCond-Bold-woff2.woff2') format('woff2'),
+        url('../fonts/URWDINCond-Bold/URWDINCond-Bold-woff.woff') format('woff'),
+        url('../fonts/URWDINCond-Bold/URWDINCond-Bold-ttf.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'URW DIN Cond';
+    src: url('../fonts/URWDINCond-Demi/URWDINCond-Demi-eot.eot');
+    src: url('../fonts/URWDINCond-Demi/URWDINCond-Demi-eot.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/URWDINCond-Demi/URWDINCond-Demi-woff2.woff2') format('woff2'),
+        url('../fonts/URWDINCond-Demi/URWDINCond-Demi-woff.woff') format('woff'),
+        url('../fonts/URWDINCond-Demi/URWDINCond-Demi-ttf.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Light/Gotham-Light-eot.eot');
+    src: url('../fonts/Gotham-Light/Gotham-Light-eot.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Light/Gotham-Light-woff2.woff2') format('woff2'),
+        url('../fonts/Gotham-Light/Gotham-Light-woff.woff') format('woff'),
+        url('../fonts/Gotham-Light/Gotham-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Bold/Gotham-Bold-eot.eot');
+    src: url('../fonts/Gotham-Bold/Gotham-Bold-eot.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Bold/Gotham-Bold-woff2.woff2') format('woff2'),
+        url('../fonts/Gotham-Bold/Gotham-Bold-woff.woff') format('woff'),
+        url('../fonts/Gotham-Bold/Gotham-Bold-ttf.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

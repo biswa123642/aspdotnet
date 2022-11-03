@@ -38,7 +38,6 @@
         }
         &:last-child {
           .inner-wrap {
-            height: 100%;
             padding: 25px;
             @include respond-to(small-desktop) {
               padding: 30px 70px 40px 70px;

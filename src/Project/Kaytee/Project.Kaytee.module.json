@@ -1,0 +1,32 @@
+{
+	"namespace": "Project.Kaytee",
+	"references": [ "Feature.*" ],
+	"items": {
+		"includes": [
+			{
+				"name": "Content-Kaytee",
+				"path": "/sitecore/content/OneWeb/Kaytee",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			{
+				"name": "MediaLibrary-Kaytee",
+				"path": "/sitecore/media library/Project/OneWeb/Kaytee",
+				"scope": "singleItem",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			{
+				"name": "MediaLibrary-Kaytee-Themes",
+				"path": "/sitecore/media library/Themes/OneWeb/Kaytee",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			{
+				"name": "Forms-Kaytee",
+				"path": "/sitecore/Forms/OneWeb/Kaytee",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			}
+		]
+	}
+}

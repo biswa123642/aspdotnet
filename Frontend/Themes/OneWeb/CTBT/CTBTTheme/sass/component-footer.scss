@@ -1,0 +1,114 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "base/fonts/fonts";
+
+footer {
+    background-color: $secondary-color;
+}
+
+#footer {
+    > .row-splitter {
+        > .container-fluid {
+            padding: 5px 15px 0px 15px;
+        }
+    }
+
+    background-color: $secondary-color;
+    color: $primary-color;
+    @include Helvetica-font-stack();
+
+    .link-list {
+        &.inline-link {
+            ul {
+                align-items: center;
+                justify-content: center;
+                align-content: center;
+                margin-top: 15px;
+                margin-bottom: 15px;
+
+                li {
+                    &.even {
+                        &:before {
+                            content: "";
+                            position: relative;
+                            height: 1.5rem;
+                            width: 2px;
+                            background: $primary-color;
+                            margin-left: 14px;
+                            margin-right: 14px;
+                        }
+                    }
+
+                    .field-link {
+                        margin-bottom: 0px;
+
+                        a {
+                            color: $clr-white;
+                            line-height: 1.42;
+                            border-bottom: 0px;
+                            @include Arial-font-stack();
+                            font-weight: 400;
+                            margin-top: 15px;
+                            margin-bottom: 15px;
+                            font-size: 1.8rem;
+
+                            &:hover {
+                                &:hover {
+                                    text-decoration: underline;
+                                    color: $clr-white;
+                                    border: 0px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .component {
+        &.rich-text {
+            .component-content {
+                font-size: 1.8rem;
+                margin: 0;
+                line-height: 1.422;
+                white-space: inherit;
+                text-align: center;
+
+                @include respond-to(desktop) {
+                    line-height: 75px;
+                }
+            }
+        }
+    }
+}
+
+@include respond-to(desktop) {
+    #footer {
+        .link-list {
+            &.inline-link {
+                ul {
+                    display: flex;
+                    justify-content: flex-start;
+                    margin: 0px;
+                    text-align: center;
+
+                    li {
+                        &.even {
+                            &::before {
+                                content: "";
+                                position: relative;
+                                display: block;
+                                margin-top: 29px;
+                            }
+                        }
+
+                        .field-link {
+                            line-height: 75px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

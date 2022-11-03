@@ -7,6 +7,9 @@ SharedFields:
 - ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
   Hint: Page Design
   Value: "{BC3B727C-2365-4C75-BF53-85D7BF2DE762}"
+- ID: "d4952280-2d7d-4bf4-a99a-ea36dad0f0a7"
+  Hint: Body Css Class
+  Value: 
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -19,8 +22,9 @@ SharedFields:
           p:before="*"
           s:ds="{76EC1C60-0763-4B2F-B7EA-7B0F1E10B007}"
           s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
-          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass&amp;FieldNames=%7BDD2A67DD-2C78-484F-9B69-9E17B40C4BD1%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
-          s:ph="/main/row-4-1/container-6" />
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass&amp;FieldNames=%7BDD2A67DD-2C78-484F-9B69-9E17B40C4BD1%7D&amp;Styles=%7B8D38663D-4028-4440-96C6-BCAA6062E23B%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/row-4-1/container-6"
+          s:ccb="Clear on publish" />
         <r
           uid="{0CBB4BD2-FC57-40CE-AB33-F44EF6CFCADC}"
           p:after="r[@uid='{A2A179CF-981C-4D63-B806-E340BBD6C869}']"
@@ -32,8 +36,9 @@ SharedFields:
           p:after="r[@uid='{0CBB4BD2-FC57-40CE-AB33-F44EF6CFCADC}']"
           s:ds="{26B0F138-877E-4EDC-92B5-C8345CC02694}"
           s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
-          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
-          s:ph="/main/row-3-1/container-5" />
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-3-1/container-5"
+          s:ccb="Clear on publish" />
         <r
           uid="{CD1CCBEB-54DB-4B91-B027-91CB1654CE3B}"
           p:after="r[@uid='{C058B65B-E49E-478B-A815-2D946E6D726D}']"
@@ -45,7 +50,7 @@ SharedFields:
           p:after="r[@uid='{CD1CCBEB-54DB-4B91-B027-91CB1654CE3B}']"
           s:ds="{D9BBE444-D7D4-4995-BF43-8961D4B01C01}"
           s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
-          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BFFF92AD1-B9FF-4ED0-9316-F18C1B5B5508%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BFFF92AD1-B9FF-4ED0-9316-F18C1B5B5508%7D&amp;Styles=%7BACD20779-DA41-41C0-AEFB-44C727843289%7D%7C%7B8D38663D-4028-4440-96C6-BCAA6062E23B%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
           s:ph="/main/row-2-1"
           s:ccb="Clear on publish" />
         <r
@@ -106,7 +111,7 @@ Languages:
       Value: "Comfort Your Cat: Do You Know Your Cat's Stress Signs?"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "43911bbd-2afb-4609-a756-37faa636148d"
+      Value: "e376f2b9-ab91-4f50-b045-da92dacd1430"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -117,4 +122,4 @@ Languages:
         <image mediaid="{B0AF170B-2868-461C-A0D2-CC6C70C2A4CD}" />
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220930T111913Z
+      Value: 20221031T033142Z

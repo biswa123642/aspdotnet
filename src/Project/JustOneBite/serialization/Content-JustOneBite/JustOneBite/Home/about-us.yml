@@ -1,0 +1,94 @@
+﻿---
+ID: "8e8387af-db21-4f27-8ed5-cc6b12f4c2e9"
+Parent: "83a6fa99-8904-4850-95cb-f564801220b8"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/JustOneBite/Home/about-us"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{70DFA746-F1F7-490B-96D1-E06CDA2EE9BC}"
+          p:before="*"
+          s:ds="page:"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BFFF92AD1-B9FF-4ED0-9316-F18C1B5B5508%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-1-1/container-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{7EE8B3EF-99DD-43D4-96C2-4D0061FB8A96}"
+          p:after="r[@uid='{70DFA746-F1F7-490B-96D1-E06CDA2EE9BC}']"
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-1-1/container-2" />
+        <r
+          uid="{C2CD2CFF-1A5D-46F3-8CC9-6F00E5C0B084}"
+          p:after="r[@uid='{7EE8B3EF-99DD-43D4-96C2-4D0061FB8A96}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BC417AE43-BBE2-4B58-9B43-A125B3013ADE%7D&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{AD05665C-6C7A-4060-A665-C516650678EF}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{C6A87A2F-FE93-454E-ADC3-3F17AC2C7A80}" alt="logo2" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220831T070411Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{D2AD824B-4E3E-484A-9C47-3D2D892F41E5}" alt="header image" height="" width="" hspace="" vspace="" ></image>
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "about-us"
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <div class="grunge-left"><h1>ABOUT US</h1></div>
+        <p class="about-us-tagline">The taste that rats and mice just die for!</p>
+        
+        <div class="about-us-body">For over 30 years, Just One Bite products have been recognized as “The taste rats and house mice just die for!” Trusted by farmers and homeowners alike, Just One Bite products have protected millions of people, pets, and properties from the destructive threat of rodents.
+        <br /><br />
+        Initially introduced as an alternative to warfarin-based rat and mouse baits, Just One Bite rat and mouse bait was a pelleted bromadiolone formula available in bright yellow place packs. Today, the familiar yellow packaging houses two different, 100% EPA-compliant, formulas for effective elimination of rats and house mice; Just One Bite II in bars, pellets and chunks and Just One Bite EX in blocks, pellets and bait stations. Just One Bite II continues to use bromadiolone as its active ingredient, whereas Just One Bite EX uses bromethalin, a non-anticoagulant type of bait.
+        <br /><br />
+        In 2012, the line was expanded with the launch of Rodentex rodenticides. Rodentex products use the active ingredient, diphacinone, that is highly effective in controlling mice, rats, and meadow voles.<br /><br /></div>
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "About Us - The Best Rodent Control Trusted for 30+ Years | Just One Bite"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: "About Us - The Best Rodent Control Trusted for 30+ Years | Just One Bite"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "430105c2-68e1-4a00-acff-2a7f1587934d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220927T103127Z

@@ -1,0 +1,47 @@
+﻿---
+ID: "005946ba-acbd-4146-84c3-69c13a218044"
+Parent: "e91b71c7-db20-4710-bd50-792dd4a8d185"
+Template: "3c7c79e8-554d-46d9-bf1a-63da22a4ee6f"
+Path: /sitecore/content/OneWeb/Kaytee/Data/Hero Carousel/fieldandforest/Carousel/slider item3
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "007ef8df-edb2-4a64-a736-7a408093d2f5"
+      Hint: SlideImageMobile
+      Value: |
+        <image mediaid="{DBBCBF15-C10B-43E3-813F-B17431E82DF3}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220829T115434Z
+    - ID: "3bfd4b9e-3049-4c8d-a9b5-6bebb83f895d"
+      Hint: SlideImage
+      Value: |
+        <image mediaid="{359CA785-5DAF-4B66-A07B-065AD2075718}" ></image>
+    - ID: "673ab889-05ad-4952-abe3-b145f6296383"
+      Hint: IsSlideCardCTAButton
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "34e5eefc-d2bd-4a79-b8c7-4282137802f4"
+    - ID: "a8933445-15ca-4e23-b171-a33892eb0ef8"
+      Hint: SlideCardTitle
+      Value: Naturally Good Nutrition
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d691b058-6e52-4e4b-baae-a23aed9de6e0"
+      Hint: SlideCardSubText
+      Value: Wholesome ingredients, carefully curated from nature's fields and forests to support your pet's healthy diet.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221102T123841Z
+    - ID: "e10d2e79-68cc-438a-a732-abf80f62be76"
+      Hint: SlideCardCTA
+      Value: |
+        <link text="Learn More" anchor="" linktype="internal" class="" title=""  querystring="" id="{7F7D98E7-5F62-4C3A-91ED-C6AAE1135151}" />

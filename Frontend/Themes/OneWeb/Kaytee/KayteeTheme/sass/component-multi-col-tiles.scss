@@ -6,12 +6,16 @@
   &.multi-column-content-tiles {
     &.variant-2 {
       background: none;
+      padding: 0;
+
       a {
         color: $white;
+
         &:hover {
           text-decoration: none;
         }
       }
+
       h3 {
         color: $white;
       }
@@ -19,9 +23,93 @@
       .wrapper {
         .inner-wrap {
           .copy-wrap {
+            padding: 0;
+            height: 100%;
+
             .card-body {
+              height: 100%;
+
+              &::after {
+                box-shadow: none;
+              }
+
+              &:hover {
+                &::after {
+                  box-shadow: none;
+                }
+              }
+
+              > div {
+                @include respond-to(tab-only) {
+                  width: 100%;
+                  flex: 0 0 100%;
+                  max-width: 100%;
+                }
+              }
+
               .col-left {
                 background-image: none;
+                display: none;
+                .field-image {
+                  img {
+                    min-height: 40rem;
+                  }
+                }
+              }
+
+              .col-right {
+                padding: 6rem 3.5rem;
+                .body-copy {
+                  text-align: left;
+
+                  .field-title {
+                    font-size: 3.2rem;
+                    font-weight: 700;
+                  }
+                  .field-subtext {
+                    li {
+                      font-size: 1.6rem;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      @include respond-to(desktop) {
+        .wrapper {
+          .inner-wrap {
+            .copy-wrap {
+              .card-body {
+                position: relative;
+                min-height: 40rem;
+                .col-left {
+                  position: absolute;
+                  left: 15px;
+                  display: block;
+                  bottom: 0;
+                  z-index: 1;
+                  height: 100%;
+                  overflow: hidden;
+                  background-color: transparent;
+                  .field-image {
+                    height: 100%;
+                    img {
+                      min-height: initial;
+                      height: 100%;
+                      object-position: bottom;
+                      object-fit: contain;
+                    }
+                  }
+                }
+                .col-right {
+                  width: 100%;
+                  flex: 0 0 100%;
+                  max-width: 100%;
+                  padding-left: calc(50% + 30px);
+                }
               }
             }
           }

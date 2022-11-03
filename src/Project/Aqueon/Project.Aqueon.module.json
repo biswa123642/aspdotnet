@@ -3,30 +3,30 @@
 	"references": [ "Feature.*" ],
 	"items": {
 		"includes": [
-			{
-				"name": "Content-Aqueon",
-				"path": "/sitecore/content/OneWeb/Aqueon",
-				"scope": "ItemAndDescendants",
-				"allowedPushOperations": "createUpdateAndDelete"
-			},
-			{
-				"name": "MediaLibrary-Aqueon",
-				"path": "/sitecore/media library/Project/OneWeb/Aqueon",
-				"scope": "singleItem",
-				"allowedPushOperations": "createUpdateAndDelete"
-			},
+			//{
+			//	"name": "Content-Aqueon",
+			//	"path": "/sitecore/content/OneWeb/Aqueon",
+			//	"scope": "ItemAndDescendants",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//},
+			//{
+			//	"name": "MediaLibrary-Aqueon",
+			//	"path": "/sitecore/media library/Project/OneWeb/Aqueon",
+			//	"scope": "singleItem",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//},
 			{
 				"name": "MediaLibrary-Aqueon-Themes",
 				"path": "/sitecore/media library/Themes/OneWeb/Aqueon",
 				"scope": "ItemAndDescendants",
 				"allowedPushOperations": "createUpdateAndDelete"
-			},
-			{
-				"name": "Forms-Aqueon",
-				"path": "/sitecore/Forms/OneWeb/Aqueon",
-				"scope": "ItemAndDescendants",
-				"allowedPushOperations": "createUpdateAndDelete"
 			}
+			//{
+			//	"name": "Forms-Aqueon",
+			//	"path": "/sitecore/Forms/OneWeb/Aqueon",
+			//	"scope": "ItemAndDescendants",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//}
 		]
 	}
 }

@@ -1,0 +1,64 @@
+﻿---
+ID: "f4a04b02-392e-4eed-bbed-ce82e515d33b"
+Parent: "3a1c616e-eb51-4ca9-80d1-1e283e0f87d3"
+Template: "80ed8527-6794-4b69-8c25-035c6b33eeef"
+Path: "/sitecore/content/OneWeb/Kaytee/Home/all-products"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{BC1B3C60-B08C-49E1-B10E-5EA79F4F29EB}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "055a2c41-4d44-4441-b589-b86f39cc64e5"
+      Hint: HeroBannerContent
+      Value: "We&rsquo;re committed to excellence, from the tiniest treat to the largest habitat. It&rsquo;s all about giving you the best small animal and pet bird experience possible. Kaytee expertise and state-of-the-art processing is built into every product we offer, ensuring the health, security, and comfort of your small animals and pet birds."
+    - ID: "237274d5-0911-4d4e-a9eb-48c2a8483ca1"
+      Hint: FeaturedChildList
+      Value: |
+        {50E8FF2E-2551-46F8-A21D-82F0E237BEDD}
+        {420A4854-C684-4019-93F0-6CE052FB43EF}
+        {128B7202-8A0A-409B-9E22-647AD2D82BB7}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220826T070212Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{10BB8A29-E055-4925-8EBF-B086544A4F1F}" />
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: All Products
+    - ID: "78351212-39c1-4f87-b066-1c09c6fd7b4c"
+      Hint: HeroBannerLogo
+      Value: 
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "All Kaytee Pet Products: Small Animal, Pet Bird, and Wild Bird | Kaytee"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: All Products
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a1dfac75-f1b8-4352-a494-901bafe32267"
+    - ID: "92f32441-cec4-42a7-ba44-83e8bb569c74"
+      Hint: FacetAttributes
+      Value: "{B71814DE-F3B5-4776-8554-F58AE5946EE2}|{13185FC9-1124-4BC7-9DE1-404BD2E9D129}|{8787341E-26F8-4CC2-965C-5C3690C0DE89}|{09A2C062-6FD1-4703-9289-1813833F475B}|{248E0951-058C-4ED1-8B2A-2F8A6AC81A42}|{FC187D69-DBC3-4C09-B0D9-55CD6A4BC7E4}|{3500A565-BA6C-42EC-B904-5A306042B003}"
+    - ID: "b0c26a8e-ed75-4fac-9729-461caba576a0"
+      Hint: ProductDetailsAttributes
+      Value: "{B71814DE-F3B5-4776-8554-F58AE5946EE2}|{09A2C062-6FD1-4703-9289-1813833F475B}|{13185FC9-1124-4BC7-9DE1-404BD2E9D129}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: "Scientifically-formulated quality. Innovative products. And lots of Kaytee love."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221028T120056Z

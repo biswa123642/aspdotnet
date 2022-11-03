@@ -1,0 +1,251 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+@import "base/fonts/fonts";
+
+body {
+    @include Arial-font-stack();
+    color: $default-font-color;
+    font-size: 1.333rem;
+}
+
+main {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    min-height: calc(100vh - 194px);
+}
+
+#content {
+    > .row {
+        display: block;
+    }
+}
+
+b,
+strong {
+    font-weight: 800;
+}
+
+sup {
+    line-height: 0px;
+    font-size: 75%;
+}
+
+.content a,
+.rich-text a,
+a {
+    color: $anchor-color;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+        color: $anchor-hover;
+        text-decoration: underline;
+    }
+}
+
+ol {
+    li {
+        font-size: 1.8rem;
+        list-style-position: outside;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @include Arial-font-stack();
+    color: $primary-color;
+    line-height: 1.1;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 900;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+
+    @include respond-to(tab) {
+        //font-size: 5.2rem;
+    }
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 39px;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.7rem;
+}
+
+h5 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+h6 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+p {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: $default-font-color;
+}
+
+a {
+    @include Arial-font-stack();
+    font-weight: 400;
+    font-size: 1.7rem;
+}
+
+.component {
+    &.content,
+    &.rich-text {
+        color: $clr-white;
+        @include Arial-font-stack();
+        //font-size: 1.59rem;
+        //line-height: 2.6rem;
+        font-weight: 500;
+    }
+}
+
+.content {
+    p {
+        color: $default-font-color;
+        font-weight: 500;
+        margin: 0 0 1rem;
+    }
+}
+
+.rich-text {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @include Arial-font-stack();
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    }
+
+    h1 {
+        color: $heading1-color;
+        font-size: 3.6rem;
+        font-weight: 900;
+        line-height: 3.6rem;
+        text-transform: uppercase;
+
+        @include respond-to(desktop) {
+            font-size: 3.996rem;
+        }
+    }
+
+    h2 {
+        color: $heading2-color;
+        font-size: 2.4rem;
+        font-weight: 800;
+        line-height: 1em;
+
+        @include respond-to(desktop) {
+            font-size: 3.48rem;
+            line-height: 3.48rem;
+        }
+    }
+
+    h3 {
+        color: $heading3-color;
+    }
+
+    h4 {
+        color: $heading4-color;
+    }
+
+    h5 {
+        color: $heading5-color;
+    }
+
+    h6 {
+        color: $heading6-color;
+    }
+}
+
+.content,
+.rich-text {
+    ol {
+        padding-left: 1.8rem;
+
+        li {
+            @include Arial-font-stack();
+            color: $default-font-color;
+            font-size: 1.8rem;
+            list-style-position: outside;
+        }
+    }
+}
+
+.content,
+.rich-text {
+    ul {
+        padding-left: 1.8rem;
+    }
+
+    a {
+        font-weight: 600;
+        color: $primary-color;
+    }
+}
+
+.content,
+.rich-text {
+    h2 {
+        color: $heading2-color;
+        margin-top: 20px;
+        margin-bottom: 10px;
+
+        a {
+            font-weight: 800 !important;
+        }
+    }
+
+    ul {
+        li {
+            line-height: 1.428;
+            @include Arial-font-stack();
+            font-size: 1.8rem;
+            color: $default-font-color;
+            list-style: disc;
+
+            ul {
+                li {
+                    list-style-type: circle;
+                }
+            }
+        }
+    }
+}

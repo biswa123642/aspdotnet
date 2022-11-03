@@ -41,12 +41,11 @@
             var url = document.location.toString();
             var hash = url.split('#')[1];  
             $('div[id="'+hash+'"]').each(function(){           
-               $(this).parents('li,.tab').addClass('active').siblings().removeClass('active');;  
+               $(this).parents('li,.tab').addClass('active').siblings().removeClass('active');
             })
         }
       });
 
-    
 
     
 })(jQuery);

@@ -1,0 +1,45 @@
+﻿---
+ID: "5e0691fe-83a7-45ed-b958-e020c455757f"
+Parent: "4df23ed8-6883-47ac-b9ee-253ad62a558c"
+Template: "3c7c79e8-554d-46d9-bf1a-63da22a4ee6f"
+Path: /sitecore/content/OneWeb/Kaytee/Data/Hero Carousel/kaytee/Home Carousel/item1
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220830T091145Z
+    - ID: "3bfd4b9e-3049-4c8d-a9b5-6bebb83f895d"
+      Hint: SlideImage
+      Value: |
+        <image mediaid="{1BD0D2F4-4A1E-4EB0-A370-65EC293EBC86}" ></image>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "32860326-1fee-47d7-8473-b17162659835"
+    - ID: "a8933445-15ca-4e23-b171-a33892eb0ef8"
+      Hint: SlideCardTitle
+      Value: |
+        <h2>Small in Show</h2>
+        <p>Man's got a new Best Friend</p>
+        <p>June 20</p>
+        
+        
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c05c1086-c22a-4c03-abb5-38d3fe092e89"
+      Hint: OverlayBackgroundColor
+      Value: #F8BD00
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221102T115757Z

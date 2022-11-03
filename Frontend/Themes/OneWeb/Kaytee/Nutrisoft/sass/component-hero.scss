@@ -1,0 +1,79 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.hero {
+    &.banner-adjustable-height {
+      .banner-content-wrapper {
+        display: flex;
+        flex-direction: column;
+        background-color: $brand-yellow;
+        text-align: left;
+
+        .hero-banner-logo {
+          order: 3;
+        }
+
+        .hero-banner-title,
+        .hero-banner-description {
+          font-size: 15vw;
+          font-weight: 700;
+          color: $body-color;
+          font-family: "josefin-sans", sans-serif;
+          line-height: 1.2;
+        }
+
+        .hero-banner-description {
+          font-size: 7vw;
+          padding-bottom: 2rem;
+        }
+      }
+
+      @include respond-to(tab) {
+        .inner-container {
+          padding: 3rem;
+          position: static;
+          transform: translate(0, 0);
+
+          .banner-content-wrapper {
+            position: static;
+            transform: translate(0, 0);
+            max-width: 100%;
+          }
+        }
+      }
+      @include respond-to(desktop){
+        .inner-container{
+          .banner-content-wrapper{ 
+            padding: 5rem 1.5rem;
+            min-height: 40rem;           
+            .hero-banner-title,.hero-banner-description{
+              font-size: 3.8vw;
+              width: 47%;
+              margin-bottom: 2.7vw;
+            }
+            .hero-banner-description {
+              font-size: 2.1vw;   
+              padding-right: 1.5vw;
+              line-height: 1.3;
+            }
+            .hero-banner-logo{
+              position: absolute;
+              right: 0;
+            }
+            
+          }
+        }
+      }
+      @include respond-to(larger-desktop){
+        .inner-container{
+          max-width: 140rem;
+          .banner-content-wrapper{
+            padding: 8rem 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}

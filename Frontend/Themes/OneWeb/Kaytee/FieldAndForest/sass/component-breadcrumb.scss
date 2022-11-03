@@ -1,0 +1,28 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.breadcrumb {
+    li {
+      margin-left: auto;
+      .navigation-title {
+        a {
+          color: $primary-color;
+          font-size: 1.2rem;
+          font-weight: 400;
+          text-transform: none;
+
+          &:hover {
+            color: $primary-color;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    .separator {
+      color: #ccc;
+      font-weight: 400;
+    }
+  }
+}

@@ -15,19 +15,21 @@ SharedFields:
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
-          uid="{058EB3CB-699A-44A8-9697-471C77475EDA}"
-          p:before="*"
-          s:ds="{1F61E446-5995-4670-804E-FF6DF108E03B}"
-          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
-          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
-          s:ph="/main/sxa-articlelisting/row-3-1/container-4" />
-        <r
           uid="{1E40BA5C-947D-48BC-9291-6D1F63DAA7FB}"
-          p:after="*[1=2]"
+          p:before="*"
           s:ds="{C2D36F85-DEDA-4F16-B1EF-3A37DFC451AF}"
           s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
-          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
-          s:ph="/main/sxa-articlelisting/row-2-1/container-3" />
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D%7C%7B483AF548-57D7-4735-A003-5710259189CC%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-articlelisting/row-2-1/container-3"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{058EB3CB-699A-44A8-9697-471C77475EDA}"
+          p:after="*[1=2]"
+          s:ds="{1F61E446-5995-4670-804E-FF6DF108E03B}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D%7C%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/sxa-articlelisting/row-2-1/container-3"
+          s:ccb="Clear on publish" />
       </d>
     </r>
 Languages:
@@ -64,10 +66,10 @@ Languages:
       Value: Cats & Dogs Behavior Blog | Comfort Zone
     - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
       Hint: Title
-      Value: Cat & Dog Behavior Blog | Comfort Zone
+      Value: Cat & Dog Behavior Blog
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "34626526-a71d-493b-b23a-231db8dbeb6f"
+      Value: "64b7ebf0-ffe0-4d19-94cc-ce4a6feab05d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -78,4 +80,4 @@ Languages:
         <image mediaid="{F2FAE5EC-CFBA-4C2E-8435-209DE08CF824}" />
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20221006T083524Z
+      Value: 20221031T122934Z

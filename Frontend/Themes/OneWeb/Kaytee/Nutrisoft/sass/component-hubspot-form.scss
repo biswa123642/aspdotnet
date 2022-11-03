@@ -1,0 +1,143 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  .hubspot-form {
+    .hs-form-field {
+      margin: 2rem 0;
+    }
+
+    legend {
+      color: $white;
+      font-size: 2.1rem;
+    }
+
+    .hs-form {
+      .hs-input {
+        appearance: auto;
+        box-shadow: none;
+      }
+
+      .hs-form-checkbox {
+        padding: initial;
+        label {
+          display: flex;
+          span {
+            font-weight: 500;
+          }
+        }
+      }
+
+      textarea,
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"] {
+        border: 1px solid #e3e3e3;
+        height: 4rem;
+        padding: 5px 18px;
+        line-height: 4rem;
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: $body-color;
+        border-radius: 3px;
+        box-shadow: none;
+        max-width: 100%;
+
+        &:focus {
+          border-color: black;
+          outline: 0;
+          box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+          transition: border-color ease-in-out 0.15s,
+            box-shadow ease-in-out 0.15s;
+        }
+      }
+      input:not([type="image"]) {
+        box-sizing: inherit;
+      }
+
+      .hs-form-booleancheckbox {
+        margin-left: 0;
+        label {
+          input[type="checkbox"].hs-input {
+            visibility: visible;
+            min-width: auto;
+            height: 2rem;
+            margin: 0;
+            background: none;
+            border: 1px solid $body-color;
+            appearance: auto;
+            &:focus {
+              box-shadow: none;
+            }
+          }
+        }
+      }
+      .input {
+        select {
+          appearance: none;
+          background-image: url("../images/triangle_red.png");
+          background-position: 95% 50%;
+          background-size: 12px 6px;
+          font-size: 1.4rem;
+          line-height: 2rem;
+          border: 1px solid #e3e3e3;
+          height: 4rem;
+          padding: 5px 18px;
+          font-weight: 600;
+          color: $body-color;
+          border-radius: 3px;
+          box-shadow: none;
+          max-width: 100%;
+        }
+      }
+
+      label {
+        margin-bottom: 5px;
+        span {
+          color: $white;
+          font-weight: 700;
+          font-size: 1.6rem;
+        }
+      }
+      .hs-error-msgs {
+        li {
+          label {
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: $primary-color;
+          }
+        }
+      }
+
+      .form-columns-1 {
+        p {
+          color: $white;
+          strong {
+            font-weight: 500;
+          }
+        }
+        .input {
+          .hs-input,
+          input[type="email"] {
+            max-width: 100%;
+          }
+          li {
+            .hs-input {
+              min-width: auto;
+              width: auto;
+            }
+          }
+        }
+      }
+
+      .form-columns-2 {
+        .input {
+          .hs-input {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

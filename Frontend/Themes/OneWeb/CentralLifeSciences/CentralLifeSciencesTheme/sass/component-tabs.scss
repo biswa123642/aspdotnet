@@ -100,8 +100,6 @@ ul.tabs-heading li:hover .field-heading {
     .score-highlight-top {
       font-size: 14px;
       line-height: 20px;
-      letter-spacing: 1.12px;
-      color: $dark-green;
       text-transform: uppercase;
       padding-left: 8px;
       padding-right: 8px;
@@ -304,11 +302,7 @@ $background-color_4: #00ce7c;
         display: none;
       }
       .score-highlight-top {
-        font-size: 14px;
-        line-height: 20px;
         font-weight: bold;
-        letter-spacing: 1.12px;
-        color: $color_1;
         font-size: 14px;
         line-height: 20px;
         letter-spacing: 1.12px;

@@ -3,30 +3,30 @@
 	"references": [ "Feature.*" ],
 	"items": {
 		"includes": [
-			{
-				"name": "Content-HJE",
-				"path": "/sitecore/content/OneWeb/HJE",
-				"scope": "ItemAndDescendants",
-				"allowedPushOperations": "createUpdateAndDelete"
-			},
-			{
-				"name": "MediaLibrary-HJE",
-				"path": "/sitecore/media library/Project/OneWeb/HJE",
-				"scope": "singleItem",
-				"allowedPushOperations": "createUpdateAndDelete"
-			},
+			//{
+			//	"name": "Content-HJE",
+			//	"path": "/sitecore/content/OneWeb/HJE",
+			//	"scope": "ItemAndDescendants",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//},
+			//{
+			//	"name": "MediaLibrary-HJE",
+			//	"path": "/sitecore/media library/Project/OneWeb/HJE",
+			//	"scope": "singleItem",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//},
 			{
 				"name": "MediaLibrary-HJE-Themes",
 				"path": "/sitecore/media library/Themes/OneWeb/HJE",
 				"scope": "ItemAndDescendants",
 				"allowedPushOperations": "createUpdateAndDelete"
 			},
-			{
-				"name": "Forms-HJE",
-				"path": "/sitecore/Forms/OneWeb/HJE",
-				"scope": "ItemAndDescendants",
-				"allowedPushOperations": "createUpdateAndDelete"
-			}
+			//{
+			//	"name": "Forms-HJE",
+			//	"path": "/sitecore/Forms/OneWeb/HJE",
+			//	"scope": "ItemAndDescendants",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//}
 		]
 	}
 }

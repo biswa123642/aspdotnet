@@ -1,0 +1,9 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "base/fonts/fonts";
+
+.component {
+  &.feature-content-tiles {
+    @import "variants/component-feature-content-tiles/variant-2.scss";
+  }
+}

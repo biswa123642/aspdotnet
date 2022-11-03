@@ -115,8 +115,9 @@ SharedFields:
           p:after="r[@uid='{38CBB017-993B-4A86-8662-6DBE7F8C5F98}']"
           s:ds="{8298BA10-F90E-448B-9269-6523870C5FFA}"
           s:id="{3972C278-7E7A-4C2B-A293-66AF860F5C3A}"
-          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B39C41CFB-A250-4C5E-98D6-52E06E9BC6B8%7D&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=14"
-          s:ph="/main/sxa-productdetails/row-3-1/container-15" />
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B39C41CFB-A250-4C5E-98D6-52E06E9BC6B8%7D&amp;Styles=%7BD32D8613-408E-4DA6-929A-56DCA3CA69F6%7D%7C%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=14"
+          s:ph="/main/sxa-productdetails/row-3-1/container-15"
+          s:ccb="Clear on publish" />
         <r
           uid="{DB70E554-7B13-4AE0-8E44-7CC4A3062FD1}"
           p:after="*[1=2]"
@@ -138,7 +139,7 @@ Languages:
     - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
       Hint: DesktopImage
       Value: |
-        <image mediaid="{4E422384-E7A2-45D6-AA8C-AE8BB8DDD4A4}" />
+        <image mediaid="{9648C688-6183-4969-9EB3-5A2863C0DE74}" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20220927T051806Z
@@ -229,7 +230,7 @@ Languages:
       Value: "Comfort Zone Multi-Cat Diffuser"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "80ba4399-3bf6-459e-a893-e87f09731e66"
+      Value: "7dd5779c-4b59-4fd6-8e3d-cb650ae0382b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -243,7 +244,7 @@ Languages:
         <image mediaid="{F3D9400A-DCDC-4330-BF39-FF517BA2AF62}" />
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20221018T044430Z
+      Value: 20221031T090801Z
     - ID: "f0d0a9d9-6b70-4a54-a04a-537c38d5b2e1"
       Hint: RelatedArticlesLabel
       Value: LEARN MORE FROM OUR EXPERTS

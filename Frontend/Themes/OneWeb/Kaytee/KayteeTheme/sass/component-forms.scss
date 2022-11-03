@@ -14,10 +14,12 @@
   line-height: 4rem;
   min-width: 20rem;
   border-radius: 0;
+  text-decoration: none;
 
   &:hover {
     background-color: #cc0000;
     border-color: #c20000;
+    text-decoration: none;
     cursor: pointer;
   }
 }

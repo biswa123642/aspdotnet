@@ -7,6 +7,10 @@
             max-width: 100%;
         }
         &.variant-2 {
+           
+            /*===========================
+                        navigation
+                =============================*/
             .component {
                 &.plain-html {
                     .hamburger {
@@ -39,11 +43,6 @@
                         }
                     }
                 }
-            }
-            /*===========================
-                        navigation
-                =============================*/
-            .component {
                 &.page-list {
                     display: block;
                     &.variant-1 {
@@ -56,7 +55,7 @@
                                     text-transform: uppercase;
                                     font-size: 1.6rem;
                                     line-height: 1;
-                                    font-family: Arial, Helvetica, sans-serif;
+                                    @include Helvetica-font-stack();
                                     color: #fff;
                                     font-weight: 400;
                                     border: none;
@@ -78,9 +77,8 @@
                                             border-bottom: 1px solid #fff;
                                         }
                                         a {
-                                            font-size: 1.6rem;
-                                            line-height: 1.1;
-                                            font-family: Arial, Helvetica, sans-serif;
+                                            font-size: 1.6rem;                                         
+                                            @include Helvetica-font-stack();
                                             color: #fff;
                                             font-weight: 600;
                                             border: none;
@@ -239,7 +237,7 @@
                                     padding: 15px 10px;
                                     font-size: 1.8rem;
                                     line-height: 1.2;
-                                    font-family: "Arial", "Helvetica", sans-serif;
+                                    @include Helvetica-font-stack();
                                     color: #fff;
                                     font-weight: normal;
                                     text-transform: none;
@@ -265,10 +263,13 @@
                         }
                     }
                 }
-                /*===========================
-                       header search
-                =============================*/
+              
+              
+               
                 .component {
+                      /*===========================
+                       header search
+                      =============================*/
                     &.search-box {
                         padding: 10px 20px 10px 10px;
                         .search-holder {
@@ -282,7 +283,7 @@
                                     color: #4c4c4c;
                                     font-size: 1.8rem;
                                     line-height: 1;
-                                    font-family: "Arial", "Helvetica", sans-serif;
+                                    @include Helvetica-font-stack();
                                 }
                                 .custom-search-box-button {
                                     background-color: #0000;
@@ -297,11 +298,9 @@
                             }
                         }
                     }
-                }
-                /*===========================
+                     /*===========================
                         navigation
-                =============================*/
-                .component {
+                     =============================*/
                     &.page-list {
                         &.variant-1 {
                             padding-left: 15px;

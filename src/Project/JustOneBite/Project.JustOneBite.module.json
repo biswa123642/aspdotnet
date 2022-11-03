@@ -1,0 +1,32 @@
+{
+	"namespace": "Project.JustOneBite",
+	"references": [ "Feature.*" ],
+	"items": {
+		"includes": [
+			//{
+			//	"name": "Content-JustOneBite",
+			//	"path": "/sitecore/content/OneWeb/JustOneBite",
+			//	"scope": "ItemAndDescendants",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//},
+			//{
+			//	"name": "MediaLibrary-JustOneBite",
+			//	"path": "/sitecore/media library/Project/OneWeb/JustOneBite",
+			//	"scope": "singleItem",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//},
+			{
+				"name": "MediaLibrary-JustOneBite-Themes",
+				"path": "/sitecore/media library/Themes/OneWeb/JustOneBite",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			}
+			//{
+			//	"name": "Forms-JustOneBite",
+			//	"path": "/sitecore/Forms/OneWeb/JustOneBite",
+			//	"scope": "ItemAndDescendants",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//}
+		]
+	}
+}

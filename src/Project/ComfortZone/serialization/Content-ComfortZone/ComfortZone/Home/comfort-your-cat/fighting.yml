@@ -7,6 +7,9 @@ SharedFields:
 - ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
   Hint: Page Design
   Value: "{BC3B727C-2365-4C75-BF53-85D7BF2DE762}"
+- ID: "d4952280-2d7d-4bf4-a99a-ea36dad0f0a7"
+  Hint: Body Css Class
+  Value: "seo-landing"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -34,8 +37,9 @@ SharedFields:
           p:after="r[@uid='{1A328CA5-D9F1-458A-A5E6-7BA28B39842C}']"
           s:ds="{D107A53C-8B14-415D-B8F2-AB22A2CB342A}"
           s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
-          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=20"
-          s:ph="/main/row-1-17/container-18" />
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7BD0931F67-1E8F-4C4C-A14A-77777C8F560D%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=20"
+          s:ph="/main/row-1-17/container-18"
+          s:ccb="Clear on publish" />
         <r
           uid="{68B01CC2-FE76-4752-83D2-B317DD3FBCDE}"
           p:after="r[@uid='{A56C43D3-BEAD-4041-9C65-F7D1FAC96180}']"
@@ -47,7 +51,7 @@ SharedFields:
           p:after="r[@uid='{68B01CC2-FE76-4752-83D2-B317DD3FBCDE}']"
           s:ds="{A9CC4567-F473-4FE5-AD7D-450DCAD2D5E5}"
           s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
-          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=16"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7B26C7610E-337D-4F2E-8659-A22C76F38526%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=16"
           s:ph="/main/row-8-1/container-9"
           s:ccb="Clear on publish" />
         <r
@@ -75,7 +79,7 @@ SharedFields:
           p:after="r[@uid='{CC490C9A-4CB4-40FA-BB83-6118E15212B2}']"
           s:ds="{4D72382F-A23F-4EFE-B063-14FA3BFA3F5F}"
           s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
-          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=14"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7B26C7610E-337D-4F2E-8659-A22C76F38526%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=14"
           s:ph="/main/row-6-1/container-7"
           s:ccb="Clear on publish" />
         <r
@@ -89,7 +93,7 @@ SharedFields:
           p:after="r[@uid='{C4D5BA83-3611-4ED4-951D-ECAC198C4825}']"
           s:ds="{379EA079-234A-41F4-A000-55470EA30ECC}"
           s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
-          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=13"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7B26C7610E-337D-4F2E-8659-A22C76F38526%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=13"
           s:ph="/main/row-5-1/container-6"
           s:ccb="Clear on publish" />
         <r
@@ -131,7 +135,7 @@ SharedFields:
           p:after="r[@uid='{0298F0DF-3C6E-4C11-9F03-C3F82479934B}']"
           s:ds="{8D48FB17-E1AB-4908-835B-BD600F376150}"
           s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
-          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D%7C%7B483AF548-57D7-4735-A003-5710259189CC%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
           s:ph="/main/row-2-1/container-3"
           s:ccb="Clear on publish" />
         <r
@@ -201,7 +205,7 @@ Languages:
       Value: Cats Fighting | Comfort Zone
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "11a575f5-c221-412c-80e8-c424516ebb6f"
+      Value: "4d290e34-63de-492f-9058-004ad74ec417"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -212,4 +216,4 @@ Languages:
         <image mediaid="{E132A6EE-16D2-4B8F-A87B-EE21FD8748A0}" />
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20221003T121405Z
+      Value: 20221031T052048Z

@@ -1,0 +1,25 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component .hubspot-form input[type="submit"],
+.sxa-btn .sxa-btn-primary a,
+.sxa-btn a {
+  border-color: $primary-color;
+  background-color: $primary-color;
+  @include Roboto-font-stack();
+  font-size: 2rem;
+  font-weight: 700;
+  color: $white;
+  padding: 0 2rem;
+  line-height: 4rem;
+  min-width: 20rem;
+  border-radius: 0;
+
+  &:hover {
+    background-color: #cc0000;
+    border-color: #c20000;
+    cursor: pointer;
+  }
+}
+
+@import "styles/forms/*";

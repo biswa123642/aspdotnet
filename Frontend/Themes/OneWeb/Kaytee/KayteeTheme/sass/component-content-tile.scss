@@ -1,0 +1,49 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.content-tile {
+    .text-overlay {
+      .tile-wrap {
+        .text-wrap {
+          border-top: 10px solid #6f9b38;
+
+          h2 {
+            color: $black;
+          }
+          p {
+            font-size: 2.4rem;
+            line-height: 1.2;
+          }
+        }
+      }
+    }
+
+    @include respond-to(desktop) {
+      .text-overlay {
+        .tile-wrap {
+          .text-wrap {
+            border-left: 10px solid #6f9b38;
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 1px 0px 12px -3px rgba(0, 44, 39, 0.52);
+            max-width: 33%;
+            border-top: none;
+            padding: 3rem 1rem;
+
+            p {
+              font-size: 1.7rem;
+              line-height: $line-height;
+            }
+          }
+
+          &:nth-child(2n) {
+            .text-wrap {
+              border-right: 10px solid #6f9b38;
+            }
+          }
+        }
+      }
+    }
+  }
+}

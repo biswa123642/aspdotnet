@@ -569,6 +569,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CentralFlyHomePageListing",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CGP.Feature.CentralFlyHomePageListing", "src\Feature\CentralFlyHomePageListing\code\CGP.Feature.CentralFlyHomePageListing.csproj", "{5B29148D-FD10-4561-92FB-2B85958FF946}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CTBT", "CTBT", "{F5A8DC99-BB0A-4727-A525-5DD79A8FD7A0}"
+	ProjectSection(SolutionItems) = preProject
+		src\Project\CTBT\Project.CTBT.module.json = src\Project\CTBT\Project.CTBT.module.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CGP.Project.CTBT", "src\Project\CTBT\code\CGP.Project.CTBT.csproj", "{870272FD-9435-47C2-85DC-A8FE2814170E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1368,6 +1375,16 @@ Global
 		{5B29148D-FD10-4561-92FB-2B85958FF946}.QA|Any CPU.Build.0 = QA|Any CPU
 		{5B29148D-FD10-4561-92FB-2B85958FF946}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B29148D-FD10-4561-92FB-2B85958FF946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{870272FD-9435-47C2-85DC-A8FE2814170E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{870272FD-9435-47C2-85DC-A8FE2814170E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{870272FD-9435-47C2-85DC-A8FE2814170E}.DEV|Any CPU.ActiveCfg = Debug|Any CPU
+		{870272FD-9435-47C2-85DC-A8FE2814170E}.DEV|Any CPU.Build.0 = Debug|Any CPU
+		{870272FD-9435-47C2-85DC-A8FE2814170E}.PROD|Any CPU.ActiveCfg = Debug|Any CPU
+		{870272FD-9435-47C2-85DC-A8FE2814170E}.PROD|Any CPU.Build.0 = Debug|Any CPU
+		{870272FD-9435-47C2-85DC-A8FE2814170E}.QA|Any CPU.ActiveCfg = Debug|Any CPU
+		{870272FD-9435-47C2-85DC-A8FE2814170E}.QA|Any CPU.Build.0 = Debug|Any CPU
+		{870272FD-9435-47C2-85DC-A8FE2814170E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{870272FD-9435-47C2-85DC-A8FE2814170E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1532,6 +1549,8 @@ Global
 		{46251EC4-AC6D-4DDB-B4F8-4D75AE37CAF3} = {944F9799-21CB-44A1-B3BB-8DD6A901F48E}
 		{FD65DA46-1B54-4E72-A525-EE4645436E64} = {72C451BF-82DF-4528-909F-4735952A5F06}
 		{5B29148D-FD10-4561-92FB-2B85958FF946} = {FD65DA46-1B54-4E72-A525-EE4645436E64}
+		{F5A8DC99-BB0A-4727-A525-5DD79A8FD7A0} = {8E8CC37F-4877-48D3-9089-BB481061F759}
+		{870272FD-9435-47C2-85DC-A8FE2814170E} = {F5A8DC99-BB0A-4727-A525-5DD79A8FD7A0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45

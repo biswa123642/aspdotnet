@@ -1,0 +1,89 @@
+﻿---
+ID: "5f720cf9-f045-41a0-adcb-bd59daaf7533"
+Parent: "331218f1-1196-40ba-b5fd-53462b14b2f3"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: /sitecore/content/OneWeb/CTBT/Home/sites
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{85EDF795-39D5-44D7-A6F8-A5A7C8A2523F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DC46223F-C9E9-4635-8C00-B3376FF6C09B}"
+              p:before="*"
+              s:id="{99A633FC-B9A9-44A0-B78A-BCBB08DD02C9}"
+              s:par="Reset Caching Options&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BE1ED351B-D573-4FE5-997C-4589A3D1361F%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+              s:ph="main" />
+            <r
+              uid="{1ED1E1DF-1273-497A-8AF5-839B9AC96676}"
+              p:after="*[1=2]"
+              s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+              s:par="Reset Caching Options&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221007T175045Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: cooperators
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <p><a href="~/link.aspx?_id=6F9B54F771D94E958C652D65A7C607BC&amp;_z=z">Arkansas</a></p>
+        <p><a href="~/link.aspx?_id=C4AAC4C8D49F4C30910531ECFE505C30&amp;_z=z">California</a></p>
+        <p><a href="~/link.aspx?_id=C763EDAAEAB74A17A2EC117494D1A532&amp;_z=z">Connecticut</a></p>
+        <p><a href="~/link.aspx?_id=B33D5511418844E0A846A94B4DC8EBFA&amp;_z=z">Illinois</a></p>
+        <p><a href="~/link.aspx?_id=0C8D5731A9414B79A89DCC7441914F9A&amp;_z=z">Kentucky</a></p>
+        <p><a href="~/link.aspx?_id=46B8E33979AF450CBBA6A2B6C982128B&amp;_z=z">Maryland</a></p>
+        <p><a href="~/link.aspx?_id=797FC2327A104B4690C77D947F4B3B90&amp;_z=z">Massachusetts</a></p>
+        <p><a href="~/link.aspx?_id=8726A69052644B9FAD9962708E756DC7&amp;_z=z">Minnesota</a></p>
+        <p><a href="~/link.aspx?_id=5E4C164CF9B14E9AA289B0CC2039CD95&amp;_z=z">New Jersey (Adelphia)</a></p>
+        <p><a href="~/link.aspx?_id=08F022FB1A054191B96C04576701D372&amp;_z=z">New Jersey (Salem)</a></p>
+        <p><a href="~/link.aspx?_id=BF5BEA47205A4B53B1830DBA5EB98184&amp;_z=z">North Carolina</a></p>
+        <p><a href="~/link.aspx?_id=504288858A904668B46D01EA2CC6AD5A&amp;_z=z">Oregon (Albany)</a></p>
+        <p><a href="~/link.aspx?_id=2B5128F88D9244BFB9B029526AB80837&amp;_z=z">Oregon (Canby)</a></p>
+        <p><a href="~/link.aspx?_id=A53F661866BC485F942B43BBC841BAD6&amp;_z=z">Tennesee</a></p>
+        <p><a href="~/link.aspx?_id=C7C59A3C2D614BF7B27EE061E0A8C6F2&amp;_z=z">Virginia</a></p>
+        <p><a href="~/link.aspx?_id=E407F2E519444CE9B4588008EFA27A2F&amp;_z=z">Wisconsin</a></p>
+        
+    - ID: "825c4c66-091d-44cb-8ead-baae058f164d"
+      Hint: HeroBannerTextColor
+      Value: #746941
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Sites
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3462fdb7-56e6-4d6b-97f7-3abfa3f0e530"
+    - ID: "a6772724-fc83-4e63-a2f6-a893b8329b9e"
+      Hint: HeroBannerAlignment
+      Value: "Left-Top"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: Sites
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221013T174534Z

@@ -1,0 +1,37 @@
+﻿---
+ID: "058a8366-b7b4-49f6-897a-b26ee0e6385d"
+Parent: "1781bef5-ece8-4e62-ba8d-ac64fe0a2bc6"
+Template: "a14d9266-1924-4e7f-87cc-760e2f8429ce"
+Path: /sitecore/content/OneWeb/MossOut/Data/Feature Content Tiles/HomePage/AllProducts/Item1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220907T131621Z
+    - ID: "56e00b83-fc40-44eb-8d42-cbbba12722fa"
+      Hint: IsCTAButton
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fccbd8c9-5f42-495c-810d-6218ba28ef23"
+    - ID: "ac0ef552-e2a9-4e8f-8942-4b8ab5061e4b"
+      Hint: CTA
+      Value: |
+        <link text="GO TO PRODUCTS" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{DDCA2B8D-5B21-49BC-A357-EB3A7587DCDC}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d140070d-9058-400a-82ca-36aee31966d5"
+      Hint: Image
+      Value: |
+        <image mediaid="{5BFEC2AC-75F3-4A37-B70C-1F80768BC2EA}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220916T125034Z
+    - ID: "f2995045-5047-4be3-be4a-dbe0a1530118"
+      Hint: Title
+      Value: All Products

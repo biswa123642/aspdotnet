@@ -1,0 +1,19 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.content {
+    &.variant-2 {
+      &.related-articles {
+        .inner-wrap {
+          a {
+            .img-wrapper {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

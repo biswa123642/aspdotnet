@@ -4,6 +4,15 @@ Parent: "34c93b66-ee4c-4459-b722-4765cbb9c883"
 Template: "34c93b66-ee4c-4459-b722-4765cbb9c883"
 Path: /sitecore/templates/Feature/OneWeb/Search/Rendering Parameters/Search Box/__Standard Values
 SharedFields:
+- ID: "7f7e127b-7499-4df0-9049-87eec23d9880"
+  Hint: SortingLookup
+  Value: title_alpha_sort
+- ID: "91cefc5b-2f74-4918-9eaa-89eeae933171"
+  Hint: SortDirection
+  Value: asc
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
 - ID: "e42027f4-766d-45a7-8cf4-29e5c94326f7"
   Hint: Placeholder
   Value: Search
@@ -20,11 +29,11 @@ Languages:
       Value: 20220426T131023Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6b7c8fe4-218e-44d9-a2cd-aa9e0a9bd33d"
+      Value: "17bbc708-9c33-438a-8aba-d936f3f0d607"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220527T085719Z
+      Value: 20221101T112636Z

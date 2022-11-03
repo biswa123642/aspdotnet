@@ -1,0 +1,634 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "base/fonts/fonts";
+
+#header {
+    background: $clr-white;
+    max-width: 100%;
+
+    @include respond-to(extra-largedesktop) {
+        padding: 0px 5rem;
+    }
+
+    &.container {
+        padding: 0px;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.component {
+    &.header-shell {
+        .component {
+            &.header-global-menu,
+            &.page-list {
+                .items {
+                    .item.open {
+                        .has-sublist {
+                            &::before {
+                                -webkit-transform: translateY(-50%) rotate(90deg);
+                                transform: translateY(-50%) rotate(90deg);
+                            }
+                        }
+                    }
+
+                    .item.open.has-submenu-list {
+                        &::before {
+                            -webkit-transform: translateY(-50%) rotate(90deg);
+                            transform: translateY(-50%) rotate(90deg);
+                        }
+                    }
+                }
+            }
+        }
+
+        &.variant-2 {
+            background: $primary-color;
+            //border-bottom: 10px solid $primary-color;
+            min-width: 100%;
+
+            .wrapper {
+                .inner-wrap {
+                    padding: 0;
+
+                    .container {
+                        > .row {
+                            @include respond-to(desktop) {
+                                align-items: initial;
+                            }
+
+                            > div {
+                                background-color: $primary-color;
+                                height: 71px;
+                                display: block;
+                            }
+                        }
+                    }
+                }
+
+                .wrapper-nav {
+                    padding: 0;
+                    margin: 0px -3%;
+                    background-color: transparent;
+                }
+            }
+
+            .logo-container {
+                .file-type-icon-media-link {
+                    .component-content {
+                        img {
+                            height: 75px;
+                            width: auto;
+                            display: inline;
+                        }
+                    }
+
+                    a {
+                        img {
+                            padding-left: 0;
+                            position: absolute;
+                            z-index: 1;
+                            left: 0;
+                            max-width: 15rem;
+                            //top: -1.5rem;
+                        }
+                    }
+                }
+            }
+
+            .utility-navigation {
+                .component-content > div {
+                    justify-content: flex-end;
+
+                    .list-item {
+                        a {
+                            color: $clr-white;
+                            text-transform: none;
+                            font-size: 1.6rem;
+                            padding-right: 3rem;
+                        }
+
+                        &:hover {
+                            a {
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .search-box {
+                &.active {
+                    .search-input-wrapper {
+                        input {
+                            position: absolute;
+                            display: none;
+                        }
+                    }
+                }
+
+                padding: 12px;
+                padding-left: 0px;
+            }
+
+            .component {
+                &.plain-html {
+                    .hamburger {
+                        position: absolute;
+                        height: auto;
+                        z-index: 10;
+                        background: 0 0;
+                        margin: 18px 12%;
+                        padding: 0px;
+
+                        .icon-bar {
+                            width: 50px;
+                            background-color: $clr-white;
+                            height: 4px;
+                            border-radius: 2px;
+                            margin-top: 12px;
+
+                            &:nth-child(1) {
+                                margin-top: 0px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .component {
+                &.header-global-menu {
+                    padding: 0px;
+                    z-index: 0;
+                    border-top: 1px solid $clr-white;
+
+                    ul {
+                        &.items {
+                            li {
+                                &.item {
+                                    div {
+                                        &.list-wrap {
+                                            margin: 0rem 3rem;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    @include respond-to(desktop) {
+                        padding: 3rem 0;
+                        background-color: $primary-color;
+                        border-top: 0px;
+                        z-index: 1;
+
+                        .list-wrap {
+                            a {
+                                line-height: 80px;
+                                font-weight: 700;
+                                font-size: 1.92rem;
+                                text-transform: uppercase;
+                            }
+                        }
+                    }
+
+                    .top-nav-clone {
+                        background: none;
+                        text-align: left;
+
+                        .list-wrap {
+                            flex-direction: column;
+                            padding: 0;
+
+                            .list-item {
+                                a {
+                                    border-left: none;
+                                    text-transform: uppercase;
+                                    font-weight: 700;
+                                    font-size: 1.8rem;
+                                    color: $clr-white;
+                                    padding: 1rem 1.5rem;
+                                }
+                            }
+                        }
+                    }
+
+                    .search-box {
+                        background: none;
+                        display: block;
+                        position: relative;
+                        top: 0;
+
+                        .search-holder {
+                            .search-wrapper {
+                                &::before {
+                                    display: none;
+                                }
+
+                                .search-input-wrapper {
+                                    input {
+                                        box-shadow: none;
+                                        padding: 0rem 0rem 0rem 3px;
+                                        font-size: 1.8rem;
+                                        line-height: 30px;
+                                        border: 0px solid $clr-white;
+                                        margin-left: 25px;
+                                        width: 70%;
+                                        color: $clr-white;
+                                        border-radius: 4px;
+
+                                        &:focus-visible {
+                                            border: 3px solid $clr-white;
+                                        }
+
+                                        @include respond-to(desktop) {
+                                            color: $clr-white;
+                                            border-radius: 5px;
+                                            width: 90%;
+                                            padding: 7px;
+                                        }
+
+                                        &::placeholder {
+                                            padding-left: 5px;
+                                            width: 100%;
+                                            background-color: transparent;
+                                            border: none;
+                                            color: $clr-white;
+                                            outline-color: $clr-white;
+                                            font-size: 1.92rem;
+                                            @include Arial-font-stack();
+                                        }
+
+                                        @include respond-to(tab) {
+                                            width: 95%;
+                                        }
+                                    }
+
+                                    button {
+                                        position: absolute;
+                                        right: 0rem;
+                                        background-image: url(../images/site-icons/magnifying_glass.png);
+                                        background-size: contain;
+                                        height: 26px;
+                                        display: inline;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    @include respond-to(desktop) {
+                        padding: 0;
+                    }
+
+                    ul.items {
+                        justify-content: center;
+                        margin-bottom: 0;
+                        padding: 0;
+
+                        li.item {
+                            padding: 1rem 0rem;
+
+                            div {
+                                &.has-sublist {
+                                    margin: 0rem 3rem;
+
+                                    @include respond-to(desktop) {
+                                        margin: 0px;
+                                    }
+                                }
+                            }
+
+                            &:hover {
+                                cursor: pointer;
+
+                                @include respond-to(desktop) {
+                                    background-color: #ffffff33;
+                                }
+                            }
+
+                            &:nth-child(1) {
+                                @include respond-to(desktop) {
+                                    margin-top: 0px;
+                                }
+
+                                margin-top: 10px;
+
+                                @include respond-to(desktop) {
+                                    padding-right: 3rem;
+                                    /*                                    &::after {
+                                        content: "";
+                                        display: inline-block;
+                                        width: 0;
+                                        height: 0;
+                                        margin-left: 2px;
+                                        vertical-align: middle;
+                                        border-top: 4px solid;
+                                        border-right: 4px solid transparent;
+                                        border-left: 4px solid transparent;
+                                        color: $clr-white;
+                                        position: absolute;
+                                        top: 49%;
+                                        right: 2px;
+                                        margin-right: 1rem;
+                                    }
+*/
+                                }
+                            }
+
+                            @include respond-to(desktop) {
+                                padding: 1.5rem;
+                            }
+
+                            &:last-child {
+                                @include respond-to(desktop) {
+                                    //background-image: url("../images/btn-wheretobuy.png");
+                                    //background-repeat: no-repeat;
+                                    //background-size: 88% 66%;
+                                    //background-position: center;
+                                    margin-right: 3vw;
+                                }
+                            }
+
+                            .list-wrap {
+                                &.has-sublist {
+                                    a {
+                                        font-weight: 400;
+                                        font-size: 1.92rem;
+                                        text-transform: uppercase;
+                                        line-height: 20px;
+                                        color: $clr-white;
+
+                                        @include respond-to(desktop) {
+                                            line-height: 80px;
+                                            font-weight: bold;
+                                            font-size: 1.92rem;
+                                            text-transform: uppercase;
+                                        }
+                                    }
+
+                                    &::before {
+                                        font-size: 3.6rem;
+                                        color: $clr-white;
+                                        font-weight: 500;
+                                        font-family: FontAwesome;
+                                        content: "\f105";
+                                        float: right;
+                                    }
+
+                                    a::before {
+                                        color: $clr-white;
+                                        font-weight: 100;
+
+                                        @include respond-to(desktop) {
+                                            display: none;
+                                        }
+                                    }
+
+                                    @include respond-to(desktop) {
+                                        &::before {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+
+                            a {
+                                color: $clr-white;
+                                font-weight: 400;
+                                text-transform: uppercase;
+                                font-size: 1.92rem;
+
+                                @include respond-to(desktop) {
+                                    font-weight: 700;
+                                }
+                            }
+
+                            &:hover {
+                                @include respond-to(desktop) {
+                                    ul.sub-menu-list {
+                                        display: block;
+                                        padding-top: 1rem;
+                                    }
+                                }
+                            }
+
+                            ul.sub-menu-list {
+                                min-width: 24rem;
+                                padding: 5px;
+                                border: 0;
+                                margin: 10px -15px 0;
+                                background-color: $clr-white;
+
+                                @include respond-to(desktop) {
+                                    background-color: $anchor-hover;
+                                    margin: 0px 25px;
+                                    margin-left: -15px;
+                                    border: none;
+                                    box-shadow: none;
+                                    border-radius: 0;
+                                    top: 11rem;
+                                    padding: 0px 2.5rem;
+                                }
+
+                                li.sub-menu-item {
+                                    padding: 0 1rem;
+                                    margin: 0rem 3rem;
+
+                                    @include respond-to(desktop) {
+                                        margin: 0px;
+                                        padding: 0px;
+                                    }
+
+                                    a {
+                                        color: $menu-text-color;
+                                        padding: 10px 0;
+                                        display: block;
+                                        font-size: 1.68rem;
+                                        text-transform: uppercase;
+                                        line-height: normal;
+
+                                        &:hover {
+                                            text-decoration: underline;
+                                            font-weight: 400;
+                                        }
+
+                                        @include respond-to(desktop) {
+                                            color: $clr-white;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.active {
+                .component {
+                    &.plain-html {
+                        .hamburger {
+                            .icon-bar {
+                                &:first-child {
+                                    transform: rotate(45deg) translate(12px, 10px);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            @include respond-to(tablet) {
+                .component {
+                    &.plain-html {
+                        .hamburger {
+                            margin: 18px 0%;
+                        }
+                    }
+                }
+
+                .wrapper {
+                    .wrapper-nav {
+                        margin: 0 -9px;
+                    }
+                }
+            }
+
+            @include respond-to(desktop) {
+                .component {
+                    &.plain-html {
+                        .hamburger {
+                            background: transparent;
+                            padding: 1.2rem 1.5rem 1.5rem 1.5rem;
+
+                            .icon-bar {
+                                background-color: $clr-white;
+                                height: 4px;
+                                width: 30px;
+                                border-radius: 4px;
+                                margin-top: 5px;
+                            }
+                        }
+                    }
+
+                    &.header-global-menu {
+                        ul {
+                            &.items {
+                                li {
+                                    &.item {
+                                        div {
+                                            &.list-wrap {
+                                                margin: 0rem;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .search-wrapper {
+                    .search-input-wrapper {
+                        height: auto;
+                        text-align: right;
+                        padding: 0 27px;
+                        display: inline-block;
+                        line-height: 110px;
+                        top: 12px;
+
+                        .custom-search-box-button {
+                            background-image: url(../images/site-icons/magnifying_glass.png);
+                            height: 26px;
+                            color: $clr-white;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            top: -32px;
+                        }
+                    }
+
+                    &::before {
+                        background: transparent;
+                    }
+                }
+
+                .search-box {
+                    height: 11rem;
+                    padding: 1.2rem 0px;
+                    margin-right: 1.2rem;
+                }
+
+                .logo-container {
+                    .file-type-icon-media-link {
+                        a {
+                            img {
+                                max-width: 30rem;
+                                //top: -2.5rem;
+                            }
+                        }
+
+                        .component-content {
+                            img {
+                                height: auto;
+                            }
+                        }
+                    }
+                }
+
+                .wrapper {
+                    .wrapper-nav {
+                        background-color: transparent;
+                    }
+
+                    .inner-wrap {
+                        .container {
+                            > .row {
+                                > div {
+                                    &:nth-child(2) {
+                                        display: none;
+                                    }
+
+                                    z-index: 2;
+                                    position: absolute;
+                                    padding: 15px 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            @include respond-to(extra-largedesktop) {
+                border-bottom: 0rem solid $primary-color;
+
+                .wrapper {
+                    .inner-wrap {
+                        .container {
+                            > .row {
+                                > div {
+                                    right: 75%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.file-type-icon-media-link {
+    //margin: 15px 6%;
+    padding: 0px;
+    z-index: 2;
+    top: 15px;
+    left: 10.5%;
+
+    @include respond-to(desktop) {
+        //margin: 2.6% -4%;
+    }
+}

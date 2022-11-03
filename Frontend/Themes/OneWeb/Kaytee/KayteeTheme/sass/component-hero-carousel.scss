@@ -50,22 +50,149 @@
       }
     }
   }
-  &.hero-carousel:not(.mulitple-bottom-links) {
-    .caption {
-      h2 {
-        color: $white;
-        font-size: 4.4rem;
-        @include Ubuntu-font-stack();
+  &.hero-carousel {
+    &.responsive-carousel:not(.mulitple-bottom-links) {
+      .slick-prev,
+      .slick-next {
+        display: block !important;
       }
-      p {
-        color: $white;
-        font-size: 2.5rem;
-        font-weight: 400;
+      .slick-next {
+        right: 6%;
       }
-      a {
-        h3 {
-          color: $white;
-          font-size: 1.8rem;
+      .mobile-img {
+        height: 33rem;
+        img {
+          height: 100%;
+          object-fit: cover;
+          object-position: 20%;
+        }
+      }
+      .container {
+        padding-left: 0;
+        padding-right: 0;
+
+        .body-copy {
+          width: 100%;
+          max-width: 100%;
+          .caption {
+            h2 {
+              color: $white;
+              font-size: 2.4rem;
+              @include Ubuntu-font-stack();
+            }
+            p {
+              color: $white;
+              font-size: 2.5rem;
+              font-weight: 400;
+            }
+            h3 {
+              a {
+                color: $white;
+                font-size: 1.8rem;
+              }
+            }
+          }
+        }
+      }
+
+      &.home-carousel {
+        .mobile-img {
+          height: 20rem;
+          img {
+            object-position: 40% 0;
+          }
+        }
+        .container {
+          .body-copy {
+            .caption {
+              max-width: 100%;
+              h2 {
+                font-size: 2.4rem;
+              }
+
+              p {
+                font-size: 1.6rem;
+              }
+
+              a {
+                h3 {
+                  color: $white;
+                  font-size: 1.2rem;
+                }
+              }
+
+              .sxa-btn {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @include respond-to(tab) {
+    &.hero-carousel {
+      &.responsive-carousel:not(.mulitple-bottom-links) {
+        .slick-next {
+          right: 3%;
+        }
+        .container {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+
+  @include respond-to(desktop) {
+    &.hero-carousel {
+      &.responsive-carousel:not(.mulitple-bottom-links) {
+        .slide:not(.wrap) {
+          min-height: 55rem;
+        }
+        .slick-next {
+          right: 2%;
+        }
+        .container {
+          max-width: 114rem;
+          .body-copy {
+            border-radius: 0;
+            max-width: 46.7rem;
+            .caption {
+              h2 {
+                font-size: 4.4rem;
+              }
+              p {
+                color: $white;
+                font-size: 2.5rem;
+                font-weight: 400;
+              }
+              h3 {
+                a {
+                  color: $white;
+                  font-size: 1.8rem;
+                }
+              }
+            }
+          }
+        }
+        &.home-carousel {
+          .container {
+            display: flex;
+            justify-content: center;
+            .body-copy {
+              background-color: transparent !important; // to override default settings
+              .caption {
+                max-width: 100%;
+                h2 {
+                  font-size: 4.4rem;
+                }
+                p {
+                  font-size: 2rem;
+                }
+              }
+            }
+          }
         }
       }
     }

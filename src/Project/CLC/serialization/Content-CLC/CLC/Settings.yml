@@ -20,6 +20,9 @@ SharedFields:
     {5A6BF1D1-836B-425A-A6E6-32CEAA8FF3A5}
     {B14BAB5B-8965-466B-886B-1F93175BCAB3}
     {041C1F9F-99A4-4EE6-8308-985499F91032}
+- ID: "96e5e297-6fd1-46d6-8e92-b03e33a9376c"
+  Hint: Error404Page
+  Value: /sitecore/content/OneWeb/CLC/Home/clc
 - ID: "ad84cc6b-32ef-49d8-9326-916976cb2520"
   Hint: Grid Mapping
   Value: "%7bFE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3%7d%3d%257BFDFEE3CD-14DA-4485-B311-79F21BDE952D%257D"
@@ -33,6 +36,9 @@ SharedFields:
 - ID: "beeede03-ab13-4558-96f9-c3e8957b46f8"
   Hint: Themes
   Value: "{42AF2CB2-1856-4316-B919-C92F22B64FC2}"
+- ID: "d91bf82c-0e2b-4b79-ae85-e54b9afd5026"
+  Hint: Error500Page
+  Value: /sitecore/content/OneWeb/CLC/Home/clc
 - ID: "e81e1f9e-8b87-495b-9cb7-84a2a23133be"
   Hint: MediaLibrary
   Value: "{A9548EE4-BF44-4B43-8D45-5AEB0A288F90}"
@@ -60,11 +66,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "70b26cd5-f60c-4957-a98c-47604412aa3d"
+      Value: "99565a49-f8d3-4cce-ae7f-1cd775f52cdd"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20221012T124428Z
+      Value: 20221102T053453Z

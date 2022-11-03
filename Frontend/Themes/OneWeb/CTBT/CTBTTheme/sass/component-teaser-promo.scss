@@ -1,0 +1,9 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "base/fonts/fonts";
+
+.component {
+  &.teaser-promo {
+    @import "variants/component-teaser-promo/variant-5.scss";
+  }
+}

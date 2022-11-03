@@ -1,0 +1,64 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.feature-content-tiles {
+    &.variant-1 {
+      padding: 0;
+      .content-wrapper {
+        .inner-wrapper {
+          .copy-wrap {
+            .field-image {
+              max-width: 65%;
+              margin: auto;
+            }
+          }
+        }
+      }
+    }
+
+    &.variant-5 {
+      &.with-image-cta {
+        &.feature-tiles {
+          .section-container {
+            .field-data {
+              a {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+
+      &.with-image-cta {
+        .section-container {
+          > .row {
+            justify-content: center;
+          }
+          .field-data {
+            text-align: center;
+            h2 {
+              color: $black;
+              font-size: 2.2rem;
+            }
+          }
+        }
+      }
+    }
+
+    @include respond-to(desktop) {
+      &.variant-5 {
+        &.with-image-cta {
+          .section-container {
+            .field-data {
+              h2 {
+                font-size: 3.2rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

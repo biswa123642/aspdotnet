@@ -3,6 +3,13 @@ ID: "a1013836-290f-45d2-ba84-28c35ad18f89"
 Parent: "afed21fd-ee1c-46ee-aee4-9c3d1af3b62d"
 Template: "afed21fd-ee1c-46ee-aee4-9c3d1af3b62d"
 Path: /sitecore/templates/Feature/OneWeb/Search/Rendering Parameters/SearchResultsListingRenderingParameter/__Standard Values
+SharedFields:
+- ID: "0349bedd-ca63-44ce-afb3-8b96d52d8622"
+  Hint: SortingLookup
+  Value: title_alpha_sort
+- ID: "5a2a20cc-4396-4f6f-adea-fa0f646afd34"
+  Hint: SortDirection
+  Value: asc
 Languages:
 - Language: en
   Versions:
@@ -13,11 +20,11 @@ Languages:
       Value: 20220707T091318Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e607823e-5919-4171-ab3f-9e5425ae5f3b"
+      Value: "00bf10e7-3df3-4d3f-9b0e-13a3c98bdae6"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220707T091318Z
+      Value: 20221101T112648Z

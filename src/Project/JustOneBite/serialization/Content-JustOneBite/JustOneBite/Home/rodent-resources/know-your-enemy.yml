@@ -1,0 +1,144 @@
+﻿---
+ID: "842d4e5d-70ca-48bc-a74d-8adb4ef17362"
+Parent: "58b28462-c006-45a9-a7cd-e5e100265d49"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/JustOneBite/Home/rodent-resources/know-your-enemy"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "d4952280-2d7d-4bf4-a99a-ea36dad0f0a7"
+  Hint: Body Css Class
+  Value: "know-your-enemy"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{B3ED5A0A-DCA7-4C66-91C9-66CF8AB38A17}"
+          p:before="*"
+          s:ds="page:"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BFFF92AD1-B9FF-4ED0-9316-F18C1B5B5508%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=12"
+          s:ph="/main/row-1-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{A938B337-2190-4158-B31E-DA935BDC7A5C}"
+          p:after="r[@uid='{B3ED5A0A-DCA7-4C66-91C9-66CF8AB38A17}']"
+          s:ds="{EE2BC88E-8A61-4169-97A1-C1305BE91974}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7B9A295CF0-1C1D-4D3D-B3B7-7F7FB1DFE918%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
+          s:ph="/main/row-2-1/container-2/column-2-3" />
+        <r
+          uid="{07905423-A1BB-4E86-A10F-E9BFEA00D32E}"
+          p:after="r[@uid='{A938B337-2190-4158-B31E-DA935BDC7A5C}']"
+          s:ds="{03DB987B-132F-4111-A933-ADFE318E3CE6}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles=%7BA33FECBF-AE24-47A7-9E29-939DF65ABEE2%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{C9C60B48-00B9-4432-9A3B-17DDAAFB6F98}"
+          p:after="r[@uid='{07905423-A1BB-4E86-A10F-E9BFEA00D32E}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{80451686-9214-4E75-A9B7-97C1BEAC448A}"
+          p:after="r[@uid='{C9C60B48-00B9-4432-9A3B-17DDAAFB6F98}']"
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/row-3-1/container-8" />
+        <r
+          uid="{17317DF8-900A-42B3-B471-C8BB80DCE640}"
+          p:after="r[@uid='{80451686-9214-4E75-A9B7-97C1BEAC448A}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/row-3-1" />
+        <r
+          uid="{3A2D5373-22A7-4722-B0E2-7EA3D3987347}"
+          p:after="r[@uid='{17317DF8-900A-42B3-B471-C8BB80DCE640}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B761F344B-5427-4D14-86D2-7D2DE2399ACC%7D&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-4-1" />
+        <r
+          uid="{93A9DE99-174F-4172-BCA5-C3FFF8D9ECA3}"
+          p:after="r[@uid='{3A2D5373-22A7-4722-B0E2-7EA3D3987347}']"
+          s:ds="{E3783C01-F558-4EF3-AE88-2BD766E2D0D0}"
+          s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass&amp;FieldNames=%7BDD2A67DD-2C78-484F-9B69-9E17B40C4BD1%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-4-1/container-6"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{B5ED9191-411D-4228-AEF0-1F0E73326EF2}"
+          p:after="r[@uid='{93A9DE99-174F-4172-BCA5-C3FFF8D9ECA3}']"
+          s:ds="{93EDF217-3F04-44F4-890A-F91094834B8B}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles=%7B9A295CF0-1C1D-4D3D-B3B7-7F7FB1DFE918%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-2-1/container-2/column-1-3"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{88607BFC-2896-4486-92B7-1F4CD95B1A56}"
+          p:after="r[@uid='{B5ED9191-411D-4228-AEF0-1F0E73326EF2}']"
+          s:ds=""
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7BC417AE43-BBE2-4B58-9B43-A125B3013ADE%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth2=%7BC417AE43-BBE2-4B58-9B43-A125B3013ADE%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-2-1/container-2" />
+        <r
+          uid="{24F2815C-6503-456B-B807-B7F4D8A9F5C3}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3%2C4&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{BB7B0D8E-F730-454B-A124-0E811614E176}" alt="rr1" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220901T073056Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{53398FD5-4DCE-4D07-A7CF-7C35D2BCAB16}" alt="header image" height="" width="" hspace="" vspace="" />
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "know-your-enemy"
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <div class="rodent-resources-text">To successfully control your rodent problem, it’s important to know exactly what type of rodent you’re dealing with. Whether you have just one mouse or an infestation of rats, knowing your enemy is the first step to taking back your home or barn.</div>
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Know Your Enemy - Identify Rodent Types | Just One Bite"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: "Know Your Enemy - Identify Rodent Types | Just One Bite"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b601c8f3-ab53-4155-91c7-23b9ba5e83ae"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220927T103309Z

@@ -1,0 +1,71 @@
+﻿---
+ID: "311649bf-81c2-441f-8c4d-553bf3d8a14b"
+Parent: "97e38395-96a0-494e-98f2-f32a4130cdee"
+Template: "6659b02d-bd4b-4821-b452-77fca1da6b43"
+Path: "/sitecore/content/OneWeb/Kaytee/Home/all-products/small-animal/paw-print-petware-bunny/Variant Grouping/paw-print-petware-bunny"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 10
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17cdad4b-b760-4682-b72d-fda00dd2e27d"
+      Hint: VariantDescription
+      Value: |
+        <ul>
+            <li>Made with durable chew proof ceramic</li>
+            <li>Heavy duty design prevents tipping</li>
+            <li>Available in assorted colors<br />
+            <div>&nbsp;</div>
+            </li>
+        </ul>
+        <div class="panel-group product-description-accordion" id="accordion">
+        <div>&nbsp;</div>
+        <div class="panel">
+        <div class="panel-heading">
+        <h4 class="panel-title" style="z-index: 1;"><a data-toggle="collapse" data-parent="#accordion" href="#Color">Color</a></h4>
+        </div>
+        <div id="Color" class="panel-collapse collapse">
+        <div class="panel-body">Assorted Colors
+        <p>&nbsp;</p>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="dimensions">
+        <h4>Dimensions</h4>
+        4.75" x 4.75" x 2.87"</div>
+        <div class="weight">
+        <h4>Weight</h4>
+        0.8 pounds</div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221021T123426Z
+    - ID: "69ad85ef-73f1-44cf-9914-11f9bd56e901"
+      Hint: MediaList
+      Value: "{358CAC35-FB06-435A-8749-4376419FAFA6}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "46205466-daf1-4971-84c7-0af8c23dcb90"
+    - ID: "915344f6-4f20-4302-9772-bef16cc60be7"
+      Hint: VariantSKU
+      Value: 100079396
+    - ID: "ab6b066d-6827-43a6-a71f-8c00b52d5046"
+      Hint: VariantTitle
+      Value: Bunny
+    - ID: "b21616dc-9e40-44ea-8d25-46375182cdef"
+      Hint: VariantPrice
+      Value: 0
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c6a670f2-49c5-46e4-8241-c9e21eced0db"
+      Hint: VariantUPC
+      Value: 045125618242
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221025T054952Z

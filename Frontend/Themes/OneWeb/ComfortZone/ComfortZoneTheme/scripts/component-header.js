@@ -10,21 +10,31 @@
             $('.scroll-button-wrap .to-top').css('bottom' , '12rem');
         }        
     }    
- 
+    function pageactive(activeItem){
+        $('.link-list-tab-style a').each(function(){
+            var currentitem = $(this).attr('href')
+            if(currentitem == activeItem){
+                $(this).addClass('active-link');
+                
+            }
+        })
+     }
      function pageheight(){
         var header = $('#header').height();
         var footer = $('#footer').height();
         var contentheight =  $(window).height();
         var mainHeight = contentheight - (header + footer);
         $('#content').css('min-height', mainHeight )
-     }
-     
-    
+     }  
  
     function inpurwapper(){
         $('.product-variant select:not(:disabled)').wrap('<div class="dropdown-wrapper"></div>');
     }
-   
+    function setScroll(selection) {
+        $("html, body").animate({
+            scrollTop: selection.offset().top - 100
+        }, 200);
+    }
     function tabaccordian(){
         // accordian 
             $('.tabs-accordion .collapse:not(.show)').each(function(){
@@ -40,7 +50,7 @@
    
     pageheight();
     $(window).scroll(backTotop);
-
+    pageactive(window.location.pathname);
     if($('.product-variant select:not(:disabled)').length){
         inpurwapper();
     }
@@ -109,5 +119,26 @@
         var staticImage = $(this).find(".static-image").first();
         $(this).css("padding-bottom", staticImage.height());
     });
+     // Global functions
+   
+      // Create smooth jumps to anchors
+      $(".score-anchorpoint").each(function (i, e) {
+        var anchor = $(this);
+        var hash = "#" + anchor.attr("id");
+        var inPageLink = $("a").filter(function (i, e) {
+            return $(this).attr("href") === hash;
+        });
+        if (inPageLink.length) {
+            inPageLink.click(function (event) {
+                event.preventDefault();
+                setScroll(anchor);
+                if (history.pushState) {
+                    history.pushState(null, null, hash);
+                } else {
+                    location.hash = hash;
+                }
+            });
+        }
+    })
     
 })(jQuery);

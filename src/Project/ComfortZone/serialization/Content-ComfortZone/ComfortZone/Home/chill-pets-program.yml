@@ -15,53 +15,47 @@ SharedFields:
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
-          uid="{2ADB377E-125D-4A09-BC05-7082A9ADA08D}"
-          p:before="*"
-          s:ds="{F3EE898F-D534-4B1E-8EF8-D63EA45F182E}"
-          s:id="{882F60C4-4A33-4995-AC39-C8FF97EE8F1D}"
-          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B0A165447-FFF3-44FB-8521-2AFCDFEA24E5%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
-          s:ph="/main/row-4-1/container-5" />
-        <r
-          uid="{E8E9617A-77BD-46A2-8D5B-0E7349F7F966}"
-          p:after="r[@uid='{2ADB377E-125D-4A09-BC05-7082A9ADA08D}']"
-          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
-          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
-          s:ph="/main/row-4-1" />
-        <r
-          uid="{69D28083-DAE3-4473-AA08-908AD6422801}"
-          p:after="r[@uid='{E8E9617A-77BD-46A2-8D5B-0E7349F7F966}']"
-          s:ds="{B4FCEB32-1CDE-4716-9D31-D0F53CEC4956}"
-          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
-          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
-          s:ph="/main/row-3-1/container-4" />
-        <r
-          uid="{0EB52F55-A690-4F7E-B64A-CFF92E4FCE83}"
-          p:after="r[@uid='{69D28083-DAE3-4473-AA08-908AD6422801}']"
-          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
-          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
-          s:ph="/main/row-3-1" />
-        <r
           uid="{B2650F39-FC2A-4B78-97D0-D2F17CC37D9F}"
-          p:after="r[@uid='{0EB52F55-A690-4F7E-B64A-CFF92E4FCE83}']"
+          p:before="*"
           s:ds="{E6860F95-BD0B-4B0F-A425-0E579DC8F942}"
           s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
-          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
-          s:ph="/main/row-2-1/container-3" />
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D%7C%7B483AF548-57D7-4735-A003-5710259189CC%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-2-1/container-3"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{69D28083-DAE3-4473-AA08-908AD6422801}"
+          p:after="r[@uid='{B2650F39-FC2A-4B78-97D0-D2F17CC37D9F}']"
+          s:ds="{B4FCEB32-1CDE-4716-9D31-D0F53CEC4956}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D%7C%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/row-2-1/container-3"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{2ADB377E-125D-4A09-BC05-7082A9ADA08D}"
+          p:after="r[@uid='{69D28083-DAE3-4473-AA08-908AD6422801}']"
+          s:ds="{F3EE898F-D534-4B1E-8EF8-D63EA45F182E}"
+          s:id="{882F60C4-4A33-4995-AC39-C8FF97EE8F1D}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B0A165447-FFF3-44FB-8521-2AFCDFEA24E5%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/row-2-1/container-3"
+          s:ccb="Clear on publish" />
         <r
           uid="{DDFCB87A-40C6-4C15-86F7-C92E993FC9EB}"
-          p:after="r[@uid='{B2650F39-FC2A-4B78-97D0-D2F17CC37D9F}']"
+          p:after="r[@uid='{2ADB377E-125D-4A09-BC05-7082A9ADA08D}']"
+          s:ds=""
           s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
           s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
           s:ph="/main/row-2-1" />
         <r
           uid="{00DE136C-8B61-45AE-BE8B-28281057829C}"
           p:after="r[@uid='{DDFCB87A-40C6-4C15-86F7-C92E993FC9EB}']"
+          s:ds=""
           s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
           s:par="BreadcrumbRoot&amp;Separator=%3E&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B1D790729-2C96-41CB-AB54-EFCE42474F1E%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
           s:ph="/main/row-1-1/container-2" />
         <r
           uid="{A63E3B64-30DA-4FB7-9126-CCAEE0DE6306}"
           p:after="r[@uid='{00DE136C-8B61-45AE-BE8B-28281057829C}']"
+          s:ds=""
           s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
           s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
           s:ph="/main/row-1-1" />
@@ -70,8 +64,9 @@ SharedFields:
           p:after="*[1=2]"
           s:ds=""
           s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
-          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3%2C4&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
-          s:ph="main" />
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2=%7B3A3BB9DA-AACF-4939-8706-4D3E106DD309%7D&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;DynamicPlaceholderId=1"
+          s:ph="main"
+          s:ccb="Clear on publish" />
       </d>
     </r>
 Languages:
@@ -111,7 +106,7 @@ Languages:
       Value: "Chill Pets Club Newsletter - Tips, Advice & Offers | Comfort Zone"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6db68bb4-23c5-4807-883f-ba73a0604d92"
+      Value: "648ce0a3-a53b-45f5-9476-a7cfa366dabb"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -122,4 +117,4 @@ Languages:
         <image mediaid="{5F9629F8-A133-401A-BEE6-CAEB29D6CC0B}" />
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220930T111908Z
+      Value: 20221029T082606Z

@@ -1,0 +1,31 @@
+// Main colors
+$clr-green-olive: #669900;
+$clr-brown-dirt: #746941;
+$clr-black: #000;
+$clr-white: #fff;
+
+$primary-color: $clr-green-olive;
+$secondary-color: $clr-brown-dirt;
+$default-font-color: $clr-black;
+$anchor-color: $primary-color;
+$anchor-hover: $primary-color;
+$transparent-color: transparent;
+
+//Heading Colors
+$heading1-color: $secondary-color;
+$heading2-color: $primary-color;
+$heading3-color: $primary-color;
+$heading4-color: $primary-color;
+$heading5-color: $primary-color;
+$heading6-color: $primary-color;
+
+//Breadcrumb separator
+$separator-color: $clr-black;
+
+$nav-arrow: $clr-black;
+$text-basic: $clr-black;
+$secondary-nav-bg: $secondary-color;
+$menu-text-color: $clr-white;
+$anchor: $primary-color;
+$dark-color: $secondary-color;
+$card-background-color: $secondary-color;

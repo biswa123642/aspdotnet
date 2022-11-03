@@ -1,0 +1,37 @@
+﻿---
+ID: "f87f4897-37c7-4bfb-b004-b061d32fe645"
+Parent: "f6c483b8-adbd-49ff-b9d7-27edff291fa8"
+Template: "3c7c79e8-554d-46d9-bf1a-63da22a4ee6f"
+Path: /sitecore/content/OneWeb/ImageForWeeds/Data/Hero Carousel/Home Page/Hero Carousel/Slide 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220907T094945Z
+    - ID: "3bfd4b9e-3049-4c8d-a9b5-6bebb83f895d"
+      Hint: SlideImage
+      Value: |
+        <image mediaid="{ED879D01-208E-4BB4-8AF7-8DCE937F5DFC}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "edddfc50-8398-4fd6-9294-ab181c14b2f5"
+    - ID: "a8933445-15ca-4e23-b171-a33892eb0ef8"
+      Hint: SlideCardTitle
+      Value: "ALL-IN-ONE <br /> LAWN WEED KILLER"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d691b058-6e52-4e4b-baae-a23aed9de6e0"
+      Hint: SlideCardSubText
+      Value: "kills tough weeds to the root!"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220907T100130Z
+    - ID: "e10d2e79-68cc-438a-a732-abf80f62be76"
+      Hint: SlideCardCTA
+      Value: |
+        <link id="{F17A1D6D-0842-42C6-AA95-B7C202AAD70C}" querystring="" target="" rel="" text="Learn More" url="/ImageForWeeds/NA/US/home/all-products/all-in-one-rts" linktype="internal" />

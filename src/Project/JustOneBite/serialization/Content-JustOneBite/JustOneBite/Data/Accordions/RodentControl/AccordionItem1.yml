@@ -1,0 +1,80 @@
+﻿---
+ID: "c8948c08-1556-4009-b840-e6db5e23f99f"
+Parent: "24dd86c1-ced0-4e96-a02c-670f2ff76fd9"
+Template: "a6ddac75-7d24-4bdb-b3f6-5f47fbb21379"
+Path: /sitecore/content/OneWeb/JustOneBite/Data/Accordions/RodentControl/AccordionItem1
+BranchID: "bab1fb9b-58a3-4df8-9f05-204b25ddb8e0"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{09BD444B-FABC-47EA-981D-2C8271655469}">
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B5423143A-760D-4F0E-BA4D-0B02E649A778%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-title"
+          uid="{AA42AB61-F78A-4919-8286-990A7AC4EF60}" />
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-content"
+          uid="{7CD43453-A04F-4E39-A0B0-77B863F139AE}" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{A9A2844A-F548-402E-B58B-7EB1FC2908BD}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220901T114107Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5a236869-e375-49c0-a92d-0c2f1db7788f"
+      Hint: Content
+      Value: |
+        <div class="rodent-resources-bulleted">Sealing off rodents’ access to food, water, or harborage is the first step in controlling rodents. Below are tips to help you seal your home, workplace, or barn.
+        <ul>
+        <li>Prohibit access to food -- that’s why rodents are there in the first place. Seal all food in rodent-proof containers or secure storage cabinets</li>
+        <li>Find and seal any cracks or holes large enough for the critters to enter– and it doesn’t take much. A mouse can slip through an opening the size of a dime – a rat only needs a nickel’s worth of clearance</li>
+        <li>Check condition of attic and foundation vents – and cover with ¼” wire screen mesh – screen over dryer vents, too</li>
+        <li>Cover foundation cracks with concrete mortar, metal flashing, or copper wool (steel wool can rust away)</li>
+        <li>Be sure to check where pipes and wires enter the building, and seal snugly around them. Don’t use anything they can chew through like plastic, wood, or cardboard. Metal is best</li>
+        <li>Cover chimney top with spark arrester screen</li>
+        <li>Fit snug fitting covers on crawl spaces</li>
+        <li>Keep doors and windows securely closed and sealed – make sure screens have no holes</li>
+        <li>Put sealing gasket on bottom of garage door – check each end for gaps – and seal</li>
+        </ul>
+        </div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7240053b-9140-48ac-acea-abfccd7761a1"
+      Hint: Heading
+      Value: |
+        <div class="rodent-accord-title">SEAL</div>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1fa932e1-75ce-4ab9-b164-2c941f7d8ef8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220923T100603Z

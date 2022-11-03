@@ -1,0 +1,44 @@
+﻿---
+ID: "229e06c4-c597-49d6-b2e6-051f01c5dcee"
+Parent: "7fbe3c02-b33a-410c-a023-060fc1982ac5"
+Template: "9874a4bd-a371-4049-85e6-0ed0ad713e54"
+Path: /sitecore/content/OneWeb/JustOneBite/Data/Solution Finder/Solution Finder/Place4/Outdoor
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03b55013-fdf9-40f2-9e5b-88d26865df7b"
+      Hint: Image
+      Value: |
+        <image mediaid="{A16D3BA5-DD11-4C20-B454-455D64A7B604}" alt="sf outdoors" height="" width="" hspace="" vspace="" />
+    - ID: "0a9a0bf9-863c-4c36-8bc6-b576213cbad9"
+      Hint: Order
+      Value: 2
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220905T123341Z
+    - ID: "4d1593b6-8eac-4cd1-8383-16cbc881112e"
+      Hint: Title
+      Value: Outdoors
+    - ID: "51a7792c-e5b0-4f4e-b6ac-b1bbac2daa48"
+      Hint: NextQuestion
+      Value: "{B034CFE0-BA89-43AB-8989-29077A955D87}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5890b3ea-1a25-401c-b722-1f55a43df323"
+    - ID: "967543d6-dddb-4b55-b6ff-ab2ca3fbe30c"
+      Hint: RequiredAnswers
+      Value: |
+        {A111CC10-2EDB-4A02-91BC-6D2A8A42659B}
+        {DE2EDEC1-253E-476A-96D6-B3A506EE34BE}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d53f6957-984b-4af6-a3c6-696f1ef8ec04"
+      Hint: Value
+      Value: outdoor
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220909T083219Z

@@ -6,7 +6,7 @@ Path: "/sitecore/content/OneWeb/CLC/Home/clc/grant-barry"
 SharedFields:
 - ID: "76fb6ffd-4487-4028-a1cf-705fbe360cba"
   Hint: Priority
-  Value: 0.5
+  Value: "{19F3E919-4991-495F-9207-E1DADFD06F54}"
 - ID: "9135200a-5626-4dd8-ab9d-d665b8c11748"
   Hint: __Never publish
   Value: 1
@@ -22,6 +22,9 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20221014T074138Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value:  
@@ -43,7 +46,7 @@ Languages:
       Value:  
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "33ba9f23-34e2-4cab-bb0a-184cc4cfbfde"
+      Value: "46d2ae6f-7c2d-492a-859f-249b3fcd5de4"
     - ID: "ab818f97-8aa8-4d81-9e70-29c2d400c1fb"
       Hint: RenderCanonicalTag
       Value: 1
@@ -53,8 +56,7 @@ Languages:
         sitecore\Admin
     - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
       Hint: OpenGraphImageUrl
-      Value: |
-        <image mediaid="{48BB78B2-18EF-4401-8B05-90B7BE1C56E8}" />
+      Value: 
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20221021T111503Z
+      Value: 20221102T054134Z

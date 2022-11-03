@@ -1,0 +1,52 @@
+﻿---
+ID: "6e41818f-dedd-4d88-8779-c6e89aa0fa64"
+Parent: "badb5f1b-b2e8-4242-bfb7-bc8af609bfa6"
+Template: "d1070ed7-b4f7-4c03-b622-f9b5fb072dea"
+Path: /sitecore/content/OneWeb/Kaytee/Data/Teaser Promo/kaytee/item9
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1000
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220830T100556Z
+    - ID: "7cf24deb-783d-4e7a-be2d-1c5410b73c66"
+      Hint: FirstCTA
+      Value: |
+        <link text="Learn More &gt;&gt;&gt;" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{3A1C616E-EB51-4CA9-80D1-1E283E0F87D3}" />
+    - ID: "81651106-4b95-4713-84df-90a36c488b2f"
+      Hint: TeaserImage
+      Value: |
+        <image mediaid="{EA267CFC-726D-4A08-AF15-72E18DB12106}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e2466f11-5a54-49d2-b60a-8da29571ee08"
+    - ID: "9fd53b32-f6f3-484c-b662-d9a1b2013a0d"
+      Hint: Description
+      Value: |
+        <div>
+        <span>Did you know your small animal is a natural forager? Introducing Food from the Wild&trade;, Kaytee&rsquo;s new small animal food line inspired by ancestral feeding habits.</span>
+        </div>
+        <br class="t-last-br" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "ca6a3070-03e0-47cf-ba54-c58f83c49cfa"
+      Hint: Title
+      Value: |
+        <h2>
+        Food From The Wild
+        </h2>
+        <br class="t-last-br" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220905T074421Z

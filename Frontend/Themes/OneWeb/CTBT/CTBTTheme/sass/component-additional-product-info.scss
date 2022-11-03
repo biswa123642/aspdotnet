@@ -1,0 +1,14 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+@import "base/fonts/fonts";
+@import "base/fontawesome/font-awesome";
+
+.component {
+    &.rich-text {
+        h3 {
+            color: $heading3-color;
+            font-size: 2rem;
+        }
+    }
+}

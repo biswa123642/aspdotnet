@@ -1,0 +1,157 @@
+﻿---
+ID: "d7308478-29f8-4411-a5ef-fbdc8d377d80"
+Parent: "f57ddd6c-e92c-47cf-8155-3d5d89b21e65"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/IMS/Home/where-to-buy"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1200
+- ID: "d4952280-2d7d-4bf4-a99a-ea36dad0f0a7"
+  Hint: Body Css Class
+  Value: "canvas-bg where-to-buy-page"
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: 
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{13179B7F-2359-475D-B324-4E18F13123AC}"
+          p:before="*"
+          s:ds="{0EB87F0E-D3E7-41DF-8CA9-1B2C4AA3F5AA}"
+          s:id="{6DDA07A9-18D3-47A0-AB74-DF54956DD5F1}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;RenderingIdentifier"
+          s:ph="/main/row-2-1/container-8"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{07FFEA9D-2B87-40AB-90E7-C9535E183F65}"
+          p:after="r[@uid='{13179B7F-2359-475D-B324-4E18F13123AC}']"
+          s:ds="{D2041FD9-3BC9-4B59-8BC2-E66C85B99A51}"
+          s:id="{189D0B61-1B80-4180-8F7A-25BCD63692BB}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B1B7E81AF-A74E-4013-929B-E2ECF25B1ED8%7D&amp;Styles&amp;TitleHeadingLevel=%7B6A44D9C6-61F0-4B69-8E1A-FDC27F96BA0F%7D&amp;RenderingIdentifier=link-list-vertical&amp;DynamicPlaceholderId=11"
+          s:ph="/main/row-2-1/container-8/column-1-9"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{3F60C7B8-0194-4585-A933-BE6D887845CB}"
+          p:after="r[@uid='{07FFEA9D-2B87-40AB-90E7-C9535E183F65}']"
+          s:ds="{BBBA841C-C774-4AF4-830B-F6E7F300E0E7}"
+          s:id="{064D8EB1-51D4-41AA-90DD-166CA0D5F899}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BDDA8D06E-09FD-4A6D-930E-7891DBA3AE74%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/row-2-1/container-8/column-2-9" />
+        <r
+          uid="{999EE8F6-1ECF-496A-AE86-543972230C33}"
+          p:after="r[@uid='{3F60C7B8-0194-4585-A933-BE6D887845CB}']"
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B5D74AF38-1A37-491A-A4BB-A9E251D862F3%7D&amp;ColumnWidth2=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B2AA00BBE-9366-43C7-8604-B6C431AEE01D%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=9"
+          s:ph="/main/row-2-1/container-8" />
+        <r
+          uid="{3EABD4D8-74A1-41E5-B248-A3C199883E2A}"
+          p:after="r[@uid='{999EE8F6-1ECF-496A-AE86-543972230C33}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D%7C%7BFCA63CD5-CFCB-413B-872E-307FD9F3DD60%7D%7C%7B748ABD0B-16B9-4091-B47D-579D7DFF989A%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{094FC067-565B-47AE-9E3C-38B40E9E815D}"
+          p:after="r[@uid='{3EABD4D8-74A1-41E5-B248-A3C199883E2A}']"
+          s:ds="page:"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BEB97EC7C-7A08-4D35-835C-AA9365EE9319%7D&amp;Styles=%7B02105290-9685-4CF6-AFE6-C2931A5B017C%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7&amp;CacheClearingBehavior=Clear%20on%20publish"
+          s:ph="/main/row-3-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{90F18FF4-4020-4173-9741-9A885ED3AFCE}"
+          p:after="r[@uid='{094FC067-565B-47AE-9E3C-38B40E9E815D}']"
+          s:ds="{77B5D51B-047E-441C-8390-2B23530B553A}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BC459FD9B-8355-4FB0-8C6C-3F5FC451BE18%7D&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D%7C%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=13"
+          s:ph="/main/row-3-1" />
+        <r
+          uid="{2A2EB043-58DA-491E-9AEA-EC9B85709623}"
+          p:after="r[@uid='{90F18FF4-4020-4173-9741-9A885ED3AFCE}']"
+          s:ds="{01BB0F21-C69D-4B4D-9608-9BE7E1E44EEA}"
+          s:id="{1A78A8D3-5F37-47DA-BD51-1835586142F1}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B3CF74966-9C0F-429B-B950-0FEFF8FBDA2D%7D&amp;Styles=%7BE951A28D-10FF-4D94-BDE6-BB1DDE779D5E%7D%7C%7BAC5E1542-8A6F-42F1-B029-DCF684E2D946%7D&amp;Utility Navigation&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=12"
+          s:ph="/main/row-3-1" />
+        <r
+          uid="{67AEFA7A-3D11-484B-B219-D8C30450751C}"
+          p:after="r[@uid='{2A2EB043-58DA-491E-9AEA-EC9B85709623}']"
+          s:ds=""
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-1-1/container-2" />
+        <r
+          uid="{81A1EB67-91F4-4055-BC52-A1D1738A4E65}"
+          p:after="r[@uid='{67AEFA7A-3D11-484B-B219-D8C30450751C}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D%7C%7BE951A28D-10FF-4D94-BDE6-BB1DDE779D5E%7D%7C%7BAC5E1542-8A6F-42F1-B029-DCF684E2D946%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{1E3E1286-4710-400E-B5C9-FEC8763A419D}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3&amp;Styles1&amp;Styles2&amp;Styles3=%7B6B36B219-67EF-4167-B377-0CFE24BB67EB%7D&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{8230DB32-FBB3-4023-9D85-393E368C0326}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220721T085130Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{8230DB32-FBB3-4023-9D85-393E368C0326}" />
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "where-to-buy"
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <div class="where-to-buy">
+        <h2>WHERE TO BUY CADET<sup>&reg;</sup>&nbsp;DOG TREATS &amp; CHEWS NEAR YOU</h2>
+        <p>Let the chewing adventure begin! Discover your fur friend&rsquo;s favorite natural chews and treats online and in stores near you.</p>
+        <p>Assortment will vary by retailer.</p>
+        </div>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "Use our locator tool to discover where you can find Cadet dog treats & chews online and in stores near you!"
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Where to Buy Cadet Dog Treats & Chews | Find a Retailer
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Where to Buy Cadet Dog Treats & Chews | Find a Retailer
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f7021b86-3cc6-462c-98a7-68f79de3f0c5"
+    - ID: "ab818f97-8aa8-4d81-9e70-29c2d400c1fb"
+      Hint: RenderCanonicalTag
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220823T070846Z

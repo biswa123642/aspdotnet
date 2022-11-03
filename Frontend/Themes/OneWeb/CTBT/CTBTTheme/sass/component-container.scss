@@ -1,0 +1,16 @@
+@import "abstracts/mixins";
+
+.container{
+    &:not(.col-12){
+        padding-left: 6%;
+        padding-right: 6%;
+        @include respond-to(desktop){
+            padding: 0 1.5rem;
+        }
+        @include respond-to(extra-largedesktop){
+            max-width: 100%;
+            padding: 0px 5rem;
+
+        }
+    }
+}

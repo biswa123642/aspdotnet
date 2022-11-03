@@ -6,7 +6,10 @@
     max-width: 770px;  
     @include respond-to(desktop){
         max-width: 990px;
-        
+        > .component-content {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
     }
     @include respond-to(large-desktop){
         max-width: 1190px;

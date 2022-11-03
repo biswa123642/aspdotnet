@@ -47,6 +47,16 @@
           }
         }
       }
+
+      .copyright {
+        p {
+          @include Arial-font-stack();
+          span {
+            color: $white;
+            font-size: 1.52rem;
+          }
+        }
+      }
     }
   }
 

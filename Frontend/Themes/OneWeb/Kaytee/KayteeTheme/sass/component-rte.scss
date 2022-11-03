@@ -19,8 +19,12 @@
     }
     h2 {
       color: $black;
-      font-size: 3.2rem;
+      font-size: 2.2rem;
       @include Roboto-font-stack();
+
+      &.red-heading {
+        color: $primary-color;
+      }
     }
     h3 {
       font-size: 2.4rem;
@@ -32,10 +36,49 @@
     }
     a {
       color: $primary-color;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      &.shop-btn {
+        color: $white;
+      }
     }
 
     .home-text {
       color: $primary-color;
+    }
+
+    .commitment-content {
+      p {
+        font-size: 2.4rem;
+      }
+    }
+
+    .vet-petbird {
+      h3 {
+        font-size: 2.5rem;
+        color: $primary-color;
+      }
+      p {
+        font-size: 2rem;
+        color: #808080;
+      }
+    }
+
+    .vet-recommended {
+      width: 80%;
+      margin: auto;
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      h2 {
+        font-size: 2.4rem;
+      }
     }
 
     ul,
@@ -222,6 +265,37 @@
       h1 {
         font-size: 4.4rem;
       }
+      h2 {
+        font-size: 3.2rem;
+      }
+    }
+  }
+
+  &.image {
+    &.error-image {
+      img {
+        height: 45rem;
+        width: 45rem;
+      }
+    }
+    &.reg-image {
+      img {
+        width: 75%;
+      }
+    }
+    &.bird-image {
+      img {
+        height: 25rem;
+        max-width: fit-content;
+      }
+    }
+  }
+}
+
+.feature-images {
+  .image {
+    img {
+      padding: 0 3.5rem;
     }
   }
 }

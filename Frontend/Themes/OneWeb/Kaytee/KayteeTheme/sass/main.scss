@@ -15,6 +15,12 @@ body {
   @include Roboto-font-stack();
 }
 
+.article-page {
+  .component.hero {
+    padding: 0 1.5rem;
+  }
+}
+
 h1,
 h2,
 h3,
@@ -46,7 +52,7 @@ a {
     line-height: $line-height;
 
     h1 {
-      font-size: 4.4rem;
+      font-size: 3.1rem;
       color: $primary-color;
       @include Ubuntu-font-stack();
     }
@@ -58,6 +64,17 @@ a {
       color: $black;
       @include Roboto-font-stack();
     }
+
+    h2 {
+      font-size: 2.2rem;
+    }
+
+    h4 {
+      a {
+        @include Ubuntu-font-stack();
+      }
+    }
+
     p {
       margin-bottom: 1rem;
     }
@@ -74,7 +91,6 @@ a {
     }
     ul {
       li {
-        list-style: disc;
         padding-inline-start: 4rem;
       }
     }
@@ -103,7 +119,7 @@ a {
 
   &.title {
     h1 {
-      font-size: 4.4rem;
+      font-size: 3.1rem;
       color: $primary-color;
       line-height: 1.1;
       border-bottom: none;
@@ -121,6 +137,15 @@ a {
         h1 {
           font-size: 4.4rem;
         }
+      }
+
+      h1 {
+        font-size: 4.4rem;
+      }
+    }
+    &.title {
+      h1 {
+        font-size: 4.4rem;
       }
     }
   }

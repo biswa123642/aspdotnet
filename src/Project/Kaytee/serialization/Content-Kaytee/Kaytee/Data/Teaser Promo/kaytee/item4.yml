@@ -1,0 +1,48 @@
+﻿---
+ID: "7bbaebea-c4a8-4900-895b-2ada68b52b72"
+Parent: "badb5f1b-b2e8-4242-bfb7-bc8af609bfa6"
+Template: "d1070ed7-b4f7-4c03-b622-f9b5fb072dea"
+Path: /sitecore/content/OneWeb/Kaytee/Data/Teaser Promo/kaytee/item4
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220830T092412Z
+    - ID: "7cf24deb-783d-4e7a-be2d-1c5410b73c66"
+      Hint: FirstCTA
+      Value: |
+        <link text="Learn More &gt;&gt;&gt;" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{3A1C616E-EB51-4CA9-80D1-1E283E0F87D3}" />
+    - ID: "81651106-4b95-4713-84df-90a36c488b2f"
+      Hint: TeaserImage
+      Value: |
+        <image mediaid="{D80858EC-214A-43E2-B0E3-6A83FFC34E21}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4495fc8b-2596-451d-b158-bfc819152a39"
+    - ID: "9fd53b32-f6f3-484c-b662-d9a1b2013a0d"
+      Hint: Description
+      Value: |
+        <div>
+        Our expertise and state-of-the-art processing mean quality is built into every diet, ensuring the health of each pet and bringing peace-of-mind to pet parents.</div>
+        <br class="t-last-br" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "ca6a3070-03e0-47cf-ba54-c58f83c49cfa"
+      Hint: Title
+      Value: |
+        <h2>
+        Vet Recommended
+        </h2>
+        <br class="t-last-br" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220905T064737Z

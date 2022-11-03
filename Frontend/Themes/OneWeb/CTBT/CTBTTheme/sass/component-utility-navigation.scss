@@ -1,0 +1,36 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "base/fonts/fonts";
+
+
+.component{
+    .utility-navigation{
+        .list-wrap{
+            display: flex;  
+              justify-content: center;
+            margin: 15px 0px;
+            @include respond-to(desktop){
+                margin: 0px;
+                justify-content: flex-end;
+              }
+            .list-item{
+                a{
+                    text-decoration: none;
+                    font-size: 0;
+                    line-height: 0px;
+                    @include respond-to(desktop){
+                        line-height: 66px;
+
+                    }
+                    &::before{
+                        color: $clr-white;
+                        font-size: 2.4rem;
+                    }
+                }
+            &:nth-child(2){
+                margin-left: 25px;
+            }
+            }
+        }
+    }
+}

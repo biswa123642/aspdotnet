@@ -1,0 +1,60 @@
+﻿---
+ID: "22103d09-bb7f-4ecc-83b1-1f6169d7e0b3"
+Parent: "820c2eb8-13d5-4d96-b61d-7a1a5601d95d"
+Template: "a6ddac75-7d24-4bdb-b3f6-5f47fbb21379"
+Path: /sitecore/content/OneWeb/NewBugFreeGrains/Data/Accordions/Diacon IGR/Item 4
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{09BD444B-FABC-47EA-981D-2C8271655469}">
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B5423143A-760D-4F0E-BA4D-0B02E649A778%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-title"
+          uid="{F2765776-6815-41B6-A9A4-F2C612E84F33}" />
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-content"
+          uid="{023373E2-0317-4B4E-96FC-D479DF83FB25}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220921T123746Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5a236869-e375-49c0-a92d-0c2f1db7788f"
+      Hint: Content
+      Value: |
+        A: The tank-mix rate per 1,000 bushels of wheat is 4.0 oz. of <a href="~/link.aspx?_id=0D740F4784D145B0B551527197E8E102&amp;_z=z">Diacon<sup>&reg;</sup> IGR</a> and 9.6 oz. of <a href="~/link.aspx?_id=C75C15245B4E46A191A87B6F252EB1CD&amp;_z=z">Centynal<sup>&trade;</sup> EC Insecticide</a>&nbsp;in 5 gallons of water. Refer to the product labels for the complete application details per grain.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7240053b-9140-48ac-acea-abfccd7761a1"
+      Hint: Heading
+      Value: "Q: What is the rate of application for a tank mix of Diacon<sup>®</sup> IGR and Centynal<sup>™</sup> EC Insecticide for wheat? (For other commodities, please reference the Centynal<sup>™</sup> EC Insecticide label; Diacon<sup>®</sup> IGR rate commonly used is 4.0 oz per 1,000 bushels.)"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5f941c7d-403f-4e3d-b02f-0b261cc8729b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220921T124927Z

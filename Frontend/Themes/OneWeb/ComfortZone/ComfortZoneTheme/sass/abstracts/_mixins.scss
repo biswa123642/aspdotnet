@@ -54,6 +54,7 @@ $below-tab: 991px;
   }
 }
 
+
 @mixin wrapper() {
   max-width: 960px;
   margin: 0 auto !important;
@@ -71,11 +72,7 @@ $below-tab: 991px;
   }
 }
 
-@mixin border-basic(
-  $position: all,
-  $border-color: $border-gray,
-  $border-width: 1px
-) {
+@mixin border-basic($position: all, $border-color: $border-gray, $border-width: 1px) {
   @if ($position!=all) {
     border-#{$position}-width: $border-width;
     border-#{$position}-style: solid;
@@ -100,10 +97,7 @@ $below-tab: 991px;
     $direction: 180deg;
   }
   background: nth(nth($color-stops, 1), 1);
-  background: -webkit-linear-gradient(
-    legacy-direction($direction),
-    $color-stops
-  );
+  background: -webkit-linear-gradient(legacy-direction($direction), $color-stops);
   background: linear-gradient($direction, $color-stops);
 }
 
@@ -136,14 +130,14 @@ $below-tab: 991px;
   }
 }
 
-@mixin  Montserrat-font-stack() {  
+@mixin Montserrat-font-stack() {
   font-family: "Montserrat", sans-serif;
 }
-@mixin  Nunito-font-stack() {  
+@mixin Nunito-font-stack() {
   font-family: "Nunito", sans-serif;
 }
-@mixin  arial-font-stack() {  
-  font-family: "arial narrow", arial, sans-serif; 
+@mixin arial-font-stack() {
+  font-family: "arial narrow", arial, sans-serif;
 }
 
 @mixin loading-gif() {
@@ -163,14 +157,14 @@ $below-tab: 991px;
 }
 
 //mixin for random colour
-@mixin randomcolors ($class) {
-  &:nth-child(even){
-    .#{$class}{
+@mixin randomcolors($class) {
+  &:nth-child(even) {
+    .#{$class} {
       background-color: $light-skyblue-bg;
     }
   }
-  &:nth-child(odd){
-    .#{$class}{
+  &:nth-child(odd) {
+    .#{$class} {
       background-color: $light-yellow-bg;
     }
   }

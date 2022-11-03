@@ -22,8 +22,7 @@
                 tr {
                     display: flex !important;
                     background: transparent;
-                    padding: 0;
-                    display: none;
+                    padding: 0;                    
                     background-color: #a89c98;
                     border: 1px solid #707070;
                     th {
@@ -47,8 +46,7 @@
                             position: fixed;
                             top: 0;
                             z-index: 99;
-                            width: 100%;
-                            max-width: 1140px;
+                            width: 100%;                         
                             margin: 0 auto;
                             max-width: calc(100% - 30px);  
                             @include respond-to(tab){

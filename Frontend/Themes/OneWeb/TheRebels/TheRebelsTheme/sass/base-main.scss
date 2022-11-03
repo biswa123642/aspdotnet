@@ -1,7 +1,6 @@
 @import "abstracts/vars";
 @import "abstracts/mixins";
 @import "abstracts/functions";
-@import "base/fonts/fonts";
 
 body {
   @include Helvetica-font-stack();
@@ -35,37 +34,6 @@ a {
 
 .content,
 .rich-text {
-  strong{
-    margin: 0px;
-  }
-  p {
-    font-size: 1.4rem;
-    line-height: 1.42857143;
-  }
-  ul {
-    padding: 0 0 0 15px;
-    li {
-      list-style: disc;
-      color: $primary-color;
-    }
-  }
-  a {
-    &:hover {
-      color: $secondary-color;
-    }
-  }
-}
-
-h2 {
-  color: $secondary-color;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 2.8rem;
-  @include Helvetica-font-stack();
-}
-
-.content,
-.rich-text {
   color: $primary-color;
   h1,
   h2 {
@@ -81,29 +49,6 @@ h2 {
         text-decoration: underline;
       }
     }
-  }
-}
-
-.indent-bottom {
-  margin-bottom: 3rem;
-  @include respond-to(desktop) {
-    margin-bottom: 3rem;
-  }
-}
-h1,
-.h1,
-h2,
-.h2,
-h3,
-.h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
-.content,
-.rich-text {
-  p {
-    margin-bottom: 10px;
   }
   li {
     font-size: 1.4rem;
@@ -121,6 +66,52 @@ h3,
       }
     }
   }
+  strong{
+    margin: 0px;
+  }
+  p {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    line-height: 1.42857143;
+  }
+  ul {
+    padding: 0 0 0 15px;
+    li {
+      list-style: disc;
+      color: $primary-color;
+    }
+  }
+  a {
+    text-decoration: none;
+     font-size: 1.4rem;
+    &:hover {
+      color: $secondary-color;
+      text-decoration: underline;
+    }
+  }
+}
+
+h2 {
+  color: $secondary-color;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.8rem;
+  @include Helvetica-font-stack();
+}
+.indent-bottom {
+  margin-bottom: 3rem;
+  @include respond-to(desktop) {
+    margin-bottom: 3rem;
+  }
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 .title {
   .field-title,
@@ -154,17 +145,6 @@ h3,
     }
   }
 }
-.content,
-.rich-text {
-  a {
-    text-decoration: none;
-     font-size: 1.4rem;
-     &:hover{
-      text-decoration: underline;
-     }
-  }
-}
-
 .sxa-btn{
 a{
   background-image: linear-gradient(to bottom, #e21d37 0%, #9e1426 100%);

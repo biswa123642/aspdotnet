@@ -1,0 +1,134 @@
+﻿---
+ID: "fd492385-a690-42e0-8da1-94ccecf967bd"
+Parent: "3a1c616e-eb51-4ca9-80d1-1e283e0f87d3"
+Template: "efbf7280-8143-4b8b-a17f-fa201718310c"
+Path: /sitecore/content/OneWeb/Kaytee/Home/search
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/magnifying_glass.png
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{395086DF-CB72-4F44-8AAA-4CA1BDA987D9}"
+- ID: "d4952280-2d7d-4bf4-a99a-ea36dad0f0a7"
+  Hint: Body Css Class
+  Value: "search-page"
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: 
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{4EB08CD7-0C44-40B8-AC31-3427E638BCCE}"
+          p:before="*"
+          s:ds=""
+          s:id="{C0AF3E6F-ADD6-4910-B7F2-34061B225E3C}"
+          s:par="SearchType=article&amp;NumberOfScrolls"
+          s:ph="/main/container-1/article-loadmore"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{689DFB93-1AFB-49C0-80C0-518DE099418D}"
+          p:after="r[@uid='{4EB08CD7-0C44-40B8-AC31-3427E638BCCE}']"
+          s:ds=""
+          s:id="{C0AF3E6F-ADD6-4910-B7F2-34061B225E3C}"
+          s:par="SearchType=others&amp;NumberOfScrolls"
+          s:ph="/main/container-1/others-loadmore"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{253AC070-F7B4-4003-93F3-FED0C1021B35}"
+          p:after="r[@uid='{689DFB93-1AFB-49C0-80C0-518DE099418D}']"
+          s:ds=""
+          s:id="{C0AF3E6F-ADD6-4910-B7F2-34061B225E3C}"
+          s:par="SearchType=product&amp;NumberOfScrolls"
+          s:ph="/main/container-1/pdp-loadmore"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{8142D1D0-DBA6-4E5C-9EA7-40B261D0C1B0}"
+          p:after="r[@uid='{253AC070-F7B4-4003-93F3-FED0C1021B35}']"
+          s:ds=""
+          s:id="{7F06A24A-1051-4B98-9347-22616A582210}"
+          s:par="PlaceholderText&amp;DisableSearchTextBox&amp;DisableAutoSugession&amp;SearchResultPage=%7BFD492385-A690-42E0-8DA1-94CCECF967BD%7D&amp;MinSuggestionsTriggerCharacterCount=3&amp;MaxPredictiveResultsCount=10&amp;MaxProductResultsCount&amp;MaxArticleResultsCount&amp;MaxOthersResultCount&amp;CloneSearchBox"
+          s:ph="/main/container-1/internal-search-box"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{20CF7C82-D09F-44D6-BB91-0F6A883284F2}"
+          p:after="r[@uid='{8142D1D0-DBA6-4E5C-9EA7-40B261D0C1B0}']"
+          s:ds=""
+          s:id="{75B22CF3-346E-4614-BB38-E0983ED52A3E}"
+          s:par="ArticleListingFacetType=Page-Attributes&amp;GridSelection=col-lg-3&amp;FilterOrder=SameAsCMS&amp;CheckToLoadChildArticlesOnly&amp;HideSearchFilter=1&amp;HideDescriptionOnTiles&amp;DescriptionLengthLimit&amp;HideTitleOnTiles&amp;SortDirection&amp;SortingLookup&amp;Styles=%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D%7C%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D"
+          s:ph="/main/container-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{16C87FD4-D324-47DF-BC33-9C2856574B32}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{35A1076B-0D00-4601-A39C-73CEF1D82610}"
+              p:before="*"
+              s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+              s:par="BreadcrumbRoot&amp;Separator=%3E&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BDB892FCC-50BC-4182-B027-FBF688391742%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+              s:ph="/main/container-1" />
+            <r
+              uid="{48106245-E11F-4E01-8245-BF2F9BBADC6C}"
+              p:after="r[@uid='{35A1076B-0D00-4601-A39C-73CEF1D82610}']"
+              s:ds="{83B2475E-6801-49C8-AA1D-CF317AF94E95}"
+              s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+              s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B208C0D2D-97B1-4583-B51C-FAE8AF615683%7D&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+              s:ph="/main/container-1"
+              s:ccb="Clear on publish" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220725T090602Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Search
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Search Kaytee Products | Kaytee
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Search Kaytee Products | Kaytee
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ea7e5567-b87f-474c-9fb5-51c1cade0322"
+    - ID: "9bf7a7f6-34f8-4c38-a3d7-2fd0470518b1"
+      Hint: HideInSearchResults
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221028T120016Z

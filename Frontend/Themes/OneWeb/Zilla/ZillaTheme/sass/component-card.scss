@@ -205,7 +205,7 @@
                 }
                 .article-tag {
                     line-height: 1.42857143;
-                    font-family: "Arial", "Helvetica", sans-serif;
+                    @include Helvetica-font-stack();
                     font-size: 1.8rem;
                     color: #33322e;
                     &:hover {

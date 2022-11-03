@@ -1,0 +1,107 @@
+﻿---
+ID: "c5413ee2-1306-4a9b-8b34-9db0b414f2cb"
+Parent: "756b5c61-ed1a-4c90-93d3-0223dfbdaefd"
+Template: "bc41b87d-2a9b-4689-9f51-80bb5b31a6e7"
+Path: "/sitecore/content/OneWeb/Kaytee/Home/fieldandforest/Products/food/rat-food"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{B758C0DC-59DD-4F72-AA42-81FA09C2B431}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: "{754F547F-B57C-4EC6-9962-E91C12226013}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{43BD2713-56DE-4195-A544-FC6334AC5973}"
+          p:before="*"
+          s:ds="{7E00047E-9F44-483D-B4C5-666B14672049}"
+          s:id="{4646BD4F-05FF-4A19-9600-4D74F2F1548B}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B21409643-0B35-42B4-91EF-852679AA9D1C%7D&amp;Styles&amp;TitleHeadingLevel=%7B6A44D9C6-61F0-4B69-8E1A-FDC27F96BA0F%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/sxa-product-detail/row-1-1/container-11" />
+        <r
+          uid="{C2C0D72F-A78D-4185-88D0-73F7327C03DD}"
+          p:after="r[@uid='{43BD2713-56DE-4195-A544-FC6334AC5973}']"
+          s:ds="{065CECC7-4B0A-4F8A-A7C6-422D2E2AC77B}"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BFFF92AD1-B9FF-4ED0-9316-F18C1B5B5508%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-product-detail/row-1-1/container-10" />
+        <r
+          uid="{1B6613C2-0830-4BA2-BBC7-A4D8331E6FE8}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Video"
+          s:id="{3C84ED23-7591-45E0-8850-1AE96D1342B1}"
+          s:par="Reset Caching Options&amp;GridParameters={908E2BC6-C110-4ED7-AF39-7EEACBB31A34}&amp;Styles&amp;CacheClearingBehavior=Clear on publish&amp;RenderingIdentifier"
+          s:ph="/main/sxa-product-detail/row-2-1/container-3/column-1-2/container-5" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{452AB8E8-4711-4795-9C63-06FE6A1BB927}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "055a2c41-4d44-4441-b589-b86f39cc64e5"
+      Hint: HeroBannerContent
+      Value: |
+        Made with wholesome ingredients your pet can see, smell and taste
+        
+        Naturally good nutrition.  Made with hearty grains, plant-based protein, vegetables and herbs
+        
+        Shapes as unique as your pet.  All-in-one pellet to prevent selective feeding and ensure naturally good nutrition in every bite
+        
+        Simply Good Food.  No Timothy Hay, No Added Molasses, No Fillers, No artificial preservatives
+    - ID: "07588c87-7db4-49e1-a788-731da925d1d6"
+      Hint: BackgroundColor
+      Value: #3d3935
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221020T092433Z
+    - ID: "30b0a514-dc94-432c-9655-8c01e474023f"
+      Hint: ExtendedContent
+      Value: "Field+Forest™ by Kaytee® is a premium rat food made with wholesome ingredients your pet can smell and taste. Each ingredient is carefully curated from nature’s fields and forests to support your rat’s healthy diet. The all-in-one pellet works to prevent selective feeding and ensure naturally good nutrition in every bite. Unlike other small animals, timothy hay is not nutritionally necessary for rats which is why it is not included in our recipe. Field+Forest™ is simply good food. It contains NO added molasses, NO fillers, and NO artificial preservatives."
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "rat-food"
+    - ID: "63b15778-d2e2-425d-9ecb-7c8589214f31"
+      Hint: AdditionalInfo
+      Value: 2.0 LB
+    - ID: "78351212-39c1-4f87-b066-1c09c6fd7b4c"
+      Hint: HeroBannerLogo
+      Value: |
+        <image mediaid="{7A9A4210-80C1-4A93-ACAB-2ACE0CCC50C3}" />
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Rat Food
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Rat Food
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "efd31aa0-acf4-4658-a6d6-b6d1a1d55f91"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: Love What's Inside
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221031T132604Z

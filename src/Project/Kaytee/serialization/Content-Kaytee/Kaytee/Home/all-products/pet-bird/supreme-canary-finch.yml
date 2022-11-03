@@ -1,0 +1,75 @@
+﻿---
+ID: "5c314cb9-fd06-48c0-97a1-58a66dd78b54"
+Parent: "420a4854-c684-4019-93f0-6ce052fb43ef"
+Template: "bc41b87d-2a9b-4689-9f51-80bb5b31a6e7"
+Path: "/sitecore/content/OneWeb/Kaytee/Home/all-products/pet-bird/supreme-canary-finch"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{E961C26C-E420-4C35-B09D-2F1C65D22851}"
+- ID: "76fb6ffd-4487-4028-a1cf-705fbe360cba"
+  Hint: Priority
+  Value: 0.5
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "02a41838-168c-4858-bafd-f0031b877ddc"
+      Hint: ProductAttributes
+      Value: "{9DDE783D-354F-4E58-AE11-2C37529FD6FF}|{84DED8CC-1432-4A1E-91BB-1674668A278F}|{46BC9355-9C37-4016-9FD3-0E4EA1E10660}|{1F4A2B07-65EF-41EC-9104-1D6E1AD005B4}|{E95025A5-D2FC-4AEE-B330-8762327CAEBF}"
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{AAC639A0-A17D-40A7-93CD-18B77724304F}" height="750" hspace="" width="750" alt="" vspace="" />
+    - ID: "1e2f8b03-c529-4fee-8663-5ec9f6b6a701"
+      Hint: SecondaryCategories
+      Value: "{2A58ACEF-DD04-47FF-96C0-F12D880B048A}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220826T072145Z
+    - ID: "30b0a514-dc94-432c-9655-8c01e474023f"
+      Hint: ExtendedContent
+      Value: "<p>Kaytee Supreme Canary &amp; Finch food is a wholesome, high-quality mix that contains all of the natural protein, fiber, oils and nutrients of whole grains. Fortified to ensure a balance blend, Supreme utilizes natural seeds, grains and pellets to provide your bird with a simple yet healthy diet. Kaytee Supreme offers high quality ingredients pet birds love and the nutrition they require. </p> <p>Kaytee understands that sharing your life with a pet bird is not only enjoyable but very enriching. Kaytee shows our love by ensuring we provide your pet bird with the best nutrition for a long and healthy life. With over 150 years of nutritional experience, it's no wonder why Kaytee is at the heart of every healthy feeding routine.</p>"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Kaytee Supreme Canary & Finch Food
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: "Kaytee Supreme Canary & Finch food is a wholesome, high-quality mix that contains all of the natural protein, fiber, oils and nutrients of whole grains"
+    - ID: "543b1d82-a096-4893-90b3-35bbb2ab2b1a"
+      Hint: PageHeaderScripts
+      Value: |
+        <!-- Facebook Pixel Code -->           <script>               !function(f,b,e,v,n,t,s)               {if(f.fbq)return;n=f.fbq=function(){n.callMethod?               n.callMethod.apply(n,arguments):n.queue.push(arguments)};               if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';               n.queue=[];t=b.createElement(e);t.async=!0;               t.src=v;s=b.getElementsByTagName(e)[0];               s.parentNode.insertBefore(t,s)}(window, document,'script',               'https://connect.facebook.net/en_US/fbevents.js');               fbq('init', '562294375082439');               fbq('track', 'PageView');           </script>           <noscript><img height="1" width="1" style="display:none"               src=https://www.facebook.com/tr?id=562294375082439&ev=PageView&noscript=1           /></noscript>       <!-- End Facebook Pixel Code --> 
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: Kaytee Supreme Canary &amp; Finch Food
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "Kaytee Supreme Canary & Finch food is a wholesome, high-quality mix that contains all of the natural protein, fiber, oils and nutrients of whole grains"
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Supreme Canary & Finch Food : Pet Bird Food: Bird Seed and Bird Food Pellet Diets | Kaytee"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Kaytee Supreme Canary & Finch Food
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2434b760-e762-4417-9c32-0647c1db419c"
+    - ID: "ab818f97-8aa8-4d81-9e70-29c2d400c1fb"
+      Hint: RenderCanonicalTag
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "ca373527-0c18-4282-83b0-121b8a197598"
+      Hint: LongTitle
+      Value: Kaytee Supreme Canary & Finch Food
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{AAC639A0-A17D-40A7-93CD-18B77724304F}" height="750" hspace="" width="750" alt="" vspace="" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221025T060456Z

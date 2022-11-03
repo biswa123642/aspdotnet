@@ -1,0 +1,32 @@
+{
+  "namespace": "Project.MossOut",
+  "references": [ "Feature.*" ],
+  "items": {
+    "includes": [
+      //{
+      //  "name": "Content-MossOut",
+      //  "path": "/sitecore/content/OneWeb/MossOut",
+      //  "scope": "ItemAndDescendants",
+      //  "allowedPushOperations": "createUpdateAndDelete"
+      //},
+      //{
+      //  "name": "MediaLibrary-MossOut",
+      //  "path": "/sitecore/media library/Project/OneWeb/MossOut",
+      //  "scope": "singleItem",
+      //  "allowedPushOperations": "createUpdateAndDelete"
+      //},
+      {
+        "name": "MediaLibrary-MossOut-Themes",
+        "path": "/sitecore/media library/Themes/OneWeb/MossOut",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      }
+      //{
+      //  "name": "Forms-MossOut",
+      //  "path": "/sitecore/Forms/OneWeb/MossOut",
+      //  "scope": "ItemAndDescendants",
+      //  "allowedPushOperations": "createUpdateAndDelete"
+      //}
+    ]
+  }
+}

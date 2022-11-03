@@ -1,0 +1,148 @@
+﻿---
+ID: "71283aca-5b28-4ef6-a77b-5209e27ad7df"
+Parent: "3a1c616e-eb51-4ca9-80d1-1e283e0f87d3"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: /sitecore/content/OneWeb/Kaytee/Home/foodfromthewildpetbird
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{EF2069C4-1BCB-4058-9E63-2AC7B624389F}"
+          p:before="*"
+          s:ds="{E5F910C5-508E-4843-B2F6-4357792934A9}"
+          s:id="{70BB3A1F-7525-4D7D-8618-79D865332364}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;RenderingFields=text-overlay&amp;FieldNames=%7B826AA69C-3564-40BD-9E8B-E16716304124%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
+          s:ph="/main/row-3-1/container-3/row-1-14"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{E681639C-2984-41A5-A492-952E233EEDF5}"
+          p:after="r[@uid='{EF2069C4-1BCB-4058-9E63-2AC7B624389F}']"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=14"
+          s:ph="/main/row-3-1/container-3" />
+        <r
+          uid="{CA24D026-5216-4B31-B2F0-5256CFF5FA68}"
+          p:after="r[@uid='{E681639C-2984-41A5-A492-952E233EEDF5}']"
+          s:ds="{384EEDBB-A3AF-4621-96A0-EB555005E97E}"
+          s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass=col-md-3&amp;FieldNames=%7B735BBE37-C514-466E-A123-80308FFEFE05%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=13"
+          s:ph="/main/row-5-1/container-6"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{365FB7BF-96C9-4BA6-900B-2591E123C5BB}"
+          p:after="r[@uid='{CA24D026-5216-4B31-B2F0-5256CFF5FA68}']"
+          s:ds="{DCE18006-82EA-431C-A81C-D5658F9A1AE1}"
+          s:id="{3972C278-7E7A-4C2B-A293-66AF860F5C3A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B84CBB9B3-4230-41E7-BC1A-EB32BF2B719A%7D&amp;Styles=%7B13EDCAB4-2C44-4309-9C2D-F8FBEB277127%7D%7C%7B0ABEC809-07F0-41C6-B981-C51C839BF119%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=12"
+          s:ph="/main/row-4-1/container-4"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{FBBA6AD6-86FC-48B4-85BE-0B81164573C8}"
+          p:after="r[@uid='{365FB7BF-96C9-4BA6-900B-2591E123C5BB}']"
+          s:ds="{3869AEA3-D6D1-4DE2-9F6B-1BD8FDD9F8A6}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B208C0D2D-97B1-4583-B51C-FAE8AF615683%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/row-2-1/container-9" />
+        <r
+          uid="{181B108D-8669-4985-808B-3E2E173A74FB}"
+          p:after="r[@uid='{FBBA6AD6-86FC-48B4-85BE-0B81164573C8}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7B13EDCAB4-2C44-4309-9C2D-F8FBEB277127%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{C7109C39-F88A-49FA-BE1F-F173F4480D70}"
+          p:after="r[@uid='{181B108D-8669-4985-808B-3E2E173A74FB}']"
+          s:ds=""
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%3E&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BDB892FCC-50BC-4182-B027-FBF688391742%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-1-1/container-2" />
+        <r
+          uid="{E304D74E-C2B9-40BF-859B-8B6F5FF2CDA4}"
+          p:after="r[@uid='{C7109C39-F88A-49FA-BE1F-F173F4480D70}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-5-1" />
+        <r
+          uid="{C0E6CC29-51E2-49A9-97BA-1824CBF5A736}"
+          p:after="r[@uid='{E304D74E-C2B9-40BF-859B-8B6F5FF2CDA4}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-4-1" />
+        <r
+          uid="{B2D103E5-BEBF-40B8-9EBC-9A8845BAF400}"
+          p:after="r[@uid='{C0E6CC29-51E2-49A9-97BA-1824CBF5A736}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-3-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{88D9396C-2623-453B-ACD1-17A0226DDE8E}"
+          p:after="r[@uid='{B2D103E5-BEBF-40B8-9EBC-9A8845BAF400}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{BECFD345-EF83-44DF-AE01-8157C25B17F3}"
+          p:after="r[@uid='{88D9396C-2623-453B-ACD1-17A0226DDE8E}']"
+          s:ds="{EC188B29-6078-4164-A9D9-951E3F7BF815}"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B600ED366-D4C3-4286-B185-8B4836367610%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/row-1-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{ECCDA887-E9E6-41C9-BF95-C526598F1184}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3%2C4%2C5&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4=%7BB11AAAD5-4209-48A5-A88B-999930A4054F%7D&amp;Styles5=%7BB11AAAD5-4209-48A5-A88B-999930A4054F%7D&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221025T063027Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Food From The Wild - Petbird"
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Food From The Wild | Petbird
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Food From The Wild | Petbird
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e69c9b36-a4fd-43a6-ade7-6b6b0a03cbb2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221102T070945Z

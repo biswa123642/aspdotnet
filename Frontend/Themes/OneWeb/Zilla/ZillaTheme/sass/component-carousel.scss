@@ -18,7 +18,7 @@
                 .field-slidecardsubtext {
                     font-size: 1.8rem;
                     margin: 10px 0;
-                    font-family: "Arial", "Helvetica", sans-serif;
+                    @include Helvetica-font-stack();
                     color: #fff;
                 }
             }
@@ -29,12 +29,11 @@
     &.video-playlist {
         .video-gallery {
             .caption {
-                h2 {
-                    margin-top: 20px;
-                    margin-bottom: 10px;
+                h2 {                             
                     font-size: 20px;
                     font-weight: normal;
                     text-decoration: none;
+                    margin-top: 20px;   
                     margin-bottom: 30px;
                 }
                 .post-date {

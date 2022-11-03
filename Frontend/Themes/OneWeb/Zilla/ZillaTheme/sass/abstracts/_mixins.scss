@@ -142,6 +142,10 @@ $below-tab: 991px;
 @mixin  Lato-font-stack() {  
   font-family: 'Lato', sans-serif; 
 }
+@mixin  Glyphicons-Halflings() {  
+  font-family: "Glyphicons Halflings";
+}
+
 @mixin  arial-font-stack() {  
   font-family: "arial narrow", arial, sans-serif; 
 }

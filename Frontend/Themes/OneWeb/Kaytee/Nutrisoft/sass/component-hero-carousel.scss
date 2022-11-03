@@ -1,0 +1,169 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.hero-carousel {
+    padding: 1.6rem;
+    background-color: $body-color;   
+
+    &.responsive-carousel {
+      padding: 0;
+      background-color: transparent;
+
+      .mobile-img {
+        padding: 1.5rem;
+        background-color: $body-color;
+      }
+
+      .container {
+        background-color: $white;
+
+        .body-copy {
+          width: 100%;
+          padding: 3rem 0rem;
+
+          h2 {
+            font-size: 4.5rem;
+            color: $body-color;
+            font-family: "como";
+            font-weight: 500;
+            margin-bottom: 5vw;
+          }
+
+          p {
+            font-family: "josefin-sans", sans-serif;
+            font-size: 6.5vw;
+            font-weight: 700;
+            line-height: 1.1;
+            margin-bottom: 9vw;
+          }
+
+          .sxa-btn {
+            a {
+              background-color: $brand-green;
+              border: 1px solid var(--orange);
+              color: $white;
+              font-size: 6vw;
+              padding: 3vw 9vw;
+              width: 250px;
+              margin-left: 50%;
+              transform: translateX(-50%);
+              font-family: "josefin-sans", sans-serif;
+
+              &:hover,
+              &:active,
+              &:focus {
+                text-decoration: none;
+              }
+            }
+          }
+        }
+      }
+
+      .slick-slider {
+        padding-bottom: 3rem;
+
+        .slick-dots {
+          left: 50%;
+          transform: translateX(-50%);
+
+          li {
+            border: 1px solid $body-color;
+            height: 25px;
+            width: 25px;
+            border-radius: 50%;
+            background-color: transparent;
+
+            &.slick-active {
+              background-color: $brand-purple;
+            }
+          }
+        }
+        .slick-prev,.slick-next{
+          display: block !important;
+          top: 15%;
+          &:before,&:after{
+            color: $light-grey;
+            font-size: 2rem;
+          }
+        }
+      }
+
+      @include respond-to(desktop) {
+        background-color: $body-color;
+        padding: 1.5rem;
+
+        .mobile-img {
+          padding: 1.5rem;
+          background-color: transparent;
+        }
+
+        .container {
+          background-color: transparent;
+          max-width: 85%;
+
+          .body-copy {
+            width: 100%;
+            padding: 5rem 0rem;
+            background-color: #fffffa80;
+
+            .caption {
+              text-align: left;
+            }
+
+            h2 {
+              font-size: 4vw;
+              margin-bottom: 3rem;
+            }
+
+            p {
+              font-size: 2vw;
+              margin-bottom: 3.5rem;
+            }
+
+            .sxa-btn {
+              a {
+                font-size: 3.2rem;
+                margin: 0;
+                transform: translateX(0);
+                padding: 1vw;
+                background-color: $body-color;
+
+                &:hover,
+                &:active,
+                &:focus {
+                  background-color: $brand-purple;
+                }
+              }
+            }
+          }
+        }
+
+        .slick-slider {
+          padding-bottom: 0;
+
+          .slide {
+            min-height: 46rem !important;
+            padding-top: 34% !important;
+          }
+          .slick-prev,.slick-next{            
+            top: 50%;
+            &::after,&::before{
+              font-size: 3rem;
+            }
+          }
+        }
+      }
+      @include respond-to(larger-desktop){
+        .container{
+          .body-copy{
+            max-width: 62rem;
+          }
+        }
+      }
+    }
+  }
+
+ 
+}
