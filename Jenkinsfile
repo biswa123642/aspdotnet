@@ -53,11 +53,23 @@ pipeline {
             }
         }
 	    
+	stage('Removing') {
+            steps {
+	    print "Removed .Pdb Files"
+            powershell '''
+		Get-ChildItem $source *.pdb -Recurse | foreach { Remove-Item -Path $_.FullName -Force } `
+                Remove-Item -Path $source\bin\roslyn -Recurse -Force `
+                md -path $ENV:WORKSPACE\\Build_Package `
+                Copy-Item -Path $ENV:WORKSPACE\\Build_Artifacts_Jenkins -Destination $ENV:WORKSPACE\\Build_Package -Recurse
+		'''
+	    }
+	}
+	    
     	stage('Archive_Artifacts') {
             steps {
             powershell '''
-		Compress-Archive -Path $ENV:WORKSPACE\\Build_Artifacts_Jenkins `
-		-DestinationPath $ENV:WORKSPACE\\Build_Artifacts_Jenkins\\$ENV:BUILD_NUMBER.zip
+		Compress-Archive -Path $ENV:WORKSPACE\\Build_Package `
+		-DestinationPath $ENV:WORKSPACE\\Build_Package\\$ENV:BUILD_NUMBER.zip
 		'''
 	    }
         }
