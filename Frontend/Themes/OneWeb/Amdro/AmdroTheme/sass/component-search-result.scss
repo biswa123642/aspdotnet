@@ -1,0 +1,156 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+/*===========================================
+    Clear Button
+  =============================================*/
+
+.sxa-btn {
+    a.clear-filter-btn {
+        color: $black-color;
+        font-size: 1.8rem;
+        line-height: 1.5;
+        @include Montserrat-font-stack();
+        font-weight: 900;
+        margin-bottom: 1.2rem;
+        display: inline-block;
+        cursor: pointer;
+        padding: 0;
+        border: none;
+    }
+}
+/*===========================================
+    Search  component
+  =============================================*/
+main {
+    .search-box {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        .search-wrapper {
+            margin-bottom: 1.5rem;
+            .search-input-wrapper {
+
+                input[type=text] {
+                    height: 4.7rem;
+                    padding-right: 4.5rem;
+                }
+
+                &:before {
+                    content: '';
+                    width: 0.2rem;
+                    height: 4rem;
+                    background-color: $black-color;
+                    position: absolute;
+                    top: 50%;
+                    right: 4rem;
+                    -webkit-transform: translateY(-50%);
+                    -khtml-transform: translateY(-50%);
+                    transform: translateY(-50%);
+                    z-index: 5;
+                }
+
+                .custom-search-box-button {
+                    background-image: url(../images/search-icon.png);
+                    background-size: 1.8rem 1.9rem;
+                    opacity: 1;
+                    position: absolute;
+                    margin: 0;
+                    width: 3.3rem;
+                    height: 3.3rem;
+                    right: 0.4rem;
+                    background-color: #0000;
+                    top: 0.6rem;
+                }
+            }
+        }
+    }
+}
+
+/*===========================================
+    Search  filter
+  =============================================*/
+.component{
+    #article-type,
+    #others-type,
+    #product-type,
+    #searchfilter {
+        h3 {
+            border-bottom: 3px solid #EBEBEB;            
+            .link-btn {
+                @include Montserrat-font-stack();
+                font-weight: 900;
+                font-size: 2.2rem;
+                color: $black-color;
+                padding: 0;
+
+                &[aria-expanded]::after,
+                &[aria-expanded]::before {
+                    background: $secondary-color;
+
+                }
+            }
+        }
+        .body-copy {
+            h3 {
+                padding: 1.5rem 0 1rem 0;
+                border-bottom: none;               
+            }
+        }
+        .facet-wrapper {
+            h3 {
+                margin-top: 0;
+            }
+
+            .form-check {
+                .form-check-label {
+                    position: relative;
+                    display: inline-block;
+                    padding-left: 2.5rem;
+                    cursor: pointer;
+                    left: 0px;
+                    font-size: 1.8rem;
+                    line-height: 1.5;
+                    font-weight: 500;
+                    @include Montserrat-font-stack();
+
+                    &:after {
+                        content: '';
+                        position: absolute;
+                        left: 0px;
+                        top: 50%;
+                        -webkit-transform: translateY(-50%);
+                        -khtml-transform: translateY(-50%);
+                        -moz-transform: translateY(-50%);
+                        transform: translateY(-50%);
+                        width: 1rem;
+                        height: 1rem;
+                        border: 1px solid $black-color;
+                        border-radius: 0px;
+                        background-color: #0000;
+                        transition: background-color 170ms ease-in-out;
+                    }
+
+                    &:hover:after {
+                        border: 2px solid $black-color;
+                    }
+                }
+
+                input[type="checkbox"] {
+                    position: absolute;
+                    left: -9999px;
+
+                    &:checked+.form-check-label:after {
+
+                        background-color: $black-color !important;
+
+                    }
+                }
+            }
+        }
+       
+
+    }
+}
+  /*===========================================
+    Search  Result
+  =============================================*/

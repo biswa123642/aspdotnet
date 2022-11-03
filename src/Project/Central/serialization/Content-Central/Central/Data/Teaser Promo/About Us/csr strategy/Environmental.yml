@@ -1,0 +1,60 @@
+﻿---
+ID: "859b9ba0-f979-4f41-8800-0662dbfff5fa"
+Parent: "cfe7f77d-cf65-4f28-bbdc-07b72907636d"
+Template: "d1070ed7-b4f7-4c03-b622-f9b5fb072dea"
+Path: /sitecore/content/OneWeb/Central/Data/Teaser Promo/About Us/csr strategy/Environmental
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220809T093902Z
+    - ID: "81651106-4b95-4713-84df-90a36c488b2f"
+      Hint: TeaserImage
+      Value: |
+        <image mediaid="{EF5B81A6-62D5-43D1-A54C-F77A2CF7F35A}" alt="solar panel" height="" width="" hspace="" vspace="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8686b1c0-5d08-47a2-a611-c439bae50b68"
+    - ID: "9fd53b32-f6f3-484c-b662-d9a1b2013a0d"
+      Hint: Description
+      Value: |
+        <div>
+        <h2>Environmental<br />
+        Sustainability</h2>
+        <div class="row">
+        <div class="content-left col-lg-6">
+        <h5>Our Commitment</h5>
+        <p>Ensuring long-term sustainable operations while reducing our environmental impact</p>
+        </div>
+        <div class="content-right col-lg-6">
+        <h5>Our Focus Areas</h5>
+        <ul>
+            <li>
+            <p>Conserve ecosystems imperative to the future</p>
+            </li>
+            <li>
+            <p>Take steps towards a full circular economy model</p>
+            </li>
+            <li>
+            <p>Source materials that are better for people and planet</p>
+            </li>
+        </ul>
+        </div>
+        </div>
+        </div>
+    - ID: "a9c3d58d-0ada-44ae-8ac2-a6ac6989ce0a"
+      Hint: ImageOnRight
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220826T181133Z

@@ -1,0 +1,28 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.generic-content-list {
+        &.variant-3{
+            .listing-description {
+                h2 {
+                    font-size: 4rem;
+                    font-weight: 700;
+                    padding-bottom: 0;
+                }
+                .subheading{
+                    padding: 0;
+                }                
+            }
+            .inner-wrap{                    
+                p{
+                    color: inherit;
+                    a{
+                        text-decoration: underline;   
+                        color: inherit;                         
+                    }
+                }
+            }
+        }
+    }
+}

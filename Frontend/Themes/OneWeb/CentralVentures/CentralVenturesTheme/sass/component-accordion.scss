@@ -1,0 +1,27 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+.component{
+    &.accordion{
+        .toggle-header,.toggle-content{
+            .component {
+                .field-heading{
+                    font-size: 2.6rem;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    line-height: 1.1;
+                    padding: .6rem 0;
+                    &:focus,&:hover,&:active{
+                        text-decoration: underline;
+                    }
+                }
+                .field-content{
+                    line-height: 1.5;
+                    font-weight: 300;
+                    font-size: 2rem;
+                    padding: .5rem 0 1.2rem;
+                    color: $text-basic;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,417 @@
+﻿---
+ID: "78cc261d-48f8-481b-9ca0-8f64b33860b0"
+Parent: "26ad6088-601d-4530-9987-1f42f1aebe96"
+Template: "057af325-c948-4918-a4e4-2c3f6cf04524"
+Path: "/sitecore/content/OneWeb/ComfortZone/Home/behavior-blog/cat-behavior/returning-to-normal-with-your-pets"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{BC3B727C-2365-4C75-BF53-85D7BF2DE762}"
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: 
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{D40852C4-69D7-422E-9A93-C8540A25D48C}"
+          p:before="*"
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-2-1/container-4" />
+        <r
+          uid="{6124A37F-2877-487F-90E2-E65C7D3528EA}"
+          p:after="r[@uid='{D40852C4-69D7-422E-9A93-C8540A25D48C}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{DE415ECA-50FF-4F1D-AF80-849038A25C50}"
+          p:after="r[@uid='{6124A37F-2877-487F-90E2-E65C7D3528EA}']"
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%3E&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B1D790729-2C96-41CB-AB54-EFCE42474F1E%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-1-1/container-2" />
+        <r
+          uid="{0783D2D5-44E5-4FF5-A8C8-14DA017C77B6}"
+          p:after="r[@uid='{DE415ECA-50FF-4F1D-AF80-849038A25C50}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{FA869BE4-49BA-44CA-A26B-4B89128048A5}"
+          p:after="*[1=2]"
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{834BAC63-D916-4BCC-8B6E-8B5372AD9FD5}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220927T152812Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Returning to Normal with Your Pets
+    - ID: "50f31584-caa5-47ca-98cd-6115eba9fac8"
+      Hint: HeroContentImage
+      Value: 
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: "Stress may affect your pets when you're returning to work after sheltering-at-home. Here's how to set up your dog or cat for success."
+    - ID: "5aac1fce-dc76-4156-ab65-2a161091ac30"
+      Hint: HeroSecondaryHeroBannerCTA
+      Value: 
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <hr />
+        <div class="infographic-wrapper">
+        <div class="ht">&nbsp;</div>
+        <div class="infographic-header">
+        <div class="container">
+        <div class="row flex-column">
+        <div class="col">
+        <div class="infographic-title">
+        RETURNING TO NORMAL <br />
+        WITH YOUR PETS
+        </div>
+        <p>
+        Your pets have genuinely enjoyed spending extra time with you since you've been sheltering at home. Now that restrictions are lightening up, it might be time for you to venture into the world and return to the office. How will your dog or cat adjust? Tom Van Winkle, Executive Director of the  <a rel="noopener noreferrer" href="https://www.hinsdalehumanesociety.org/" target="_blank">Hinsdale Humane Society</a>, shared what pet owners can do to help. Here are 10 tips for making the transition back to normal as smooth as possible.
+        </p>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="miolo">
+        <section class="c1">
+        <div class="container">
+        <div class="row d-flex align-items-center ">
+        <div class="col-lg-6 col-md-6 col-12">
+        <div class="infographic-h2">
+        <span>1</span><br />
+        WATCH FOR SIGNS OF ANXIETY
+        </div>
+        <p>
+        Your pets aren't mad; they're just relieving their <a rel="noopener noreferrer" href="https://www.comfortzone.com/behavior-blog/cat-stress-anxiety/cat-stress-symptoms-and-relief" target="_blank">stress</a>. Signs of anxiety include:
+        </p>
+        <ul class="infographic-ul">
+            <li>
+            Hiding more or withdrawing.
+            </li>
+            <li>
+            Chewing on shoes or clothes that have your scent.
+            </li>
+            <li>
+            Going to the bathroom where they shouldn't.
+            </li>
+            <li>
+            Scratching and tearing up new locations.
+            </li>
+        </ul>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+        <div class="sofa">
+        <div class="img-area">
+        <img alt="" src="-/media/A489B73766AD4D29A9768C1713A9813A.ashx" class="mag" />
+        <div class="filter">
+        <img alt="" src="-/media/DEAEAC88B16445218D77D4FFCE03122D.ashx" class="lupa" />
+        </div>
+        </div>
+        <img alt="" src="-/media/DD348B2A742943F3962F93B37E111626.ashx" class="bg" />
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+        <section class="c2">
+        <div class="container">
+        <div class="row d-flex align-items-center ">
+        <div class="col-lg-6 col-md-6 col-6">
+        <div class="img">
+        <div class="sunshine">
+        <img alt="" src="-/media/88C91DFA07E446209CA40984B5D93A15.ashx" />
+        </div>
+        <img alt="" src="-/media/C9CBAFDE0C7241B397FA57F7D6842EF0.ashx" class="bg" />
+        </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-6">
+        <div class="infographic-h2">
+        <span>2</span><br />
+        IT'S OKAY FOR YOUR PETS <br />
+        TO BE ALONE
+        </div>
+        <p>
+        Don't feel guilty. Healthy pets can be okay on their own during a typical workday.
+        </p>
+        </div>
+        </div>
+        </div>
+        </section>
+        <section class="c3">
+        <div class="container">
+        <div class="row d-flex align-items-center ">
+        <div class="col-lg-6 col-md-6 col-7">
+        <div class="infographic-h2">
+        <span>3</span><br />
+        BUILD CONFIDENCE <br />
+        BY EASING INTO THE TRANSITION
+        </div>
+        <p>
+        Ease your pets into the new change and set them up for success.
+        </p>
+        <ul class="infographic-ul">
+            <li>
+            Leave for 15 to 30 minutes and see how your pet does.
+            </li>
+            <li>
+            Extend the time slowly.
+            </li>
+            <li>
+            If your pet acts up, try one of the tricks in steps 4&ndash;10.
+            </li>
+        </ul>
+        </div>
+        <div class="col-lg-6 col-md-6 col-5">
+        <div class="img-area">
+        <div class="clock">
+        <img alt="" src="-/media/DEAB3018480C4575A670265FCAF117C2.ashx" />
+        <img alt="" src="-/media/68666A30C56F40EEB5007726BAECC1F0.ashx" class="p1" />
+        <img alt="" src="-/media/74D1D5A288B84F4CB08C61F47B88049E.ashx" class="p2" />
+        <img alt="" src="-/media/7CC6296D77934CCAA029119C73932E1C.ashx" class="p3" />
+        </div>
+        <img alt="" src="-/media/311697855A504CC595E5383E3A449293.ashx" class="bg" />
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+        <section class="c4">
+        <div class="container">
+        <div class="row d-flex align-items-center ">
+        <div class="col-lg-6 col-md-12 col-12">
+        <img alt="" src="-/media/63C1E4AB4D1A498B9DC257F2606C040F.ashx" class="bg" />
+        </div>
+        <div class="col-lg-6 col-md-12 col-12">
+        <div class="infographic-h2">
+        <span>4</span><br />
+        HIDE TREATS FOR THEM TO FIND <br />
+        WHEN YOU LEAVE
+        </div>
+        <p>
+        The first few minutes you're gone are the toughest for your pet. Distract your dog or cat by hiding treats around the house. Puzzle toys and <a rel="noopener noreferrer" href="https://www.nylabone.com/products/product-type/interactive-toys/happy-moppy-interactive-dog-toy" target="_blank">interactive</a> toys work great too.
+        </p>
+        </div>
+        </div>
+        </div>
+        </section>
+        <section class="c5">
+        <div class="container">
+        <div class="row d-flex align-items-end ">
+        <div class="col-lg-6 col-md-12 col-12">
+        <div class="infographic-h2">
+        <span>5</span><br />
+        USE COMFORT ZONE CALMING <br />
+        PRODUCTS WITH YOUR KITTIES
+        </div>
+        <p>
+        Try Comfort Zone products like <a rel="noopener noreferrer" href="https://www.comfortzone.com/all-products/comfort-zone-calming-diffuser" target="_blank">Calming Diffusers</a> or <a rel="noopener noreferrer" href="https://www.comfortzone.com/all-products/comfort-zone-calming-collar" target="_blank">Calming Collars</a>. These mimic cats' <a rel="noopener noreferrer" href="https://www.comfortzone.com/behavior-blog/cat-stress-anxiety/feline-pheromones" target="_blank">calming pheromones</a> and let them know everything's okay.
+        </p>
+        </div>
+        <div class="col-lg-6 col-md-12 col-12">
+        <div class="img-area">
+        <img alt="" src="-/media/FFBFF4B1ADD44F52835CD0C222A9212B.ashx" class="fresh" />
+        <img alt="" src="-/media/4DA480CCA5F04CDDB72F7201743FFEBB.ashx" class="bg" />
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+        <section class="c6">
+        <div class="container">
+        <div class="row d-flex align-items-center">
+        <div class="col-lg-6 col-md-12 col-12">
+        <div class="img-area">
+        <img alt="" src="-/media/983B409BB3A44B44AD24593CE2BC190E.ashx" class="tail" />
+        <img alt="" src="-/media/3571EF04667844C3BB758AC580FBBAFA.ashx" class="bg" />
+        </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-12">
+        <div class="infographic-h2">
+        <span>6</span><br />
+        CRATE TRAIN YOUR DOG
+        </div>
+        <p>
+        Some dogs will be anxious or even destructive unless they're left in a crate. <a rel="noopener noreferrer" href="https://www.khpet.com/blog/10-reasons-to-crate-train-your-dog/" target="_blank">Crates can help them feel safe</a>.
+        </p>
+        <blockquote>
+        <strong>My sister-in-law's dog loves her crate. She puts her dog in the crate, and she's perfectly fine.</strong><br />
+        &mdash; Van Winkle
+        </blockquote>
+        </div>
+        </div>
+        </div>
+        </section>
+        <section class="c7">
+        <div class="container">
+        <div class="row d-flex align-items-center">
+        <div class="col-lg-6 col-md-6 col-12">
+        <div class="infographic-h2">
+        <span>7</span><br />
+        TRY A DOG WALKER
+        </div>
+        <p>
+        People jog or exercise to relieve anxiety. Pets need an outlet too. Anxious dogs might benefit from a dog walker who comes by during the first part of the day.
+        </p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+        <div class="img-area">
+        <img alt="" src="-/media/CD956FB67499436787D4901B94F42A5B.ashx" class="walk" />
+        <img alt="" src="-/media/5B5742ECF9884800A309174A755EF9D9.ashx" class="bg" />
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+        <section class="c8">
+        <div class="container">
+        <div class="row d-flex align-items-end">
+        <div class="col-lg-6 col-md-12 col-12">
+        <div class="img-area">
+        <img alt="" src="-/media/1FE5A09A769C4622912AB502FC725171.ashx" class="cat" />
+        <img alt="" src="-/media/7789279BCC3C42B8B2C8D06FCB1B37E1.ashx" class="bg" />
+        </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-12">
+        <div class="infographic-h2">
+        <span>8</span><br />
+        GIVE YOUR PETS THEIR FAVORITE TREAT OR TOY
+        </div>
+        <p>
+        If your dog has a favorite treat or your kitty loves a certain catnip toy, leave that behind when you step out the door. The Hinsdale Humane Society sometimes stuffs <a rel="noopener noreferrer" href="https://www.nylabone.com/products/product-type/chew-toys/strong-chew/stuffable-chew-toy-strong-rubber-dog-toy" target="_blank">dog toys</a> full of peanut butter and freezes them as treats.
+        </p>
+        <blockquote>
+        <strong>
+        If you're going out, they know they're going to get this great treat. It refocuses their brain.
+        </strong>
+        &mdash; Van Winkle
+        </blockquote>
+        </div>
+        </div>
+        </div>
+        </section>
+        <section class="c9">
+        <div class="container">
+        <div class="row d-flex align-items-center">
+        <div class="col-lg-6  col-md-5 col-12">
+        <div class="infographic-h2">
+        <span>9</span><br />
+        CHANGE UP YOUR ROUTINE
+        </div>
+        <p>
+        Dogs and cats know the cues that you're about to leave. If you change your routine up, they might get less stressed. Put your keys in your pocket early. Have your coffee before your shower. Change up the signs that show them it's time to get nervous.
+        </p>
+        </div>
+        <div class="col-lg-6  col-md-7 col-12">
+        <div class="img-area">
+        <img alt="" src="-/media/354D957BE83F471ABCD0A6CC77583E86.ashx" class="leg" />
+        <img alt="" src="-/media/48861F550EF1407A8C8BF191F030F3D4.ashx" class="bg" />
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+        <section class="c10">
+        <div class="container">
+        <div class="row d-flex align-items-center">
+        <div class="col-lg-6 col-md-7 col-5">
+        <img alt="" src="-/media/8E15C864C8A24808A493E2E39C6F5B3F.ashx" class="bg" />
+        </div>
+        <div class="col-lg-6 col-md-5 col-7">
+        <div class="infographic-h2">
+        <span>10</span><br />
+        BOND WHEN YOU GET HOME
+        </div>
+        <p>
+        No matter how long your workday has been, take time to bond with your cat or dog when you get home. Go for a walk with your dog, play with your cat, or snuggle together on the couch. Cherish every moment.
+        </p>
+        </div>
+        </div>
+        </div>
+        </section>
+        </div>
+        <section class="prefooter">
+        <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-11">
+        <p>
+        It can take several days for a confident pet to get used to your new schedule. Timid pets will likely take longer. If you slowly ease your dog or cat into the "new normal" of returning to work, you'll both be fine.
+        </p>
+        <h3>
+        You're in this journey together.
+        </h3>
+        </div>
+        </div>
+        </div>
+        </section>
+        <footer>
+        <div class="container">
+        <div class="row">
+        <div class="col-12 d-flex justify-content-center align-items-center">
+        <img alt="" src="-/media/C8B679B1816349E291333B4B5FE80C59.ashx" class="comf" />
+        <img alt="" src="-/media/7DD12A20B9264320BC20BAE41E7B16EC.ashx" class="hind" />
+        </div>
+        </div>
+        </div>
+        </footer>
+        </div>
+    - ID: "6dd157fe-8ea8-496a-b595-0e6a18489836"
+      Hint: ThumbnailImage
+      Value: |
+        <image mediaid="{834BAC63-D916-4BCC-8B6E-8B5372AD9FD5}" />
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "Stress may affect your pets when you're returning to work after sheltering-at-home. Here's how to set up your dog or cat for success."
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Returning to Normal with Your Pets
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Returning to Normal with Your Pets
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a67c40ff-e57e-469b-9b09-ee78f9a0ae62"
+    - ID: "acf86c8a-ae9a-4d4a-8570-870673814f85"
+      Hint: ArticleShortDescription
+      Value: "Stress may affect your pets when you're returning to work after sheltering-at-home. Here's how to set up your dog or cat for success."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{834BAC63-D916-4BCC-8B6E-8B5372AD9FD5}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221028T141144Z
+    - ID: "e1766d75-49a1-458f-9c58-0913d738b84d"
+      Hint: PublishDate
+      Value: 20200713T050000Z

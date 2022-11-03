@@ -1,0 +1,15 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+@include respond-to(tab) {
+  .container:not(.col-12) {
+    max-width: 75rem;
+  }
+}
+
+@include respond-to(desktop) {
+  .container:not(.col-12) {
+    max-width: 117rem;
+  }
+}

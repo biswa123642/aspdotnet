@@ -1,0 +1,72 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.disclaimer {
+  .content {
+    border: 2px solid $blue-color;
+    border-radius: 0;
+    max-width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  .field-content {
+    h1 {
+      background-color: $blue-color;
+      color: $white-color;
+      padding: 0.5em 25px;
+      margin-top: 0;
+      margin-bottom: 30px;
+      margin-bottom: 0;
+      font-size: 2.6rem;
+      font-weight: bold;
+      color: $yellow-color;
+      text-align: center;
+    }
+    p {
+      text-align: center;
+      margin: 30px 0;
+      @include Vita-din-condensed-font-stack();
+      font-size: 2.6rem;
+      a {
+        background-color: $red-color;
+        color: $white-color;
+        text-decoration: none;
+        padding: 12px 30px;
+        font-size: 2.6rem;
+        &:hover {
+          background-color: $dark-red-color;
+        }
+      }
+    }
+    div {
+      text-align: center;
+      padding: 30px 40px 10px 40px;
+      font-weight: 400;
+      color: $light-dark;
+      font-family: sans-serif;
+      font-size: 1.8rem;
+    }
+  }
+  .field-link{
+    text-align: center;
+    margin-bottom: 30px;
+    a{
+        color: $gray-color;
+        @include Vita-din-condensed-font-stack();
+        font-size: 2.6rem;
+        border: none;
+        &:before{
+            content: "\2190";
+            margin-right: 15px;
+            font-size: 2.5rem;
+            color: $gray-color;
+        }
+    }
+  }
+}
+
+

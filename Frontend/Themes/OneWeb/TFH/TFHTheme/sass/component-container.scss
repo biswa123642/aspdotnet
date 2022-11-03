@@ -1,0 +1,47 @@
+@import "styles/container/*";
+@import "abstracts/mixins";
+@import "abstracts/vars";
+
+.container {
+  // padding: 0;
+  &:not(.col-12) {
+    max-width:100%;
+    @include respond-to(tab){
+      width: 720px;
+    }
+    @include respond-to(desktop){
+      width: 940px;
+    }
+    @include respond-to(large-desktop){
+      width: 1200px;
+    }
+  }
+}
+
+#content > .row {
+  display: block;
+  .full-with-bg-container {
+    .component-content {
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: 20% 100%;
+      min-height: 700px;
+      @include respond-to (all-mobile){
+        background-image: none!important;
+        min-height: auto;
+      }
+    }
+  }
+}
+
+.rich-text{
+  &.full-width{
+    width:100%;
+  }
+}
+
+.indent-top{
+  @media screen and (max-width:991px) {
+    padding-top:15px; 
+  }
+}

@@ -1,0 +1,31 @@
+﻿---
+ID: "93ab7089-be57-406a-96af-5fd1d7679c41"
+Parent: "9fbdbf5d-a024-4544-8055-7afd2c0d075d"
+Template: "21e9bd9f-1259-4a0a-b862-a250abf7a8b1"
+Path: /sitecore/content/OneWeb/CentralFlyControl/Data/Utility Navigation Folder/Header/Social Links/facebook
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220916T063648Z
+    - ID: "3fbfed70-8606-40c5-9e84-45a03aa258d5"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="https://www.facebook.com/ClariFly" anchor="" target="_blank" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "929cf207-e0f6-461b-a19c-e55a5f911976"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220930T073811Z

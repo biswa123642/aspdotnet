@@ -1,0 +1,204 @@
+﻿
+<input type=hidden id="FoodPlotGoogleApiId" name="FoodPlotMapApiValue" value=@Model.FoodPlotAPIKey />
+<input type=hidden id="Mappinicon" name="mappinValue" value=@Model.Mappin />
+<input type=hidden id="DeerstandIcon" name="deerstandValue" value=@Model.Deerstand />
+<input type=hidden id="DeerstandhighlightedIcon" name="deerstandhighlightedValue" value=@Model.Deerstandhighlighted />
+<!-- Add your site or application content here -->
+<!-- Food Blog Start -->
+<div class="foodplot">
+    <div class="foodplot-display">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <h4 class="panel-title foodplotHowToTitle" style="z-index: 1;">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        How to Create a Map:
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse foodplotHowToContent" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <ol>
+
+                                        <li style="z-index: 1;">
+                                            To create a food plot map, enter a name for it in the 'Enter Map Name' field and hit the '+' button when you're ready. A new map icon will appear.
+                                        </li>
+                                        <li style="z-index: 1;">
+                                            Enter the address of your property in the "Enter your location" field being as specific as possible. You may have to search the map using known roads if you don't have an exact address. If you are on your property, you may hit the <span id="myLocIcon" class="MyLocationLogo15"></span> icon and it will automatically find your location if you have geo-locate enabled on your phone's browser.
+                                        </li>
+                                        <li style="z-index: 1;">
+                                            Once you locate your property, zoom in if needed and select which elements you would like to add to your map from the below buttons. You may create food plots, mark trails and place stands. Click once to begin drawing food plots and click at each corner to change direction. Double click to end.
+                                        </li>
+                                        <li style="z-index: 1;">
+                                            Select all animals you'd like to attract to your food plots to get a list of product recommendations and the number of bags needed to establish the food plot. Please note that if you select more than one species, the results will only display products that can be used for all the selected species.
+                                        </li>
+                                        <li style="z-index: 1;">
+                                            Click the recommended product links to take you to product pages where you can find more detailed information and options to buy.
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title" style="z-index: 1;">
+                                    <a class="collapsed foodplotHowToTitle" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        How to Save and Store Maps:
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse foodplotHowToContent" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    <ol>
+                                        <li style="z-index: 1;">
+                                            Maps will automatically be stored on your device unless your browser's cache is cleared.
+                                        </li>
+                                        <li style="z-index: 1;">
+                                            To save your map files and open them on additional devices, click the 'Export Maps' button.
+                                        </li>
+                                        <li style="z-index: 1;">
+                                            You may then email this file to yourself, or others, so that it may be saved and opened by coming back to this site and using the 'Load Maps' button.
+                                        </li>
+                                        <li style="z-index: 1;">
+                                            You can print the page at any time using the 'Print Maps' button. It is recommended to change the orientation of your map to landscape instead of portrait.
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row topSpacer20">
+                <div class="col-lg-12 myMapText">My Maps</div>
+                <div class="col-lg-12">
+                    <div id="divSavedMaps">
+                    </div>
+                </div>
+            </div>
+            <div class="row topSpacer20">
+                <div class="col-sm-5 col-xs-12 col-md-5  col-lg-3">
+                    <div class="foodplotMapName">
+                        <input id="newMapName" class="foodplotInput yellowBorder lightGrayBackground" maxlength="10" placeholder="Enter Map Name" />
+                    </div>
+                    <div id="btnAddNew" class="roundPlusIcon" onclick="ga('send', 'event', 'foodplot', 'createNewMap', 'map');"></div>
+                </div>
+                <div class="topSpacer20 d-md-none clear"></div>
+                <div class="col-sm-7 col-xs-12">
+                    <div id="btnExportMaps" class="foodplotRoundButton whiteText blackBackground" onclick="ga('send', 'event', 'foodplot', 'exportMap', 'map');">Export Maps</div>
+                    &nbsp;&nbsp;&nbsp;
+                    <div id="btnLoadMaps" class="foodplotRoundButton whiteText blackBackground" onclick="ga('send', 'event', 'foodplot', 'loadMap', 'map');">Load Maps</div>
+                    <div class="clear topSpacer5 d-md-none">
+                    </div>
+                    <span class="hidden-xs">&nbsp;&nbsp;&nbsp;</span>
+                    <div id="btnPrintMaps" class="foodplotRoundButton whiteText blackBackground" onclick="ga('send', 'event', 'foodplot', 'printMap', 'map');">Print Maps</div>
+                    <input type="file" class="hiddenFileUpload" id="hidFileUpload">
+                </div>
+            </div>
+            <div class="row topSpacer20">
+                <div id="pinTypeButtonGroup">
+                    <div class="col-md-12">
+                        <div class="subtitleText blackText">Drawing: &nbsp;&nbsp;&nbsp;</div>
+                        <div class="btn-toolbar" role="toolbar" aria-label="tbPinType">
+                            <div class="btn-group btn-group-justified" role="group" aria-label="Drawing Group">
+                                <a href="Javascript:" id="ddPingTypeFoodPlot" class="btn btn-default pinTypeBtn active" role="button" pinTypeValue="FoodPlot">Food Plot</a>
+                                <a href="Javascript:" class="btn btn-default pinTypeBtn" role="button" pinTypeValue="DeerStand">Deer Stand</a>
+                                <a href="Javascript:" class="btn btn-default pinTypeBtn" role="button" pinTypeValue="Path">Path</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear topSpacer20"></div>
+                    <div class="col-sm-7 col-xs-12">
+                        <div class="btn-toolbar" role="toolbar" aria-label="tbPinType">
+                            <div class="btn-group btn-group-justified" role="group" aria-label="Editing Group">
+                                <a href="Javascript:" id="ddPingTypeEdit" class="btn btn-default pinTypeBtn" role="button" pinTypeValue="Edit">Edit</a>
+                                <a href="Javascript:" class="btn btn-default pinTypeBtn" role="button" pinTypeValue="Erase">Erase</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row topSpacer20">
+                <div class="col-lg-12 d-none d-md-block">
+                    <span class="foodplotRoundButton yellowBackground" id="btnDone">Done Drawing</span>
+                    <span style="padding:10px 10px 15px 0px;">
+                        <span class="foodplotRoundButton yellowBackground" id="btnReset">Reset Drawing</span>
+                    </span>
+                    <span style="padding:10px 10px 15px 0px;" id="divUndoDrawing">
+                        <span class="foodplotRoundButton yellowBackground" id="btnUndoDrawing" onclick="ga('send', 'event', 'foodplot', 'undoDrawing', 'undo');">Undo</span>
+                    </span>
+                    <span style="padding:10px 10px 15px 0px;" id="divUndoDrawDot">
+                        <span class="foodplotRoundButton yellowBackground" id="btnUndoDrawDot" onclick="ga('send', 'event', 'foodplot', 'undoDot', 'undo');">Undo</span>
+                    </span>
+                </div>
+                <div class="d-md-none">
+                    <span class="foodplotRoundButton yellowBackground fontSize13" id="btnDoneXs">Done Drawing</span>
+                    <div class="col-xs-6">
+                        <span class="foodplotRoundButton yellowBackground fontSize13" id="btnResetXs">Reset Drawing</span>
+                    </div>
+                    <div class="clear topSpacer5"></div>
+                    <div class="col-xs-6" id="divUndoDrawingXs">
+                        <span class="foodplotRoundButton yellowBackground fontSize13" id="btnUndoDrawingXs" onclick="ga('send', 'event', 'foodplot', 'undoDrawing', 'undo');">Undo</span>
+                    </div>
+                    <div class="col-xs-6" id="divUndoDrawDotXs">
+                        <span class="foodplotRoundButton yellowBackground fontSize13" id="btnUndoDrawDotXs" onclick="ga('send', 'event', 'foodplot', 'undoDot', 'undo');">Undo</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row clear topSpacer20">
+                <div class="col-lg-8 col-md-12">
+                    <div class="row" style="margin: 20px 0px;">
+                        <div class="col-md-5 col-sm-6 paddingLeft0">
+                            <input id="searchAddInput" class="foodplotInput lightGrayBorder" placeholder="Enter your location" style="width:220px; float:left;">
+                            <div id="myLocation" class="MyLocationLogo30" style="float:left;" onclick="ga('send', 'event', 'foodplot', 'myLocation', 'map');"></div>
+                        </div>
+                        <div class="col-md-1 acerageText normalWeight d-none d-md-block hidden-sm">
+                            |
+                        </div>
+                        <div class="clear topSpacer20 d-md-none clear"></div>
+                        <div class="col-md-6  col-sm-6 paddingLeft0">
+                            <div class="acerageText">ACREAGE: <span id="acreage"><span style="font-size:14px;">Food plot not found</span></span></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="map" style="width:100%; height:500px;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear visible-md-block"></div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="row clear topSpacer20">
+                        <div class="col-md-12">
+                            <div class="subtitleText blackText">Species</div>
+                            <div id="speciesCheckboxList" class="speciesCheckList row"></div>
+                        </div>
+                    </div>
+                    <div class="row clear topSpacer20">
+                        <div class="col-md-12">
+                            <div class="subtitleText blackText">Recommended Products</div>
+                            <div id="divRecommendedProducts" name="product-name-value">No Result...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="moveableDoubleClickToEnd">double click to end</div>
+        <div class="moveableClickToBegin">click to begin</div>
+    </div>
+</div>
+<!-- Food Blog End -->
+<!-- <script -->
+<!-- src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly" -->
+<!-- async defer></script> -->
+@*<script src="./assets/js/FollowCursor.js"></script>
+    <script src="./assets/js/MapHelper.js"></script>
+    <script src="./assets/js/GeoLocationHelper.js"></script>
+    <script src="./assets/js/Storage.js"></script>
+    <script src="./assets/js/DeviceHelper.js"></script>
+    <script src="./assets/js/main.js"></script>*@

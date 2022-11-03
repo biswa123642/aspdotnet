@@ -1,0 +1,70 @@
+$color_1: rgba(0, 0, 0, 0.75);
+$color_2: red;
+$border-color_1: #cccccc;
+
+.zenivex-rebate-calculator {
+	.minimum-message {
+		width: 100%;
+		margin: 15px 0px 15px 10px;
+	}
+	label {
+		font-weight: normal;
+		font-size: 12px;
+		font-weight: bold;
+		margin: 0px 0px 10px 0px;
+		width: 100%;
+		min-width: 15rem;
+		display: inline-block;
+	}
+	select {
+		width: 220px;
+		min-height: 3.5rem;
+		margin-bottom: 1rem;
+	}
+	.rebate-calculator__input {
+		display: inline-block;
+		text-align: center;
+		font-size: 20px;
+		line-height: 33px;
+		flex-grow: 0;
+		flex-shrink: 1;
+		margin-left: 0px;
+		margin-right: 10px;
+		border-width: 1px;
+		border-color: $border-color_1;
+		box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+		color: $color_1;
+		min-width: 15rem;
+	}
+	.rebate-calculator__rebate-percent {
+		width: 100%;
+	}
+	.error {
+		display: none;
+	}
+}
+.zenivex-rebate-calculator.error {
+	.rebate-calculator__quantity {
+		border: 2px solid red;
+	}
+	.error {
+		display: inline-block;
+		color: $color_2;
+		white-space: nowrap;
+	}
+}
+@media (min-width: 640px) {
+	.zenivex-rebate-calculator {
+		label {
+			margin: 0px 10px;
+			width: 20%;
+		}
+	}
+}
+@media (min-width: 1441px) {
+	.zenivex-rebate-calculator {
+		label {
+			text-align: left;
+		}
+	}
+}

@@ -1,0 +1,123 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+/*===========================================
+    Clear Button
+  =============================================*/
+
+.sxa-btn {
+    a.clear-filter-btn {
+        color: $off-black;
+        font-size: 1.8rem;
+        line-height: 1.5;
+        @include Helvetica-font-stack();
+        font-weight: 700;
+        margin-bottom: 1.2rem;
+        display: inline-block;
+        cursor: pointer;
+        padding: 0;
+        border: none;
+    }
+}
+
+/*===========================================
+    Search  component
+  =============================================*/
+main {
+    min-height: 60rem;
+    .search-box {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        width: 100%;
+        .search-wrapper {
+            margin-bottom: 1.5rem;
+
+            .search-input-wrapper {
+
+                input[type=text] {
+                    height: 4.7rem;
+                    padding-right: 4.5rem;
+                }            
+
+                .custom-search-box-button {
+                    background-image: url(../images/site-icons/search-icon-25.svg);
+                    background-size: 2.5rem 2.5rem;
+                    opacity: 1;
+                    position: absolute;
+                    margin: 0;
+                    width: 3.3rem;
+                    height: 3.3rem;
+                    right: 0.4rem;
+                    background-color: #0000;
+                    top: 0.6rem;
+                }
+            }
+        }
+    }
+}
+
+/*===========================================
+    Search  filter
+  =============================================*/
+.component {
+
+    #article-type,
+    #others-type,
+    #product-type,
+    #searchfilter {
+        h3 {
+            border-color: $black-color;
+            line-height: 1;
+            .link-btn {
+                @include Helvetica-font-stack();
+                font-weight: 700;
+                font-size: 1.6rem;
+                color: inherit;
+                display: inline-block;
+                vertical-align: top;
+                padding: 0 3rem 0 0;
+                position: relative;
+
+                &[aria-expanded]::after,
+                &[aria-expanded]::before {
+                    background: $off-black;
+
+                }
+            }
+        }
+
+      
+
+        .facet-wrapper {
+            h3 {
+                margin-top: 0;
+            }
+
+            .form-check {
+                position: relative;
+                padding-left: 30px;
+                input {
+                    position: absolute;
+                    left: 0;
+                    top: 3px;
+                }
+                .form-check-label {
+                    position: relative;
+                    display: inline-block;
+                    cursor: pointer;
+                    left: 0px;
+                    line-height: 1.5;
+                    font-size: 1.8rem;
+                    @include Helvetica-font-stack();
+                    font-weight: 700;
+
+                 
+                }
+
+               
+            }
+        }
+
+
+    }
+}

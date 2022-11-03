@@ -1,0 +1,108 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+#footer {
+  background-color: $background-lightgrey;
+  padding: 3rem 1rem;
+  margin-top: 0;
+  @include respond-to(desktop){
+    margin-top: 5rem;
+  }
+  .utility-navigation {
+    &.brand-listing {
+      padding-top:0;
+      .brand-img-container {
+        .field-image {
+          width: 3.6rem;
+          height: 3.2rem;
+          margin: 2rem 0.4rem;
+        }
+      }
+    }
+
+    &.social-links {
+      .icon-container {
+        border: none;
+      }
+      .fa {
+        display: block;
+        padding: 1.5rem 0.5rem;
+        font-weight: 300;
+        color: $text-green !important;
+        cursor: pointer;
+        margin: 0 0.5rem;
+        font-size: 3.2rem;
+      }
+    }
+  }
+  .display-flex {
+    justify-content: center;
+    .component {
+      &.rich-text {
+        p {
+          font-size: 1.4rem;
+          margin: auto;
+          padding: 0 1.5rem;
+          color: $text-body;
+        }
+      }
+      &.link-list {
+        &.inline-link {
+          margin-bottom: -1rem;
+          ul {
+            flex-direction: row;
+            margin: 2rem;          
+            li {
+              justify-content: center;
+              &::before {
+                display: none;
+              }
+              .field-link {
+                a {
+                  font-size: 1.4rem;
+                  color: $text-body !important;
+                  border-right: 1px solid;
+                  padding-right: 1rem;
+                  &:last-child{
+                    padding-left: 1rem;
+                  }
+                  &:hover {
+                    border-bottom: none;
+                    text-decoration: underline;
+                  }
+                }
+              }
+              &.last{
+                .field-link {
+                  a {
+                    border-right: none;
+                    @include respond-to(desktop){
+                      border-right:1px solid;
+                    }
+                  }
+                }
+              }
+            }
+            @include respond-to(desktop) {
+              flex-direction: column;
+            }
+          }
+        }
+      }
+      @include respond-to(tab) {
+        &.link-list {
+          &.inline-link {
+            ul {
+              margin: 0;
+              flex-direction: row;
+            }
+          }
+        }
+      }
+    }
+  }
+  @include respond-to(desktop) {
+    padding: 3rem 0;
+  }
+}

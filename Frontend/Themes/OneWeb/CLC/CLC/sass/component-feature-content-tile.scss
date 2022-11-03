@@ -1,0 +1,40 @@
+@import "abstracts/mixins";
+@import "abstracts/vars";
+
+.component {
+&.feature-content-tiles {
+    &.variant-5 {
+        padding: 0;
+        @include respond-to(desktop){
+            padding: 3rem 5rem;
+        }
+      h2 {
+        color: $primary-color;
+        font-size: 2.1rem;
+        font-weight: bold;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .section-container {
+        > .row {
+          > div {
+            > div {
+              border: 1px solid $light-grey;
+              margin-bottom: 3rem;
+              padding-bottom: 9px;
+            }
+          }
+        }
+
+        .field-image {
+          padding: 4px;
+          transition: border 0.2s ease-in-out;
+          -webkit-transition: border 0.2s ease-in-out;
+        }
+        .field-data {
+          text-align: center;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,132 @@
+.dilution-rate-calculator {
+    h1 {
+        color: $green;
+        margin: 2.5rem 0;
+    }
+    .calculator{
+        padding-top: 1rem;
+    }
+
+    .component {
+        &.link {
+            padding: 0 15% 0 0;
+            display: inline-block;
+
+            a {
+                text-decoration: none;
+                margin-right: 3rem;
+                padding: 6px 14px;
+                border-radius: 15px;
+                min-width: 12rem;
+                text-align: center;
+                font-size: 1.6rem;
+            }
+        }
+    }
+
+    .quantity {
+        margin: .5rem 0 1.5rem 0;
+        display: flex;
+        padding: 0;
+        align-items: center;
+
+        span.units {
+            font-size: 1.6rem;
+            font-weight: normal;
+        }
+    }
+
+    .form-group {
+        label {
+            font-size: 1.6rem;
+            font-weight: bold;
+        }
+    }
+
+    .position-right {
+        text-align: left;
+    }
+
+    .form {
+        input {
+            padding: 5px;
+            border-width: 8px;
+            border-radius: 0;
+            border-color: $green;
+            border-style: solid;
+            border-width: 5px;
+            width: 82%;
+            margin-right: .6rem;
+
+            &:read-only {
+                background-color: $white;
+            }
+        }
+
+        .form-group-output {
+            margin-bottom: 2rem;
+        }
+    }
+
+    .wrapper-form {
+        .content {
+            padding: 1.5rem 0;
+        }
+    }
+
+    .rich-text:not(.component) {
+        h2 {
+            font-size: 2.8rem;
+            font-weight: 500;
+            color: $primary-color;
+        }
+
+        small {
+            font-size: 87%;
+            font-weight: bold;
+        }
+    }
+
+    h2.secondary {
+        margin-top: 3rem;
+    }
+
+    @include respond-to(tab) {
+        .component {
+            &.link {
+                padding: 1.5rem 5.5rem 0 0;
+
+                a {
+                    margin-right: 0;
+                    margin-left: 3rem;
+                    padding: 10px 20px;
+                    border-radius: 50px;
+                    font-size: 2rem;
+                }
+            }
+        }
+
+        .quantity {
+            margin: .5rem 0 1.5rem 0;
+            display: block;
+            padding: 0;
+            align-items: center;
+
+            span.units {
+                min-width: 5rem;
+                text-align: left;
+            }
+        }
+
+        .position-right {
+            text-align: right;
+        }
+
+        .form {
+            input {
+                width: auto;
+            }
+        }
+
+    }
+}

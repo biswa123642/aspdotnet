@@ -1,0 +1,108 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.multi-column-content-tiles {
+        &.variant-1 {
+            padding-top: 0;
+
+            .wrapper {
+                .inner-wrap {
+                    padding-bottom: 1.5rem;
+
+                    .body-copy {
+                        margin-top: 0;
+                        background-color: $faded-green;
+                        text-align: center;
+                        padding: 3rem;
+                        width: 100%;
+
+                        h2 {
+                            font-size: 1.6rem;
+                            color: $white;
+                            font-family: Arial, sans-serif;
+                            font-weight: normal;
+                            margin: 0;
+                            padding: 1rem 1.5rem;
+                            max-width: 100%;
+                            line-height: 1.428;
+                        }
+                    }
+                }
+
+                >.row {
+                    >div {
+                        &:last-child {
+                            .inner-wrap {
+                                .body-copy {
+                                    background-color: $black;
+                                }
+                            }
+                        }
+
+                        &:nth-child(2) {
+                            .inner-wrap {
+                                .body-copy {
+                                    background-color: $thead-color;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.variant-6 {
+            .inner-wrap {
+                .copy-wrap {
+                    background-color: transparent;
+
+                    .col-left {
+                        .field-image {
+                            top: initial;
+                            bottom: initial;
+                            left: initial;
+                            right: initial;
+                        }
+                    }
+
+                    .col-right {
+                        .body-copy {
+                            padding: 1.5rem 0;
+                            width: 100%;
+
+                            h3 {                                
+                                font-size: 3rem;
+                                color: $black;
+                                @include nunito-sans();
+                                font-weight: 900;
+                            }
+
+                            p {
+                                font-size: 1.6rem;
+                                color: $black;
+                                font-family: Arial, sans-serif;
+                                font-weight: normal;
+                                line-height: 1.428;
+                            }
+                            p:empty{
+                                display: none;
+                            }
+
+                            a {
+                                font-size: inherit;
+                                color: $link-blue;
+                                text-decoration: none;
+
+                                &:hover {
+                                    text-decoration: underline;
+                                    color: $link-hover;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

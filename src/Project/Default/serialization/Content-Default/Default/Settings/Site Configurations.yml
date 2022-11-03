@@ -1,0 +1,105 @@
+﻿---
+ID: "592435ee-f314-46c8-96e8-eb41acf0f00a"
+Parent: "f4c559fa-2eb2-4beb-97e0-890408d6878c"
+Template: "77820909-82a2-4308-9e62-f54e15110ef3"
+Path: /sitecore/content/OneWeb/Default/Settings/Site Configurations
+SharedFields:
+- ID: "2da26fe5-8b7b-4912-a2fc-f683e630d5bb"
+  Hint: ProductAttributeLocation
+  Value: "{B6331E28-2E32-4B0C-9B72-55DC482132A0}"
+- ID: "668b8710-8e39-4b7b-87b5-3d7b68a13f5b"
+  Hint: Pagesize
+  Value: 10
+- ID: "75e1ab85-58fa-4e28-9d2a-c7d8836b8ffa"
+  Hint: PageAttributeLocation
+  Value: "{03EB2DC9-E57B-43B1-971E-93B97647AE42}"
+- ID: "7bea2506-c26d-4030-a5ef-e2bd2e8baa4c"
+  Hint: NoImage
+  Value: |
+    <image mediaid="{56B5AD4D-8604-4D4B-95A9-7364429C58A6}" />
+- ID: "e4acfb78-8493-4948-af51-35da5b417a4d"
+  Hint: NumberOfScrolls
+  Value: 2
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220331T103855Z
+    - ID: "3aef89bd-80c4-4df9-8e5f-038498ed6ac0"
+      Hint: OfficeLocationFinderGoogleMapsAPIKey
+      Value: AIzaSyC4KSlL24ERwRKSgUnKMmbihBlfIdIoAvM
+    - ID: "41c147d8-4a0a-4627-a517-54fad45d5229"
+      Hint: EnableSurveyPolls
+      Value: 1
+    - ID: "4762f3c8-900d-44ff-ba2e-d44e57e8f5fb"
+      Hint: BrandName
+      Value: Pennington Law and Garden
+    - ID: "7be09131-f96b-4f0e-acb8-2d50aa27c6e2"
+      Hint: PowerReviewsAPIKey
+      Value: "53f4a894-a149-4709-ba13-fa1b6235b335"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "79af15af-f5b5-45f6-b6c3-dd2c8e7a0f63"
+    - ID: "8f0f4b7c-759c-4871-91ae-d6166bf319ea"
+      Hint: PowerReviewsMerchantID
+      Value: 660759
+    - ID: "9b7bb2ea-cc16-4ef0-862a-b5da3537a938"
+      Hint: PriceSpiderAccount
+      Value: 1747
+    - ID: "afcfbb0d-d8af-4442-9083-d0f0712ed0a2"
+      Hint: PowerReviewsLocale
+      Value: en_US
+    - ID: "b40ebd0e-ff54-4ee7-8d12-e95a86743552"
+      Hint: ReviewMapperURL
+      Value: "{876443FD-275F-43B5-9D01-C59FD39FE629}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "be547b09-1b5f-4ed9-8772-2f79b5e64d83"
+      Hint: PriceSpiderConfig
+      Value: 595438f57e479e884abf7405
+    - ID: "be8f8860-29bc-4c1e-854d-f5c93641e70c"
+      Hint: ExternalBrandConfig
+      Value: 60d4d5381543fd003be22a08
+    - ID: "bf6b073f-2c03-4d90-bda3-fd070fe69665"
+      Hint: DisablePriceSpider
+      Value: 
+    - ID: "c07be27b-fcb2-44eb-9162-a1e183ee79b9"
+      Hint: BrandLogo
+      Value: |
+        <image mediaid="{B276359B-9BF5-4E38-9435-7074797B4AF9}" />
+    - ID: "c9095aa3-af8f-436c-b8f1-26bc20c245c6"
+      Hint: SurvicateWorkspaceId
+      Value: 0a4fb9fe21e1d4f1b90403e1e4156837
+    - ID: "d30967e5-f8c5-4ee6-a5a0-559a6cf5d639"
+      Hint: PowerReviewsMerchantGroupID
+      Value: 79086
+    - ID: "d6fd8d24-f8d7-4aa3-bbcc-58868ad8893c"
+      Hint: FoodPlotJSONData
+      Value: |
+        '{"States":["AL","AR","CA","CT","DE","FL","GA","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","NH","NJ","NY","NC","OH","OK","PA","RI","SC","TN","TX","VT","VA","WV","WI"],"Ingredients":["AnnualClovers","Arrowleaf","Beans","Brassica","Buckwheat","Chicory","Chocory","DuranaWhiteClover","legumes","MedRedclovers","Peas","Radish","SmallGrain","Sorghum","AnnualCloverBlend","Brassica","BrassicaBlend","Chicory","Clover","Crimson","Crimsonclover","DuranaWhiteClover","Peas","ProprietaryGrainRye","Proprietaryoats","Radish","SmallGrain","Sorghum","Soybeans","WhiteClover"],"Species":["Deer","Turkey","Rabbit","Quail","Dove","Duck"],"Data":[';dataJson+='{"item":{"states":["AL","AR","CT","DE","FL","GA","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","NH","NJ","NY","NC","OH","OK","PA","RI","SC","TN","TX","VT","VA","WV","WI"],"ingredients":["SmallGrain","brassica","legumes"],"species":["Deer","Turkey","Rabbit"],"suggestedProduct":"RackmasterSupremeFallMix","suggestedProductSize":50,"suggestedProductUnit":"LB","suggestedProductSizeCoverageInArces":0.5,"suggestedProductUrl":"https://www.pennington.com/all-products/wildlife/rackmaster-supreme-fall"}},{"item":{"states":["AL","AR","CT","DE","FL","GA","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","NH","NJ","NY","NC","OH","OK","PA","RI","SC","TN","TX","VT","VA","WV","WI"],"ingredients":["AnnualCloverBlend"],"species":["Deer","Turkey","Rabbit"],"suggestedProduct":"FoodPlot3-WayCloverBlend","suggestedProductSize":3,"suggestedProductUnit":"LB","suggestedProductSizeCoverageInArces":1,"suggestedProductUrl":"https://www.pennington.com/all-products/wildlife/3-way-clover"}},{"item":{"states":["AL","AR","CT","DE","FL","GA","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","NH","NJ","NY","NC","OH","OK","PA","RI","SC","TN","TX","VT","VA","WV","WI"],"ingredients":["BrassicaBlend"],"species":["Deer","Rabbit"],"suggestedProduct":"FoodPlotBrassicaBlend","suggestedProductSize":5,"suggestedProductUnit":"LB","suggestedProductSizeCoverageInArces":0.5,"suggestedProductUrl":"https://www.pennington.com/all-products/wildlife/brassica-blend"}},{"item":{"states":["AL","AR","CT","DE","FL","GA","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","NH","NJ","NY","NC","OH","OK","PA","RI","SC","TN","TX","VT","VA","WV","WI"],"ingredients":["Clover","Brassica","Peas"],"species":["Deer","Turkey","Rabbit"],"suggestedProduct":"FoodPlotSelect","suggestedProductSize":5,"suggestedProductUnit":"LB","suggestedProductSizeCoverageInArces":0.5,"suggestedProductUrl":"https://www.pennington.com/all-products/wildlife/select-plot"}},{"item":{"states":["AL","AR","CT","DE","FL","GA","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","NH","NJ","NY","NC","OH","OK","PA","RI","SC","TN","TX","VT","VA","WV","WI"],"ingredients":["Chicory"],"species":["Deer","Rabbit"],"suggestedProduct":"RackmasterChicory","suggestedProductSize":5,"suggestedProductUnit":"LB","suggestedProductSizeCoverageInArces":0.5,"suggestedProductUrl":"https://www.pennington.com/all-products/wildlife/rackmaster-chicory"}},{"item":{"states":["AL","AR","CT","DE","FL","GA","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","NH","NJ","NY","NC","OH","OK","PA","RI","SC","TN","TX","VT","VA","WV","WI"],"ingredients":["Crimson","Arrowleaf","MedRedclovers"],"species":["Deer","Turkey","Rabbit"],"suggestedProduct":"RackmasterCloverTrio","suggestedProductSize":5,"suggestedProductUnit":"LB","suggestedProductSizeCoverageInArces":0.5,"suggestedProductUrl":"https://www.pennington.com/all-products/wildlife/rackmaster-clover-trio"}},{"item":{"states":["AL","AR","CT","DE","FL","GA","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","NH","NJ","NY","NC","OH","OK","PA","RI","SC","TN","TX","VT","VA","WV","WI"],"ingredients":["BrassicaBlend"],"species":["Deer","Rabbit"],"suggestedProduct":"RackmasterDeerGreens","suggestedProductSize":5,"suggestedProductUnit":"LB","suggestedProductSizeCoverageInArces":0.5,"suggestedProductUrl":"https://www.pennington.com/all-products/wildlife/rackmaster-deer-greens"}},{"item":{"states":["AL","AR","CT","DE","FL","GA","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","NH","NJ","NY","NC","OH","OK","PA","RI","SC","TN","TX","VT","VA","WV","WI"],"ingredients":["SmallGrain","Brassica","Legumes"],"species":["Deer","Turkey","Rabbit"],"suggestedProduct":"RackmasterDeluxeFallDeerMix","suggestedProductSize":50,"suggestedProductUnit":"LB","suggestedProductSizeCoverageInArces":0.5,"suggestedProductUrl":"https://www.pennington.com/all-products/wildlife/deluxe-fall-deer-mixture"}},{"item":{"states":["AL","AR","CT","DE","FL","GA","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","NH","NJ","NY","NC","OH","OK","PA","RI","SC","TN","TX","VT","VA","WV","WI"],"ingredients":["Soybeans","Peas","Buckwheat","Sorghum"],"species":["Deer","Turkey","Rabbit","Quail"],"suggestedProduct":"RackmasterDeluxeSpring/SummerMix","suggestedProductSize":50,"suggestedProductUnit":"LB","suggestedProductSizeCoverageInArces":1,"suggestedProductUrl":"https://www.pennington.com/all-products/wildlife/deluxe-spring-summer-deer-mixture"}},{"item":{"states":["AL","AR","CT","DE","FL","GA","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","NH","NJ","NY","NC","OH","OK","PA","RI","SC","TN","TX","VT","VA","WV","WI"],"ingredients":["WhiteClover"],"species":["Deer","Turkey","Rabbit"],"suggestedProduct":"RackmasterDuranaClover5lb","suggestedProductSize":5,"suggestedProductUnit":"LB","suggestedProductSizeCoverageInArces":1,"suggestedProductUrl":"https://www.pennington.com/all-products/wildlife/rackmaster-durana"}},{"item":{"states":["AL","AR","CT","DE","FL","GA","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","NH","NJ","NY","NC","OH","OK","PA","RI","SC","TN","TX","VT","VA","WV","WI"],"ingredients":["Peas","Buckwheat","Brassica","SmallGrain"],"species":["Deer","Turkey","Rabbit","Quail"],"suggestedProduct":"RackmasterEarlyDrawMix","suggestedProductSize":25,"suggestedProductUnit":"LB","suggestedProductSizeCoverageInArces":0.25,"suggestedProductUrl":"https://www.pennington.com/all-products/wildlife/rackmaster-early-draw"}},{"item":{"states":["AL","AR","CT","DE","FL","GA","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","NH","NJ","NY","NC","OH","OK","PA","RI","SC","TN","TX","VT","VA","WV","WI"],"ingredients":["SmallGrain","Brassica","AnnualClovers","DuranaWhiteClover","Chicory"],"species":["Deer","Turkey","Rabbit"],"suggestedProduct":"RackmasterElite","suggestedProductSize":25,"suggestedProductUnit":"LB","suggestedProductSizeCoverageInArces":0.5,"suggestedProductUrl":"https://www.pennington.com/all-products/wildlife/rackmaster-elite"}},{"item":{"states":["AL","AR","CT","DE","FL","GA","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","NH","NJ","NY","NC","OH","OK","PA","RI","SC","TN","TX","VT","VA","WV","WI"],"ingredients":["SmallGrain","Brassica","Annualclovers,chicory"],"species":["Deer","Turkey","Rabbit"],"suggestedProduct":"RackmasterFeedingFrenzy","suggestedProductSize":25,"suggestedProductUnit":"LB","suggestedProductSizeCoverageInArces":0.5,"suggestedProductUrl":"https://www.pennington.com/all-products/wildlife/rackmaster-feeding-frenzy"}},{"item":{"states":["MS"],"ingredients":["SmallGrain","Annualclovers"],"species":["Deer","Turkey","Rabbit"],"suggestedProduct":"RackmasterMississippiCompleteMix","suggestedProductSize":50,"suggestedProductUnit":"LB","suggestedProductSizeCoverageInArces":0.5,"suggestedProductUrl":"https://www.pennington.com/all-products/wildlife/rackmaster-mississippi-complete"}},{"item":{"states":["AL","AR","CT","DE","FL","GA","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","NH","NJ","NY","NC","OH","OK","PA","RI","SC","TN","TX","VT","VA","WV","WI"],"ingredients":["Proprietaryoats"],"species":["Deer"],"suggestedProduct":"RackmasterOats","suggestedProductSize":50,"suggestedProductUnit":"LB","suggestedProductSizeCoverageInArces":0.5,"suggestedProductUrl":"https://www.pennington.com/all-products/wildlife/rackmaster-oats"}},{"item":{"states":["AL","AR","CT","DE","FL","GA","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","NH","NJ","NY","NC","OH","OK","PA","RI","SC","TN","TX","VT","VA","WV","WI"],"ingredients":["DuranaWhiteClover","Chocory"],"species":["Deer","Turkey","Rabbit"],"suggestedProduct":"RackmasterPowerhouseMix","suggestedProductSize":5,"suggestedProductUnit":"LB","suggestedProductSizeCoverageInArces":0.5,"suggestedProductUrl":"https://www.pennington.com/all-products/wildlife/rackmaster-powerhouse"}},{"item":{"states":["AL","AR","CT","DE","FL","GA","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","NH","NJ","NY","NC","OH","OK","PA","RI","SC","TN","TX","VT","VA","WV","WI"],"ingredients":["Radish"],"species":["Deer","Rabbit"],"suggestedProduct":"RackmasterTrophyRadishes","suggestedProductSize":5,"suggestedProductUnit":"LB","suggestedProductSizeCoverageInArces":0.5,"suggestedProductUrl":"https://www.pennington.com/all-products/wildlife/rackmaster-trophy-radishes"}},{"item":{"states":["AL","AR","CT","DE","FL","GA","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","NH","NJ","NY","NC","OH","OK","PA","RI","SC","TN","TX","VT","VA","WV","WI"],"ingredients":["Sorghum","Buckwheat","Beans","Peas"],"species":["Turkey","Rabbit","Quail","Dove","Duck"],"suggestedProduct":"WingmasterGameBirdMix","suggestedProductSize":40,"suggestedProductUnit":"LB","suggestedProductSizeCoverageInArces":1,"suggestedProductUrl":"https://www.pennington.com/all-products/wildlife/wingmaster-game-bird-mix"}}'dataJson+=']}'
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220527T075637Z
+    - ID: "df838412-cd35-4dab-92ac-82a5d203caa4"
+      Hint: FoodPlotGoogleMapsAPIKey
+      Value: AIzaSyCQA8RwbLSESxbQotiIZIaCyRjitmx3uNY
+    - ID: "ec3719f3-58b4-4504-8545-df1af5aef83d"
+      Hint: EnableSeoSchema
+      Value: 1
+    - ID: "ed38d73e-a875-424c-8f31-8e0b0c0d197e"
+      Hint: EnablePowerReviews
+      Value: 1
+    - ID: "f6a9e708-acdf-411a-a685-9d9cbf9252c1"
+      Hint: SelectSeoSchema
+      Value: |
+        {31906487-4CE4-42A4-97E4-4AF3390A11C5}
+        {258F3385-A91A-4F85-91BE-23754F010FCB}
+        {1E8390B0-6166-4E1E-81E2-FBEDE861C90F}
+        {5A6884B5-B433-458B-960F-A6959A28206E}
+        {61FE73DD-0B53-447B-8071-917CAF2B9161}
+        {E485C1AD-741F-40A7-847F-4278082FA82E}

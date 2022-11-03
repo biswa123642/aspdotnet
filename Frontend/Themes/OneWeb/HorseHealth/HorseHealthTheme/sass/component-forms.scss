@@ -1,0 +1,24 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+a.btn-cadet-inverted,
+.sxa-btn,
+.sxa-btn-primary {
+  a {
+    color: $anchor-primary;
+    background-color: transparent;
+    border-color: $anchor-primary;
+    border-radius: 0;
+    font-size: 2rem;
+    padding: 10px 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+    &:hover {
+      color: $anchor-primary;
+      text-decoration: none;
+    }
+  }
+}
+
+@import "styles/forms/*";

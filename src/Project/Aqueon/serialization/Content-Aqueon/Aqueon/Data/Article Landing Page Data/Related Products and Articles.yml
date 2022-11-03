@@ -1,0 +1,49 @@
+﻿---
+ID: "f4d2b991-4874-4a29-b20a-a094fb4b9106"
+Parent: "df71f750-9669-4fcb-842b-ba0289e794c6"
+Template: "057af325-c948-4918-a4e4-2c3f6cf04524"
+Path: /sitecore/content/OneWeb/Aqueon/Data/Article Landing Page Data/Related Products and Articles
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220920T102046Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Related Products and Articles Data
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Related Products and Articles Data
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c44404e3-c718-45c4-bf9b-843deb681b93"
+    - ID: "95d893d1-43ae-4c07-bc1e-9839b5cffed5"
+      Hint: RelatedProducts
+      Value: |
+        {DCE6629D-A73F-42AC-8383-CFE70BEF3DA3}
+        {0E354F0B-289F-4F56-9FAE-E1DE7D530EF7}
+        {A182A8AA-FD5D-4A13-B97E-BE6B7A131E3C}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "be107673-5a64-4a47-9472-c91e8312cb3d"
+      Hint: RelatedProductsLabel
+      Value: Suggested Products
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220920T104203Z
+    - ID: "f0d0a9d9-6b70-4a54-a04a-537c38d5b2e1"
+      Hint: RelatedArticlesLabel
+      Value: Popular Blogs
+    - ID: "fb742e87-7bf7-4c72-97a9-987a40989ece"
+      Hint: RelatedArticles
+      Value: |
+        {2D812F98-40AB-4874-AAB7-5034DE1EA7EC}
+        {E876EDAC-F2DD-40AC-9ABA-102F6DC728C8}

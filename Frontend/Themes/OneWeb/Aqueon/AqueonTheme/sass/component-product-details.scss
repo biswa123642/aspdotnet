@@ -1,0 +1,225 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.productimage {
+    .image-placeholder {
+      border: none;
+      margin: 0 auto 20px auto;
+    }
+    .inner-wrap {
+      max-width: 30rem;
+
+      .slick-prev {
+        background: url("../images/icon_arrow_left.png");
+        background-repeat: no-repeat;
+        left: -14%;
+      }
+      .slick-next {
+        background: url("../images/icon_arrow_right.png");
+        background-repeat: no-repeat;
+        right: -13%;
+      }
+
+      .slick-next,
+      .slick-prev {
+        &::after,
+        &::before {
+          font-size: 5rem;
+        }
+      }
+    }
+  }
+
+  &.product-details {
+    &.variant-4 {
+      .product-wrapper {
+        h1 {
+          font-size: 4rem;
+          color: $text-primary;
+          text-transform: none;
+        }
+        .body-copy {
+          color: #545557;
+          font-size: 1.4rem;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  &.ps-widget[ps-sku] {
+    margin: 3rem 1.5rem;
+  }
+
+  &.product-variant {
+    select {
+      width: 95%;
+      color: #636569;
+      font-size: 1.4rem;
+      text-align: left;
+      border: 1px solid #a7a9ac;
+      background-image: url("../images/blue-drop.png");
+      background-repeat: no-repeat;
+      background-position: 100% 100%;
+      background-size: contain;
+      appearance: none;
+      background-color: $white;
+      padding-right: 4rem;
+      height: 4.5rem;
+      border-radius: 5px;
+    }
+
+    .variant-description {
+      ul.nav-tabs {
+        padding: 0;
+        li {
+          a.active {
+            background: $bg-light;
+            color: $text-primary;
+            cursor: default;
+          }
+          a {
+            color: $text-secondary;
+            font-size: 2rem;
+            font-weight: 800;
+            display: block;
+            padding: 1rem 1.5rem;
+            border: 1px solid transparent;
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+      }
+
+      .tab-content {
+        .tab-pane {
+          .panel-heading {
+            display: none;
+          }
+          &.active {
+            .collapse {
+              display: block;
+
+              .panel-body {
+                background: $bg-light;
+                padding: 1.5rem;
+                min-height: 10rem;
+
+                ul {
+                  padding-inline-start: 4rem;
+                  li {
+                    font-size: 1.5rem;
+                    color: $text-primary;
+                    list-style: disc;
+                  }
+                }
+
+                h4 {
+                  color: $text-primary;
+                  font-weight: 700;
+                  font-size: 1.8rem;
+                }
+
+                p {
+                  font-size: 1.5rem;
+                  color: $text-primary;
+
+                  a {
+                    color: $text-secondary;
+                    font-weight: 600;
+                    text-decoration: underline;
+                  }
+                }
+
+                .dimensions,
+                .silicone-color,
+                .frame-color {
+                  font-size: 1.4rem;
+                  @include Helvetica-neue-font();
+                }
+
+                .helpful-resources {
+                  a {
+                    color: #337ab7;
+                    @include Helvetica-neue-font();
+
+                    &:hover {
+                      color: #23527c;
+                    }
+                  }
+                }
+
+                .score-youtube-video {
+                  height: 185px;
+                  max-width: 491px;
+                  margin: auto;
+                  iframe {
+                    width: 100%;
+                    height: 100%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @include respond-to(tab) {
+    &.product-variant {
+      .variant-description {
+        ul.nav-tabs {
+          display: flex;
+          li {
+            width: 20%;
+            a {
+              text-align: center;
+            }
+          }
+        }
+        .tab-content {
+          .tab-pane {
+            &.active {
+              .collapse {
+                .panel-body {
+                  .score-youtube-video {
+                    height: 277px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @include respond-to(desktop) {
+    &.productimage {
+      .image-placeholder {
+        img {
+          max-width: 40rem !important; // to override default
+        }
+      }
+      .inner-wrap {
+        max-width: 40rem;
+      }
+    }
+
+    &.product-variant {
+      .variant-description {
+        ul.nav-tabs {
+          li {
+            a {
+              padding: 1rem 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,139 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+.component {
+  &.feature-content-tiles {
+    &.variant-2 {
+      padding: 2rem 1.5rem;
+      .promo-tile {
+        padding: 0 0 3rem 0;
+        .section-container {
+          .field-image {
+            img {
+              transition: all ease-in-out 100ms;
+              filter: drop-shadow(2px 1px 0 #c1c1c1)
+                drop-shadow(-1px -1px 0 #c1c1c1);
+            }
+          }
+        }
+        .field-data {
+          padding: 0 0.3rem;
+          text-align: left;
+          .sxa-btn {
+            a {
+              font-family: "john-doe";
+              font-weight: 700;
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+          p {
+            text-align: left;
+            color: #000000;
+            font-family: "antique-olive", sans-serif;
+            font-size: 1.6rem;
+            font-weight: bold;
+            text-decoration: none;
+            margin: 0 0 1rem 0;
+          }
+          h2 {
+            color: $red-text;
+            font-family: "john-doe";
+            font-size: 3rem;
+            font-weight: bold;
+            text-decoration: none;
+            text-transform: uppercase;
+            margin: 0;
+            padding: 2.2rem 0 1.1rem 0;
+          }
+          div {
+            color: $black;
+            font-family: "antique-olive", sans-serif;
+            font-size: 1.67rem;
+            font-weight: normal;
+            text-decoration: none;
+            ul {
+              list-style-image: url(../images/Red_Bullets.png);
+              padding: 0 3rem;
+              li {
+                list-style: inherit;
+                color: $black;
+                font-family: "john-doe";
+                font-size: 2rem;
+                font-weight: bold;
+                text-decoration: none;
+                margin-top: 3rem;
+                line-height: 2.5rem;
+              }
+            }
+          }
+        }
+      }
+      @include respond-to(desktop) {
+        .promo-tile {
+          padding: 0 2rem 3rem 2rem;
+          .field-data {
+            .sxa-btn {
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.know-your-enemy,
+.what-to-look-for {
+  .component {
+    .position-right {
+      a {
+        margin-top: 2rem;
+      }
+    }
+    &.feature-content-tiles {
+      .container {
+        max-width: 94%;
+      }
+    }
+  }
+}
+.what-to-look-for {
+  .component {
+    &.feature-content-tiles {
+      .container {
+        max-width: 100%;
+        .promo-tile {
+          padding: 0 0 3rem 0;
+          margin: 0 -3rem;
+          .field-data {
+            position: absolute;
+            top: 32%;
+            padding: 0 0rem 0 3rem;
+            .field-title {
+              color: $black;
+              font-family: "john-doe";
+              font-size: 2.3rem;
+              font-weight: bold;
+              text-decoration: inherit;
+              text-align: center;
+            }
+          }
+
+          @include respond-to(desktop) {
+            margin: 0 -1rem;
+            .field-data {
+              top: 35%;
+              padding: 0 5rem;
+            }
+          }
+          @include respond-to(extra-largedesktop) {
+            .field-data {
+              top: 40%;
+              padding: 0 5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

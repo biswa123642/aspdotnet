@@ -1,0 +1,65 @@
+﻿---
+ID: "16268916-f5e6-43bc-afc0-c9f41676e19b"
+Parent: "e0832db8-6cb9-4ac2-bafe-325d54405351"
+Template: "77820909-82a2-4308-9e62-f54e15110ef3"
+Path: /sitecore/content/OneWeb/CLC/Settings/Site Configuration
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "2da26fe5-8b7b-4912-a2fc-f683e630d5bb"
+  Hint: ProductAttributeLocation
+  Value: "{A0E597D1-F17B-4FD6-9C89-5E31FD8FDD44}"
+- ID: "668b8710-8e39-4b7b-87b5-3d7b68a13f5b"
+  Hint: Pagesize
+  Value: 9
+- ID: "e4acfb78-8493-4948-af51-35da5b417a4d"
+  Hint: NumberOfScrolls
+  Value: 5
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{45DE997D-E6EF-4843-82B9-9DEA69672CFC}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221012T055535Z
+    - ID: "342e9e22-02af-42ea-9b73-c725c67e9f0a"
+      Hint: Select Users
+      Value: "15e4ee4b-41c3-4ef3-944e-1a8f32d15c02"
+    - ID: "37cbf5a7-e02d-42f8-9cd1-7bbf37e23773"
+      Hint: GAIdGlobal
+      Value: "UA-145039385-1"
+    - ID: "4762f3c8-900d-44ff-ba2e-d44e57e8f5fb"
+      Hint: BrandName
+      Value: CLC
+    - ID: "51deedc1-0600-4d1d-85ec-db67cd6f2bad"
+      Hint: DisableCookiesBanner
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b646a3ec-e935-4b20-98ab-db687ad834cf"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "bf6b073f-2c03-4d90-bda3-fd070fe69665"
+      Hint: DisablePriceSpider
+      Value: 1
+    - ID: "c07be27b-fcb2-44eb-9162-a1e183ee79b9"
+      Hint: BrandLogo
+      Value: |
+        <image mediaid="{1ED6AEE5-E0DB-4F3C-9054-E5A67707064B}" />
+    - ID: "d01ab4f5-7dd1-48f4-ae48-a45c1c3bf458"
+      Hint: DisableGTM
+      Value: 1
+    - ID: "d5ffc3a1-1d5e-41b2-b824-3143a122b4e9"
+      Hint: Enable User Login
+      Value: 1
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221017T150306Z
+    - ID: "f65570f1-60bb-4355-841a-90653e2160de"
+      Hint: DisableGoogleAds
+      Value: 1

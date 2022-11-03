@@ -1,0 +1,56 @@
+.our-history {
+  background-color: $dark-green;
+  .component-content {
+    h2 {
+      color: $bg-basic-color;
+      font-size: 3vw;
+      text-align: center;
+      font-weight: 600;
+      margin: 1.5em 0 1.5em;
+    }
+    .inner-wrap {
+      position: relative;
+      margin-top: 0;
+      .field-tile-wrap {
+        margin-top: -45px;
+        max-width: 300px;
+        padding: 9px;
+
+        h3 {
+          color: $bg-basic-color;
+          font-weight: 700;
+          font-size: 6vw;
+        }
+        p {
+          color: $light-green;
+        }
+      }
+    }
+  }
+  @include respond-to(desktop) {
+    .inner-wrap {
+      .field-tile-wrap {
+        text-align: left;
+        .field-tile-title {
+          h3 {
+            font-size: 3vw;
+          }
+        }
+      }
+    }
+  }
+  @include respond-to(mobile) {
+    .inner-wrap {
+      max-width: 53%;
+      margin: auto;
+      .field-tile-image {
+        height: 163px;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}

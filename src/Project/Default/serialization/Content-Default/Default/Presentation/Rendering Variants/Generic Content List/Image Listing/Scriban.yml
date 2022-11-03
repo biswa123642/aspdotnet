@@ -1,0 +1,67 @@
+﻿---
+ID: "d3712f98-c8d4-4405-9a90-15320952d3d9"
+Parent: "61340aa8-4e6b-455a-83ce-49835bde3b84"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Generic Content List/Image Listing/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    
+    <div class="image-listing">
+    <div class="component-title">
+    <h2>{{i_item.Title}}</h2>
+    <p>{{i_item.Description}}</p>
+    </div>
+    <div class ="row">
+    {{for i_list in (sc_followmany i_item "ListItems")}}
+    {{sc_editframe i_list 'Custom List'}}
+    <div class="image-listing-box col-md-6 col-lg-3">
+    <a href="{{i_list.CTA.url}}">
+    {{if (i_list.Image != '') && (i_list.CTA != '')}}
+    {{i_list.Image}}
+    {{end}}
+    <div class="sxa-btn primary">
+    {{if (i_list.Subtitle != '')}}
+    <h2>{{i_list.Subtitle}}</h2>
+    {{if (i_list.Description != '')}}
+    <div class="image-listing-description">
+    {{i_list.Description}}
+    </div>
+    {{end}}
+    </div>
+    {{end}}
+    </a>
+    </div>
+    {{sc_endeditframe}}
+    {{end}}
+    </div>
+    </div>
+    
+    
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220531T120955Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cd5a2a5d-faa0-497c-8521-a9aec614f694"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220610T100520Z

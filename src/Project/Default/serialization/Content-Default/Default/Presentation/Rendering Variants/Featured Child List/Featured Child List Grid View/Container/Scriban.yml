@@ -1,0 +1,72 @@
+﻿---
+ID: "7dc206d6-8dcf-4a08-bcb7-9476f83fe166"
+Parent: "4b4fe45b-7f8a-42c9-9ad3-ed7752fcebc6"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Featured Child List/Featured Child List Grid View/Container/Scriban
+SharedFields:
+- ID: "7b5b7e8d-e579-44aa-8174-d4594db0c2f9"
+  Hint: CssClass
+  Value:  
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+     {{cssclass = "col-md-4"}} 
+    {{if i_item.ShowTextWithOverlay.raw | string.contains "1" }}
+                    {{cssclass = "show-hover col-md-3"}}
+         {{end}}
+    {{selectedChild = sc_followmany i_page "FeaturedChildList"}}
+    <div class="row">
+        {{for child in selectedChild}}
+            {{if child != null}}
+                <div class ="featurechild col-xs-12 col-sm-6 {{cssclass}}">
+                        {{ImageBackground = sc_follow child 'FeaturedImage' | sc_medialink }}
+                        <div class="inner-wrap" style="background-image:url({{ImageBackground}})">
+                            {{sc_field child "FeaturedLogo"}}
+                            <div class="body-copy" onMouseOver="this.style.backgroundColor='{{child.HighlightOverlayColor.raw}}'" onmouseout="this.style.backgroundColor='initial'" >
+                                <h2>{{sc_field child "FeaturedTitle"}}</h2>
+                                <p>{{sc_field child "FeaturedDescription"}}</p>
+    					{{ childURL = sc_follow child 'FeaturedLink'| sc_link }}
+    					{{if childURL != "#"}}			
+                                                 <div class="sxa-btn sxa-btn-primary">
+                                                    {{sc_field child 'FeaturedLink'}}
+                                                  </div>
+    					{{else}}
+    					{{flag= i_item.ShowTextWithOverlay.raw | string.contains "1" }}
+    					{{if  flag==true}}
+    						 <div class="sxa-btn sxa-btn-primary">
+                                                   <a href="{{child.url}}"> Learn More </a>
+                                           </div>
+    									   {{else}}
+    									   <div class="sxa-btn sxa-btn-primary">
+                                                   <a href="{{child.url}}"> Find Products </a>
+                                           </div>
+                                    {{end}}
+                                    {{end}}
+                            </div>
+                        </div>
+                </div>
+            {{end}}
+        {{end}}
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220204T111321Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b432be52-d00d-44ff-b54e-1fb9bcaadccd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220627T142137Z

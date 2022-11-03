@@ -1,0 +1,180 @@
+﻿---
+ID: "67cb8202-08a8-4f23-97aa-29e64a109ba8"
+Parent: "f12862d5-2c42-4594-91ac-e9bce95b9185"
+Template: "77820909-82a2-4308-9e62-f54e15110ef3"
+Path: /sitecore/content/OneWeb/GardenTech/Settings/Site Configuration
+SharedFields:
+- ID: "2da26fe5-8b7b-4912-a2fc-f683e630d5bb"
+  Hint: ProductAttributeLocation
+  Value: "{6C6AFE08-6D2F-4A3C-9F33-E8C6FDC5AFC5}"
+- ID: "668b8710-8e39-4b7b-87b5-3d7b68a13f5b"
+  Hint: Pagesize
+  Value: 10
+- ID: "7bea2506-c26d-4030-a5ef-e2bd2e8baa4c"
+  Hint: NoImage
+  Value: |
+    <image mediaid="{56B5AD4D-8604-4D4B-95A9-7364429C58A6}" alt="No image" height="" width="" hspace="" vspace="" />
+- ID: "e4acfb78-8493-4948-af51-35da5b417a4d"
+  Hint: NumberOfScrolls
+  Value: 2
+- ID: "e86000b0-2a64-4152-9178-6591115b5265"
+  Hint: BlogPostTopicAttributeLocation
+  Value: "{837FF32C-C8EA-4191-97A0-8CBBF1FC5418}"
+- ID: "f885a9cc-d0c1-431b-8afe-85b73f80db86"
+  Hint: ArticleTypeAttributeLocation
+  Value: "{FDB4D7E1-4D36-492B-985F-8A2CFFBF2FA5}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220608T100215Z
+    - ID: "4762f3c8-900d-44ff-ba2e-d44e57e8f5fb"
+      Hint: BrandName
+      Value: GardenTech
+    - ID: "7be09131-f96b-4f0e-acb8-2d50aa27c6e2"
+      Hint: PowerReviewsAPIKey
+      Value: "dbd21944-3880-4ffc-8362-1d464f7ba6c0"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b29b19c6-5473-48c9-b82c-9a559f826274"
+    - ID: "8f0f4b7c-759c-4871-91ae-d6166bf319ea"
+      Hint: PowerReviewsMerchantID
+      Value: 814844
+    - ID: "9b7bb2ea-cc16-4ef0-862a-b5da3537a938"
+      Hint: PriceSpiderAccount
+      Value: 1747
+    - ID: "9e24eada-2dbd-4c64-964d-da5d755fa5ad"
+      Hint: GAId
+      Value: "UA-39472827-1"
+    - ID: "afcfbb0d-d8af-4442-9083-d0f0712ed0a2"
+      Hint: PowerReviewsLocale
+      Value: en_US
+    - ID: "b1ab2b86-16b2-441e-b0d2-404c8c139e3d"
+      Hint: DisableGA
+      Value: 1
+    - ID: "b40ebd0e-ff54-4ee7-8d12-e95a86743552"
+      Hint: ReviewMapperURL
+      Value: "{F1596C94-9760-49FF-B472-48F208F209E9}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "be547b09-1b5f-4ed9-8772-2f79b5e64d83"
+      Hint: PriceSpiderConfig
+      Value: 5890d14eab2d18e472cf3280
+    - ID: "c07be27b-fcb2-44eb-9162-a1e183ee79b9"
+      Hint: BrandLogo
+      Value: |
+        <image mediaid="{CB3EFFFC-5B6E-4F1E-9EA8-7BDBFEC15744}" />
+    - ID: "d01ab4f5-7dd1-48f4-ae48-a45c1c3bf458"
+      Hint: DisableGTM
+      Value: 1
+    - ID: "d30967e5-f8c5-4ee6-a5a0-559a6cf5d639"
+      Hint: PowerReviewsMerchantGroupID
+      Value: 77374
+    - ID: "d7d037d1-e378-40fe-a22d-7d9e73ba75a3"
+      Hint: GTMId
+      Value: "GTM-5MHQGLT"
+    - ID: "d8692e4f-d312-490e-881b-84059310d731"
+      Hint: OneTrustCookiesID
+      Value: "ec515639-7e33-4325-820f-249bf4e2eb77"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220726T111718Z
+    - ID: "ec3719f3-58b4-4504-8545-df1af5aef83d"
+      Hint: EnableSeoSchema
+      Value: 1
+    - ID: "ed38d73e-a875-424c-8f31-8e0b0c0d197e"
+      Hint: EnablePowerReviews
+      Value: 1
+    - ID: "f6a9e708-acdf-411a-a685-9d9cbf9252c1"
+      Hint: SelectSeoSchema
+      Value: |
+        {E485C1AD-741F-40A7-847F-4278082FA82E}
+        {5A6884B5-B433-458B-960F-A6959A28206E}
+        {61FE73DD-0B53-447B-8071-917CAF2B9161}
+        {258F3385-A91A-4F85-91BE-23754F010FCB}
+        {1E8390B0-6166-4E1E-81E2-FBEDE861C90F}
+        {31906487-4CE4-42A4-97E4-4AF3390A11C5}
+- Language: es
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220622T112019Z
+    - ID: "4762f3c8-900d-44ff-ba2e-d44e57e8f5fb"
+      Hint: BrandName
+      Value: Inicio | GardenTech
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7be09131-f96b-4f0e-acb8-2d50aa27c6e2"
+      Hint: PowerReviewsAPIKey
+      Value: "dbd21944-3880-4ffc-8362-1d464f7ba6c0"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f8368e0b-8903-4957-80cb-5d5f976693bc"
+    - ID: "8f0f4b7c-759c-4871-91ae-d6166bf319ea"
+      Hint: PowerReviewsMerchantID
+      Value: 729186
+    - ID: "9b7bb2ea-cc16-4ef0-862a-b5da3537a938"
+      Hint: PriceSpiderAccount
+      Value: 1747
+    - ID: "9e24eada-2dbd-4c64-964d-da5d755fa5ad"
+      Hint: GAId
+      Value: "UA-145039385-1"
+    - ID: "afcfbb0d-d8af-4442-9083-d0f0712ed0a2"
+      Hint: PowerReviewsLocale
+      Value: es_MX
+    - ID: "b1ab2b86-16b2-441e-b0d2-404c8c139e3d"
+      Hint: DisableGA
+      Value: 1
+    - ID: "b40ebd0e-ff54-4ee7-8d12-e95a86743552"
+      Hint: ReviewMapperURL
+      Value: "{F1596C94-9760-49FF-B472-48F208F209E9}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "be547b09-1b5f-4ed9-8772-2f79b5e64d83"
+      Hint: PriceSpiderConfig
+      Value: 5890d14eab2d18e472cf3280
+    - ID: "d01ab4f5-7dd1-48f4-ae48-a45c1c3bf458"
+      Hint: DisableGTM
+      Value: 1
+    - ID: "d30967e5-f8c5-4ee6-a5a0-559a6cf5d639"
+      Hint: PowerReviewsMerchantGroupID
+      Value: 77374
+    - ID: "d7d037d1-e378-40fe-a22d-7d9e73ba75a3"
+      Hint: GTMId
+      Value: "GTM-5MHQGLT"
+    - ID: "d8692e4f-d312-490e-881b-84059310d731"
+      Hint: OneTrustCookiesID
+      Value: "ec515639-7e33-4325-820f-249bf4e2eb77"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220726T111708Z
+    - ID: "ec3719f3-58b4-4504-8545-df1af5aef83d"
+      Hint: EnableSeoSchema
+      Value: 1
+    - ID: "ed38d73e-a875-424c-8f31-8e0b0c0d197e"
+      Hint: EnablePowerReviews
+      Value: 1
+    - ID: "f6a9e708-acdf-411a-a685-9d9cbf9252c1"
+      Hint: SelectSeoSchema
+      Value: |
+        {E485C1AD-741F-40A7-847F-4278082FA82E}
+        {5A6884B5-B433-458B-960F-A6959A28206E}
+        {61FE73DD-0B53-447B-8071-917CAF2B9161}
+        {258F3385-A91A-4F85-91BE-23754F010FCB}
+        {1E8390B0-6166-4E1E-81E2-FBEDE861C90F}
+        {31906487-4CE4-42A4-97E4-4AF3390A11C5}

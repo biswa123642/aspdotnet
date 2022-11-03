@@ -1,0 +1,141 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  &.product-listing {
+    .component {
+      &.rich-text {
+        h3 {
+          font-size: 2.1rem;
+          color: #333333;
+          font-weight: 300;
+          @include ff-ernestine-pro-font-stack();
+        }
+      }
+    }
+
+    max-width: 92%;
+    box-sizing: border-box;
+    margin: auto;
+
+    .product-wrap {
+      > .row {
+        > div {
+          &:nth-child(2) {
+            flex: 0 0 100%; //Change the grid settings
+            max-width: 100%;
+          }
+        }
+      }
+    }
+
+    #product-type {
+      .card-body {
+        ul {
+          margin: auto;
+          justify-content: center;
+
+          li {
+            margin-bottom: 25px;
+            padding: 0px;
+            flex: 0 0 100%;
+
+            > div {
+              box-shadow: 0px 0px 8px 0px #0000004d;
+
+              .image-holder {
+                height: 300px;
+                margin-bottom: 60px;
+
+                a {
+                  img {
+                    width: 100%;
+                  }
+                }
+              }
+
+              .body-copy {
+                padding-bottom: 50px;
+                padding-left: 10px;
+                padding-right: 10px;
+
+                h3 {
+                  padding: 0px;
+                  margin: 20px 0px 10px 0px;
+
+                  a {
+                    color: $primary-color;
+                    font-size: 20px;
+                    font-weight: bold;
+                    text-align: left;
+                    text-transform: uppercase;
+
+                    @include respond-to(desktop) {
+                      &:hover {
+                        text-decoration: underline;
+                      }
+                    }
+                  }
+                }
+
+                p {
+                  color: $secondary-color;
+                  padding-right: 2px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    @include respond-to(desktop) {
+      .product-wrap {
+        > .row {
+          > div {
+            &:nth-child(2) {
+              flex: 0 0 75%;
+              max-width: 75%;
+            }
+          }
+        }
+      }
+
+      #product-type {
+        .card-body {
+          ul {
+            li {
+              flex: 0 0 30%;
+              padding-left: 15px;
+              padding-right: 15px;
+
+              &:hover {
+                transform: scale(1.05);
+
+                img {
+                  filter: grayscale(1);
+                }
+              }
+
+              > div {
+                .image-holder {
+                  margin-bottom: 40px;
+                }
+
+                .body-copy {
+                  h3 {
+                    a {
+                      &:hover {
+                        text-decoration: underline;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

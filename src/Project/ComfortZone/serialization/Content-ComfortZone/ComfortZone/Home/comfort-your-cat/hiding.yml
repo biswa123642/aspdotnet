@@ -1,0 +1,215 @@
+﻿---
+ID: "8e64610b-7831-4e7e-9081-8359658f2841"
+Parent: "1fa08819-e2a5-4c8d-a6b2-0fcc637fd026"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/ComfortZone/Home/comfort-your-cat/hiding"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{BC3B727C-2365-4C75-BF53-85D7BF2DE762}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        p:after="*[1=2]">
+        <r
+          uid="{C5A602D8-4151-498E-9A2D-4F0E07142575}"
+          p:before="*"
+          s:ds="{6A3C7FAC-6628-46BA-946D-5F17F6E1729D}"
+          s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass&amp;FieldNames=%7BDD2A67DD-2C78-484F-9B69-9E17B40C4BD1%7D&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=21"
+          s:ph="/main/row-2-17/container-19"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{1A328CA5-D9F1-458A-A5E6-7BA28B39842C}"
+          p:after="r[@uid='{C5A602D8-4151-498E-9A2D-4F0E07142575}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=19"
+          s:ph="/main/row-2-17" />
+        <r
+          uid="{A56C43D3-BEAD-4041-9C65-F7D1FAC96180}"
+          p:after="r[@uid='{1A328CA5-D9F1-458A-A5E6-7BA28B39842C}']"
+          s:ds="{D107A53C-8B14-415D-B8F2-AB22A2CB342A}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=20"
+          s:ph="/main/row-1-17/container-18" />
+        <r
+          uid="{68B01CC2-FE76-4752-83D2-B317DD3FBCDE}"
+          p:after="r[@uid='{A56C43D3-BEAD-4041-9C65-F7D1FAC96180}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=18"
+          s:ph="/main/row-1-17" />
+        <r
+          uid="{B44837F7-8362-4054-AB59-A9B7DACCA1F0}"
+          p:after="r[@uid='{68B01CC2-FE76-4752-83D2-B317DD3FBCDE}']"
+          s:ds="{E3F9DD41-06C2-431E-884A-09112AF83C59}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=16"
+          s:ph="/main/row-8-1/container-9"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{8CA9272D-C55A-44A1-ADFA-5087AB2C95F7}"
+          p:after="r[@uid='{B44837F7-8362-4054-AB59-A9B7DACCA1F0}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/row-8-1" />
+        <r
+          uid="{EEE3D58C-29F4-4D30-93BD-7B2DB1D41EC5}"
+          p:after="r[@uid='{8CA9272D-C55A-44A1-ADFA-5087AB2C95F7}']"
+          s:ds="{7100144A-2100-4F24-8E83-1E9B12F0F8E0}"
+          s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass=col-md-3&amp;FieldNames=%7B735BBE37-C514-466E-A123-80308FFEFE05%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=15"
+          s:ph="/main/row-7-1/container-8"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{CC490C9A-4CB4-40FA-BB83-6118E15212B2}"
+          p:after="r[@uid='{EEE3D58C-29F4-4D30-93BD-7B2DB1D41EC5}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/row-7-1" />
+        <r
+          uid="{C6EE7489-AF69-4955-BA21-2C0F76BB9BF0}"
+          p:after="r[@uid='{CC490C9A-4CB4-40FA-BB83-6118E15212B2}']"
+          s:ds="{32BCC1E9-94C0-4E42-851F-2052DC40F05D}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=14"
+          s:ph="/main/row-6-1/container-7"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{C4D5BA83-3611-4ED4-951D-ECAC198C4825}"
+          p:after="r[@uid='{C6EE7489-AF69-4955-BA21-2C0F76BB9BF0}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-6-1" />
+        <r
+          uid="{91C03BDF-4CF9-4E6A-B9AC-7C97A11D2FB0}"
+          p:after="r[@uid='{C4D5BA83-3611-4ED4-951D-ECAC198C4825}']"
+          s:ds="{9D9A1F94-241D-4287-A71E-E2765E2AA2CC}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=13"
+          s:ph="/main/row-5-1/container-6"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{5C245680-B347-4BB6-AF33-3DB63EB11171}"
+          p:after="r[@uid='{91C03BDF-4CF9-4E6A-B9AC-7C97A11D2FB0}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-5-1" />
+        <r
+          uid="{45A9A73E-7EC4-469A-9523-8338B34B2A55}"
+          p:after="r[@uid='{5C245680-B347-4BB6-AF33-3DB63EB11171}']"
+          s:ds="{C0C8147F-994A-4334-9176-8F5192374FFF}"
+          s:id="{3C84ED23-7591-45E0-8850-1AE96D1342B1}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;RenderingIdentifier"
+          s:ph="/main/row-4-1/container-5"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{40DB1B9B-EB1B-4875-86CC-25EF059875E5}"
+          p:after="r[@uid='{45A9A73E-7EC4-469A-9523-8338B34B2A55}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-4-1" />
+        <r
+          uid="{6D38FAFA-6C48-43AA-891B-C4049113A25A}"
+          p:after="r[@uid='{40DB1B9B-EB1B-4875-86CC-25EF059875E5}']"
+          s:ds="{C7CC44F3-5C39-4557-8DC6-CFEBCDF10BC6}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=12"
+          s:ph="/main/row-3-1/container-4"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{0298F0DF-3C6E-4C11-9F03-C3F82479934B}"
+          p:after="r[@uid='{6D38FAFA-6C48-43AA-891B-C4049113A25A}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-3-1" />
+        <r
+          uid="{7EBFCC9A-A555-4493-82B8-A5DDDD8BBA82}"
+          p:after="r[@uid='{0298F0DF-3C6E-4C11-9F03-C3F82479934B}']"
+          s:ds="{B4331DC9-F420-4DD8-A3AA-A5C5790DC3C7}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
+          s:ph="/main/row-2-1/container-3"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{8647B4D8-7206-4D13-A90F-83820EEBD63C}"
+          p:after="r[@uid='{7EBFCC9A-A555-4493-82B8-A5DDDD8BBA82}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{DE42B46A-AD99-40FF-BC2F-F59546A07088}"
+          p:after="r[@uid='{8647B4D8-7206-4D13-A90F-83820EEBD63C}']"
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%3E&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B1D790729-2C96-41CB-AB54-EFCE42474F1E%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/row-1-1/container-2" />
+        <r
+          uid="{87CBCBF8-1096-41C1-9E29-9F68330933B5}"
+          p:after="r[@uid='{DE42B46A-AD99-40FF-BC2F-F59546A07088}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{DFC9F738-DA55-446C-82CE-232495AD9F91}"
+          p:after="r[@uid='{87CBCBF8-1096-41C1-9E29-9F68330933B5}']"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3%2C4%2C5%2C6%2C7%2C8&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+        <r
+          uid="{D33E0367-75BF-4790-81BC-1DB6F4F7D18A}"
+          p:after="*[1=2]"
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=17"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220926T123008Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Cat Hiding
+    - ID: "50f31584-caa5-47ca-98cd-6115eba9fac8"
+      Hint: HeroContentImage
+      Value: 
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Cats are social creatures, so they shouldn't be hiding all the time. If your cat is hiding, our guide can help you get him to come out and play with you again.
+    - ID: "5aac1fce-dc76-4156-ab65-2a161091ac30"
+      Hint: HeroSecondaryHeroBannerCTA
+      Value: 
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Cats are social creatures, so they shouldn't be hiding all the time. If your cat is hiding, our guide can help you get him to come out and play with you again.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Cat Hiding
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Cat Hiding | Comfort Zone
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d9052e59-8239-43a0-aa21-102f46f9b216"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{59097D1E-7FDA-4878-97A4-F057B897FBAE}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221003T122138Z

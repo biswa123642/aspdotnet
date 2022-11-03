@@ -1,0 +1,121 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component-solution-finder {
+    * {
+        @include robota-sans-serif();
+        color: $primary-color;
+    }
+
+    .solution-finder {
+        .breadcrumb-bg {
+            background-color: $white;
+            padding-bottom: 1.5rem;
+
+            .solution-finder-breadcrumb {
+                font-weight: normal;
+                padding: 0;
+                margin: 0;
+                line-height: 1.2;
+            }
+        }
+
+        .solutionFinderMainDisplay {
+            padding-top: 2rem;
+
+            .questionDiv {
+                background-color: transparent;
+                padding: 0;
+                *{
+                    @include robota-sans-serif();
+                }
+
+                h3 {
+                    font-size: 2.2rem;
+                    color: $primary-color;
+                    text-transform: uppercase;
+                    display: inline-block;
+                    max-width: 90%;
+                    padding: 4.4rem 2.2rem 3.3rem 2.2rem;
+                    margin: 0;
+                    background-color: $white;
+                    font-weight: bold;
+                }
+            }
+
+            .answersDiv {
+                .answer-div {
+                    margin: 2rem;
+                    cursor: pointer;
+                    background-color: $white;
+                    border-radius: 69px;
+                    border: none;
+                    box-shadow: 2px 2px 13px $black-transparent;
+                    padding: 4rem;
+                    cursor: pointer;
+                    transition: all ease-in-out 200ms;
+                    text-align: center;
+
+                    &:hover {
+                        box-shadow: 8px 8px 20px $box-shadow-hover;
+
+                        .answer-title {
+                            text-decoration: underline;
+                        }
+                    }
+
+                    .answer-title {
+                        font-size: 2.5rem;
+                        color: $green;
+                        margin: 0;
+                        width: 100%;
+                        padding: 2rem 0;
+                        line-height: 1.1;
+                        @include robota-sans-serif();
+
+                    }
+
+                    .answer-image {
+                        max-width: 100%;
+                        max-height: 100%;
+                    }
+                }
+            }
+        }
+
+        @include respond-to(tab) {
+            .solutionFinderMainDisplay {
+                .questionDiv {
+                    h3 {
+                        font-size: 2.2rem;
+                    }
+                }
+                .answer-div{                    
+                    max-width: 40%;                    
+                }
+            }
+        }
+
+        @include respond-to(desktop) {
+            max-width: 140rem;
+            margin: auto;
+            .solutionFinderMainDisplay {
+                .questionDiv {
+                    h3 {
+                        font-size: 5rem;
+                    }
+                }
+                .answer-div{
+                    max-width: 25%;                    
+                }
+            }
+        }
+        @include respond-to(extra-large-desktop){
+            .solutionFinderMainDisplay {                
+                .answer-div{
+                    max-width: 21%;                    
+                }
+            }
+        }
+    }
+}

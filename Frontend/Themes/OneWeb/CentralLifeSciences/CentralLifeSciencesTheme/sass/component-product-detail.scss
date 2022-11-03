@@ -1,0 +1,184 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  &.multi-column-content-tiles {
+    .wrapper {
+      > .row > div {
+        padding: 30px;
+        &:first-child {
+          .inner-wrap {
+            height: 100%;
+            padding: 25px;
+            @include respond-to(small-desktop) {
+              padding: 30px 70px 40px 70px;
+            }
+            @include respond-to(medium-desktop) {
+              padding: 30px 120px 40px 120px;
+            }
+            .body-copy {
+              margin-top: -3rem;
+              h2 {
+                max-width: 100%;
+                color: $dark-green;
+                padding-left: 0;
+              }
+              .rich-text {
+                background-color: transparent;
+                padding: 0;
+                min-height: 16rem;
+              }
+            }
+            .field-image {
+              img {
+                max-width: 145px;
+              }
+            }
+          }
+        }
+        &:last-child {
+          .inner-wrap {
+            height: 100%;
+            padding: 25px;
+            @include respond-to(small-desktop) {
+              padding: 30px 70px 40px 70px;
+            }
+            @include respond-to(medium-desktop) {
+              padding: 30px 120px 40px 120px;
+            }
+            .body-copy {
+              margin-top: -3rem;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              height: 100%;
+              h2 {
+                max-width: 100%;
+                color: $dark-green;
+                padding-left: 0;
+                font-size: 5rem;
+              }
+              .rich-text {
+                background-color: transparent;
+                padding: 0;
+                min-height: 16rem;
+              }
+            }
+            height: 100%;
+            .field-image {
+              img {
+                max-width: 450px;
+                display: block;
+                margin: auto;
+              }
+            }
+          }
+        }
+      }
+    }
+    &.bg-shadow {
+      &.left {
+        .wrapper {
+          > .row > div {
+            &:first-child {
+              .inner-wrap {
+                box-shadow: 0px 3px 12px #00000029;
+                border: 2px solid $light-green;
+              }
+            }
+          }
+        }
+      }
+      &.right {
+        .wrapper {
+          > .row > div {
+            padding: 30px;
+            &:last-child {
+              .inner-wrap {
+                box-shadow: 0px 3px 12px #00000029;
+                border: 2px solid $light-green;
+                .field-image {
+                  img {
+                    max-width: 145px;
+                    margin-left: 0;
+                  }
+                }
+                .body-copy {
+                  display: block!important;// override content styling
+                  h2 {
+                    font-size: 3rem;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    &.gray-bg-tile {
+      .wrapper {
+        > .row > div {
+          &:last-child {
+            display: none;
+            @include respond-to(tab) {
+              background-color: $bg-light-gray;
+              display: block;
+            }
+            .field-image {
+              img {
+                max-width: 100%;
+              }
+            }
+            .inner-wrap {
+              border: none;
+              box-shadow: none;
+              padding: 0;
+            }
+          }
+        }
+      }
+    }
+    &.green-bg {
+      .wrapper {
+        > .row > div {
+          &:last-child {
+            .inner-wrap {
+              background-color: $light-green;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.product-detail {
+  .component {
+    &.multi-column-content-tiles {
+      .wrapper {
+        > .row {
+          > div {
+            &:last-child {
+              .body-copy {
+                @include respond-to(tab) {
+                  display: flex !important;
+                  align-items: flex-start !important;
+                }
+              }
+              .inner-wrap {
+                .body-copy {
+                  h2 {
+                    font-size: 3rem;
+                    line-height: 36px;
+                    letter-spacing: 0;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

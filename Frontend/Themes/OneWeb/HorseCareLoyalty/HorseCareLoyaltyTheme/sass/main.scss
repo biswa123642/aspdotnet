@@ -1,0 +1,43 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+main {
+  min-height: calc(100vh - 214px);
+}
+
+body {
+  @include Arial-font-stack();
+  font-size: 1.6rem;
+  line-height: $line-height;
+  color: $body-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $anchor-primary;
+  font-weight: 700;
+  @include Arial-black-font-stack();
+}
+
+a {
+  color: $anchor-primary;
+  text-decoration: none;
+  &:hover {
+    color: $anchor-primary;
+    text-decoration: underline;
+  }
+}
+
+.component {
+  &.image {
+    text-align: center;
+    a {
+      cursor: auto;
+    }
+  }
+}

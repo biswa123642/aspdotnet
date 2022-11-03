@@ -1,0 +1,91 @@
+.page-home {
+    main {
+        .component.rich-text,.home-page-listing {
+            >h1,
+            h2,
+            p {
+                color: inherit;
+            }
+
+            .score-document-header {
+                border: none;
+                padding-top: 22px;
+                margin-bottom: 0;
+            }
+
+            h1 {
+                font-family: adelle, serif;
+                font-weight: 600;
+                font-size: 42px;
+                line-height: 50px;
+                color: inherit;
+            }
+
+            .score-content-spot {
+                font-size: 18px;
+                line-height: 24px;
+                color: inherit;
+
+                p {
+                    font-size: 18px;
+                    line-height: 24px;
+                    color: inherit;
+                }
+
+                a {
+                    color: #337ab7;
+                    text-decoration: none;
+
+                    &:hover,
+                    &:focus {
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+            #feed-through {
+                padding: 0;
+                color: rgb(9, 57, 90);
+
+                &.home-banner {
+                    background-size: cover;
+                    padding: 0 0 40px 0px;
+                    overflow: hidden;
+
+                    &:before,
+                    &:after {
+                        display: table;
+                        width: 100%;
+                        content: "";
+                    }
+                }
+
+                img {
+                    max-width: 80%;
+                    margin: 100px auto;
+                    width: auto !important;
+                    height: auto !important;
+                }
+
+                @media screen and(min-width:992px) {
+                    .score-content-spot {
+                        max-width: 50%;
+                    }
+                }
+            }
+
+            @media screen and(min-width:640px) {
+                h1 {
+                    font-size: 60px;
+                    line-height: 70px;
+                }
+            }
+
+            @media screen and(min-width:992px) {
+                .container {
+                    max-width: 800px;
+                }
+            }
+        }
+    }
+}

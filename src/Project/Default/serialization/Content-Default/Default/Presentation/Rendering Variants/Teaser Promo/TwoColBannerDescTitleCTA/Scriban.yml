@@ -1,0 +1,79 @@
+﻿---
+ID: "609039ad-68f1-43af-adb0-a762c0d52c90"
+Parent: "24093bf7-32ea-43b2-89a2-548bb2affef8"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Teaser Promo/TwoColBannerDescTitleCTA/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    {{teaserImage = sc_follow i_item 'TeaserImage' | sc_medialink }}
+    {{MteaserImage = sc_follow i_item 'MobileTeaserImage' | sc_medialink }}
+    {{SecondteaserImage = sc_follow i_item 'SecondaryTeaserImage' | sc_medialink }}
+    {{SecondMteaserImage = sc_follow i_item 'MobileSecondaryTeaserImage' | sc_medialink }}
+    {{renderingClassLeft = sc_parameter 'ColLeftGrid'}}
+    {{renderingClassRight = sc_parameter 'ColRightGrid'}}
+    <div class="inner-wrap">
+        <div class="row">
+            <figure class="col-left col col-12 col-md-6 {{renderingClassLeft}}" style="background-image: url({{teaserImage}})" data-desktop-image="url({{teaserImage}})" data-mobile-image="url({{MteaserImage}})">
+                <div class="body-copy">
+                    {{if i_item.Title != ""}}
+                   <h2> {{sc_field i_item 'Title'}}</h2>
+                  {{end}}
+                   {{if i_item.Description != ""}}
+                  <p>  {{sc_field i_item 'Description'}}</p>
+                    {{end}}            
+                    <div class = "sxa-btn sxa-btn-primary sxa-btn-round">  
+                         {{if i_item.FirstCTA.url != ""}}               
+                        {{sc_field i_item 'FirstCTA'}}
+                       {{end}}
+                        {{thirdCTA= sc_field i_item 'ThirdCTA'}}
+                        {{if  thirdCTA != "" }}
+                        {{thirdCTA }}
+                        {{end}}
+                    </div>
+                </div>
+            </figure>
+            <div class="col-right col col-12 col-md-6 {{renderingClassRight}} teaser-mob-image"  style="background-image: url({{SecondteaserImage}})" data-desktop-image="url({{SecondteaserImage}})" data-mobile-image="url({{SecondMteaserImage}})">
+                    <div class="body-copy">
+                        {{if  i_item.SecondaryTitle != "" }}
+                       <h2> {{sc_field i_item 'SecondaryTitle'}}</h2>
+                        {{end}}
+                           {{if i_item.SecondaryDescription != ""}}
+                       <p> {{sc_field i_item 'SecondaryDescription'}}</p>
+                        {{end}}                  
+                        <div class = "sxa-btn sxa-btn-primary sxa-btn-round">
+                         {{if i_item.SecondCTA.url != ""}}
+                        {{sc_field i_item 'SecondCTA'}}
+                         {{end}}
+                        </div>                 
+                    </div>
+            </div>
+        </div>
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220808T080641Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e6c684ef-3779-44e7-a5cc-c9b5f244b0a5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220809T111152Z

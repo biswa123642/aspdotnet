@@ -1,0 +1,168 @@
+﻿---
+ID: "be1e4ee3-7dee-4ecb-995a-f520d122e6bc"
+Parent: "8b31f922-a402-4ad4-b8ae-80298d7cf203"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/CentralMosquitoControl/Home/resources/disease-information"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{13D4076D-F166-497B-B8D0-79B59A07606C}"
+          p:before="*"
+          s:ds=""
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-2-1/container-18" />
+        <r
+          uid="{BCFC8386-F0A8-4358-A01A-55D60B979797}"
+          p:after="r[@uid='{13D4076D-F166-497B-B8D0-79B59A07606C}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=18"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{6ECEC36A-F638-4131-9E01-71D6344DE961}"
+          p:after="r[@uid='{BCFC8386-F0A8-4358-A01A-55D60B979797}']"
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B28C76009-CBBF-4D05-8911-94F9A74652F7%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=15"
+          s:ph="/main/row-4-1/container-17" />
+        <r
+          uid="{926C7904-AAE9-49CE-BD04-C0FB2EFD6718}"
+          p:after="r[@uid='{6ECEC36A-F638-4131-9E01-71D6344DE961}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=17"
+          s:ph="/main/row-4-1" />
+        <r
+          uid="{311C8E65-1C30-45F2-9BA3-7250307F5206}"
+          p:after="r[@uid='{926C7904-AAE9-49CE-BD04-C0FB2EFD6718}']"
+          s:ds=""
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%2F&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B34C68150-D3B2-463D-9B91-B2F7BCBD3727%7D&amp;Styles=%7BFAF28AF7-0575-40E0-9EE8-3C33FB91AC01%7D%7C%7BE951A28D-10FF-4D94-BDE6-BB1DDE779D5E%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3&amp;CacheClearingBehavior=Clear%20on%20publish"
+          s:ph="/main/row-1-1/container-16"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{C21727EC-865B-4D1A-A8B6-882CE84E91FB}"
+          p:after="r[@uid='{311C8E65-1C30-45F2-9BA3-7250307F5206}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=16"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{3B498353-6BC7-477C-9F51-EB3227C72F37}"
+          p:after="r[@uid='{C21727EC-865B-4D1A-A8B6-882CE84E91FB}']"
+          s:ds="{67D97076-C566-45DA-855C-4F2F534AB0B5}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BE706B4E7-E4FA-48D0-BF3F-32833C47E434%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=13"
+          s:ph="/main/row-3-1/container-6/column-6-7" />
+        <r
+          uid="{3ADB6E03-53BE-4CFD-A5E9-E81223D7DA31}"
+          p:after="r[@uid='{3B498353-6BC7-477C-9F51-EB3227C72F37}']"
+          s:ds="{F4E16BFB-3575-4389-998B-68D314A0F185}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BE706B4E7-E4FA-48D0-BF3F-32833C47E434%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=12"
+          s:ph="/main/row-3-1/container-6/column-5-7" />
+        <r
+          uid="{A09C8300-F7EB-4AC2-BD34-F692203124AD}"
+          p:after="r[@uid='{3ADB6E03-53BE-4CFD-A5E9-E81223D7DA31}']"
+          s:ds="{1EC5AD6B-C294-46A6-B35F-C8D63D1A1FBA}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BE706B4E7-E4FA-48D0-BF3F-32833C47E434%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
+          s:ph="/main/row-3-1/container-6/column-4-7" />
+        <r
+          uid="{5215D977-A2E8-4B11-9AB2-273D4FD7F17F}"
+          p:after="r[@uid='{A09C8300-F7EB-4AC2-BD34-F692203124AD}']"
+          s:ds="{C39E5725-665F-420E-9017-5071B4CCB999}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BE706B4E7-E4FA-48D0-BF3F-32833C47E434%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/row-3-1/container-6/column-3-7" />
+        <r
+          uid="{41EED18B-469F-4F70-9DD5-638E5C547DB6}"
+          p:after="r[@uid='{5215D977-A2E8-4B11-9AB2-273D4FD7F17F}']"
+          s:ds="{7FF0817A-688A-49FF-934B-82368542DB54}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BE706B4E7-E4FA-48D0-BF3F-32833C47E434%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/row-3-1/container-6/column-2-7" />
+        <r
+          uid="{27CE16F7-80D1-46B1-AEBB-8FD6A455C8D2}"
+          p:after="r[@uid='{41EED18B-469F-4F70-9DD5-638E5C547DB6}']"
+          s:ds="{6F6DF664-E80D-4C2C-B0D1-64462B10ED3A}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BE706B4E7-E4FA-48D0-BF3F-32833C47E434%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/row-3-1/container-6/column-1-7" />
+        <r
+          uid="{A96AC041-EE0F-47F9-BED4-B8CD8D5C5F49}"
+          p:after="r[@uid='{27CE16F7-80D1-46B1-AEBB-8FD6A455C8D2}']"
+          s:ds=""
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B7AF5C340-8A60-4D59-A7A1-5DBAB391292C%7D&amp;ColumnWidth2=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B7AF5C340-8A60-4D59-A7A1-5DBAB391292C%7D&amp;ColumnWidth3=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B7AF5C340-8A60-4D59-A7A1-5DBAB391292C%7D&amp;ColumnWidth4=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B7AF5C340-8A60-4D59-A7A1-5DBAB391292C%7D&amp;ColumnWidth5=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B7AF5C340-8A60-4D59-A7A1-5DBAB391292C%7D&amp;ColumnWidth6=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B7AF5C340-8A60-4D59-A7A1-5DBAB391292C%7D&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3%2C4%2C5%2C6&amp;Styles1=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D&amp;Styles2=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D&amp;Styles3=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-3-1/container-6" />
+        <r
+          uid="{7043CA9F-F9E4-49EA-8FF2-8D24F43DD805}"
+          p:after="r[@uid='{A96AC041-EE0F-47F9-BED4-B8CD8D5C5F49}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-3-1" />
+        <r
+          uid="{1F46865C-2A42-48E4-B5BE-619A84729918}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C4%2C2%2C3&amp;Styles1&amp;Styles2&amp;Styles3=%7BADDFB720-BE49-4750-BD0A-48FCBFDA5647%7D&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220927T053111Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Disease Information
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Mosquitoes transmit diseases such as West Nile Virus, Easten Equine Encephalitis, Dengue fever, and Chikungunya virus. 
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        Mosquitoes are a vector for a variety of diseases including West Nile virus, Eastern Equine Encephalitis, Dengue and chikungunya, as well as the emerging threat of Zika virus. Mosquito-borne diseases are a serious public health concern and according to the CDC, they are among the most complex of all infectious diseases to control. Arm yourself with information about the specific illnesses and how to reduce the risk of infection.<br />
+        <br />
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Mosquitoes transmit diseases such as West Nile Virus, Easten Equine Encephalitis, Dengue fever, and Chikungunya virus. 
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Mosquito Borne Diseases
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: "Mosquito-Borne Diseases - What You Need To Know"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3597eda6-578a-483c-8bc0-2b87f4a75254"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{8F4254F2-EB9C-4C6C-AB04-76CDDB0024BD}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221014T084833Z

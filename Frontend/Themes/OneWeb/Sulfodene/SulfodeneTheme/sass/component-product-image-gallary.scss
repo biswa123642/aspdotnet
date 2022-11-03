@@ -1,0 +1,58 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  max-width: auto;
+  &.product-image-gallery {
+    .image-placeholder {
+      width: 100%;
+      border: 0;
+      a {
+        &:focus {
+          outline: 0;
+        }
+        img {
+          max-width: 473px !important;
+          max-height: 500px !important;
+          background-color: #edf2f4;
+        }
+      }
+    }
+    .inner-wrap {
+      margin: 0 auto 0 4rem;
+      .image-container {
+        .product-tile {
+          border: 0;
+          width: calc(25% - 0.5rem);
+          padding: 0;
+        }
+      }
+    }
+    @include respond-to(tab) {
+      .image-placeholder {
+        a {
+          img {
+            max-width: 100% !important;
+            max-height: 100% !important;
+          }
+        }
+      }
+      .inner-wrap {
+        margin: 0 auto;
+      }
+    }
+    @include respond-to(desktop) {
+      .image-placeholder {
+        a {
+          img {
+            max-width: 473px !important;
+            max-height: 500px !important;
+          }
+        }
+      }
+      .inner-wrap {
+        margin: 0 auto 0 4rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,163 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+@import "base/fonts/fonts";
+
+.canvas-bg {
+  background-image: url("../images/CanvasTexture.png");
+  background-color: $canvas-bg;
+}
+
+.canvas-white-bg {
+  background-image: url("../images/CanvasTexture.png");
+  background-color: $white;
+}
+
+.paper-white-bg {
+  background-image: url("../images/PaperTexture.png");
+}
+
+.paper-gray-bg {
+  background-image: url("../images/PaperTexture.png");
+  background-color: $paper-bg;
+}
+
+.contact-us {
+  @include respond-to(desktop) {
+    width: 45%;
+  }
+}
+
+main {
+  min-height: calc(100vh - 395px);
+}
+
+body {
+  @include Arial-font-stack();
+  line-height: $line-height;
+  color: $body-color;
+  -webkit-font-smoothing: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $link_title_primary;
+  font-weight: 500;
+  @include Franlink-font-stack();
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+a {
+  color: $title_primary;
+  text-decoration: none;
+  &:hover {
+    color: $hover_link;
+    text-decoration: underline;
+  }
+}
+
+.component {
+  &.content {
+    line-height: $line-height;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $link_title_primary;
+    }
+
+    h1 {
+      a {
+        text-transform: uppercase;
+      }
+    }
+
+    h2 {
+      font-size: 4.48rem;
+      text-transform: uppercase;
+      margin-top: 2.2rem;
+    }
+    h3 {
+      font-size: 3.36rem;
+      text-transform: uppercase;
+      margin-top: 2.2rem;
+    }
+    h4 {
+      font-size: 2.848rem;
+      text-transform: uppercase;
+      margin-top: 2.2rem;
+    }
+    h5 {
+      font-size: 2.4rem;
+      text-transform: uppercase;
+    }
+    a {
+      color: $title_primary;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+        color: $hover_link;
+      }
+    }
+    li {
+      font-size: 1.8rem;
+    }
+    ul {
+      li {
+        list-style: disc;
+        margin-left: 2rem;
+      }
+      &.list-unstyled {
+        li {
+          list-style: none;
+          margin-left: auto;
+        }
+      }
+    }
+    ol {
+      li {
+        list-style-position: initial;
+      }
+    }
+    sup {
+      line-height: 0;
+    }
+    .field-content {
+      font-size: 1.8rem;
+    }
+    .sxa-btn {
+      a {
+        color: $white;
+        text-transform: uppercase;
+        &:hover {
+          color: $title_primary;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  &.title {
+    h1 {
+      font-size: 4.8rem;
+      color: $link_title_primary;
+      line-height: 1.1;
+      text-transform: uppercase;
+      border-bottom: none;
+      cursor: auto;
+    }
+  }
+}

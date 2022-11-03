@@ -1,0 +1,63 @@
+﻿---
+ID: "cb156568-44c4-406a-98ee-946463d2ad27"
+Parent: "da658301-f792-47ad-929e-7c4ce713dd70"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Find Sales Representative/Default/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    <div class="sales-representatives">
+        <div class="content-wrapper">
+            <div class="body-copy">
+    
+                {{sc_field i_item "Title"}}
+                {{sc_field i_item "Description"}}
+    
+            </div>
+    
+            {{selectedStates = sc_followmany i_item "StatesList"}}
+    
+            {{if selectedStates | array.size > 0}}
+            <select name="sales-rep-details" id="sales-rep-details">
+                <option value="0">-- Select a State --</option>
+                {{for state in selectedStates}}
+                <option value="{{state.StateCode.raw | string.remove " "}}">{{state.StateName.raw}}</option>
+                {{end}}
+            </select>
+        </div>
+        <div class="data-placeholder">
+            <div class="image-info"></div>
+            <div class="name-info"></div>
+            <div class="mo-info"></div>
+            <a class="email-info" href="mailto:"></a>
+    
+        </div>
+        {{end}}
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220826T112536Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "95d758f3-19c5-4211-9598-20aae7508608"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220923T163103Z

@@ -1,0 +1,99 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+.component {
+  .hubspot-form {
+    .hs-form {
+      .hs-button {
+        display: inline-block;
+        margin-bottom: 0;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        border: 1px solid transparent;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        user-select: none;
+        background-image: linear-gradient(to bottom, #e21d37 0%, #9e1426 100%);
+        background-repeat: repeat-x;
+        color: $white-color;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: 30px;
+        height: auto;
+        min-width: 1px;
+      }
+      label {
+        margin-bottom: 5px;
+        span {
+          color: $primary-color;
+          font-weight: 700;
+          font-size: 1.4rem;
+        }
+      }
+      fieldset {
+        .input {
+          input,
+          select,
+          textarea {
+            width: 100% !important;
+            display: block;
+            width: 100%;
+            height: 34px;
+            padding: 6px 12px;
+            font-size: 14px;
+            line-height: 1.42857143;
+            color: #555555;
+            background-color: $white-color;
+            background-image: none;
+            border: 1px solid $form-border;
+            border-radius: 4px;
+            -webkit-box-shadow: inset 0 1px 1px #00000013;
+            box-shadow: inset 0 1px 1px #00000013;
+            -webkit-transition: border-color ease-in-out 0.15s,
+              box-shadow ease-in-out 0.15s;
+            -o-transition: border-color ease-in-out 0.15s,
+              box-shadow ease-in-out 0.15s;
+            transition: border-color ease-in-out 0.15s,
+              box-shadow ease-in-out 0.15s;
+            margin-bottom: 5px;
+          }
+        }
+        &.form-columns-1 {
+          select {
+            background-image: url("../images/dropdown.png");
+            background-size: 13px 10px;
+          }
+        }
+        &.form-columns-2 {
+          .input {
+            input,
+            select {
+              width: 98% !important;
+              @include respond-to(desktop) {
+                width: 96% !important;
+              }
+            }
+            select {
+              background-image: url("../images/dropdown.png");
+              background-size: 13px 10px;
+            }
+          }
+        }
+      }
+      .hs-error-msgs {
+        li {
+          label {
+            color: $red-color;
+            list-style: none;
+            font-size: 1.4rem;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+}

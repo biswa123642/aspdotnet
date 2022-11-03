@@ -1,0 +1,255 @@
+﻿---
+ID: "948286a0-bbfe-48f5-8922-5c83c2b22f6f"
+Parent: "408c5c76-1c5b-4eff-b51d-6fa0e3005397"
+Template: "bc41b87d-2a9b-4689-9f51-80bb5b31a6e7"
+Path: "/sitecore/content/OneWeb/ComfortZone/Home/all-products/comfort-zone-multi-cat-diffuser"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{A701C431-22BE-4A31-9B83-BEBF776CC2D0}"
+- ID: "76fb6ffd-4487-4028-a1cf-705fbe360cba"
+  Hint: Priority
+  Value: "{19F3E919-4991-495F-9207-E1DADFD06F54}"
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: "{7402B6FE-9CFB-477B-A7FF-B9E1E8DFB23B}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{2B1299DB-6CE7-41FE-A3E7-232FB9652A36}"
+          p:before="*"
+          s:ds="local:/Data/RelatedProductImage"
+          s:id="{4A0D4E0B-BC20-4F2E-BD84-A4BD35834E86}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/sxa-productdetails/row-6-1/container-19"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{1CBAD943-97DE-4204-9F54-811D02280E35}"
+          p:after="r[@uid='{2B1299DB-6CE7-41FE-A3E7-232FB9652A36}']"
+          s:ds="local:/Data/RelatedProductInfo"
+          s:id="{DCEE78E1-1843-4456-A13A-F10A12191630}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/sxa-productdetails/row-6-1/container-19"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{74BED380-47DD-4342-93F5-12DC33C86BE6}"
+          p:after="r[@uid='{1CBAD943-97DE-4204-9F54-811D02280E35}']"
+          s:ds="local:/Data/InstructionsForUseRight"
+          s:id="{4A0D4E0B-BC20-4F2E-BD84-A4BD35834E86}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/sxa-productdetails/row-4-1/container-16/column-3-17"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{C0EC5239-8C1F-4AAD-BDD5-574D230D43A0}"
+          p:after="r[@uid='{74BED380-47DD-4342-93F5-12DC33C86BE6}']"
+          s:ds="local:/Data/InstructionsForUseLeft"
+          s:id="{4A0D4E0B-BC20-4F2E-BD84-A4BD35834E86}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/sxa-productdetails/row-4-1/container-16/column-1-17"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{DA66D796-BE4E-4C4E-9083-0093FB38A1E5}"
+          p:after="r[@uid='{C0EC5239-8C1F-4AAD-BDD5-574D230D43A0}']"
+          s:ds="{68A4AA1E-AC3F-4DEE-AA44-38FE484A1792}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=13"
+          s:ph="/main/sxa-productdetails/row-3-1/container-15/column-6-7" />
+        <r
+          uid="{997A89AC-B1D7-4369-9213-BB23CF83D288}"
+          p:after="r[@uid='{DA66D796-BE4E-4C4E-9083-0093FB38A1E5}']"
+          s:ds="{9DD9F59A-E67E-4612-8341-AF37A925349A}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=12"
+          s:ph="/main/sxa-productdetails/row-3-1/container-15/column-5-7" />
+        <r
+          uid="{0F50629F-7D82-4552-94E2-35B0A3C6873A}"
+          p:after="r[@uid='{997A89AC-B1D7-4369-9213-BB23CF83D288}']"
+          s:ds="{C2EC0475-8026-44E3-8D7F-B7F2A8EABA63}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
+          s:ph="/main/sxa-productdetails/row-3-1/container-15/column-4-7" />
+        <r
+          uid="{59FEF79B-D065-4448-92AF-E719842D3D30}"
+          p:after="r[@uid='{0F50629F-7D82-4552-94E2-35B0A3C6873A}']"
+          s:ds="{25778EB6-34A3-4EDC-B6F4-7AFAE7033DA2}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/sxa-productdetails/row-3-1/container-15/column-3-7" />
+        <r
+          uid="{5277F691-E437-44CA-8C6D-9EC4FB4EB1E8}"
+          p:after="r[@uid='{59FEF79B-D065-4448-92AF-E719842D3D30}']"
+          s:ds="{74FABD53-E813-44E9-AB38-DCD13A68E80F}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/sxa-productdetails/row-3-1/container-15/column-2-7" />
+        <r
+          uid="{B290A128-D336-4A5F-8DF9-45BFC4EB9EF0}"
+          p:after="r[@uid='{5277F691-E437-44CA-8C6D-9EC4FB4EB1E8}']"
+          s:ds="{E91CE9DC-E1AB-42A6-A6B6-7028DF5369F9}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/sxa-productdetails/row-3-1/container-15/column-1-7" />
+        <r
+          uid="{D02D9A75-12AC-4D06-BA2C-BD7E61B94AF5}"
+          p:after="r[@uid='{B290A128-D336-4A5F-8DF9-45BFC4EB9EF0}']"
+          s:ds="local:/Data/UserFeedback"
+          s:id="{DCEE78E1-1843-4456-A13A-F10A12191630}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/sxa-productdetails/row-3-1/container-15"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{38CBB017-993B-4A86-8662-6DBE7F8C5F98}"
+          p:after="r[@uid='{D02D9A75-12AC-4D06-BA2C-BD7E61B94AF5}']"
+          s:ds=""
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B7AF5C340-8A60-4D59-A7A1-5DBAB391292C%7D&amp;ColumnWidth2=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B7AF5C340-8A60-4D59-A7A1-5DBAB391292C%7D&amp;ColumnWidth3=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B7AF5C340-8A60-4D59-A7A1-5DBAB391292C%7D&amp;ColumnWidth4=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B7AF5C340-8A60-4D59-A7A1-5DBAB391292C%7D&amp;ColumnWidth5=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B7AF5C340-8A60-4D59-A7A1-5DBAB391292C%7D&amp;ColumnWidth6=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B7AF5C340-8A60-4D59-A7A1-5DBAB391292C%7D&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3%2C4%2C5%2C6&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;DynamicPlaceholderId=7"
+          s:ph="/main/sxa-productdetails/row-3-1/container-15"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{1267BF7B-BF25-42F6-9FAC-3EA2495D536A}"
+          p:after="r[@uid='{38CBB017-993B-4A86-8662-6DBE7F8C5F98}']"
+          s:ds="{8298BA10-F90E-448B-9269-6523870C5FFA}"
+          s:id="{3972C278-7E7A-4C2B-A293-66AF860F5C3A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B39C41CFB-A250-4C5E-98D6-52E06E9BC6B8%7D&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=14"
+          s:ph="/main/sxa-productdetails/row-3-1/container-15" />
+        <r
+          uid="{DB70E554-7B13-4AE0-8E44-7CC4A3062FD1}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Reviews"
+          s:id="{DCEE78E1-1843-4456-A13A-F10A12191630}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-productdetails/row-2-1/container-4/column-2-5/PH-PowerReviews/container-9"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{4E422384-E7A2-45D6-AA8C-AE8BB8DDD4A4}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220927T051806Z
+    - ID: "30b0a514-dc94-432c-9655-8c01e474023f"
+      Hint: ExtendedContent
+      Value: |
+        <p>The new Opticalm&trade; Diffuser for multi-cat homes utilizes our same trusted pheromone formula in a new, modern design. The plug-in diffuser releases a drug-free vapor that mimics your cat's natural calming pheromones, promoting harmony in your home. This diffuser can help reduce stress, urine marking, scratching and conflict by creating a relaxing environment.</p>
+        <p>The new diffuser design saves precious outlet space by leaving the bottom outlet free for other devices you want to use, whether it's a cat fountain or an automated feeder. And the diffuser can fit almost anywhere with its rotatable plug. (The bottle needs to remain upright.)</p>
+        <div class="product-column3">
+        <div class="product-left">
+        <h4>USE FOR:</h4>
+        <ul class="checklist">
+            <li>Reducing Multi-Cat Tension and Conflict</li>
+            <li>Urine Marking</li>
+            <li>Destructive Scratching</li>
+        </ul>
+        </div>
+        <div class="product-center">
+        <h4>RECOMMENDED FOR:</h4>
+        <ul class="checklist">
+            <li>Multi-cat homes</li>
+            <li>Adding another cat into the home</li>
+            <li>Not enough shared resources</li>
+        </ul>
+        </div>
+        <div class="product-right">
+        <h4>MAY HELP TO:</h4>
+        <ul class="checklist">
+            <li>Reduce Urine Marking</li>
+            <li>Limit Destructive Scratching</li>
+        </ul>
+        <img alt="100% satisfaction guarantee icon" src="-/media/8DB7DC9536A745F897ACC3A4DE0B09E5.ashx" />
+        <div class="small">
+        90-DAY MONEY BACK GUARANTEE
+        </div>
+        </div>
+        </div>
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Comfort Zone Multi-Cat Diffuser"
+    - ID: "50f31584-caa5-47ca-98cd-6115eba9fac8"
+      Hint: HeroContentImage
+      Value: 
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: "Our Multi-Cat Pheromone Diffuser helps reduce fighting, hissing & aggression in a 2+ cat household."
+    - ID: "5aac1fce-dc76-4156-ab65-2a161091ac30"
+      Hint: HeroSecondaryHeroBannerCTA
+      Value: 
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: <p>FOR CATS &amp; KITTENS</p>
+    - ID: "63b15778-d2e2-425d-9ecb-7c8589214f31"
+      Hint: AdditionalInfo
+      Value: |
+        <div class="elegant-curve">
+        <h2>Instructions For Use</h2>
+        </div>
+        <p>Simply plug the Opticalm&trade; Diffuser upright into any standard wall outlet in a room where your cats spend the most time. You only need one diffuser for most room sizes, and each refill lasts up to 30 days.</p>
+        <p>The diffuser is engineered to be safe for your family, home and all your pets.</p>
+        <ul>
+            <li>The new, sleek design is based on in-home tests and consumer interviews.</li>
+            <li>It leaves the bottom outlet open for use with other devices.</li>
+            <li>The diffuser's shut-off feature safeguards it from overheating.</li>
+            <li>The drug-free solution is suitable for cats and kittens.</li>
+            <li>The diffuser conforms to UL standards.</li>
+            <li>It works with all Comfort Zone&reg; refills.</li>
+        </ul>
+        <h3>How to Calm Multi-Cat Tension in Your Home</h3>
+        <p>Life happens, and sometimes the smallest triggers can leave your cats fighting and stressed. The Opticalm&trade; Diffuser for multi-cat homes is your secret weapon for reducing cat conflict. The calming vapors create a peaceful environment, helping to reduce stress. Most cats show improved "e-meow-tional health" and fewer unwanted behaviors after just two weeks.</p>
+        <p>The Opticalm&trade; Diffuser for multi-cat homes is an effective strategy to help you reduce conflict between the cats in your home. If you want to take even more steps to <a href="https://www.comfortzone.com/behavior-blog/multi-cat-tension/intercat-aggression">promote a peaceful environment</a>, set up multiple cat trees, litter boxes and food and water bowls so your kitties don't compete for resources. <a href="https://www.comfortzone.com/behavior-blog/multi-cat-tension/prevent-mean-cats">Slowly reintroduce them</a> to each other if necessary. And, of course, be sure to play with and love on them every day.</p>
+        <small><strong>INGREDIENTS:</strong><br />
+        Isoparafinnic Hydrocarbon 85%<br />
+        Analogue of Feline Pheromone 5%<br />
+        Other Ingredients 10%<br />
+        </small>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "Comfort Zone's Multi-Cat Diffuser helps reduce conflict & tension in a multiple cat household. Our diffuser puts your fighting cats at ease utilizing calming pheromones."
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Multi-Cat Diffuser - Cats Fighting & Hissing | Comfort Zone"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: "Comfort Zone Multi-Cat Diffuser"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "80ba4399-3bf6-459e-a893-e87f09731e66"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "ca373527-0c18-4282-83b0-121b8a197598"
+      Hint: LongTitle
+      Value: "Comfort Zone Multi-Cat Diffuser For Cats & Kittens"
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{F3D9400A-DCDC-4330-BF39-FF517BA2AF62}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221018T044430Z
+    - ID: "f0d0a9d9-6b70-4a54-a04a-537c38d5b2e1"
+      Hint: RelatedArticlesLabel
+      Value: LEARN MORE FROM OUR EXPERTS
+    - ID: "fb742e87-7bf7-4c72-97a9-987a40989ece"
+      Hint: RelatedArticles
+      Value: |
+        {1A923824-A5E4-4EEB-A25D-01927CF68E66}
+        {E488D6D4-3792-4B95-BE6A-3D45CD48A411}
+        {99D447AA-412E-40E2-AE53-26C13880479B}

@@ -1,0 +1,32 @@
+﻿@using Sitecore.XA.Foundation.MarkupDecorator.Extensions
+@using Sitecore.XA.Foundation.SitecoreExtensions.Extensions
+
+@model CGP.Feature.Search.Models.ViewModel.SearchBoxViewModel
+@if (Model != null && !Model.DisableSearchTextBox)
+{
+    <div @Html.Sxa().Component("search-box", Model.Attributes)>
+        <div class="component-content">
+            <div class="search-holder global-search-wrapper">
+                <form method="get" class="global-search"
+                      data-MinSuggestionsTriggerCharacterCount="@Model.MinSuggestionsTriggerCharacterCount"
+                      data-searchsuggestionapi="@Url.Action("GetSuggestions", "Search")"
+                      data-MaxPredictiveResultsCount="@Model.MaxPredictiveResultsCount"
+                      data-MaxProductResultsCount="@Model.MaxProductResultsCount"
+                      data-MaxArticleResultsCount="@Model.MaxArticleResultsCount"
+                      data-MaxOthersResultCount="@Model.MaxOthersResultCount"
+                      data-DisableAutoSugession="@Model.DisableAutoSuggestion"
+                      data-DisableSearchTextBox="@Model.DisableSearchTextBox"
+                      data-CloneSearchBox="@Model.CloneSearchBox"
+                      action="@Model.SearchResultPageUrl" role="search">
+                    <div class="search-wrapper">
+                        <div class="search-input-wrapper">
+                            <input type="text" name="q" class="search-input typeahead" placeholder="@Model.PlaceholderText">
+                            <button class="custom-search-box-button" type="submit">
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+}

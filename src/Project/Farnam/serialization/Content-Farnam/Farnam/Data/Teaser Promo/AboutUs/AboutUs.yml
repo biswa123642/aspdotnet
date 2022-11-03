@@ -1,0 +1,48 @@
+﻿---
+ID: "4971101c-b423-4649-b9e4-1785e4b409c7"
+Parent: "0fb24646-0a01-4553-809b-ee0d1e626a5a"
+Template: "d1070ed7-b4f7-4c03-b622-f9b5fb072dea"
+Path: /sitecore/content/OneWeb/Farnam/Data/Teaser Promo/AboutUs/AboutUs
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: About Us
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220701T091708Z
+    - ID: "68a9ed16-a3b4-4b4f-b9e8-7b5585772a62"
+      Hint: SecondCTA
+      Value: |
+        <link text="Read More" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{1067DA8F-E953-4886-AF0C-10B5013EB006}" />
+    - ID: "81651106-4b95-4713-84df-90a36c488b2f"
+      Hint: TeaserImage
+      Value: |
+        <image mediaid="{4104F68E-7C12-4D28-951A-44FB03782129}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3849968c-412c-4e11-bd16-6ef4a8168844"
+    - ID: "93e6482d-fb03-46b2-8e90-1bc13a59230d"
+      Hint: SecondaryTitle
+      Value: Meet Our Farnam Team
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "ce281eff-5b53-4327-b106-d567df721aab"
+      Hint: MobileTeaserImage
+      Value: |
+        <image mediaid="{815AA777-2F29-4FF4-B6FD-7BB8EBB49D08}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220808T041904Z
+    - ID: "eb9a2ca4-0cbd-42ee-a8c4-695fbf01abfe"
+      Hint: SecondaryDescription
+      Value: Farnam has a rich culture of employing people with a passion for horses. Let&rsquo;s meet our team and hear about their favorite products.

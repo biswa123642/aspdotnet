@@ -1,0 +1,157 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.accordion {
+    &.variant-1 {
+      .item {
+        border-bottom: none;
+        &.active {
+          .toggle-header {
+            .component {
+              .field-heading {
+                background: $anchor-primary;
+                a {
+                  color: $border-yellow;
+                }
+                &:hover {
+                  background: $anchor-primary;
+                }
+              }
+            }
+          }
+        }
+        .toggle-header {
+          .component {
+            .field-heading {
+              background: $bg-faq-hover;
+              padding: 2rem;
+              a {
+                color: $anchor-primary;
+                text-decoration: none;
+                font-size: 1.8rem;
+                font-weight: 500;
+              }
+
+              &::before {
+                display: none;
+              }
+              &:hover {
+                background: $bg-faq;
+              }
+            }
+          }
+        }
+        .toggle-content {
+          .component {
+            .field-content {
+              color: $anchor-primary;
+              font-size: 1.6rem;
+              font-weight: 500;
+              padding: 1rem;
+              @include Arial-narrow-font-stack();
+
+              p {
+                margin-bottom: 0;
+              }
+
+              a {
+                color: $anchor-primary;
+                font-weight: 700;
+              }
+
+              table {
+                margin: auto;
+                border: 1px solid $table-border;
+
+                th {
+                  background: $bg-brown;
+                  color: $white;
+                  border: none;
+                  font-size: 1.4rem;
+                  padding: 12px 15px;
+
+                  &:first-child {
+                    border-top-left-radius: 5px;
+                  }
+                  &:last-child {
+                    border-top-right-radius: 5px;
+                  }
+                }
+
+                td {
+                  color: $black;
+                  font-size: 1.4rem;
+                  padding: 8px 12px;
+                }
+
+                tr:nth-child(even) {
+                  td {
+                    background: $table-bg;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    @include respond-to(tab) {
+      &.variant-1 {
+        .item {
+          .toggle-content {
+            .component {
+              .field-content {
+                padding: 1rem 2rem;
+
+                table {
+                  th {
+                    font-size: 1.1rem;
+                    text-transform: uppercase;
+                    padding: 12px 15px;
+                  }
+
+                  td {
+                    font-size: 1.6rem;
+                    padding: 8px 15px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    @include respond-to(desktop) {
+      &.variant-1 {
+        max-width: 120rem;
+        margin: auto;
+        .item {
+          .toggle-header {
+            .component {
+              .field-heading {
+                padding: 2rem 4rem;
+                a {
+                  font-size: 2.5rem;
+                }
+              }
+            }
+          }
+          .toggle-content {
+            .component {
+              .field-content {
+                font-size: 2.6rem;
+                font-weight: 700;
+                padding: 1rem 2rem;
+                margin-bottom: 2rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

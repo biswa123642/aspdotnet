@@ -1,0 +1,16 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+
+.slick-dots {
+  li {
+    border: 1px solid $orange;
+    background-color: transparent;
+    border-radius: 50%;
+    &.slick-active {
+      background-color: $orange;
+      border-color: $orange;
+    }
+  }
+}

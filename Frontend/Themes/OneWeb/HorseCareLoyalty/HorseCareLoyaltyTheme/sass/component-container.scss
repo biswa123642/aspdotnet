@@ -1,0 +1,16 @@
+@import "styles/container/*";
+@import "abstracts/mixins";
+@import "abstracts/vars";
+
+.container {
+  &:not(.col-12) {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 140rem;
+
+    @include respond-to(tab) {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component{
+    &.utility-navigation{
+        &.social-links{
+            color: white;
+            .icon-container {
+                a{
+                    &:hover{
+                        border-bottom: none;
+                        text-decoration: none;
+                    }
+                }
+            }
+        } 
+    }
+}

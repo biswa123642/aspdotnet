@@ -1,0 +1,128 @@
+﻿---
+ID: "ad1aaa05-88ed-4899-8024-d537187db3dd"
+Parent: "be1e4ee3-7dee-4ecb-995a-f520d122e6bc"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/CentralMosquitoControl/Home/resources/disease-information/chikungunya"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{796FB342-B477-4681-AC7E-9671AD01ABE2}"
+          p:before="*"
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B28C76009-CBBF-4D05-8911-94F9A74652F7%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/row-2-1/container-4" />
+        <r
+          uid="{1F6FB601-7BDB-4876-83ED-9282D62514D4}"
+          p:after="r[@uid='{796FB342-B477-4681-AC7E-9671AD01ABE2}']"
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-3-1/container-6" />
+        <r
+          uid="{CDAE912B-9DC2-45D3-A302-647AF87E9EA1}"
+          p:after="r[@uid='{1F6FB601-7BDB-4876-83ED-9282D62514D4}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BE951A28D-10FF-4D94-BDE6-BB1DDE779D5E%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-3-1" />
+        <r
+          uid="{186172D7-C0D6-4BF1-A3F8-4210005C704E}"
+          p:after="r[@uid='{CDAE912B-9DC2-45D3-A302-647AF87E9EA1}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{3B0D433F-2E80-4CF8-8836-3C7FD48C54A0}"
+          p:after="r[@uid='{186172D7-C0D6-4BF1-A3F8-4210005C704E}']"
+          s:ds=""
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%2F&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B34C68150-D3B2-463D-9B91-B2F7BCBD3727%7D&amp;Styles=%7BFAF28AF7-0575-40E0-9EE8-3C33FB91AC01%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3&amp;CacheClearingBehavior=Clear%20on%20publish"
+          s:ph="/main/row-1-1/container-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{C21045AE-95DE-4E5A-B7F5-0A2A828AD173}"
+          p:after="r[@uid='{3B0D433F-2E80-4CF8-8836-3C7FD48C54A0}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BE951A28D-10FF-4D94-BDE6-BB1DDE779D5E%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{D9BFA313-DE3D-42FD-8FE6-51DB7AC1EE54}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220928T081339Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Chikungunya Virus
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: "Chikungunya virus is a viral infection spread by mosquitos that is non-fatal. 1.7 million cases have been identified."
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <div class="row">
+        <div class="col-md-6">
+        <p>Chikungunya is a viral infection spread by infected mosquitoes. While the infection is not fatal, the symptoms can cause severe pain and long lasting effects. The most common symptoms appear 3-7 days after the bite and include joint pain/swelling, rash, fever, muscle pain and headache. There is no current vaccine or medicine to treat the virus and symptoms can last for months.</p>
+        </div>
+        <div class="col-md-6"><img height="519" alt="After a bite, it takes 4-8 days for symptoms of the Chikungunya Virus, such as fever and joint pain, to appear." src="-/media/5289090A508C4F30BCA4216BC95CBD25.ashx" /></div>
+        </div>
+        <p>With over 1.7 million cases identified, Chikungunya is most commonly found in the countries of Europe, Asia, Africa, and the Indian and Pacific Oceans. However, the virus has spread to the United States. In 2013, the first local transmission of the Chikungunya virus was reported in the American tropics. Local transmission makes it possible for the virus to spread, via infected vectors to other areas and people.</p>
+        <div class="row">
+        <div class="col-md-6"><img height="519" alt="Map of Chikungunya emergence." width="1366" src="-/media/23B451C7C25A45628841C739437B5794.ashx" /></div>
+        <div class="col-md-6"><img height="519" alt="There is no vaccine to prevent or medicine to treat a Chikungunya infection." width="1366" src="-/media/FD38A90585784F7D965B10C8556F4E79.ashx" /></div>
+        </div>
+        <p>Chikungunya is transmitted by an infected mosquito to a human. The vectors that carry the virus are the same that carry dengue fever, the Aedes aegypti and Aedes albopictus. These mosquitoes are active day and night, so it is vital to always be protected. Follow these tips to prevent any bites from occurring:</p>
+        <p>For residents in areas populated by an Aedes species, removing standing water is the most important step to take. These potential breeding sites should be eliminated wherever possible, including in buckets, old tires, gutters, birdbaths, flower pots and more. Additionally, residents should protect themselves indoors with the use of air conditioning and properly maintained window screens, and outdoors with the use of mosquito repellents containing DEET and loose fitting clothing.</p>
+        <p>For mosquito control professionals, a comprehensive Integrated Mosquito Management program can maximize the effectiveness of their control efforts. The approach includes four phases: larval/adult mosquito sampling to monitor populations, source reduction to reduce standing water where possible, biological control incorporating native or introduced mosquito predators and the application of products.
+        </p>
+        <img height="519" alt="The two species of mosquitoes that transmit Chikungunya bite during daylight hours." width="1366" src="-/media/93FCD695346546489E91370E55A8C52D.ashx" />
+        <p>Control tactics can vary by region &ndash; including the specific products and application methods &ndash; but most programs will rely on a combination of adulticides and larvicides. Adulticides kill the fully developed adult mosquitoes that spread diseases and offer the quickest approach to reduce the size of mosquito populations. <a rel="noopener noreferrer" href="http://centrallifesciences.com/" target="_blank"><span style="text-decoration: underline;">Central Life Sciences</span></a> offers a full lineup of adulticides that provide quick, permanent knockdown and reliable control of adult mosquito populations.</p>
+        <p>The use of larvicides is essential to controlling potential mosquito outbreaks in the future. <a href="~/link.aspx?_id=D2C5D8FC78724EAEAECBFE55650B7B3D&amp;_z=z"><span style="text-decoration: underline;">Altosid&reg; larvicides</span></a> are available in multiple formulations featuring (S)-methoprene, an insect growth regulator (IGR) able to stop mosquitoes from becoming breeding, biting adults without impacting non-target organisms. <a href="~/link.aspx?_id=9214AF12C66944B495BECE4D09CFCD7F&amp;_z=z"><span style="text-decoration: underline;">FourStar&reg; microbial larvicides</span></a> also offer control of mosquito larvae through the use of naturally occurring bacteria and a &ldquo;dual action&rdquo; release technology.</p>
+        <p>Chikungunya, and other mosquito-borne diseases, can be a threat to public health, but one that can be minimized through effective vector control efforts. </p>
+        <p>To learn more about mosquito control, contact Senior Field Technical Service Manager Mel Whitson at 321-480-0478 or<span style="text-decoration: underline;"> <a href="mailto:mwhitson@central.com">mwhitson@central.com</a></span> or <span style="text-decoration: underline;"><a href="~/link.aspx?_id=9849A9E846F745FB838D795EFB5AD745&amp;_z=z">find your local sales representative</a></span>.</p>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "Chikungunya virus is a viral infection spread by mosquitos that is non-fatal. 1.7 million cases have been identified."
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Chikungunya Virus
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: "Chikungunya Virus: What You Need to Know"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b2bff16d-3a8e-41c3-afd4-e9b633fd163e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{8E689B25-A3FB-493A-B4EF-1AFE3922DD7A}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221021T090209Z

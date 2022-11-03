@@ -1,0 +1,192 @@
+﻿---
+ID: "d5591932-4efa-44a8-8df3-d138c7391113"
+Parent: "cc97d1a3-cf03-4cb2-835c-941f25ca7643"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Calculators/Dilution Calculator/Section/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    <div class="dilution-rate-calculator">    
+    	<div class="clearfix">
+    		<div class="form">
+    			<div class="rich-text"><h2>{{ sc_field i_item "Heading"}}</h2></div>
+    			<div class="rich-text">
+    				<div class="form-group row">
+    					<div class="col-12 col-md-7 col-lg-8">
+                            {{ sc_field i_item "InputDescription"}}
+    					</div>
+    					<div class="col-12 col-md-5 col-lg-4 position-right">
+    						<div class="quantity col">
+    							<input type="text" class="form-control input number" id="calculator-main-input">
+    							<span class="units">{{ sc_field i_item "InputFieldUnit"}}</span>
+    						</div>
+    					</div>
+    				</div>
+    				<div class="row">
+    					<div class="col-12 position-right">
+    						<div class="component link">
+    							<div class="component-content">
+    								<div class="field-link">
+                                        <span class="btn-reset"><a href="javascript:void(null);">{{sc_field i_item 'ResetButtonLabel'}}</a></span>
+                                        <span class="calculator-calculate"><a href="javascript:void(null);">{{sc_field i_item 'CalculateButtonLabel'}}</a></span>
+    								</div>
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    				<h2 class="secondary">{{ sc_field i_item "ResultHeading"}}</h2>
+    				<div class="calculator" data-result='{{ sc_field i_item "ResultJSON"}}'>
+    				</div>
+    			<div class="accordion-wrap">
+    				<h2 class="secondary">{{ sc_field i_item "AccordionTitle"}}</h2>
+    				<!-- Accordion starts here -->
+    				{{if (i_item.Accordion1Heading.raw != "")||(i_item.Accordion2Heading.raw != "")||(i_item.Accordion1JSON.raw != "")||(i_item.Accordion2JSON.raw != "")}}
+    					<div class="component accordion variant-3" data-properties={"expandOnHover":false,"expandedByDefault":true,"speed":500,"easing":"swing","canOpenMultiple":false,"canToggle":true,"isControlEditable":false}>
+    						<div class="component-content">
+    							<div>
+    								<ul class="items">
+    									<!-- Accordion list one -->
+    									<li class="item">
+    										<div class="toggle-header" tabindex="0">
+    											<div class="label">
+    												<div class="row">
+    													<div class="component content col-12">
+    														<div class="component-content">
+    															<div class="field-heading">{{ sc_field i_item "Accordion1Heading"}}</div>
+    														</div>
+    													</div>
+    												</div>
+    											</div>
+    										</div>
+    										<!-- Accordion Content starts here -->
+    										<div class="toggle-content">
+    											<div class="row">
+    												<div class="component content col-12">
+    													<div class="component-content">
+    														<div class="field-content">
+    															<div class="result-area content">
+    															   <!-- This is the content -->
+    															   {{ sc_field i_item "Accordion1Content"}}
+    															   {{if i_item.Accordion1JSON.raw != ""}}
+    																	<div class="calculator" data-result='{{ sc_field i_item "Accordion1JSON"}}'>
+    																		
+    																	</div>
+    																{{end}}	
+    														</div>
+    													</div>
+    												</div>
+    											</div>
+    										</div>
+    									</div>
+    									<!-- Accordion Content ends here -->
+    								</li>
+    								<!-- Accordion list one -->
+    								
+    								<!-- Accordion list two -->
+    								<li class="item">
+    									<!-- Accordion Heading -->
+    									<div class="toggle-header" tabindex="0">
+    										<div class="label">
+    											<div class="row">
+    												<div class="component content col-12">
+    													<div class="component-content">
+    														<div class="field-heading">{{ sc_field i_item "Accordion2Heading"}}</div>
+    													</div>
+    												</div>
+    											</div>
+    										</div>
+    									</div>
+    									<!-- Accordion Content starts here -->
+    									<div class="toggle-content" >
+    										<div class="row">
+    											<div class="component content col-12">
+    												<div class="component-content">
+    													<div class="field-content">
+    														<div class="result-area content">
+    															<!-- This is the content -->
+    															{{ sc_field i_item "Accordion2Content"}}
+    															{{if i_item.Accordion2JSON.raw != ""}}
+    																<div class="calculator" data-result='{{ sc_field i_item "Accordion2JSON"}}'>
+    																	
+    																</div>
+    															{{end}}	
+    														</div>
+    													</div>
+    												</div>
+    											</div>
+    										</div>
+    									</div>
+    									<!-- Accordion Content ends here -->
+    								</li>
+                                    {{if (i_item.Accordion3Heading.raw != "")||(i_item.Accordion3JSON.raw != "")||(i_item.Accordion3Content.raw != "")}}
+                                        <li class="item">
+                                            <!-- Accordion Heading -->
+                                            <div class="toggle-header" tabindex="0">
+                                                <div class="label">
+                                                    <div class="row">
+                                                        <div class="component content col-12">
+                                                            <div class="component-content">
+                                                                <div class="field-heading">{{ sc_field i_item "Accordion3Heading"}}</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Accordion Content starts here -->
+                                            <div class="toggle-content" >
+                                                <div class="row">
+                                                    <div class="component content col-12">
+                                                        <div class="component-content">
+                                                            <div class="field-content">
+                                                                <div class="result-area content">
+                                                                    <!-- This is the content -->
+                                                                    {{ sc_field i_item "Accordion3Content"}}
+                                                                    {{if i_item.Accordion3JSON.raw != ""}}
+                                                                        <div class="calculator" data-result='{{ sc_field i_item "Accordion3JSON"}}'>
+                                                                            
+                                                                        </div>
+                                                                    {{end}}	
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Accordion Content ends here -->
+                                        </li>
+                                    {{end}}  
+    								<!-- Accordion list one -->								
+    							</ul>
+    						</div>
+    					</div>
+    				</div>
+    			{{end}}
+    				<!-- Accordion Ends here  -->
+    			</div>
+    		</div>
+    	</div>
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220901T060314Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "36b87a5f-1ffc-44d6-8c26-bddaab86fdae"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220928T072237Z

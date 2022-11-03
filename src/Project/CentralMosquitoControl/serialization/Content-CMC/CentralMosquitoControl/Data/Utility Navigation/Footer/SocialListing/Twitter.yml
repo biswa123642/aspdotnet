@@ -1,0 +1,34 @@
+﻿---
+ID: "b0851c3a-ae06-4f32-a3d2-3331fb1f60ef"
+Parent: "d12d85d6-8e30-48bb-a15e-f709e2dd1eec"
+Template: "21e9bd9f-1259-4a0a-b862-a250abf7a8b1"
+Path: /sitecore/content/OneWeb/CentralMosquitoControl/Data/Utility Navigation/Footer/SocialListing/Twitter
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220704T035643Z
+    - ID: "3fbfed70-8606-40c5-9e84-45a03aa258d5"
+      Hint: Link
+      Value: |
+        <link text="Twitter" linktype="external" url="https://twitter.com/CentralMosquito" anchor="" target="_blank" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6dba4f1a-754b-434d-8c30-dce796d76aec"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220930T090328Z
+    - ID: "f35d245b-3a57-4132-a025-00a22429f296"
+      Hint: IconClass
+      Value: "fa fa-twitter"

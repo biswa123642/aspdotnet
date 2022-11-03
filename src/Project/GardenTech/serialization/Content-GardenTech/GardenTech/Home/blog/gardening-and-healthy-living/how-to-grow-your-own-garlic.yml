@@ -1,0 +1,223 @@
+﻿---
+ID: "68a67380-8044-4c65-94b1-78322089916c"
+Parent: "923eeb20-9388-4cb9-b89b-ca671ec61362"
+Template: "057af325-c948-4918-a4e4-2c3f6cf04524"
+Path: "/sitecore/content/OneWeb/GardenTech/Home/blog/gardening-and-healthy-living/how-to-grow-your-own-garlic"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{7D0EDF20-9CC0-4E87-A6F5-DF673E1B758E}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{1DF0BA1A-12A6-41D3-90F1-BA3A5C997844}"
+          p:before="*"
+          s:ds="{4A0D34FB-E8D6-49BE-8FBD-6E9AB1BB15F2}"
+          s:id="{4646BD4F-05FF-4A19-9600-4D74F2F1548B}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BEB20AD82-2FED-4C04-94BE-5A65B9C31EA3%7D&amp;Styles&amp;TitleHeadingLevel=%7B6A44D9C6-61F0-4B69-8E1A-FDC27F96BA0F%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-articledetails/container-1/column-2-4/container-22" />
+        <r
+          uid="{543341BA-BCF1-462E-9C67-606B5F8D5248}"
+          p:after="*[1=2]"
+          s:ds="{2557E717-573D-40D9-ADE8-801E9F0D2538}"
+          s:id="{4646BD4F-05FF-4A19-9600-4D74F2F1548B}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BEB20AD82-2FED-4C04-94BE-5A65B9C31EA3%7D&amp;Styles&amp;TitleHeadingLevel=%7B6A44D9C6-61F0-4B69-8E1A-FDC27F96BA0F%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/sxa-articledetails/container-1/column-2-4/container-22" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "05aba5ee-29d7-483d-82db-02ac84db238f"
+      Hint: AuthorName
+      Value: JOlene Hansen
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{57F4602E-E840-400A-9D11-5C5CCDA3BA41}" alt="header image" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220623T060125Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "36aa965e-f5ea-4871-a55b-53e090d5026e"
+      Hint: ArticleType
+      Value: "{D74C58AD-43ED-405A-BF7F-222F3DEF6FB9}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: How to Plant, Grow and Harvest Garlic
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Learn the best tips to plant and care for garlic in your garden.
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        Garlic is booming in popularity in kitchens and gardens as Americans learn how easy growing this tasty bulb can be. Abundant garlic harvests don't take much expertise &mdash; even beginners can grow these nutritious homegrown treats. Just a few simple steps, and you're on your way to enjoying homegrown garlic and heady harvests.
+        <ul>
+            <li><a href="#Choosing" style="color: #558f45;">Choosing Your Garlic Type</a></li>
+            <li><a href="#Timing" style="color: #558f45;">Timing Your Garlic Planting</a></li>
+            <li><a href="#Preparing" style="color: #558f45;">Preparing Garlic Planting Beds</a></li>
+            <li><a href="#Planting" style="color: #558f45;">Planting Your Garlic</a></li>
+            <li><a href="#Caring" style="color: #558f45;">Caring for Garlic as It Grows</a></li>
+            <li><a href="#Harvesting" style="color: #558f45;">Harvesting and Storing Garlic</a></li>
+        </ul>
+        <h2 style="`;"><a name="Choosing"><span style="color: #558f45;">Choosing Your Garlic Type</span></a></h2>
+        <p>Garlic comes in many varieties, so you can choose one or more to suit your palate and your meal plans. True garlics fall into two main categories:</p>
+        <ul>
+            <li><strong>Hardneck garlics</strong> get their name from their hard center seed stalk, called a scape. They typically have a strong or hot flavor, but a shorter storage life: three months at most after harvest. Cloves in hardneck heads usually number 12 or fewer.<sup>1</sup> Large and uniform, hardneck cloves grow in a single layer around the stiff stem.</li>
+            <li><strong>Softneck garlics </strong>don't form a hard center stalk; their tops stay soft and supple. If you plan to try your hand at creating garlic braids &mdash; like those you see hanging at farm markets &mdash; softnecks are for you. Softneck garlics offer a milder flavor than the hardneck type, and they store for six months or longer. Softneck heads consist of up to 40 small, irregular cloves in multiple layers around the center.<sup>1</sup></li>
+        </ul>
+        <p>It's generally best to buy your planting garlic from local garden companies so the varieties will suit your climate. Supermarket garlic can work, but it often comes from California or overseas and doesn't do well in garden plantings outside those areas.</p>
+        <img alt="" src="~/media/5291901314254043A5556294A5B8C4BF.ashx" />
+        <div style="text-align: center;"><span style="font-weight: lighter;"><em>Softneck garlics have soft, flexible stems &mdash; perfect for braiding.</em></span></div>
+        <h2 style="`;"><a name="Timing"><span style="color: #558f45;">Timing Your Garlic Planting</span></a></h2>
+        <p>Garlic can be planted in fall or early spring. However, like tulips and other <a href="~/link.aspx?_id=F5001A332BA148729E7DED2BBFB25BA8&amp;_z=z" target="_blank">spring-blooming bulbs</a>, garlic needs chilly weather to develop properly. Without a chilling period, garlic heads don't divide into cloves and you end up with onion-like bulbs instead. If you plant in spring, plant garlic alongside your <a href="~/link.aspx?_id=FAB75010837F4FFD95A66CCB86772A03&amp;_z=z" target="_blank">earliest vegetable seeds</a>&nbsp;so garlic gets the chilling it needs.  Many gardeners prefer to plant garlic in fall, when they plant flowering bulbs. This gives garlic added growing time, which means larger, more flavorful summer harvests &mdash; and nature makes proper chilling easy. Plant fall garlic from two weeks before or after the typical first frost date in your area. If you're unsure when that usually happens, your <a href="~/link.aspx?_id=06BAFB66433242B1B3F352A693463AA1&amp;_z=z" target="_blank">local county extension agent</a>&nbsp;can help.</p>
+        <img alt="" src="~/media/34766B4D31C24DBA893BF0F81B31E06A.ashx" />
+        <div style="text-align: center;"><span style="font-weight: lighter;"><em>Fall planting generally results in larger heads and bigger harvests.</em></span></div>
+        <h2 style="`;"><a name="Preparing"><span style="color: #558f45;">Preparing Garlic Planting Beds</span></a></h2>
+        <p><span style="font-weight: lighter;">Garlic grows best with full, direct sun and loose, fertile, well-drained soil. Abundant harvests depend on solid plant nutrition. Enhance your garden beds with a generous 3- to 4-inch layer of organic matter, such as compost. Incorporate this layer down into the soil along with <a href="~/link.aspx?_id=98DA91B1C2114CBFA3D40E4F836434FF&amp;_z=z" target="_blank">a balanced fertilizer</a>, such as <a href="~/link.aspx?_id=D222D474DC2F457EAF0F03EBE5BC7E82&amp;_z=z" target="_blank">Pennington UltraGreen All Purpose Plant Food 10-10-10</a>.  It's a good idea to do a <a href="~/link.aspx?_id=1B9244270BF24BB1A86C684A02845DC3&amp;_z=z" target="_blank">soil test</a>&nbsp;before you plant. Your extension agent can help with this, too. Garlic is very efficient at using nutrients when soil pH is in the near-neutral range of 6.0 to 7.0.<sup>1</sup> Soil testing lets you know exactly how to amend your garden soil so garlic can thrive.</span></p>
+        <h2 style="`;"><a name="Planting"><span style="color: #558f45;">Planting Your Garlic</span></a></h2>
+        Unlike vegetables grown from seeds or plants, garlic is grown from single cloves &mdash; the same cloves you use in cooking. Each clove grows into a full head. Prep cloves by hand right before planting time &mdash; and invite friends to help. It's a great excuse for a garden party with a garlic menu!  To prepare the cloves, remove the garlic head's papery outer layer, then gently and carefully pull the cloves apart. Leave the papery covering on individual cloves, and avoid damaging their flat bottom plates &mdash; that's where the roots will grow. If a few get damaged, don't worry; just set them aside to use in meals.  Plant garlic cloves 1 to 2 inches deep in warm climates or 3 to 4 inches deep farther north. Place the flat, rooting plate down into the soil so the pointy end of the clove sticks up. For fall plantings, add a 4- to 6-inch layer of weed-free mulch. Grass clippings, leaves or straw work well. This helps prevent wide fluctuations in soil temperatures so garlic cools gradually in fall and warms gradually come spring.<img alt="" src="~/media/F931598C0878489E8824603225076C36.ashx" />
+        <div style="text-align: center;"><span style="font-weight: lighter;"><em>Save a few heads from your harvest to plant next year's crop.</em></span></div>
+        <h2 style="`;"><a name="Caring"><span style="color: #558f45;">Caring for Garlic as It Grows</span></a></h2>
+        <p>Fall-planted garlic peeks through mulch about the time <a href="~/link.aspx?_id=D8848D8D35EC4BA9B13E5E174FEE5902&amp;_z=z" target="_blank">early spring songbirds</a>&nbsp;arrive. Gently pull mulch away from the growing leaves. Once leaves reach about 6 inches tall, add a layer of compost alongside them, and feed again with the same fertilizer used at planting. For spring plantings, do this about one month after planting. Keep garlic weeded; it doesn't compete very well against garden weeds.  Water garlic so it gets about 1 inch of water per week from rainfall and your irrigation combined. Cut off hardneck scapes in early summer while they're curly and soft. Scapes are excellent in stir-fried or saut&eacute;ed dishes. Plus, removing scapes helps bulbs grow larger. As your garlic matures and its leaves begin to yellow, stop watering completely to harden bulbs.  Few insects bother garlic, but those that do can cause serious problems. <a href="~/link.aspx?_id=D293E5B6BBEF4F05ACF96AA0AD2A8192&amp;_z=z" target="_blank">Sevin Insect Killer Ready to Use<sup>2</sup></a>&nbsp;kills garlic pests such as <a href="~/link.aspx?_id=302B7F381A7B438FAD1D2C1F39D30AEE&amp;_z=z" target="_blank">cutworms</a>, leafminers and onion <a href="~/link.aspx?_id=53BB5737BCED46CFA09C8980617101BF&amp;_z=z" target="_blank">thrips</a>&nbsp;on contact. Just allow at least 14 days between treatment and your garlic harvest. Fungal diseases can also interfere with garlic plans. The first trouble signs are often small tan, white or purple spots on garlic leaves. <a href="~/link.aspx?_id=2F90C2CDEAC54C0B9ED98AA0A9517DA1&amp;_z=z" target="_blank">Daconil fungicides</a>&nbsp;provide highly effective control for garlic diseases such as <a href="~/link.aspx?_id=0D1300C32B6B4CDD915D28BF759C20CB&amp;_z=z" target="_blank">botrytis blight</a>, <a href="~/link.aspx?_id=C4C39E6FB5B3497BAF31BB82A712EBDC&amp;_z=z" target="_blank">downy mildew</a>&nbsp;or purple blotch.</p>
+        <p><img alt="" src="~/media/2E2DCE7D2085448B924CA13244A8AB36.ashx" /></p>
+        <div style="text-align: center;"><span style="font-weight: lighter;"><em>Scapes from hardneck garlics are great stir-fried or saut&eacute;ed.</em></span></div>
+        <h2 style="`;"><a name="Harvesting"><span style="color: #558f45;">Harvesting and Storing Garlic</span></a></h2>
+        <p>Depending on where you live, your garlic harvest may happen any time from July through September. When stems turn yellow and fall over, and the bottom few leaves turn brown, it's harvest time. Carefully dig your garlic bulbs, keeping the stems intact. To maximize storage life, "cure" your harvest in a warm, dry, shaded area with good ventilation. Just tie the stems together and hang garlic to dry or spread out the heads in a single layer.  After two to four weeks, your garlic is ready for optimal storage. Cut the stems off about 1 inch above the bulbs, or braid long-stemmed softneck garlics for fun or gifts. Refrigerators provide the ideal temperature and humidity for long-term garlic storage, so your harvest keeps giving for months. Be sure to set aside some bulbs for your planting stock.  With a treasure of homegrown garlic at your disposal, you can enjoy these flavorful veggies in many ways &mdash; from smoky, roasted heads to fresh garlic pestos and garlic-infused oils. <a href="https://www.gardentech.com" target="_blank">GardenTech</a>&nbsp;brands and the <a href="~/link.aspx?_id=C498F1CD53C74215BEE8E196A5319003&amp;_z=z" target="_blank">GardenTech blog</a>&nbsp;are here to help you learn, grow and enjoy all the <a href="~/link.aspx?_id=058F3CA58D36412A94C5C8DDC083C089&amp;_z=z" target="_blank">benefits</a>&nbsp;and fun gardening has to offer.</p>
+        <img alt="" src="~/media/FF8870A257324559B1370B1ECCE625BC.ashx" />
+        <div style="text-align: center;"><span style="font-weight: lighter;"><em>Cure garlic with its tops intact in a dry, ventilated space.</em></span></div>
+        <div><em>Always read product labels thoroughly and follow instructions carefully, including guidance on pre-harvest intervals.  Sevin is a registered trademark of Tessenderlo Kerley, Inc.  Daconil is a registered trademark of GB Biosciences Corp.  GardenTech is a registered trademark of Gulfstream Home and Garden, Inc.</em>  <strong></strong></div>
+        <div><strong>&nbsp;</strong></div>
+        <div><strong>Sources:</strong></div>
+        <p><span style="font-weight: lighter;">1. E. Everhart, et al.,&nbsp;&ldquo;</span><a rel="noopener noreferrer" href="https://store.extension.iastate.edu/Product/Garlic-PDF" target="_blank" style="font-weight: lighter;">Garlic<span style="font-weight: lighter;">,</span></a><span style="font-weight: lighter;">" lowa State University Extension, February 2003.</span></p>
+        <p><span style="font-weight: lighter;"></span><span style="font-weight: lighter;">2.&nbsp;</span><span style="font-weight: lighter;">UC IPM Statewide Integrated Pest Management Program,&nbsp;</span><span style="font-weight: lighter;">&ldquo;</span><a rel="noopener noreferrer" href="http://ipm.ucanr.edu/PMG/selectnewpest.onion-and-garlic.html" target="_blank" style="font-weight: lighter;">How to Manage Pests: Onion and Garlic</a><span style="font-weight: lighter;">,"&nbsp;University of California, June 2016.</span></p>
+        <p><span style="font-weight: lighter;"></span></p>
+    - ID: "6dd157fe-8ea8-496a-b595-0e6a18489836"
+      Hint: ThumbnailImage
+      Value: |
+        <image mediaid="{57F4602E-E840-400A-9D11-5C5CCDA3BA41}" />
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Learn the best tips to plant and care for garlic in your garden.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: How to Plant, Grow and Harvest Garlic
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: How to Plant, Grow and Harvest Garlic
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "73a985ff-63ff-412c-b6b9-caa066d01eb6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{57F4602E-E840-400A-9D11-5C5CCDA3BA41}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220728T022507Z
+    - ID: "eaaa3bf1-4f5c-4f65-9f61-c6f234ffc31f"
+      Hint: BlogPostTopic
+      Value: |
+        {4A5260E5-41CC-4216-A6B4-96DA70A8941A}
+        {35E8A3F7-0D39-42B6-ADA0-8D549F180D92}
+    - ID: "f0d0a9d9-6b70-4a54-a04a-537c38d5b2e1"
+      Hint: RelatedArticlesLabel
+      Value: OTHER POSTS YOU MIGHT LIKE
+    - ID: "fb742e87-7bf7-4c72-97a9-987a40989ece"
+      Hint: RelatedArticles
+      Value: |
+        {FADBF65E-2F50-4527-BA2B-6617035FE8F7}
+        {98094D7F-89B5-41FB-A6C5-825294123829}
+        {A2EE14B9-25DE-40AD-B015-316BCB8C059F}
+        {A8756ACA-82C1-4E19-9DEA-15AC40A385B9}
+- Language: es
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "05aba5ee-29d7-483d-82db-02ac84db238f"
+      Hint: AuthorName
+      Value: Jolene Hansen
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{57F4602E-E840-400A-9D11-5C5CCDA3BA41}" alt="header image" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220623T060125Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "36aa965e-f5ea-4871-a55b-53e090d5026e"
+      Hint: ArticleType
+      Value: "{D74C58AD-43ED-405A-BF7F-222F3DEF6FB9}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Cómo sembrar, cultivar y cosechar ajo
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Aprenda los mejores consejos para sembrar y cultivar ajo en su jardín.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        Garlic is booming in popularity in kitchens and gardens as Americans learn how easy growing this tasty bulb can be. Abundant garlic harvests don't take much expertise &mdash; even beginners can grow these nutritious homegrown treats. Just a few simple steps, and you're on your way to enjoying homegrown garlic and heady harvests.<h2 style="`"z-index:" 1;`"="">Choosing Your Garlic</h2>Garlic comes in many varieties, so you can choose one or more to suit your palate and your meal plans. True garlics fall into two main categories:  <ul>     <li><strong>Hardneck garlics</strong> get their name from their hard center seed stalk, called a scape. They typically have a strong or hot flavor, but a shorter storage life &mdash; 3 months at most after harvest. Cloves in hardneck heads usually number 12 or less.<sup>1</sup> Large and uniform, they grow in a single layer around the stiff stem.</li>     <li><strong>Softneck garlics</strong> don't form a hard center stalk; their tops stay soft and supple. If you plan to try your hand at creating garlic braids &mdash; like you might see hanging at farm markets &mdash; softnecks are for you. Softneck garlics offer a milder flavor than the hardneck type, and they store for six months or longer. Heads consist of up to 40 small, irregular cloves in multiple layers around the center.<sup>1</sup></li> </ul> It's generally best to buy planting garlic from local garden companies, so the varieties suit your climate. Supermarket garlic often comes from California or overseas, and doesn't do well in garden plantings outside those areas.<image src="~/media/5291901314254043A5556294A5B8C4BF.ashx"></image><div style="text-align: center;"><span style="font-weight: lighter;"><em>Softneck garlics have soft, flexible stems &mdash; perfect for braiding.</em></span></div><h2 style="`"z-index:" 1;`"="">Timing Your Planting</h2>Garlic can be planted in fall or early spring. Like tulips and other <a href="~/link.aspx?_id=F5001A332BA148729E7DED2BBFB25BA8&amp;_z=z" target="_blank">spring-blooming bulbs</a>, garlic needs chilly weather to develop properly. Without a chilly period, garlic heads don't divide into cloves; instead, onion-like bulbs form. If you plant in spring, plant garlic alongside your <a href="~/link.aspx?_id=FAB75010837F4FFD95A66CCB86772A03&amp;_z=z" target="_blank">earliest vegetable seeds</a>, so garlic gets the chilling it needs.  Many gardeners prefer to plant garlic in fall, when they plant flowering bulbs. This gives garlic added growing time, which means larger, more flavorful summer harvests. Plus, proper chilling comes easily. Plant fall garlic about two weeks before or after the typical first frost date in your area. If you're unsure when that usually happens, your <a href="~/link.aspx?_id=06BAFB66433242B1B3F352A693463AA1&amp;_z=z" target="_blank">local county extension agent</a> can help.<image src="~/media/34766B4D31C24DBA893BF0F81B31E06A.ashx"></image><div style="text-align: center;"><span style="font-weight: lighter;"><em>Fall planting generally results in larger heads and bigger harvests.</em></span></div><h2 style="`"z-index:" 1;`"="">Preparing Planting Beds</h2>Garlic grows best with full, direct sun and loose, fertile, well-drained soil. Abundant harvests depend on solid plant nutrition. Enhance your garden beds with a generous, 3- to 4-inch layer of organic matter, such as compost and <a href="~/link.aspx?_id=53C8B7ADE311428E8C0E47B9CE877C65&amp;_z=z" target="_blank">earthworm castings</a>, and a <a href="~/link.aspx?_id=98DA91B1C2114CBFA3D40E4F836434FF&amp;_z=z" target="_blank">complete fertilizer</a> designed for vegetables. Incorporate this layer down into the soil.  It's a good idea to do a <a href="~/link.aspx?_id=1B9244270BF24BB1A86C684A02845DC3&amp;_z=z" target="_blank">soil test</a> before you plant. Your extension agent can help with this, too. Garlic is very efficient at using nutrients when soil pH is in the near-neutral range of 6.0 to 7.0.<sup>1</sup> Soil testing lets you know exactly how to amend your garden so garlic can thrive.<h2 style="`"z-index:" 1;`"="">Planting Your Garlic</h2>Unlike vegetables grown from seeds or plants, garlic is grown from single cloves — the same cloves you use in cooking. Each clove grows into a full head. Prep cloves by hand right before planting time, and invite friends to help. It's a great excuse for a garden party with a garlic menu!<br /> <br /> To prepare the cloves, remove the garlic head's papery outer layer. Then gently and carefully pull the cloves apart. Leave the papery covering on individual cloves, and avoid damaging their flat bottom plates — that's where the roots will grow. If a few get damaged, don't worry; just set them aside to use in meals.<br /> <br /> Plant garlic cloves 1 to 2 inches deep in warm climates, or 3 to 4 inches deep farther north. Place the flat, rooting plate down into the soil so the pointy end of the clove sticks up. For fall plantings, add a 4- to 6-inch layer of weed-free mulch. Grass clippings, leaves or straw work well. This helps prevent wide fluctuations in soil temperatures, allowing garlic to cool gradually in fall and warm gradually come spring.<image src="~/media/F931598C0878489E8824603225076C36.ashx"></image><div style="text-align: center;"><span style="font-weight: lighter;"><em>Save a few heads from your harvest to plant next year's crop.</em></span></div><h2 style="`"z-index:" 1;`"="">Caring for Growing Garlic</h2>Fall-planted garlic peeks through mulch about the time early spring songbirds arrive. Gently pull mulch away from the growing leaves. Once they reach about 6 inches tall, add a layer of compost or earthworm castings alongside them, and feed again with the same fertilizer used at planting. For spring plantings, do this about one month after planting. Keep garlic weeded; it doesn't compete very well against those invaders.  Water garlic so it gets the equivalent of about 1 inch of water per week from rainfall and you combined. Cut off hardneck scapes in early summer while they're curly and soft. Scapes are excellent in stir-fried or saut&eacute;ed meals, and removing them helps bulbs grow larger. As your garlic matures and leaves begin to yellow, stop watering completely to harden bulbs.  Insect pests rarely bother garlic, but some fungal diseases can interfere with healthy harvests. The first symptoms often show on garlic leaves as small tan, white or purple spots. Fungicides with the active ingredient chlorothalonil, such as <a href="~/link.aspx?_id=A9BC0C7AC06248CAB5E8ADFAAEE0D61D&amp;_z=z" target="_blank">Daconil<sup>&reg;</sup> fungicides</a>, provide highly effective control and suppression of garlic diseases, such as botrytis leaf blight, downy mildew or purple blotch.<sup>2</sup><image src="~/media/2E2DCE7D2085448B924CA13244A8AB36.ashx"></image><div style="text-align: center;"><span style="font-weight: lighter;"><em>Scapes from hardneck garlics are great stir-fried or saut&eacute;ed.</em></span></div><h2 style="`"z-index:" 1;`"="">Harvesting and Storing Garlic</h2>Depending on where you live, your garlic harvest may be any time from July through September. When stems turn yellow and fall over, and the bottom few leaves turn brown, it's harvest time. Carefully dig your garlic bulbs, and keep the stems intact. To maximize storage life, &ldquo;cure" your harvest in a warm, dry, shaded area with good ventilation. Just tie the stems together and hang garlic to dry or spread heads in a single layer.  After two to four weeks, your garlic is prepped for optimal storage. Cut the stems off about 1 inch above the bulbs, or braid long-stemmed softneck garlics for fun or gifts. Refrigerators provide the ideal temperature and humidity for long-term garlic storage, so your harvest keeps giving for months. Be sure to set aside some bulbs for your planting stock.  With a treasure of homegrown garlic at your disposal, you can enjoy these flavorful veggies in many ways &mdash; from smoky, roasted heads to fresh garlic pestos and garlic-infused oils. <a href="~/link.aspx?_id=D924855AC68C4B59BF67D0D3D142166E&amp;_z=z" target="_blank">GardenTech<sup>&reg;</sup></a><sup></sup><sup></sup> brands and the <a href="~/link.aspx?_id=C498F1CD53C74215BEE8E196A5319003&amp;_z=z" target="_blank">GardenTech blog</a> are here to help you learn, grow and enjoy all the benefits and fun gardening has to offer.<image src="~/media/FF8870A257324559B1370B1ECCE625BC.ashx"></image><div style="text-align: center;"><span style="font-weight: lighter;"><em>Cure garlic with its tops intact in a dry, ventilated space.</em></span></div><div><br /> </div> <p><br /> </p> <p><em>Always read product labels thoroughly and follow instructions carefully, including guidance on pre-harvest intervals.</em></p> <em><br /> Daconil is a registered trademark of GB Biosciences Corp.<br /> <br /> GardenTech is a registered trademark of Gulfstream Home and Garden, Inc.</em><br /> <br /> <strong>Sources:</strong><br /> <br /> 1. Everhart, E., Haynes, C. and Jauron, R., “<a href="https://store.extension.iastate.edu/Product/Garlic-PDF" target="_blank">Garlic</a>," Iowa State University Extension, February 2003.<br /> <br /> 2. University of California Statewide Integrated Pest Management Program, “<a href="http://ipm.ucanr.edu/PMG/selectnewpest.onion-and-garlic.html" target="_blank">How to Manage Pests: Onion and Garlic</a>," June 2016.
+    - ID: "6dd157fe-8ea8-496a-b595-0e6a18489836"
+      Hint: ThumbnailImage
+      Value: |
+        <image mediaid="{57F4602E-E840-400A-9D11-5C5CCDA3BA41}" />
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Aprenda los mejores consejos para sembrar y cultivar ajo en su jardín.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Cómo sembrar, cultivar y cosechar ajo
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Cómo sembrar, cultivar y cosechar ajo
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c23f6e99-a0ef-45f1-a10c-504413871351"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{57F4602E-E840-400A-9D11-5C5CCDA3BA41}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220719T135035Z
+    - ID: "f0d0a9d9-6b70-4a54-a04a-537c38d5b2e1"
+      Hint: RelatedArticlesLabel
+      Value: OTRAS INFORMACIONES QUE PUDIERAN GUSTARLE
+    - ID: "fb742e87-7bf7-4c72-97a9-987a40989ece"
+      Hint: RelatedArticles
+      Value: |
+        {20EB4802-939A-43EA-A712-41FA93E9988C}
+        {6FE8B680-6CB1-4852-923C-EFC0F4ED3422}
+        {44093A28-7919-452B-A7BE-BCBCB56E3B76}
+        {E1CD4FBA-780E-4F6B-816B-7570BBF67744}

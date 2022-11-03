@@ -1,0 +1,108 @@
+﻿---
+ID: "8df47403-4dc3-49f1-95a8-d41004ea8fb4"
+Parent: "e91229bb-1392-4a1a-a708-46fb19aed7bd"
+Template: "7bdf7d45-c98f-4e4d-ac3a-ad8035780bbe"
+Path: "/sitecore/content/OneWeb/EarthJuice/Home/nutrient-systems/seablast-water-soluble"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/32x32/text.png
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{5634646F-30C6-4A7B-BF8C-224F2394FBE6}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{192D83A3-B4BB-47BB-B817-4FF69AE27247}"
+          s:ds=""
+          s:id="{86FBA02B-2E9C-4A00-9CCF-DE607B1FCDC7}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass=col-md-3&amp;HideImage&amp;IsMobileCarousel&amp;ShowDescription=1&amp;FieldNames=%7B3C2CCCE6-6DC8-4816-A20B-8551B44E446C%7D&amp;Styles=%7B29998DB5-6C20-4078-A13F-A2B7E9792059%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-nutrient-systems/container-1/row-1-4"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "055a2c41-4d44-4441-b589-b86f39cc64e5"
+      Hint: HeroBannerContent
+      Value: |
+        <p>"Highly Concentrated" Plant Foods in Three Formulations that
+        will meet the nutrient requirements for even the most
+        aggressive plants through all phases of plant life.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220617T061648Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{28910EA6-CC4D-440D-93A3-07B1B1ED9543}" />
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "seablast-water-soluble"
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: “Highly Concentrated” Plant Foods in Three Formulations that will meet the nutrient requirements for even the most aggressive plants through all phases of plant life.
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: "<p>“Highly Concentrated” Plant Foods in Three Formulations that will meet the nutrient requirements for even the most aggressive plants through all phases of plant life. A little goes a long ways. Indoor/outdoor plants. Hand-feeding, drip systems and sprayers. Recommended finishing formula, see Bloom Master.</p>"
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: “Highly Concentrated” Plant Foods in Three Formulations that will meet the nutrient requirements for even the most aggressive plants through all phases of plant life.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: SeaBlast Nutrient System
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: SEABLAST NUTRIENT SYSTEM
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fd5b7805-58fb-47b8-b669-4f1726152dbc"
+    - ID: "95d893d1-43ae-4c07-bc1e-9839b5cffed5"
+      Hint: RelatedProducts
+      Value: |
+        {1D535ECE-0655-45BB-95EB-84832BA8DE27}
+        {C262EEEB-8A58-44E2-91E9-CC8DC0CCF92B}
+        {CECDB056-703D-40B5-A33A-16543B1C721D}
+    - ID: "a6772724-fc83-4e63-a2f6-a893b8329b9e"
+      Hint: HeroBannerAlignment
+      Value: "Left-Align"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c0dea859-79fd-453e-99da-f5b81bfa44da"
+      Hint: MobileBackgroundColor
+      Value: #C61D23
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: |
+        <h1>A LITTLE GOES A
+        
+        LONG WAY</h1>
+    - ID: "d09bc090-2bb2-462b-8f8d-ccde0f555fd3"
+      Hint: OverlayColorOpacity
+      Value: 00
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{91F6EDA3-6891-4155-A186-2135379B5B4F}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220721T073643Z
+    - ID: "f1115acb-7ba4-48e9-8262-cb95f1f52313"
+      Hint: OverlayColor
+      Value: #C61D23

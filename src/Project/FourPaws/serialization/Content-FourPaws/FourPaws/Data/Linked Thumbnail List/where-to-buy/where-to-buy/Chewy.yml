@@ -1,0 +1,38 @@
+﻿---
+ID: "22580b55-4a0a-425a-8fa8-b86a660d6123"
+Parent: "52a73733-caaf-41dd-a181-480adece4c21"
+Template: "20a8b875-b660-4893-91a7-b05f80e94666"
+Path: "/sitecore/content/OneWeb/FourPaws/Data/Linked Thumbnail List/where-to-buy/where-to-buy/Chewy"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220604T061753Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ca753f77-52e0-46dc-a3b7-ea70bc2bda70"
+    - ID: "8daa9cfe-2ab1-4f9a-86ac-b2092acc9fde"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="https://www.chewy.com/brands/four-paws-6763" anchor="" target="_blank" />
+    - ID: "9a5ce26a-e5f7-4528-b319-d23a1be1eede"
+      Hint: Description
+      Value: Chewy
+    - ID: "b3524bdb-f8ec-4d85-a20b-ef5f2837d74f"
+      Hint: Image
+      Value: |
+        <image mediaid="{A5CD060F-5A76-4469-97BC-AF4A32D61E7E}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220707T054922Z

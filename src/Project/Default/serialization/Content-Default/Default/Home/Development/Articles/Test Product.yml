@@ -1,0 +1,48 @@
+﻿---
+ID: "5c54032b-96d2-477a-abd7-d5b3e0765eb4"
+Parent: "d7fdb274-3df6-4a49-901c-f665636c4500"
+Template: "bc41b87d-2a9b-4689-9f51-80bb5b31a6e7"
+Path: /sitecore/content/OneWeb/Default/Home/Development/Articles/Test Product
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{3EA0A442-CD25-425D-93C3-ACFEB507953E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0318fbe2-2d38-434f-9381-8b0c7500e19a"
+      Hint: ProductDocuments
+      Value: |
+        {58AB3855-448E-4586-A464-5FF8B8A907D4}
+        {EE1F4155-1A91-40F7-A129-65BEC6ABB72D}
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{589A5CD3-1762-4A23-AE2B-3E2652FFC550}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220511T084230Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Test Product
+    - ID: "665c0084-5a1e-484b-a888-4b00b920fda5"
+      Hint: ProductDocumentsLabel
+      Value: PRODUCT LABELS & SDS
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Test Product
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5c00757d-e080-44ba-ac87-32d6aea27741"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220526T053100Z

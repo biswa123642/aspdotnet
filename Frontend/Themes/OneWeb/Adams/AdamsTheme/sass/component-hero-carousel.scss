@@ -1,0 +1,71 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.hero-carousel:not(.mulitple-bottom-links) {   
+    .slick-slide {
+      .slide:not(.wrap){
+        @include respond-to(desktop){
+          min-height: 57rem;
+        }
+      }
+    }
+    .slick-prev,
+    .slick-next {
+      opacity: 0.5;
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+
+    .slick-prev:before {
+      content: url("../images/Left_Ban_Arrow.png");
+    }
+
+    .slick-next:after {
+      content: url("../images/Right_Ban_Arrow.png");
+    }
+
+    .body-copy {
+      @include respond-to(desktop) {
+        //margin: 0 4rem;
+        max-width: 37rem;
+        border-radius: 0;
+      }
+
+      .field-slidecardlogo {
+        max-width: 35rem;
+        margin: auto;
+        img {
+          max-width: 50%;
+        }
+      }
+      .caption {
+        max-width: 100%;
+        h2 {
+          color: $text-blue-primary;
+          font-size: 2.5rem;
+          font-weight: 900;
+          @include urw-din-font-stack();
+        }
+        a {
+          @include din-14-stack();
+          @include respond-to(desktop) {
+            font-size: 1.4rem;
+            padding: 0 1.5rem;
+          }
+        }
+      }
+    }
+    
+    .slick-dots {
+      li {
+        &.slick-active {
+          background-color: $header-link-hover;
+          border-color: $header-link-hover;
+        }
+      }
+    }
+  }
+}

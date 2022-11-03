@@ -1,0 +1,328 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.header-shell {
+    &.variant-2 {
+      background: url("../images/header-bg.jpg");
+      background-repeat: no-repeat;
+      min-height: 5.2rem;
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+
+      .wrapper {
+        .inner-wrap {
+          padding: 0;
+        }
+        .wrapper-nav {
+          padding: 0;
+          margin: 0 -6px;
+          background-color: transparent;
+          @include respond-to(tablet) {
+            margin: 0 -9px;
+          }         
+        }
+      }
+      .logo-container {
+        .file-type-icon-media-link {
+          a {
+            img {
+              padding-left: 0;
+              position: absolute;
+              z-index: 1;
+              left: 0;
+              max-width: 15rem;
+              top: -1.5rem;
+              @include respond-to(desktop) {
+                max-width: 30rem;
+                top: -2.5rem;
+              }
+            }
+          }
+        }
+      }
+
+      .utility-navigation {
+        .component-content > div {
+          justify-content: flex-end;
+          .list-wrap{
+            padding-right: 1.5rem;
+          }
+          .list-item {
+            a {
+              color: $white;
+              text-transform: none;
+              font-size: 1.6rem;
+              // padding-right: 3rem;
+            }
+
+            &:hover {
+              a {
+                text-decoration: none;
+              }
+            }
+          }
+        }
+      }
+
+      .search-box {
+        &.active {
+          display: none;
+          @include respond-to(desktop) {
+            display: block;
+            .search-input-wrapper {
+              input {
+                position: absolute;
+                top: 4rem;
+                right: 3px;
+                width: 20rem;
+                background: $white;
+                color: $gray-heading;
+                font-size: 1.6rem;
+                &::placeholder {
+                  opacity: 0;
+                }
+              }
+              button {
+                background-color: $body-color;
+                border-radius: 0;
+              }
+            }
+          }
+        }
+      }
+
+      .search-wrapper {
+        @include respond-to(desktop) {
+          &::before {
+            background: transparent;
+          }
+
+          .search-input-wrapper {
+            @include respond-to(desktop) {
+              min-height: 3rem;
+            }
+            input {
+              background: transparent;
+              border: 2px solid $white;
+              color: $white;
+              display: none;
+
+              &::placeholder {
+                color: $white;
+              }
+            }
+
+            .custom-search-box-button {
+              filter: invert(1);
+              height: 5.5rem;
+              top: -18px;
+            }
+          }
+        }
+      }
+
+      .component {
+        &.plain-html {
+          .hamburger {
+            background: transparent;
+            padding: 1.2rem 1.5rem 1.5rem 1.5rem;
+            .icon-bar {
+              background-color: $white;
+              height: 4px;
+              width: 30px;
+              border-radius: 4px;
+              margin-top: 5px;
+            }
+          }
+        }
+      }
+
+      .component {
+        &.header-global-menu {
+          padding: 3rem 0;
+
+          .top-nav-clone {
+            background: none;
+            text-align: left;
+            .list-wrap {
+              flex-direction: column;
+              padding: 0;
+              .list-item {
+                a {
+                  border-left: none;
+                  text-transform: uppercase;
+                  font-weight: 700;
+                  font-size: 1.8rem;
+                  color: $black;
+                  padding: 1rem 1.5rem;
+                }
+              }
+            }
+          }
+
+          .search-box {
+            display: block;
+            background: none;
+            position: relative;
+            top: 0;
+
+            .search-holder {
+              .search-wrapper {
+                &::before {
+                  display: none;
+                }
+                .search-input-wrapper {
+                  input {
+                    background: $gray-heading;
+                    color: $white;
+                    border-radius: 5px;
+                    width: 90%;
+                    font-size: 1.8rem;
+                    padding: 7px;
+
+                    &::placeholder {
+                      opacity: 0;
+                    }
+
+                    @include respond-to(tab) {
+                      width: 95%;
+                    }
+                  }
+                  button {
+                    position: absolute;
+                    right: -1rem;
+                    filter: invert(0.3);
+                  }
+                }
+              }
+            }
+          }
+
+          @include respond-to(desktop) {
+            padding: 0;
+          }
+          ul.items {
+            justify-content: flex-end;
+            padding: 0;
+            margin-bottom: 0;
+
+            li.item {
+              padding: 1rem 1.5rem;
+
+              @include respond-to(desktop) {
+                padding: 1.5rem;
+              }
+
+              &:last-child {
+                @include respond-to(desktop) {
+                  background-image: url("../images/btn-wheretobuy.png");
+                  background-repeat: no-repeat;
+                  background-size: 88% 66%;
+                  background-position: center;
+
+                  a {
+                    opacity: 0;
+                  }
+                }
+
+                &:hover {
+                  background-color: transparent;
+                  opacity: 0.7;
+                }
+              }
+
+              .list-wrap {
+                &.has-sublist {
+                  &::before {
+                    font-size: 3.6rem;
+                    color: $black;
+                    font-weight: 600;
+                  }
+                  a::before {
+                    color: $black;
+
+                    @include respond-to(desktop) {
+                      display: none;
+                    }
+                  }
+                  @include respond-to(desktop) {
+                    &::before {
+                      display: none;
+                    }
+                  }
+                }
+              }
+
+              a {
+                color: $black;
+
+                @include respond-to(desktop) {
+                  color: $white;
+                }
+              }
+
+              &:hover {
+                @include respond-to(desktop) {
+                  background-color: $product-bg-secondary;
+
+                  ul.sub-menu-list {
+                    display: block;
+                  }
+                }
+              }
+
+              ul.sub-menu-list {
+                min-width: 24rem;
+                padding: 5px;
+                border: 0;
+                background: $product-bg-secondary;
+                margin: 10px -15px 0;
+
+                @include respond-to(desktop) {
+                  background: $white;
+                  padding: 0;
+                  margin: auto;
+                  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.18);
+                }
+
+                li.sub-menu-item {
+                  padding: 0 1rem;
+                  margin: 1rem 0;
+
+                  a {
+                    color: $black;
+                    line-height: 2.6rem;
+                    font-size: 1.6rem;
+                    font-weight: 700;
+
+                    &:hover {
+                      text-decoration: none;
+                    }
+                  }
+
+                  &:hover {
+                    background: $product-bg-secondary;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      &.active {
+        .component {
+          &.plain-html {
+            .hamburger {
+              .icon-bar {
+                &:first-child {
+                  transform: rotate(45deg) translate(6px, 7px);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

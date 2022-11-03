@@ -1,0 +1,74 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.global-search-listing {
+    .search-box {
+      padding: 1.5rem;
+      .search-wrapper {
+        .search-input-wrapper {
+          input {
+            padding: 1rem;
+            box-shadow: none;
+            border: 1px solid #767676;
+            font-size: 1.4rem;
+          }
+        }
+      }
+    }
+
+    .product-wrap {
+      .result-count {
+        padding: 1.5rem;
+        @include Helvetica-neue-font();
+      }
+    }
+
+    #product-type,
+    #article-type,
+    #others-type {
+      .card-body {
+        padding: 1rem 0;
+      }
+      h3 {
+        border-bottom: 2px solid $text-secondary;
+        padding: 1rem 0;
+        .link-btn {
+          .result-count {
+            padding: 0;
+          }
+        }
+      }
+      .cgp-product {
+        .image-holder {
+          text-align: center;
+        }
+        padding-bottom: 1.5rem;
+        .body-copy {
+          text-align: center;
+          h3 {
+            border: none;
+            padding: 1rem 0;
+            a {
+              font-size: 2rem;
+              color: #337ab7;
+              line-height: $line-height;
+              @include Helvetica-neue-font();
+
+              &:hover {
+                color: #23527c;
+                text-decoration: underline;
+              }
+            }
+          }
+          p {
+            font-size: 1.4rem;
+            color: $body-color;
+            @include Helvetica-neue-font();
+          }
+        }
+      }
+    }
+  }
+}

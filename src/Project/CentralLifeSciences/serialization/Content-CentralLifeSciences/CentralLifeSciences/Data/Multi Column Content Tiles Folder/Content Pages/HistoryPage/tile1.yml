@@ -1,0 +1,45 @@
+﻿---
+ID: "6b074bfb-c0df-40c8-bc19-a9556e2c6bc0"
+Parent: "a24f1547-a828-4da7-955a-8b90925ebd37"
+Template: "2f7bfe05-bdd4-47ad-844f-3e3997eda6b4"
+Path: /sitecore/content/OneWeb/CentralLifeSciences/Data/Multi Column Content Tiles Folder/Content Pages/HistoryPage/tile1
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 10
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "History of S-Methoprene"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00eccf92-e5bd-4b05-81e9-7b7d3073f484"
+      Hint: Image
+      Value: |
+        <image mediaid="{A3FAC3EA-F881-4CCA-98C8-76F8E1C29966}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220930T104757Z
+    - ID: "3e9b4d48-d3be-48a0-a917-cd07b2be2d54"
+      Hint: Title
+      Value: "History of (S)-Methoprene"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4fa3b614-b0bc-494f-81ff-e2838b5396a2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221020T090210Z
+    - ID: "dc6fb3d9-f446-4657-84aa-7445c6ce5d9d"
+      Hint: SubText
+      Value: "Discover the History Behind (S)-Methoprene"
+    - ID: "e14eb220-b69e-4d99-a279-7666a732a16b"
+      Hint: CTA
+      Value: |
+        <link text="LEARN MORE" anchor="" linktype="internal" class="" title=""  querystring="" id="{AD32BD67-3983-420C-824A-9D153550C607}" />

@@ -1,0 +1,61 @@
+﻿---
+ID: "a9899baf-0b7c-465b-895f-6db4a34bc2a2"
+Parent: "f09936c4-7314-445d-8374-fd226af952cf"
+Template: "f3e6da4e-5d19-49b8-9737-2ee2e9067757"
+Path: /sitecore/content/OneWeb/ComfortZone/Data/Hero Banner/HomePage/HomeBanner
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Home Banner
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "055a2c41-4d44-4441-b589-b86f39cc64e5"
+      Hint: HeroBannerContent
+      Value: "Struggling with cats hissing at one another and attacking each other? Try the Comfort Zone Multi-Cat Diffuser to help reduce multi-cat tension and conflict in the home."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220506T095253Z
+    - ID: "2b413044-4890-48c9-a955-78565193a0b8"
+      Hint: HeroBannerDescription
+      Value: 
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{A58FF87E-2098-4175-A186-4EC821044EE3}" ></image>
+    - ID: "41b17cd3-d543-4c7c-9bfa-b21765882326"
+      Hint: HeroImageMobile
+      Value: |
+        <image mediaid="{36BEC780-0464-4FD3-95E1-F886B8EBC3C7}" ></image>
+    - ID: "50f31584-caa5-47ca-98cd-6115eba9fac8"
+      Hint: HeroContentImage
+      Value: |
+        <image mediaid="{A3AAA2FE-A952-4F58-A9D9-A49CD9B17C41}" ></image>
+    - ID: "5aac1fce-dc76-4156-ab65-2a161091ac30"
+      Hint: HeroSecondaryHeroBannerCTA
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4f80e9fc-7fd5-4acb-b639-08954c041436"
+    - ID: "a6772724-fc83-4e63-a2f6-a893b8329b9e"
+      Hint: HeroBannerAlignment
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: THE SOLUTION FOR MEAN CATS
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221007T125641Z
+    - ID: "e829eba5-21e1-443d-929c-71b8d331f023"
+      Hint: HeroBannerCTA
+      Value: |
+        <link text="LEARN MORE" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{948286A0-BBFE-48F5-8922-5C83C2B22F6F}" />

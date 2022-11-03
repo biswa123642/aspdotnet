@@ -1,0 +1,15 @@
+@import "abstracts/mixins";
+
+.component {
+  &.hero {
+    &.hero-banner-image {
+      .banner-image {
+        padding: 0px 15px;
+        @include respond-to(desktop) {
+          margin-top: 0px;
+        }
+        margin-top: 15px;
+      }
+    }
+  }
+}

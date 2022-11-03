@@ -1,0 +1,113 @@
+// Main colors
+$primary-color: #333333;
+$secondary-color: #d1331e;
+$black-color: #000;
+$white-color: #fff;
+$light-white-color: rgba(255, 255, 255, 0.9);
+$header-shadow: 0 6px 12px rgba(0, 0, 0, 0.18);
+$utility-color:rgb(15, 39, 63);
+$light-gray:#f2f2f2;
+$off-white:#F7F7F7;
+$anchor-hover:#d15e14;
+$dark-gray:#47484a;
+$off-gray:#8f8f8f;
+$accordian-border:#dddddd;
+$link-gray:#757575;
+$box-shadow:0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+$banner-text:#e0402e;
+$dark-bg:#344B6A;
+$top-anchor:#D06028;
+$top-anchor-hover:#6b3934;
+// Basic theme colors
+
+$text-basic: $primary-color;
+$link-color: $secondary-color;
+$link-color-hover: $anchor-hover;
+$heading-primary-color: $secondary-color;
+$heading-secondary-color: $secondary-color;
+$primary-button-color: $white-color;
+$global-button-bg-color: $secondary-color;
+$global-button-hover-color:$anchor-hover;
+
+// Background Colors
+
+/*================================
+    Headings and title
+==================================*/
+$page-title-color:$primary-color;
+$section-title-color: $secondary-color;
+$component-title-color:$secondary-color;
+$component-sitebar-title-color: $secondary-color;
+$sidebar-list-color:$primary-color;
+/*================================
+    Header variables
+==================================*/
+$header-border:#9b9b9b;
+$search-border: $white-color;
+$search-background:#eeeeee;
+$search-border-mobile:$secondary-color;
+$Search-input-color:#0F273F;
+$input-placeholder: $white-color;
+$Search-input-mobile-color: $black-color;
+$header-link:#4a4a4a;
+$mobile-hamburger-icon-bar: #6a3834;
+$mobile-hamburger-bg: transparent;
+$mobile-search-button-bg: #fff;
+
+// Navigation label 1
+$navigation-level1-color: #c39838;
+
+
+// Component Footer 
+$footer-color: $white-color;
+$footer-links-color: #ccc;
+$footer-links-color-hover: #b5b5b5;
+// common colors 
+$link-list-color: #231f20;
+$slick-dots-border: #fff;
+$slick-active-color: #fff;
+$slick-arrow-color: $secondary-color;
+// sitemap colors
+$sitemap-link-color: #337ab7;
+$sitemap-link-hover-color: #23527c;
+$inline-link-color: #231f20;
+
+// accordian and breadcrumbs
+$accordian-heading-border-color: $black-color;
+$breadcrumb-color: $black-color;
+$breadcrumb-color-hover: #d15e14;
+// linked-thumbnail
+$linked-thumbnail-color: $primary-color;
+$linked-thumbnail-hover-color:$secondary-color;
+// image gallery
+$image-gallery-title-color :$primary-color;
+$image-gallery-color: $primary-color;
+$image-gallery-color-hover: $secondary-color;
+
+/*================================
+    Header variables
+==================================*/
+// form input
+$input-color: $primary-color;
+$input-placeholder-color: $primary-color;
+$input-background: $white-color;
+// form checkbox
+$checkbox-checked-bg: $secondary-color;
+$checkbox-border: $black-color;
+// form label
+$form-label-color: #0F273F;
+$form-error-msg-color : $primary-color;
+
+/*================================
+    Product Card
+==================================*/
+$product-card-title-color: #a4b727;
+$product-card-description-color: #333;
+
+// faq 
+$faq-heading-color: $product-card-description-color;
+$faq-content-color: $primary-color;
+$faq-header-border:#ddd;
+
+//profile listing
+$profile-listing-overlay-color: $secondary-color;

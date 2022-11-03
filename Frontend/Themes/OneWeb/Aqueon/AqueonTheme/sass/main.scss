@@ -1,0 +1,218 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+main {
+  min-height: calc(100vh - 214px);
+}
+
+body {
+  font-size: 1.4rem;
+  line-height: $line-height;
+  color: $body-color;
+  -webkit-font-smoothing: auto;
+  @include Source-sans-pro-font();
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $text-primary;
+  @include Source-sans-pro-font();
+}
+
+a {
+  color: $text-primary;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.component {
+  &.link {
+    z-index: 1;
+  }
+  &.addthis {
+    margin: 1.2rem auto;
+  }
+  &.title {
+    h1 {
+      color: $text-primary;
+      font-size: 4rem;
+      font-weight: 600;
+      border: none;
+      line-height: 1.1;
+      @include Source-sans-pro-font();
+    }
+  }
+
+  &.content {
+    &.listing-text {
+      a {
+        color: #337ab7;
+        &:hover {
+          color: #23527c;
+        }
+      }
+    }
+    h1,
+    h2,
+    h3,
+    h5,
+    h6 {
+      color: $text-primary;
+      margin-bottom: 1rem;
+    }
+
+    h2 {
+      font-size: 3rem;
+    }
+
+    h3 {
+      font-size: 2.5rem;
+      font-weight: 600;
+    }
+
+    h4 {
+      font-size: 1.8rem;
+      color: #545557;
+      font-weight: 500;
+      text-align: justify;
+
+      span {
+        font-size: 2rem;
+      }
+    }
+
+    p {
+      color: $para-color;
+      font-size: 2rem;
+      font-weight: 500;
+    }
+
+    ul {
+      color: #545557;
+      padding-inline-start: 4rem;
+      li {
+        font-size: 2rem;
+        list-style: disc;
+      }
+    }
+
+    table {
+      border: none;
+      td {
+        border: none;
+        color: #545557;
+        font-size: 2rem;
+        padding: 0;
+      }
+    }
+
+    span {
+      font-weight: 500;
+    }
+
+    a {
+      color: $text-primary;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    embed {
+      width: 100%;
+      min-height: 37.5rem;
+    }
+
+    .article-table {
+      table {
+        td {
+          border: 1px solid #545557;
+        }
+      }
+    }
+
+    .equal {
+      display: flex;
+      margin: 3rem 0;
+
+      .score-left {
+        width: 50%;
+      }
+      .score-right {
+        width: 50%;
+      }
+    }
+
+    .instructions-setup-wrapper {
+      img {
+        margin-bottom: 1rem;
+      }
+    }
+
+    .product-title {
+      h1 {
+        color: inherit;
+        font-size: 4rem;
+        font-weight: 800;
+      }
+    }
+  }
+
+  @include respond-to(desktop) {
+    &.content {
+      embed {
+        width: 65%;
+      }
+    }
+  }
+}
+
+.care-guide-detail {
+  .component {
+    &.title {
+      h1 {
+        color: #231f20;
+      }
+    }
+    &.link {
+      margin-bottom: 1rem;
+    }
+    &.content {
+      h4 {
+        color: inherit;
+        font-size: 1.8rem;
+        font-weight: 500;
+        @include Helvetica-neue-font();
+      }
+      a {
+        color: #337ab7;
+        &:hover {
+          color: #23527c;
+        }
+      }
+    }
+  }
+
+  @include respond-to(desktop) {
+    // -webkit-column-count: 2;
+    // -moz-column-count: 2;
+    column-count: 2;
+    column-gap: 4.2rem;
+    // -webkit-column-gap: 4.2rem;
+    // -moz-column-gap: 4.2rem;
+
+    .component {
+      &.content {
+        overflow: inherit;
+      }
+    }
+  }
+}

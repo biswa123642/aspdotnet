@@ -1,0 +1,110 @@
+&.banner-with-content {
+  margin-bottom: 3rem;
+  .hero-banner-title {
+    h1 {
+      color: $heading1_color;
+      font-size: 3rem;
+      font-weight: 800;
+      line-height: 1.1;
+      @include respond-to(desktop) {
+        font-size: 2.68rem;
+      }
+    }
+  }
+  .banner-cta-holder {
+    @include respond-to(desktop) {
+      justify-content: start;
+    }
+    .sxa-btn {
+      a {
+        background-color: $white;
+        color: $heading1_color;
+        border: 2px solid $heading1_color;
+        padding: 9px 15px;
+        min-width: 10.9rem;
+        @include Arial-font-stack();
+        font-size: 1.8rem;
+        font-weight: bolder;
+        @include respond-to(desktop) {
+          min-width: 12rem;
+          padding: 1rem 1.5rem;
+          @include Lato-font-stack();
+          background-color: $white;
+          color: $heading1_color;
+          border: 3px solid $heading1_color;
+          border-radius: 2px;
+          text-transform: uppercase;
+          font-size: 1.68rem;
+          text-decoration: none;
+          font-weight: 800;
+         
+        }
+        &:hover{
+          background-color: $heading1_color;
+          color: $white;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .banner-content-wrapper {
+    &.right-align {
+      @include respond-to(tab) {
+        max-width: 100%;
+        width: 100%;
+        transform: translate(0, 5%);
+        top: 50%;
+        bottom: 0px;
+        right: 0px;
+        left: 0px;
+      }
+    }
+
+    .content-top {
+      padding: 0px;
+      @include respond-to(desktop) {
+        background: $white;
+        text-align: initial;
+        padding: 1.1rem 3.3rem;
+      }
+    }
+  }
+  .inner-container {
+    position: relative;
+    margin-bottom: 55%;
+    @include respond-to(tab) {
+      margin-bottom: 22%;
+    }
+    @include respond-to(desktop) {
+      height: 20rem;
+      margin-top: 5rem;
+      width: 45%;
+      position: absolute;
+      top: 0;
+      right: -36%;
+    }
+    @include respond-to(extra-largedesktop) {
+      height: 20rem;
+      margin-top: 5rem;
+      width: 31%;
+      position: absolute;
+      top: 12%;
+      right: -9%;
+    }
+  }
+  .banner-image {
+    @include respond-to(desktop) {
+      min-height: 30rem;
+      padding-top: 23.6875%;
+      background-position: inherit;
+    }
+    .banner-mobile-image {
+      img {
+        display: block;
+        min-height: 22.6rem;
+        object-fit: cover;
+        object-position: 17% -6%;
+      }
+    }
+  }
+}

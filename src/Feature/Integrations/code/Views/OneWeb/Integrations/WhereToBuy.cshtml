@@ -1,0 +1,42 @@
+﻿@using Sitecore.XA.Foundation.MarkupDecorator.Extensions
+@using Sitecore.XA.Foundation.RenderingVariants.Extensions
+@using Sitecore.XA.Foundation.RenderingVariants.Fields
+@using Sitecore.XA.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.XA.Foundation.Variants.Abstractions.Fields
+@model CGP.Feature.Integrations.Models.WhereToBuy
+
+@if (Model.PSConfig != null)
+{
+    if (!Model.RenderBuyInStore)
+    {
+        <div @Html.Sxa().Component(Model.Rendering.RenderingCssClass ?? "ps-widget", Model.Attributes) data-ps-config="@Model.PSConfig"
+             ps-sku="#skuValue" data-ps-sku="#skuValue">
+        </div>
+    }
+    else
+    {
+        <div @Html.Sxa().Component(Model.Rendering.RenderingCssClass ?? "ps-widget", Model.Attributes)
+             ps-button-label="@Model.BuyInStoreLabel" ps-config="@Model.PSConfig" ps-sku="#skuValue"
+             tabindex="0" aria-disabled="false" role="button" aria-label="Find where to buy this product"
+             style="display: block; visibility: visible;">
+            <span class="ps-button-label">@Model.BuyInStoreLabel</span>
+            <small>@Model.BuyInStoreLabel</small>
+        </div>
+    }
+}
+@if (Model.ExternalConfig != null)
+{
+    <div class="col-12">
+        <div @Html.Sxa().Component(Model.Rendering.RenderingCssClass ?? "ps-widget", Model.Attributes) data-ps-config="@Model.ExternalConfig"
+             ps-sku="#skuValue" data-ps-sku="#skuValue">
+        </div>
+    </div>
+}
+@if (Model.StoreConfig != null)
+{
+    <div class="col-12">
+        <div class="store-pricespider-view">
+            <div class="ps-widget" data-ps-config="@Model.StoreConfig"></div>
+        </div>
+    </div>
+}

@@ -1,0 +1,32 @@
+{
+  "namespace": "Project.Corrys",
+  "references": [ "Feature.*" ],
+  "items": {
+    "includes": [
+      //{
+      //  "name": "Content-Corrys",
+      //  "path": "/sitecore/content/OneWeb/Corrys",
+      //  "scope": "ItemAndDescendants",
+      //  "allowedPushOperations": "createUpdateAndDelete"
+      //},
+      //{
+      //  "name": "MediaLibrary-Corrys",
+      //  "path": "/sitecore/media library/Project/OneWeb/Corrys",
+      //  "scope": "singleItem",
+      //  "allowedPushOperations": "createUpdateAndDelete"
+      //},
+      {
+        "name": "MediaLibrary-Corrys-Themes",
+        "path": "/sitecore/media library/Themes/OneWeb/Corrys",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      }
+      //{
+      //  "name": "Forms-Corrys",
+      //  "path": "/sitecore/Forms/OneWeb/Corrys",
+      //  "scope": "ItemAndDescendants",
+      //  "allowedPushOperations": "createUpdateAndDelete"
+      //}
+    ]
+  }
+}

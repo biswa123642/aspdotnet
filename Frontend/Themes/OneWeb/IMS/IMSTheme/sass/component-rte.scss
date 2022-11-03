@@ -1,0 +1,55 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.rich-text {
+    h1 {
+      color: $link_title_primary;
+    }
+    .map-rte {
+      font-size: 1.8rem;
+    }
+    .follow-us {
+      h2 {
+        color: $title_primary;
+        font-size: 4.48rem;
+        font-weight: 600;
+        letter-spacing: -3px;
+        @include Arial-font-stack();
+      }
+    }
+    .why-cadet-stripe {
+      h2 {
+        font-size: 2.7rem;
+        font-weight: 800;
+        letter-spacing: 2px;
+        margin: 2px;
+        @include Arial-font-stack();
+
+        @include respond-to(desktop) {
+          font-size: 3.6rem;
+        }
+      }
+    }
+  }
+
+  &.content {
+    .why-cadet {
+      @include respond-to(desktop) {
+        max-width: 90rem;
+        margin: auto;
+      }
+      p {
+        font-size: 2.16rem;
+        @include respond-to(desktop) {
+          font-size: 1.92rem;
+        }
+      }
+    }
+    .career-page {
+      border-bottom: 1px solid $title_primary;
+      padding-bottom: 4rem;
+    }
+  }
+}

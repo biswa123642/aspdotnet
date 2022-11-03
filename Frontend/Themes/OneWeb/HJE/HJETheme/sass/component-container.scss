@@ -1,0 +1,13 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.container:not(.col-12) {
+    max-width: 100%;
+}
+
+header{
+    .container:not(.col-12) {
+        max-width: 100%;
+    }
+}

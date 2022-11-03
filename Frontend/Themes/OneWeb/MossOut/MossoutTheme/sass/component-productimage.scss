@@ -1,0 +1,18 @@
+@import "abstracts/mixins";
+
+.component{
+    &.productimage{
+        margin-top: 3rem;
+        .inner-wrap{
+            max-width: 60rem;
+        }
+        .image-placeholder{
+            border: 0px;
+            img{
+                @include respond-to(extra-largedesktop){
+                    margin: auto;
+                }
+            }
+        }
+    }
+  }

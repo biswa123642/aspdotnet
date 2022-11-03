@@ -1,0 +1,60 @@
+
+/* breakpoints */
+
+$break-mobile: 767px;
+$break-small-device: 480px;
+$break-tab: 768px;
+$break-desktop: 992px;
+$break-tab-horizontal: 1024px;
+$break-mobile-horizontal: 640px;
+$large-desktop: 1200px;
+$extra-largedesktop: 1440px;
+@mixin respond-to($media) {
+  @if $media==mobile {
+    @media only screen and (max-width: $break-mobile) {
+      @content;
+    }
+  }
+  @if $media==tab-horizontal {
+    @media only screen and (min-width: $break-tab-horizontal) {
+      @content;
+    }
+  }
+  @if $media==small-device {
+    @media only screen and (max-width: $break-small-device) {
+      @content;
+    }
+  }
+  @if $media==tab {
+    @media only screen and (min-width: $break-tab) {
+      @content;
+    }
+  } @else if $media==desktop {
+    @media only screen and (min-width: $break-desktop) {
+      @content;
+    }
+  } @else if $media==large-desktop {
+    @media only screen and (min-width: $large-desktop) {
+      @content;
+    }
+  } @else if $media==extra-largedesktop {
+    @media only screen and (min-width: $extra-largedesktop) {
+      @content;
+    }
+  } @else if $media==below-tab {
+    @media only screen and (max-width: 991px) {
+      @content;
+    }
+  } @else if $media==mob-horizontal {
+    @media only screen and (min-width: $break-mobile-horizontal) {
+      @content;
+    }
+  }
+}
+@mixin fieldwork-hum-font-stack() {
+  font-family: "fieldwork-hum", sans-serif;
+}
+
+@mixin ff-ernestine-pro-font-stack() {
+  font-family: "ff-ernestine-pro", serif;
+}

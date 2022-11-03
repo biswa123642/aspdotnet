@@ -1,0 +1,302 @@
+@import "abstracts/mixins";
+@import "abstracts/vars";
+
+.component {
+  &.rich-text {
+    .body-copy-rte {
+      margin: 10px;
+      h1 {
+        font-size: 3rem;
+      }
+      h2 {
+        font-size: 2rem;
+        font-weight: 500;
+      }
+      .tell-us-text-one {
+        line-height: 1.4;
+          margin-bottom: 30px;
+       
+      }
+      .tell-us-text-two {
+          line-height: 1.5;
+          font-size: 12px;
+          text-align: center;
+          z-index: 1;
+          margin-bottom: 30px;
+
+       
+    
+      }
+    }
+    .contact-form-rte {
+      background-color: $cloud-white;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .contact-how-rte {
+      padding-left: 15px;
+      padding-right: 15px;
+      a {
+        @include lora-font-stack();
+        &:hover {
+          color: $anchor-hover;
+        }
+      }
+    }
+    p {
+      font-weight: normal;
+    }
+    .solution-finder-rte {
+      padding-top: 30px;
+
+      a {
+        &:hover {
+          color: $anchor-hover;
+        }
+      }
+    }
+    p {
+      @include lora-font-stack();
+      color: $text-small-heading-color;
+      font-size: 1.68rem;
+    }
+    .form-txt {
+      font-size: 1.4rem;
+      margin: 0px 0 10px;
+    }
+    .join-rte {
+      padding: 0px;
+      margin-top: 0px;
+      font-size: 1.8rem;
+      h1 {
+        font-size: 2.8rem;
+      }
+      ul {
+        padding-left: 40px;
+        li {
+          list-style-type: disc;
+          color: $text-small-heading-color;
+          line-height: 2;
+          font-size: 1.5rem;
+        }
+      }
+      h3 {
+        color: $text-small-heading-color;
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: 500;
+      }
+      p {
+        font-size: 1.5rem;
+        margin: 0 0 10px;
+      }
+    }
+    .find-solution-rte {
+      text-align: center;
+      h3 {
+        @include lora-font-stack();
+      }
+    }
+    .careers-rte {
+      p {
+        a {
+          &:hover {
+            text-decoration: underline;
+            color: $anchor-hover;
+          }
+        }
+      }
+    }
+    &.secondary {
+      .component-content {
+        .score-style-box {
+          > a {
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+        > p {
+          font-size: 1.5rem;
+        }
+      }
+    }
+
+    @include respond-to(desktop) {
+      .body-copy-rte {
+        width: 50%;
+        margin: auto;
+        h1 {
+          font-size: 3rem;
+        }
+        h2 {
+          font-size: 2rem;
+          font-weight: 500;
+        }
+        .tell-us-text-one {
+          line-height: 1.4;
+            margin-bottom: 30px;
+         
+        }
+        .tell-us-text-two {
+            line-height: 1.5;
+            font-size: 12px;
+            text-align: center;
+            z-index: 1;
+            margin-bottom: 30px;
+        }
+      }
+      max-width: 1140px;
+      margin: auto;
+      .form-txt {
+        font-size: 1.4rem;
+        margin: 0px 0 10px;
+      }
+      p {
+        font-size: 2.1rem;
+        margin: 0px 0px 10px 0px;
+      }
+      .find-solution-rte {
+        text-align: center;
+      }
+      h1 {
+        margin-bottom: 100px;
+      }
+      .join-rte {
+        padding: 0 50px;
+        font-size: 1.8rem;
+        ul {
+          padding-left: 40px;
+          li {
+            list-style-type: disc;
+            color: $text-small-heading-color;
+            font-size: 1.8rem;
+            line-height: 2.5;
+          }
+        }
+        h3 {
+          color: $text-small-heading-color;
+          text-align: left;
+          line-height: 1.1;
+          font-size: 1.8rem;
+        }
+        p {
+          font-size: 1.8rem;
+        }
+      }
+      .solution-finder-rte {
+        p {
+          font-weight: 400;
+          font-size: 2.1rem;
+          margin-top: 25px;
+          margin-bottom: 25px;
+          line-height: 2;
+        }
+      }
+    }
+    .text-center {
+      text-align: center;
+    }
+    .score-style-box {
+      text-align: center;
+      a {
+        font-weight: 600;
+        font-size: 2.5rem;
+        color: $anchor;
+      }
+    }
+    &.secondary {
+      .body-copy-404 {
+        h1 {
+          font-size: 5rem;
+          margin-bottom: 0;
+        }
+        h2 {
+          font-size: 2rem;
+          margin-top: 0;
+        }
+        p {
+          font-size: 1.2rem;
+          font-weight: 500;
+        }
+      }
+      @include respond-to(desktop) {
+        overflow: initial;
+        .body-copy-404 {
+          position: relative;
+          right: 32%;
+          bottom: 10rem;
+          h1 {
+            font-size: 3vw;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+    .cta-group {
+      > div {
+        padding-bottom: 2rem;
+      }
+      @include respond-to(desktop) {
+        padding-top: 4rem;
+        > div {
+          padding-bottom: 0;
+        }
+      }
+    }
+    .dog-supplement-bg {
+      background-image: url("../images/Dog_Supp_Bar_BG .jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      h2 {
+        font-size: 2.8rem;
+        color: $white;
+        font-weight: 600;
+        font-family: $paragraph-font;
+        padding: 2rem 0;
+        @include respond-to(desktop) {
+          font-size: 3.5rem;
+        }
+      }
+    }
+    .four-col-grid {
+      h2 {
+        @include montserrat-font-stack();
+        font-weight: 600;
+        font-style: normal;
+        color: $wee-wee-blue;
+        font-size: 2rem;
+        margin-top: 0px;
+      }
+      p {
+        @include lora-font-stack();
+        font-style: normal;
+        color: $text-small-heading-color;
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: auto;
+        font-weight: 500;
+        line-height: 1.5;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    }
+  }
+}
+
+@include respond-to(all-mobile) {
+  .newsletter-layout {
+    &.space-lg-top {
+      margin-top: 0;
+    }
+    .component {
+      &.column-splitter {
+        .newsletter-col {
+          order: 2;
+        }
+      }
+    }
+  }
+}

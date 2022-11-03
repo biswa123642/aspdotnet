@@ -1,0 +1,86 @@
+@import "abstracts/mixins";
+@import "abstracts/vars";
+
+.component {
+  &.featuredchildlist {
+    .body-copy {
+      &.bg-hover-blue {
+        &:hover {
+          background-color: $bg-dark-blue;
+        }
+      }
+    }
+
+    .body-copy {
+      &.bg-hover-grey {
+        &:hover {
+          background-color: $link-text-mobile;
+        }
+      }
+    }
+
+    .body-copy {
+      &.bg-hover-turquoise {
+        &:hover {
+          background-color: $bg-banner-turquoise;
+        }
+      }
+    }
+
+    .body-copy {
+      &.bg-hover-transparent {
+        &:hover {
+          background-color: transparent;
+        }
+      }
+    }
+
+    .body-copy {
+      &.bg-hover-green {
+        &:hover {
+          background-color: $card-bg-green;
+        }
+      }
+    }
+
+    .body-copy {
+      &.bg-hover-darkgreen {
+        &:hover {
+          background-color: $bg-dark-green;
+        }
+      }
+    }
+
+    .body-copy {
+      &.bg-hover-lightgreen {
+        &:hover {
+          background-color: $bg-light-green;
+        }
+      }
+    }
+
+    .body-copy {
+      &.bg-hover-navyblue {
+        &:hover {
+          background-color: $navy-blue;
+        }
+      }
+    }
+
+    .body-copy {
+      &.bg-hover-light-blue {
+        &:hover {
+          background-color: #4f81c0;
+        }
+      }
+    }
+
+    .body-copy {
+      &.bg-hover-brown {
+        &:hover {
+          background-color: $dark-brown;
+        }
+      }
+    }
+  }
+}

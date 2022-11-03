@@ -1,0 +1,125 @@
+// Main colors
+$primary-color: #333;
+$secondary-color: #cf2e31;
+$black-color: #000;
+$light-black-color: #231f20;
+$extra-light-black-color: #221F1F;
+$white-color: #fff;
+$dark-white: #EBEBEB;
+$light-white-color: rgba(255, 255, 255, 0.9);
+
+// Basic theme colors
+
+$text-basic: $primary-color;
+$link-color: $primary-color;
+$link-color-hover: $secondary-color;
+$heading-primary-color: $black-color;
+$heading-secondary-color: $primary-color;
+$primary-button-color: $white-color;
+$global-button-bg-color: transparent;
+
+// Background Colors
+
+/*================================
+    Headings and title
+==================================*/
+$page-title-color:$black-color;
+$section-title-color: $black-color;
+$component-title-color:$black-color;
+$component-sitebar-title-color: $primary-color;
+$sidebar-list-color:$primary-color;
+/*================================
+    Header variables
+==================================*/
+$header-bg:$light-black-color;
+$search-border: $white-color;
+$search-border-mobile:$secondary-color;
+$Search-input-color:$white-color;
+$input-placeholder: $white-color;
+$Search-input-mobile-color: $black-color;
+$mobile-hamburger-icon-color: #fff;
+$mobile-hamburger-icon-bar: #fff;
+$mobile-hamburger-bg: transparent;
+$mobile-search-button-bg: #fff;
+// header contact link
+$Utility-contact-color: $white-color;
+$Utility-contact-color-hover: $white-color; 
+$Utility-contact-hover-color:$white-color;
+$Utility-contact-icon:$secondary-color;
+// Navigation label 1
+$navigation-level1-color: $white-color;
+$navigation-level1-mobile-color:$secondary-color;
+$navigation-level1-hover-bg: $white-color;
+$navigation-level1-hover-color: $secondary-color;
+$navigation-level1-arrow-hover-color: $black-color;
+// Navigation submenu
+$submenu-bg: $white-color;
+// Navigation label 2
+$submenu-title-color: $secondary-color;
+$submenu-title-bolor: $black-color;
+$submenu-label1-color: $black-color;
+$submenu-label1-hover-color :$black-color;
+$submenu-see-more-color: $secondary-color;
+$submenu-see-more-hover-color:$secondary-color;
+// Component Banner
+$banner-carousel-title:$light-black-color;
+// Component Footer 
+$footer-color: $white-color;
+$footer-background: $extra-light-black-color;
+$footer-links-color: $white-color ;
+$footer-links-color-hover: $secondary-color;
+$footer-social-bg: $white-color;
+$back-top-background:$light-white-color;
+$footer-social-icon-color:#231f20; 
+// common colors 
+$link-list-color: $secondary-color;
+$component-separator-border:$black-color;
+$component-section-border: $dark-white;
+$slick-dots-border: $light-black-color;
+$slick-active-color: $secondary-color;
+$slick-arrow-color: $secondary-color;
+// sitemap colors
+$sitemap-link-color: #337ab7;
+$sitemap-link-hover-color: #23527c;
+$inline-link-color: #000;
+
+// accordian and breadcrumbs
+$accordian-heading-border-color: $black-color;  
+$breadcrumb-color: $black-color;
+$breadcrumb-color-hover: $secondary-color;
+// linked-thumbnail
+$linked-thumbnail-color: $primary-color;
+$linked-thumbnail-hover-color:$secondary-color;
+// image gallery
+$image-gallery-title-color :$primary-color;
+$image-gallery-color: $primary-color;
+$image-gallery-color-hover: $secondary-color;
+
+/*================================
+    Header variables
+==================================*/
+// form input
+$input-color: $black-color;
+$input-placeholder-color: $black-color;
+$input-border: $black-color;
+$input-background: $white-color;
+// form checkbox
+$checkbox-checked-bg: $secondary-color;
+$checkbox-border: $black-color;
+// form label
+$form-label-color: $black-color;
+
+/*================================
+    Product Card
+==================================*/
+$product-card-title-color: $primary-color;
+$product-card-description-color: $primary-color;
+
+// faq 
+$faq-heading-color: $primary-color;
+$faq-content-color: $primary-color;
+/*================================
+    Solution finder
+==================================*/
+$sf-question-text-color: $primary-color;
+$sf-answer-title: $primary-color;

@@ -1,0 +1,91 @@
+﻿@using Sitecore.XA.Foundation.MarkupDecorator.Extensions
+@using Sitecore.XA.Foundation.SitecoreExtensions.Extensions
+@using CGP.Foundation.SitecoreExtensions.Utilities
+@using CGP.Foundation.Search
+@using CGP.Feature.Search.Helper
+@model CGP.Feature.Search.Models.ViewModel.ArticleListingViewModel
+
+@{
+    var hideSearchFilter = SearchHelper.IsSearchFilterDisabled();
+    var searchResultSectionClass = "col-lg-12";
+    <div @Html.Sxa().Component("article-listing col-12", Model.Attributes)>
+        <div class="component-content">
+            @if (Model != null && Model.GlobalSearchResult != null)
+            {
+                if (Model.GlobalSearchResult.Facets.Count > 0)
+                {
+                    searchResultSectionClass = !hideSearchFilter ? "col-12 col-md-8 col-lg-9" : "col-12";
+                }
+                <div class="product-wrap">
+                    <div class="row">
+
+                        @if (!hideSearchFilter)
+                        {
+                            <div class="col-md-4 col-lg-3">
+                                <div class="copy-wrap">
+                                    @Html.Sitecore().Placeholder("internal-search-box")
+                                    <div class="sxa-btn sxa-btn-primary">
+                                        <a class="clear-filter-btn"
+                                           href="javascript:void(0);">@SitecoreUtil.DefaultDictionaryValue("Clear_All")</a>
+                                    </div>
+                                </div>
+                                @Html.Partial("~/Views/OneWeb/Search/_SearchFilter.cshtml", Model.GlobalSearchResult.Facets)
+                            </div>
+                        }
+
+                        <div class="@searchResultSectionClass">
+                            @if (hideSearchFilter)
+                            {
+                                @Html.Sitecore().Placeholder("internal-search-box")
+                            }
+                            @Html.Sitecore().Placeholder("group-description-ph")
+
+                            @if (Model.GlobalSearchResult.Articles.GroupItems != null && Model.GlobalSearchResult.Articles.GroupItems.Count > 0)
+                            {
+                                <div id="article-type" class="product-result-tiles">
+                                    <div class="result-count"> @String.Format(@SitecoreUtil.DefaultDictionaryValue("SearchReturnedResults"), @Model.GlobalSearchResult.Articles.GroupCount)</div>
+                                    <div id="article-wrapper" class="custom-listing-wrapper">
+                                        @Html.Partial("~/Views/OneWeb/Search/_CategoryListing.cshtml", Model.GlobalSearchResult.Articles.GroupItems)
+                                        @Html.Sitecore().Placeholder("article-loadmore")
+                                        <input id="article-total" class="total-count" name="currentpage" type="hidden" value="@Model.GlobalSearchResult.Articles.GroupCount" />
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <div class="product-wrap">
+                    <div class="row">
+                        <div class="@searchResultSectionClass">
+                            @Html.Sitecore().Placeholder("group-description-ph")
+                            <div id="product-type" class="product-result-tiles">
+                                <div class="result-count"> @String.Format(@SitecoreUtil.DefaultDictionaryValue("SearchReturnedResults"), 0)</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+}
+<script>
+    if ((window.location.hash.includes('#facets') || window.location.hash.includes('query')) && window.location.hash !== undefined) {
+        let newUrl;
+        if (window.location.href.includes('utm_source')) {
+            newUrl = window.location.href.replace("#facets", "&f");
+        }
+        else {
+            if (window.location.hash.includes('#facets')) {
+                newUrl = window.location.href.replace("#facets", "?f");
+            }
+            else if (window.location.hash.includes('#query')) {
+                newUrl = window.location.href.replace("#query", "?q");
+            }
+        }
+        newUrl = newUrl.replace("/query", "&q").replace("/facets", "&f");
+        window.location.replace(newUrl);
+    }
+</script>

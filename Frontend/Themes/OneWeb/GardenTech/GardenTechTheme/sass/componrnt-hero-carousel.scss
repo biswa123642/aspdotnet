@@ -1,0 +1,154 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.hero-carousel {
+    &.responsive-carousel{
+    padding: 1rem 1.5rem;
+    &:not(.mulitple-bottom-links) {
+      .slick-slider .slick-dots {
+        position: relative;
+        padding: 0;
+        display: inline-block;
+        width: auto;
+        top: -25px;
+        z-index: 10;
+    }
+    .slick-slider.slick-initialized {
+      text-align: center;
+  }
+    
+    
+      .slides {
+        
+        &.slick-initialized{
+          display: block;
+        }
+        .slick-next,
+        .slick-prev {
+          display: none !important;
+        }
+      }
+      .slick-dots {
+        top: auto;
+        bottom: 0;
+        @include respond-to(tab) {
+          bottom: 20px;
+        }
+      }
+      .caption {
+        max-width: 100%;
+      }
+
+      .wrap {
+        min-height: initial;
+        .slide{
+          background-size: cover;
+          min-height: 10rem;
+          background-position: top;
+          background-color: transparent;
+          @include respond-to(desktop) {
+           min-height: initial;
+           padding-top:29.6875%;
+          }
+        }
+      }
+      .body-copy {
+        &.overlay-right{
+        background: $promo-bg-hero;
+        border-radius: 0;
+        min-height: 10rem;
+        margin: 0;
+        max-width: 18rem;
+        top:auto;
+        bottom:50%;
+        -webkit-transform: translateY(50%);
+        transform: translateY(50%);
+        position: absolute;
+        right: 0;
+        padding: 1rem;
+        height: auto;
+        .caption {
+          h1 {
+            color: $bg-basic-color;
+            font-size: 2rem;
+            line-height: 1;
+            @include respond-to(tab) {
+              font-size: 4.5rem;
+            }
+            @include respond-to(desktop) {
+              font-size: 6rem;
+            }
+          }
+          .field-slidecardsubtext {
+            color: $bg-basic-color;
+            font-size: 1.6rem;
+            font-weight: 900;
+            @include respond-to(desktop) {
+              font-size: 2rem;
+            }
+          }
+        }
+        .sxa-btn {
+          text-align: right;
+          margin-top: 1rem;
+          a {
+            text-decoration: none;
+            background-color: $offblue;
+            color: $bg-basic-color;
+            border: none;
+            padding: 0.6rem 1.2rem;
+            line-height: 1.42857143;
+            font-weight: 700;
+            font-size: 1.2rem;
+          }
+        }
+        @include respond-to(tab) {
+          .sxa-btn {
+            margin-top: 2.5rem;
+            a{
+              font-size: 1.6rem;
+            }
+          }
+        }
+        @include respond-to(tab) {
+          max-width: 38rem;
+          padding: 2rem;
+        }
+        @include respond-to(desktop) {
+          min-height: initial;
+          max-width: 45rem;
+          padding: 2rem 2rem;
+          bottom:12%;
+          .sxa-btn {
+            a{
+              font-size: 2rem;
+            }
+          }
+        }
+      }
+      }
+    }
+    .slick-dots {
+      li {
+        background-color: transparent;
+        &.slick-active {
+          background-color: $bg-basic-color;
+          border-color: $bg-basic-color;
+        }
+      }
+    }
+  }
+  }
+}
+html[lang="es"]
+.component{
+  &.hero-carousel:not(.mulitple-bottom-links){
+    .body-copy{
+      max-width: 75rem;
+      padding: 2rem;
+    }
+  } 
+}
+

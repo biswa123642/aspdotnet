@@ -1,0 +1,16 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.hero {
+    &.hero-banner-image {
+      .banner-image {
+        img {
+          height: 30rem;
+          width: auto;
+        }
+      }
+    }
+  }
+}

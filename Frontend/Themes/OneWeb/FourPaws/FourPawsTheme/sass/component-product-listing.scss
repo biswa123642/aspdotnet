@@ -1,0 +1,93 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+    &.product-listing{
+        .product-wrap{
+            .copy-wrap{
+                &>.row{
+                    margin: 0;
+                }
+                .search-box{
+                    width: 100%;
+                    padding-right: 0;
+                    .global-search-wrapper{
+                        .search-input-wrapper{
+                            background: $white;
+                            input{
+                                padding: 1.3rem 4.4rem 1.3rem 2rem;
+                                border: 3px solid $text-small-heading-color;
+                                border-radius: 25px;
+                            }
+                            .custom-search-box-button{
+                                height: calc(100% - 9px);
+                                right: 19px;
+                                top: 5px;
+                            }
+                        }
+                    }
+                    .component-content{
+                        display: block
+                    }
+                }
+                .sxa-btn{
+                    &.sxa-btn-primary{
+                        padding-top: 2rem;
+                        .clear-filter-btn{
+                            background-color: gray;
+                            color: #fff;
+                            border-color: gray;
+                            border-radius: 20px;
+                        }
+                    }
+                } 
+            }
+            #searchfilter{
+            .facet-wrapper{
+                h3{
+                    color: #7b7b7b;
+                    font-size: 1.6rem;
+                    border-bottom: 1px solid #dddddd;
+                    .link-btn{
+                        &:before, &:after{
+                            color: #7b7b7b;
+                            width: 11px;
+                            height: 1px;
+                        }
+                       
+                    }
+                }
+                .form-check{
+                    label{
+                        font-size: 1.12rem;
+                        color: #7b7b7b;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+            .product-result-tiles{
+                .card-body{
+                    .product-list{
+                        .cgp-product{
+                            .body-copy{
+                                h3{
+                                    line-height:1.65rem;
+                                    a{
+                                        color: #5886a7;
+                                        font-size: 1.5rem;
+                                        font-weight: 600;
+                                        &:hover{
+                                            text-decoration: underline;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

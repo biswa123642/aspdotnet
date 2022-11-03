@@ -1,0 +1,102 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  .column-splitter {
+    .content {
+      @include respond-to(desktop) {
+        padding-left: 0;
+      }
+      padding-bottom: 0;
+      .component-content {
+        .product-title {
+          margin-bottom: 0;
+          h1 {
+            text-align: left;
+          }
+        }
+        .rich-text {
+          h2 {
+            span {
+              color: $light-dark;
+            }
+          }
+          p {
+            color: $light-dark;
+          }
+        }
+      }
+    }
+  }
+  &.hubspot-form {
+    margin-top: 20px;
+    @include respond-to(desktop) {
+      margin-left: -15px;
+    }
+    .hs-form-checkbox {
+      label {
+        input[type="checkbox"]:not(:checked) + span:before {
+          background: url("../images/box-notchecked.png");
+          background-size: 30px 30px;
+          top: 15px;
+        }
+        span {
+          &:before {
+            content: "";
+            position: absolute;
+            margin-left: -45px;
+            top: -8px;
+            width: 30px;
+            height: 30px;
+            background: url("../images/box-checked.png");
+            background-size: 30px 30px;
+            top: 15px;
+          }
+        }
+      }
+    }
+    .hs-form-booleancheckbox {
+      label {
+        input[type="checkbox"]:not(:checked) + span:before {
+          background: url("../images/box-notchecked.png");
+          background-size: 30px 30px;
+        }
+        input[type="checkbox"]:checked + span:before {
+          content: "";
+          position: absolute;
+          margin-left: -45px;
+          top: -8px;
+          width: 30px;
+          height: 30px;
+          background: url("../images/box-checked.png");
+          background-size: 30px 30px;
+        }
+      }
+    }
+    .hs-form {
+      .hs-error-msgs {
+        li {
+          label {
+            color: $red-color;
+            font-size: 1.8rem;
+            font-family: sans-serif;
+            font-weight: 100;
+          }
+        }
+      }
+    }
+  }
+}
+
+.newsletter-form {
+  .product-title {
+    h1 {
+      font-size: 32px;
+      color: $dark-red-color;
+    }
+  }
+  .component-content {
+    font-size: 1.8rem;
+  }
+}
+

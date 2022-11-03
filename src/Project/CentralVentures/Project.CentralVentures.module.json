@@ -1,0 +1,32 @@
+{
+  "namespace": "Project.CentralVentures",
+  "references": [ "Feature.*" ],
+  "items": {
+    "includes": [
+      //{
+      //  "name": "Content-CentralVentures",
+      //  "path": "/sitecore/content/OneWeb/CentralVentures",
+      //  "scope": "ItemAndDescendants",
+      //  "allowedPushOperations": "createUpdateAndDelete"
+      //},
+      //{
+      //  "name": "MediaLibrary-CentralVentures",
+      //  "path": "/sitecore/media library/Project/OneWeb/CentralVentures",
+      //  "scope": "singleItem",
+      //  "allowedPushOperations": "createUpdateAndDelete"
+      //},
+      {
+       "name": "MediaLibrary-CentralVentures-Themes",
+       "path": "/sitecore/media library/Themes/OneWeb/CentralVentures",
+       "scope": "ItemAndDescendants",
+       "allowedPushOperations": "createUpdateAndDelete"
+      }
+      //{
+      //  "name": "Forms-CentralVentures",
+      //  "path": "/sitecore/Forms/OneWeb/CentralVentures",
+      //  "scope": "ItemAndDescendants",
+      //  "allowedPushOperations": "createUpdateAndDelete"
+      //}
+    ]
+  }
+}

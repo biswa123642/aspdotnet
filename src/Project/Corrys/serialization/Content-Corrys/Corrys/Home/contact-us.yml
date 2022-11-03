@@ -1,0 +1,196 @@
+﻿---
+ID: "39734cf7-30aa-4ed9-956e-5bf9ce962766"
+Parent: "ff3b944b-c2e3-481a-9e7a-315bf7659356"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/Corrys/Home/contact-us"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{C40BB9B9-C53A-4EE0-9025-67497474EA84}"
+          p:before="*"
+          s:ds="{5132847F-07DF-45ED-A8BD-5EA1A6DB9EF0}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2190EE71-075F-42DB-83D6-13F5B3F5676E%7D&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/row-3-1/container-6"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{B71D75A9-E2EB-4671-BBF3-DA6B3180FC51}"
+          p:after="r[@uid='{C40BB9B9-C53A-4EE0-9025-67497474EA84}']"
+          s:ds="{5A752AA4-55D5-40FA-9356-BAFAC7A987E4}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2190EE71-075F-42DB-83D6-13F5B3F5676E%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/row-4-1/container-8" />
+        <r
+          uid="{48A7351E-B66B-4A8C-B050-7F1DD48D2C53}"
+          p:after="r[@uid='{B71D75A9-E2EB-4671-BBF3-DA6B3180FC51}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D%7C%7B8D38663D-4028-4440-96C6-BCAA6062E23B%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/row-4-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{F9E00378-D994-47C9-9B85-485C63956C23}"
+          p:after="r[@uid='{48A7351E-B66B-4A8C-B050-7F1DD48D2C53}']"
+          s:ds="{E910A167-5D80-4F17-AED1-BCB8250F33DC}"
+          s:id="{882F60C4-4A33-4995-AC39-C8FF97EE8F1D}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B0A165447-FFF3-44FB-8521-2AFCDFEA24E5%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-3-1/container-6" />
+        <r
+          uid="{498A6895-FD1F-4AE5-972E-66B57C6F1571}"
+          p:after="r[@uid='{F9E00378-D994-47C9-9B85-485C63956C23}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-3-1" />
+        <r
+          uid="{EC4CD4DB-D8C5-4646-8568-15C767A30348}"
+          p:after="r[@uid='{498A6895-FD1F-4AE5-972E-66B57C6F1571}']"
+          s:ds=""
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-2-1/container-4" />
+        <r
+          uid="{F900142C-2EC9-481E-A854-4EF5243ED31C}"
+          p:after="r[@uid='{EC4CD4DB-D8C5-4646-8568-15C767A30348}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-2-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{CFEAB719-D260-4D61-9265-9CC9384D5359}"
+          p:after="r[@uid='{F900142C-2EC9-481E-A854-4EF5243ED31C}']"
+          s:ds=""
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%2F&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B5DE4D1B9-AB38-4908-A37A-8E41E7AA9AD7%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-1-1/container-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{9F662EE3-CCDE-45C8-B827-F04E9E50BD48}"
+          p:after="r[@uid='{CFEAB719-D260-4D61-9265-9CC9384D5359}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{BF405615-C378-40F0-BA39-2A11191CBF5B}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3%2C4&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220907T101629Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: contact us
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: "Have questions or comments for us? Get in contact with a Corry's customer representative."
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <div class="contact-us">
+        <h1>ABOUT CORRY'S</h1>
+        <p>For over 70 years, the Corry's&nbsp;brand has been a trusted name in the pest control industry. Made in the Pacific Northwest -- where we know a thing or two about slugs and snails -- &nbsp;our products have provided excellent protection against slugs, snails, and other garden invaders for generations. We believe everyone deserves a healthy, beautiful garden, and we&rsquo;re proud to help our customers achieve that goal.</p>
+        </div>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "Have questions or comments for us? Get in contact with a Corry's customer representative."
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Contact Us
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Contact Us
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e6772d1d-0095-4507-82f5-492d2d171b0d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{7628C1AA-D845-4124-8BD8-757D77F9831B}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220913T093950Z
+- Language: es
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220908T053012Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Comuníquese con Corry's
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Si tiene preguntas o comentarios para nosotros, comuníquese con un representante de servicio al cliente de Corry's.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <div class="contact-us">
+        <h1>ACERCA DE CORRY'S</h1>
+        <p>Desde hace m&aacute;s de 70 a&ntilde;os, la marca Corry's ha sido un nombre confiable en la industria del control de plagas. Hechos en la regi&oacute;n noroeste de la costa del Pac&iacute;fico, donde sabemos bastante sobre caracoles y babosas, nuestros productos han brindado una excelente protecci&oacute;n contra caracoles, babosas y otras plagas invasoras por varias generaciones. Nosotros consideramos que todo el mundo merece un jard&iacute;n sano y hermoso, y nos enorgullecemos de ayudar a que nuestros clientes logren esa meta.</p>
+        </div>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Si tiene preguntas o comentarios para nosotros, comuníquese con un representante de servicio al cliente de Corry's.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Comuníquese con Corry's
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Comuníquese con Corry's
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ad8f9839-2a56-4931-918e-be38a66344a9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{7628C1AA-D845-4124-8BD8-757D77F9831B}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220908T073110Z

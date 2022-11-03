@@ -1,0 +1,60 @@
+﻿---
+ID: "adba9387-7f9b-4a4b-bd83-ef8ffd5b160f"
+Parent: "149777b4-30bf-4acb-88ad-fb0489ad82d3"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Calculators/Rebate Calculator/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.1/knockout-latest.min.js"
+        integrity="sha512-vs7+jbztHoMto5Yd/yinM4/y2DOkPLt0fATcN+j+G4ANY2z4faIzZIOMkpBmWdcxt+596FemCh9M18NUJTZwvw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <div class="rebate-calculator-wrapper">
+        <div class="rebate-description">
+            {{ sc_field i_item "CalculatorDescription"}}
+        </div>
+        <div class="rebate-calculator rebate-content">
+            {{if i_item.InputFieldAsInvoiceAmount.raw | string.contains "1" }}
+            ${{end}}
+            <span class="input-field-wrapper">
+                <input type="text" class="rebate-calculator__input" data-bind="value: numberOfCans, valueUpdate: 'afterkeydown'"
+                    size="8" value="{{i_item.RebateInputDefaultValue.raw}}">
+                {{ sc_field i_item "CalculatorShortDescription"}}
+            </span>
+            <span class="rebate-calculator__sign">x</span>
+            <span class="rebate-calculator__sign rebate-calculator__multiplier">{{if (!(i_item.InputFieldAsInvoiceAmount.raw |
+                string.contains "1"))}}${{end}}{{ sc_field i_item "DiscountPercentage"}}</span>
+            <span class="rebate-calculator__sign">=</span>
+            <div class="rebate-calculator__output" data-bind="text: potentialReturn">$0.00</div>
+        </div>
+    </div>
+- ID: "c35b2285-b4a8-406f-a91c-24a60391dc12"
+  Hint: DataAttributes
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220823T071817Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ee49c4d5-cd0e-4dea-b091-002c83c937e1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220923T063515Z

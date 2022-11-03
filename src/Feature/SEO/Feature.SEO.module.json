@@ -1,0 +1,26 @@
+{
+	"namespace": "Feature.SEO",
+	"references": [ "*Foundation.*" ],
+	"items": {
+		"includes": [
+			{
+				"name": "Templates",
+				"path": "/sitecore/templates/Feature/OneWeb/SEO",
+				"allowedPushOperations": "createUpdateandDelete",
+				"scope": "itemAndDescendants"
+			},
+			{
+				"name": "MediaLibrary",
+				"path": "/sitecore/media library/Feature/OneWeb/SEO",
+				"allowedPushOperations": "createUpdateandDelete",
+				"scope": "itemAndDescendants"
+			},
+			{
+				"name": "Renderings",
+				"path": "/sitecore/layout/Renderings/Feature/OneWeb/SEO",
+				"allowedPushOperations": "createUpdateandDelete",
+				"scope": "itemAndDescendants"
+			}
+		]
+	}
+}

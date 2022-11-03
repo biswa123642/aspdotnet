@@ -1,0 +1,318 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.header-shell {
+    &.variant-2 {
+      .wrapper{
+        .wrapper-nav{
+          background-color: transparent;
+        }
+      }
+      background-color: $text-blue-primary;
+      @include din-pro-font-stack();
+
+      .component {
+        &.plain-html {
+          position: absolute;
+          right: 0;
+
+          @include respond-to(tab) {
+            top: 0;
+          }
+
+          .hamburger {
+            background: none;
+
+            .icon-bar {
+              background-color: $white;
+              margin-bottom: 0.7rem;
+              width: 43px;
+            }
+          }
+        }
+      }
+
+      .logo-container {
+        .file-type-icon-media-link {
+          margin-top: 2rem;
+          width: 25rem;
+
+          &.col-12 {
+            a {
+              img {
+                max-width: 100%;
+                padding-left: inherit;
+              }
+            }
+          }
+
+          @include respond-to(desktop) {
+            margin-top: 3rem;
+            width: 28rem;
+            position: relative;
+          }
+        }
+      }
+
+      .link {
+        display: none;
+
+        @include respond-to(desktop) {
+          display: block;
+          max-width: 58%;
+          margin: 2rem;
+          @include verveine-font-stack();
+
+          a {
+            font-size: 2.9rem;
+            float: right;
+            color: $white;
+            border-bottom: none;
+
+            &:hover {
+              text-decoration: underline;
+              text-decoration-color: $header-link-hover;
+            }
+          }
+        }
+
+        @include respond-to(larger-desktop) {
+          max-width: 69%;
+
+          a {
+            font-size: 1.82vw;
+          }
+        }
+
+      }
+
+      .search-box {
+        .search-wrapper {
+          &::before {
+            background: none;
+          }
+
+          .search-input-wrapper {
+            input {
+              border-radius: 2rem;
+              width: 100%;
+              height: 4.5rem;
+              border: 0.1rem solid $white;
+              font-size: 2.4rem;
+              font-weight: 500;
+              color: $text-blue-primary;
+              position: relative;
+              margin: auto;
+              @include din-14-stack();
+
+              &::placeholder {
+                opacity: 0;
+              }
+            }
+
+            button {
+              background-image: url("../images/search-icon.png");
+              margin: auto;
+              right: 5%;
+
+              @include respond-to(tab) {
+                right: 30%;
+              }
+
+              @include respond-to(desktop) {
+                right: 3%;
+                top: 2px;
+              }
+            }
+          }
+        }
+      }
+
+      .wrapper-nav {
+        .component {
+          &.page-list {
+            &.variant-1 {
+              padding: 1rem;
+              margin-top: auto;
+              border-top: 0.1rem solid $white;
+
+              .search-box {
+                display: block !important; //to override default
+                position: relative;
+                background: none;
+
+                @include respond-to(desktop) {
+                  display: none !important; //to override default
+                }
+
+                .component-content {
+                  display: block;
+                }
+              }
+
+              .items {
+                .item {
+                  border-bottom: none;
+                  padding: 1rem 0 1rem 2rem;
+
+                  &.has-submenu-list {
+                    &::before {
+                      content: "\f0d7";
+                      color: $white;
+                      top: 1.1rem;
+                      transform: translateY(0);
+                      right: 1rem;
+                    }
+
+                    &.open {
+                      &::before {
+                        top: 1.2rem;
+                        transform: translateY(0) rotate(180deg);
+                      }
+                    }
+
+                    @include respond-to(desktop) {
+                      overflow: initial;
+                      padding-right: 2rem;
+
+                      &::before {
+                        top: 1.3rem;
+                        font-size: 1.3vw;
+                        right: 0;
+                      }
+
+                      &:hover {
+                        .submenu-utility-linklist {
+                          display: block;
+                        }
+
+                        &::before {
+                          top: 1.2rem;
+                          transform: translateY(0) rotate(180deg);
+                        }
+                      }
+
+                    }
+                  }
+
+                  a {
+                    color: $white;
+                    font-size: 1.6rem;
+                    border-bottom: none;
+
+                    @media screen and (min-width:1180px) {
+                      font-size: 1.35vw;
+                    }
+
+                    &:hover {
+                      text-decoration: none;
+
+                      @include respond-to(desktop) {
+                        text-decoration: underline;
+                        text-decoration-color: $header-link-hover;
+                      }
+                    }
+                  }
+
+                  .submenu-utility-linklist {
+                    background: none;
+                    border-top: none;
+                    @include din-14-narrow-stack();
+
+                    @include respond-to(desktop) {
+                      background-color: $white;
+                      border-top: 0.5rem solid $header-link-hover;
+                      top: 80%;
+                      padding: 0;
+                    }
+
+                    .link-list {
+                      .field-link {
+                        color: $white;
+                        padding: 1rem 0;
+                        font-weight: 700;
+
+                        a::after {
+                          display: none;
+                        }
+
+                        @include respond-to(desktop) {
+                          padding: 0.5rem 1rem;
+
+                          a {
+                            color: $text-blue-primary;
+                            font-size: 1.35vw;
+                            font-weight: 800;
+                            border-bottom: none;
+                            padding: 1rem;
+
+                            &:hover {
+                              text-decoration: none;
+                              color: $white;
+                            }
+                          }
+
+                          &:hover {
+                            background-color: $text-blue-primary;
+                          }
+                        }
+                      }
+                    }
+                  }
+
+                  &:hover {
+                    .submenu-utility-linklist {
+                      @include respond-to(desktop) {
+                        display: block;
+                      }
+                    }
+                  }
+                }
+              }
+
+              @include respond-to(desktop) {
+                display: block;
+                padding: 0 1rem;
+                border-top: none;
+              }
+            }
+          }
+        }
+
+        @include respond-to(desktop) {
+          margin-top: -3rem;
+        }
+      }
+
+      &.active {
+        .plain-html {
+          .hamburger {
+            .icon-bar {
+              &:first-child {
+                transform: rotateZ(45deg) translate(10px, 10px);
+              }
+            }
+          }
+        }
+      }
+
+      .inner-wrap {
+        .container {
+          >.row {
+            .col-md-9 {
+              >.row {
+                flex-wrap: nowrap;
+              }
+            }
+          }
+        }
+      }
+
+    }
+  }
+}
+.on-page-editor .component.header-shell.scEnabledChrome{
+  background-color: $text-blue-primary;
+}

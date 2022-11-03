@@ -1,0 +1,304 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+
+.component {
+    &.rich-text {
+        overflow: visible;
+        .about-us {
+            .our-story-component {
+                .body-copy {
+                    margin: 2rem 0 2rem 0;
+
+                    .has-child {
+                        .list-group-item-heading {
+                            @include Kadwa-font-stack();
+                            line-height: 1.2;
+                            color: $heading-secondary-color;
+                            font-size: 4.5rem;
+
+                            @include respond-to(mobile) {
+                                position: absolute;
+                                top: 50px;
+                                left: 50%;
+                                width: 50%;
+                            }
+
+                            @include respond-to(small-device) {
+                                top: 35px;
+                            }
+
+                            @include respond-to(tab) {
+                                font-size: 5.6rem;
+                            }
+
+                            @include respond-to(desktop) {
+                                font-size: 6.6rem;
+                            }
+                        }
+
+                        .field-tile-image {
+                            @include respond-to(mobile) {
+                                align-items: flex-start;
+                            }
+
+                            .wrapper-content h3 {
+                                margin-top: 2rem;
+                            }
+
+                            .list-img {
+
+
+                                @include respond-to(mobile) {
+                                    width: 50%;
+                                    text-align: center;
+                                }
+                            }
+
+                        }
+
+                        &.timeline-end :before {
+                            @include respond-to(tab) {
+                                width: 80%;
+                                left: -80%;
+                            }
+                        }
+
+                        &.timeline-end {
+                            .list-group-item-heading {
+                                position: static;
+                                width: 100%;
+                            }
+                        }
+                    }
+
+                    .score-content-spot {
+                        font-size: 1.8rem;
+                        line-height: 1.5;
+                        font-weight: 500;
+                        @include Kadwa-font-stack();
+                        color: $text-basic;
+
+                        a {
+                            color: $link-color;
+                            font-weight: inherit;
+
+                            &:hover {
+                                color: $link-color-hover;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+        .contact-info {
+            
+            ul:not([class]){
+                padding-left: 0;
+                li {
+                    list-style-type: none;
+                    display: block;
+                    position: relative;
+                    border-bottom: 1px solid $light-orange;
+                    padding-left: 80px;
+                    line-height: 1.7;
+                    padding-bottom: 24px;
+                    margin-bottom: 24px;
+                    &:last-child{
+                        border-bottom: none;
+                    }
+                     
+                    
+                     a {
+                        color: $black-color;
+                        text-decoration: underline;
+                        &:hover {
+                            font-weight: 400;
+                            color: $black-color;
+                            text-decoration: underline;
+                        }
+                    }
+                    img {
+                        position: absolute;
+                        left: 10px;
+                        top: 10px;
+                        display: block;
+                    }
+                }
+            }
+        }
+        &.page-not-found {
+            p {
+                font-size: 3rem;
+                font-weight: 400;
+                @include Kadwa-font-stack();
+                line-height: 3.5rem;
+            }
+        }
+    }
+    
+    &.link-list{
+        &.page-not-found-link{
+            max-width: 75%;
+            margin: auto;
+            @include respond-to(desktop){
+                max-width: 27%;
+            }
+            h3{
+                border: none;
+                font-size: 2rem;
+                @include Helvetica-font-stack();
+                font-weight: bold;
+                margin-bottom: 3rem;
+            }
+            ul{
+                li{
+                    a{
+                        color: $secondary-color;
+                        font-weight: 700;
+                        font-size: 2rem;
+                        line-height: 3.5rem;
+                        border: none;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.promo {
+    .promo-text {
+        padding: 0.9rem;
+
+        .field-promotext {
+            h6 {
+                font-size: 2rem;
+                @include Kadwa-font-stack();
+            }
+
+            p {
+                font-size: 1.8rem;
+                @include Kadwa-font-stack();
+            }
+            .stable-talk, .life-with-horses{
+                font-size: 2.2rem;
+                @include arial-font-stack();
+            }
+        }
+
+        .field-promolink {
+            a {
+                font-size: 1.6rem;
+                text-decoration: none;
+                background-color: $secondary-color;
+                color: $white-color;
+                @include Kadwa-font-stack();
+                padding: 0.6rem 1.2rem;
+                border-radius: 0.4rem;
+
+                &:hover {
+                    background-color: $global-button-hover-color;
+                }
+            }
+        }
+    }
+}
+    
+    
+    
+
+    /*============================================
+            Basic content list style
+    ==============================================*/
+    &.linked-thumbnail.horizontal-list.quick-links,
+    &.content,
+    &.product-tab-accordion,
+    &.product-variant .variant-description,
+    &.rich-text {
+
+        ol:not([class]),
+        ul:not([class]) {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            padding: 0 0 0 3.5rem;
+            margin-left: 0;
+
+            li {
+                list-style-type: disc;
+                display: list-item;
+                list-style-position: outside;
+                font-size: 1.8rem;
+                margin-bottom: 0.5rem;
+                margin-left: 0;
+
+                a {
+                    border: none;
+                    color: $link-color;
+                    text-decoration: none;
+
+                    &:hover {
+                        border: none;
+                        color: $link-color-hover;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
+        ol:not([class]) {
+            li {
+                list-style: decimal;
+            }
+
+        }
+        &.content-large{
+            ol:not([class]),
+            ul:not([class]) {
+                margin-top: 0;
+                margin-bottom: 1rem;
+                padding: 0 0 0 3.5rem;
+                margin-left: 0;
+    
+                li {
+                    list-style-type: disc;
+                    display: list-item;
+                    list-style-position: outside;
+                    font-size: 2rem;
+                    margin-bottom: 0.5rem;
+                    margin-left: 0;
+    
+                    a {
+                        border: none;
+                        color: $link-color;
+                        text-decoration: none;
+    
+                        &:hover {
+                            border: none;
+                            color: $link-color-hover;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+    
+            ol:not([class]) {
+                li {
+                    list-style: decimal;
+                }
+    
+            }
+        }
+
+    }
+}
+@include respond-to(desktop){
+    .contact-info {
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 10;
+        padding-left: 7.5rem;
+    }
+}

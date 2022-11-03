@@ -1,0 +1,52 @@
+﻿---
+ID: "433db66d-50a2-461b-976e-e01d20dac754"
+Parent: "7402b6fe-9cfb-477b-a7ff-b9e1e8dfb23b"
+Template: "b8f5894c-b493-4016-bf78-4090b0a2fd16"
+Path: "/sitecore/content/OneWeb/ComfortZone/Home/all-products/comfort-zone-multi-cat-diffuser/Data/UserFeedback"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: User Feedback
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221010T103132Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cec83c20-90f5-47c3-9317-a82093b1c9bd"
+    - ID: "b3635965-6786-457c-9dee-28de73c0a331"
+      Hint: Text
+      Value: |
+        <h2>USER FEEDBACK</h2>
+        <div class="review-stars">
+        <span class="fa fa-star" aria-hidden="true"></span>
+        <span class="fa fa-star" aria-hidden="true"></span>
+        <span class="fa fa-star" aria-hidden="true"></span>
+        <span class="fa fa-star empty" aria-hidden="true"></span>
+        <span class="fa fa-star empty" aria-hidden="true"></span>
+        </div>
+        <div class="review-score">
+        3.4/5
+        </div>
+        <div class="review-count">
+        50 Reviews
+        </div>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221010T103638Z

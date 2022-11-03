@@ -1,0 +1,52 @@
+﻿---
+ID: "bc0485c4-bc7f-4cdd-8421-d46257005341"
+Parent: "50513313-5b26-48a0-a132-749c830a10e6"
+Template: "78eaf4cb-0300-4ecd-be80-3a1afdd4fe32"
+Path: /sitecore/content/OneWeb/Amdro/Data/Image Listing Grid View/Homepage Data/Leaf Damage
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "100dd90d-1e9c-44b4-a8ce-35ea4bcc2f1a"
+      Hint: Image
+      Value: |
+        <image mediaid="{D0C18929-C8DE-4C59-A4A9-E97D7AF08614}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220214T083337Z
+    - ID: "43744896-2016-4a47-8200-4a43438399e2"
+      Hint: Title
+      Value: Leaf Damage
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "631e403d-8b74-4c01-8537-eb11db82c6a8"
+      Hint: AddCTALinkToTitle
+      Value: 1
+    - ID: "78a8fe40-6c78-47e1-a69a-386baee8a0c7"
+      Hint: CTA
+      Value: |
+        <link text="Leaf Damage" anchor="" linktype="internal" class="" title=""  querystring="" id="{FB0AF4CE-FB51-4F5F-9642-FC98F7838659}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "036b14ef-9f32-4484-bbcb-7110c935ec5e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220630T112020Z
+    - ID: "f7205315-be76-4a2c-8b8d-6a9f4d068c96"
+      Hint: ShortDescription
+      Value: 

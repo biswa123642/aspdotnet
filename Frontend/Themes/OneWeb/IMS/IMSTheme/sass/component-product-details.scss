@@ -1,0 +1,91 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.product-details {
+    &.variant-4 {
+      .product-wrapper {
+        h1 {
+          color: $link_title_primary;
+          font-size: 4.16rem;
+        }
+        .body-copy {
+          ul {
+            li {
+              font-size: 1.76rem;
+              font-weight: 700;
+              margin: 0.75rem 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .product-variant {
+    h4 {
+      color: $variant-gray;
+      font-size: 1.8rem;
+      font-weight: 700;
+      @include Arial-font-stack();
+    }
+    select {
+      color: $black;
+      text-align: left;
+      border: 1px solid $title_primary;
+      background-image: url("../images/down-arrow.png");
+      background-repeat: no-repeat;
+      background-position: 97% 50%;
+      appearance: none;
+      background-color: $white;
+      background-size: 3rem 2rem;
+      padding-right: 4rem;
+    }
+    .variant-description {
+      h3 {
+        text-transform: uppercase;
+        font-size: 3.36rem;
+        font-weight: 500;
+      }
+    }
+    .variant-id {
+      p {
+        color: $variant-gray;
+        font-weight: 700;
+        span {
+          margin: auto 1rem;
+        }
+      }
+    }
+  }
+
+  .product-tab-accordion {
+    .card {
+      padding: 0;
+      .card-header {
+        background-color: $title_primary;
+        margin-top: 2rem;
+        h2 {
+          button {
+            &.btn-link {
+              color: $white;
+              font-size: 1.8rem;
+              font-weight: 700;
+              padding: 1rem;
+
+              &::before,
+              &::after {
+                background: $white;                
+              }
+            }
+          }
+        }
+      }
+      .collapse {        
+        color: $black;
+        font-size: 1.8rem;
+      }
+    }
+  }
+}

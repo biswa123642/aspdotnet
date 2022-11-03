@@ -1,0 +1,78 @@
+.component{
+    &.carousel{
+        border:none;
+        padding:0;
+        ul{
+            list-style: none;
+            padding:0;
+            left: 60px;
+            width: calc(100% - 120px);
+            li{
+                padding:0;
+            }
+        }
+        .field-slideimage{
+            margin-bottom:3rem;
+        }
+        .slide-info{
+            margin-bottom:3rem;
+            font-size: 2rem;
+            line-height: 3.2rem;
+        }
+        .nav{
+            a{ 
+                opacity: 0.5;
+                &:hover,&:focus{
+                    outline: 0;
+                    color:#000;
+                    text-decoration: none;
+                    opacity: 0.9;
+                    filter: alpha(opacity=90);
+                }
+                &.prev-text,&.next-text{
+                    position: absolute;
+                    z-index: 5;
+                    display: inline-block;
+                    top:auto;
+                    bottom:5rem;
+                    &:after{
+                        color: black;
+                        font-size: 8rem;
+                        font-weight: normal;
+                    }
+                }
+                &.prev-text{
+                    left: 20px;
+                    &:after{
+                        content: "\f060";
+                    }
+                }
+                &.next-text{
+                    right:20px;
+                    &:after{
+                        content: "\f061";
+                    }
+                }
+            }
+        }
+        @media screen and(min-width:992px) {
+            .nav{
+                a{ 
+                    &.prev-text,&.next-text{
+                        top: 50%;
+                        -webkit-transform: translateY(-50%);
+                        -moz-transform: translateY(-50%);
+                        transform: translateY(-50%);
+                        bottom:auto;
+                    }
+                    &.prev-text{
+                        left: 20px;
+                    }
+                    &.next-text{
+                        right:-20px;
+                    }
+                }
+            }
+        }
+    }
+}

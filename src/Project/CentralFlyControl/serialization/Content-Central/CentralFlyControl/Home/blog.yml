@@ -1,0 +1,58 @@
+﻿---
+ID: "b17ec369-176f-4ba7-9b01-fd48406261cc"
+Parent: "34d16262-323c-41f1-94ac-93fb925e4b52"
+Template: "b38986e8-884f-400d-a503-6379538fb556"
+Path: /sitecore/content/OneWeb/CentralFlyControl/Home/blog
+SharedFields:
+- ID: "d4952280-2d7d-4bf4-a99a-ea36dad0f0a7"
+  Hint: Body Css Class
+  Value: "page-listing"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220919T090510Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Blog
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Blog
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <div class="score-section-header">
+        <h2><strong>Blog</strong></h2>
+        </div>
+        <div class="score-content-spot">
+        <p>Stay up to date with the latest information, tips and tricks on how to help protect your operation from flies with ClariFly<sup>&reg;</sup>&nbsp;Larvicide and an integrated pest management (IPM) program.</p>
+        </div>
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Blog
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Blog
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1fa34132-f310-4977-9f2e-49089f6097bf"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{21B0CC26-BADB-4DDD-ADCA-DE6D1334ACC1}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221020T075134Z

@@ -1,0 +1,82 @@
+﻿---
+ID: "93a77090-b10a-44a0-b6d5-515428b45015"
+Parent: "b98608fc-997b-4a26-a28c-bfd9ee23caa2"
+Template: "2ad23d55-aecd-43dd-ae0d-72d2ebcba60f"
+Path: "/sitecore/content/OneWeb/CentralMosquitoControl/Data/Plain HTML/all-clear-rebate-form calculator"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24cce27c-05db-4473-a1ed-e69b1725ff1c"
+      Hint: HtmlCode
+      Value: |
+        <div class="score-content-spot">
+           <h4 style="z-index: 1;">Follow these 3 steps:</h4>
+           <p style="z-index: 1;">
+              <strong>1. Calculate Your Potential Return </strong>
+           </p>
+           <p style="z-index: 1;">
+              <strong>
+              <em>Minimum required amount spent: $10,000</em>
+              </strong>
+           </p>
+           <div class="rebate-calculator">
+              <label>Amount Spent</label>
+              <input type="text" class="rebate-calculator__input" data-bind="value: amountSpent, valueUpdate: 'afterkeydown'" size="8">
+              <label>Cashback</label>
+              <span class="rebate-calculator__sign rebate-calculator__cashback-percent" data-bind="text: cashbackPercent">NaN</span>
+              <label>Amount Saved</label>
+              <span class="rebate-calculator__sign rebate-calculator__amount-saved" data-bind="text: amountSaved">NaN</span>
+              <div class="config">
+                 <h2 style="z-index: 1;">Rebate Calculator Config</h2>
+                 <textarea style="margin: 15px; width: 300px; height: 165px;">[{
+        			"percent": 2,
+        			"bracket": 10000
+        			}, {
+        			"percent": 2.5,
+        			"bracket": 50000
+        			}, {
+        			"percent": 3,
+        			"bracket": 100000
+        			}, {
+        			"percent": 4,
+        			"bracket": 200000
+        			}, {
+        			"percent": 5,
+        			"bracket": 300000
+        			}, {
+        			"percent": 6,
+        			"bracket": 400000
+        			}, {
+        			"percent": 7,
+        			"bracket": 500000
+        			}]
+        		</textarea>
+              </div>
+           </div>
+           <p style="z-index: 1;">
+              <strong>&nbsp;</strong>
+           </p>
+        </div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220929T045630Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4a3d1e41-88e9-4491-958b-6be9e10b4ceb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\6gbwwTmtPx
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221004T150729Z

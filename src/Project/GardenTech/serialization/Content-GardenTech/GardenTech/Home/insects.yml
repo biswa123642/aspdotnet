@@ -1,0 +1,162 @@
+﻿---
+ID: "bd2ceeb5-fb6d-4f6f-aa14-0b38f2a84083"
+Parent: "54d6fc8d-a828-4540-84dc-b293453dbdcf"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: /sitecore/content/OneWeb/GardenTech/Home/insects
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/32x32/text.png
+- ID: "961cadd8-8f7d-4b12-b0da-7af04b54b22d"
+  Hint: OpenGraphType
+  Value: website
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{201665C2-667A-486F-9339-76289BC7B7A1}"
+          p:before="*"
+          s:ds="page:"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7b908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7d&amp;FieldNames=%7bFFF92AD1-B9FF-4ED0-9316-F18C1B5B5508%7d&amp;DynamicPlaceholderId=2&amp;CacheClearingBehavior=Clear+on+publish&amp;Reset Caching Options"
+          s:ph="/main/container-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{297ABB65-8532-4DFD-B13B-76C66F2E1C3D}"
+          p:after="r[@uid='{201665C2-667A-486F-9339-76289BC7B7A1}']"
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="Filter&amp;RenderingIdentifier&amp;Styles&amp;GridParameters=%7b908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7d&amp;Separator=%3e&amp;CacheClearingBehavior=Clear+on+publish&amp;FieldNames=%7bB4997E04-77C7-4A6A-AC1B-0560D1972001%7d&amp;BreadcrumbRoot&amp;DynamicPlaceholderId=4&amp;IsNavigation&amp;Reset Caching Options"
+          s:ph="/main/container-1" />
+        <r
+          uid="{8FB14179-EA1D-40B7-A60E-0D2CFD2380E1}"
+          p:after="r[@uid='{297ABB65-8532-4DFD-B13B-76C66F2E1C3D}']"
+          s:id="{99A633FC-B9A9-44A0-B78A-BCBB08DD02C9}"
+          s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7b908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7d&amp;FieldNames=%7b1A8FA382-ED8B-4495-BD3D-AEBBEA7E3DB3%7d&amp;DynamicPlaceholderId=5&amp;CacheClearingBehavior=Clear+on+publish&amp;Reset Caching Options"
+          s:ph="/main/container-1" />
+        <r
+          uid="{C0AA9569-D533-4483-838F-7658FF772DF1}"
+          p:after="r[@uid='{8FB14179-EA1D-40B7-A60E-0D2CFD2380E1}']"
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7b908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7d&amp;FieldNames=%7b2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7d&amp;DynamicPlaceholderId=6&amp;CacheClearingBehavior=Clear+on+publish&amp;Reset Caching Options"
+          s:ph="/main/container-1" />
+        <r
+          uid="{F4F54AF4-1107-45D0-9CC7-BABB56EE63F4}"
+          p:after="r[@uid='{C0AA9569-D533-4483-838F-7658FF772DF1}']"
+          s:ds="{21048F79-8626-46E3-A45C-7A7DC356E77E}"
+          s:id="{912A01D9-28E7-460C-A154-C4AB75B0A150}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;FieldNames=%7BFC876CE8-3852-49B6-9320-6C7B01B48CE1%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/container-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{DF08ED83-4F4E-4FA9-B644-328B12A45BA5}"
+          p:after="r[@uid='{F4F54AF4-1107-45D0-9CC7-BABB56EE63F4}']"
+          s:ds="{AD825ABA-DCE1-4D6E-B156-A04CDA7F9565}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7b908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7d&amp;FieldNames=%7b5CD82222-7F28-4A81-BA92-878AB2B8D251%7d&amp;DynamicPlaceholderId=7&amp;CacheClearingBehavior=Clear+on+publish&amp;Reset Caching Options"
+          s:ph="/main/container-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{4612CC8D-27CA-40D0-B481-42ADBF8884E5}"
+          p:after="*[1=2]"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="RenderingIdentifier&amp;Styles=%7B6580B2F4-DD45-4805-A960-719F7869B684%7D&amp;GridParameters&amp;DynamicPlaceholderId=1&amp;BackgroundImage&amp;CacheClearingBehavior=Clear%20on%20publish&amp;Reset Caching Options"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220630T110542Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{1D723A60-7FAA-42F5-BC53-726D001F3FFD}" />
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "41b17cd3-d543-4c7c-9bfa-b21765882326"
+      Hint: HeroImageMobile
+      Value: |
+        <image mediaid="{1D723A60-7FAA-42F5-BC53-726D001F3FFD}" />
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: All Insects
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: <p>Browse common insects to identify your mystery pest. Select an insect to learn more about them and how to control them.</p>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Browse through these common insects to identify your mystery pest and learn more about how to control them.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Identifying and Controlling Insects | GardenTech®
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: All Insects
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9f34fde7-ca59-42ab-8726-fefe3375f15b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{1D723A60-7FAA-42F5-BC53-726D001F3FFD}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220719T124303Z
+- Language: es
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220707T081049Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{1D723A60-7FAA-42F5-BC53-726D001F3FFD}" />
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: todos los insectos
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <span style="background-color: #ffffff;">Revise los insectos comunes para identificar la plaga no reconocida en su patio. Elija un insecto para averiguar m&aacute;s acerca del mismo y de c&oacute;mo controlarlo.</span>
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Todos los insectos
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c3f67a34-a33e-48c1-89cf-018e4b91215d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220719T124223Z

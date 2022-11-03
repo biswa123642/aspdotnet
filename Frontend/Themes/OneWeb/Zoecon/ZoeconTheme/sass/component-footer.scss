@@ -1,0 +1,81 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+#footer {
+    *:not(.fa) {
+        font-family: 'Roboto', sans-serif !important;
+    }
+
+    .component {
+        &.container {
+            &.dark-gray-bg {
+                padding: 0 4rem;
+                background-color: $primary-color  !important;
+            }
+        }
+    }
+
+    .component {
+        &.rich-text {
+            p {
+                font-size: initial;
+            }
+        }
+    }
+
+    .component {
+        &.utility-navigation {
+            &.social-links {
+                .icon-container {
+                    border: none;
+                    justify-content: flex-start;
+
+                    a {
+                        text-decoration: none;
+                    }
+
+                    .fa {
+                        padding: 1.5rem 1rem;
+                        font-size: 2.5rem;
+
+                        @include respond-to(desktop) {
+                            padding: 0 1rem;
+                        }
+                    }
+                }
+
+            }
+
+        }
+    }
+
+    .component {
+        &.link-list {
+            .field-link {
+                a {
+                    font-size: 1.6rem;
+                    opacity: 1;
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+
+    .component {
+        &.image {
+            text-align: center;
+            padding-top: 2rem;
+
+            @include respond-to(desktop) {
+                padding: 0 1.5rem;
+            }
+        }
+    }
+
+    @include respond-to(desktop) {
+        .padding {
+            padding-right: 4rem;
+        }
+    }
+
+}

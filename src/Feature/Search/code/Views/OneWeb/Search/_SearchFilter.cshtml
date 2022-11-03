@@ -1,0 +1,38 @@
+﻿@model List<CGP.Foundation.Search.Models.FacetResults>
+
+<div id="searchfilter">
+    @{
+        int counter = 0;
+        foreach (var facet in Model)
+        {
+            counter++;
+            <div class="facet-wrapper">
+                <h3 class="mb-0">
+                    <button class="link-btn" type="button" data-toggle="collapse"
+                            data-target="#facet-@counter" aria-expanded="false" aria-controls="facet-@counter">
+                        @facet.FacetKey
+                    </button>
+                </h3>
+
+                <div id="facet-@counter" class="collapse" aria-labelledby="headingOne" data-parent="#searchfilter">
+                    @if (facet.FacetValues != null)
+                    {
+                        foreach (var keyValuePair in facet.FacetValues)
+                        {
+                            if (keyValuePair.Value > 0)
+                            {
+                                <div class="form-check">
+                                    @{
+                                        var isChecked = keyValuePair.IsActive ? "checked" : string.Empty;
+                                        <input type="checkbox" class="form-check-input" id="@keyValuePair.Key" name="@facet.FacetKey" @isChecked>
+                                    }
+                                    <label class="form-check-label" for="@keyValuePair.Key">@keyValuePair.Key (@keyValuePair.Value)</label>
+                                </div>
+                            }
+                        }
+                    }
+                </div>
+            </div>
+        }
+    }
+</div>

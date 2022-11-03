@@ -1,0 +1,40 @@
+﻿---
+ID: "4de7e871-7928-4fd9-b67e-2d9e7e9e7451"
+Parent: "c26c56db-e66d-427b-b7b9-e6a7fc31580a"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: "/sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Teaser Promo/BannerWithLogo/Scriban/Col Right/inner-wrap/Scriban/Bottom Link/Row/Scriban"
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    {{ if i_item.CTAIconOne != "" }}
+    <div class="col-12 col-md-4 col-lg-3">
+        <div>{{ sc_field i_item 'CTAIconOne' }}</div>
+    </div>
+    {{ end }}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220809T095717Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "40025e77-89af-47fe-8ea8-c869073d107e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220809T101018Z

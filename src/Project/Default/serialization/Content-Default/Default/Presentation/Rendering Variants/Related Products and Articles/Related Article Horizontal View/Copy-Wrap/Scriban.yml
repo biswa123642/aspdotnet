@@ -1,0 +1,75 @@
+﻿---
+ID: "34525605-a550-49d7-86f5-e29d56628219"
+Parent: "de293730-ccea-49a5-a871-d22a75f00191"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: "/sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Related Products and Articles/Related Article Horizontal View/Copy-Wrap/Scriban"
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    {{if (i_item.RelatedArticlesLabel !="")}}
+    <h2>{{i_item.RelatedArticlesLabel}}</h2>
+    {{end}}
+    {{ IsCarousel = sc_parameter 'IsMobileCarousel' }}
+    {{ cssClass = sc_parameter 'RenderingClass' }}
+    {{ ShowDescription = sc_parameter 'ShowDescription'}}
+    {{if cssClass == null || (cssClass != null && cssClass == "")}}
+    	{{cssClass = "col-lg-3"}}
+    {{end}}
+    {{if IsCarousel == 1 }}
+    {{IsCarouselClass = "is-mobile-carousel"}}
+    {{end}}
+    {{ related_items = sc_followmany i_item "RelatedArticles"}}
+    <div class="row {{IsCarouselClass}}">
+    {{ for child in related_items}}
+    {{desktopImage = sc_follow child 'DesktopImage' | sc_medialink }}
+        {{ if child != null}}
+    <div class="inner-wrap col-12 col-md-6 {{cssClass}}">
+                <div class="image-holder">
+                    <a href="{{child.url}}" class="product-url">
+    					{{if desktopImage != "#" }}
+                            {{child.DesktopImage}}
+    					{{else}}
+                            {{child.OpenGraphImageUrl}}
+    					{{end}}
+    				</a>
+                </div>
+                <div class="body-copy ">
+                    <h3><a href="{{child.url}}" class="field-title">{{child.Title.raw}}</a></h3>
+    				{{if ShowDescription == 1 && child.ArticleShortDescription != ""}}
+    					<a href="{{child.url}}" class="field-title"><p>{{sc_field child "ArticleShortDescription"}}</p></a>
+    				{{end}}
+                </div>
+            </div>
+        {{end}}
+    {{end}}
+    </div>
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220530T103207Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3be16101-e525-47fe-80de-ae740bd35f37"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220923T142104Z

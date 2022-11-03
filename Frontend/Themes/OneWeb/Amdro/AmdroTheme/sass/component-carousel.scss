@@ -1,0 +1,68 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+
+    &.hero-carousel {
+        &:not(.mulitple-bottom-links) {
+            .slide {
+                background-color: transparent !important;
+              
+            }
+        }
+
+        &.with-image-left {
+
+            @include respond-to(below-tab) {
+                display: block;
+            }
+            .slick-next,
+            .slick-prev {
+                display: none !important;
+            }
+            .slick-dots{
+                bottom: -2.5rem;
+            }
+           
+            .image-hoder {
+                max-width: 30rem;
+                margin: auto;
+            }
+
+            .body-copy {
+                text-align: left;
+                transform: none;
+                width: 100%;
+                max-width: 100%;
+                margin: 0;
+                font-size: 1.8rem;
+                line-height: 1.5;
+                font-weight: 500;
+                @include Montserrat-font-stack();
+                color: $primary-color;
+               
+                h2{
+                    font-size: 2.4rem;
+                }
+                .inline {
+                    img {
+                        display: inline-block;
+                    }
+                }
+            }
+
+            .slide {
+                min-height: auto;
+                .container {
+                    >.row {
+                        align-items: center;
+                    }
+                    .col-left{
+                        text-align: center;
+                    }
+                }
+            }
+
+        }
+    }
+}

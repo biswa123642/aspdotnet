@@ -1,0 +1,86 @@
+﻿---
+ID: "b08da33c-f151-4f0d-9057-96dfe9e60842"
+Parent: "5a348c2f-d2d0-469b-b42c-1b8ba10167d9"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Hero Banner/Foldable Height Hero Banner With Alignment/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    {{imageLogo = sc_follow i_datasource 'HeroBannerLogo' | sc_medialink }}
+    {{heroImageMobile = sc_follow i_datasource 'HeroImageMobile' | sc_medialink }}
+     <div>
+        {{if i_item.Overlay.raw | string.contains "1" }}
+            {{cssclass = "disable-overlay"}}
+        {{end}}
+        <div class="banner-wrapper with-toggle-content" style="background-color:{{i_item.BackgroundColor.raw}};">
+        	
+    		{{if heroImageMobile != "#" }}
+    			<div class="banner-image d-none d-md-block" style = "line-height:0">
+    				{{ sc_field i_item "HeroImageDesktop"}}
+    			</div>
+    			<div class="banner-mobile-image d-md-none" style = "line-height:0">
+    				{{ sc_field i_item "HeroImageMobile"}}
+    			</div>   
+    		{{else}}
+    			<div class="banner-image" style = "line-height:0">
+    				{{ sc_field i_item "HeroImageDesktop"}}
+    			</div>
+    		{{end}}
+    		{{if i_item.HeroBannerTitle != "" && i_item.HeroBannerContent != ""}}
+    			<div class="inner-container d-none d-md-block">
+    				{{if i_item.HeroBannerAlignment.raw !=""}}
+    					<div class="{{i_item.HeroBannerAlignment.raw | string.downcase}} banner-content-wrapper {{cssclass}}" tabindex="0" style="background-color:{{i_item.OverlayColor.raw}}{{i_item.OverlayColorOpacity.raw}};">
+    						<div class="read-more"></div>
+    						<div class="clearfix">
+    							{{if imageLogo != "#" }}
+    								<div class="hero-banner-logo">{{ sc_field i_item "HeroBannerLogo"}}</div>
+    							{{end}}
+    							<div class="hero-banner-title" style="color:{{i_item.HeroBannerTextColor.raw}};">{{ sc_field i_item "HeroBannerTitle"}}</div>
+    							<div class="hero-banner-description" style="color:{{i_item.HeroBannerTextColor.raw}};">{{ sc_field i_item "HeroBannerContent"}}</div>
+    							<div class="call-to-action"></div>
+    						</div>
+    					</div>
+    				{{ else }}
+    					<div class="banner-content-wrapper {{cssclass}}" tabindex="0" style="background-color:{{i_item.OverlayColor.raw}}{{i_item.OverlayColorOpacity.raw}};">
+    						<div class="read-more"></div>
+    						<div class="clearfix">
+    							{{if imageLogo != "#" }}
+    								<div class="hero-banner-logo">{{ sc_field i_item "HeroBannerLogo"}}</div>
+    							{{end}}
+    							<div class="hero-banner-title" style="color:{{i_item.HeroBannerTextColor.raw}};"> {{ sc_field i_item "HeroBannerTitle"}} </div>
+    							<div class="hero-banner-description" style="color:{{i_item.HeroBannerTextColor.raw}};"> {{ sc_field i_item "HeroBannerContent"}} </div>
+    							<div class="call-to-action"></div>
+    						</div>
+    					</div>
+    				{{end}}
+    			</div>
+    		{{end}}
+        </div>
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220427T101154Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c324a204-2c3f-4834-ad68-b259ae1b10c9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220708T075703Z

@@ -1,0 +1,174 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+
+    &.hero-carousel {
+        &:not(.mulitple-bottom-links) {
+            .slick-slide {
+                background: url('../images/site-bg/Hero_BG.jpg');
+                margin-top: 0.5rem;
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+
+            .slide:not(.wrap),
+            .slide {
+                background-color: transparent !important;
+            }
+
+
+        }
+
+        &.responsive-carousel {
+
+            // this will move into defaut theme
+            :not(.mulitple-bottom-links) {
+                .slick-slider {
+                    .slick-dots {
+                        bottom: 0;
+                        top: auto;
+                        left: 3%;
+                        right: auto;
+                        width: auto;
+
+                        li {
+                            border: 1px solid $white-color;
+                            background-color: $white-color;
+
+                            &.slick-active {
+                                border: 1px solid $footer-color;
+                                background-color: $footer-color;
+                            }
+                        }
+                    }
+
+                    .slick-next,
+                    .slick-prev {
+                        display: none !important;
+                    }
+
+                }
+            }
+
+        }
+
+        &.responsive-carousel:not(.mulitple-bottom-links) .slide:not(.wrap),
+        .component.hero-carousel.variant-default :not(.mulitple-bottom-links) .slide:not(.wrap) {
+            padding-top: 1.8%;
+            padding-bottom: 8rem;
+            background-position: right bottom;
+            background-size: 0%;
+            margin-right: 0;
+
+            @include respond-to(desktop) {
+                padding-top: 31.8%;
+                margin-right: 30px;
+                padding-bottom: 0;
+                background-size: auto;
+            }
+
+            @include respond-to(tab) {
+                padding-bottom: 0;
+            }
+
+            .container {
+                padding: 16px;
+                left: 33%;
+                right: auto;
+                max-width: 65rem;
+
+                @include respond-to(desktop) {
+                    max-width: 57rem;
+                }
+
+                .body-copy {
+                    background-color: transparent;
+                    max-width: 100%;
+                    width: 100%;
+
+                    .caption {
+                        max-width: 100%;
+
+                        h2 {
+                            font-size: 2.25rem;
+                            @include Voltage-font-stack();
+                            color: $secondary-color;
+                            display: inline-block;
+                            background: url('../images/site-icons/font_line.png') no-repeat left center, url('../images/site-icons/font_line.png') no-repeat right center;
+                            padding: 0 6.5rem;
+                            text-transform: capitalize;
+                            width: 100%;
+                            margin: auto;
+                            font-weight: 100;
+
+                            @include respond-to(desktop) {
+                                width: 65%;
+                            }
+
+                            @include respond-to(tab) {
+                                width: 65%;
+                            }
+                        }
+
+                        p {
+                            font-size: 3rem;
+                            color: $banner-text;
+                            font-weight: 900;
+                            @include Roboto-font-stack();
+                            text-shadow: $text-shadow;
+                            text-transform: uppercase;
+
+                            span {
+                                display: block;
+                                font-size: 4.5rem;
+                            }
+
+                            @include respond-to(tab) {
+                                font-size: 4rem;
+                            }
+                        }
+
+                        a {
+                            margin-top: 2rem;
+                        }
+
+                        @include respond-to(desktop) {
+                            p {
+                                font-size: 4.5rem;
+                                line-height: 5.5rem;
+
+                                span {
+                                    font-size: 6.75rem;
+                                    line-height: 7rem;
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+
+            .mobile-img {
+                position: absolute;
+                bottom: 0;
+                left: 2%;
+
+                @include respond-to(tab) {
+                    right: 2%;
+                    left: auto;
+                }
+
+                img {
+                    width: auto;
+                    max-height: 170px;
+                }
+            }
+            @include respond-to(extra-largedesktop){
+                min-height: 37rem;
+            }
+        }
+
+    }
+
+}

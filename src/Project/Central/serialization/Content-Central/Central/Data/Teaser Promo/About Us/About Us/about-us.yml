@@ -1,0 +1,62 @@
+﻿---
+ID: "2ea4bc1e-a56c-4668-bf89-bb0d23997bfd"
+Parent: "15d38f19-338c-436c-857a-524805721088"
+Template: "d1070ed7-b4f7-4c03-b622-f9b5fb072dea"
+Path: "/sitecore/content/OneWeb/Central/Data/Teaser Promo/About Us/About Us/about-us"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: About Us
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220816T071905Z
+    - ID: "5afa6ca1-50b4-41c1-b0f1-658337680fdb"
+      Hint: CTAIconThree
+      Value: |
+        <image mediaid="{58FA0C32-6BCA-41B8-AB06-0870EEFE9F5C}" />
+    - ID: "68a9ed16-a3b4-4b4f-b9e8-7b5585772a62"
+      Hint: SecondCTA
+      Value: |
+        <link text="OUR HISTORY" linktype="anchor" url="history" anchor="history" title="" class="" />
+    - ID: "7cf24deb-783d-4e7a-be2d-1c5410b73c66"
+      Hint: FirstCTA
+      Value: |
+        <link text="WHAT WE BELIEVE  " linktype="anchor" url="believe" anchor="believe" title="" class="" />
+    - ID: "84b5c8d1-65b8-4b4c-abed-5b515209bced"
+      Hint: CTAIconTwo
+      Value: |
+        <image mediaid="{0F828068-AE3C-4ACB-967A-20F7C63D1ACC}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "db3a2bf7-6d33-40aa-92c0-cab317c4b4f3"
+    - ID: "9915b896-f39e-4a8e-94bc-1a89cd147b04"
+      Hint: CTAIconOne
+      Value: |
+        <image mediaid="{7949279E-1C45-4AC7-A566-7C5113F56B73}" />
+    - ID: "9fd53b32-f6f3-484c-b662-d9a1b2013a0d"
+      Hint: Description
+      Value: Central Garden &amp; Pet is a market leader in the Garden and Pet industries. For over 40 years, Central has proudly nurtured happy and healthy homes by bringing innovative and trusted solutions to its consumers and customers.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "ca6a3070-03e0-47cf-ba54-c58f83c49cfa"
+      Hint: Title
+      Value: |
+        About <br />
+        Us
+    - ID: "d5db3ec5-82d2-4995-b094-d53b8d029187"
+      Hint: ThirdCTA
+      Value: |
+        <link text="OUR LOCATION" linktype="anchor" url="location" anchor="location" title="" class="" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220828T061513Z

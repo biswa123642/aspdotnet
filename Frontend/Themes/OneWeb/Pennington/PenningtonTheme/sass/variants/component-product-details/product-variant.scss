@@ -1,0 +1,26 @@
+.component {
+  &.product-variant {
+    h4 {
+      color: $product-description-body;
+    }
+
+    select {
+      color: $white;
+      background-color: $text-secondary;      
+      background-image: url('../images/down_arrow_icon.png');
+      background-position: 97% 50%;
+      background-repeat: no-repeat;
+      appearance: none;
+
+    }
+
+    option {
+      background-color: $white;
+      color: $text-secondary;
+
+      &:hover {
+        background-color: #d0c9af;
+      }
+    }
+  }
+}

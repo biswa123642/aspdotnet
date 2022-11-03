@@ -1,0 +1,23 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.feature-content-tiles {
+       
+    }
+    
+    
+}
+
+
+@include respond-to(desktop){
+    .component{
+        &.feature-content-tiles{
+       
+        }
+       
+    }
+    
+ 
+}
+

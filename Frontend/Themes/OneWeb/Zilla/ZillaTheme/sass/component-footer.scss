@@ -1,0 +1,148 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+
+#footer {
+  color: $footer-color;
+  background-color: $footer-background;
+  padding: 1.5rem;
+  font-family: "Arial", "Helvetica", sans-serif;
+  font-size: 1.8rem;
+  color: #fff;
+
+  a {
+    color: $footer-links-color;
+    &:hover {
+      color: $footer-links-color-hover;
+      text-decoration: none;
+    }
+  }
+  .position-right {
+    text-align: center;
+    .row {
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .component {
+    &content,
+    &.rich-text {
+      color: #fff;
+      font-size: 1.8rem;
+      text-align: center;
+      p {
+        font-size: 1.8rem;
+        margin: 0;
+      }
+    }
+    &.link-list {
+      margin-bottom: 20px;
+      ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        li {
+          .field-link {
+            margin: 0;
+            a {
+              color: #fff;
+              font-weight: 500;
+              font-size: 1.8rem;
+              margin: 0;
+              padding: 0 0 0 25px;
+              &:hover {
+                text-decoration: underline;
+                border: none;
+                color: #fff;
+              }
+            }
+          }
+          &.even:before {
+            display: none;
+          }
+        }
+      }
+    }
+    &.utility-navigation {
+      &.brand-listing {
+        padding-top: 0;
+        margin-bottom: 15px;
+        .inner-wrapper {
+          max-width: 33%;
+          img {
+            max-width: 100%;
+          }
+        }
+      }
+    }
+    .link {
+      margin-bottom: 15px;
+      text-align: center;
+      .field-link{
+
+        a{
+          background-color: transparent;
+          font-size: inherit;
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+@include respond-to(tab){
+  #footer {
+    .component {    
+      &.utility-navigation {
+        &.brand-listing {         
+          .inner-wrapper {
+            max-width: 100%;
+            img {
+              max-width: 23rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include respond-to(desktop) {
+  #footer {
+    padding: 1.5rem calc(1.5% + 3rem) 1.5rem 1.5rem;
+
+    .position-right {
+      .row {
+        justify-content: flex-end;
+      }
+    }
+    .component {
+      &content,
+      &.rich-text {
+        text-align: right;
+      }
+      &.link-list {
+        ul {
+          justify-content: flex-end;
+        }
+      }
+      &.utility-navigation {
+        &.brand-listing {         
+          .inner-wrapper {
+            max-width: 100%;
+            img {
+              max-width: 23rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@include respond-to(mobile){
+  .position-right .component.link .field-link{
+    text-align: center;
+  }
+}
+
+#swipebox-slider{
+  display: block;
+}

@@ -1,0 +1,316 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.rich-text {
+    .faq-heading {
+      h1 {
+        a {
+          color: $border-dark;
+          cursor: default;
+          &:hover {
+            text-decoration: none;
+          }
+          sup {
+            font-size: 2.4rem;
+          }
+        }
+      }
+    }
+    p {
+      font-size: 1.8rem;
+      color: $text-body;
+      line-height: 1.42857143;
+    }
+    .sxa-btn {
+      background: $primary;
+      padding: 0.7rem 1rem;
+      color: $white;
+      line-height: 2;
+      text-align: center;
+      text-decoration: none;
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin: 0;
+      &:hover {
+        background-color: $border-dark;
+        text-decoration: none;
+      }
+    }
+    a {
+      color: $text-green;
+      text-decoration: none;
+      margin: 0 0.5rem;
+      &:first-child {
+        margin-left: 0;
+      }
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    span {
+      color: $text-green;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $text-green;
+    }
+    h1 {
+      font-weight: 900;
+      font-size: 2.4rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      line-height: 1.1;
+      @include respond-to(desktop) {
+        font-size: 3.2rem;
+        margin-top: 2rem;
+      }
+    }
+    .contactus-heading {
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 0;
+        @include respond-to(desktop) {
+          font-size: 2.4rem;
+          line-height: 1.1;
+        }
+      }
+      small {
+        color: $light-grey;
+        font-size: 1.56rem;
+        line-height: 1;
+      }
+    }
+    .supporting-lans {
+      padding-bottom: 1rem;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid $light-white;
+      @include respond-to(desktop) {
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+      }
+    }
+    .garden-advice {
+      p {
+        margin-bottom: 0;
+        font-size: 1.56rem;
+      }
+      h3 {
+        font-size: 2.4rem;
+        font-weight: bold;
+        margin-top: 0;
+      }
+    }
+  }
+  &.content {
+    p,
+    em {
+      font-size: 1.8rem;
+      color: $text-body;
+      line-height: 1.42857143;
+      strong {
+        font-weight: bold;
+      }
+      a {
+        text-decoration: none;
+        color: $anchor;
+        &:hover {
+          text-decoration: underline;
+          color: $anchor-hover;
+        }
+      }
+    }
+    a {
+      text-decoration: none;
+      color: $anchor;
+      &:hover {
+        text-decoration: underline;
+        color: $anchor-hover;
+      }
+    }
+    ul {
+      padding-left: 4rem;
+      li {
+        list-style: disc;
+        font-size: 1.8rem;
+        color: $text-body;
+        line-height: 1.42857143;
+        a {
+          text-decoration: none;
+          color: $anchor;
+          &:hover {
+            text-decoration: underline;
+            color: $anchor-hover;
+          }
+        }
+      }
+    }
+    ol {
+      padding-left: 3rem;
+      margin: 0;
+      li {
+        // list-style: disc;
+        font-size: 1.8rem;
+        color: $gray-light;
+        line-height: 1.42857143;
+        a {
+          text-decoration: none;
+          color: $anchor;
+          &:hover {
+            text-decoration: underline;
+            color: $anchor-hover;
+          }
+        }
+      }
+    }
+    .page-not-found-heading {
+      padding: 0 1.5rem 0.9rem;
+      margin: 4rem 0 2rem;
+      h1 {
+        color: $text-red;
+        font-size: 3.2rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+      }
+      span {
+        font-size: 2.4rem;
+        color: $text-red;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+    }
+    .page-not-found-text {
+      padding: 0 1.5rem;
+      span {
+        font-size: 2.4rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        color: $text-body;
+      }
+    }
+    .tnc-header,
+    .privacy-header {
+      padding-bottom: 0.9rem;
+      margin: 4rem 0 2rem;
+      h1 {
+        font-size: 3.2rem;
+        color: $text-green;
+        font-weight: 900;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+      }
+    }
+    .tnc-text,
+    .privacy-text {
+      ol {
+        // margin-left: 3rem;
+        li {
+          list-style-position: outside;
+        }
+      }
+      h3,
+      h4,
+      p,
+      li {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+        color: $text-body;
+        font-weight: normal;
+      }
+    }
+    &.page-description {
+      .product-title {
+        h1 {
+          font-size: 3.2rem;
+          color: $text-green;
+          font-weight: 900;
+        }
+      }
+    }
+    &.image-cta {
+      .row > div {
+        margin-bottom: 2.5rem;
+      }
+    }
+    &.component-additional-info {
+      margin-top: 4rem;
+      h1 {
+        font-size: 2rem;
+        color: $text-green;
+        font-weight: 900;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        @include respond-to(desktop) {
+          font-size: 3.2rem;
+        }
+      }
+    }
+    .category-header {
+      h2 {
+        font-size: 2.4rem;
+        font-weight: bold;
+        color: $text-green;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+      }
+    }
+    .category-text {
+      font-size: 1.8rem;
+      color: var($text-body);
+      line-height: 1.42857143;
+    }
+    &.variant-2 {
+      &.related-articles {
+        .inner-wrap {
+          h3 {
+            color: $text-green;
+            font-size: 2.4rem;
+            font-weight: bold;
+          }
+          ul {
+            li {
+              color: $border-dark;
+              a {
+                color: $border-dark;
+                font-weight: bold;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &.hero {
+    padding: 0 1.5rem;
+  }
+  &.title {
+    .article-title {
+      cursor: default;
+      color: $text-green;
+      border: none;
+      font-size: 2.4rem;
+      font-weight: 900;
+      margin-bottom: 0;
+      padding-bottom: 0;
+      &:hover {
+        color: $text-green;
+      }
+    }
+  }
+  &.search-box {
+    .search-wrapper {
+      &::before {
+        display: none;
+      }
+      .custom-search-box-button {
+        height: calc(100% - 10px);
+        top: 5px;
+      }
+    }
+  }
+}

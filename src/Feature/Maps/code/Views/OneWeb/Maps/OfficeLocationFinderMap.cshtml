@@ -1,0 +1,52 @@
+﻿<input type=hidden id="MarkerCorporateIcon" name="MarkerCorporateIcon" value=@Model.MarkerCorporateIcon />
+<input type=hidden id="MarkerDistributionIcon" name="MarkerDistributionIcon" value=@Model.MarkerDistributionIcon />
+<input type=hidden id="MarkerManufacturingIcon" name="MarkerManufacturingIcon" value=@Model.MarkerManufacturingIcon />
+<input type=hidden id="MarkerOfficeIcon" name="MarkerOfficeIcon" value=@Model.MarkerOfficeIcon />
+<input type=hidden id="mapkey" name="mapkey" value=@Model.OfficeLocationFinderAPIKey />
+<!-- Add your site or application content here -->
+<div class="map-info-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div style="width:100%;min-height:500px;min-width:800px;height:100%;" class="map-container" id="map-canvas"></div>
+            </div>
+            <div class="map-search-container">
+                <div class="col col-md-12">
+                    <div class="map-search-legend">
+                        <span>
+                            <img src="@Model.MarkerCorporateIcon" alt="Corporate Office" />Corporate
+                            Office
+                        </span>
+                        <span>
+                            <img src="@Model.MarkerDistributionIcon"
+                                 alt="Distribution" />Distribution
+                        </span>
+                        <span><img src="@Model.MarkerOfficeIcon" alt="Office" />Office</span>
+                        <span>
+                            <img src="@Model.MarkerManufacturingIcon"
+                                 alt="Manufacturing" />Manufacturing
+                        </span>
+                    </div>
+                </div>
+                <div class="col col-md-12">
+                    <div class="map-search-input">
+                        <h4>Find a location</h4>
+                        <div class="input-group">
+                            <input id="search-input" class="address" type="text" placeholder="Enter ZIP Code">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" id="map-search" type="button">
+                                    <em class="submit fa fa-search fa-lg"></em>Search
+                                </button>
+                            </span>
+                        </div>
+                        <div style="display:none;color:red;" class="zip-error">Please enter a valid ZIP code.</div>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <h2>Display result</h2>
+                    <div class="map-search-result"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

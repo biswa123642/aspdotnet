@@ -1,0 +1,114 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+    &.hero-carousel {
+        &:not(.mulitple-bottom-links) {
+            .body-copy {
+                width: 100%;
+
+            }
+
+        }
+
+        display: block;
+
+        .col-left,
+        .col-right,
+        .body-copy,
+        .slide {
+            background-color: $text-color-primary  !important; // overdide default color in the theme 
+        }
+
+        .slick-dots {
+            li {
+                &.slick-active {
+                    background-color: $heading-color-secondary;
+                    border-color: $heading-color-secondary;
+                }
+            }
+        }
+
+        .slick-prev,
+        .slick-next {
+            &.slick-arrow {
+                display: none !important; // to overide slick properities 
+            }
+        }
+
+        .col-right {
+            h2 {
+                margin-top: 1rem;
+                font-size: 3.2rem;
+                font-weight: 600;
+                @include ff-ernestine-pro-font-stack();
+            }
+
+            p {
+                color: $color-primary;
+                font-size: 1.6rem;
+                font-weight: 400;
+
+                &:before,
+                &:after {
+                    font-family: Georgia, sans-serif;
+                    content: "\201c";
+                    color: $heading-color-secondary;
+                    font-size: 3em;
+                    line-height: 0em;
+                    margin-right: 0.2rem;
+                    vertical-align: -0.45em;
+                    display: inline;
+                }
+
+                &:after {
+                    content: "\201D";
+                    line-height: 0.1em;
+                    margin-right: 0.8rem;
+                    vertical-align: -0.599em;
+                }
+            }
+
+            @include respond-to(desktop) {
+                .body-copy {
+                    transform: translateY(0);
+                    margin: 0;
+                    padding: 0 2.5rem 0 0;
+                    float: none;
+                    text-align: left;
+                }
+                h2{
+                    margin-top: 2.5rem;
+                }
+
+                p {
+                    font-size: 1.76rem;
+                    line-height: 1.428;
+                }
+
+                h2 {
+                    font-size: 3vw;
+                }
+            }
+
+            @include respond-to(extra-large-desktop) {
+                p {
+                    font-size: 2.08rem;
+                }
+            }
+        }
+        .col-left{
+            p{
+                width: 60%;
+                @include respond-to(desktop){
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.component.hero-carousel:not(.mulitple-bottom-links) .slide:not(.wrap) {
+    background: $dark-green  !important;
+}

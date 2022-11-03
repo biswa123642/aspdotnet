@@ -1,0 +1,76 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.accordion {
+    .item {
+      .toggle-header {
+        .component {
+          .field-heading {
+            color: $primary-button;
+            font-size: 2.4rem;
+            font-weight: 700;
+            @include din-14-stack();
+            &:hover {
+              text-decoration: underline;
+            }
+            &:before {
+              @include fa-icon();
+              content: $fa-var-angle-right;
+              top: 4%;
+              left: 3%;
+              background-repeat: no-repeat;
+              font-size: 3rem;
+              transition: transform 0.2s ease-in-out;
+              width: 1rem;
+
+              @include respond-to(tab) {
+                top: 10%;
+              }
+
+              @include respond-to(desktop) {
+                left: 1%;
+              }
+            }
+            &::after {
+              display: none;
+            }
+          }
+        }
+      }
+      .toggle-content {
+        .component {
+          .field-content {
+            color: $text-gray-primary;
+            font-size: 2.4rem;
+            font-weight: 400;
+            padding: 0.5rem 0.5rem 0.5rem 3rem;
+            @include nimbus-font-stack();
+
+            @include respond-to(desktop) {
+              padding: 0.5rem 0.5rem 0.5rem 4rem;
+            }
+          }
+        }
+      }
+      &.active {
+        .toggle-header {
+          .component {
+            .field-heading {
+              &:before {
+                top: 5%;
+                width: 1rem;
+                transition: transform 0.2s ease-in-out;
+
+                @include respond-to(tab) {
+                  top: 10%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

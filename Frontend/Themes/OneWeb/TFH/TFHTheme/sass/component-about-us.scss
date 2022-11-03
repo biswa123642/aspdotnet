@@ -1,0 +1,105 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component{
+  .about-us{
+        background-image: url('../images/about_us4.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 40px;
+        color: $white;
+      
+    .score-left{ 
+        // border-right: 1px solid $white;
+        .score-document-header{
+            h1{
+                color:$white;
+                font-size: 3.8rem;
+                font-weight: 400;
+            }
+        }
+        .score-content-spot{
+            &.about-us-content{
+                p{
+                color:$white;
+                font-size: 1.9rem;
+                font-weight: 400;
+                a{
+                    color:$white;
+                font-size: 1.9rem;
+                font-weight: 400;
+                }
+                }
+            }
+        } 
+    }
+    .tfh-digital{
+        .score-document-header,.score-content-spot{
+            h1{
+                font-weight: 600;
+            }
+            h3{
+                font-size: 2.4rem;
+                font-weight: 500;
+                color:$white;
+            }
+            ul{
+                margin-left: 4rem;
+                li{
+                    list-style-type: disc;
+                    color:$white;
+                    font-size: 1.9rem;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+    
+    .component {
+        &.rich-text{
+            &.contact-us{
+            @include respond-to(desktop) {
+                border-left: 1px solid white;
+                margin: 0px 0px 0px 7rem;
+                padding: 0px 0px 0px 7.8rem;
+                height:65rem;
+            }
+            h2{
+                color:$white;
+                font-size: 3.8rem;
+                font-weight: 400;
+            }
+            .tfh-digital{
+                h2{
+                    font-weight: 600;
+                }
+            }
+            .contact-content-advertise{
+                    color:$white;
+                    font-size: 1.9rem;
+                    font-weight: 400;
+                h3{
+                    color:$white;
+                    font-size: 2.3rem;
+                    font-weight: 600;
+                }
+                p{
+                    color:$white;
+                    font-size: 1.9rem;
+                    font-weight: 400;
+                    a{
+                        color:$white;
+                    font-size: 1.9rem;
+                    font-weight: 400;
+                    text-decoration: none;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                    }
+                }
+            }
+        }
+    }
+    }
+  }
+}

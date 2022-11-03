@@ -1,0 +1,84 @@
+﻿---
+ID: "fe2d2f23-5c6b-4b0f-b4a3-af6ae6b74a77"
+Parent: "96628cc5-8f3e-4ce8-8a92-f0e3545268a8"
+Template: "a6ddac75-7d24-4bdb-b3f6-5f47fbb21379"
+Path: /sitecore/content/OneWeb/DMC/Data/Accordions/faq/faq Accordion/Q9
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{09BD444B-FABC-47EA-981D-2C8271655469}">
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B5423143A-760D-4F0E-BA4D-0B02E649A778%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-title"
+          uid="{3329DE04-604B-4680-BDF1-E2AEF35C5366}" />
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-content"
+          uid="{FC94E4CB-8525-4555-B636-E31171B2B188}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220816T035406Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5a236869-e375-49c0-a92d-0c2f1db7788f"
+      Hint: Content
+      Value: |
+        <div class="panel-body">
+        <div class="score-content-spot">
+        <p>This applies to <strong><span style="text-decoration: underline;">boat covers only</span></strong>.  For replacement of your defective cover, please return the entire cover, along with a copy (please make sure to keep the original receipt).  Your receipt must show the original purchase date of your cover. Please include the following information when you return your cover.</p>
+        <ul>
+            <li>Name</li>
+            <li>Physical Address (Please note that we cannot ship to a P.O. Box)</li>
+            <li>Phone Number</li>
+            <li>e-mail address</li>
+            <li>Copy of your original receipt</li>
+        </ul>
+        <p>When preparing your return please ensure you include the cover (original packaging is not required), along with your original proof of purchase.  Once you have your package ready, send it to: <br />
+        Dallas Manufacturing <br />
+        Attention: Cover Returns <br />
+        300 Athens Brick Road <br />
+        Athens, TX, 75751 </p>
+        <p>Ship via any carrier of your preference. (USPS is normally the most cost effective).  Please note, we cannot accept collect shipments. Once we receive your boat cover with copy of original proof of purchase, we will ship a replacement free of charge.</p>
+        </div>
+        </div>
+        <br class="t-last-br" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7240053b-9140-48ac-acea-abfccd7761a1"
+      Hint: Heading
+      Value: |
+        <a>
+        How do I get a warranty replacement for my boat cover?
+        </a>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "af085630-f8ea-4fde-9c80-c85275e953a4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220824T121508Z

@@ -1,0 +1,272 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.gray-bg {
+  background-color: $grey-bg;
+}
+
+body {
+  @include canada-font-stack();
+  color: $text-color;
+  font-size: 1.92rem;
+  -webkit-font-smoothing: auto;
+  overflow: initial;
+}
+#wrapper{
+  overflow: initial;
+}
+
+a {
+  color: $anchor;
+  text-decoration: none;
+
+  &:hover {
+    color: $anchor-hover;
+    text-decoration: underline;
+  }
+}
+
+.content {
+  a {
+    color: $anchor;
+
+    &:hover {
+      color: $anchor-hover;
+      text-decoration: underline;
+    }
+  }
+}
+
+.sxa-btn {
+  a {
+    background-color: $white;
+    margin-top: 13%;
+    display: block;
+    background-image: url(../images/link_fish.png);
+    background-repeat: no-repeat;
+    background-position: 84% 40%;
+
+    font-size: 1.6rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    background-size: 17px;
+    padding-right: 24px;
+    word-spacing: 2px;
+    max-width: 300px;
+    border: none;
+    min-width: 250px;
+    font-weight: 600;
+
+    &:hover {
+      color: $bg-blue-active;
+      background-color: $white;
+      text-decoration: none;
+      background-image: url(../images/link_fish.png);
+    }
+  }
+}
+
+.content {
+  p {
+    // font-size: 2rem;
+    // @include itc-geovanni-font-stack();
+    // color: $small-heading-black;
+    margin: 0 0 10px;
+  }
+}
+
+p {
+  // font-size: 2rem;
+  // @include itc-geovanni-font-stack();
+  // color: $small-heading-black;
+  margin: 0 0 10px;
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+h3{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.site-header {
+  padding-bottom: 40px;
+
+  @media screen and (max-width:1024px) {
+    padding-bottom: 15px;
+  }
+}
+
+.component {
+
+  &.rich-text,
+  &.title {
+    h1 {
+      color: $text-color;
+      font-weight: 600;
+      font-size: 4.8rem;
+      line-height: 1.1;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    h2 {
+      font-weight: 500;
+      font-size: 3rem;
+      line-height: 1.1;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    h3 {
+      color: $text-color;
+      font-weight: 600;
+      font-size: 2rem;
+      line-height: 1.5;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    @include respond-to(desktop) {
+      h1 {
+        font-size: 5.8rem;
+      }
+    }
+  }
+}
+
+h1 {
+  color: $text-color;
+  font-weight: 600;
+  font-size: 4.2rem;
+  line-height: 1.1;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 1.1;
+}
+
+.content h3,
+h3 {
+  color: $small-heading-black;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+h4 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2375em;
+}
+
+h5 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 0.9625em;
+}
+
+h6 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 0.825em;
+}
+
+.content,
+.rich-text {
+  font-size: 1.92rem;
+
+  p {
+    margin: 0 0 10px;
+  }
+
+  a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+  .contact-content{
+    p{
+      color:$small-heading-black;
+    }
+    
+    h3,p{
+      font-size: 2.3rem;
+    }
+  }
+  h3{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  h2{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+}
+
+sup {
+  font-size: 60%;
+  top: 0.5rem;
+  position: relative;
+}
+
+.image-hover-opacity {
+  img {
+    &:hover {
+      opacity: 0.3;
+      cursor: pointer;
+    }
+  }
+}
+
+.slick-dots {
+  li {
+    background-color: $bg-blue-light;
+    border-color: $bg-blue-light;
+
+    &.slick-active {
+      background-color: $flip-rollover;
+      border-color: $flip-rollover;
+    }
+  }
+}
+
+.fa-phone {
+  &:hover {
+    border-bottom: none !important;
+    cursor: auto;
+  }
+}
+
+@include respond-to(mobile) {
+  .full-with-bg-container {
+    &.indent-bottom-xl>.component-content {
+      padding-bottom: 0rem;
+    }
+  }
+}
+
+.meta-component-wrapper {
+  position: fixed;
+  bottom: -100%;
+}
+
+
+.on-page-editor{
+  &body {
+    overflow: hidden;
+  }
+  #wrapper{
+    overflow: hidden;
+  }
+}
+

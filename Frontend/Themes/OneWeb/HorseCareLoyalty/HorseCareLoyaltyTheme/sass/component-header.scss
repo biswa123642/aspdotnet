@@ -1,0 +1,134 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.header-shell {
+    &.variant-1 {
+      background: $bg-blue;
+      position: static;
+      min-height: 14rem;
+      box-shadow: none;
+
+      &.sticky {
+        position: fixed;
+        transition: all 0.5s ease-out;
+      }
+
+      &.active {
+        .menu-wrapper {
+          background: $bg-blue;
+          margin-top: 14rem;
+          padding: 1.5rem;
+        }
+      }
+
+      &::before {
+        border-bottom: none;
+      }
+
+      .logo-wrap {
+        .component {
+          &.image {
+            max-width: 19.5rem;
+            a {
+              cursor: pointer;
+            }
+          }
+        }
+      }
+
+      .component {
+        &.plain-html {
+          .hamburger {
+            right: 2%;
+            top: 2.5rem;
+
+            .icon-bar {
+              background: $white;
+            }
+          }
+        }
+      }
+
+      .component {
+        &.page-list {
+          .items {
+            .item {
+              border-bottom: none;
+              a {
+                color: $anchor-primary;
+                font-size: 2.6rem;
+                font-weight: 700;
+                text-transform: none;
+                border-bottom: none;
+                @include Arial-font-stack();
+              }
+              &:hover {
+                background: $white;
+                a {
+                  color: $bg-blue;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      @include respond-to(tab-only) {
+        .container {
+          padding: 0 1.5rem;
+        }
+      }
+
+      @include respond-to(desktop) {
+        min-height: 13.5rem;
+
+        .logo-wrap {
+          .component {
+            &.image {
+              max-width: 27rem;
+            }
+          }
+        }
+
+        .component {
+          &.page-list {
+            &.variant-1 {
+              margin-top: 6rem;
+
+              &.menu-right {
+                .items {
+                  min-width: 100%;
+                }
+              }
+            }
+            .items {
+              min-width: 100%;
+              .item {
+                a {
+                  font-size: 0.9375vw;
+                  @include Arial-black-font-stack();
+
+                  &:hover,
+                  &:focus {
+                    color: $border-yellow;
+                  }
+                }
+                &:hover {
+                  background: transparent;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      @include respond-to(larger-desktop) {
+        .container {
+          max-width: initial;
+        }
+      }
+    }
+  }
+}

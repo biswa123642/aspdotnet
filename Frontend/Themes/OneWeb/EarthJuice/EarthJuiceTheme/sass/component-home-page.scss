@@ -1,0 +1,292 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+
+    &.earthjuice-container {
+        .file-type-icon-media-link {
+            a {
+                padding: 0px 3rem;
+                display: block;
+            }
+        }
+
+        .product-title {
+            text-align: center;
+        }
+
+        .position-center {
+            .field-link {
+                text-align: center;
+                margin-top: 3rem;
+                margin-bottom: 3rem;
+
+                a {
+                    border-radius: 2.5rem;
+                    border-width: 2px;
+                    border-style: solid;
+                    text-transform: uppercase;
+                    letter-spacing: .2em;
+                    padding: .6rem 2rem;
+                    display: inline-block;
+                    color: $light-black;
+                    background-color: inherit;
+                    border-color: $light-black;
+                    font-size: 13px !important;
+                    text-decoration: none;
+                    font-weight: bold;
+                    &:hover {
+                        text-decoration: none;
+                        color: $white;
+                        background-color: $light-black;
+                        border-color: transparent;
+                        outline: none;
+                    }
+                }
+
+            }
+        }
+
+        @include respond-to(tab) {
+            .position-center {
+
+                .field-link {
+
+                    text-align: left;
+                    margin-top: 3rem;
+
+
+                }
+            }
+
+            .product-title {
+                text-align: left;
+            }
+
+
+        }
+    }
+
+    &.teaser-promo {
+        position: relative;
+        &:nth-child(1) {
+            &:before {
+                content: "";
+                background-image: url("../images/white-bottom");
+                background-size: cover;
+                position: absolute;
+                left: -1px;
+                right: -1px;
+                z-index: 2;
+                -moz-transform: scaleX(-1) scaleY(-1);
+                -webkit-transform: scaleX(-1) scaleY(-1);
+                transform: scaleX(-1) scaleY(-1);
+                height: 40px;
+                top: -1px;
+            }
+        }
+
+        .row {
+            .content-right {
+                background-color: $navbar-fourth-child;
+                .inner-wrap {
+                    padding: 5rem 1.5rem;
+                    @include respond-to(desktop){
+                        padding: 5rem;
+                    }
+                    .field-description {
+                        h2 {
+                            font-size: 4.48rem;
+                            @include Lilita-font-stack();
+                            color: $navbar-color;
+                            text-transform: uppercase;
+                            text-shadow: 0px 5px 10px RGB(0 0 0 /50%);
+                            padding-bottom: 3rem;
+                        }
+
+                        p {
+                            font-size: 1.6rem;
+                            @include raleway-font-stack();
+                            color: $navbar-color;
+                            font-weight: 400;
+                            text-shadow: 0px 5px 10px RGB(0 0 0 /50%);
+
+                        }
+                    }
+
+                    .sxa-btn-bordered {
+                        a {
+                            border-radius: 2.5rem;
+                            border-width: 2px;
+                            border-style: solid;
+                            text-transform: uppercase;
+                            letter-spacing: .2em;
+                            padding: .6rem 2rem;
+                            display: inline-block;
+                            color: $navbar-color;
+                            background-color: inherit;
+                            border-color: $navbar-color;
+                            font-size: 13px !important;
+                            text-decoration: none;
+                            font-weight: bold;
+                            box-shadow: 0px 5px 10px RGB(0 0 0 / 50%);
+                            &:hover {
+                                text-decoration: none;
+                                color: $light-black;
+                                background-color: $navbar-color;
+                                border-color: transparent;
+                                outline: none;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.flex-row-reverse {
+                .content-right {
+                    background-color: $home-page-color;
+                }
+            }
+
+        }
+
+
+    }
+
+    @include respond-to(tab) {
+        &.teaser-promo {
+            position: relative;
+
+            &:nth-child(1) {
+                &:before {
+                    content: "";
+                    background-image: url("../images/white-bottom");
+                    background-size: cover;
+                    position: absolute;
+                    left: -1px;
+                    right: -1px;
+                    z-index: 2;
+                    -moz-transform: scaleX(-1) scaleY(-1);
+                    -webkit-transform: scaleX(-1) scaleY(-1);
+                    transform: scaleX(-1) scaleY(-1);
+                    height: 40px;
+                    top: -1px;
+                }
+            }
+
+            .row {
+                figure {
+                    max-width: 66.6%;
+                    flex: auto;
+                    background-size: cover;
+                    //background-size: 270%;
+                    background-position: 100% 100%;
+                }
+
+                .content-right {
+                    max-width: 33.3%;
+                    flex: auto;
+                    background-color: $navbar-fourth-child;
+
+                    .inner-wrap {
+                        padding: 10rem 7.5rem;
+                        min-height: 68rem;
+                        
+
+                        .field-description {
+                           
+
+                            p {
+                                font-size: 1.6rem;
+                                @include raleway-font-stack();
+                                color: $navbar-color;
+                                @include raleway-font-stack();
+                                font-weight: 400;
+
+                            }
+                        }
+
+                        .sxa-btn-bordered {                            
+                            a {
+                                border-radius: 2.5rem;
+                                border-width: 2px;
+                                border-style: solid;
+                                text-transform: uppercase;
+                                letter-spacing: .2em;
+                                padding: .6rem 2rem;
+                                display: inline-block;
+                                color: $navbar-color;
+                                background-color: inherit;
+                                border-color: $navbar-color;
+                                font-size: 13px !important;
+                                text-decoration: none;
+                                font-weight: bold;
+                                &:hover {
+                                    text-decoration: none;
+                                    color: $light-black;
+                                    background-color: $navbar-color;
+                                    border-color: transparent;
+                                    outline: none;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &.flex-row-reverse {
+
+                    figure {
+                        max-width: 66.6%;
+                        flex: auto;
+                    }
+
+                    .content-right {
+
+                        width: 33.3%;
+                        flex: auto;
+                        background-color: $home-page-color;
+                    }
+                }
+
+            }
+
+
+        }
+    }
+
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 991px) { 
+.component{
+
+    &.teaser-promo{
+
+        .row {
+            figure {
+                max-width: 100%;
+               
+            }
+            .content-right {
+                max-width:100%;
+                .inner-wrap {
+                    min-height:auto;
+                    padding:3rem 2rem;;
+                }
+             }
+             &.flex-row-reverse{
+
+                figure {
+                    max-width: 100%;
+                   
+                } 
+                 .content-right {
+
+                    max-width: 100%;
+                 }
+             }
+    }
+     
+}
+
+}
+}

@@ -1,0 +1,55 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  &.hero-carousel {
+    &:not(.mulitple-bottom-links) {
+      .slick-next,.slick-prev{
+        opacity: 0.6;
+        &:hover{
+          opacity: 0.9;
+        }
+      }
+      .caption {
+        .field-slidecardsubtext {
+          font-size: 1.68rem;
+          @include lora-font-stack();
+          color: $text-small-heading-color;
+        }
+        a {
+          font-weight: 700;
+          color: $white;
+          background: $flip-rollover;
+          text-align: center;
+          margin: auto;
+          display: block;
+          max-width: 50%;
+          font-size: 1.2rem;
+          padding: 8px;
+          border-radius: 8px;
+          text-decoration: none;
+          &:hover {
+            background: $anchor-hover-light-blue;
+          }
+        }
+      }
+      .slide:not(.wrap){
+      @media (min-width: 1550px){
+        background-position: 35% 80%;
+        min-height: 570px;
+      }
+      @media (min-width: 1650px){
+        background-position: 35% 72%;
+      }
+      @media (min-width: 1922px){
+        min-height: 625px;
+        background-position: 35% 100%;
+      }
+      @media (min-width: 1975px){
+        min-height: 700px;
+      }
+    }
+    }
+  }
+}
+

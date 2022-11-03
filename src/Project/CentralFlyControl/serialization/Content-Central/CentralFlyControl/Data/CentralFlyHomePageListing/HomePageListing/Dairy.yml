@@ -1,0 +1,54 @@
+﻿---
+ID: "bd2e5430-e14f-403c-8cc0-63fc83d3cafe"
+Parent: "9bc152fe-0454-4d91-8866-68d542697e31"
+Template: "8c7908d4-eab5-4c6b-8636-91f1178bb268"
+Path: /sitecore/content/OneWeb/CentralFlyControl/Data/CentralFlyHomePageListing/HomePageListing/Dairy
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "23972b3d-3944-4e3a-8e03-fadf433e4d04"
+      Hint: TitleSecondary
+      Value: DAIRY
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221017T111504Z
+    - ID: "6505f7d5-d7a9-44d8-9e9e-069065d6ad26"
+      Hint: Link
+      Value: |
+        <link text="CONTACT YOUR DISTRIBUTOR" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{095628A6-FBEF-4C10-B773-0E51EAD49D3B}" />
+    - ID: "68c61adf-63f2-4a0b-ab39-05e803dacf72"
+      Hint: SubText
+      Value: "Control nuisance flies that cause discomfort on your dairy farm. ClariFly<sup>&reg;</sup> Larvicide protects from disease-carrying flies that feed on dairy cattle, including house flies, stable flies and horn flies. Adding this feed-through as part of an IPM program can have a major impact on dairy cattle productivity."
+    - ID: "6f7ab61c-3f1c-4463-ac8b-0297dcb2f8ec"
+      Hint: PageId
+      Value: dairy
+    - ID: "707e61b8-88d3-4835-9005-deb34344d301"
+      Hint: BackgroundImage
+      Value: |
+        <image mediaid="{8DE212B2-A5AA-4A55-92F0-D3C70BF84895}" />
+    - ID: "73b9b6c0-bd0d-4b68-9209-2ce682d4c761"
+      Hint: InlineNavigationLight
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "04d80d8c-220c-4cb7-8662-ee1a748236f7"
+    - ID: "b352d553-cf7b-4e7d-9f69-6b01948cf8bd"
+      Hint: Title
+      Value: "<h1>Fly-Free Cattle Starts Here</h1>"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "cdfb7573-9d5e-4943-970c-99ce07ce5658"
+      Hint: ListItems
+      Value: |
+        {3647097E-E774-4A1D-93DA-ED1493CF54E2}
+        {B58D159E-AC41-47AA-837E-313E103FB2CF}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221020T122154Z

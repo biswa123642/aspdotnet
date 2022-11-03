@@ -1,0 +1,116 @@
+﻿---
+ID: "6fc2009f-3c4a-455d-b8fb-b9b0505295c0"
+Parent: "18f15f21-3f79-4c98-b302-af91f722b60f"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Product Tabs and Accordions/Product Accordions/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    {{ expandByDefault = sc_parameter "ExpandByDefault" }}
+    {{ expdefault = "false"}}
+    {{ if expandByDefault == 1 }}
+    {{ expdefault = "true"}}
+    {{end}}
+    {{ if (i_item.Accordion1Title != "") || (i_item.Accordion2Title != "") || (i_item.Accordion3Title != "") || (i_item.Accordion4Title != "") || (i_item.Accordion1 != "") || (i_item.Accordion2 != "")|| (i_item.Accordion3 != "") || (i_item.Accordion4 != "") }}
+    <div class="tabs-accordion" id="product-accordion" expandByDefault={{expdefault}}>
+            {{ if (i_item.Accordion1Title != "" )}}
+            <div class="card">
+                <div class="card-header" id="heading-general">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                            data-target="#collapse-general" aria-expanded="false" aria-controls="collapse-general">
+                            {{i_item.Accordion1Title.Raw}}
+                        </button>
+                    </h2>
+                </div>
+                {{if (i_item.Accordion1 !="")}}
+                <div id="collapse-general" class="collapse" aria-labelledby="heading-general"
+                    data-parent="#product-accordion">
+                    {{i_item.Accordion1.Raw}}
+                </div>
+                {{end}}
+            </div>
+            {{end}}
+            {{ if (i_item.Accordion2Title != "" )}}
+            <div class="card">
+                <div class="card-header" id="heading-specification">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapse-specification" aria-expanded="false" aria-controls="collapse-specification">
+                            {{i_item.Accordion2Title.Raw}}
+                        </button>
+                    </h2>
+                </div>
+                {{if (i_item.Accordion2 !="")}}
+                <div id="collapse-specification" class="collapse" aria-labelledby="heading-specification"
+                    data-parent="#product-accordion">
+                    {{i_item.Accordion2.Raw}}
+                </div>
+                {{end}}
+            </div>
+            {{end}}
+            {{ if (i_item.Accordion3Title != "" )}}
+            <div class="card">
+                <div class="card-header" id="heading-instructions">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapse-instructions" aria-expanded="false" aria-controls="collapse-instructions">
+                            {{i_item.Accordion3Title.Raw}}
+                        </button>
+                    </h2>
+                </div>
+                {{if (i_item.Accordion3 !="")}}
+                <div id="collapse-instructions" class="collapse" aria-labelledby="heading-instructions"
+                    data-parent="#product-accordion">
+                    {{i_item.Accordion3.Raw}}
+                </div>
+                {{end}}
+            </div>
+            {{end}}
+            {{ if (i_item.Accordion4Title != "" )}}
+            <div class="card">
+                <div class="card-header" id="heading-ingredients">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapse-ingredients" aria-expanded="false" aria-controls="collapse-ingredients">
+                            {{i_item.Accordion4Title.Raw}}
+                        </button>
+                    </h2>
+                </div>
+                {{if (i_item.Accordion4 !="")}}
+                <div id="collapse-ingredients" class="collapse" aria-labelledby="heading-ingredients"
+                    data-parent="#product-accordion">
+                    {{i_item.Accordion4.Raw}}
+                </div>
+                {{end}}
+            </div>
+            {{end}}
+        {{end}}
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220503T072556Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e6bec491-5d74-4948-a066-7b8a04ff2236"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220926T092009Z

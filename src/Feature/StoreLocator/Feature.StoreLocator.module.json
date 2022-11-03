@@ -1,0 +1,32 @@
+{
+	"namespace": "Feature.StoreLocator",
+	"references": [ "*Foundation.*" ],
+	"items": {
+		"includes": [
+			{
+				"name": "Templates",
+				"path": "/sitecore/templates/Feature/OneWeb/Store Locator",
+				"allowedPushOperations": "createUpdateandDelete",
+				"scope": "itemAndDescendants"
+			},
+			{
+				"name": "Renderings",
+				"path": "/sitecore/layout/Renderings/Feature/OneWeb/Store Locator",
+				"allowedPushOperations": "createUpdateandDelete",
+				"scope": "itemAndDescendants"
+			},
+			{
+				"name": "Branch-Templates",
+				"path": "/sitecore/templates/Branches/Feature/OneWeb/Store Locator",
+				"allowedPushOperations": "createUpdateandDelete",
+				"scope": "itemAndDescendants"
+			},
+			{
+				"name": "System-Settings",
+				"path": "/sitecore/system/Settings/Feature/OneWeb/Store Locator",
+				"allowedPushOperations": "createUpdateandDelete",
+				"scope": "itemAndDescendants"
+			}
+		]
+	}
+}

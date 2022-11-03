@@ -1,0 +1,109 @@
+﻿---
+ID: "1fad43b2-d7b8-4bd0-a189-f98af664e29a"
+Parent: "34d16262-323c-41f1-94ac-93fb925e4b52"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: /sitecore/content/OneWeb/CentralFlyControl/Home/wde2017
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{79DA0003-BA65-4F2A-A886-01ACE7212769}"
+- ID: "d4952280-2d7d-4bf4-a99a-ea36dad0f0a7"
+  Hint: Body Css Class
+  Value: "two-column-landing-page left-image"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{067AD756-82F3-4334-B555-087ADF519AAF}"
+          p:before="*"
+          s:ds=""
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth2=%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{D579AEC8-4BB3-4EDA-9940-1278C66046C7}"
+          p:after="r[@uid='{067AD756-82F3-4334-B555-087ADF519AAF}']"
+          s:ds="{4EA461DF-D276-4DC4-BAFC-7DAD5582CD04}"
+          s:id="{882F60C4-4A33-4995-AC39-C8FF97EE8F1D}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B0A165447-FFF3-44FB-8521-2AFCDFEA24E5%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-2-1/column-2-3/column-2-5" />
+        <r
+          uid="{2117965A-47D5-4B91-A9F3-EDFF295E529F}"
+          p:after="r[@uid='{D579AEC8-4BB3-4EDA-9940-1278C66046C7}']"
+          s:ds="{E83FD1AA-F485-4E03-B1DD-66D4A8314548}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-2-1/column-2-3/column-1-5" />
+        <r
+          uid="{48800368-2E5B-40AB-AA33-82D7AE8CF665}"
+          p:after="r[@uid='{2117965A-47D5-4B91-A9F3-EDFF295E529F}']"
+          s:ds=""
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;ColumnWidth2=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2=%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-2-1/column-2-3" />
+        <r
+          uid="{5C67F2B6-C51D-4A81-BAA6-4402FE129445}"
+          p:after="r[@uid='{48800368-2E5B-40AB-AA33-82D7AE8CF665}']"
+          s:ds="{6051C9F5-5E57-42C1-8A6C-97F420FE5F67}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-2-1/column-1-3" />
+        <r
+          uid="{B8C52AEA-D3D5-4435-9AAA-A87884F6357A}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=2&amp;Styles1=%7B973EB46C-E085-45E4-BDF4-E66AB8E5B81C%7D%7C%7BCD9955B1-2656-4417-A399-7549A83D5A2D%7D&amp;Styles2=%7BADDFB720-BE49-4750-BD0A-48FCBFDA5647%7D&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T090022Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Continuous Fly Control at World Dairy Expo
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: World Dairy Expo attendees can set up an appointment to talk with with a Central Life Sciences fly control expert about protecting their cattle. 
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: World Dairy Expo attendees can set up an appointment to talk with with a Central Life Sciences fly control expert about protecting their cattle. 
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Central Fly Control | Continuous Fly Control at World Dairy Expo
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Central Fly Control | Continuous Fly Control at World Dairy Expo
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "aab340ee-194b-4a4b-9068-1aa2aefb738b"
+    - ID: "9bf7a7f6-34f8-4c38-a3d7-2fd0470518b1"
+      Hint: HideInSearchResults
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221014T062640Z

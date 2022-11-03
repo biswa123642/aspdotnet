@@ -1,0 +1,40 @@
+.page-contact-us {
+    main {
+        background-color: #f3f3f4;
+        .breadcrumb {
+            display: none;
+        }
+        .component.content,
+        .component.hubspot-form {
+            padding: 1.6rem;
+            .hs-form[id*=hsForm_] {
+                width: 100%;
+            }
+            .hs-form-booleancheckbox label {
+                span {
+                    margin-left: 3rem;
+                    line-height: 1.45;
+                }
+                input[type=checkbox] {
+                    margin-top: 0.3rem !important;
+                }
+            }
+        }
+
+        .component.content {
+            margin-bottom: 30px;
+        }
+
+        @media only screen and (min-width: 992px) {
+            .component.content,
+            .component.hubspot-form {
+                padding: 8rem 8rem 1.6rem 8rem;
+            }
+            .component.content {
+                h1 {
+                    font-size: 4rem;
+                   }
+            }
+        }
+    }
+}

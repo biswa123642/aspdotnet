@@ -1,0 +1,48 @@
+﻿---
+ID: "511fb126-f73c-458f-a389-0d8abb5b54b1"
+Parent: "52a73733-caaf-41dd-a181-480adece4c21"
+Template: "20a8b875-b660-4893-91a7-b05f80e94666"
+Path: "/sitecore/content/OneWeb/FourPaws/Data/Linked Thumbnail List/where-to-buy/where-to-buy/Amazon"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{AFB42433-6D01-4420-8E8F-5AA238B9A5B7}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220602T095152Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ffa19d37-fdc4-41f7-ab38-49645aace572"
+    - ID: "8daa9cfe-2ab1-4f9a-86ac-b2092acc9fde"
+      Hint: Link
+      Value: |
+        <link text="Amzon" linktype="external" url="https://www.amazon.com/s?k=four+paws&amp;i=pets&amp;rh=n:2619534011,p_89:Four+Paws&amp;dc&amp;qid=1596040808&amp;rnid=2528832011&amp;ref=sr_nr_p_89_1" anchor="" target="_blank" />
+    - ID: "9a5ce26a-e5f7-4528-b319-d23a1be1eede"
+      Hint: Description
+      Value: Amazon
+    - ID: "b3524bdb-f8ec-4d85-a20b-ef5f2837d74f"
+      Hint: Image
+      Value: |
+        <image mediaid="{5403C25D-524C-4FBB-BCE2-A2EE1A35ED18}" ></image>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220707T054844Z

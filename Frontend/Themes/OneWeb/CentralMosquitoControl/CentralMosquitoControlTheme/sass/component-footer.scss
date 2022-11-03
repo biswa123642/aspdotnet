@@ -1,0 +1,183 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+#footer {
+    background-color: $dark-gray;
+    padding: 40px 35px;
+    text-align: center;
+
+    .component {
+        &.image {
+            a {
+                display: block;
+                max-width: 25rem;
+                margin: auto;
+            }
+        }
+
+        &.link {
+            padding: 1.5rem;
+
+            a {
+                text-decoration: none;
+                font-size: 1.6rem;
+                opacity: 1;
+                font-weight: bold;
+                color: $white;
+                border-bottom: none;
+                text-transform: uppercase;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+
+                &:focus {
+                    color: $link-hover;
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        &.social-links {
+            .icon-container {
+                border: none;
+                padding-top: .7rem;
+
+                a {
+                    &:hover {
+                        text-decoration: none;
+
+                        .fa {
+                            &::before {
+                                color: $white;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .fa {
+                &::before {
+                    font-size: 2.5rem;
+                    color: $faded-green;
+                }
+            }
+
+            @include respond-to(tab) {
+                .icon-container {
+                    justify-content: end;
+                }
+            }
+        }
+
+        &.link-list {
+            text-align: center;
+
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+
+                li {
+                    .field-link {
+                        a {
+                            text-decoration: none;
+                            font-size: 1.6rem;
+                            opacity: 1;
+                            font-weight: bold;
+                            color: $white;
+                            border-bottom: none;
+                            text-transform: uppercase;
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
+
+                            &:focus {
+                                color: $link-hover;
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+
+                    &:first-child {
+                        width: 100%;
+                        border-bottom: 5px solid $white;
+                        padding: 0 3rem .5rem 3rem;
+                        margin-bottom: 1.5rem;
+                    }
+                }
+            }
+
+            @include respond-to(tab) {
+                padding-top: 2rem;
+            }
+        }
+
+    }
+
+    @include respond-to(tab) {
+        padding: 0 6rem;
+        text-align: left;
+
+        .component {
+            &.image {
+                a {
+                    margin: initial;
+                    max-width: 23rem;
+                }
+            }
+
+
+            &.link-list {
+                ul {
+                    li {
+                        &:first-child {
+                            padding: 0 3rem .5rem 2rem;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    @include respond-to(desktop) {
+        .indent-top {
+            padding-top: 4rem;
+        }
+
+        .indent-bottom {
+            padding-bottom: 4rem;
+        }
+
+        .component {
+            &.link-list {
+                padding-top: 1rem;
+
+                ul {
+                    max-width: 36rem;
+                    float: right;
+
+                    li {
+                        .field-link {
+                            a {
+                                font-size: 1.8rem;
+
+                            }
+                        }
+
+                    }
+                }
+
+            }
+
+            &.link {
+
+                a {
+                    font-size: 1.8rem;
+                }
+            }
+        }
+    }
+}

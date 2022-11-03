@@ -1,0 +1,14 @@
+﻿@model CGP.Feature.Integrations.Models.IntegrationsViewModel
+@if (Model.EnableGTM)
+{
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=@Html.Raw(Model.GTMId)" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- END Google Tag Manager (noscript) -->
+}
+@if (Model.EnablePowerReviews)
+{
+    <script src="https://ui.powerreviews.com/stable/4.1/ui.js" async></script>
+}
+<input id="context-item" name="currentpage" type="hidden" value="@Sitecore.Context.Item.ID" />

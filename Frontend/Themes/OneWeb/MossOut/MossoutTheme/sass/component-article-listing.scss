@@ -1,0 +1,135 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "base/fonts/fonts";
+
+.component {
+  &.article-listing {
+    .product-wrap {
+      #searchfilter {
+        border: 2px solid $heading1_color;
+        border-radius: 6px;
+        padding: 1.5rem 2rem !important; // Override default
+        margin-bottom: 3rem;
+
+        .facet-wrapper {
+          margin-top: 4.2rem;
+          margin-bottom: 1rem;
+          z-index: -1;
+          &:nth-child(2) {
+            margin-top: 0px;
+
+            h3 {
+              .link-btn[aria-expanded] {
+                &::before,
+                &::after {
+                  top: 52%;
+                }
+              }
+            }
+          }
+          border: none;
+          #facet-1 {
+            border: 1px solid $heading1_color;
+            .form-check {
+              input {
+                display: none;
+              }
+              label {
+                left: 0rem;
+                color: $heading1_color;
+                font-size: 1.8rem;
+                font-weight: 400;
+              }
+            }
+          }
+          #facet-2 {
+            border: 1px solid $border-color;
+            padding: 1.5rem;
+            border: 1px solid $heading1_color;
+            .form-check {
+              input {
+                display: none;
+              }
+              label {
+                left: 0rem;
+                color: $heading1_color;
+                font-size: 1.8rem;
+                font-weight: 400;
+              }
+            }
+          }
+          h3 {
+            padding: 0px;
+            z-index: 0;
+            .link-btn[aria-expanded] {
+              &::before,
+              &::after {
+                right: 1.5rem;
+                background: $white;
+                top: 51%;
+              }
+            }
+            button {
+              background-color: $heading1_color;
+              color: $white;
+              font-size: 1.8rem;
+              padding: 5px 4rem 5px 1rem;
+            }
+          }
+        }
+      }
+    }
+
+    .sxa-btn {
+      a {
+        z-index: 10;
+        float: right;
+        cursor: pointer;
+        text-decoration: underline;
+        color: $heading1_color;
+        margin-bottom: 15px;
+        border: navajowhite;
+        font-size: 1.8rem;
+        font-weight: 400;
+        @include Montserrat-font-stack();
+        padding-top: 1.5rem;
+      }
+    }
+  }
+}
+.product-wrap {
+  .result-count {
+    display: none;
+  }
+}
+#article-type {
+  .card-body {
+    padding: 0px;
+    ul {
+      li {
+        margin-bottom: 3rem;
+        .cgp-product {
+          border: 1px solid $input-color;
+          border-radius: 2px;
+          .body-copy {
+            padding: 1.5rem;
+            h3 {
+              padding: 0;
+              font-size: 2.4rem;
+              a {
+                font-size: 2.4rem;
+                @include Montserrat-font-stack();
+                font-weight: 900;
+                color: $heading1_color;
+                &:hover {
+                  text-decoration: underline;
+                  color: $anchor-hover;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,119 @@
+﻿---
+ID: "981b4d15-e59c-4469-8bff-9f6fa63f7655"
+Parent: "e2908fd3-fc99-46c7-8c02-aa28c270f975"
+Template: "3bc22e05-e1ff-45a6-b8c3-fcf4c8f84a43"
+Path: /sitecore/content/OneWeb/Central/Home
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{B5131E25-90BD-4E6A-8AD2-E1257FA6660E}"
+- ID: "d4952280-2d7d-4bf4-a99a-ea36dad0f0a7"
+  Hint: Body Css Class
+  Value: "home-page"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{C66761D3-B84C-4BE3-950E-A1EE379BE53F}"
+          p:before="*"
+          s:ds="{02FDC0CE-82F3-42BA-8EAE-085A7AF486F3}"
+          s:id="{28F481FC-631F-4BDF-9130-A2DA74164968}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B24093BF7-32EA-43B2-89A2-548BB2AFFEF8%7D&amp;Styles=%7B69D209DD-5FA5-49C5-AE9D-D462BB26C34D%7D%7C%7B127FB6B4-435B-40C6-A82D-D9FB7C32EAF6%7D%7C%7B1915B26A-1BFA-4347-BBDF-38D47A1D22A8%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6&amp;ColLeftGrid&amp;ColRightGrid"
+          s:ph="/main/container-1/row-4-2" />
+        <r
+          uid="{2D47A54E-0698-432C-8B3D-C48742489B2F}"
+          p:after="r[@uid='{C66761D3-B84C-4BE3-950E-A1EE379BE53F}']"
+          s:ds="{06586889-371F-43A2-800D-3F68072CB977}"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B4DA37A2A-DE74-4E24-ACC5-E1F1C930DB1B%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/container-1/row-3-2" />
+        <r
+          uid="{658C5375-BBAE-4F94-A49A-C526FEE045A5}"
+          p:after="r[@uid='{2D47A54E-0698-432C-8B3D-C48742489B2F}']"
+          s:ds="{194B9C2C-A988-4B8B-BDE5-6C08F10651EE}"
+          s:id="{28F481FC-631F-4BDF-9130-A2DA74164968}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B24093BF7-32EA-43B2-89A2-548BB2AFFEF8%7D&amp;Styles=%7B1E33BCA0-B5B0-4AB1-BD1C-8045B349E383%7D%7C%7BB917A86B-5972-49F9-88CD-41D5CF03DD01%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4&amp;ColLeftGrid&amp;ColRightGrid"
+          s:ph="/main/container-1/row-2-2" />
+        <r
+          uid="{924E05D7-3D45-4F7E-AF62-3F1517740930}"
+          p:after="r[@uid='{658C5375-BBAE-4F94-A49A-C526FEE045A5}']"
+          s:ds="{155BEFBC-7195-4416-9615-9ACA9464FA61}"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BFF4ADBCA-BDF1-4EBA-8466-888B74F65FEC%7D&amp;Styles=%7B39EDF52A-A4AD-4ECC-91EF-598160177D2C%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3&amp;CacheClearingBehavior=Clear%20on%20publish"
+          s:ph="/main/container-1/row-1-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{9DB4D470-8D93-4FF8-9BA3-4321C3B27B56}"
+          p:after="r[@uid='{924E05D7-3D45-4F7E-AF62-3F1517740930}']"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3%2C4&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=2"
+          s:ph="/main/container-1" />
+        <r
+          uid="{9F42C5F8-779E-4240-A953-23A32954697A}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{92EB9EFB-88D4-4089-82BE-AAD92D4FA24E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220801T074919Z
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Central
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Founded in 1980 as a distribution company, Central Garden and Pet has evolved into a portfolio of leading brands in the Lawn, Garden, and Pet supplies industries.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Founded in 1980 as a distribution company, Central Garden and Pet has evolved into a portfolio of leading brands in the Lawn, Garden, and Pet supplies industries.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Central Garden & Pet | Home - Consumer & Professional Products"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: "Central Garden & Pet | Home - Consumer & Professional Products"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "daf77122-dd3b-4863-98df-7cb5a796c642"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220913T062200Z

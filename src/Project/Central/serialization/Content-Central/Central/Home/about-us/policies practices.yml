@@ -1,0 +1,93 @@
+﻿---
+ID: "0a8c35fc-1a51-4bf8-9669-d3b4ca8258db"
+Parent: "05c35946-4cad-4257-9791-48b9a18b2e35"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/Central/Home/about-us/policies practices"
+SharedFields:
+- ID: "d4952280-2d7d-4bf4-a99a-ea36dad0f0a7"
+  Hint: Body Css Class
+  Value: "policies-practices"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{EA85331B-25E8-4D59-94C8-D461667A4376}"
+          p:before="*"
+          s:ds="page:"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BFF4ADBCA-BDF1-4EBA-8466-888B74F65FEC%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/container-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{2C163201-9E86-4E70-95EE-C2D910FA272B}"
+          p:after="r[@uid='{EA85331B-25E8-4D59-94C8-D461667A4376}']"
+          s:ds="{48020F3E-6BE8-4445-BF89-38697D57C0B1}"
+          s:id="{28F481FC-631F-4BDF-9130-A2DA74164968}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B24093BF7-32EA-43B2-89A2-548BB2AFFEF8%7D&amp;Styles=%7B1E33BCA0-B5B0-4AB1-BD1C-8045B349E383%7D%7C%7BD7591864-4443-4860-A21A-6C5A4F490A33%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3&amp;ColLeftGrid&amp;ColRightGrid"
+          s:ph="/main/container-1" />
+        <r
+          uid="{271399C2-A59B-49FD-AD96-6FFFAACE6B13}"
+          p:after="r[@uid='{2C163201-9E86-4E70-95EE-C2D910FA272B}']"
+          s:ds="{3C115B65-D58D-4000-BBAF-D0D78DA297BA}"
+          s:id="{28F481FC-631F-4BDF-9130-A2DA74164968}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B24093BF7-32EA-43B2-89A2-548BB2AFFEF8%7D&amp;Styles=%7B909E3A21-E728-4E1D-A309-BA452831DBD7%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4&amp;ColLeftGrid&amp;ColRightGrid"
+          s:ph="/main/container-1" />
+        <r
+          uid="{5AAFB60C-F0B1-4765-BE4F-C625A86F9C09}"
+          p:after="*[1=2]"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220808T133357Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{79208D6A-F2DB-4102-BE64-E473DE8C83B1}" />
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: policies practices
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: We are dedicated to innovation, quality, and service. Our strategy is to continue to strengthen and build our garden and pet portfolio for consumers, retailers and investors.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Policies & Practices - About Us | Central Garden & Pet"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: "Policies & Practices - About Us | Central Garden & Pet"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "456ba283-f71c-436d-9176-1e60fcd06b7d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: <h1>Policies &amp; Practices</h1>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220902T015451Z

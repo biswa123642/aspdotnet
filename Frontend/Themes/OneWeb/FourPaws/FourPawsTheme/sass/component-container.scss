@@ -1,0 +1,38 @@
+@import "styles/container/*";
+@import "abstracts/mixins";
+@import "abstracts/vars";
+
+.container {
+  padding: 0;
+  &:not(.col-12) {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 114rem;
+  }
+}
+#content > .row {
+  display: block;
+  .container {
+    &:not(.col-12) {
+      //max-width: 72rem;
+      max-width: 114rem;
+      @include respond-to(desktop) {
+        //max-width: 72rem;
+      }
+    }
+  }
+  .full-with-bg-container {
+    .component-content {
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: 20% 100%;
+      min-height: 700px;
+      @include respond-to (all-mobile){
+        background-image: none!important;
+        min-height: auto;
+      }
+    }
+  }
+}

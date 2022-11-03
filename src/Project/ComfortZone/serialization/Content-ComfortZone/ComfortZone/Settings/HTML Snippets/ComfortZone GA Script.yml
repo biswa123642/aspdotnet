@@ -1,0 +1,78 @@
+﻿---
+ID: "95e673d1-2216-437a-a4c3-a357f0e61b51"
+Parent: "3b408288-2261-4ee1-abe8-0a3a57ea7715"
+Template: "25f18683-2f03-4776-ada3-6d2a76dbdf2d"
+Path: /sitecore/content/OneWeb/ComfortZone/Settings/HTML Snippets/ComfortZone GA Script
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220726T095958Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d4403bb8-ce4c-4534-8c78-4cabebdecf70"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220929T084518Z
+    - ID: "ec4a491f-cc4b-4175-858a-3e6e859540bb"
+      Hint: Html
+      Value: |
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-4956229-2"></script>
+        <script>
+           window.dataLayer = window.dataLayer || [];
+           function gtag(){dataLayer.push(arguments);}
+           gtag('js', new Date());
+           
+           gtag('config', 'UA-4956229-2');
+        </script>
+        <!-- END Global site tag (gtag.js) - Google Analytics -->
+        <!-- Facebook Pixel Code -->
+        <script>
+           !function(f,b,e,v,n,t,s)
+           {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+           n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+           if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+           n.queue=[];t=b.createElement(e);t.async=!0;
+           t.src=v;s=b.getElementsByTagName(e)[0];
+           s.parentNode.insertBefore(t,s)}(window, document,'script',
+           'https://connect.facebook.net/en_US/fbevents.js');
+           fbq('init', '580437538827408');
+           fbq('track', 'PageView');
+           fbq('track', 'Search');
+        </script>
+        <noscript>
+           <img height="1" width="1" style="display:none" 
+              src="https://www.facebook.com/tr?id=580437538827408&ev=PageView&noscript=1"/>
+        </noscript>
+        <!-- END Facebook Pixel Code -->
+        <!-- Google Site Verification -->
+        <meta name="google-site-verification" content="K5vWJiwB2IR3oNIWoKuzbrtfD5jBclRllP1lIsKVI30" />
+        <!-- END Google Site Verification -->
+        <!-- Hotjar -->
+        <script>
+           (function(h,o,t,j,a,r){
+               h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+               h._hjSettings={hjid:781066,hjsv:6};
+               a=o.getElementsByTagName('head')[0];
+               r=o.createElement('script');r.async=1;
+               r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+               a.appendChild(r);
+           })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        </script>
+        <!-- END Hotjar -->

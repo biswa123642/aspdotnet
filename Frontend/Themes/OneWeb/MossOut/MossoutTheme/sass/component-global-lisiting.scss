@@ -1,0 +1,72 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.global-search-listing {
+    
+.sxa-btn {
+  a {
+    border: 3px solid $heading1_color;
+    padding: 10px 15px;
+    @include Lato-font-stack();
+    background-color: $white;
+    color: $heading1_color;
+    text-transform: uppercase;
+    font-size: 1.68rem;
+    text-decoration: none;
+    font-weight: 800;
+  }
+}
+    .result-count {
+      color: $secondary-color;
+      font-size: 1.8rem;
+      padding: 1.5rem;
+      display: block;
+    }
+    #article-type,
+    #others-type,
+    #product-type {
+      h3 {
+        border-bottom: 2px solid $primary-color;
+        .link-btn {
+          font-size: 2.88rem;
+          color: $secondary-color;
+          text-transform: uppercase;
+          //   @include Franlink-font-stack();
+
+          &::before,
+          &::after {
+            // background-color: $link_title_primary;
+            color: $secondary-color;
+          }
+
+          .result-count {
+            padding: initial;
+          }
+        }
+      }
+
+      .body-copy {
+        h3 {
+          background: none;
+          font-size: 2.848rem;
+          font-weight: 700;
+          @include Arial-font-stack();
+          border: none;
+          padding: 0px;
+          a {
+            font-size: 2.4rem;
+            @include Montserrat-font-stack();
+            font-weight: 900;
+            color: $heading1_color ;
+            &:hover{
+              color: $anchor-hover;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+}

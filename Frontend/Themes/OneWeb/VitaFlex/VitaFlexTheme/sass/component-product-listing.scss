@@ -1,0 +1,133 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.content {
+  .product-title {
+    text-align: center;
+    margin: 30px 0 40px 0;
+  }
+  h1 {
+    color: $dark-red-color;
+  }
+}
+.product-list-heading{
+  &.content{
+    padding-bottom: 0;
+  }
+  .product-title {
+    margin-bottom: 0;
+  }
+}
+.product-list-description{
+  margin-bottom: 15px;
+}
+.product-listing {
+  .product-wrap {
+    .global-search-wrapper {
+      .search-input-wrapper {
+        .search-input {
+          font-size: 2.1rem;
+          color: $black-color;
+        }
+      }
+    }
+    .col-md-4.col-lg-3 {
+      @include respond-to(desktop) {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+    #product-type {
+      padding: 0 25px;
+      .result-count {
+        font-weight: bold;
+        padding-left: 30px;
+        @include respond-to(tab-horizontal-max) {
+          text-align: center;
+          margin-top: 30px;
+        }
+      }
+      .product-list {
+        h3 {
+          text-align: center;
+          a {
+            color: $blue-color;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 15px;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+        .cgp-product {
+          margin-bottom: 50px;
+        }
+      }
+    }
+    #searchfilter {
+      background-color: $light-gray;
+      padding: 0 15px 40px 15px;
+      .facet-wrapper {
+        h3 {
+          margin-top: 0;
+          border-bottom: 2px solid $yellow-color;
+        }
+      }
+      .form-check-input {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: 3px;
+      }
+      .link-btn {
+        color: $dark-red-color;
+        font-weight: 500;
+        font-family: sans-serif;
+        font-size: 2.2rem;
+        &:hover {
+          cursor: default;
+          text-decoration: underline;
+        }
+      }
+      .link-btn[aria-expanded] {
+        &:before {
+          background-color: $dark-red-color;
+        }
+        &:after {
+          background-color: $dark-red-color;
+        }
+      }
+      .form-check-label {
+        color: $blue-color;
+        font-size: 1.8rem;
+      }
+    }
+    .copy-wrap {
+      background-color: $light-gray;
+      padding: 15px 15px 0 15px;
+      .sxa-btn {
+        text-align: center;
+        a {
+          background-color: transparent;
+          color: $light-dark;
+          text-decoration: underline;
+          font-size: 18px;
+          &:hover {
+            background-color: transparent;
+          }
+        }
+      }
+      .search-box {
+        width: 100%;
+        padding: 15px;
+        .search-holder {
+          &.global-search-wrapper {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+

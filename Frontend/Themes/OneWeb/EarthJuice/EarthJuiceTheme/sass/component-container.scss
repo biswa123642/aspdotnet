@@ -1,0 +1,15 @@
+.container:not(.col-12) {
+    max-width: 114rem;
+}
+
+.component{
+    &.container{
+        &.container-large{
+            max-width: 140rem;
+        }
+        &.container-small{
+            max-width: 97rem;
+        }
+    }
+    
+} 

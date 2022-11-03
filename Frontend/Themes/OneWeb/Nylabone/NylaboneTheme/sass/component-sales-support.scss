@@ -1,0 +1,136 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+@mixin sales-support-tab {
+  background-color: $border-white-gray;
+  color: $orange;
+  text-align: center;
+  height: 6rem;
+  min-width: 12.5rem;
+  padding: 1.5rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  border-bottom: 2px solid $orange;
+}
+
+.component {
+  &.plain-html,
+  &.rich-text {
+    .catalogs-n-logos {
+      padding-bottom: 1rem;
+      h2,
+      h3 {
+        font-size: 1.68rem;
+        color: $breadcrumb-link;
+        padding: 2rem 0 1rem 0;
+        @include respond-to(desktop) {
+          font-size: 2.4rem;
+        }
+      }
+      a {
+        color: $white;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+    .images-n-sheets {
+      h3 {
+        font-size: 1.8rem;
+        @include respond-to(desktop) {
+          font-size: 2.4rem;
+        }
+      }
+      a {
+        font-size: 1.6rem;
+        color: $orange;
+      }
+    }
+  }
+  &.tabs {
+    .tabs-container {
+      border: none;
+      padding: 2rem 0;
+      text-align: center;
+    }
+    ul {
+      &.tabs-heading {
+        li {
+          @include sales-support-tab();
+          width: 22rem;
+          &.active {
+            background-color: $orange;
+            .field-heading {
+              color: $white;
+            }
+          }
+
+          .field-heading {
+            color: $orange;
+            font-size: 2rem;
+          }
+
+          div {
+            padding: initial;
+          }
+        }
+      }
+    }
+    .tab {
+      padding: 0.2rem 2rem;
+      .tab-heading-mob {
+        @include sales-support-tab();
+
+        .field-heading {
+          color: $orange;
+          font-size: 2rem;
+        }
+      }
+      &.active {
+        .tab-heading-mob {
+          background-color: $orange;
+          .field-heading {
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+  
+  &.tabs,&.plain-html{
+    .tabs-inner,.tab-content{
+      .score-left{
+        text-align: left;        
+      }
+      .score-center{
+        text-align: center;
+      }
+      .inner-wrap{
+          flex-direction: column;
+          .body-copy{
+            padding: 0 2rem;
+          }
+          @include respond-to(desktop){
+            flex-direction: row;
+            .body-copy{     
+              h3{
+                font-size: 1.8rem;
+              }  
+              p{
+                a{
+                  font-size: 1.6rem;
+                }
+              }       
+              padding-right: 1rem;
+              &:last-child{
+                padding-right: 0;
+              }
+            }
+          }
+        }
+    }
+  }
+}

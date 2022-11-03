@@ -1,0 +1,17 @@
+@import "abstracts/vars";
+
+.component {
+    &.breadcrumb {
+        li {
+            >.navigation-title {
+                >a {
+                    &:hover {
+                        text-decoration: underline;
+                        color: $text-breadcrumb;
+                    }
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,679 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+#header {
+    .header-shell {
+        background-color: #7d716d;
+        .container:not(.col-12) {
+            max-width: 100%;
+        }
+        .fa-facebook-f:before,
+        .fa-facebook:before {
+            content: "\f39e";
+        }
+        &.variant-2 {
+            .component {
+                &.plain-html {
+                    .hamburger {
+                        background-color: transparent;
+                        padding: 2.1rem 2rem;
+                        margin: 5px -20px 0 0;
+                        .hamburger-box {
+                            width: 48px;
+                            height: 50px;
+                            .hamburger-inner {
+                                height: 4px;
+                                margin-top: -8px;
+                                background-color: #e0d8d6;
+                                &:before,
+                                &:after {
+                                    height: 4px;
+                                    -moz-transition: 250ms ease-in;
+                                    -o-transition: 250ms ease-in;
+                                    -webkit-transition: 250ms ease-in;
+                                    transition: 250ms ease-in;
+                                    opacity: 1;
+                                    background-color: #e0d8d6;
+                                }
+                                &:before {
+                                    top: -8px;
+                                }
+                                &:after {
+                                    bottom: -8px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .wrapper {
+                .wrapper-nav {
+                    display: none;
+                }
+                .inner-wrap .logo-container {
+                    .file-type-icon-media-link {
+                        padding-top: 10px;
+                        img {
+                            max-width: 90px;
+                        }
+                    }
+                }
+            }
+            .utility-navigation {
+                .component-content > div {
+                    border: none;
+                }
+                &.social-links {
+                    .icon-container {
+                        a {
+                            &:hover {
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+
+            /*===========================
+                        navigation
+                =============================*/
+            .component {
+                &.page-list {
+                    display: block;
+                    &.variant-1 {
+                        .items {
+                            min-width: auto;
+                            .item {
+                                border-bottom: 2px solid #e0d8d6;
+                                margin: 0px 10px;
+                                padding: 0;
+                                > a {
+                                    @include Barlow-Semi-Condensed();
+                                    font-size: 2.8rem;
+                                    line-height: 1;
+                                    color: $black-color;
+                                    font-weight: 400;
+                                    text-transform: uppercase;
+                                    border: none;
+                                    display: inline-block;
+                                    padding: 6px 0 6px 10px;
+                                    position: relative;
+                                    &:hover {
+                                        text-decoration: none;
+                                    }
+                                }
+
+                                .submenu-utility-linklist {
+                                    background: #fcfafa;
+                                    .link-list {
+                                        ul {
+                                            padding: 0;
+                                        }
+                                        li {
+                                            border-bottom: 1px solid $white-color;
+                                            margin-bottom: 0;
+                                            &.first {
+                                                a {
+                                                    font-size: 2.8rem;
+                                                }
+                                            }
+                                        }
+                                        a {
+                                            font-size: 2rem;
+                                            @include Barlow-Semi-Condensed();
+                                            color: $black-color;
+                                            font-weight: 500;
+                                            border: none;
+                                            display: inline-block;
+                                            line-height: 1.4;
+                                            padding: 10px 10px 10px 20px;
+                                            text-transform: uppercase;
+                                            &:hover {
+                                                text-decoration: underline;
+                                            }
+                                        }
+                                        &:last-of-type {
+                                            ul li {
+                                                &:last-child {
+                                                    border-bottom: none;
+                                                }
+                                            }
+                                        }
+                                        &:first-of-type {
+                                            padding-top: 5px;
+                                        }
+                                    }
+                                }
+                                &:hover {
+                                    overflow: visible;
+                                    .submenu-utility-linklist {
+                                        visibility: visible;
+                                        opacity: 1;
+                                        transition: 0.2s ease-in-out;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .bottom-section {
+                display: none;
+                .component {
+                    &.utility-navigation {
+                        display: block;
+                    }
+                }
+            }
+            .top-section {
+                .component {
+                    &.link {
+                        display: none;
+                        a {
+                            color: $white-color;
+                            display: inline-block;
+                            background-color: #cf3f37;
+                            border: 1px solid #e0d8d6;
+                            border-radius: 0px;
+                            font-size: 2.4rem;
+                            text-transform: uppercase;
+                            font-weight: 500;
+                            padding: 0px 18px;
+                            margin-right: 47px;
+                            margin-top: 10px;
+                            height: 40px;
+                            line-height: 37px;
+                        }
+                    }
+                }
+            }
+
+            /*===========================
+                       header search
+                =============================*/
+            .component {
+                &.search-box {
+                    padding: 7px 25px 10px 10px;
+                    display: block;
+                    position: static;
+                    background-color: #7d716d;
+                    .search-holder {
+                        .search-input-wrapper {
+                            input {
+                                box-shadow: none;
+                                border: none;
+                                border: 2px solid #e0d8d6;
+                                width: 150px;
+                                padding: 3px 10px 4px 8px;
+                                @include Barlow-Semi-Condensed();
+                                font-size: 2.4rem;
+                                color: #a89c98;
+                                line-height: 1;
+                                display: block;
+                                &::-moz-placeholder {
+                                    color: rgb(117, 117, 117);
+                                    opacity: 1;
+                                    @include Barlow-Semi-Condensed();
+                                }
+
+                                &:-ms-input-placeholder {
+                                    color: rgb(117, 117, 117);
+                                    opacity: 1;
+                                    @include Barlow-Semi-Condensed();
+                                }
+
+                                &::-webkit-input-placeholder {
+                                    color: rgb(117, 117, 117);
+                                    opacity: 1;
+                                    @include Barlow-Semi-Condensed();
+                                }
+                            }
+                            .custom-search-box-button {
+                                background-color: #0000;
+                                background-image: url(../images/site-icons/search-icon.png);
+                                background-size: 36px 36px;
+                                margin: 0;
+                                top: 2px;
+                                right: 2px;
+                                width: 36px;
+                                height: 36px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include respond-to(desktop) {
+    #header {
+        .header-shell {
+            &.variant-2 {
+                .wrapper {
+                    .inner-wrap {
+                        position: relative;
+                        padding: 0;
+
+                        > .container {
+                            max-width: 100%;
+                            position: relative;
+                            z-index: 10;
+                        }
+                        .logo-container {
+                            .file-type-icon-media-link {
+                                padding: 15px 15px 10px 15px;
+                                img {
+                                    display: block;
+                                    position: relative;
+                                    max-width: none;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .bottom-section {
+                    display: block !important;
+                    > div {
+                        > .row {
+                            justify-content: flex-end;
+                            flex-wrap: nowrap;
+                        }
+                    }
+                }
+                .top-section {
+                    margin-bottom: 12px;
+                    > div {
+                        > .row {
+                            justify-content: flex-end;
+                            flex-wrap: nowrap;
+                        }
+                    }
+                    .component {
+                        &.link {
+                            display: block;
+                        }
+                    }
+                }
+
+                /*===========================
+                        Utility navigation
+                =============================*/
+                .utility-navigation {
+                    align-self: auto;
+                    .top-nav {
+                        .list-wrap {
+                            .list-item {
+                                margin-right: 5px;
+                                a {
+                                    padding: 20px 15px;
+                                    @include Barlow-Semi-Condensed();
+                                    color: $white-color;
+                                    font-size: 2rem;
+                                    line-height: 1;
+                                    font-weight: 400;
+                                    text-transform: uppercase;
+                                    display: inline-block;
+                                }
+                            }
+                        }
+                    }
+                    &.social-links {
+                        padding-right: 15px;
+                        .fa {
+                            padding: 14px 20px 0px 0px;
+                        }
+                    }
+                }
+
+                /*===========================
+                        navigation
+                =============================*/
+                .component {
+                    &.page-list {
+                        &.variant-1 {
+                            padding-left: 15px;
+                            padding-right: 0;
+                            margin-top: 0;
+                            .items {
+                                .item {
+                                    position: static;
+                                    margin-left: 2px;
+                                    margin-right: 2px;
+                                    border: none;
+                                    > a {
+                                        padding: 12px 20px 46px 20px;
+                                        font-size: 2rem;
+                                        line-height: 30px;
+                                        font-weight: 600;
+                                        color: $white-color;
+                                        &.active-link {
+                                            text-decoration: none;
+                                            background-color: #e04326;
+                                        }
+                                    }
+                                    &:before {
+                                        display: none;
+                                    }
+
+                                    .submenu-utility-linklist {
+                                        display: block;
+                                        visibility: hidden;
+                                        opacity: 0;
+                                        box-shadow: 0 6px 12px #0000002d;
+                                        background-clip: padding-box;
+                                        border: 3px solid #707070;
+                                        border-top: none;
+                                        border-radius: 0 0 4px 4px;
+                                        background-color: #e0d8d6;
+                                        padding: 0;
+                                        > .row {
+                                            margin-left: 0;
+                                            margin-right: 0;
+                                            .column-splitter {
+                                                > div {
+                                                    max-width: 283px;
+                                                    &:not(:last-child):after {
+                                                        content: "";
+                                                        position: absolute;
+                                                        right: 0px;
+                                                        top: 50%;
+                                                        width: 4px;
+                                                        background: $white-color;
+                                                        height: calc(100% - 50px);
+                                                        transform: translateY(-50%);
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .link {
+                                            a {
+                                                font-size: 2rem;
+                                                font-weight: 700;
+                                                line-height: 30px;
+                                                text-transform: uppercase;
+                                                color: #7d716d;
+                                                padding: 0 28px 0 28px;
+                                                background-color: #0000;
+                                                border: none;
+                                                display: block;
+                                                opacity: 1;
+                                            }
+                                            &:first-of-type {
+                                                padding-top: 15px;
+                                            }
+                                            &:last-of-type {
+                                                padding-bottom: 15px;
+                                            }
+                                        }
+                                        .link-list {
+                                            padding-left: 0;
+                                            padding-right: 0;
+                                            padding-bottom: 20px;
+                                            padding-top: 0;
+                                            &:first-of-type {
+                                                padding-top: 0;
+                                            }
+                                            li {
+                                                padding: 0;
+                                                border: none;
+
+                                                &.first {
+                                                    a {
+                                                        display: block;
+                                                        background-color: #a89c98;
+                                                        color: $white-color;
+                                                        padding: 10px 10px 10px 25px;
+                                                        font-size: 2rem;
+                                                        line-height: 1.5;
+                                                        font-weight: 600;
+                                                        text-transform: uppercase;
+                                                    }
+                                                    + li {
+                                                        margin-top: 20px;
+                                                    }
+                                                }
+                                            }
+                                            a {
+                                                padding: 0px 25px 14px;
+                                                font-size: 1.6rem;
+                                                line-height: 1.2;
+                                                color: $black-color;
+                                                display: inline-block;
+                                                text-transform: none;
+                                                font-weight: normal;
+                                                &:hover {
+                                                    text-decoration: none;
+                                                    color: #e04326;
+                                                }
+                                                &.active-link {
+                                                    text-decoration: none;
+                                                    color: #e04326;
+                                                }
+                                            }
+                                            &:hover {
+                                                li {
+                                                    &.first {
+                                                        a {
+                                                            color: #e04326;
+                                                            text-decoration: none;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    &.active-link {
+                                        > a {
+                                            background-color: #e04326;
+                                        }
+                                    }
+                                    &:hover {
+                                        overflow: visible;
+                                        > a {
+                                            background-color: #e04326;
+                                        }
+                                        .submenu-utility-linklist {
+                                            visibility: visible;
+                                            opacity: 1;
+                                            transition: 0.2s ease-in-out;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@include respond-to(large-desktop) {
+    #header {
+        .header-shell {
+            &.variant-2 {
+                /*===========================
+                        Utility navigation
+                =============================*/
+                .utility-navigation {
+                    .component-content > div {
+                        border: none;
+                    }
+                }
+
+                /*===========================
+                        navigation
+                =============================*/
+                .component {
+                    &.page-list {
+                        &.variant-1 {
+                            .items {
+                                .item {
+                                    > a {
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                /*===========================
+                        Search
+                =============================*/
+                .component {
+                    .search-box {
+                        .search-holder {
+                            .search-input-wrapper {
+                                input {
+                                    width: 290px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include respond-to(below-tab) {
+    #header {
+        .header-shell {
+            &.variant-2 {
+                .wrapper {
+                    .inner-wrap {
+                        padding: 0;
+                        .container > .row > div {
+                            -ms-flex: 0 0 100%;
+                            flex: 0 0 100%;
+                            max-width: 100%;
+                        }
+                    }
+                }
+
+                .plain-html {
+                    position: absolute;
+                    top: 0;
+                    width: auto;
+                    right: 0;
+                    .component-content {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    .mobile-search-toggle {
+                        display: none;
+                    }
+                }
+                .component {
+                    &.page-list {
+                        &.variant-1 {
+                            background-color: #fcfafa;
+                            padding: 0;
+                            width: 100%;
+                        }
+                        .items .item {
+                            &.has-submenu-list {
+                                &:before {
+                                    content: "";
+                                    display: inline-block;
+                                    vertical-align: middle;
+                                    border-top: 4px dashed;
+                                    border-top: 4px solid \9;
+                                    border-right: 4px solid #0000;
+                                    border-left: 4px solid #0000;
+                                    color: #a89c98;
+                                    transform: scale(2.5) rotate(-90deg);
+                                    position: absolute;
+                                    top: 20px;
+                                    right: 15px;
+                                }
+                                &.open {
+                                    &:before {
+                                        transform: scale(2.5) rotate(0deg);
+                                    }
+                                    > a {
+                                        color: $secondary-color;
+                                    }
+                                }
+                            }
+                            .submenu-utility-linklist {
+                                .link {
+                                    a {
+                                        @include Barlow-Semi-Condensed();
+                                        font-size: 2.8rem;
+                                        color: $black-color;
+                                        border: none;
+                                        display: inline-block;
+                                        line-height: 1;
+                                        padding: 5px 10px 5px 25px;
+                                        text-transform: uppercase;
+                                        font-weight: 400;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .utility-navigation {
+                        width: 100%;
+                    }
+                    &.search-box {
+                        padding: 10px 32px 10px 32px;
+                        .search-holder {
+                            .search-input-wrapper {
+                                input {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .bottom-section {
+                    background: #fcfafa;
+                    .component {
+                        &.utility-navigation {
+                            background: #fcfafa;
+                            padding: 0;
+                            .component-content > div {
+                                display: block;
+                            }
+                            .top-nav .list-wrap {
+                                display: block;
+                                .list-item {
+                                    border-bottom: 2px solid #e0d8d6;
+                                    margin: 0 10px;
+                                    a {
+                                        color: $black-color;
+                                        padding: 6px 10px;
+                                        display: inline-block;
+                                        font-family: "Barlow Semi Condensed", sans-serif;
+                                        font-size: 2.8rem;
+                                        text-transform: none;
+                                        font-weight: 400;
+                                        text-transform: uppercase;
+                                    }
+                                }
+                            }
+                            &.brand-listing {
+                                padding-bottom: 20px;
+                                padding-top: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@include respond-to(mobile) {
+    #header {
+        .header-shell {
+            &.variant-2 {
+                .logo-container {
+                    justify-content: flex-start;
+                }
+            }
+        }
+    }
+}

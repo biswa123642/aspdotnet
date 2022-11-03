@@ -1,0 +1,74 @@
+﻿---
+ID: "2be1a3ee-88e5-41ce-b3de-8bf37a4c0526"
+Parent: "b65d98e1-da41-491f-978d-edf058370775"
+Template: "8455b301-b57b-43ad-a4f4-4e83ffb31905"
+Path: "/sitecore/content/OneWeb/GardenTech/Data/Solution Finder/Solution Finder/Solution/pl-tree-ants"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220628T103825Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f61edb38-7c77-4b6e-9298-dc10f5cbc9da"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "cbb746c0-f90e-4acc-8bee-98084234b389"
+      Hint: SolutionProducts
+      Value: |
+        {A251C4C9-C7E2-4DDA-81B6-90C75AAB4D00}
+        {E98D0A99-2E10-4C43-B9C2-D5C2B8A83728}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220704T131850Z
+    - ID: "ecff41e9-ad3e-4503-9b0c-0f5d2965c749"
+      Hint: RequiredAnswers
+      Value: |
+        {FB53A990-1CFC-46E2-BEE5-88C5E692BE31}
+        {ED7300A3-5B95-4B79-A722-372DF2E0C6CA}
+        {D1AA5ABC-B146-461B-AD71-73492088CBAF}
+- Language: es
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220628T103825Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ef92c27b-3541-4e98-8413-aac317bedaf2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "cbb746c0-f90e-4acc-8bee-98084234b389"
+      Hint: SolutionProducts
+      Value: |
+        {A251C4C9-C7E2-4DDA-81B6-90C75AAB4D00}
+        {E98D0A99-2E10-4C43-B9C2-D5C2B8A83728}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220715T074626Z
+    - ID: "ecff41e9-ad3e-4503-9b0c-0f5d2965c749"
+      Hint: RequiredAnswers
+      Value: |
+        {FB53A990-1CFC-46E2-BEE5-88C5E692BE31}
+        {ED7300A3-5B95-4B79-A722-372DF2E0C6CA}
+        {D1AA5ABC-B146-461B-AD71-73492088CBAF}

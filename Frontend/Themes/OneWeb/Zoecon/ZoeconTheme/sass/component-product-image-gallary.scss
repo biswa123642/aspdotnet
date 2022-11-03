@@ -1,0 +1,61 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.product-image-gallery {
+        .image-placeholder {
+            border: none;
+
+            a.swipebox {
+                &::before {
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    width: 80%;
+                    height: 80%;
+                    transform: translateX(-50%) translateY(-50%);
+                    border: 20px solid $default-product;
+                    border-radius: 100%;
+                    z-index: -1;
+                }
+            }
+        }
+
+        .inner-wrap {
+            .field-image {
+                &::before {
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    width: 80%;
+                    height: 80%;
+                    transform: translateX(-50%) translateY(-50%);
+                    border: 7px solid $default-product;
+                    border-radius: 100%;
+                    z-index: -1;
+                }
+
+                &:after {
+                    display: none;
+                }
+
+                img {
+                    cursor: pointer;
+                    padding: .5rem;
+                    border-radius: 24px;
+                    border: 1px solid $default-product;
+                }
+
+            }
+
+            .image-container {
+                >div {
+                    width: calc(33% - 1rem);
+                    border: none;
+                }
+            }
+        }
+    }
+}

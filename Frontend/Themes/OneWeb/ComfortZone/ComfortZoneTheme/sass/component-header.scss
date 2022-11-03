@@ -1,0 +1,571 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+#header {
+    .header-shell {
+        min-height: 115px;
+      >div{
+        position: fixed;
+        width: 100%;
+        z-index: 99;
+        background-color: #fff;
+        border-bottom: 2px solid #78256c;
+        border-top: 15px solid #78256c;
+        transition: all ease-in-out 200ms;
+      }
+
+        &.variant-2 {
+            .inner-wrap {
+                .mobile-search-toggle {
+                    display: none;
+                }
+                .container:not(.col-12) {
+                    max-width: 100%;
+                }
+                .logo-container {
+                    .image {
+                        padding: 10px 20px 1px 24px;
+                        img {
+                            max-width: 112px;
+                        }
+                    }
+                    + div {
+                        position: static;
+                    }
+                }
+
+                .utility-navigation {
+                    padding-left: 0;
+                    padding-right: 0;
+                    display: block;
+                    .top-nav {
+                        .list-wrap {
+                            .list-item {
+                                > a {
+                                    font-size: 0.8em;
+                                    line-height: 22px;
+                                    font-weight: bold;
+                                    border: 1px solid #d14b9b;
+                                    color: #d14b9b;
+                                    padding: 6px 12px;
+                                    margin-left: 15px;
+                                    margin-right: 15px;
+                                    display: inline-block;
+                                    font-family: "Nunito", sans-serif;
+                                    text-transform: uppercase;
+                                    transition: color ease-in-out 200ms;
+                                    &:hover {
+                                        border-color: #0000;
+                                        background-color: #d14b9b;
+                                        color: #fff;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .component {
+                    &.page-list {
+                        &.variant-1 {
+                            padding-right: 0;
+                            margin-top: 0;
+                            position: static;
+                            display: block !important;
+                            .items {
+                                .item {
+                                    position: static;
+                                    > a {
+                                        font-family: "Nunito", sans-serif;
+                                        text-transform: uppercase;
+                                        font-weight: bold;
+                                        transition: color ease-in-out 200ms;
+                                        color: #000;
+                                        position: relative;
+                                        display: block;
+                                        padding: 37px 15px;
+                                        font-size: 1rem;
+                                        border: none;
+                                    }
+                                    &:hover {
+                                        a {
+                                            color: #78256c;
+                                        }
+                                    }
+                                    &.has-submenu-list {
+                                        > a {
+                                            padding-right: 40px;
+                                            &:after {
+                                                content: "\f107";
+                                                font-family: "FontAwesome";
+                                                display: inline-block;
+                                                font-size: 1.5em;
+                                                line-height: 1;
+                                                color: #d5d5e5;
+                                                transition: ease-in-out 200ms;
+                                                position: absolute;
+                                                right: 15px;
+                                                top: 50%;
+                                                -webkit-transform: translateY(-50%) rotate(0);
+                                                transform: translateY(-50%) rotate(0);
+                                            }
+                                            &:hover {
+                                                &:after {
+                                                    color: #78256c;
+                                                    transition: ease-in-out 200ms;
+                                                }
+                                            }
+                                        }
+                                        &.open {
+                                            > a {
+                                                &:after {
+                                                    transform: rotate(-180deg);
+                                                    top: 37%;
+                                                }
+                                            }
+                                        }
+                                        &:before {
+                                            display: none;
+                                        }
+                                    }
+                                    .submenu-utility-linklist {
+                                        width: 100%;
+                                        left: 0;
+                                        padding: 5px 0;
+                                        border-radius: 4px;
+                                        -webkit-box-shadow: 0 6px 12px #0000002e;
+                                        box-shadow: 0 6px 12px #0000002e;
+                                        background-clip: padding-box;
+                                        background-color: #fff;
+                                        margin: 2px 0;
+                                        .linked-thumbnail {
+                                            ul {
+                                                display: flex;
+                                                justify-content: center;
+                                                padding: 15px 20px;
+                                                flex-wrap: wrap;
+                                                li {
+                                                    padding: 0 15px;
+                                                    text-align: center;
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    justify-content: space-between;
+                                                    a {
+                                                        color: #000;
+                                                        font-size: 16px;
+                                                        text-decoration: none;
+                                                        border: none;
+                                                        line-height: 1;
+                                                        display: block;
+                                                    }
+                                                    &:hover {
+                                                        a {
+                                                            color: #78256c;
+                                                            font-weight: bold;
+                                                        }
+                                                    }
+                                                    .field-image {
+                                                        padding: 5px 30px;
+                                                        text-align: center;
+                                                        img {
+                                                            width: auto;
+                                                            padding: 0;
+                                                            max-width: 150px;
+                                                            display: block;
+                                                            vertical-align: middle;
+                                                        }
+                                                    }
+                                                    .field-description {
+                                                        max-width: 210px;
+                                                        margin-top: 1em;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &.search-box {
+                        display: block;
+                        .search-wrapper {
+                            .search-input-wrapper {
+                                .input-wrapper {
+                                    .search-input {
+                                        display: block;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                
+
+                    &.plain-html {
+                        .hamburger {
+                            padding: 24px 10px 20px 10px;
+                            margin: 0;
+                            right: 0;
+                            background: transparent;
+                            .hamburger-box {
+                                width: 50px;
+                                .hamburger-inner {
+                                    border-radius: 3px;
+                                    background-color: #b74695;
+                                    margin: 0;
+                                    height: 5px;
+                                    &:after,
+                                    &:before {
+                                        height: 5px;
+                                        border-radius: 3px;
+                                        background-color: #b74695;
+                                    }
+                                    &:before {                                     
+                                        top: -15px;
+                                    }
+                                    &:after {                                        
+                                        bottom: -15px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    
+
+                    
+                }
+            }
+            .wrapper-nav {
+                background-color: transparent;
+            }
+            /*===========================
+                        navigation
+                =============================*/
+
+            .bottom-section {
+            }
+            .top-section {
+            }
+
+            /*===========================
+                       header search
+                =============================*/
+            .component {
+            }
+        }
+    }
+}
+
+@include respond-to(tab) {
+    #header {
+        .header-shell {
+            &.variant-2 {
+                .inner-wrap {
+                    .container:not(.col-12) {
+                        max-width: 770px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include respond-to(desktop) {
+    #header {
+        .header-shell {
+            &.variant-2 {
+                .inner-wrap {
+                    .container:not(.col-12) {
+                        max-width: 1190px;
+                    }
+                    .logo-container {
+                        .image {
+                            padding: 14px 0 4px 0;
+                            max-width: 100%;
+                            img {
+                                max-width: 115px;
+                            }
+                        }
+                    }
+                    .component {
+                        &.page-list {
+                            &.variant-1 {
+                                margin-left: -112px;
+                                .items {
+                                    .item {
+                                        > a {
+                                            font-size: 14px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &.search-box {
+                            position: relative;
+                            right: 0;
+                            top: 0;
+                            z-index: 999;
+                            padding: 0;
+                            .component-content {
+                                min-height: 96px;
+                                position: absolute;
+                                right: -44px;
+                                top: 0;
+                                width: 40px;
+                            }
+                            .search-wrapper {
+                                position: static;
+                                &:before {
+                                    display: none;
+                                }
+                                .search-input-wrapper {
+                                    position: static;
+                                    .input-wrapper {
+                                        opacity: 0;
+                                        transition: opacity ease-in-out 200ms;
+                                        top: calc(80%);
+                                        right: 0;
+                                        border-radius: 2px;
+                                        border: 2px solid #78256c;
+                                        color: #000;
+                                        background-color: #fff;
+                                        padding: 5px;
+                                        position: absolute;
+                                        line-height: normal;
+                                        z-index: 1001;
+                                        .search-input {
+                                            padding: 5px;
+                                            width: 100%;
+                                            min-width: 200px;
+                                            background-color: #0000;
+                                            display: inline-block;
+                                            color: #000;
+                                            box-shadow: none;
+                                            border: 2px solid #000;
+                                            border-radius: 5px;
+                                            font-size: 1rem;
+                                            font-family: "Montserrat", sans-serif;
+                                            line-height: 1;
+                                            font-weight: 400;
+                                        }
+                                    }
+
+                                    .custom-search-box-button {
+                                        width: 40px;
+                                        height: 40px;
+                                        margin: 0;
+                                        background: transparent;
+                                        position: absolute;
+                                        right: 0;
+                                        top: 50%;
+                                        cursor: pointer;
+                                        z-index: 10;
+                                        transform: translateY(-50%);
+                                        z-index: 10;
+                                        &:after {
+                                            font-family: "FontAwesome";
+                                            content: "\f002";
+                                            color: #000;
+                                            font-size: 18px;
+                                        }
+                                    }
+                                }
+                            }
+                            &.active {
+                                .search-wrapper {
+                                    .search-input-wrapper {
+                                        .input-wrapper {
+                                            opacity: 1;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .bottom-section {
+                        display: block !important;
+                    }
+                }
+            }
+        }
+    }
+}
+@include respond-to(large-desktop) {
+    #header {
+        .header-shell {
+            &.variant-2 {
+                .inner-wrap {
+                    .logo-container {
+                        .image {
+                            padding: 14px 0 4px 25px;
+                            img {
+                                max-width: 134px;
+                            }
+                        }
+                    }
+                    .component {
+                        &.page-list {
+                            &.variant-1 {
+                                margin-left: -24px;
+                                .items {
+                                    .item {
+                                        > a {
+                                            font-size: 1rem;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include respond-to(below-tab) {
+    #header {
+        .header-shell {
+            &.variant-2 {
+                .inner-wrap {
+                    .bottom-section {
+                        display: none;
+                        position: absolute;
+                        width: 100%;
+                        background-color: #fff;
+                        max-height: calc(100vh - 95px);
+                        overflow-y: auto;
+                        -webkit-box-shadow: 0 6px 12px #0000002d;
+                        box-shadow: 0 6px 12px #0000002d;
+                        max-width: 770px;
+                        left: 0;
+                        top: 100%;
+                        right: 0;
+                        margin: 2px auto 0 auto;
+                        padding-top: 7px;
+                        padding-bottom: 7px;
+                    }
+
+                    .utility-navigation {
+                        .component-content > div {
+                            line-height: 79px;
+                            display: block;
+                        }
+                    }
+                    .component {
+                        &.page-list {
+                            &.variant-1 {
+                                .items {
+                                    .item {
+                                        padding: 0;
+                                        border: none;
+                                        > a {
+                                            padding: 10px 15px;
+                                        }
+                                        .submenu-utility-linklist {
+                                            padding: 20px;
+                                            margin: 0;
+                                            background-color: #e6e2e7;
+                                            box-shadow: none;
+                                            .linked-thumbnail {
+                                                ul {
+                                                    li {
+                                                        width: 50%;
+                                                        justify-content: flex-start;
+                                                        margin-bottom: 15px;
+                                                        .field-description {
+                                                            max-width: 100%;
+                                                            margin-top: 1em;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        &.open {
+                                            .submenu-utility-linklist {
+                                                display: block;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &.search-box {
+                            position: static;
+                            padding: 10px 15px;
+                            background: transparent;
+                            .search-wrapper {
+                                &:before {
+                                    background: transparent;
+                                }
+                                .search-input-wrapper {
+                                    .input-wrapper {
+                                        padding-right: 52px;
+                                        .search-input {
+                                            box-shadow: none;
+                                            border: none;
+                                            border-bottom: 2px solid #78256c;
+                                            padding: 6px 12px;
+                                            min-height: 33px;
+                                            font-size: 16px;
+                                            color: #000;
+                                            font-weight: 400;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@include respond-to(mobile) {
+    #header {
+        .header-shell {
+            &.variant-2 {
+                .inner-wrap {
+                    .component {
+                    
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 480px){
+    #header {
+        .header-shell {
+            &.variant-2 {
+                .inner-wrap {
+                    .component {
+                        &.page-list {
+                            &.variant-1 {
+                                .items {
+                                    .item {
+                                        .submenu-utility-linklist {
+                                            .linked-thumbnail {
+                                                ul {
+                                                    li {
+                                                        width: 100%;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.on-page-editor {
+    #header .header-shell {
+        position: static;
+    }
+}

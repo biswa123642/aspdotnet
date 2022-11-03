@@ -1,0 +1,107 @@
+﻿---
+ID: "6cb9835b-c48e-4d62-927f-cbb2dd5b4dc6"
+Parent: "7b02f670-b8c6-4d88-bf32-3b0cead6015e"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: /sitecore/content/OneWeb/Central/Home/careers/benefits
+SharedFields:
+- ID: "d4952280-2d7d-4bf4-a99a-ea36dad0f0a7"
+  Hint: Body Css Class
+  Value: benefits
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{FDCAC627-41D9-4828-86E7-C06E538EFBA1}"
+          p:before="*"
+          s:ds="page:"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BFF4ADBCA-BDF1-4EBA-8466-888B74F65FEC%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/container-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{2ECA89F2-C166-4332-8E07-6A00E1637FBC}"
+          p:after="r[@uid='{FDCAC627-41D9-4828-86E7-C06E538EFBA1}']"
+          s:ds="{B90CF17F-76F7-47BF-80ED-4A286A4FACAD}"
+          s:id="{28F481FC-631F-4BDF-9130-A2DA74164968}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BB3BA5054-8690-4DFC-A2A3-595DB38055D5%7D&amp;Styles=%7B69D209DD-5FA5-49C5-AE9D-D462BB26C34D%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/container-1" />
+        <r
+          uid="{BA1C2D0E-644F-4D7A-AA11-5B0FCFE46315}"
+          p:after="r[@uid='{2ECA89F2-C166-4332-8E07-6A00E1637FBC}']"
+          s:ds="{8274A730-3EA7-47B7-BA4E-8FAB8AE35383}"
+          s:id="{28F481FC-631F-4BDF-9130-A2DA74164968}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BB97029D2-8173-494D-AB39-86CA14E36D6B%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4&amp;ColLeftGrid&amp;ColRightGrid"
+          s:ph="/main/container-1" />
+        <r
+          uid="{3BEC95A0-AC0D-49C8-AD5C-FFE18D3EBDC7}"
+          p:after="r[@uid='{BA1C2D0E-644F-4D7A-AA11-5B0FCFE46315}']"
+          s:ds="{CE24F290-7BB8-4613-B5AA-F669D5933EB3}"
+          s:id="{28F481FC-631F-4BDF-9130-A2DA74164968}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BB97029D2-8173-494D-AB39-86CA14E36D6B%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5&amp;ColLeftGrid&amp;ColRightGrid"
+          s:ph="/main/container-1" />
+        <r
+          uid="{EE975B83-219E-4991-B9D8-BB912D27EE6C}"
+          p:after="r[@uid='{3BEC95A0-AC0D-49C8-AD5C-FFE18D3EBDC7}']"
+          s:ds="{D0059ADC-1743-4152-BCF6-0B766D4F4B68}"
+          s:id="{28F481FC-631F-4BDF-9130-A2DA74164968}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BB97029D2-8173-494D-AB39-86CA14E36D6B%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6&amp;ColLeftGrid&amp;ColRightGrid"
+          s:ph="/main/container-1" />
+        <r
+          uid="{74DC0CE7-ED5B-4254-9919-0E33848390E6}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220805T062409Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{F755C4BD-FEEF-4EA3-A2C0-E65833C1962D}" alt="header image" height="" width="" hspace="" vspace="" ></image>
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: benefits
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "Aside from being committed to maintaining a positive culture with high integrity and ethics, we take your well-being seriously. Learn more about benefits offered to our employees. "
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Benefits - Careers | Central Garden & Pet"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: "Benefits - Careers | Central Garden & Pet"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5892a026-3bb7-462b-ba94-151447005474"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: |
+        <h1>Central<br />
+        Benefits</h1>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220902T130037Z

@@ -1,0 +1,667 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+    &.header-shell {
+        &.variant-3 {
+            padding: 0;
+            background-color: transparent;
+            box-shadow: none;
+            background-image: linear-gradient(to bottom, #000000 0%, transparent 100%);
+
+            //Hamburger Styling
+            .component {
+                .hamburger {
+                    margin-top: 2.5rem;
+
+                    span {
+                        height: 3px;
+                        width: 40px;
+                        margin-bottom: 9px;
+                    }
+                }
+            }
+
+            //search box
+            .component {
+                &.search-box {
+                    .global-search-wrapper {
+                        .search-input-wrapper {
+                            .custom-search-box-button {
+                                background-image: none;
+
+                                &::after {
+                                    font-family: "FontAwesome";
+                                    content: "\f002";
+                                    font-size: 1.8rem;
+                                    color: $white;
+                                }
+                            }
+
+                            input {
+                                display: block;
+
+                                @include respond-to (desktop) {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+
+                    &.active {
+                        .global-search-wrapper {
+                            .search-input-wrapper {
+                                .custom-search-box-button {
+                                    &:after {
+                                        color: $gray;
+                                    }
+                                }
+
+                                input {
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            //logo        
+            .component {
+                &.image {
+                    margin: 0;
+
+                    img {
+                        max-width: 21.1rem;
+                    }
+                }
+            }
+
+            // header global menu
+            .header-global-menu {
+                &.variant-3 {
+                    border-top: 1px solid $white;
+
+                    ul.items {
+                        margin-left: 1rem;
+
+                        li.item {
+                            border-bottom: none;
+
+                            a {
+                                font-weight: 300;
+                                text-transform: initial;
+                                font-size: 1.6rem;
+                            }
+
+                            .has-sublist,
+                            .list-wrap {
+                                position: relative;
+                                transition: 0.2s;
+
+                                &::before {
+                                    content: '';
+                                    left: -20px;
+                                    width: 4px;
+                                    height: 45px;
+                                    background-color: transparent;
+                                }
+
+                                &::after {
+                                    color: $navbar-color;
+                                    background-color: transparent;
+                                    top: 1.2rem;
+                                    transition: 300ms linear all;
+                                }
+
+                            }
+
+                            .sub-menu-list {
+                                li.sub-menu-item {
+                                    list-style: square;
+
+                                    a {
+                                        line-height: 1.7;
+                                    }
+                                }
+                            }
+
+                            //Nav static color
+                            @media screen and (max-width:991px) {
+
+                                .list-wrap:not(.has-sublist),
+                                .list-wrap:not(.has-sublist)>a {
+                                    &::before {
+                                        content: "";
+                                        left: -20px;
+                                        width: 4px;
+                                        height: 45px;
+                                        top: 50%;
+                                        transform: translateY(-50%);
+                                        position: absolute;
+                                    }
+                                }
+
+                                &.open {
+                                    .has-sublist {
+                                        &:after {
+                                            transform: rotate(-180deg);
+                                            top: 0;
+                                            transition: 300ms linear all;
+                                        }
+
+                                        &::before {
+                                            transform: rotate(0deg) translateY(-50%);
+                                        }
+                                    }
+                                }
+
+                                &.open,
+                                &.active {
+
+                                    &:nth-child(1) {
+
+                                        .has-sublist {
+                                            &::before {
+                                                background-color: $navbar-first-color;
+                                            }
+                                        }
+
+                                        ul {
+                                            li.sub-menu-item {
+                                                &::marker {
+                                                    color: $navbar-first-color;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    &:nth-child(2) {
+
+                                        .has-sublist {
+                                            &::before {
+                                                background-color: $navbar-second-child;
+                                            }
+                                        }
+
+                                        ul {
+                                            li.sub-menu-item {
+                                                &::marker {
+                                                    color: $navbar-second-child;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    &:nth-child(3) {
+
+                                        //  padding-left: 20px;    
+                                        .has-sublist {
+                                            &::before {
+                                                background-color: $navbar-third-child;
+                                            }
+                                        }
+
+                                        ul {
+                                            li.sub-menu-item {
+                                                &::marker {
+                                                    color: $navbar-third-child;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    &:nth-child(4) {
+
+                                        .list-wrap {
+                                            &::before {
+                                                background-color: $navbar-fourth-child;
+                                            }
+                                        }
+
+                                    }
+
+                                    &:nth-child(5) {
+
+                                        .list-wrap {
+                                            &::before {
+                                                background-color: $navbar-fifth-child;
+
+                                            }
+                                        }
+                                    }
+
+
+                                }
+
+                                &:nth-child(4) {
+
+                                    .list-wrap {
+                                        >a {
+
+                                            &:active,
+                                            &:focus {
+                                                &::before {
+                                                    background-color: $navbar-fourth-child;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                }
+
+                                &:nth-child(5) {
+                                    .list-wrap {
+                                        position: relative;
+
+                                        >a {
+                                            &:active,
+                                            &:focus {
+                                                &::before {
+                                                    background-color: $navbar-fifth-child;
+                                                }
+
+                                            }
+                                        }
+                                    }
+                                }
+
+                            }
+
+                        }
+                    }
+
+                }
+            }
+
+            &.single-row-shell {
+                .header-global-menu {
+                    ul {
+                        .search-box {
+                            display: block;
+                        }
+                    }
+
+                    &+.search-box {
+                        display: none;
+                    }
+                }
+            }
+
+            @include respond-to (desktop) {
+                .header-global-menu {
+                    &.variant-3 {
+                        border-top: none;
+
+                        ul.items {
+                            li.item {
+                                .list-wrap {
+                                    &::after {
+                                        display: none;
+                                    }
+
+                                    >a {
+                                        text-transform: uppercase;
+                                        text-shadow: 0px 5px 10px #00000080;
+                                    }
+                                }
+
+                                &:hover {
+                                    .sub-menu-list {
+                                        display: block;
+                                    }
+                                }
+
+                                .sub-menu-list {
+                                    li.sub-menu-item {
+                                        list-style: none;
+                                    }
+                                }
+
+                                &.active {
+                                    &::after {
+                                        height: 4.5rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .component {
+                    &.image {
+                        img {
+                            max-width: 21.1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#wrapper {
+    width: 100%;
+}
+
+.component {
+    &.header-shell {
+
+        &.variant-3 {
+
+            @media only screen and (max-width: 991px) {}
+
+            &.file-type-icon-media-link {
+
+                margin-left: 0;
+            }
+
+            .header-global-menu {
+                background: $overlay-black;
+            }
+
+
+            @include respond-to(desktop) {
+                .header-global-menu {
+
+                    border-top: none;
+                    background: transparent;
+
+
+
+                    ul {
+                        &.items {
+                            float: none;
+                            justify-content: right;
+                            margin-left: 0;
+                        }
+
+                        li {
+                            a {
+                                font-size: 1.6rem !important;
+                                font-weight: 300 !important;
+                                text-transform: none;
+                                color: $navbar-color  !important;
+                                text-shadow: 0px 5px 10px RGB(0, 0, 0 /50%);
+                                text-transform: uppercase;
+                                @include Lilita-font-stack();
+
+                            }
+
+                            &::after {
+
+                                position: absolute;
+                                content: "";
+                                height: .4rem;
+                                left: -5px;
+                                right: -5px;
+                                bottom: 20px;
+                                transition: height 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+                                z-index: -1;
+                            }
+
+                            &:hover,
+                            &:focus,
+                            &:active {
+
+
+                                &:after {
+                                    height: 4.5rem;
+                                }
+                            }
+
+                            &.item {
+                                padding: 32px 0 32px 0;
+                                margin-left: 1vw;
+                                margin-right: 1vw;
+
+                                ul {
+                                    position: relative;
+
+
+                                    &.sub-menu-list {
+
+                                        top: 100%;
+                                        left: -0.5rem;
+                                        padding: 1.5rem;
+
+
+                                        li {
+                                            &.sub-menu-item {
+                                                a {
+                                                    font-size: 1.6rem;
+                                                    font-weight: 400 !important; // to overide default
+                                                    @include raleway-font-stack();
+                                                    text-transform: none;
+                                                    color: $white  !important; //to overide default 
+
+                                                    &:hover {
+                                                        text-decoration: underline;
+                                                    }
+                                                }
+                                            }
+
+                                        }
+
+                                        &:before,
+                                        &:after {
+
+                                            content: "";
+
+                                            height: 1px;
+                                            width: 80%;
+                                            transform: translate(-50%, 0);
+
+                                            background-color: rgba(0, 0, 0, 0.2);
+
+                                            position: absolute;
+                                            top: 1rem;
+                                            ;
+                                            left: 50%;
+
+
+                                        }
+
+                                        &:after {
+                                            top: auto;
+                                            bottom: 1rem;
+                                        }
+
+                                    }
+                                }
+
+                                &:first-child {
+
+
+                                    &:after {
+
+                                        background-color: $navbar-first-color;
+                                        //  height: 4.5rem;
+                                    }
+
+                                    .sub-menu-list {
+                                        background-color: $navbar-first-color;
+                                        padding-top: 3rem;
+                                        padding-bottom: 3rem;
+                                    }
+                                }
+
+                                &:nth-child(2) {
+                                    &:after {
+
+                                        background-color: $navbar-second-child;
+                                    }
+
+                                    .sub-menu-list {
+                                        background-color: $navbar-second-child;
+                                        padding-top: 3rem;
+                                        padding-bottom: 3rem;
+
+
+                                    }
+
+                                }
+
+                                &:nth-child(3) {
+                                    &:after {
+
+                                        background-color: $navbar-third-child;
+                                    }
+
+                                    .sub-menu-list {
+                                        background-color: $navbar-third-child;
+                                        padding-top: 3rem;
+                                        padding-bottom: 3rem;
+                                    }
+
+                                }
+
+                                &:nth-child(4) {
+                                    &:after {
+                                        background-color: $navbar-fourth-child;
+                                    }
+                                }
+
+                                &:nth-child(5) {
+                                    &:after {
+                                        background-color: $navbar-fifth-child;
+                                    }
+                                }
+
+                                .has-sublist {
+                                    a {
+                                        &:before {
+                                            display: none;
+                                        }
+                                    }
+                                }
+
+                            }
+                        }
+                    }
+
+                }
+
+
+                .search-box {
+
+                    .global-search-wrapper {
+                        .search-wrapper {
+                            &:before {
+                                background: transparent;
+                            }
+                        }
+
+                        .search-input-wrapper {
+                            position: relative;
+
+                            input.search-input {
+                                position: absolute;
+                                min-width: 20.0rem;
+                                right: 0;
+
+                                color: $searchbox-color;
+                                background: $navbar-color;
+                                border: 2px solid $searchbox-color;
+                                border-radius: 2.5rem;
+
+                                padding-left: .8rem;
+                                padding-right: 4.0rem;
+                                outline: none;
+                                z-index: inherit;
+                            }
+
+                            .custom-search-box-button {
+                                height: 2.9rem;
+                                position: relative;
+                                display: inline-block;
+                            }
+                        }
+                    }
+
+                }
+
+                &.single-row-shell {
+                    .header-global-menu {
+                        ul {
+                            .search-box {
+                                display: none;
+                            }
+                        }
+
+                        &+.search-box {
+                            display: block;
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+
+    .component {
+        &.header-shell {
+            &.variant-3 {
+                .image {
+                    margin: unset;
+                }
+
+                .component {
+                    &.plain-html {
+                        .hamburger {
+                            left: auto;
+                            right: 0;
+                        }
+                    }
+                }
+
+                .component-content {
+                    .search-box {
+                        position: static;
+                        right: 0;
+                        width: 100%;
+                        top: auto;
+
+                        .component-content {
+                            position: static;
+
+                        }
+
+                        .global-search-wrapper {
+                            width: 100%;
+                        }
+
+                        .custom-search-box {
+
+                            &.button {
+                                background-color: $bg-basic-color;
+                            }
+                        }
+
+                        .search-input-wrapper {
+                            width: 100%;
+
+                            input {
+                                width: 100%;
+                                background-color: transparent;
+                                color: $white;
+                                font-size: 1.6rem;
+                                border: none;
+                                border-bottom: 1px solid $border-gray;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

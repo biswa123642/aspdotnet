@@ -1,0 +1,114 @@
+.component {
+    &.sales-rep {
+        padding: 3rem 1.5rem;
+
+        .sales-representatives {
+            padding: 5rem 5.2rem;
+            border-radius: 3.7rem;
+            background-color: $green;            
+
+            .body-copy {
+                padding-bottom: 2rem;
+
+                h2,
+                p {
+                    color: $white;
+                    margin-bottom: 1.5rem;
+                }
+
+                h2 {
+                    font-size: 3.4rem;
+                }
+            }           
+
+            select {
+                @include robota-sans-serif();
+                position: relative;
+                border-radius: 50px;
+                background-color: $white;
+                color: $black;
+                font-size: 1.6rem;
+                font-weight: 500;
+                width: 100%;
+                padding: 12px 30px 12px 12px;
+                margin-bottom: 20px;
+                appearance: none;
+                background-image: url("../images/down-arrow.png");
+                background-position: 96% 58%;
+                background-repeat: no-repeat;
+                &:focus-visible{
+                    outline: -webkit-focus-ring-color auto 1px;
+                }
+                option{
+                    min-height: 20px;
+                }
+            }
+
+            .data-placeholder {
+                min-height: 5rem;                
+                .name-info,.mo-info,.email-info{
+                    color: $white;
+                    font-size: 1.6rem;
+                    font-weight: 500;
+                    line-height: 22px;
+                }
+                .email-info{
+                    text-decoration: underline;
+                    font-weight: bold;
+                }
+                .name-info{
+                    font-weight: bold;
+                }
+                .image-info{
+                    padding: 1rem;
+                    text-align: center;
+                    img{
+                        width: 75%;
+                        border-radius: 100%;                        
+                        filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+                        margin: auto;
+                    }
+                }
+            }
+            @include respond-to(tab) {
+                width: 70%;
+                margin: auto;
+
+                .body-copy,
+                select {
+                    max-width: 66.66%;
+                }
+                .data-placeholder { 
+                    max-width: 66.66%;                   
+                    .image-info{                       
+                        img{
+                            width: 50%;                            
+                        }
+                    }
+                }
+
+            }
+            @include respond-to(desktop){
+                display: flex; 
+                min-height: 35rem;
+                .content-wrapper{
+                    width: 66.66%;
+                }     
+                .body-copy,
+                select {
+                    max-width:95%;
+                }          
+                .data-placeholder { 
+                    max-width:33.33%; 
+                    text-align: center;                  
+                    .image-info{ 
+                        padding: 0;                      
+                        img{
+                            width: 50%;                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

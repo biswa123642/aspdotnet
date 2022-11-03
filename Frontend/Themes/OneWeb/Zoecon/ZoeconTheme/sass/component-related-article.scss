@@ -1,0 +1,92 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.content {
+        &.related-articles-horizontal-view {
+            padding-bottom: 5rem;
+
+            .copy-wrap {
+                text-align: center;
+
+                >h2 {
+                    font-size: 2.2rem;
+                    background-color: $white;
+                    padding: 4.2rem 2rem 3.1rem 2rem;
+                    display: inline-block;
+                    margin-bottom: 3rem;
+                }
+
+                >.row {
+                    .inner-wrap {
+                        padding: 0;
+                        background-color: $white;
+                        border: none;
+                        box-shadow: 2px 2px 13px $black-transparent;
+                        transition: all ease-in-out 200ms;
+                        border-radius: 50px;
+                        max-width: 85%;
+                        margin: auto;
+                        margin-bottom: 3rem;
+
+                        >div {
+                            padding: 4rem;
+                        }
+
+                        .image-holder {
+                            padding-bottom: 1.1rem;
+                        }
+
+                        .body-copy {
+                            padding-top: 0;
+
+                            h3 {
+                                font-size: 1.6rem;
+                                margin-bottom: 1.1rem;
+
+                                a {
+                                    color: $green;
+                                }
+                            }
+
+                            a {
+                                text-decoration: none;
+
+                                p {
+                                    text-align: left;
+                                    font-weight: normal;
+                                }
+                            }
+                        }
+
+                        &:hover {
+                            box-shadow: 8px 8px 20px $box-shadow-hover;
+                        }
+                        @include respond-to(tab){
+                            max-width: 45%;
+                        }
+                    }
+                }
+
+            }
+
+            @include respond-to(desktop) {
+                .copy-wrap {
+                    >h2 {
+                        font-size: 5rem;
+                    }
+
+                    >.row {
+                        justify-content: center;
+
+                        .inner-wrap {
+                            margin: 0 2%;
+                            max-width: 21%;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

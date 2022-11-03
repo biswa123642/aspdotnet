@@ -1,0 +1,26 @@
+{
+	"namespace": "Project.Amdro",
+	"references": [ "*Feature.*" ],
+	"items": {
+		"includes": [
+			//{
+			//	"name": "Content-Amdro",
+			//	"path": "/sitecore/content/OneWeb/Amdro",
+			//	"scope": "ItemAndDescendants",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//},
+			{
+				"name": "MediaLibrary-Themes",
+				"path": "/sitecore/media library/Themes/OneWeb/Amdro",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			}
+			//{
+			//	"name": "Amdro-Forms",
+			//	"path": "/sitecore/Forms/OneWeb/Amdro",
+			//	"scope": "ItemAndDescendants",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//}
+		]
+	}
+}

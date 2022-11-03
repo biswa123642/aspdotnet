@@ -1,0 +1,56 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.global-search-listing {
+    .result-count {
+      color: $gray-heading;
+      font-size: 1.8rem;
+      padding: 1.5rem;
+    }
+    #article-type,
+    #others-type,
+    #product-type {
+      h3 {
+        background: $product-bg-secondary;
+        border-bottom: none;
+
+        .link-btn {
+          font-size: 2.88rem;
+          color: $link_title_primary;
+          text-transform: uppercase;
+          @include Franlink-font-stack();
+
+          &::before,
+          &::after {
+            background-color: $link_title_primary;
+          }
+
+          .result-count {
+            padding: initial;
+          }
+        }
+      }
+
+      .body-copy {
+        h3 {
+          background: none;
+          font-size: 2.848rem;
+          font-weight: 700;
+          @include Arial-font-stack();
+
+          a {
+            color: $gray-heading;
+            line-height: 1.1;
+
+            &:hover {
+              color: $heading-hover;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+}

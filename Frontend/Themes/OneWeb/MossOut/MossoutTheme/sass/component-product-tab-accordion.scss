@@ -1,0 +1,61 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "base/fonts/fonts";
+.component {
+  &.product-tab-accordion {
+    @include respond-to(extra-largedesktop){
+      padding-right: 20%;
+    }
+    .copy-wrap {
+      .card {
+        border: 1px solid $card-border-color;
+        padding: 1rem 1.5rem;
+        .card-body {
+          padding: 0px;
+            a {
+              color: $secondary-color;
+              @include Arial-font-stack();
+              font-weight: 700;
+              width: auto;
+              padding-left: 2em;
+              font-size: 1.8rem;
+              display: inline-block;
+              margin: 0 1.5rem 2rem 1.5rem;
+              vertical-align: top;
+              background: transparent url(../images/site-icons/bg_link_pdf.png)
+                no-repeat center top;
+              background-position-x: left;
+              background-size: 1.2em;
+              background-position-y: 15%;
+            }
+        }
+      }
+
+      ul {
+        padding: 0px;
+        li {
+          margin-bottom: 1px;
+          margin-left: 1px;
+          @include respond-to(tab) {
+            margin-bottom: 0px;
+          }
+          &:nth-last-child(1) {
+            margin-bottom: 0px;
+          }
+          a {
+            background-color: $primary-color;
+            font-size: 1.59rem;
+            font-weight: 700;
+            padding: 1rem 1.5rem;
+            color: $white;
+            line-height: 1.1;
+            @include Montserrat-font-stack();
+            &.active {
+              background-color: $heading1_color !important; // Default color
+            }
+          }
+        }
+      }
+    }
+  }
+}

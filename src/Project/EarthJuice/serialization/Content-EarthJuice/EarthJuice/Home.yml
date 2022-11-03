@@ -1,0 +1,153 @@
+﻿---
+ID: "80b110ae-39a2-4474-bd5d-e825fd6df1ab"
+Parent: "8596827f-4190-40b2-bfce-e400a3e6639c"
+Template: "3bc22e05-e1ff-45a6-b8c3-fcf4c8f84a43"
+Path: /sitecore/content/OneWeb/EarthJuice/Home
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{1FA5EED9-87FB-4EE0-BC16-80C8ECBCAD96}"
+          p:before="*"
+          s:ds="{ECC35BB9-384C-4F24-98C0-1EFBB7DAC5E1}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-2-1/container-3/row-3-4/container-11/column-1-12"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{8E4B731A-CD12-4F42-9F99-55563A5B4F33}"
+          p:after="r[@uid='{1FA5EED9-87FB-4EE0-BC16-80C8ECBCAD96}']"
+          s:ds=""
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BCD668FC6-3540-465C-BD4D-8AC7ADA17355%7D&amp;Styles=%7B3F41FBA2-D066-423F-9C12-FBDB0EB10F2A%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-2-1/container-3/row-3-4/container-11/column-2-12" />
+        <r
+          uid="{C63D816D-6EF6-4520-BEA4-8A8494E7776D}"
+          p:after="r[@uid='{8E4B731A-CD12-4F42-9F99-55563A5B4F33}']"
+          s:ds="{F65CBDC2-D9F3-417F-90DA-7CE50BA74DB0}"
+          s:id="{3972C278-7E7A-4C2B-A293-66AF860F5C3A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B39C41CFB-A250-4C5E-98D6-52E06E9BC6B8%7D&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/row-2-1/container-3/row-3-4/container-11/column-2-12" />
+        <r
+          uid="{3C167324-9E6D-40F1-AA09-3B17E192E6E4}"
+          p:after="r[@uid='{C63D816D-6EF6-4520-BEA4-8A8494E7776D}']"
+          s:ds=""
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B03EA3C58-9F87-41D5-95D6-4B899C88572E%7D&amp;ColumnWidth2=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B03EA3C58-9F87-41D5-95D6-4B899C88572E%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=12"
+          s:ph="/main/row-2-1/container-3/row-3-4/container-11" />
+        <r
+          uid="{E71F2F43-6D45-4175-A021-E05A065D9D25}"
+          p:after="r[@uid='{3C167324-9E6D-40F1-AA09-3B17E192E6E4}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
+          s:ph="/main/row-2-1/container-3/row-3-4" />
+        <r
+          uid="{86063714-4BB5-4942-89A3-39F250066A75}"
+          p:after="r[@uid='{E71F2F43-6D45-4175-A021-E05A065D9D25}']"
+          s:ds="{8F2F5C16-27BE-4D62-A3D2-A271D98CE3C4}"
+          s:id="{28F481FC-631F-4BDF-9130-A2DA74164968}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BB97029D2-8173-494D-AB39-86CA14E36D6B%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/row-2-1/container-3/row-2-4" />
+        <r
+          uid="{7C3DDA27-1FE7-4096-BACF-42FEAAA38805}"
+          p:after="r[@uid='{86063714-4BB5-4942-89A3-39F250066A75}']"
+          s:ds="{65CCC221-8AA1-43CD-BED2-080997258C27}"
+          s:id="{28F481FC-631F-4BDF-9130-A2DA74164968}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BB97029D2-8173-494D-AB39-86CA14E36D6B%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/row-2-1/container-3/row-2-4" />
+        <r
+          uid="{7AAA6993-EE8C-4BE0-B966-90AEA2E92747}"
+          p:after="r[@uid='{7C3DDA27-1FE7-4096-BACF-42FEAAA38805}']"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=3%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-2-1/container-3" />
+        <r
+          uid="{3447EFA6-E260-4F1E-9A7D-2F982DF40AB9}"
+          p:after="r[@uid='{7AAA6993-EE8C-4BE0-B966-90AEA2E92747}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles=%7B238035E0-87ED-4558-B9A8-ACBEEF500832%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{E62EF539-1232-4595-AE88-AB6EAC7D28DA}"
+          p:after="r[@uid='{3447EFA6-E260-4F1E-9A7D-2F982DF40AB9}']"
+          s:ds="{A5749BC4-5007-4DE1-84E3-2E038C6D62B2}"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B5F12D974-6981-49E1-A1B4-13ECC5F914A7%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{4A6D3D42-F9CD-4FEC-8BBA-1982CBD5E60A}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{92EB9EFB-88D4-4089-82BE-AAD92D4FA24E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220609T111457Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Earth Juice
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Home to the highly acclaimed Earth Juice line of plant care products – the most innovative, effective and high performing products for the home and garden.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <p>Earth Juice offers a diverse selection of premium fertilizer
+        products to meet the nutritional demands of all plants. Its
+        products are crafted to suit every soil type &amp; hydroponic
+        gardening. Earth Juice has been recognized as one of the finest
+        lines of quality plant products for more than two decades.</p>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Home to the highly acclaimed Earth Juice line of plant care products – the most innovative, effective and high performing products for the home and garden.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Earth Juice | Hydro-Organics"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: OUR PRODUCTS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "30184531-77d2-46e4-bd3f-42927932602b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{4CB9CB3E-8755-474D-8E2A-6E0FB96DF2B5}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220721T083001Z

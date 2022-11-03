@@ -1,0 +1,152 @@
+﻿---
+ID: "7833cfb2-210f-455f-b4d0-ca1e59fc7971"
+Parent: "34d16262-323c-41f1-94ac-93fb925e4b52"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/CentralFlyControl/Home/contact-us"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "d4952280-2d7d-4bf4-a99a-ea36dad0f0a7"
+  Hint: Body Css Class
+  Value: "page-contact-us"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{5F2D38B3-D852-4324-9652-39E8A67EC3F5}"
+          p:before="*"
+          s:ds="{8F9F8AE9-5D1C-4781-883D-09ABAC2F67AD}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B8F3D80FC-4A6C-4126-92F8-162185FFDAE4%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/sxa-content-page/row-2-1/container-1/column-2-2" />
+        <r
+          uid="{849A307A-B1E8-424C-A45D-BBFE63765D2A}"
+          p:after="r[@uid='{5F2D38B3-D852-4324-9652-39E8A67EC3F5}']"
+          s:ds="{B97A7FF8-C941-43FF-A116-3AE7B8A5C49D}"
+          s:id="{882F60C4-4A33-4995-AC39-C8FF97EE8F1D}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B0A165447-FFF3-44FB-8521-2AFCDFEA24E5%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/sxa-content-page/row-3-1/container-4/column-1-5" />
+        <r
+          uid="{034C0D20-4476-4BC7-B26F-C14CFAD0EA83}"
+          p:after="r[@uid='{849A307A-B1E8-424C-A45D-BBFE63765D2A}']"
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth2=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=5"
+          s:ph="/main/sxa-content-page/row-3-1/container-4" />
+        <r
+          uid="{BF17F8EA-5637-42E8-A1BE-3A573F45E61B}"
+          p:after="r[@uid='{034C0D20-4476-4BC7-B26F-C14CFAD0EA83}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/sxa-content-page/row-3-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{93979280-FBB1-4787-B1CC-D5E6CEC45D57}"
+          p:after="r[@uid='{BF17F8EA-5637-42E8-A1BE-3A573F45E61B}']"
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/sxa-content-page/row-2-1/container-1/column-1-2" />
+        <r
+          uid="{8ECD54DF-5184-4B63-9000-E990A40580AB}"
+          p:after="r[@uid='{93979280-FBB1-4787-B1CC-D5E6CEC45D57}']"
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth2=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=2"
+          s:ph="/main/sxa-content-page/row-2-1/container-1" />
+        <r
+          uid="{273F24E8-53D6-46B8-8444-88DC5041C330}"
+          p:after="*[1=2]"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-content-page/row-2-1" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{5F2D38B3-D852-4324-9652-39E8A67EC3F5}"
+              s:par="Reset Caching Options&amp;GridParameters=%7B5C29D83E-D218-432A-BC6C-F4719E2D9096%7D%7C%7B114D32EB-70AE-41C3-8CA0-57E5C6FDA039%7D&amp;FieldNames=%7B8F3D80FC-4A6C-4126-92F8-162185FFDAE4%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7" />
+            <r
+              uid="{034C0D20-4476-4BC7-B26F-C14CFAD0EA83}">
+              <p:d />
+            </r>
+            <r
+              uid="{BF17F8EA-5637-42E8-A1BE-3A573F45E61B}">
+              <p:d />
+            </r>
+            <r
+              uid="{93979280-FBB1-4787-B1CC-D5E6CEC45D57}"
+              s:par="Reset Caching Options&amp;GridParameters&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3" />
+            <r
+              uid="{849A307A-B1E8-424C-A45D-BBFE63765D2A}"
+              p:after="r[@uid='{93979280-FBB1-4787-B1CC-D5E6CEC45D57}']"
+              s:par="Reset Caching Options&amp;GridParameters&amp;FieldNames=%7B0A165447-FFF3-44FB-8521-2AFCDFEA24E5%7D&amp;Styles=%7B07708DA6-14A4-4600-BDBB-0EB5174E5183%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+              s:ph="/main/sxa-content-page/row-2-1/container-1/column-1-2" />
+            <r
+              uid="{273F24E8-53D6-46B8-8444-88DC5041C330}"
+              s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220916T074531Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Contact Us
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: "Contact us to learn more about our feed-through fly control product, ClariFly® Larvicide."
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <div class="contact-block">
+        <h1>Contact Us</h1>
+        <p>Wellmark<sup>®</sup> is part of the Central Life Sciences strategic business unit of Central Garden &amp; Pet (NASDAQ: CENT). Central Life Sciences is dedicated to creating healthier environments and making life better for people, plants and companion animals around the world. As inventors of insect growth technology more than 30 years ago, the founders of Central Life Sciences pioneered biorational pest control: using the insect's chemistry as a means to reduce pest populations.</p>
+        <p>To learn more about Central Life Sciences, visit our website at<a rel="noopener noreferrer" href="https://www.centrallifesciences.com" target="_blank"> www.centrallifesciences.com</a>.</p>
+        <p>Wellmark<sup>®</sup> Branded Products <br />
+        c/o Central Life Sciences <br />
+        Telephone: 1-800-248-7763</p>
+        </div>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "Contact us to learn more about our feed-through fly control product, ClariFly® Larvicide."
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: ClariFly® Larvicide | Contact Us
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Contact Us
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7ebb3fe1-bbc0-4ae3-98d1-c95bb9a44ad2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{21B0CC26-BADB-4DDD-ADCA-DE6D1334ACC1}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221005T063123Z

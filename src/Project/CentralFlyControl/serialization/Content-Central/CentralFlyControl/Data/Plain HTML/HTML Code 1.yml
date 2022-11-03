@@ -1,0 +1,59 @@
+﻿---
+ID: "ced38d5a-f4a9-489e-818e-5b049ee81ef4"
+Parent: "b0b3fe5a-353b-4485-a861-0033e95bafbc"
+Template: "2ad23d55-aecd-43dd-ae0d-72d2ebcba60f"
+Path: /sitecore/content/OneWeb/CentralFlyControl/Data/Plain HTML/HTML Code 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24cce27c-05db-4473-a1ed-e69b1725ff1c"
+      Hint: HtmlCode
+      Value: |
+        <div class="section-nav" data-style="light">
+          <ul>
+            <li class="active">
+              <a data-id="feed-through" href="#feed-through"class="active">Feed-through</a>
+            </li>
+            <li class="">
+              <a data-id="dairy" href="#dairy" class="active">Dairy</a>
+            </li>
+            <li class="">
+              <a data-id="swine" href="#swine" class="active">Swine</a>
+            </li>
+            <li class="">
+              <a data-id="equine" href="#equine">Equine</a>
+            </li>
+            <li class="">
+              <a data-id="beef-pastures" href="#beef-pastures">Beef Pasture</a>
+            </li>
+            <li class="">
+              <a data-id="beef-feedlot" href="#beef-feedlot">Beef Feedlot</a>
+            </li>
+            <li class="">
+              <a data-id="sheep-goats"href="#sheep-goats">Sheep &amp; Goats</a>
+            </li>
+          </ul>
+        </div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221018T112114Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fd01225e-f5c1-4ce6-bce3-aed8436a1993"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221019T091626Z

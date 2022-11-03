@@ -1,0 +1,38 @@
+&.with-text {
+    padding: 0px 15px;
+    margin-bottom: 30px;
+    .wrap {
+    background-position: 51% 99%;
+      min-height: 300px;
+      @include respond-to(desktop){
+          padding: 0px;
+          background-position: 52% 46%;
+      }
+      .field-herobannertitle {
+     
+        @include respond-to(tab) {
+          padding: 5px 3rem;
+        }
+        @include respond-to(desktop) {
+          max-width: 59rem;
+          margin-top: 2.4rem;
+          left: 2rem;
+          padding: 2rem 3rem;
+          bottom: 0;
+          top: auto;
+        }
+
+        h1 {
+         
+          text-shadow:0px 3px 3px #00000080;
+          color: $white;
+          font-size: 3.6rem;
+          font-weight: 700;
+          @include Montserrat-font-stack();
+          @include respond-to(tab){
+            font-size: 6.3rem;
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,38 @@
+﻿---
+ID: "5b3ee9ad-3411-49fc-a046-3d3fa9a95740"
+Parent: "52a73733-caaf-41dd-a181-480adece4c21"
+Template: "20a8b875-b660-4893-91a7-b05f80e94666"
+Path: "/sitecore/content/OneWeb/FourPaws/Data/Linked Thumbnail List/where-to-buy/where-to-buy/Pet Super Market"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 900
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220604T062932Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5162aa9f-6e43-4060-9c7f-86623935f1ab"
+    - ID: "8daa9cfe-2ab1-4f9a-86ac-b2092acc9fde"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="https://www.petsupermarket.com/brand-landing-page?N=1117710714+3957019945&amp;Nrpp=28&amp;No=0&amp;Nr=product.active:1" anchor="" target="_blank" />
+    - ID: "9a5ce26a-e5f7-4528-b319-d23a1be1eede"
+      Hint: Description
+      Value: Pet Super Market
+    - ID: "b3524bdb-f8ec-4d85-a20b-ef5f2837d74f"
+      Hint: Image
+      Value: |
+        <image mediaid="{CFD3B62B-2BA6-45B7-B8E1-795939F511AF}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220707T055017Z

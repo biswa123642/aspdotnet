@@ -1,0 +1,80 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.variant-4 {
+        &.product-details {
+            margin-bottom: 0;
+            padding: 1.5rem;
+
+            .product-wrapper {
+                .body-copy{
+                    margin-bottom: 0;
+                    @include respond-to(desktop){
+                        margin-bottom: 2rem;
+                    }
+                }
+                h1 {
+                    font-size: 4rem;
+                    font-weight: 700;
+                    color: $primary-color;
+                    text-transform: initial;
+                    padding-top: 0;
+                    margin-top: 0;
+                }
+
+                h2 {
+                    color: $green;
+                }
+
+                em {
+                    font-weight: 500;
+                    color: $primary-color;
+                }
+
+                ul {
+                    margin-left: 2.5rem;
+
+                    li {
+                        font-size: 1.6rem;
+                        color: $primary-color;
+                        font-weight: 500;
+                    }
+                }
+
+            }
+        }
+
+    }
+
+    &.product-variant {
+        padding-top: 2rem;
+        h4 {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: $primary-color;
+            text-transform: uppercase;
+        }
+
+        .component-content {
+            select {
+                opacity: 1;
+                font-size: 1.6rem;
+                text-align: left;
+                border-radius: 9px;
+                appearance: none;
+                background-position: 100% 50%;
+                background-repeat: no-repeat;
+                background-image: url("../images/gentrol-arrow.png");
+                background-size: contain;
+                width: 75%;
+                
+
+                @include respond-to(tab) {
+                    width: 40%;
+                }
+
+            }
+        }
+    }
+}

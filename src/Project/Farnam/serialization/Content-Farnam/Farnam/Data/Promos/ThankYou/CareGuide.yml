@@ -1,0 +1,44 @@
+﻿---
+ID: "66d2e8f2-0dea-4a04-b392-bd327386d6a1"
+Parent: "a959ca18-974f-4478-b883-e6e06c935a1f"
+Template: "324733cf-afec-4281-9a18-03b6cfc4e535"
+Path: /sitecore/content/OneWeb/Farnam/Data/Promos/ThankYou/CareGuide
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Care Guide
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "14023dd5-30e7-4e3c-bf31-d835f3a87410"
+      Hint: PromoText
+      Value: |
+        <h6>CARE GUIDE</h6>
+        <p>Looking to explore a <strong>new product or solution</strong> for you and your horse? Our <strong>Care Guide</strong> makes that easy! Once you find a product you are interested in, use our store locator to find out where you can pick it up.</p>
+    - ID: "18f9beb8-0116-40fd-b47e-fd0a2327d7e0"
+      Hint: PromoIcon
+      Value: |
+        <image mediaid="{FDEC7C6E-567A-45A6-B455-E7B60AE1B878}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220804T073015Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "45d47390-16db-4a63-aa03-8a1fec42de45"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220812T103344Z

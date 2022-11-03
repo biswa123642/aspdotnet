@@ -1,0 +1,126 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+
+#footer {
+  color: $footer-color;
+  padding: 3rem 3rem 0;
+  font-size: 1.12rem;
+  background-color: $anchor-hover;
+
+  a {
+    color: $footer-links-color;
+    font-size: 1.4rem;
+    text-decoration: none;
+  }
+
+  .component {
+
+    &content,
+    &.rich-text {
+      font-size: 1.12rem;
+      text-align: center;
+      color: $footer-color;
+      margin-bottom: 3rem;
+
+      @include respond-to(desktop) {
+        text-align: left;
+      }
+
+      p,
+      .component-content {
+        font-size: 1.12rem;
+        margin: 3rem 0;
+      }
+    }
+
+    &.link-list {
+      margin-bottom: 1rem;
+
+      ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+
+        @include respond-to(desktop) {
+          justify-content: flex-end;
+          align-items: flex-end;
+          flex-direction: row;
+        }
+
+        @include respond-to(tab) {
+          flex-direction: row;
+        }
+
+        li {
+          .field-link {
+            margin: 0;
+            padding: 1rem 0;
+
+            a {
+              font-weight: 700;
+              font-size: 1.6rem;
+              margin: 0;
+              padding: 0 1rem;
+              color: $white-color;
+
+              &:hover {
+                text-decoration: none;
+                border: none;
+                color: inherit;
+              }
+            }
+          }
+
+          &.even:before {
+            display: none;
+          }
+        }
+      }
+    }
+
+    &.image {
+      &.file-type-icon-media-link {
+        margin-bottom: 3rem;
+        text-align: center;
+
+        @include respond-to(desktop) {
+          text-align: right;
+        }
+
+        img {
+          max-width: 25rem;
+        }
+      }
+    }
+
+    &.link {
+      .field-link {
+        text-align: center;
+
+        @include respond-to(desktop) {
+          text-align: left;
+        }
+      }
+    }
+  }
+
+  .utility-navigation {
+    &.social-links {
+      .icon-container {
+        border: none;
+        justify-content: center;
+
+        @include respond-to(desktop) {
+          justify-content: flex-end;
+        }
+      }
+
+      .fa {
+        font-size: 3rem;
+        color: $white-color;
+      }
+    }
+  }
+}

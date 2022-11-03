@@ -1,0 +1,119 @@
+﻿---
+ID: "633173d1-3aa3-47bd-8ab8-93b128e3646d"
+Parent: "e70df4d3-57c7-4f15-b8a6-98eb0ebf8470"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/CentralLifeSciences/Home/about-us/leadership"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{6E495A49-F408-447C-804D-64A61CFDCC3C}"
+          p:before="*"
+          s:ds="{F22A548A-C8FC-442B-A1B6-75955D070384}"
+          s:id="{D5455F55-05DD-4E43-B390-B3864B6FF737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass=col-lg-6&amp;FieldNames=%7B22FCFD76-1FE6-462D-9617-EDA0DA0473A1%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-3-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{E47B236C-FCC7-427B-8CD1-05F38C66662A}"
+          p:after="r[@uid='{6E495A49-F408-447C-804D-64A61CFDCC3C}']"
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles=%7B69D209DD-5FA5-49C5-AE9D-D462BB26C34D%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{1321CA09-376D-4337-AFE5-C7CEE903DE6B}"
+          p:after="r[@uid='{E47B236C-FCC7-427B-8CD1-05F38C66662A}']"
+          s:ds="{AF1AEF60-68BD-4DEE-86A5-10D1F99279E6}"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BAA673467-6127-43D2-8781-4608A0D6EE1C%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{6C041C24-AB20-4324-B370-2530FBA046E0}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220929T124309Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{36731F85-CFF4-4058-AA40-3605ACA30405}" />
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "41b17cd3-d543-4c7c-9bfa-b21765882326"
+      Hint: HeroImageMobile
+      Value: |
+        <image mediaid="{36731F85-CFF4-4058-AA40-3605ACA30405}" />
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Leadership
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: We're driven by a leadership team with deep industry experience and a shared commitment to protecting public health and the wellbeing of plants and animals. 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <div class="text-wrapper">
+        <p>Central Life Sciences is a business unit of Central Garden &amp; Pet, a leading innovator, marketer and producer of quality branded products for the pet and lawn and garden supplies markets. Central Life Sciences expands the use of proprietary molecules to develop insect control solutions for focused markets through innovation, unique formulations, regulatory proficiency and efficient manufacturing capabilities. The result is a dynamic organization with a diverse portfolio of U.S. Environmental Protection Agency (EPA) and Federal Drug Administration (FDA) registered products.</p>
+        <p>
+        Our organization is driven by a leadership team featuring professionals with deep industry experience and a shared commitment to protecting public health and the wellbeing of plants and animals from harmful insects.
+        </p>
+        </div>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: We're driven by a leadership team with deep industry experience and a shared commitment to protecting public health and the wellbeing of plants and animals. 
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Central Life Sciences | Leadership
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Central Life Sciences | Leadership
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1cf69940-d7e8-483b-bff0-fa6ec28623b8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: Leadership
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{3B6064B0-D918-414B-B463-655B0F85BE12}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221012T081217Z

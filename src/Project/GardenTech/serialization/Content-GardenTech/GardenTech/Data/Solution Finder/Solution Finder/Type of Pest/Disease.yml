@@ -1,0 +1,98 @@
+﻿---
+ID: "65ba1a9f-b932-41ea-90c9-b522f5e32305"
+Parent: "2198c43b-693e-4eb8-9637-ada107c8d04a"
+Template: "9874a4bd-a371-4049-85e6-0ed0ad713e54"
+Path: /sitecore/content/OneWeb/GardenTech/Data/Solution Finder/Solution Finder/Type of Pest/Disease
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03b55013-fdf9-40f2-9e5b-88d26865df7b"
+      Hint: Image
+      Value: |
+        <image mediaid="{55FB2062-CD8C-4BE2-8F22-594214C81283}" />
+    - ID: "096443cb-b8dd-4635-af3e-a4435f9612f1"
+      Hint: BreadcrumbTitle
+      Value: Disease
+    - ID: "0a9a0bf9-863c-4c36-8bc6-b576213cbad9"
+      Hint: Order
+      Value: 3
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220628T102616Z
+    - ID: "4d1593b6-8eac-4cd1-8383-16cbc881112e"
+      Hint: Title
+      Value: Diseases
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c996d287-945f-4484-91d4-64e9529aa7c5"
+    - ID: "967543d6-dddb-4b55-b6ff-ab2ca3fbe30c"
+      Hint: RequiredAnswers
+      Value: |
+        {1BC92AA8-8848-4DB3-AEDB-13608377241D}
+        {FB53A990-1CFC-46E2-BEE5-88C5E692BE31}
+        {ED7300A3-5B95-4B79-A722-372DF2E0C6CA}
+        {51397B0A-76C7-412E-A4B5-A3FAAAE2B301}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d53f6957-984b-4af6-a3c6-696f1ef8ec04"
+      Hint: Value
+      Value: disease
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220704T104028Z
+- Language: es
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03b55013-fdf9-40f2-9e5b-88d26865df7b"
+      Hint: Image
+      Value: |
+        <image mediaid="{55FB2062-CD8C-4BE2-8F22-594214C81283}" />
+    - ID: "096443cb-b8dd-4635-af3e-a4435f9612f1"
+      Hint: BreadcrumbTitle
+      Value: Enfermedades
+    - ID: "0a9a0bf9-863c-4c36-8bc6-b576213cbad9"
+      Hint: Order
+      Value: 3
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220628T102616Z
+    - ID: "4d1593b6-8eac-4cd1-8383-16cbc881112e"
+      Hint: Title
+      Value: Enfermedades
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5b66cd86-8747-443e-94bb-2d9356fbb5b5"
+    - ID: "967543d6-dddb-4b55-b6ff-ab2ca3fbe30c"
+      Hint: RequiredAnswers
+      Value: |
+        {1BC92AA8-8848-4DB3-AEDB-13608377241D}
+        {FB53A990-1CFC-46E2-BEE5-88C5E692BE31}
+        {ED7300A3-5B95-4B79-A722-372DF2E0C6CA}
+        {51397B0A-76C7-412E-A4B5-A3FAAAE2B301}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d53f6957-984b-4af6-a3c6-696f1ef8ec04"
+      Hint: Value
+      Value: disease
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220715T082914Z

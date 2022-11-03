@@ -1,0 +1,55 @@
+.our-story {
+  .component-content {
+    .body-copy {
+      h2 {
+        font-size: 3.3em;
+        font-weight: 900;
+      }
+    }
+    .inner-wrap {
+      text-align: center;
+      margin-bottom: 1em;
+      a {
+        text-decoration: none;
+      }
+      .field-tile-title {
+        h3 {
+          font-weight: 900;
+          font-size: 1.25em;
+          text-transform: uppercase;
+          color: $text-black-light;
+          margin-top: 1.25em;
+        }
+      }
+      .field-tile-description {
+        p {
+          color: $text-black-light;
+          font-size: 1em;
+          font-weight: 500;
+          line-height: 1.16em;
+        }
+      }
+    }
+  }
+  @include respond-to(desktop) {
+    .story-card {
+      .inner-wrap {
+        text-align: left;
+      }
+    }
+  }
+  @include respond-to(tab) {
+    .story-card {
+      .inner-wrap {
+        text-align: left;
+      }
+    }
+  }
+  @include respond-to(mob-horizontal) {
+    .story-card {
+      .inner-wrap {
+        text-align: left;
+      }
+    }
+  }
+}

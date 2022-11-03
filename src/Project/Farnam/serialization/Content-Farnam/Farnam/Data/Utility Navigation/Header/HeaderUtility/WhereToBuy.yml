@@ -1,0 +1,42 @@
+﻿---
+ID: "d7f2d29f-f501-4f96-8d99-49039b022435"
+Parent: "e8a3dce9-0e73-4488-a347-189974d9ab76"
+Template: "21e9bd9f-1259-4a0a-b862-a250abf7a8b1"
+Path: /sitecore/content/OneWeb/Farnam/Data/Utility Navigation/Header/HeaderUtility/WhereToBuy
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Where To Buy
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220215T115220Z
+    - ID: "3fbfed70-8606-40c5-9e84-45a03aa258d5"
+      Hint: Link
+      Value: |
+        <link text="Where to Buy" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{FAA3F384-801B-4E8E-AE3C-8EAC1A801D50}" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cac422b3-95cf-41a6-a669-b0b27f57a7a8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220823T111329Z
+    - ID: "f35d245b-3a57-4132-a025-00a22429f296"
+      Hint: IconClass
+      Value: "fa fa-map-marker"

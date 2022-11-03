@@ -1,0 +1,75 @@
+@import "abstracts/vars";
+
+.component {
+    &.breadcrumb {
+
+        .separator {
+            color: $breadcrumb-last-value;
+            font-weight: 400;
+        }
+
+        &.navigation-title {
+            nav {
+
+                background: $light-gry-bg;
+                border-radius: .4rem;
+
+                ol {
+                    padding: 0px;
+
+                    .breadcrumb-item {
+
+
+                        &.home {
+
+                            .field-navigationtitle {
+
+                                a {
+
+                                    color: $link-error;
+                                    text-decoration: none;
+                                    font-size: 1.6rem !important; // to overide default 
+                                    font-weight: 400 !important; //to overide default 
+                                    text-transform: none;
+
+                                    &:hover {
+                                        text-decoration: underline;
+                                        color: $error-page-link;
+                                    }
+                                }
+
+
+                            }
+                        }
+                        &:not(.home){
+                            margin-left:4px;
+                        }
+
+                        &.last {
+                            .field-navigationtitle {
+
+                                a {
+
+                                    color: $breadcrumb-last-value;
+
+                                    font-size: 1.6rem !important; // to overide default 
+                                    font-weight: 400 !important; //to overide default 
+                                    text-transform: none;
+
+
+                                }
+
+
+                            }
+
+
+                        }
+                    }
+                }
+            } 
+
+        }
+
+
+    }
+}

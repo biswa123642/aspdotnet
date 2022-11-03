@@ -1,0 +1,194 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.428;
+  font-size: 1.4rem;
+  height: auto !important;
+  overflow-x: hidden;
+  margin: 0;
+  color: $text-black-light;
+  -webkit-font-smoothing: antialiased;
+  @include ff-ernestine-pro-font-stack();
+}
+h1,
+h2,
+h3,
+h4,
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+h1 {
+  line-height: 1.1;
+  font-size: 3.6rem;
+  font-weight: 500;
+  color: $white;
+  @include ff-ernestine-pro-font-stack();
+}
+h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  color: $white;
+  @include ff-ernestine-pro-font-stack();
+  line-height: 1.1;
+  @include respond-to(desktop) {
+    font-size: 4rem;
+  }
+}
+h3 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: $text-color-primary;
+  @include ff-ernestine-pro-font-stack();
+}
+h4 {
+  font-size: 1.8rem;
+  @include fieldwork-hum-font-stack();
+  color: $color-secondary;
+  font-weight: 500;
+}
+h6 {
+  @include fieldwork-hum-font-stack();
+  font-weight: 500;
+  color: $text-color-primary;
+  font-size: 1.2rem;
+}
+p {
+  color: $text-color-primary;
+  font-size: 1.4rem;
+  font-weight: 400;
+  @include fieldwork-hum-font-stack();
+}
+a {
+  font-size: 1.4rem;
+  color: $text-color-primary;
+  font-weight: 400;
+}
+.content ol li,
+.rich-text ol li {
+  list-style: inherit;
+  list-style-position: inherit;
+}
+.rich-text {
+  .h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  li {
+    @include ff-ernestine-pro-font-stack();
+    font-size: 1.4rem;
+    line-height: 30px;
+    font-weight: 400;
+  }
+}
+.content a,
+.rich-text a {
+  color: $text-black-light;
+  &:hover {
+    color: $text-black-light;
+  }
+}
+.sxa-btn {
+  &.sxa-btn-primary,
+  &.sxa-btn-bordered {
+    &.sxa-btn-round {
+      a {
+        color: $dark-green !important; //override color
+      }
+    }
+  }
+  &.sxa-btn-primary,
+  &.sxa-btn-bordered,
+  &.load-more-result {
+    a {
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: left;
+      font-weight: 700;
+      font-size: 2.2rem;
+      display: block;
+      padding: 15px 15px 14.5px 15px;
+      width: 27rem;
+      height: 66px;
+      line-height: 66px;
+      border: none;
+      min-width: auto;
+      text-align: start;
+      position: relative;
+      &:hover {
+        -webkit-background-size: cover;
+        background-size: cover;
+      }
+      @include fieldwork-hum-font-stack();
+      &:hover {
+        transition: all 0.25s ease-in-out;
+      }
+      @include respond-to(desktop) {
+        display: inline-block;
+        font-size: 2.2rem;
+        min-width: 270px;
+        height: 66px;
+        line-height: 66px;
+        text-align: center;
+      }
+      @include respond-to(extra-large-desktop) {
+        font-size: 2.2rem;
+        display: inline-block;
+        min-width: 295px;
+        padding-left: 2rem;
+      }
+    }
+  }
+}
+.scroll-button-wrap {
+  .to-top {
+    width: 8.5rem;
+    &.show {
+      border: 0;
+      background: 0 0;
+    }
+  }
+}
+
+.content,
+.rich-text {
+  h3,
+  h4,
+  p {
+    margin: 0 0 10px;
+  }
+}
+.on-page-editor {
+  .submenu-utility-linklist {
+    position: static !important;
+  }
+  .item {
+    padding: 15px !important;
+  }
+  .solutions-browser > .score-center {
+    display: flex;
+    flex-wrap: wrap;
+    .score-highlight {
+      max-width: 350px;
+    }
+  }
+}
+
+.light-green-bg {
+  background-color: $light-green;
+  p {
+    color: $dark-green !important;
+  }
+}
+.dark-green-bg {
+  background-color: $dark-green;
+  p {
+    color: $white !important;
+  }
+}
+

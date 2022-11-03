@@ -1,0 +1,27 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.link,
+.sxa-btn .sxa-btn-primary {
+  a {
+    @include Arial-narrow-font-stack();
+    border-radius: 10px;
+    background-color: $anchor-primary;
+    font-size: 3.8rem;
+    font-weight: bold;
+    line-height: 38px;
+    color: $white;
+    padding: 17px 45px;
+    border: none;
+    transition: background-color ease-in-out 250ms;
+    margin: 0px;
+
+    &:hover {
+      background-color: $btn-hover;
+      color: $white;
+      text-decoration: none;
+    }
+  }
+}
+
+@import "styles/forms/*";

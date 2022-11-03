@@ -1,0 +1,48 @@
+@import "abstracts/mixins";
+@import "abstracts/vars";
+
+.component {
+  &.image {
+    &.scroll-button-wrap {
+      a {
+        position: fixed;
+        transform: translate(0, 50px);
+        width: 50px;
+        right: 25px;
+        bottom: 70px;
+        border-radius: 0;
+        border: 0;
+        cursor: default;
+        background: $text-heading-blue;
+        margin-bottom: 0;
+        padding: 0px;
+        img {
+          margin-bottom: -6px;
+        }
+      }
+    }
+    @include respond-to(desktop) {
+      &.secondary {
+        &:first-child {
+          padding-right: 0;
+        }
+        &:last-child {
+          padding-left: 0;
+        }
+      }
+    }
+  }
+  &.error-404 {
+    @include respond-to(desktop) {
+      .component {
+        &.image {
+          a {
+            position: relative;
+            left: 40%;
+            cursor: default;
+          }
+        }
+      }
+    }
+  }
+}

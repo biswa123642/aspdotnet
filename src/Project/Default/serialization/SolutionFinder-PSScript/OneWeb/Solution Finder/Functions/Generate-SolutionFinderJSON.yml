@@ -1,0 +1,356 @@
+﻿---
+ID: "4fec3292-a874-4fbc-8794-8f7808dfdd43"
+Parent: "8f3e0963-8999-4403-8652-b72815382797"
+Template: "dd22f1b3-bd87-4db2-9e7d-f7a496888d43"
+Path: "/sitecore/system/Modules/PowerShell/Script Library/OneWeb/Solution Finder/Functions/Generate-SolutionFinderJSON"
+SharedFields:
+- ID: "b1a94ff0-6897-47c0-9c51-aa6acb80b1f0"
+  Hint: Script
+  Value: |
+    function Generate-SolutionFinderJSON {
+    	[CmdletBinding()]
+    	param(
+    		[Parameter(Position = 0,Mandatory = $true,ValueFromPipeline = $true)]
+    		[ValidateNotNullOrEmpty()]
+    		[Sitecore.Data.Items.Item]$item,
+    		[Parameter(Position = 1,Mandatory = $true,ValueFromPipeline = $true)]
+            [string] $language
+    	)
+    
+        $DebugPreference = "SilentlyContinue"
+        $SPSFTemplate = get-item master: -ID "{B3A89C48-C0FA-438E-AD7D-383F2D8B44C1}"
+        $linkDb = [Sitecore.Globals]::LinkDatabase
+        $IncludeFolder = join-path $AppPath "App_Config/Include"
+    
+        if ($item.TemplateID -ne $SPSFTemplate.ID){ return "Item is not Single-Page Solution Finder" }
+        #"{0,-40} {1} " -f $item.ID, $item.FullPath
+    
+        cd $item.Paths.Path
+        $remainder = $item.Paths.Path
+    
+        # Find Brand and Market
+        $MarketRootItem = $null
+        $SiteRootItem = $null
+        $HomePageItem = $null
+        Do {
+            $remainder = Split-Path -Path $remainder -Parent
+          
+            $remainderItem = Get-Item -Path $remainder
+    
+            if ($remainderItem.TemplateName -eq "Site"){
+                $SiteRootItem = $remainderItem
+            }
+        
+        } until (($remainder.Length) -le 1 -or ( $SiteRootItem -ne $null ))
+        
+        
+        $siteGroup = $SiteRootItem.Paths.FullPath + "/Settings/Site Grouping"
+        $siteDefinition = Get-ChildItem -Path $siteGroup | Where-Object {$_.TemplateName -eq "Site Definition"}
+        $HomePageItem = Get-ChildItem -Path $SiteRootItem.Paths.FullPath -Language $language | Where-Object {$_.TemplateName -eq "Home"}
+        $sitename = $siteDefinition["SiteName"]
+      
+        if ($SiteRootItem -eq $null ){ return "Can't find Brand `n$( $item.Paths.Path )" }
+        $SiteRootName = $SiteRootItem.Name
+        
+        [Sitecore.Context]::SetActiveSite($sitename)
+        $urlop = New-Object ([Sitecore.Links.UrlOptions]::DefaultOptions)
+        $urlop.AddAspxExtension = $false
+        $urlop.AlwaysIncludeServerUrl = $true
+        $urlop.LanguageEmbedding = "asNeeded"
+        $urlop.SiteResolving = $true
+        $urlop.Language = $language
+        
+        $BaseURL = [Sitecore.Links.LinkManager]::GetItemUrl($HomePageItem,$urlop)
+        
+        Write-Host $BaseURL
+        
+        # Build Question Array
+        $questionArray = @()
+        $questions = Get-ChildItem -Recurse -Language $language | Where-Object {$_.TemplateName -eq "Solution Finder Question"} | Sort-Object {[int]$_.Order}
+        if ($questions.Count -eq 0){ return "No questions defined for $($SiteRootItem)" }
+        foreach ($question in $questions){
+            $answerArray = @()
+            $answers = Get-ChildItem -Recurse -Language $language -Path ($question.Fullpath) | Where-Object {$_.TemplateName -eq "Solution Finder Answer"} | Sort-Object {[int]$_.Order}
+            foreach ($answer in $answers){
+                $imageID = $answer.Image
+        
+                try {
+                    $imageID =  $imageID.Substring([math]::max( 0, $imageID.IndexOf("{")),38)
+                }
+                catch {}
+                
+                try {
+                    $media = Get-item master: -ID $imageID -Language $language
+                    $imagesstr = $media.FullPath -replace "/sitecore/media library/","../-/media/"
+                }
+                catch {
+                    $imagesstr = "../-/media/Project/OneWeb/Default/Images/NoImage/noimage_640x400.png"
+                }
+        
+                $overrideArray = @()
+        	    if (($answer."OverrideNext").Length -gt 0){
+        	        $overrideArray += [pscustomobject]@{
+                	    "text" = $answer."OverrideNext"
+                	}
+        	    }
+        
+                $requiredAnswerArray = @()
+                $requiredAnswerInterimArray = @()
+        	    if (($answer."RequiredAnswers").Length -gt 0){
+        	        $RequiredAnswers = $answer."RequiredAnswers" -split "\|" | Where-Object {$_}
+        	        foreach ($RequiredAnswer in $RequiredAnswers){
+        	            $RequiredAnswerItem = Get-Item master: -ID $RequiredAnswer.ToString() -Language $language
+        	            $RequiredAnswerQuestionItem = Get-Item master: -ID ($RequiredAnswerItem.ParentID.ToString()) -Language $language
+        	            $requiredAnswerInterimArray += [pscustomobject]@{
+                	        "question" = $RequiredAnswerQuestionItem.Name
+                	        "answer" = $RequiredAnswerItem.Value
+                	    }
+        	        }
+        	        
+        	        $requiredAnswerInterimArray = $requiredAnswerInterimArray | Sort-Object -Property question
+        	        $PreviousRequiredAnswerQuestion = $null
+        	        $validAnswerArray = @()
+        	        foreach ($requiredAnswerInterim in $requiredAnswerInterimArray){
+        	            $RequiredAnswerQuestion = $requiredAnswerInterim.question
+        	            if ($PreviousRequiredAnswerQuestion -ne $RequiredAnswerQuestion -and $PreviousRequiredAnswerQuestion -ne $null){
+        	                $requiredAnswerArray += [pscustomobject]@{
+                                "question" = $PreviousRequiredAnswerQuestion
+                                "validAnswers" = $validAnswerArray
+        	                }
+                    	    $validAnswerArray = @()
+        	            }
+        	            $validAnswerArray += $requiredAnswerInterim.answer
+            
+        	            $PreviousRequiredAnswerQuestion = $RequiredAnswerQuestion
+        	        }
+        	        
+        	        # Write out the last entry
+                    $requiredAnswerArray += [pscustomobject]@{
+                        "question" = $PreviousRequiredAnswerQuestion
+                        "validAnswers" = $validAnswerArray
+                    }
+        	    }
+        
+        
+            	$answerArray += [pscustomobject]@{
+            	    "title" = $answer.Title 
+            	    "breadcrumb" = $answer."BreadcrumbTitle"
+            	    "answer" = $answer.Value
+            	    "image" = $imagesstr
+            	    "overrideNext" = $overrideArray
+            	    "requiresAnswer" = $requiredAnswerArray
+            	    "tooltip" = $answer."TooltipText"
+            	}
+            }
+           
+        	$questionArray += [pscustomobject]@{ "id" = $question.Name
+        	    "title" = $question."QuestionTitle"
+        	    "text" = $question."QuestionText"
+        	    "breadcrumb" = $question."BreadcrumbTitle"
+        	    "answers" = $answerArray
+        	}
+        }
+        
+        # Add solutions
+        $solutionArray = @()
+        $solutions = Get-ChildItem -Recurse -Language $language | Where-Object {$_.TemplateName -eq "Solution Finder Solution"} | Sort-Object {[int]$_.Order}
+        foreach ($solution in $solutions){
+            
+            # Get Required Answers
+            $requiredAnswerArray = @()
+            $requiredAnswerInterimArray = @()
+    	    if (($solution."RequiredAnswers").Length -gt 0){
+    	        $RequiredAnswers = $solution."RequiredAnswers" -split "\|" | Where-Object {$_}
+    	        foreach ($RequiredAnswer in $RequiredAnswers){
+    	            $RequiredAnswerItem = Get-Item master: -ID $RequiredAnswer.ToString() -Language $language
+    	            $RequiredAnswerQuestionItem = Get-Item master: -ID ($RequiredAnswerItem.ParentID.ToString()) -Language $language
+    	            $requiredAnswerInterimArray += [pscustomobject]@{
+            	        "question" = $RequiredAnswerQuestionItem.Name
+            	        "answer" = $RequiredAnswerItem.Value
+            	    }
+    	        }
+    	        
+    	        $requiredAnswerInterimArray = $requiredAnswerInterimArray | Sort-Object -Property question
+    	        $PreviousRequiredAnswerQuestion = $null
+    	        $validAnswerArray = @()
+    	        foreach ($requiredAnswerInterim in $requiredAnswerInterimArray){
+    	            $RequiredAnswerQuestion = $requiredAnswerInterim.question
+    	            if ($PreviousRequiredAnswerQuestion -ne $RequiredAnswerQuestion -and $PreviousRequiredAnswerQuestion -ne $null){
+    	                $requiredAnswerArray += [pscustomobject]@{
+                            "question" = $PreviousRequiredAnswerQuestion
+                            "validAnswers" = $validAnswerArray
+    	                }
+                	    $validAnswerArray = @()
+    	            }
+    	            $validAnswerArray += $requiredAnswerInterim.answer
+        
+    	            $PreviousRequiredAnswerQuestion = $RequiredAnswerQuestion
+    	        }
+    	        
+    	        # Write out the last entry
+                $requiredAnswerArray += [pscustomobject]@{
+                    "question" = $PreviousRequiredAnswerQuestion
+                    "validAnswers" = $validAnswerArray
+                }
+    	    }
+    
+            # Get Excluded Answers
+            $excludedAnswerArray = @()
+            $excludedAnswerInterimArray = @()
+    	    if (($solution."ExcludedAnswers").Length -gt 0){
+    	        $ExcludedAnswers = $solution."ExcludedAnswers" -split "\|" | Where-Object {$_}
+    	        foreach ($ExcludedAnswer in $ExcludedAnswers){
+    	            $ExcludedAnswerItem = Get-Item master: -ID $ExcludedAnswer.ToString() -Language $language
+    	            $ExcludedAnswerQuestionItem = Get-Item master: -ID ($ExcludedAnswerItem.ParentID.ToString()) -Language $language
+    	            $excludedAnswerInterimArray += [pscustomobject]@{
+            	        "question" = $ExcludedAnswerQuestionItem.Name
+            	        "answer" = $ExcludedAnswerItem.Value
+            	    }
+    	        }
+    	        
+    	        $excludedAnswerInterimArray = $excludedAnswerInterimArray | Sort-Object -Property question
+    	        $PreviousExcludedAnswerQuestion = $null
+    	        $validAnswerArray = @()
+    	        foreach ($excludedAnswerInterim in $excludedAnswerInterimArray){
+    	            $ExcludedAnswerQuestion = $excludedAnswerInterim.question
+    	            if ($PreviousExcludedAnswerQuestion -ne $ExcludedAnswerQuestion -and $PreviousExcludedAnswerQuestion -ne $null){
+    	                $excludedAnswerArray += [pscustomobject]@{
+                            "question" = $PreviousExcludedAnswerQuestion
+                            "excludedAnswers" = $validAnswerArray
+    	                }
+                	    $validAnswerArray = @()
+    	            }
+    	            $validAnswerArray += $excludedAnswerInterim.answer
+        
+    	            $PreviousExcludedAnswerQuestion = $ExcludedAnswerQuestion
+    	        }
+    	        
+    	        # Write out the last entry
+                $excludedAnswerArray += [pscustomobject]@{
+                    "question" = $PreviousExcludedAnswerQuestion
+                    "excludedAnswers" = $validAnswerArray
+                }
+    	    }
+    
+            $solutionProducts = $solution."SolutionProducts" -split "\|" | Where-Object {$_}
+            foreach ($solutionProduct in $solutionProducts){
+                $solutionItem = Get-Item master: -ID $solutionProduct.ToString() -Language $language
+                
+                $mediaList = $solutionItem.MediaList -split "\|" #| Where-Object {$_}
+                
+                $PDPItem = $solutionItem.Parent.Parent
+                
+                $imagesstr = ""
+                if($mediaList.Count -ne 0)
+                {
+                    try {
+                            $imageID =  $mediaList[0]
+                            $media = Get-item master: -ID $imageID -Language $language
+                            $imagesstr = ($media.FullPath) -replace "/sitecore/media library/","../-/media/"
+                    }
+                    catch {}
+                }
+                
+                # Find PDP for variant
+                $link = [Sitecore.Links.LinkManager]::GetItemUrl($PDPItem,$urlop)
+                
+                #$link = $link -Replace ([Sitecore.Links.LinkManager]::GetItemUrl($HomePageItem,$urlop)), "/"
+                
+                if (($solutionItem."VariantSKU").Length -gt 0){ $link = $link + "?sku=" + ($solutionItem."VariantSKU") }
+                
+                
+                # Use default image if one doesn't exist
+        	    if ($imagesstr.length -eq 0) { $imagesstr = "../-/media/Project/OneWeb/Default/Images/NoImage/noimage_640x400.png" }
+        
+            	$solutionArray += [pscustomobject]@{
+            	    "title" = (($solutionItem."VariantTitle") -replace "<.*?>" )
+            	    "text" = (($PDPItem."OpenGraphDescription") -replace "<.*?>" )
+            	    "image" = $imagesstr
+            	    "requiresAnswer" = $requiredAnswerArray
+            	    "excludeAnswer" = $excludedAnswerArray
+            	    "link" = $link
+            	}
+            }
+    
+            # Loop through solution articles
+            $solutionArticles = $solution."SolutionArticlesAndContent" -split "\|" | Where-Object {$_}
+            
+            foreach ($solutionArticle in $solutionArticles) {
+                $solutionItem = Get-Item master: -ID $solutionArticle.ToString() -Language $language
+               
+                $imagesstr = ""
+                $imageID = $solutionItem."DesktopImage"
+    
+    	        try {
+    	            $imageID =  $imageID.Substring([math]::max( 0, $imageID.IndexOf("{")),38)
+    	        } catch {}
+    	        
+                try {
+                    $media = Get-item master: -ID $imageID -Language $language
+                    $imagesstr = ($media.FullPath) -replace "/sitecore/media library/","../-/media/"
+                } catch {}
+                
+    
+                $link = [Sitecore.Links.LinkManager]::GetItemUrl($solutionItem,$urlop)
+                $link = $link -Replace ([Sitecore.Links.LinkManager]::GetItemUrl($HomePageItem,$urlop)), "/"
+                $link = $link -Replace "//", "/"
+                
+                # Use default image if one doesn't exist
+        	    if ($imagesstr.length -eq 0) { $imagesstr = "../-/media/Project/OneWeb/Default/Images/NoImage/noimage_640x400.png" }
+        	    
+            	$solutionArray += [pscustomobject]@{
+            	    "title" = (($solutionItem."Title") -replace "<.*?>" )
+            	    "text" = (($solutionItem."OpenGraphDescription") -replace "<.*?>" )
+            	    "image" = $imagesstr
+            	    "requiresAnswer" = $requiredAnswerArray
+            	    "excludeAnswer" = $excludedAnswerArray
+            	    "link" = $link
+            	}
+            }
+        }
+    
+    
+        $producttitleValue = $item."ProductSolutionTitle"
+    	$questionArray += [pscustomobject]@{ "id" = "products"
+    	    "title" = $producttitleValue
+    	    "text" = ""
+    	    "answers" = $solutionArray
+    	}
+        
+        # Enclose question array in "questions"
+        $completeJSON =  [pscustomobject]@{ "questions" = $questionArray }
+        
+        $item.Editing.BeginEdit()
+        $item."QuestionData" = ($completeJSON | ConvertTo-JSON -Compress -Depth 8)
+        $item.Editing.EndEdit() > $null
+        
+         return "$($SiteRootItem) - Complete"
+    
+    }
+    
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220616T185548Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d1b5b8f4-ee2c-4ef0-b364-4b6b37f8ae97"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220905T104403Z

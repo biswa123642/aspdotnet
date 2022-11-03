@@ -1,0 +1,43 @@
+﻿@using Sitecore.XA.Foundation.MarkupDecorator.Extensions
+@using Sitecore.XA.Foundation.RenderingVariants.Extensions
+@using Sitecore.XA.Foundation.RenderingVariants.Fields
+@using Sitecore.XA.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.XA.Foundation.Variants.Abstractions.Fields
+@using Sitecore.Data.Items
+@model Sitecore.XA.Foundation.Variants.Abstractions.Models.VariantsRenderingModel
+
+@if (Model.DataSourceItem != null || Html.Sxa().IsEdit)
+{
+    <div @Html.Sxa().Component(Model.Rendering.RenderingCssClass ?? "video-playlist", Model.Attributes)>
+        <div class="component-content">
+            @if (Model.Rendering.DataSourceItem != null)
+            {
+                var items = Model.Rendering.DataSourceItem.HasChildren ? Model.Rendering.DataSourceItem.Children : null;
+                if (items != null)
+                {
+                    foreach (BaseVariantField variantField in Model.VariantFields)
+                    {
+                        @Html.RenderingVariants().RenderVariant(variantField, Model.Item, Model.RenderingWebEditingParams, Model)
+                    }
+                }
+                else
+                {
+
+                    using (Html.Sxa().BeginEditFrame(Html.Sitecore().CurrentRendering.DataSource, "Video Listing Empty", Model.IsControlEditable))
+                    {
+                        @Model.MessageIsEmpty
+                        if (Sitecore.Context.PageMode.IsExperienceEditor)
+                        {
+                            <span class="is-empty-hint">[No Videos Present]</span>
+                        }
+                    }
+                }
+            }
+            else
+            {
+                @Model.MessageIsEmpty
+                <p>no items present</p>
+            }
+        </div>
+    </div>
+}

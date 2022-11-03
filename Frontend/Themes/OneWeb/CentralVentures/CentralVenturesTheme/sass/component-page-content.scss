@@ -1,0 +1,47 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.content {
+        h1 {
+            font-size: 42px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: $text-basic;
+            padding: 2rem 1.5rem;
+            padding: 1.5rem 0;
+            line-height: 50px;
+
+            @include respond-to(tab) {
+                font-size: 5.5rem;
+            }
+        }
+
+        h2 {
+            font-size: 40px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: $text-basic;
+            padding: 2rem 1.5rem;
+            padding: .5rem 0;
+            line-height: 49px;
+        }
+
+        ol {
+            padding-left: 1.6rem;
+
+            li {
+                list-style-position: outside;
+                padding-bottom: .5rem;
+            }
+        }
+
+        p,
+        ol li {
+            font-size: 2rem;
+            color: $text-basic;
+            font-weight: 300;
+            line-height: 1.5;
+        }
+    }
+}

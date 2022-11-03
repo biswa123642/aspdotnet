@@ -1,0 +1,13 @@
+//Tropical
+
+@include respond-to(desktop) {
+  .tropical {
+    .back-issues-content {
+      .lf-content-wrapper {
+        padding-right: 50px;
+        width: 100%;
+        padding-left: 74px;
+      }
+    }
+  }
+}

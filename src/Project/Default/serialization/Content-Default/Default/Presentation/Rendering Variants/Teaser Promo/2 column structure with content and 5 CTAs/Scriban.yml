@@ -1,0 +1,82 @@
+﻿---
+ID: "ac0945d0-4f8c-45f2-b4f1-858f4b6baa6f"
+Parent: "05afe83d-a719-4ea9-ae39-d2b370e39995"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Teaser Promo/2 column structure with content and 5 CTAs/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    <div class="container image-with-cta">
+        <div class="row">
+            <div class="col-12 col-lg-6 content-left">
+                <div calss="row">
+                    <div class="col-12">
+                        <div class="row content-wrapper">
+                        <div class="col-lg-4 image-wrapper">
+                            {{if i_item.TeaserImage != ""}}
+                            {{sc_field i_item 'TeaserImage'}}
+                            {{end}}
+                        </div>
+                        <div class="col-lg-4 heading-wrapper">
+                            {{if i_item.Title != ""}}
+                            {{sc_field i_item 'Title'}}
+                            {{end}}
+                        </div>
+                        <div class="col-lg-4 link-wrapper">
+                            {{if i_item.FifthCTA.url != ""}}
+                            {{sc_field i_item 'FifthCTA'}}
+                            {{end}}
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 content-right">
+                <div class="button-wrapper">
+    
+                    {{if i_item.FirstCTA.url != ""}}
+                    {{sc_field i_item 'FirstCTA'}}
+                    {{end}}
+    
+                    {{if i_item.SecondCTA.url != ""}}
+                    {{sc_field i_item 'SecondCTA'}}
+                    {{end}}
+    
+                    {{if i_item.ThirdCTA.url != ""}}
+                    {{sc_field i_item 'ThirdCTA'}}
+                    {{end}}
+    
+                    {{if i_item.FourthCTA.url != ""}}
+                    {{sc_field i_item 'FourthCTA'}}
+                    {{end}}
+                </div>
+            </div>
+        </div>
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220905T103330Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b1fa7c98-a8ac-4e31-845e-b7f37bcb3519"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220912T104225Z

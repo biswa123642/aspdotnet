@@ -1,0 +1,96 @@
+﻿@model CGP.Feature.Integrations.Models.IntegrationsViewModel
+<meta charset="UTF-8">
+
+@if (Model.EnableCookiesBanner)
+{<!-- OneTrust Cookies Consent Notice start-->
+    <script type='text/javascript' src='https://cdn.cookielaw.org/consent/@Html.Raw(Model.OneTrustCookiesID)/OtAutoBlock.js'></script>
+    <script src='https://cdn.cookielaw.org/scripttemplates/otSDKStub.js' type='text/javascript' charset='UTF-8' data-domain-script='@Html.Raw(Model.OneTrustCookiesID)' data-ignore-ga='true'></script>
+    <script type='text/javascript'>function OptanonWrapper() { }</script>
+    <!-- OneTrust Cookies Consent Notice end-->
+}
+@if (Model.EnableGTM)
+{
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', '@Html.Raw(Model.GTMId)');</script>
+    <!-- END Google Tag Manager -->
+}
+@if (Model.EnableGA)
+{
+    <!-- GOOGLE ANALYTICS -->
+    if (!string.IsNullOrWhiteSpace(Model.GAIDGlobal))
+    {
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+            ga('create', '@Html.Raw(Model.GAIDGlobal)', 'auto', 'cgpGlobal');
+            ga('cgpGlobal.send', 'pageview');
+        </script>
+    }
+    if (!string.IsNullOrWhiteSpace(Model.GAID))
+    {
+        <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', '@Html.Raw(Model.GAID)', 'auto');
+        ga('require', 'linkid', 'linkid.js');
+        ga('require', 'displayfeatures');
+        ga('send', 'pageview');
+        setTimeout("ga('send','event','AdjustedBounceRate','time on page more than 0.25 minutes')", 15000);
+        </script>
+    }
+    <!-- END GOOGLE ANALYTICS -->
+}
+@if (Model.EnableWhereToBuy)
+{
+    <meta name="ps-key" content="@Model.WhereToBuy.Account-@Model.WhereToBuy.Config">
+    <meta name="ps-country" content="@Model.WhereToBuy.Country">
+    <meta name="ps-language" content="@Sitecore.Context.Language">
+    <script src="//cdn.pricespider.com/1/lib/ps-widget.js" async></script>
+}
+@if (Model.EnablePowerReviews && Model.IsProductDetailPage)
+{
+    <style type="text/css">
+        .p-w-r {
+            display: none;
+        }
+    </style>
+    <link href="https://ui.powerreviews.com/tag-builds/10329/4.0/styles.css" type="text/css" rel="stylesheet">
+    <script>
+        window.pwr = window.pwr || function () {
+            (pwr.q = pwr.q || []).push(arguments);
+        };
+        data = @Html.Raw(Model.PowerReviews);
+        pwr("render", data);
+    </script>
+}
+@if (Model.EnableSurveyPolls)
+{
+    <!-- Start of Survicate (www.survicate.com) code -->
+    <script type="text/javascript">
+        (function (w) {
+            var s = document.createElement('script');
+            s.src = 'https://survey.survicate.com/workspaces/@Model.SurveyPolls.SurvicateWorkspaceID/web_surveys.js';
+            s.async = true;
+            var e = document.getElementsByTagName('script')[0];
+            e.parentNode.insertBefore(s, e);
+        })(window);
+    </script>
+    <!-- End of Survicate code -->
+}
+@Html.Raw(Model.PageHeaderScripts)      

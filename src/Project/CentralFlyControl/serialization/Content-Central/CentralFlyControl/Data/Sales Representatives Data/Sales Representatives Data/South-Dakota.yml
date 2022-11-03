@@ -1,0 +1,38 @@
+﻿---
+ID: "1257a2c5-db8a-4283-9816-3d6ca3bcb627"
+Parent: "01385643-d840-4538-b6d9-476206829dc7"
+Template: "6e7840e3-5d65-44e8-b1dd-f418b11653d8"
+Path: "/sitecore/content/OneWeb/CentralFlyControl/Data/Sales Representatives Data/Sales Representatives Data/South-Dakota"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 4100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220429T044049Z
+    - ID: "89588acd-1d0d-4092-90c9-8831be0f26f0"
+      Hint: StateName
+      Value: South Dakota
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "730d054c-5837-493b-acb8-2757135b85c3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220929T132727Z
+    - ID: "e4c426fe-7336-4e80-8c2d-f89f02659a76"
+      Hint: SalesRepList
+      Value: |
+        {B5D5EB9E-7BFB-4454-AA52-21692A9D1D47}
+        {6DF70502-3A43-4756-BCB7-0E840A5ECE5C}
+    - ID: "fe92cf46-537c-4e47-8d4a-e418794d9780"
+      Hint: StateCode
+      Value: SD

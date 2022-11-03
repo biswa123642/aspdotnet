@@ -1,0 +1,20 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.scroll-button-wrap {
+    .to-top {
+      border: none;
+      background: none;
+      padding: 0;
+      right: 2rem;
+      bottom: 25rem;
+
+      @include respond-to(desktop) {
+        padding: 1.5rem;
+        bottom: 15rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+﻿---
+ID: "a2521f8d-21f5-47b5-9056-f1a27b69f13c"
+Parent: "0dffb156-d22c-4458-8525-38f49f1a63ff"
+Template: "2ad23d55-aecd-43dd-ae0d-72d2ebcba60f"
+Path: /sitecore/content/OneWeb/ComfortZone/Data/HTML Code/Header/Hamburger
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24cce27c-05db-4473-a1ed-e69b1725ff1c"
+      Hint: HtmlCode
+      Value: |
+        <button class="mobile-search-button mobile-search-toggle"></button>
+        <button type="button" data-toggle="collapse" data-target="#mm-bb907eb1-f5be-462b-a6a1-36b98f5659a6" class="score-hamburger hamburger navbar-toggle">
+        <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+        </button>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220929T050358Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "af9a3d50-fbdb-420a-8008-6b1ea6db4b43"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220929T050436Z

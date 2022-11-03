@@ -1,0 +1,166 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  .hubspot-form {
+    .hs-form-field {
+      margin: 2rem 0;
+    }
+
+    .hs-form {
+      .hs-input[type="radio"] {
+        appearance: auto;
+        min-width: auto;
+        width: auto;
+        box-shadow: none;
+      }
+
+      textarea,
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"] {
+        border: none;
+        height: auto;
+        padding: 0.8rem 1rem;
+        line-height: $line-height;
+        font-size: 1.4rem;
+        color: #555;
+        border-radius: 0;
+        box-shadow: none;
+        max-width: 100%;
+        @include Source-sans-pro-font();
+
+        &:focus {
+          border: none;
+          outline: 0;
+        }
+      }
+      input:not([type="image"]),
+      textarea.hs-input {
+        box-sizing: inherit;
+      }
+
+      .hs-form-booleancheckbox {
+        margin-left: 0;
+        width: auto;
+        label {
+          input[type="checkbox"].hs-input {
+            visibility: visible;
+            min-width: auto;
+            height: 2rem;
+            margin: 0;
+            background: none;
+            border: 1px solid $body-color;
+            appearance: auto;
+            &:focus {
+              box-shadow: none;
+            }
+          }
+          span {
+            font-weight: 400;
+          }
+        }
+      }
+      .input {
+        select {
+          background-image: url("../images/orange-down-arrow.png");
+          background-size: 17px 11px;
+          border: 1px solid $text-primary;
+          height: auto;
+          padding: 0.5rem 1.8rem;
+          line-height: $line-height;
+          font-size: 1.4rem;
+          color: $text-primary;
+          max-width: 100%;
+          @include Source-sans-pro-font();
+
+          &:focus {
+            border: 1px solid $text-secondary;
+            box-shadow: 0px 0px 6px 0px $text-secondary;
+          }
+        }
+      }
+
+      label {
+        margin-bottom: 5px;
+        span {
+          color: $text-primary;
+          font-weight: 700;
+          font-size: 1.5rem;
+          @include Source-sans-pro-font();
+        }
+      }
+      .hs-error-msgs {
+        li {
+          label {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: $text-secondary;
+            @include Source-sans-pro-font();
+          }
+        }
+      }
+
+      .form-columns-1 {
+        .input {
+          .hs-input,
+          input[type="email"] {
+            max-width: 100%;
+          }
+        }
+      }
+
+      .form-columns-2 {
+        .input {
+          .hs-input {
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    input[type="submit"] {
+      color: $white;
+      background-color: $text-secondary;
+      border-color: transparent;
+      box-shadow: none;
+      min-width: auto;
+      height: auto;
+      text-shadow: none;
+      font-size: 2rem;
+      font-weight: 600;
+      text-transform: none;
+      padding: 1rem 4rem;
+      border-radius: 2rem;
+      line-height: $line-height;
+      @include Source-sans-pro-font();
+      cursor: pointer;
+      &:hover,
+      &:active,
+      &:active:not(.inactive):not(.link) {
+        color: $white;
+        background-color: $text-secondary;
+        border-color: transparent;
+        box-shadow: none;
+        @include Source-sans-pro-font();
+      }
+    }
+
+    @include respond-to(desktop) {
+      .hs-form {
+        fieldset {
+          width: 75%;
+        }
+        .hs-form-booleancheckbox {
+          margin-left: 0;
+          label {
+            span {
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+}

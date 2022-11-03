@@ -1,0 +1,982 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.who-we-are {
+    .component {       
+
+        &.rich-text {
+            .body-copy {
+                .body-wrap {
+                    .body-content {
+                        img {
+                            object-fit: cover;
+                            min-height: 13.3rem;
+
+                            @include respond-to(desktop) {
+                                min-height: 16.5rem;
+                            }
+                        }
+                    }
+
+                    .caption {
+                        .subtitle {
+                            padding-top: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        @media screen and (max-width:991px) {
+            .sxa-btn.sxa-btn-bordered {
+                a {
+                    min-width: 16rem !important;
+                }
+            }
+        }
+    }
+}
+
+.csr-strategy {
+    .component {
+        &.teaser-promo {
+            &.variant-2 {
+                .content-right {
+                    .inner-wrap {
+                        .field-description {
+                            h2 {
+                                font-size: 3.92rem;
+                            }
+
+                            p {
+                                font-size: 2.1rem;
+                                font-weight: 500;
+                                line-height: 1.2;
+                            }
+
+                            li {
+                                list-style: disc;
+                                font-size: 2.1rem;
+                                margin-left: 3rem;
+                            }
+                        }
+                    }
+                }
+
+                @include respond-to(desktop) {
+                    figure {
+                        min-height: 47rem;
+                    }
+
+                    .content-right {
+                        .inner-wrap {
+                            .field-description {
+                                h2 {
+                                    font-size: 3vw;
+                                    line-height: 1.1;
+                                }
+
+                                p {
+                                    font-size: 1.96rem;
+                                }
+
+                                li {
+                                    font-size: 1.96rem;
+                                }
+
+                                h5 {
+                                    font-size: 2.8rem;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                @include respond-to(extra-large-desktop) {
+                    .content-right {
+                        .inner-wrap {
+                            .field-description {
+                                p {
+                                    font-size: 1.2vw;
+                                }
+
+                                li {
+                                    font-size: 1.2vw;
+                                }
+
+                                h5 {
+                                    font-size: 2vw;
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            &.variant-5 {
+                .inner-wrap {
+                    .col-left {
+                        //min-height: 80rem;
+
+                        .body-copy {
+                            width: 100%;
+                            padding: 3rem 0;
+
+                            .image-wrap {
+                                padding: 0;
+                                display: flex;
+                                flex-wrap: wrap;
+                                justify-content: center;
+
+                                >img {
+                                    max-width: 50%;
+                                    padding: 1rem;
+                                }
+                            }
+                        }
+
+                        @include respond-to(desktop) {
+                            min-height: 40rem;
+
+                            .body-copy {
+                                .image-wrap {
+                                    width: 70%;
+                                    margin: auto;
+
+                                    >img {
+                                        max-width: 28%;
+                                    }
+                                }
+                            }
+                        }
+
+                        @include respond-to(extra-large-desktop) {
+                            min-height: 50rem;
+
+                            .body-copy {
+                                .image-wrap {
+                                    >img {
+                                        padding: 2rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .col-right {
+                        .body-copy {
+                            h2 {
+                                font-size: 3.5rem;
+                                padding: 0 2rem;
+                                line-height: 1.2;
+
+                                @include respond-to(tab) {
+                                    font-size: 6vw;
+                                    padding: 0 5rem;
+                                }
+
+                                @include respond-to(desktop) {
+                                    font-size: 3vw;
+                                }
+                            }
+
+                            @media screen and (max-width:991px) {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+
+                &.social-responsibility {
+                    .inner-wrap {
+                        .col-left {
+                            min-height: 40.08rem;
+
+                            .body-copy {
+                                @media screen and (max-width:991px) {
+                                    position: absolute;
+                                    top: 80%;
+                                    transform: translateY(-50%);
+                                }
+
+                                h2 {
+                                    font-size: 4.2rem;
+                                    padding: 1.5rem;
+                                    line-height: 1.1;
+                                    text-align: left;
+                                }
+                            }
+                        }
+
+                        .col-right {
+                            background-color: $white;
+
+                            .body-copy {
+                                text-align: left;
+
+                                h2 {
+                                    font-weight: 800;
+                                    color: $dark-green;
+                                    @include fieldwork-hum-font-stack();
+                                    padding: 0;
+
+                                    @include respond-to(tab) {
+                                        font-size: 3.5rem;
+                                    }
+                                }
+
+                                p,
+                                li {
+                                    color: $dark-green;
+                                    font-size: 2.1rem;
+                                    line-height: 1.2;
+                                    font-weight: 500;
+                                    @include fieldwork-hum-font-stack();
+                                }
+
+                                li {
+                                    margin-left: 3rem;
+                                    list-style: disc;
+                                    padding-bottom: 1.5rem;
+                                }
+                            }
+                        }
+
+                        @include respond-to(desktop) {
+                            .col-left {
+                                min-height: 32.9rem;
+
+                                .body-copy {
+                                    top: 30%;
+                                    width: 75%;
+
+                                    h2 {
+                                        width: 70%;
+                                        font-size: 3vw;
+                                    }
+                                }
+                            }
+
+                            .col-right {
+                                .body-copy {
+                                    width: 100%;
+                                    padding: 2rem;
+
+                                    h2 {
+                                        font-size: 2.8rem;
+                                    }
+
+                                    p,
+                                    li {
+                                        font-size: 1.96rem;
+                                    }
+
+                                }
+                            }
+                        }
+
+                        @include respond-to(extra-large-desktop) {
+                            .col-right {
+                                .body-copy {
+                                    h2 {
+                                        font-size: 2vw;
+                                    }
+
+                                    p,
+                                    li {
+                                        font-size: 1.5vw;
+                                    }
+                                }
+                            }
+
+                            .col-left {
+                                min-height: 42rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.hero {
+            &.with-text {
+                @media screen and (max-width:767px) {
+                    .wrap {
+                        .field-herobannertitle {
+                            h1 {
+                                font-size: 4rem;
+                                font-weight: 600;
+                                padding: 0 3rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+.distribution {
+    .component {
+        &.teaser-promo {
+            &.variant-2 {
+                figure {
+                    &::before {
+                        display: block;
+                    }
+                }
+            }
+        }        
+
+        &.hero.with-text {
+            @media screen and (max-width:991px) {
+                .wrap {
+                    background-position: 70% 80%;
+
+                    .field-herobannertitle {
+                        top: 60%;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+.home-page {
+    .component {
+        &.teaser-promo {
+            &.variant-5 {
+                .inner-wrap {
+                    .col-right {
+                        .body-copy {
+                            width: calc(85% + 30px);
+
+                            @include respond-to(desktop) {
+                                width: 60%;
+                            }
+                        }
+                    }
+
+                }
+
+                &:not(.secondary) {
+                    .inner-wrap {
+                        .col-left {
+                            .body-copy {
+                                padding: 5rem 0;
+                            }
+                        }
+                    }
+                }
+
+
+                &.secondary {
+                    
+                    @include respond-to(desktop) {
+                        .inner-wrap {
+                            .col-right {
+                                .body-copy {
+                                    width: 55%;
+
+                                    p {
+                                        font-size: 1.3vw;
+                                        line-height: 1.3;
+                                    }
+
+                                }
+                            }
+
+                            .col-left {                              
+
+                                .body-copy {
+                                    h2 {
+                                        margin-bottom: 3rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    @include respond-to(extra-large-desktop) {
+                        .inner-wrap {
+                            .col-left {
+                                min-height: 60rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.hero {
+            &.with-text {
+                .wrap {
+                    .field-herobannertitle {
+
+                        h1 {
+                            padding: 0;
+                            font-size: 7vw;
+                        }
+                    }
+
+                    @include respond-to (desktop) {
+                        min-height: 70.7rem;
+
+                        .field-herobannertitle {
+
+                            h1 {
+                                font-size: 5vw;
+                            }
+                        }
+                    }
+
+                    @include respond-to (extra-large-desktop) {
+                        min-height: 100.7rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.central-family {
+    .component {
+        &.teaser-promo {
+            &.variant-5 {
+                .inner-wrap {
+                    .col-right {
+                        background-color: $white;
+
+                        .body-copy {
+
+                            h2 {
+                                line-height: 1.1;
+                                font-size: 3.2rem;
+                                color: $dark-green;
+                            }
+
+                            p {
+                                color: $color-secondary;
+                                font-size: 1.92rem;
+                                line-height: 1.428;
+                                padding: 0;
+                            }
+                        }
+                    }
+
+                    .col-left {
+
+                        .body-copy {
+                            padding: 3rem 0;
+                            display: flex;
+                            flex-direction: column-reverse;
+                            width: calc(100% - 3rem);
+                            bottom: 0;
+
+                            p {
+                                text-align: left;
+                                font-size: 1.92rem;
+                                line-height: 1.428;
+                                font-weight: 400;
+                                padding-bottom: 2rem;
+                                margin: 0;
+                                width: 60%;
+                            }
+                        }
+                    }
+                }
+
+                @include respond-to(tab) {
+                    .inner-wrap {
+
+                        .col-left {
+
+                            .body-copy {
+                                p {
+                                    font-size: 3.2rem;
+                                    width: 53%;
+                                    padding-left: 2.2rem;
+                                }
+                            }
+                        }
+
+                    }
+                }
+
+                @include respond-to(desktop) {
+                    .inner-wrap {
+
+                        .col-left {
+                            min-height: 40rem;
+
+                            .body-copy {
+                                display: block;
+                                text-align: left;
+                                padding: 0 1.5rem;
+
+                                h2 {
+                                    font-size: 3vw;
+
+                                    img {
+                                        width: 40%;
+                                    }
+                                }
+
+                                p {
+                                    width: 100%;
+                                    padding: 0;
+                                    font-size: 1.6rem;
+                                }
+
+                            }
+                        }
+
+                        .col-right {
+                            .body-copy {
+                                width: 80%;
+
+                                h2 {
+                                    font-size: 3vw;
+                                }
+
+                            }
+                        }
+                    }
+                }
+
+                @include respond-to(extra-large-desktop) {
+                    .inner-wrap {
+                        .col-left {
+                            min-height: 53rem;
+                        }
+
+                        .col-right {
+                            .body-copy {
+                                p {
+                                    font-size: 2.24rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.rich-text {
+            h2 {
+                font-size: 3.2rem;
+            }
+
+            @include respond-to(tab) {
+                h2 {
+                    font-size: 4rem;
+                }
+            }
+
+            @include respond-to(desktop) {
+
+                &.secondary {
+                    position: static;
+                    transform: translate(0, 0);
+
+                    &.absolute-position-desktop {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                    }
+                }
+
+                h2 {
+                    font-size: 3vw;
+                }
+            }
+
+            @include respond-to(extra-large-desktop) {
+                &.secondary {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+
+                    p {
+                        font-size: 2.24rem;
+                    }
+                }
+            }
+
+            padding: 3rem 1.5rem;
+
+            .component-content {
+                p {
+
+                    &:before,
+                    &:after {
+                        font-family: Georgia, sans-serif;
+                        content: "\201c";
+                        color: #006E43;
+                        font-size: 3em;
+                        line-height: 0em;
+                        margin-right: 0.2rem;
+                        vertical-align: -0.45em;
+                        display: inline;
+                    }
+
+                    &:after {
+                        content: "\201D";
+                    }
+                }
+            }
+        }
+
+        &.video {
+            @include respond-to(desktop) {}
+        }
+
+        &.hero {
+            &.with-text {
+                @include respond-to(desktop) {
+                    .wrap {
+                        background-position: 50% 20%;
+                    }
+                }
+
+            }
+        }
+
+        &.hero-carousel {
+            &.with-image-left {
+                .image-hoder {
+                    padding: 1.5rem 1.5rem 0;
+                }
+
+                @include respond-to(desktop) {
+                    .image-hoder {
+                        max-width: 80%;
+                    }
+
+                    .container {
+                        padding: 0;
+                    }
+                }
+            }
+
+        }
+
+    }
+}
+
+.career-with-central {
+    .component {
+        &.teaser-promo {
+            &.variant-5 {
+                .inner-wrap {
+
+                    .col-right,
+                    .col-left {
+
+                        .body-copy {
+                            h2 {
+                                line-height: 1.1;
+                                font-size: 3.2rem;
+                            }
+                        }
+                    }
+
+                }
+
+                &:not(.secondary) {
+                    .inner-wrap {
+                        .col-right {
+                            background-color: $white;
+
+                            .body-copy {
+                                h2 {
+                                    color: $dark-green;
+                                }
+
+                                .sxa-btn {
+                                    a {
+                                        color: $dark-green;
+                                        border-color: $dark-green;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                @include respond-to(tab) {
+                    .inner-wrap {
+
+                        .col-left,
+                        .col-right {
+                            .body-copy {
+                                h2 {
+                                    font-size: 4rem;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                @include respond-to(desktop) {
+                    .inner-wrap {
+
+                        .col-left,
+                        .col-right {
+                            .body-copy {
+                                h2 {
+                                    font-size: 3vw;
+                                    margin-bottom: 3rem;
+                                }
+                            }
+                        }
+
+                        .col-left {
+                            min-height: 43rem;
+                        }
+                    }
+                }
+
+                @include respond-to(extra-large-desktop) {
+                    .inner-wrap {
+                        .col-left {
+                            min-height: 60rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.policies-practices {
+    //padding-top: 12.277rem;
+    // .component {
+    //     &.header-shell {
+    //         &.variant-3 {
+    //             background-color: $dark-green;
+    //         }
+    //     }
+    // }
+
+    .component {
+        &.teaser-promo {
+            &.variant-5 {
+                .inner-wrap {
+                    .col-right {
+                        .body-copy {
+                            text-align: left;
+
+                            h2 {
+                                @include fieldwork-hum-font-stack();
+                                font-size: 3.5rem;
+                                line-height: 1.1;
+                            }
+
+                            p {
+                                font-size: 1.92rem;
+                                @include fieldwork-hum-font-stack();
+                                font-weight: 200;
+                                line-height: 1.428;
+                                padding-bottom: 0;
+                            }
+
+                            @include respond-to(desktop) {
+                                h2 {
+                                    font-size: 3vw;
+                                }
+
+                                p {
+                                    font-size: 1.76rem;
+                                }
+                            }
+
+                            @include respond-to(extra-large-desktop) {
+                                p {
+                                    font-size: 2.4rem;
+                                }
+                            }
+                        }
+                    }
+
+                    .col-left {
+                        min-height: 40rem;
+                    }
+
+
+                }
+
+                &.content-wrap {
+                    .inner-wrap {
+                        .col-left {
+                            background: $light-green;
+
+                            &::before {
+                                display: none;
+                            }
+
+                            .body-copy {
+                                text-align: left;
+                                width: 100%;
+                                padding: 0 2rem;
+
+                                p {
+                                    color: $dark-green ;
+                                    font-size: 1.92rem;
+                                    font-weight: 700;
+                                    word-break: break-word;
+                                    @include fieldwork-hum-font-stack();
+
+                                    a {
+                                        text-decoration: underline;
+                                        font: inherit;
+                                        color: inherit;
+                                    }
+
+                                }
+                            }
+
+                            @include respond-to(tab) {
+                                min-height: 25rem;
+
+                                .body-copy {
+                                    width: 80%;
+                                }
+                            }
+
+                            @include respond-to(desktop) {
+                                min-height: 40rem;
+                            }
+                        }
+
+                        .col-right {
+                            background-color: $white;
+                            padding: 0 2rem;
+
+                            .body-copy {
+                                p {
+                                    font-size: 1.92rem;
+                                    color: $color-secondary;
+                                    font-weight: 600;
+                                    text-align: left;
+
+                                    span {
+                                        font: inherit;
+                                        color: $dark-green;
+
+                                        a {
+                                            color: $dark-green;
+                                            font-size: inherit;
+
+                                            strong {
+                                                color: inherit;
+                                                font-size: inherit;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.purpose-mission {
+    .component {
+        &.teaser-promo {
+            &.variant-2 {
+                .content-right {
+                    .inner-wrap {
+                        @include respond-to(desktop) {
+                            padding: 8rem 4rem;
+                        }
+
+                        @include respond-to(extra-large-desktop) {
+                            padding: 15rem 4rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        &.hero.with-text {
+            .wrap {
+                .field-herobannertitle {
+                    padding: 0 4rem;
+                }
+            }
+        }
+    }
+}
+
+.what-we-stand-for {
+    .component {
+        &.rich-text {
+            position: static;
+            overflow: hidden;
+            .text-wrapper {
+                display: block;
+
+                .left-wrap {
+                    text-align: center;
+
+                    @include respond-to(tab) {
+                        text-align: left;
+                    }
+                }
+
+                .right-wrap {
+                    margin: auto;
+                    line-height: 0;
+                }
+
+                .right-wrap {
+
+                    @include respond-to(desktop) {
+                        text-align: right;
+                        position: absolute;
+                        bottom: 0;
+                        right: 5%;
+                        width: 40%;
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+.benefits {
+    .component {
+        &.teaser-promo {
+            &.variant-2 {
+                @include respond-to(desktop) {
+                    .content-right {
+                        .inner-wrap {
+                            padding: 8rem 4rem;
+                        }
+                    }
+
+                    figure {
+                        min-height: 45rem;
+                    }
+                }
+
+                @include respond-to(extra-large-desktop) {
+                    figure {
+                        min-height: 54rem;
+                    }
+                }
+
+            }
+        }
+    }
+}

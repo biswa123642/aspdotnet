@@ -1,0 +1,34 @@
+﻿---
+ID: "3b72a3c4-c864-4dd6-8d1a-53271c2fa220"
+Parent: "5c681de4-8a1b-42ce-87cb-8733e567181c"
+Template: "20a8b875-b660-4893-91a7-b05f80e94666"
+Path: /sitecore/content/OneWeb/ComfortZone/Data/Linked Thumbnail List/Header/EducationCenter/Blog
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220928T101455Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "63be9a63-e9dd-446f-b450-913ad6ca226f"
+    - ID: "8daa9cfe-2ab1-4f9a-86ac-b2092acc9fde"
+      Hint: Link
+      Value: |
+        <link text="Blog" anchor="" linktype="internal" class="" title=""  querystring="" id="{08C45ED4-0623-4733-9046-E1ADBCBE0C91}" />
+    - ID: "9a5ce26a-e5f7-4528-b319-d23a1be1eede"
+      Hint: Description
+      Value: Blog
+    - ID: "b3524bdb-f8ec-4d85-a20b-ef5f2837d74f"
+      Hint: Image
+      Value: |
+        <image mediaid="{CD4245DE-E962-41D5-A4F1-56D8FC937EAB}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220928T101653Z

@@ -1,0 +1,13 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  &.image {
+    &.file-type-icon-media-link {
+      img {
+        margin-top: 11rem;
+        padding: 0px 5px;
+      }
+    }
+  }
+}

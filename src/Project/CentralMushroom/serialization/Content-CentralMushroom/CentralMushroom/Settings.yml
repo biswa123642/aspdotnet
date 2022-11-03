@@ -1,0 +1,63 @@
+﻿---
+ID: "78ffa327-f1d5-4179-9801-57c4324b53eb"
+Parent: "1bbd8677-1a73-4cd4-a2d2-999efb53ecd0"
+Template: "3845a334-0d01-4d82-80cf-ffae3ebd8754"
+Path: /sitecore/content/OneWeb/CentralMushroom/Settings
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "96e5e297-6fd1-46d6-8e92-b03e33a9376c"
+  Hint: Error404Page
+  Value: /sitecore/content/OneWeb/CentralMushroom/Home/ErrorPage
+- ID: "ad84cc6b-32ef-49d8-9326-916976cb2520"
+  Hint: Grid Mapping
+  Value: "%7bFE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3%7d%3d%257BFDFEE3CD-14DA-4485-B311-79F21BDE952D%257D"
+- ID: "af332c24-fe17-41e7-8caf-8e64c588fe72"
+  Hint: EditingTheme
+  Value: "{45017F77-224F-4A08-B4A3-B318E1B44593}"
+- ID: "b31a3b74-d75c-477a-be16-f44c4593dfe9"
+  Hint: Favicon
+  Value: |
+    <image mediaid="{7E18CEC8-6DEF-4F09-AD4E-33FF8113B6A3}" />
+- ID: "beeede03-ab13-4558-96f9-c3e8957b46f8"
+  Hint: Themes
+  Value: |
+    {6D2E5709-F3D0-45BA-A21A-6D9D038E729E}
+    {1BCA627A-1C4C-47BE-AF83-98B378C93879}
+- ID: "d91bf82c-0e2b-4b79-ae85-e54b9afd5026"
+  Hint: Error500Page
+  Value: /sitecore/content/OneWeb/CentralMushroom/Home/ErrorPage
+- ID: "e81e1f9e-8b87-495b-9cb7-84a2a23133be"
+  Hint: MediaLibrary
+  Value: "{EE82597E-0A8F-40A5-8C84-89B7FB487AEF}"
+- ID: "e8881464-38af-4655-be4a-ee10586578a2"
+  Hint: Templates
+  Value: "{ECED2D0F-DA91-49D8-B8CC-2620D520428A}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{3E739E69-859C-4694-8D14-2BA6CA779CC6}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220930T064724Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2eb3b9c3-e9ad-45c4-9750-e212e33bde67"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220930T123614Z

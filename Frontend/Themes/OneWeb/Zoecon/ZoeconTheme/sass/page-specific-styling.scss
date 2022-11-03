@@ -1,0 +1,54 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+.insect{
+    .component{
+        &.accordion{
+            margin-bottom: -3rem;
+            @include respond-to(desktop){
+                padding-top: 2rem;
+            }
+        }
+        &.file-type-icon-media-link{
+            a{
+                line-height: 0;
+            }
+        }
+        &.rich-text{
+            
+            h2{
+                padding-bottom: 2rem;
+                line-height: 1.1;
+            }            
+        }
+        
+         &.video{
+            padding: 0 1.5rem;
+         }
+    }
+    .border-bottom{
+
+        >div{
+         border-color: $secondary-border;
+         padding: 2rem 0;
+        }
+     }
+}
+
+.pro2pro{
+    .component{
+        &.hero{
+            @include respond-to(desktop){
+                padding-right: 15rem;
+            }
+        }
+    }
+}
+.homepage{
+    .component{
+        &.image:not(.col-12){
+            >.component-content{
+                line-height: 0;
+            }
+        }
+    }
+}

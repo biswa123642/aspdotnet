@@ -1,0 +1,17 @@
+// product description
+.product-wrapper {
+    h1 {
+        color: $text-secondary;
+        font-size: 3rem;
+    }
+    .body-copy {
+        color: #4a4a4c;
+    }
+    .description-list {
+        color: #4a4a4c;
+    }
+    li{
+        color: $text-secondary;
+    }
+}
+

@@ -1,0 +1,30 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+.component {
+  &.video {
+    padding: 0px;
+    .mejs-container {
+      width: 100% !important; //override inline styling of the component
+    }
+  }
+}
+.component {
+  .video-left {
+    .video {
+      min-width: 100%;
+    }
+  }
+}
+
+.mobile-youtube {
+  height: 210.938px;
+  min-width: 217px;
+  @include respond-to(large-desktop) {
+    height: 1080px;
+  }
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}

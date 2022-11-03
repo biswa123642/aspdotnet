@@ -1,0 +1,41 @@
+.component{
+    .video {
+        .component-content{
+            padding-bottom:4rem;
+            @media screen and(min-width:1024px) {
+                padding: 4rem;
+            }
+        }
+    }
+}
+
+.page-videolisting{
+    .component{
+        .video {
+            @media screen and(min-width:992px) {
+                padding:0;
+                .component-content{
+                    padding-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+.score-youtube-video{
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        border: 0;
+    }
+}

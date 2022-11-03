@@ -1,0 +1,26 @@
+{
+  "namespace": "Project.CentralFlyControl",
+  "references": [ "*Feature.*" ],
+  "items": {
+    "includes": [
+      {
+        "name": "Content-Central",
+        "path": "/sitecore/content/OneWeb/CentralFlyControl",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      },
+      {
+        "name": "MediaLibrary-Themes",
+        "path": "/sitecore/media library/Themes/OneWeb/CentralFlyControl",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      },
+      {
+        "name": "Central-Forms",
+        "path": "/sitecore/Forms/OneWeb/CentralFlyControl",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      }
+    ]
+  }
+}

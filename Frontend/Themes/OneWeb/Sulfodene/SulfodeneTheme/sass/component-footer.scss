@@ -1,0 +1,119 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+#footer {
+  .container-gray-background {
+    display: none;
+
+    @include respond-to(tab) {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      background-color: #edf2f4;
+      color: #000000;
+      display: block;
+
+      .link-list {
+        align-items: center;
+        margin: 0 auto;
+
+        ul {
+          margin-bottom: 0;
+
+          li {
+            .field-link {
+              margin-bottom: 0;
+              padding: 0 1.6rem;
+
+              a {
+                font-weight: normal !important;
+                // text-decoration: underline;
+                border: 0 !important;
+                font-size: 1.6rem;
+                color: #000000;
+                &:hover {
+                  color: #2b2d42;
+                  text-decoration: underline;
+                }
+              }
+            }
+          }
+
+          li.even {
+            &::before {
+              background: none !important;
+            }
+          }
+        }
+      }
+    }
+
+    @include respond-to(desktop) {
+      .link-list {
+        align-items: center;
+        margin: 0 auto;
+
+        ul {
+          margin-bottom: 0;
+
+          li {
+            .field-link {
+              padding: 0 2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .bg-color-black {
+    background-color: #2b2d42;
+    padding: 1.8rem 1.5rem;
+
+    .space-lg-top {
+      margin-top: 2rem;
+
+      img {
+        max-width: 225px;
+        margin: 2.4rem auto 0;
+      }
+    }
+
+    .rich-text {
+      .component-content {
+        color: #ffffff;
+        font-size: 1.6rem;
+      }
+    }
+
+    .link-list {
+      .component-content {
+        ul {
+          li {
+            &::after {
+              text-decoration: none;
+            }
+            .field-link {
+              a {
+                color: #ffffff;
+                font-size: 1.6rem;
+                padding: 0 1rem;
+                font-weight: 400;
+                &:hover {
+                  color: #ffffff;
+                  text-decoration: underline;
+                  border: none;
+                }
+                &:focus {
+                  color: #23527c;
+                }
+              }
+            }
+          }
+          li.even::before {
+            background-color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}

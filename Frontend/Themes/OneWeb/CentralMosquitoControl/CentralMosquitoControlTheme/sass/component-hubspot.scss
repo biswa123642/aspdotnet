@@ -1,0 +1,207 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.hubspot-form {
+        .hs-form label{
+            @include respond-to(all-mobile){
+                padding-top: 1rem;
+            }
+        }
+        a {
+            color: $link-blue;
+        }
+
+        .hs-form {
+
+            label:not(.hs-form-booleancheckbox-display) {
+
+                &.hs-error-msg,
+                span {
+                    color: $black;
+                    font-size: 1.6rem;
+                    font-weight: 700;
+                }
+            }
+
+            .input {
+
+                input,
+                select,
+                textarea {
+                    border-radius: 0;
+                    padding: 0 1rem;
+                    border-color: #707070;
+                    border-width: 1px !important;
+                    box-shadow: inset 0 1px 2px #0000001A;
+                }
+
+                select {
+                    background-image: url("../images/down-arrow.png") !important;
+                    background-position: 97% 50% !important;
+                    background-size: auto !important;     
+                    padding: .6rem 1.5rem;               
+                }
+
+                textarea {
+                    min-height: 10rem;
+                    padding: 2rem;
+                    padding: 2rem 1rem;
+                }
+
+
+            }
+
+            .hs-form-booleancheckbox-display {
+                font-size: 1.6rem;
+            }
+
+            .hs-form-booleancheckbox {
+                width: initial;
+
+                label {
+                    span {
+                        width: 100%;
+                        display: inline-block;
+                        margin: 0;
+                        padding: 0 2rem;
+                        color: $black;
+
+                        &::before {
+                            top: 0;
+                            margin-left: -37px;
+                        }
+
+                    }
+                }
+
+                label input[type=checkbox]:not(:checked)+span {
+                    &::before {
+                        background-image: url("../images/box-notchecked.png");
+                    }
+                }
+
+                label input[type=checkbox]:checked+span {
+                    &::before {
+                        background-image: url("../images/box-checked.png");
+                    }
+                }
+            }
+
+            input[type=submit] {
+                background-color: $white;
+                border: 4px solid #5eb383;
+                color: #5eb383 !important;
+                padding: .5rem 1.5rem;
+                font-size: 2rem !important;
+                font-weight: 900;
+                @include nunito-sans();
+                display: inline-block;
+                line-height: 1.428;
+                text-transform: uppercase;
+                text-decoration: none !important;
+                box-shadow: 0px 4px 12px #00000029;
+                cursor: pointer;
+                border-radius: 0;
+                height: auto;
+
+                &:hover {
+                    color: $hover-anchor  !important;
+                    text-decoration: none;
+                }
+            }
+
+            input[type=file] {
+                border-radius: 0;
+                padding: 0 1rem;
+                border: #707070 solid 1px;
+                border-width: 1px !important;
+                box-shadow: inset 0 1px 2px #0000001A;
+                padding-top: 5px;
+            }
+
+        }
+
+
+
+
+        input:not([type="submit"]),
+        select,
+        textarea,
+        .input {
+            width: 100% !important;
+            margin: 0 !important;
+            box-sizing: border-box !important;
+            max-width: initial !important;
+            min-height: 3.7rem;
+            line-height: 1.2 !important;
+        }
+
+        textarea {
+            height: 10rem;
+        }
+
+        @include respond-to(tab) {
+            fieldset {
+                padding-bottom: 1.5rem !important;
+
+                &.form-columns-2 {
+                    >div {
+                        &:first-child {
+                            padding-right: 1rem;
+                        }
+
+                        &:last-child {
+                            padding-left: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#vmap {
+    display: none;
+
+    @include respond-to(desktop) {
+        display: block;
+    }
+}
+
+#select-state {
+    border-radius: 0;
+    padding: 0 1rem;
+    border-color: #707070;
+    border-width: 1px !important;
+    box-shadow: inset 0 1px 2px #0000001A;
+    background-image: url("../images/down-arrow.png") !important;
+    background-position: 97% 50% !important;
+    background-size: auto !important;
+    min-height: 37px;
+    background-repeat: no-repeat;
+    width: 98%;
+    appearance: none;
+    font-size: 1.6rem;
+    color: #595a5c;
+
+    @include respond-to(desktop) {
+        display: none;
+    }
+}
+
+.reduced-risk-mosquito-control{
+    fieldset.form-columns-2{
+        
+        .hs-form-field{
+            width: 100% !important;
+            &:nth-child(even){
+                padding-left: 0 !important;
+            }
+            &:nth-child(odd){
+                padding-right: 0 !important;
+                padding-bottom: 1.5rem !important;
+            }
+        }
+    } 
+}

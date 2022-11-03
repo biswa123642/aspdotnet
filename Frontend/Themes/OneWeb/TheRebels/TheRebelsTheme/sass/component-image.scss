@@ -1,0 +1,30 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  &.image {
+    &.file-type-icon-media-link {
+      position: absolute;
+      z-index: 99;
+      &.header-image {
+        top: -84px;
+        z-index: 0;
+        a {
+          img {
+            height: 84px;
+            object-fit: cover;
+            cursor: auto;
+          }
+        }
+        @include respond-to(desktop) {
+          top: -387%;
+          a {
+            img {
+              height: 18rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+	"namespace": "Project.CentralMushroom",
+	"references": [ "Feature.*" ],
+	"items": {
+		"includes": [
+			{
+				"name": "Content-CentralMushroom",
+				"path": "/sitecore/content/OneWeb/CentralMushroom",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			{
+				"name": "MediaLibrary-CentralMushroom",
+				"path": "/sitecore/media library/Project/OneWeb/CentralMushroom",
+				"scope": "singleItem",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			 {
+			 	"name": "MediaLibrary-CentralMushroom-Themes",
+			 	"path": "/sitecore/media library/Themes/OneWeb/CentralMushroom",
+			 	"scope": "ItemAndDescendants",
+			 	"allowedPushOperations": "createUpdateAndDelete"
+			 },
+			{
+				"name": "Forms-CentralMushroom",
+				"path": "/sitecore/Forms/OneWeb/CentralMushroom",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			}
+		]
+	}
+}

@@ -1,0 +1,208 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.store-locator {
+    .component-title {
+      background-image: url(../images/grunge_box_lg.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      padding: 31px;
+      display: inline-block;
+      margin: 2rem 0 3rem 0;
+      h3 {
+        color: $white-color;
+        font-family: "chainprinter";
+        font-size: 4.17rem;
+        font-weight: normal;
+        text-decoration: none;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border: 0;
+        padding: 0;
+      }
+    }
+    .store-locator-info {
+      display: block;
+      margin-top: 0;
+      .search-store-form {
+        width: 100%;
+        padding: 0 0.5rem;
+        form {
+          float: left;
+          label {
+            color: $black;
+            font-family: "antique-olive", sans-serif;
+            font-size: 2rem;
+            font-weight: bold;
+            text-decoration: none;
+            display: flex;
+          }
+          #zipcode {
+            text-align: center;
+            color: #636569;
+            font-family: "Arial", sans-serif;
+            font-size: 1.67rem;
+            font-weight: normal;
+            text-decoration: none;
+            line-height: 5rem;
+            margin-bottom: 2rem;
+            max-width: 10rem;
+            height: 5rem;
+          }
+          #radius {
+            margin: 0px 20px;
+            color: #636569;
+            font-family: "Arial", sans-serif;
+            font-size: 1.67rem;
+            font-weight: normal;
+            text-decoration: none;
+            border: none;
+            height: 5rem;
+            width: auto;
+            option {
+              color: inherit;
+              text-align: left;
+            }
+          }
+          .btn-default {
+            border-color: transparent;
+            background-color: #000000;
+            color: #fcee21;
+            font-family: "john-doe";
+            font-size: 1.67rem;
+            font-weight: normal;
+            text-decoration: none;
+            line-height: 5rem;
+            border-width: 0px;
+            padding: 0px 10px 0px 10px;
+            border-image-width: 0px;
+            border-radius: 0px;
+            display: inline;
+            margin: 0;
+            height: auto;
+          }
+          .zip-error {
+            color: inherit;
+            float: inherit;
+            margin-right: 24%;
+          }
+        }
+      }
+      .storeResultsMapContainer {
+        width: 100%;
+        padding: 0;
+        #storeResultsMap {
+          min-height: 600px;
+          border: 5px solid #ffffff;
+          margin-bottom: 25px;
+          box-shadow: inset 0 0.2rem 0.6rem rgba(0, 0, 0, 0.25);
+        }
+      }
+      #search-result-list {
+        width: 100%;
+        padding: 4rem 0;
+        height: auto;
+        overflow: visible;
+        .store-wrapper {
+          padding: 1.14rem;
+          max-width: 50rem;
+          margin-left: auto;
+          margin-right: auto;
+          .store-marker {
+            color: inherit;
+            background-image: url(../images/WTB_Num_Dots.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            padding: 2.1rem;
+            margin: 0 2rem 0 0rem;
+            color: $white-color;
+            font-family: "john-doe";
+            font-size: 1.8rem;
+            font-weight: bold;
+            text-decoration: none;
+          }
+          .store-info {
+            font-family: "Arial", sans-serif;
+            padding-left: 4rem;
+            h4 {
+              color: $black;
+              font-size: 2.17rem;
+              font-weight: bold;
+            }
+            p {
+              color: $black;
+              font-size: 2rem;
+              font-weight: normal;
+              a {
+                padding: inherit;
+              }
+            }
+            .distance {
+              text-align: left;
+              display: flex;
+              flex-direction: column;
+            }
+            .directionsText {
+              display: block;
+              color: $red-text;
+              line-height: 15px;
+            }
+          }
+        }
+      }
+    }
+    @include respond-to(desktop) {
+      .component-title {
+        position: absolute;
+        top: 0;
+      }
+      .store-locator-info {
+        padding: 3rem 0;
+        .search-store-form {
+          padding: 0 15rem;
+          form {
+            float: right;
+          }
+        }
+        .storeResultsMapContainer {
+          padding: 2rem 0 0 5rem;
+          width: 50%;
+          display: inline;
+          float: left;
+        }
+        #search-result-list {
+          width: 50%;
+          display: inline;
+          float: right;
+          padding: 2rem 0 0 0;
+          overflow-x: hidden;
+          height: 60rem;
+          overflow-y: scroll;
+          .store-wrapper {
+            .store-info {
+              .distance {
+                text-align: right;
+                // position: absolute;
+                right: 56%;
+                margin-top: -6rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    @include respond-to(large-desktop) {
+      .component-title {
+        margin: 2rem 0 3rem 12%;
+      }
+    }
+    @include respond-to(extra-largedesktop) {
+      .component-title {
+        margin: 2rem 0 3rem 8.5%;
+      }
+    }
+  }
+}

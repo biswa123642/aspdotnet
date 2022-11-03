@@ -1,0 +1,86 @@
+﻿---
+ID: "b4abe570-ef44-4c57-835b-9d0348ef6493"
+Parent: "daa29cc1-1d8d-4485-8e00-4ae5d572f6e5"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Article Image Gallery/Article Image Gallery/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    {{if i_item.iscarousel.raw | string.contains "1" }}
+                {{cssclass = "iscarousel"}}
+    {{end}}
+    {{if i_item.ViewVideoFirst.raw | string.contains "1"}}       
+        {{medialist = sc_followmany i_page "MediaList" | array.sort "template_name" | array.reverse}} 
+    {{else}}            
+       {{medialist = sc_followmany i_page  "MediaList"}}           
+    {{end}}
+    {{if medialist != [] && medialist != [""] && (medialist | array.first) != ""}}
+          {{firstitem = medialist | array.first}}   
+          {{if firstitem.template_name != "Video"}}
+          <div class="image-placeholder">
+                {{sc_execute firstitem "Blob"}}
+          </div>
+          {{else if firstitem.template_name == "Video"}}
+          {{if firstitem.YouTubeID.raw!=""}}
+                <div class="image-placeholder">
+                      <iframe src="https://www.youtube.com/embed/{{firstitem.YouTubeID.raw}}?rel=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+          {{else}}
+                <div class="image-placeholder">
+                      <video controls>
+                      <source src="{{sc_follow firstitem "GalleryVideo" |sc_medialink}}" type="video/mp4">
+                      </video>
+                </div>
+          {{end}}
+          {{end}}
+          <div class="inner-wrap {{cssclass}}">
+          <div class ="image-container">
+                {{ for i_child in medialist }}
+                      {{if i_child.template_name != "Video"}}
+                      <div class="field-image product-tile">
+                            {{sc_execute i_child "Blob"}}
+                      </div>
+                      {{else if i_child.template_name == "Video"}}
+                      {{if i_child.YouTubeID.raw!=""}}
+                            <div class="video-checkbox product-tile">
+                                  <iframe src="https://www.youtube.com/embed/{{i_child.YouTubeID.raw}}?rel=0" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                      {{else}}
+                            <div class="internal video product-tile">
+                                  <video>
+                                  <source src="{{sc_follow i_child "GalleryVideo" |sc_medialink}}" type="video/mp4">
+                                  </video>
+                            </div>
+                      {{end}}
+                      {{end}}
+                {{end}}
+          </div>
+          </div>
+    {{end}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220603T092604Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d3de82cb-2b6b-4417-9728-448cedca16ba"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220705T060803Z

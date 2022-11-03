@@ -1,0 +1,51 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+.component {
+    &.global-search-listing {
+
+        #article-type,
+        #product-type,
+        #others-type,
+        #searchfilter {
+            .product-list {
+                .image-holder{
+                    border: none;
+                }
+                h3 {
+                    padding-bottom: 1rem;
+                    a {
+                        color: $link-blue;
+                        font-family: Arial, sans-serif;
+                        &:hover{
+                            text-decoration: underline;
+                            color: $link-hover;
+                        }
+                    }
+                }
+                p{
+                    font-size: 1.6rem;                   
+                    
+                }
+                .body-copy{
+                    padding-bottom: 1.5rem;                    
+                }
+            }
+        }
+        .component{
+            &.search-box{
+                margin-bottom: 2rem;
+                padding: 0 1.5rem;
+                .search-wrapper{
+                    .search-input-wrapper{
+                        input{
+                            padding: 1.2rem 2rem;
+                        }
+                        button{
+                            background-image: url('../images/search.svg');
+                        }
+                    }
+                }  
+            }
+        }
+    }
+}

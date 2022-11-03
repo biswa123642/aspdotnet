@@ -1,0 +1,55 @@
+﻿---
+ID: "82c36df9-ba57-408a-958f-f988e2d1c2a2"
+Parent: "5e732ae8-148e-4b84-ae04-97067fcaa79f"
+Template: "3c7c79e8-554d-46d9-bf1a-63da22a4ee6f"
+Path: /sitecore/content/OneWeb/ComfortZone/Data/Hero Carousel/HomePage/HomePage/Slide2
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Slide 2
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "007ef8df-edb2-4a64-a736-7a408093d2f5"
+      Hint: SlideImageMobile
+      Value: |
+        <image mediaid="{A006C73A-22A6-49A6-AA79-1715AEF620DB}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221007T061520Z
+    - ID: "3bfd4b9e-3049-4c8d-a9b5-6bebb83f895d"
+      Hint: SlideImage
+      Value: |
+        <image mediaid="{A006C73A-22A6-49A6-AA79-1715AEF620DB}" ></image>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4cdf6d3c-8d4f-40dd-aab6-d54c8cf9e1d3"
+    - ID: "a8933445-15ca-4e23-b171-a33892eb0ef8"
+      Hint: SlideCardTitle
+      Value: "IS CAT SCRATCHING AND SPRAYING A PROBLEM?"
+    - ID: "b34e88f9-8800-43b1-92b5-029fbfae12e9"
+      Hint: SlideCardLogo
+      Value: |
+        <image mediaid="{137FEE56-651C-4851-AF23-128EFC10786F}" ></image>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "bdb04894-83ee-4bf2-b582-f1a7bac2118c"
+      Hint: OverrideOverlayAlign
+      Value: "overlay-right"
+    - ID: "d691b058-6e52-4e4b-baae-a23aed9de6e0"
+      Hint: SlideCardSubText
+      Value: The presence of other cats and changes to a cat’s environment may cause your cat stress. These behaviors are their response to stress. Comfort Zone products can help.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221007T120747Z
+    - ID: "e10d2e79-68cc-438a-a732-abf80f62be76"
+      Hint: SlideCardCTA
+      Value: |
+        <link text="FIND YOUR SOLUTION" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{95006831-E2D2-472B-B252-90D4651F0CE4}" />

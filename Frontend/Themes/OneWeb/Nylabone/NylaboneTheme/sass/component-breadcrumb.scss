@@ -1,0 +1,39 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.breadcrumb {
+    li {
+      margin-left: 6px;
+      &:first-child{
+        margin-left: 0;
+      }
+    }
+    ol {
+      margin: 0px;
+      padding: 15px 0;
+    }
+
+    .breadcrumb-item {
+      a {
+        font-size: 1.2rem;
+        color: $breadcrumb-link;
+        font-weight: 400;
+        text-transform: capitalize;
+        line-height: 2.4rem;
+        &:hover {
+          color: $breadcrumb-link !important;
+          text-decoration: underline;
+        }
+      }
+      .separator {
+        font-size: 1.4rem;
+        color: $bg-basic-color-active;
+        font-weight: 400;
+        margin: auto;
+        padding: 0 0.5rem;
+      }
+    }
+  }
+}

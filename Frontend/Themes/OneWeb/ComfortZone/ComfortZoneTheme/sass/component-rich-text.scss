@@ -1,0 +1,64 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &content,
+    &.rich-text {     
+        .image-animation {
+            position: relative;
+            width: 100%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            .stacked-image {
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+            .animated-image {
+                opacity: 0;
+                transition: opacity ease-in-out 200ms;
+            }
+        }
+      
+    }
+
+    /*============================================
+            Basic content list style
+    ==============================================*/
+    &.linked-thumbnail.horizontal-list.quick-links,
+    &.content,
+    &.product-tab-accordion,
+    &.product-variant .variant-description,
+    &.rich-text {
+        ol:not([class]),
+        ul:not([class]) {
+            margin-top: 0;
+            margin-bottom: 10px;
+            padding: 0 0 0 4rem;
+            margin-left: 0;
+
+            li {
+                list-style-type: disc;
+                display: list-item;
+                list-style-position: outside;
+                font-size: 1.8rem;
+                margin-bottom: 0;
+                margin-left: 0;
+            }
+        }
+
+        ol:not([class]) {
+            li {
+                list-style: decimal;
+            }
+        }
+    }
+}
+@include respond-to(desktop) {
+    .component {
+        &.rich-text {
+         
+        }
+    }
+}

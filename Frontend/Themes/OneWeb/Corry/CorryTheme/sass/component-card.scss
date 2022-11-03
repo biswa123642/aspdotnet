@@ -1,0 +1,349 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+
+
+.component {
+
+    /*===========================================
+        product card
+    =============================================*/
+    .related-products,
+    &.product-details,
+    &.variant-1,
+    #product-type,
+    #article-type,
+    #others-type,
+    .product-result-tiles {
+
+        .product-card,
+        .cgp-product {
+            .body-copy {
+                font-size: 1.4rem;
+                line-height: 2rem;
+                @include Helvetica-font-stack();
+                padding-bottom: 1.5rem;
+
+                h3 {
+                    font-size: 2.4rem;
+                    line-height: 2.64rem;
+                    font-weight: 700;
+                    padding: 0;
+                    margin: 20px 0 10px 0;
+                    @include Roboto-font-stack();
+                    color: $secondary-color;
+                    background-color: transparent;
+
+                    a {
+                        color: inherit;
+                        text-transform: initial;
+                    }
+
+                    &:hover {
+                        color: $link-color-hover;
+
+                        a {
+                            color: inherit;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+
+        .result-count {
+            @include Helvetica-font-stack();
+            font-size: 1.4rem;
+            font-weight: 100;
+            font-style: italic;
+            padding-top: 0.5rem;
+        }
+
+        .popular-products {
+            .inner-wrap {
+                .product-card {
+                    .content-wrap {
+                        padding: 1rem;
+
+                        .body-copy {
+                            h3 {
+                                font-weight: 700;
+                                @include Roboto-font-stack();
+                                background: none;
+                                padding: 0;
+
+                                a {
+                                    color: $secondary-color;
+                                    font-family: inherit;
+                                    text-transform: uppercase;
+
+                                    &:hover {
+                                        text-decoration: underline;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /*===========================================
+        product card on listing page
+    =============================================*/
+    &.product-listing {
+        @include respond-to(tab) {
+            padding: 0 7.5rem;
+        }
+
+        #product-type,
+        #article-type,
+        #others-type,
+        .product-result-tiles {
+
+            .product-card,
+            .cgp-product {
+                display: flex;
+                flex-direction: row-reverse;
+                background: url('../images/site-bg/product_pod_BG.png') no-repeat center;
+                background-size: 100% 100%;
+                padding: 1rem;
+                min-height: 25rem;
+                margin-bottom: 1.5rem;
+
+                &.h-100 {
+                    height: auto !important;
+                }
+
+                .image-holder {
+                    position: relative;
+                    width: 50%;
+                    float: left;
+
+                    img {
+                        position: absolute;
+                        bottom: 1rem;
+                        right: -2rem;
+                        width: 18.5rem;
+                        max-width: 18.5rem;
+                    }
+                }
+
+                .body-copy {
+                    width: 50%;
+
+                    h3 {
+                        color: $black-color;
+                        font-size: 1.6rem;
+                        @include Roboto-font-stack();
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        margin-top: 0;
+
+                        &:hover {
+                            color: $black-color;
+                            text-decoration: underline;
+                            text-transform: inherit;
+                            a {
+                                color: inherit;
+                                text-decoration: inherit;
+                                text-transform: uppercase;
+                            }
+                        }
+                        a{
+                            text-transform: uppercase;
+                        }
+                        &::after{
+                            content: '';
+                            display: block;
+                            background-image: url('../images/site-bg/cta.png');
+                            position: absolute;
+                            height: 2rem;
+                            width: 100%;
+                            background-repeat: no-repeat;
+                            left: -0.3rem;
+                            bottom: -2rem;
+                        }
+                    }
+
+                }
+            }
+
+            .result-count {
+                display: none;
+            }
+        }
+
+        .copy-wrap {
+            .sxa-btn {
+                a {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    /*===========================================
+        product card on artical listing page
+    =============================================*/
+    &.article-listing {
+        padding: 0 1.5rem;
+
+        @include respond-to(desktop) {
+            padding: 0 12rem 3rem 12rem;
+        }
+
+        .product-wrap {
+            border: none;
+            box-shadow: none;
+            padding: 1rem 0;
+
+            @include respond-to(desktop) {
+                border-color: #000;
+                border-style: solid;
+                border-image: linear-gradient(rgba(0, 0, 0, .02), rgba(0, 0, 0, .25), rgba(0, 0, 0, .02)) 1 100%;
+                border-width: 0 1px 0 1px;
+                box-shadow: -60px 0 80px -90px #000, 60px 0 80px -90px #000;
+                padding: 1rem 4.5rem;
+            }
+
+            #product-type,
+            #article-type,
+            #others-type,
+            .product-result-tiles {
+
+                .product-card,
+                .cgp-product {
+                    padding-bottom: 1rem;
+
+                    .body-copy {
+                        h3 {
+                            &:hover {
+                                a {
+                                    color: inherit;
+                                }
+                            }
+                        }
+
+                        p {
+                            line-height: 1.4;
+                        }
+                    }
+                }
+
+                .card-body {
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+            }
+
+            .result-count {
+                display: none;
+            }
+        }
+    }
+
+    /*=======================================
+        Related Articles component
+=========================================*/
+    &.related-articles-horizontal-view {
+        .body-copy {
+            padding: 9px;
+            text-align: left;
+
+            h3 {
+                font-size: 2rem;
+                line-height: 1.5;
+                font-weight: 700;
+                margin-bottom: 1.6rem;
+                margin-top: 2rem;
+
+                a {
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    /*===========================================
+        Search Result Product Card
+    =============================================*/
+}
+
+.component {
+    &.article-listing {
+        #article-type {
+            ul.product-list li {
+                &.full-width {
+                    .body-copy {
+                        h3 {
+                            border-bottom: none;
+                            color: $footer-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include respond-to(tab) {
+    .component {
+
+        &.product-listing,
+        &.global-search-listing,
+        &.article-listing {
+
+            #product-type,
+            #article-type,
+            #others-type,
+            .product-result-tiles {
+                ul.product-list li {
+                    &.full-width {
+                        -ms-flex: 0 0 100%;
+                        flex: 0 0 100%;
+                        max-width: 100%;
+
+                        .cgp-product {
+                            display: flex;
+                            width: 100%;
+                            align-items: center;
+                            padding-bottom: 1rem;
+                        }
+
+                        .image-holder {
+                            width: 100%;
+                            padding-right: 22px;
+                            max-width: 214px;
+                        }
+
+                        .body-copy {
+                            @include Helvetica-font-stack();
+                            font-size: 1.8rem;
+                            line-height: 1.5;
+                            font-weight: 300;
+                            color: #0F273F;
+
+                            h3 {
+                                border-bottom: none;
+                                padding: 0;
+                                line-height: 1;
+                                font-size: 2.4rem;
+                                @include Roboto-font-stack();
+                                font-weight: 700;
+                                color: $footer-color;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+    }
+}

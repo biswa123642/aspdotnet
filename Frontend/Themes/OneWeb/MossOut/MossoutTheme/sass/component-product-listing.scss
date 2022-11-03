@@ -1,0 +1,60 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "base/fonts/fonts";
+
+.component {
+  &.product-listing {
+    padding-left: 6%;
+    padding-right: 6%;
+    .product-wrap {
+      .copy-wrap {
+        .sxa-btn {
+          a {
+            font-size: 1.8rem;
+            color: $secondary-color;
+            border: none;
+            padding: 0;
+            @include respond-to(desktop) {
+              border: 3px solid $heading1_color;
+              padding: 10px 15px;
+              @include Lato-font-stack();
+              background-color: $white;
+              color: $heading1_color;
+              text-transform: uppercase;
+              font-size: 1.68rem;
+              text-decoration: none;
+              font-weight: 800;
+            }
+          }
+        }
+      }
+      .result-count {
+        line-height: 1.42;
+        font-size: 1.8rem;
+        font-weight: 400;
+        color: $secondary-color;
+      }
+      .card-body {
+        ul {
+          li {
+            float: left;
+            margin-bottom: 15px;
+            padding-left: 7px;
+            padding-right: 7px;
+          }
+        }
+      }
+      .copy-wrap {
+        .sxa-btn {
+          margin-bottom: 20px;
+          margin-top: 20px;
+          text-align: end;
+
+          @include respond-to(desktop) {
+            text-align: start;
+          }
+        }
+      }
+    }
+  }
+}

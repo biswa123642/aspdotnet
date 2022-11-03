@@ -1,0 +1,17 @@
+@import "abstracts/vars";
+@import "abstracts/functions";
+
+
+.slick-dots {
+	li {
+
+		border: 1px solid $text-basic;
+		background-color: transparent;
+		border-radius: 0;
+
+		&.slick-active {
+			background-color: $text-basic;
+			border-color: $text-basic;
+		}
+	}
+}

@@ -1,0 +1,30 @@
+//Digital
+
+.digital {
+  @import "variants/component-about-us/variant-5.scss";
+  &.image-wrapper {
+    img {
+      position: absolute;
+      z-index: -1;
+      height: 100%;
+      width: auto;
+      object-fit: cover;
+    }
+  }
+  .back-issues {
+    color: $white;
+    .back-issues-content {
+      h1,
+      h3,
+      p,
+      a {
+        color: $white;
+      }
+    }
+  }
+  @include respond-to(desktop) {
+    .border-invert {
+      border-left: 1px solid #ffffff !important;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.page-not-found {
+  .component {
+    &.content {
+      .field-content {
+        text-align: center;
+        margin-bottom: 30px;
+        img {
+          margin: 40px auto;
+          display: block;
+          padding: 0 8px;
+        }
+        a {
+          background: $pink-color;
+          color: $white-color;
+          text-decoration: none;
+          border-radius: 4px;
+          padding: 8px 15px;
+          border: 1px solid $gray-color;
+          &:hover {
+            color: $black-light;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,110 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.hero {
+    &.hero-banner-image {
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+    }
+    &.with-alignment {
+      @include respond-to(desktop) {
+        margin-bottom: 5rem;
+      }
+      .body-copy {
+        position: static;
+        .hero-banner-title {
+          width: auto;
+          &.left-bottom {
+            @include respond-to(desktop) {
+              left: 4%;
+            }
+            h1 {
+              font-size: 4.4rem;
+              font-weight: 900;
+              @include urw-din-font-stack();
+            }
+          }
+        }
+      }
+    }
+    &.banner-with-content {
+      .banner-image {
+        @include respond-to(tab) {
+          background-position: center center;
+        }
+        @include respond-to(desktop) {
+          padding-top: 40%;
+          background-position: center top;
+          //height: 60rem;
+        }
+      }
+      .banner-content-wrapper {
+        @include din-14-stack();
+        border-radius: 0 0 1.2rem 1.2rem;
+        &.right-top {
+          height: 43.5%;
+          top: 21.6%;
+          width: 35%;
+          left: 50%;
+          @include respond-to(tab) {
+            top: auto;
+            height: auto;
+            width: 30%;
+            left: auto;
+            right: 5%;
+          }
+          @include respond-to(desktop) {
+            border-radius: 0 0 4rem 4rem;
+          }
+        }
+        &.blue-overlay {
+          background-color: $blue-overlay;
+        }
+        .hero-banner-title {
+          color: $white;
+          font-size: 0.9rem;
+          text-align: left;
+          margin: 1rem 0;
+
+          @include respond-to(tab) {
+            font-size: 1.8rem;
+          }
+
+          @include respond-to(desktop) {
+            //font-size: 3.1rem;
+            font-size: 2.3vw;
+            margin: 5rem 2rem 1rem;
+          }
+        }
+        .banner-cta-holder {
+          padding-top: 0;
+          @include respond-to(desktop) {
+            padding-bottom: 2rem;
+            display: block;
+          }
+          .hero-banner-cta {
+            a {
+              max-width: 100%;
+              font-size: 0.9rem;
+              font-weight: 800;
+              border: none;
+              padding: 1rem;
+              line-height: 1;
+
+              @include respond-to(desktop) {
+                font-size: 2.3vw;
+                line-height: 3.415rem;
+              }
+
+              @include respond-to(larger-desktop) {
+                line-height: 4.415rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

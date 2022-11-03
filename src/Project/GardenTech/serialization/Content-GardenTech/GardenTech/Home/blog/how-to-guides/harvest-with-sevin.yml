@@ -1,0 +1,244 @@
+﻿---
+ID: "4e056567-7a46-442a-af48-bf8ea6dccb6b"
+Parent: "39d6b444-9342-4677-8bc9-c401112ffde6"
+Template: "057af325-c948-4918-a4e4-2c3f6cf04524"
+Path: "/sitecore/content/OneWeb/GardenTech/Home/blog/how-to-guides/harvest-with-sevin"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{7D0EDF20-9CC0-4E87-A6F5-DF673E1B758E}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{1DF0BA1A-12A6-41D3-90F1-BA3A5C997844}"
+          p:before="*"
+          s:ds="{4A0D34FB-E8D6-49BE-8FBD-6E9AB1BB15F2}"
+          s:id="{4646BD4F-05FF-4A19-9600-4D74F2F1548B}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BEB20AD82-2FED-4C04-94BE-5A65B9C31EA3%7D&amp;Styles&amp;TitleHeadingLevel=%7B6A44D9C6-61F0-4B69-8E1A-FDC27F96BA0F%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-articledetails/container-1/column-2-4/container-22" />
+        <r
+          uid="{543341BA-BCF1-462E-9C67-606B5F8D5248}"
+          p:after="*[1=2]"
+          s:ds="{2557E717-573D-40D9-ADE8-801E9F0D2538}"
+          s:id="{4646BD4F-05FF-4A19-9600-4D74F2F1548B}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BEB20AD82-2FED-4C04-94BE-5A65B9C31EA3%7D&amp;Styles&amp;TitleHeadingLevel=%7B6A44D9C6-61F0-4B69-8E1A-FDC27F96BA0F%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/sxa-articledetails/container-1/column-2-4/container-22" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "05aba5ee-29d7-483d-82db-02ac84db238f"
+      Hint: AuthorName
+      Value: GardenTech
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{737A2352-B332-4D08-94A2-BC179B45A0CD}" alt="header image" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220623T060127Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "36aa965e-f5ea-4871-a55b-53e090d5026e"
+      Hint: ArticleType
+      Value: "{D91299FE-6FAD-4AC8-ACCA-37307276DC62}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Minimum Wait Time to Harvest After Using Sevin Pesticide
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: The length of time to wait to harvest fruit and vegetables after applying Sevin varies. Our guide breaks it down for you.
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <p>After all the hard work of maintaining your vegetable garden and protecting your crops for bugs, don&rsquo;t forget to check out your Pre-Harvest Interval (PHI) chart before harvesting. A pre-harvest interval chart has the minimum number of days you should wait before harvesting your fruits and vegetables after Sevin&reg; Bug Killer application. Always read the product label and follow the instructions carefully. Please refer to the Pre Harvest Chart below for your <a href="~/link.aspx?_id=D293E5B6BBEF4F05ACF96AA0AD2A8192&amp;_z=z">Sevin Ready-to-Use</a> liquids.</p>
+        <p style="text-align: center;">
+        <img alt="" src="~/media/352ECAD941F942E9A947AF386168BAA6.ashx" /></p>
+    - ID: "6dd157fe-8ea8-496a-b595-0e6a18489836"
+      Hint: ThumbnailImage
+      Value: |
+        <image mediaid="{737A2352-B332-4D08-94A2-BC179B45A0CD}" />
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: The length of time to wait to harvest fruit and vegetables after applying Sevin varies. Our guide breaks it down for you.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Minimum Wait Time to Harvest After Using Sevin Pesticide
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Minimum Wait Time to Harvest After Using Sevin Pesticide
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "29939a2e-3c70-4249-88e2-6ca9f5f31845"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{737A2352-B332-4D08-94A2-BC179B45A0CD}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220720T092531Z
+    - ID: "eaaa3bf1-4f5c-4f65-9f61-c6f234ffc31f"
+      Hint: BlogPostTopic
+      Value: "{35E8A3F7-0D39-42B6-ADA0-8D549F180D92}"
+    - ID: "f0d0a9d9-6b70-4a54-a04a-537c38d5b2e1"
+      Hint: RelatedArticlesLabel
+      Value: OTHER POSTS YOU MIGHT LIKE
+    - ID: "fb742e87-7bf7-4c72-97a9-987a40989ece"
+      Hint: RelatedArticles
+      Value: |
+        {6FE8B680-6CB1-4852-923C-EFC0F4ED3422}
+        {44093A28-7919-452B-A7BE-BCBCB56E3B76}
+        {E1CD4FBA-780E-4F6B-816B-7570BBF67744}
+        {D4281CA8-C92E-4A64-99AC-08413C00F96E}
+- Language: es
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "05aba5ee-29d7-483d-82db-02ac84db238f"
+      Hint: AuthorName
+      Value: GardenTech
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{737A2352-B332-4D08-94A2-BC179B45A0CD}" alt="header image" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220623T060127Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "36aa965e-f5ea-4871-a55b-53e090d5026e"
+      Hint: ArticleType
+      Value: "{D74C58AD-43ED-405A-BF7F-222F3DEF6FB9}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Tiempo de espera mínimo para cosechar después de usar el pesticida Sevin
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: El tiempo de espera para cosechar frutas y vegetales después de aplicar Sevin varía. Nuestra guía simplifica las cosas para usted.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <p>Despu&eacute;s de todo el esfuerzo para mantener su huerto de vegetales y proteger sus cultivos contra los insectos, no olvide consultar la tabla de intervalos previos a la cosecha (PHI) antes de cosechar sus frutos. Las tablas de intervalos previos a la cosecha mencionan la cantidad m&iacute;nima de d&iacute;as que deben transcurrir antes de cosechar sus frutas y vegetales despu&eacute;s de la aplicaci&oacute;n de un insecticida Sevin&reg;. Lea siempre las etiquetas de los productos y siga detenidamente las instrucciones. Por favor, consulte la tabla de intervalos previos a la cosecha que aparece m&aacute;s abajo para sus productos l&iacute;quidos <a href="~/link.aspx?_id=D293E5B6BBEF4F05ACF96AA0AD2A8192&amp;_z=z" target="_blank">Sevin listos para usar</a>.</p>
+        <p style="text-align: center;">
+        <img alt="" src="~/media/352ECAD941F942E9A947AF386168BAA6.ashx" />
+        </p>
+        <h2>Cosecha de cultivos tratados con Sevin</h2>
+        <p>1. Despu&eacute;s de sembrar su jard&iacute;n, aplique un insecticida Sevin&reg; listo para usar, concentrado o listo para rociar con el objetivo de eliminar las plagas de insectos y proteger sus cultivos comestibles del da&ntilde;o que ocasionan los insectos.</p>
+        <p>2. A medida que los cultivos crecen, mant&eacute;ngase alerta para detectar plagas de insectos y reaplique los insecticidas Sevin&reg; seg&uacute;n sea necesario cuando aparezcan las plagas; pero no m&aacute;s de una vez cada siete d&iacute;as.</p>
+        <p>3. Al acercarse el tiempo de la cosecha, preste especial atenci&oacute;n a la tabla de intervalos previos a la cosecha (PHI) en la etiqueta del producto Sevin&reg;. El intervalo previo a la cosecha es la cantidad m&iacute;nima de d&iacute;as que usted necesita esperar entre la aplicaci&oacute;n del pesticida y la cosecha del cultivo comestible. Siga estas indicaciones sobre los PHI para garantizar que sus cultivos tratados est&eacute;n listos para la mesa de su familia.</p>
+        <p><strong>Productos insecticidas l&iacute;quidos Sevin&reg;</strong></p>
+        <p><strong>Tabla de intervalos previos a la cosecha</strong></p>
+        <table>
+            <tbody>
+                <tr>
+                    <td><strong>Cultivos de huertos comestibles</strong></td>
+                    <td><strong>PHI</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Vegetales de la familia Brassica:</strong> Br&oacute;coli, col de Bruselas, repollo, coliflor, repollo chino (Bok Choy y Napa), berzas o acelgas, col rizada, colirr&aacute;bano y mostaza casta&ntilde;a</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td><strong>Ma&iacute;z</strong> (dulce)</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td><strong>Vegetales de las cucurbit&aacute;ceas:</strong> Mel&oacute;n cantalupo, pepino, mel&oacute;n chino, calabaza, calabac&iacute;n o calabaza de verano (incluyendo el calabac&iacute;n), calabac&iacute;n o calabaza de invierno y sand&iacute;a</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td><strong>Legumbres &ndash; Frijoles y guisantes suculentos y de vainas comestibles:</strong> Garbanzo, haba, arveja, guisante verde, frijol colorado, haba de Lima, habichuela o jud&iacute;a, ejote, tirabeque o guisante capuchino, guisante dulce y frijol de cera</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td><strong>Vegetales de legumbre &ndash; Frijoles secos y de vainas:</strong> Frijol adzuki, frijol carita, garbanzo, haba, frijol colorado, lenteja, frijol de Lima, frijol mungo, jud&iacute;a o frijol blanco y frijol pinto</td>
+                    <td>21</td>
+                </tr>
+                <tr>
+                    <td><strong>Vegetales de frutos:</strong> Pimiento, pimiento chili, berenjena, cereza de tierra, ocra, tomatillo y tomate</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td><strong>Vegetales de hojas:</strong> Ar&uacute;gula, cardo, apio, diente de le&oacute;n, endivia, hinojo de Florencia, lechuga (de cabeza y de hoja), perejil, achicoria roja, ruibarbo, espinaca y acelga</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Cacahuetes o man&iacute;es</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td><strong>Tub&eacute;rculos (excepto la remolacha de az&uacute;car):</strong> Alcachofa (china y de Jerusal&eacute;n), remolacha (de huerto), zanahoria, jengibre, ginseng, r&aacute;bano picante, chiriv&iacute;a o nabo, papa, r&aacute;bano, colinabo, escorzonera, batata o camote, c&uacute;rcuma, nabo y &ntilde;ame</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td><strong>Cultivos de bayas:</strong> Mora, mora roja, frambuesa roja y negra, ar&aacute;ndano azul, pasa de Corinto, baya del sa&uacute;co, uva crespa o grosella silvestre y ar&aacute;ndano</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td><strong>Drupas y mel&oacute;nides:</strong> Manzana, albaricoque, cereza (dulce y amarga), n&iacute;spero, espino de mayo, nectarina, pera oriental o pera nashi, melocot&oacute;n, pera, ciruela, ciruela albaricoque y membrillo</td>
+                    <td>14</td>
+                </tr>
+            </tbody>
+        </table>
+    - ID: "6dd157fe-8ea8-496a-b595-0e6a18489836"
+      Hint: ThumbnailImage
+      Value: |
+        <image mediaid="{737A2352-B332-4D08-94A2-BC179B45A0CD}" />
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: El tiempo de espera para cosechar frutas y vegetales después de aplicar Sevin varía. Nuestra guía simplifica las cosas para usted.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Tiempo de espera mínimo para cosechar después de usar el pesticida Sevin
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Tiempo de espera mínimo para cosechar después de usar el pesticida Sevin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c922a3f0-111f-4496-a55b-59988efd2d6f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{737A2352-B332-4D08-94A2-BC179B45A0CD}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220720T092427Z
+    - ID: "f0d0a9d9-6b70-4a54-a04a-537c38d5b2e1"
+      Hint: RelatedArticlesLabel
+      Value: OTRAS INFORMACIONES QUE PUDIERAN GUSTARLE
+    - ID: "fb742e87-7bf7-4c72-97a9-987a40989ece"
+      Hint: RelatedArticles
+      Value: |
+        {6FE8B680-6CB1-4852-923C-EFC0F4ED3422}
+        {44093A28-7919-452B-A7BE-BCBCB56E3B76}
+        {E1CD4FBA-780E-4F6B-816B-7570BBF67744}
+        {8BBCA442-A365-4705-85C0-93B96CDBD7ED}

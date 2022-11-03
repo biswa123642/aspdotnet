@@ -1,0 +1,107 @@
+﻿---
+ID: "c3d00f60-7b0b-41d6-86b1-102b52a9cc3b"
+Parent: "0ca24478-b30e-4505-97cd-faa2812ad694"
+Template: "3bc22e05-e1ff-45a6-b8c3-fcf4c8f84a43"
+Path: /sitecore/content/OneWeb/DMC/Home
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{B1FC75BF-497C-4DA2-B60D-A57FC4485BA7}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{3922D0C1-702A-4252-A7D3-08FDC794D6C7}"
+          p:before="*"
+          s:ds="{00DE6963-86D9-4F48-81EB-A80C164D732C}"
+          s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass&amp;FieldNames=%7BDD2A67DD-2C78-484F-9B69-9E17B40C4BD1%7D&amp;Styles=%7B1E0CCBD7-FB74-4369-9E61-64C07DCB4A10%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-2-1/row-1-5/container-6"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{C8BCDC91-C360-45EE-AB45-D06F18F98849}"
+          p:after="r[@uid='{3922D0C1-702A-4252-A7D3-08FDC794D6C7}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-2-1/row-1-5" />
+        <r
+          uid="{5BB40150-0984-48F1-8025-2D85A62790FA}"
+          p:after="r[@uid='{C8BCDC91-C360-45EE-AB45-D06F18F98849}']"
+          s:ds="{F55C1626-A976-4F87-A4E2-0550AF7CC1E2}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BB32A1687-CC70-459B-A8F1-C5627234A86A%7D&amp;Styles=%7B02D9660A-FBA8-42BC-BA8A-BC70682D6B2F%7D%7C%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D%7C%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-2-1/container-3"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{5F821C05-08F6-418F-9D5D-4501827A3878}"
+          p:after="r[@uid='{5BB40150-0984-48F1-8025-2D85A62790FA}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles=%7BB11AAAD5-4209-48A5-A88B-999930A4054F%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-2-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{62955721-85D6-4A16-B77B-D09431945487}"
+          p:after="r[@uid='{5F821C05-08F6-418F-9D5D-4501827A3878}']"
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{E3BFC37F-D465-4E1D-B939-8B786C4DAB38}"
+          p:after="r[@uid='{62955721-85D6-4A16-B77B-D09431945487}']"
+          s:ds="{A8B1CA1C-66A8-430B-9F43-FC7963B1F67D}"
+          s:id="{7561DEB5-5388-4A43-A4CB-353078D32352}"
+          s:par="Reset Caching Options&amp;Timeout=10000&amp;PauseOnHover&amp;Autoplay=1&amp;OverlayAlign=overlay-right&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B9E36A0B6-CE73-4CB4-885C-64BA29047D1D%7D&amp;Styles=%7B112EBFCC-ADB9-4934-84F5-1EEE23B085C9%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{092BD9A0-EEC0-414C-AF8D-7355A20C12EE}"
+          p:after="*[1=2]"
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{92EB9EFB-88D4-4089-82BE-AAD92D4FA24E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220804T101444Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: DMC
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Making Pet Beds Comfortable Since 1988 | Home | DMC
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f626e318-331d-4dcd-a432-b17da8e98875"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220825T094829Z

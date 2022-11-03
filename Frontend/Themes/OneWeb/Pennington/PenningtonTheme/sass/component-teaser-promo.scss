@@ -1,0 +1,14 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+    &.teaser-promo {
+
+        /* Banner with text and image */
+        &.variant-2 {
+            padding: 0 1.5rem;
+            @import "variants/component-teaser-promo/variant-2.scss";
+        }
+    }
+}

@@ -1,0 +1,104 @@
+@import "vars";
+
+/* breakpoints */
+
+$break-mobile: 767px;
+$break-small-device: 480px;
+$break-tab: 768px;
+$break-desktop: 992px;
+$break-tab-horizontal: 1024px;
+$break-mobile-horizontal: 640px;
+$large-desktop: 1200px;
+$extra-largedesktop: 1300px;
+$break-tab-horizontal-max: 1023px;
+$break-desktop-max: 991px;
+
+@mixin respond-to($media) {
+  @if $media==mobile {
+    @media only screen and (max-width: $break-mobile) {
+      @content;
+    }
+  }
+  @if $media==tab-horizontal {
+    @media only screen and (min-width: $break-tab-horizontal) {
+      @content;
+    }
+  }
+  @if $media==tab-horizontal-max {
+    @media only screen and (max-width: $break-tab-horizontal-max) {
+      @content;
+    }
+  }
+  @if $media==desktop-max {
+    @media only screen and (max-width: $break-desktop-max) {
+      @content;
+    }
+  }
+  @if $media==small-device {
+    @media only screen and (max-width: $break-small-device) {
+      @content;
+    }
+  }
+  @if $media==tab {
+    @media only screen and (min-width: $break-tab) {
+      @content;
+    }
+  } @else if $media==desktop {
+    @media only screen and (min-width: $break-desktop) {
+      @content;
+    }
+  } @else if $media==large-desktop {
+    @media only screen and (min-width: $large-desktop) {
+      @content;
+    }
+  } @else if $media==extra-largedesktop {
+    @media only screen and (min-width: $extra-largedesktop) {
+      @content;
+    }
+  } @else if $media==below-tab {
+    @media only screen and (max-width: 991px) {
+      @content;
+    }
+  } @else if $media==mob-horizontal {
+    @media only screen and (min-width: $break-mobile-horizontal) {
+      @content;
+    }
+  }
+}
+
+@mixin wrapper() {
+  max-width: 960px;
+  margin: 0 auto !important;
+}
+
+@mixin font-size($sizeValue: 1.6) {
+  font-size: $sizeValue + rem;
+}
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin Montserrat-font-stack() {
+  font-family: 'montserrat', sans-serif;
+}
+
+@mixin Lato-font-stack() {
+  font-family: 'lato', sans-serif;
+}
+
+@mixin Gotham-SSm-A-B-font-stack() {
+  font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;
+}
+
+@mixin Menlo-Courier-New-font-stack() {
+  font-family: "Menlo", "Monaco", "Consolas", "Courier New", monospace;
+}
+
+
+
+

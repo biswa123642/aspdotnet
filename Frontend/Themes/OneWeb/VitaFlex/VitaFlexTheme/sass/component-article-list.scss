@@ -1,0 +1,116 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  .container-color-background {
+    background-color: $light-gray;
+    margin-top: 10px;
+    @include respond-to(desktop) {
+      padding: 30px 0;
+    }
+    @include respond-to(tab-horizontal-max) {
+      padding: 30px;
+    }
+    .article-right {
+      padding: 0 30px 0 60px;
+      @include respond-to(tab-horizontal-max) {
+        padding: 0 30px 0 30px;
+      }
+      .bg-red {
+        background-color: $dark-red-color;
+        padding: 10px 30px;
+        ul {
+          li {
+            list-style: none;
+          }
+        }
+      }
+      .bg-red {
+        h3 {
+          @include Vita-din-2014-font-stack();
+          font-weight: 700;
+          font-size: 26px;
+        }
+      }
+      .bg-yellow {
+        h3 {
+          color: $white-color;
+          font-size: 2.6rem;
+          font-weight: 700;
+          @include Vita-din-2014-font-stack();
+        }
+        ul {
+          padding-bottom: 15px;
+          li {
+            list-style: none;
+          }
+        }
+      }
+    }
+
+    .product-list {
+      li {
+        padding: 0 15px 0 15px;
+        margin: 0 0 45px 0;
+        max-width: 100%;
+        .cgp-product {
+          background-color: $white-color;
+          padding: 30px 15px;
+          box-shadow: 0px 0px 15px 2px rgba(102, 102, 102, 0.5);
+          .image-holder {
+            a {
+              img {
+                @include respond-to(tab-horizontal-max) {
+                  display: block;
+                  margin: auto;
+                }
+              }
+            }
+          }
+        }
+        .body-copy {
+          p {
+            font-size: 1.4rem;
+          }
+        }
+      }
+    }
+    #article-type {
+      .product-list {
+        h3 {
+          a {
+            color: $dark-red-color;
+            font-weight: 700;
+            font-size: 1.6rem;
+          }
+        }
+      }
+    }
+  }
+  &.linked-thumbnail {
+    &.quick-links {
+      li {
+        list-style: none;
+      }
+      .QuickLink-Style {
+        margin: 5px 0;
+        a {
+          color: $white-color;
+          &:hover {
+            color: $gray-color !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+.banner-heading {
+  h1 {
+    text-align: center;
+    @include Vita-din-2014-font-stack();
+    margin: 30px 0 30px 0;
+    text-transform: uppercase;
+  }
+}
+

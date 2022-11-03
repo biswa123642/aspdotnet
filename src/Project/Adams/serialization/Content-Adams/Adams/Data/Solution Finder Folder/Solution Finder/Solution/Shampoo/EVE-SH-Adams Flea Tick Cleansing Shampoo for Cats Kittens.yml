@@ -1,0 +1,38 @@
+﻿---
+ID: "74c4b101-65c1-4c76-9539-f008cb282447"
+Parent: "565abba0-7654-4172-87f9-6aa1e368e9f6"
+Template: "8455b301-b57b-43ad-a4f4-4e83ffb31905"
+Path: "/sitecore/content/OneWeb/Adams/Data/Solution Finder Folder/Solution Finder/Solution/Shampoo/EVE-SH-Adams Flea Tick Cleansing Shampoo for Cats Kittens"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 125
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220719T121112Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1969d597-eef2-4914-b935-a27822020aa8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "cbb746c0-f90e-4acc-8bee-98084234b389"
+      Hint: SolutionProducts
+      Value: "{F4860806-B9AE-49DE-BE40-6C9B9FAD44E0}"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220720T063625Z
+    - ID: "ecff41e9-ad3e-4503-9b0c-0f5d2965c749"
+      Hint: RequiredAnswers
+      Value: |
+        {08B8EE50-E673-490E-8B0F-2DCF4AE0EE63}
+        {1393948A-BA6A-4B0F-A39E-E093DF3A2D2D}
+        {24F21D52-9EF8-4BD2-93EB-6E34AB1BAA8F}
+        {2999D71C-DF91-4003-A1C5-57CFB0851238}
+        {F7623212-26BD-4A44-A906-DC900586E785}

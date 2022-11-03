@@ -1,0 +1,42 @@
+﻿---
+ID: "dbadd91d-a922-4fc9-9be9-545c1d17cf2c"
+Parent: "b270249d-248a-4803-9c4e-86639aa9abef"
+Template: "f3e6da4e-5d19-49b8-9737-2ee2e9067757"
+Path: /sitecore/content/OneWeb/FourPaws/Data/Hero Banner/Brands/brand3
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220527T080608Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{4EB16A2A-0F71-4D7F-A2B1-ACA0AB506049}" ></image>
+    - ID: "41b17cd3-d543-4c7c-9bfa-b21765882326"
+      Hint: HeroImageMobile
+      Value: |
+        <image mediaid="{C8ADA76B-0167-4592-9F1E-FA4D36DD001C}" ></image>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a2678caa-7308-4ee1-ba13-4c2361177d31"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220701T064300Z
+    - ID: "e829eba5-21e1-443d-929c-71b8d331f023"
+      Hint: HeroBannerCTA
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{5455441E-A083-4827-A25B-2ACACC936EA0}" />

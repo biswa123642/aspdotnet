@@ -1,0 +1,45 @@
+﻿---
+ID: "9815113e-3c49-4fe1-82b5-f37cb7427e1f"
+Parent: "76ec1c60-0763-4b2f-b7ea-7b0f1e10b007"
+Template: "a14d9266-1924-4e7f-87cc-760e2f8429ce"
+Path: /sitecore/content/OneWeb/ComfortZone/Data/Feature Content Tiles/ComfortYourCat/ComfortYourCat/CatPeeingOutsideLitterBox
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 2
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Cat Peeing Outside Litter Box
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1e4da860-d6cf-4956-8d76-66331aa43cd0"
+      Hint: SubText
+      Value: Walking into a room and being hit with the distinctive odor of cat pee can be quite unpleasant. Unfortunately, stressed kitties might pee in lots of places where they shouldn't. This guide can help you identify and reduce the issue.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220927T053903Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "934961b2-3ee5-4474-bc70-2441f80547a5"
+    - ID: "ac0ef552-e2a9-4e8f-8942-4b8ab5061e4b"
+      Hint: CTA
+      Value: |
+        <link text="CAT PEEING OUTSIDE LITTER BOX" anchor="" linktype="internal" class="" title=""  querystring="" id="{2BFED266-664E-42C3-8DB8-6C990B171A82}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d140070d-9058-400a-82ca-36aee31966d5"
+      Hint: Image
+      Value: |
+        <image mediaid="{BF3EF61F-D3AA-4B73-90B2-5DAD02EE7DC1}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220927T055138Z
+    - ID: "f2995045-5047-4be3-be4a-dbe0a1530118"
+      Hint: Title
+      Value: "Is Your Cat Peeing Outside the Litter Box?"

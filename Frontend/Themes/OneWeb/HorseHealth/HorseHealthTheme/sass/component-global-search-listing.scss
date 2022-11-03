@@ -1,0 +1,54 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.global-search-listing {
+    .product-wrap {
+      .result-count {
+        padding-left: 1.5rem;
+        p {
+          color: $para-color;
+          font-size: 1.6rem;
+          font-weight: 400;
+        }
+      }
+      #product-type,
+      #article-type,
+      #others-type {
+        h3 {
+          background: $title-bg;
+          border-bottom: none;
+          .link-btn {
+            color: $white;
+            font-size: 3rem;
+
+            &::before,
+            &::after {
+              background: $white;
+            }
+
+            .result-count {
+              padding: 5px 0;
+            }
+          }
+        }
+
+        .body-copy {
+          h3 {
+            background: none;
+            font-size: 2.4rem;
+            a {
+              color: $anchor-primary;
+              word-break: break-word;
+              @include Yanone-font-stack();
+            }
+          }
+          p {
+            font-size: 1.6rem;
+          }
+        }
+      }
+    }
+  }
+}

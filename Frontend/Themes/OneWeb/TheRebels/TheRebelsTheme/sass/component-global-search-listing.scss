@@ -1,0 +1,17 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component{
+    .global-search-listing{
+        padding-top: 3rem;
+        @include respond-to(desktop){
+            padding-top: 6rem;
+        }
+            .search-box{
+                padding: 0px 15px;
+            }
+            .result-count{
+                padding-left: 15px;
+            }
+    }
+}

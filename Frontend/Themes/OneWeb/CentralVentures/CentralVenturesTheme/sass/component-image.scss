@@ -1,0 +1,39 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.image {
+        padding: 0;
+
+        img {
+            width: 100%;
+        }
+
+        &.scroll-button-wrap {
+            .to-top {
+                background-color: transparent;
+                padding: 0;
+                border: none;
+                right: 3rem;
+            }
+        }
+
+        @include respond-to(tab) {
+            padding: 0 1.5rem;
+
+        }
+
+        @include respond-to(desktop) {
+            text-align: right;
+            margin: auto;
+
+            a {
+                display: block;
+            }
+        }
+
+        @include respond-to(extra-large-desktop) {
+            padding-right: 15%;
+        }
+    }
+}

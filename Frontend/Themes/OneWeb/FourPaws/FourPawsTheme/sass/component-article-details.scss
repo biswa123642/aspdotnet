@@ -1,0 +1,88 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+@import "base/fontawesome/font-awesome-mix-var";
+
+#content > .row .container:not(.col-12) {
+  &.article-max-width {
+    max-width: 92.7rem;
+    .component-content{
+      a{
+        @include lora-font-stack();
+      }
+    } 
+    @include respond-to(all-mobile){
+      &.mobile-margin{
+        .component-content{
+          >.row{
+            margin: auto;
+          }
+        }
+      }
+    }
+  }
+}
+.component {
+  &.title {
+    h1 {
+      border: none;
+    }
+  }
+  a {
+    color: $anchor;
+    text-decoration: none;
+  }
+  .article-detail,
+  .related-articles {
+    strong {
+      font-weight: 700;
+      font-style: normal;
+      font-size: 1.8rem;
+      color: $text-small-heading-color;
+      text-align: justify;
+    }
+    p {
+      font-size: 1.5rem;
+      @include respond-to(extraLarge-desktop){
+      font-size: 1.8rem;
+      }
+    }
+    h1 {
+      color: $text-heading-blue;
+      a {
+        &:hover {
+          color: $anchor-hover;
+        }
+      }
+    }
+    h2 {
+      color: $text-heading-blue;
+      font-size: 2.3rem;
+    }
+    h3 {
+      color: $text-heading-blue;
+    }
+    h4 {
+      color: $text-heading-blue;
+      strong {
+        color: $text-heading-blue;
+      }
+    }
+    .inner-wrap {
+      a {
+        font-size: 1.4rem;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+@include respond-to(desktop) {
+  .component {
+    &#article-details {
+      width: 100%;
+      margin: auto;
+      max-width: 927px;
+    }
+  }
+}

@@ -1,0 +1,51 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component{
+    &.feature-content-tiles{
+        &.variant-5{
+            .section-container{
+                .row{
+                    >div{
+                        padding-bottom:2rem;
+                    }
+                }
+                .field-image{
+                    padding:7rem;
+                    @include respond-to(desktop){
+                        padding: 2rem;
+                    }
+                    a{
+                        display:block;
+                    }
+                }
+                .field-data{
+                    a{
+                        font-size: 1.92rem;
+                        font-weight: 600;
+                        background: none!important;
+                        border:none;
+                        color:$blue-theme;
+                        box-shadow: none;
+                        margin:auto;
+                        min-width: 50rem;
+                        text-transform: capitalize;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                @include respond-to(desktop){
+                    .row{
+                        >div{
+                            padding-bottom:8rem;
+                        }
+                    }
+                }
+            }
+        }
+        &+.accordion{
+            margin-bottom:5rem;
+        }
+    }
+}

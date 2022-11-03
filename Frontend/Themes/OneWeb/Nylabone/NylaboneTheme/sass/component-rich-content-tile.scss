@@ -1,0 +1,337 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.content-tile {
+    .text-overlay {
+      .tile-wrap {
+        .text-wrap {
+          h2 {
+            opacity: 1;
+            font-size: 1.92rem;
+          }
+
+          p {
+            font-size: 1.6rem;
+            opacity: 0.8;
+          }
+
+          a:hover {
+            color: $orange;
+          }
+        }
+      }
+    }
+
+    .image-overlay {
+      .text-wrap {
+        padding: 0 2rem;
+
+        h2 {
+          font-size: 1.92rem;
+        }
+
+        p {
+          font-size: 1.36rem;
+          padding: 0 3rem;
+          color: $breadcrumb-link;
+        }
+      }
+    }
+
+    @include respond-to(desktop) {
+      .text-overlay {
+        .tile-wrap {
+          margin: auto;
+          margin-bottom: 5rem;
+
+          .text-wrap {
+            h2 {
+              font-size: 3rem;
+            }
+
+            p {
+              font-size: 2.4rem;
+              color: $breadcrumb-link;
+            }
+          }
+        }
+      }
+
+      .image-overlay {
+        .tile-wrap {
+          position: static;
+
+          .text-wrap {
+            position: static;
+            margin-bottom: -120px;
+            width: 50%;
+            float: left;
+            margin-left: 100px;
+
+            h2 {
+              font-size: 3.2rem;
+
+              &::after {
+                left: auto;
+                right: auto;
+                width: 13.6rem;
+                height: 1.2rem;
+              }
+            }
+
+            p {
+              font-size: 2.4rem;
+              color: $breadcrumb-link;
+              padding: 0;
+            }
+          }
+
+          &:nth-child(2n) {
+            .text-wrap {
+              float: right;
+              margin-right: 100px;
+
+              h2::after {
+                right: 7.5%;
+                left: auto;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.on-page-editor {
+  .component {
+    &.content-tile {
+      .image-overlay {
+        .scLooseFrameZone {
+          .text-wrap {
+            position: static;
+            margin-bottom: -120px;
+            width: 50%;
+            float: left;
+            margin-left: 100px;
+
+            h2::after {
+              left: auto;
+              right: auto;
+            }
+          }
+
+          &:nth-child(2n) {
+            .text-wrap {
+              float: right;
+              margin-right: 100px;
+
+              h2::after {
+                right: 8.5%;
+                left: auto;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.container {
+  &.article-detail {
+    .article-right {
+      .component {
+        &.content {
+          &.related-products {
+            margin: 0;
+            padding-top: 2rem;
+            background: 0 0;
+            
+          }
+
+          &.variant-1 {
+
+            &.product-details {
+              .popular-products {
+                background: none;
+
+                .inner-wrap {
+                  .row {
+                    &.slick-slider {
+                      .slick-prev:before {
+                        color: $orange;
+                      }
+
+                      .slick-next:after {
+                        color: $orange;
+                      }
+                    }
+                  }
+
+                  .slick-slide {
+                    padding: 1rem;
+                  }
+
+                  .related-product-vertical {
+                    width: 100%;
+                    margin-bottom: 20px;
+                    min-width: 240px;
+                    border: 1px solid $border-white-gray;
+                    min-height: 38rem;
+                    .image-holder{
+                      padding-top: 15px;
+                      margin-bottom: 0;
+                    }
+                    a {
+                      text-align: center;
+                      font-weight: 400;
+                      color: $orange;
+                      line-height: 1.6;
+
+                      &:hover {
+                        text-decoration: underline;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          &.variant-2 {
+            &.related-articles {
+              .inner-wrap {
+                a {
+                  color: $breadcrumb-link;
+                  font-weight: 600;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .article-left {
+      border: none;
+
+      .title {
+        h1 {
+          font-size: 3.36rem;
+        }
+      }
+    }
+
+    @include respond-to(desktop) {
+      .article-left {
+        .title {
+          h1 {
+            font-size: 4.8rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.component {
+  &.content {
+    &.product-details {
+      &.variant-1 {
+        .popular-products {
+          padding: 2rem;
+          border: 1px solid $orange;
+          margin-bottom: 2rem;
+          margin-top: 20px;
+
+          .slick-slide {
+            text-align: center;
+          }
+
+          .field-relatedproductslabel {
+            margin-top: 0;
+            margin-bottom: 1rem;
+          }
+
+          .inner-wrap {
+            .row {
+              justify-content: center;
+
+              &.slick-slider {
+
+                .slick-prev:before,
+                .slick-next:after {
+                  color: $orange;
+                }
+              }
+            }
+
+            .image-holder {
+              margin-bottom: 0;
+              margin-left: auto;
+              margin-right: auto;
+          
+
+              a {
+                img {
+                  max-width: 100%;
+                }
+              }
+            }
+
+            .body-copy {
+              padding-top: 20px;
+
+              h3 {
+                margin: 2px auto 1rem;
+                font-weight: 500;
+                line-height: 1.1;
+                color: $orange;
+                margin-top: 0;
+                margin-bottom: 10px;
+                font-size: 2.4rem;
+                text-align: center;
+
+                a {
+                  font-family: "Gotham", sans-serif;
+                  color: $orange;
+                  font-size: 1.6rem;
+                  line-height: 1.7;
+                  font-weight: 400;
+
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                }
+              }
+            }
+
+            .related-product-horizontal {
+              flex: initial;
+              max-width: 100%;
+              width: 100%;
+              border: none;
+              padding-top: 10px;
+              padding-bottom: 10px;
+              padding-top: 10px;
+              padding-bottom: 10px;
+              margin-left: 0.5%;
+              margin-right: 0.5%;
+
+              @include respond-to(tab) {
+                max-width: 49%;
+              }
+
+              @include respond-to(desktop) {
+                max-width: 24%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

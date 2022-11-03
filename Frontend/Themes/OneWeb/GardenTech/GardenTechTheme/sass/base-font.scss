@@ -1,0 +1,60 @@
+@import "base/fonts/fonts";
+@import "base/fontawesome/font-awesome";
+
+@font-face {
+    font-family: 'myriad-pro';
+    src: url('../fonts/myraidpro/MyriadPro-Regular-eot.eot');
+    src: url('../fonts/myraidpro/MyriadPro-Regular-eot.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/myraidpro/MyriadPro-Regular-woff2.woff2') format('woff2'),
+        url('../fonts/myraidpro/MyriadPro-Regular-woff.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'myriad-pro';
+    src: url('../fonts/myraidpro/MyriadPro-Bold-eot.eot');
+    src: url('../fonts/myraidpro/MyriadPro-Bold-eot.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/myraidpro/MyriadPro-Bold-woff2.woff2') format('woff2'),
+        url('../fonts/myraidpro/MyriadPro-Bold-woff.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'myriad-pro';
+    src: url('../fonts/myraidpro/MyriadPro-It-eot.eot');
+    src: url('../fonts/myraidpro/MyriadPro-It-eot.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/myraidpro/MyriadPro-It-woff2.woff2') format('woff2'),
+        url('../fonts/myraidpro/MyriadPro-It-woff.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'myriad-pro';
+    src: url('../fonts/myraidpro/MyriadPro-Black-eot.eot');
+    src: url('../fonts/myraidpro/MyriadPro-Black-eot.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/myraidpro/MyriadPro-Black-woff2.woff2') format('woff2'),
+        url('../fonts/myraidpro/MyriadPro-Black-woff.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'myriad-pro';
+    src: url('../fonts/myraidpro/MyriadPro-Semibold-eot.eot');
+    src: url('../fonts/myraidpro/MyriadPro-Semibold-eot.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/myraidpro/MyriadPro-Semibold-woff2.woff2') format('woff2'),
+        url('../fonts/myraidpro/MyriadPro-Semibold-woff.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+

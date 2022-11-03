@@ -1,0 +1,68 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.hero {
+    &.hero-banner-image {
+      padding-left: 1.5rem;
+      .banner-image {
+        max-width: 30rem;
+        float: left;
+        padding-right: 3rem;
+        margin-bottom: 3rem;
+      }
+    }
+
+    &.with-alignment {
+      .body-copy {
+        position: static;
+        .hero-banner-title {
+          &.left-bottom {
+            position: absolute;
+            bottom: 0;
+            padding: 0 1.4rem;
+            h1 {
+              font-size: 3.6rem;
+            }
+          }
+        }
+      }
+      .banner-mobile-image {
+        img {
+          height: 20rem;
+          object-fit: cover;
+        }
+      }
+    }
+
+    @include respond-to(tab) {
+      &.with-alignment {
+        .body-copy {
+          .hero-banner-title {
+            &.left-bottom {
+              h1 {
+                font-size: 6.3rem;
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    @include respond-to(desktop) {
+      &.with-alignment {
+        .body-copy {
+          .hero-banner-title {
+            &.left-bottom {
+              h1 {
+                text-align: left;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+// related product
+.popular-products {
+    h3 {
+        &.SubHeading {
+            color: $text-black;
+        }
+    }
+
+    .inner-wrap {
+        .row {
+            &.slick-slider {
+                .slick-prev {
+                    &:before {
+                        color: $arrow-color;
+                    }
+                }
+
+                .slick-next {
+                    &:after {
+                        color: $arrow-color;
+                    }
+                }
+            }
+
+            .body-copy {
+                h3 {
+                    a {
+                        color: $text-basic;
+                    }
+                }
+            }
+        }
+    }
+}

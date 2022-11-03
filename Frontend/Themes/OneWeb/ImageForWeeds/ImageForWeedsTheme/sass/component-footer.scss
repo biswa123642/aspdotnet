@@ -1,0 +1,74 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+#footer {
+  background-color: $green-tertiary;
+  padding-bottom: 10px;
+  margin-top: 30px;
+  @include respond-to(tab-horizontal) {
+    padding-bottom: 50px;
+  }
+  .component {
+    &.rich-text {
+      color: $gray-tertiary;
+      padding-top: 30px;
+      text-align: center;
+      @include respond-to(tab-horizontal) {
+        text-align: center;
+        padding-top: 35px;
+      }
+      .component-content {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: $gray-tertiary;
+      }
+    }
+  }
+  .link-list {
+    &.inline-link {
+      padding-top: 25px;
+      @include respond-to(tab-horizontal) {
+        padding-top: 35px;
+      }
+      ul {
+        justify-content: center;
+        @include respond-to(tab-horizontal) {
+          justify-content: left;
+        }
+        li {
+          &.even {
+            &:before {
+              background: $gray-secondary;
+            }
+          }
+          .field-link {
+            a {
+              color: $gray-tertiary;
+              font-size: 1.5rem;
+              font-weight: 700;
+              text-decoration: underline;
+              &:hover {
+                color: $dark-green-primary;
+                border-bottom: none;
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .brand-img-container {
+    flex-wrap: nowrap;
+    padding-top: 0;
+    @include respond-to(tab-horizontal) {
+      justify-content: flex-end;
+    }
+    .field-image {
+      img {
+        cursor: pointer;
+      }
+    }
+  }
+}
+

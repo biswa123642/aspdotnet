@@ -1,0 +1,35 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+main {
+  .component {
+    &.link-list {
+      padding: 30px 20px;
+
+      &.gray-bg {
+        background-color: $grey-2;
+      }
+
+      &.blue-bg {
+        background-color: $blue-2;
+      }
+
+      >.component-content {
+        li {
+          font-size: 3.8rem;
+          font-weight: 600;
+
+          a {
+            color: $white;
+
+            &:hover {
+              border: none;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+}

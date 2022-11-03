@@ -1,0 +1,95 @@
+﻿---
+ID: "9af8d21f-3d86-4457-881e-669de2eb0ed9"
+Parent: "725c72bc-dd55-4f1b-ad92-c352c8d1cd24"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Featured Child List/Product Category Listing/scriban
+SharedFields:
+- ID: "7b5b7e8d-e579-44aa-8174-d4594db0c2f9"
+  Hint: CssClass
+  Value: 
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    {{ selectedChild = sc_followmany i_page "FeaturedChildList" }}
+    {{ cssClass = "fourColumn" }}
+    {{ if i_item.ShowTextWithOverlay.raw | string.contains "1" }}
+    {{ cssClass = "threeColumn" }}
+    {{ end }}
+    <div class="product-listing-wrapper {{cssClass}}">
+       {{ for childitem in selectedChild }}
+       {{ sc_editframe childitem 'Custom List' }}
+       {{ if childitem.template_id == '7BDF7D45C98F4E4DAC3AAD8035780BBE' }}
+       {{ if childitem.FeaturedImage != '' }}
+       {{ if childitem.HideFeatureTitle.raw != "1" }}
+       <div class="product-category-card with-title">
+          <a href="{{ sc_link childitem }}" class="component-clickable">clickable link</a>
+          <div class="card-title">
+             {{ childitem.FeaturedTitle }}
+          </div>
+          <div class="card-image">
+             {{ childitem.FeaturedImage }}
+          </div>
+          <div class="card-caption">
+             <div class="card-button sxa-btn sxa-btn-primary">
+                <a href="{{ sc_link childitem }}">{{sc_translate "ViewProducts"}}</a>
+             </div>
+          </div>
+       </div>
+       {{ else }}
+       <div class="product-category-card">
+          <a href="{{ sc_link childitem }}" class="component-clickable">clickable link</a>
+          <div class="card-image">
+             {{ childitem.FeaturedImage }}
+          </div>
+          <div class="card-caption">
+             <div class="card-button sxa-btn sxa-btn-primary">
+                <a href="{{ sc_link childitem }}">{{sc_translate "ViewProducts"}}</a>
+             </div>
+          </div>
+       </div>
+       {{ end }}
+       {{ end }}
+       {{ else }}
+       {{ if childitem.DesktopImage != '' }}
+       <div class="product-category-card">
+          <div class="component-clickable">clickable link</div>
+          <div class="card-image">
+             {{ childitem.DesktopImage }}
+          </div>
+          <div class="card-caption">
+             <div class="card-button sxa-btn sxa-btn-primary">
+                <div>{{ sc_field childitem "RedirectUrl" }}</div>
+             </div>
+          </div>
+       </div>
+       {{ end }}
+       {{ end }}
+       {{ sc_endeditframe }}
+       {{ end }}
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220427T065427Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e7912c07-ccd9-49f7-aead-1412712d97fb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220627T110936Z

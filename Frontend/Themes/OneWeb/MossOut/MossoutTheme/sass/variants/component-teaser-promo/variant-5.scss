@@ -1,0 +1,99 @@
+&.variant-5 {
+  background-color: $white;
+
+  .inner-wrap {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    figure {
+      min-height: 19rem;
+      @include respond-to(desktop) {
+        min-height: 29rem;
+      }
+    }
+    .teaser-mob-image {
+      background-color: $heading1_color;
+      padding: 0px 9px;
+      .body-copy {
+        padding: 0px;
+        padding-bottom: 3rem;
+
+        p {
+          font-size: 3rem;
+          font-weight: 800;
+          line-height: 1.1;
+
+          padding-top: 2rem;
+          padding-bottom: 1rem;
+        }
+        .sxa-btn {
+          a {
+            min-width: 12rem;
+            padding: 1.5rem 1.5rem;
+            @include Lato-font-stack();
+            background-color: $white;
+            color: $heading1_color;
+            border: 3px solid $heading1_color;
+            border-radius: 2px;
+            text-transform: uppercase;
+            font-size: 1.68rem;
+            text-decoration: none;
+            font-weight: 800;
+            &:hover {
+              background-color: $anchor-hover;
+              color: $white;
+            }
+          }
+        }
+      }
+    }
+  }
+  @include respond-to(desktop) {
+    max-width: 118rem;
+    margin: auto;
+    margin-bottom: 4rem;
+    .inner-wrap {
+      .teaser-mob-image {
+        .body-copy {
+          text-align: start;
+          padding-left: 2.5rem;
+          padding-right: 0px;
+          padding-bottom: 3rem;
+          width: auto;
+          padding-top: 3rem;
+          p {
+            font-size: 2.64rem;
+          }
+          .sxa-btn {
+            a {
+              &:hover {
+                background-color: $anchor-hover;
+                color: $white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &.yellow-bg {
+    .teaser-mob-image {
+      background-color: $yellow-color;
+      .body-copy {
+        p {
+          span {
+            color: $heading1_color;
+          }
+        }
+        .sxa-btn {
+          a {
+            border: $yellow-color;
+            &:hover {
+              background-color: $heading1_color;
+              color: $white;
+            }
+          }
+        }
+      }
+    }
+  }
+}

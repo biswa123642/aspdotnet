@@ -1,0 +1,68 @@
+﻿---
+ID: "0c1b3da7-2e8a-4a0b-8eca-fbf3732ee0d1"
+Parent: "b4739651-075d-48ca-9f21-0838e5fc6add"
+Template: "766de3a6-aad0-43d8-ab65-5f119c75c4d2"
+Path: "/sitecore/content/OneWeb/CentralMosquitoControl/Data/Calculators/Rebate/all-clear-rebate-form"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220927T091138Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6e82ca10-ad58-40a1-9dfb-562a68f83020"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220927T091319Z
+    - ID: "df4e9cab-b417-4998-a656-b046ed789056"
+      Hint: CalculatorData
+      Value: |
+        <h4>Follow these 3 steps:</h4>
+        <p><strong>1. Calculate Your Potential Return </strong></p>
+        <p><strong><em>Minimum required amount spent: $10,000</em> </strong></p>
+        <div class="rebate-calculator">
+        <label>Amount Spent</label><input type="text" class="rebate-calculator__input" data-bind="value: amountSpent, valueUpdate: 'afterkeydown'" size="8" />
+        <label>Cashback</label><span class="rebate-calculator__sign rebate-calculator__cashback-percent" data-bind="text: cashbackPercent"></span>
+        <label>Amount Saved</label><span class="rebate-calculator__sign rebate-calculator__amount-saved" data-bind="text: amountSaved"></span>
+        <div class="config">
+        <h2>Rebate Calculator Config</h2>
+        <textarea style="margin: 15px; width: 300px; height: 165px;">[{
+        "percent": 2,
+        "bracket": 10000
+        }, {
+        "percent": 2.5,
+        "bracket": 50000
+        }, {
+        "percent": 3,
+        "bracket": 100000
+        }, {
+        "percent": 4,
+        "bracket": 200000
+        }, {
+        "percent": 5,
+        "bracket": 300000
+        }, {
+        "percent": 6,
+        "bracket": 400000
+        }, {
+        "percent": 7,
+        "bracket": 500000
+        }]</textarea>
+        </div>
+        </div>
+        <p><strong>&nbsp;</strong></p>

@@ -1,0 +1,409 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  .hubspot-form {
+    max-width: 90rem;
+    margin: 2rem auto;
+  }
+}
+
+/*==================================================
+    Global input box
+====================================================*/
+
+.component.hubspot-form .hs-form .form-columns-2 .hs-form-field .hs-input,
+.component.hubspot-form
+  .hs-form
+  .form-columns-1
+  .input
+  .hs-input:not(input[type="checkbox"]),
+.component.hubspot-form .hs-form .form-columns-1 .input input[type="email"],
+.component.hubspot-form .hs-form .hs-input:not(input[type="checkbox"]),
+.component.hubspot-form .hs-form input[type="email"],
+.component.hubspot-form .hs-form input[type="tel"],
+.component.hubspot-form .hs-form input[type="file"],
+.component.hubspot-form .hs-form select,
+.component.hubspot-form .hs-form textarea {
+  padding: 0 0.5rem;
+  background: $bg-light-gray;
+  border-color: $offgrey-color;
+  width: 100%;
+  max-width: inherit;
+  box-shadow: none;
+  display: block;
+  height: 4.5rem;
+  min-height: auto;
+  color: $text-basic;
+  @include fieldwork-hum-font-stack();
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  border-radius: 0;
+  min-width: auto;
+  box-sizing: border-box;
+
+  &::-moz-placeholder {
+    color: $text-basic;
+    opacity: 1;
+  }
+
+  &:-ms-input-placeholder {
+    color: $text-basic;
+    opacity: 1;
+  }
+
+  &::-webkit-input-placeholder {
+    color: $text-basic;
+    opacity: 1;
+  }
+}
+
+/*==================================================
+    Global check box
+====================================================*/
+.component.hubspot-form {
+  .hs-form-booleancheckbox label,
+  .hs-form {
+    span:before {
+      margin-left: 0;
+    }
+  }
+
+  .hs-form-booleancheckbox,
+  .hs-form-checkbox-display {
+    input[type="checkbox"] {
+      + span {
+        position: relative;
+        padding: 0 10px 5px 35px;
+        line-height: 1;
+        cursor: pointer;
+        margin-left: 0;
+        color: #0f273f;
+        @include fieldwork-hum-font-stack();
+        font-size: 1.6rem;
+        cursor: pointer;
+        display: inline-block;
+
+        &:before {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 2.5rem;
+          height: 2.5rem;
+          border: 1px solid #006e43;
+          border-radius: 0;
+          background-color: #0000;
+          transition: background-color 170ms ease-in-out;
+        }
+
+        &:after {
+          position: absolute;
+          content: "";
+          left: 6px;
+          top: 6px;
+          width: 14px;
+          height: 14px;
+          -ms-transform: rotate(45deg);
+          background: #006e43;
+          opacity: 0;
+          transition: all ease-in-out 250ms;
+        }
+      }
+
+      &:checked {
+        + span {
+          &:after {
+            opacity: 1;
+          }
+        }
+      }
+    }
+
+    &:hover {
+      input[type="checkbox"] {
+        + span {
+          &:before {
+            border: 2px solid #006e43;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*==================================================
+    Global select option input
+====================================================*/
+.component.hubspot-form .hs-form .form-columns-2 .hs-form-field select.hs-input,
+.component.hubspot-form .hs-form select.hs-input,
+.component.hubspot-form .hs-form .input select.hs-input,
+.component.hubspot-form .hs-form select,
+.component.hubspot-form .hs-form .input select,
+form select {
+  font-size: 1.6rem;
+  color: $text-basic;
+  line-height: 3.3rem;
+  cursor: pointer;
+  -webkit-appearance: auto;
+  -moz-appearance: auto;
+  appearance: auto;
+  width: 100% !important;
+}
+
+/*==================================================
+        Hubspot form
+====================================================*/
+
+.component {
+  &.hubspot-form {
+    .hs-form input[type="file"] {
+      line-height: 4rem;
+      vertical-align: middle;
+      padding: 0px 0.8rem 0px 5.5rem;
+      opacity: 0;
+    }
+
+    .hs-form .hs-fieldtype-file div.input {
+      position: relative;
+      cursor: pointer;
+      background-color: $light-gry-bg;
+      border: 1px solid $light-grey;
+      overflow: hidden;
+      width: 96.5%;
+      padding: 0;
+    }
+
+    .hs-form .hs-fieldtype-file div.input:before {
+      content: "Choose File";
+      pointer-events: none;
+      background: $input-bg;
+      display: block;
+      height: 3.5rem;
+      position: absolute;
+      border-radius: 1rem;
+      top: 50%;
+      left: 0.7rem;
+      transform: translateY(-50%);
+      padding: 0px 4.1rem;
+      font-size: 1.6rem;
+      vertical-align: middle;
+      line-height: 3.3rem;
+    }
+
+    .hs-form .hs-fieldtype-file div.input:after {
+      content: attr(title);
+      display: inline-block;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 19rem;
+      font-size: 1rem;
+      white-space: nowrap;
+    }
+
+    .hs-form {
+      fieldset {
+        p {
+          color: $text-basic;
+        }
+
+        margin: 0;
+        position: relative;
+
+        .hs_zip {
+          .hs-input:not(input[type="checkbox"]) {
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    .hubspot-form {
+      .submitted-message {
+        text-align: center;
+        margin-bottom: 0;
+        font-size: 3.6rem;
+      }
+    }
+
+    .hs-submit {
+      > .actions {
+        padding: 0;
+        margin: 0;
+
+        input[type="submit"] {
+          margin: 2rem 0;
+          padding: 0 4.4rem 0 2.3rem;
+          background-color: transparent;
+          color: $dark-green;
+          transition: all ease-in-out 0.3s;
+          border: none;
+          height: 6.6rem;
+          font-size: 2.2rem;
+          font-weight: bold;
+          box-shadow: none;
+          background-repeat: no-repeat;
+          min-width: 23.5rem;
+          border-radius: 0.4rem;
+          text-shadow: none;
+          text-align: center;
+          background-image: url("../images/cta-bg.svg");
+          background-size: 99% 100%;
+          &:hover{
+            background-size: cover;
+          }
+          @include fieldwork-hum-font-stack();
+          @include respond-to(desktop) {
+            line-height: 20px;
+            font-weight: 700;
+            cursor: pointer;
+          }
+          &:hover {
+            background-image: url("../images/cta-bg-hover.svg");
+            color: $light-green;
+          }
+        }
+      }
+    }
+
+    .hs-form-checkbox {
+      width: 100%;
+    }
+
+    .hs-form-booleancheckbox {
+      padding: 0;
+      margin: 0;
+      position: relative;
+      width: 100%;
+
+      label {
+        span {
+          display: inline-block;
+          font-weight: 500;
+          width: auto;
+
+          &:before {
+            top: 2px;
+          }
+        }
+
+        &:not(.hs-error-msg) {
+          @include fieldwork-hum-font-stack();
+          font-size: 1.6rem;
+          line-height: 3.3rem;
+          font-weight: 400;
+        }
+      }
+    }
+
+    .hs-form {
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 1.8;
+
+      .hs-error-msgs {
+        padding-left: 0;
+
+        li label {
+          color: $error-color;
+          font-weight: 400;
+          font-size: 1.6rem;
+          @include fieldwork-hum-font-stack();
+        }
+      }
+
+      label {
+        font-size: 1.6rem;
+        font-weight: 400;
+        @include fieldwork-hum-font-stack();
+
+        span {
+          font-weight: 400;
+          color: $text-basic;
+        }
+      }
+
+      textarea {
+        height: auto !important;
+        padding: 0.8rem !important;
+      }
+
+      .input {
+        margin: 0 !important;
+        padding-left: 0;
+
+        @include respond-to(tab) {
+          padding-right: 3rem;
+        }
+      }
+
+      .hs-form-field {
+        margin-bottom: 0.5rem;
+
+        @include respond-to(mobile) {
+          width: 100%;
+        }
+      }
+
+      .hs-form-field label,
+      .hs-fieldtype-select label,
+      .hs-fieldtype-text label,
+      .hs-fieldtype-textarea label {
+        @include fieldwork-hum-font-stack();
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 1.5;
+        margin-bottom: 5px;
+        margin-top: 2rem;
+      }
+
+      .hs_equine_topics .hs-field-desc {
+        display: none !important;
+      }
+    }
+
+    ul.inputs-list {
+      padding: 0 0 0 0;
+
+      .hs-form-checkbox {
+        margin-left: 0;
+      }
+
+      &:not(.multi-container) {
+        label {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+.article-right {
+  .component {
+    &.hubspot-form {
+      .hs-form {
+        .hs-error-msgs {
+          li {
+            label {
+              padding-left: 20px;
+            }
+          }
+        }
+      }
+      ul {
+        li {
+          &:before {
+            margin-top: 8px;
+          }
+        }
+      }
+      .input {
+        input {
+          border: none;
+        }
+      }
+    }
+  }
+}

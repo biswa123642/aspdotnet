@@ -1,0 +1,108 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.accordion {
+        &.variant-1 {
+            .item {
+                background-color: $white;
+                margin-bottom: 5px;
+                border-radius: 4px;
+                border: 1px solid $border-color;
+                .label {
+                    padding: 0;
+                }
+                .content {
+                    &.scEnabledChrome {
+                        padding: 0;
+                    }
+                }
+                &:last-child {
+                    margin-bottom: 0;
+                    border: 1px solid $border-color;
+                }
+                &.active {
+                    .toggle-header {
+                        .field-heading {
+                            &:before {
+                                -webkit-transform: rotate(0deg);
+                                transform: rotate(0deg);
+                                background-position: right;
+                            }
+                        }
+                    }
+                }
+            }
+            .field-content {
+                padding: 15px 0;
+                border-top: 1px solid $blue-theme;
+                margin-left: 71px;
+                margin-right: 50px;
+                font-size: 1.9rem!important; //overwriting the default
+            }
+            .toggle-header {
+                .component {
+                    .field-heading {
+                        font-size: 1.4rem;
+                        padding: 0px 37px;
+                        margin-top: 20px;
+
+                        @include respond-to(tab) {
+                            font-size: 1.6rem;
+                        }
+
+                        a {
+                            line-height: 27px;
+                            padding: 10px 0px 10px 30px;
+                            display: block;
+                            position: relative;
+                            text-transform: uppercase;
+                            color: $text-color;
+                            font-weight: 700;
+
+                            &:active,
+                            &:hover {
+                                text-decoration: none;
+                            }
+                        }
+
+                        &:before {
+                            content: '';
+                            font-size: 20px;
+                            margin-right: 20px;
+                            background-image: url(../images/Arrow_open.png);
+                            background-repeat: no-repeat;
+                            width: 35px;
+                            -webkit-transition: none;
+                            transition: none;
+                            height: 14px;
+                            display: inline-block;
+                            transform: rotate(180deg);
+                            vertical-align: bottom;
+                            position: absolute;
+                            left: -14px;
+                            top: 14px;
+                            padding-left: 10px;
+                            margin-left: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.component{
+    &.rich-text{
+        .score-document-header{
+            &.faq-header{
+                h1{
+                    font-size: 4.8rem;
+                    @include respond-to(desktop) {
+                        font-size: 5.8rem;
+                    }
+                }
+            }
+        }
+    }
+}

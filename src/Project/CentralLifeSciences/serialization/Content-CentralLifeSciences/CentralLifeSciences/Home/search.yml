@@ -1,0 +1,143 @@
+﻿---
+ID: "a550c081-0726-4861-b8c0-cab5cfbec6b1"
+Parent: "d7cfaac3-d1ee-46c3-b6ba-c350d38a8358"
+Template: "efbf7280-8143-4b8b-a17f-fa201718310c"
+Path: /sitecore/content/OneWeb/CentralLifeSciences/Home/search
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{58CA51E5-F5A9-4F3D-BD8F-ECF9A389C57E}"
+          p:before="*"
+          s:ds=""
+          s:id="{7F06A24A-1051-4B98-9347-22616A582210}"
+          s:par="PlaceholderText&amp;DisableSearchTextBox&amp;DisableAutoSugession&amp;SearchResultPage=%7BA550C081-0726-4861-B8C0-CAB5CFBEC6B1%7D&amp;MinSuggestionsTriggerCharacterCount&amp;MaxPredictiveResultsCount&amp;MaxProductResultsCount&amp;MaxArticleResultsCount&amp;MaxOthersResultCount&amp;CloneSearchBox"
+          s:ph="/main/row-2-1/container-3/internal-search-box"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{03D8DE6A-B630-40F3-A3E7-1DD7520D12D8}"
+          p:after="r[@uid='{58CA51E5-F5A9-4F3D-BD8F-ECF9A389C57E}']"
+          s:ds=""
+          s:id="{75B22CF3-346E-4614-BB38-E0983ED52A3E}"
+          s:par="ArticleListingFacetType=Page-Attributes&amp;GridSelection=col-lg-3&amp;FilterOrder=SameAsCMS&amp;CheckToLoadChildArticlesOnly&amp;HideSearchFilter&amp;HideDescriptionOnTiles=1&amp;DescriptionLengthLimit&amp;HideTitleOnTiles&amp;Styles"
+          s:ph="/main/row-2-1/container-3"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{CC541F08-D983-4B9D-8F21-5C0EAB571E46}"
+          p:after="r[@uid='{03D8DE6A-B630-40F3-A3E7-1DD7520D12D8}']"
+          s:ds=""
+          s:id="{C0AF3E6F-ADD6-4910-B7F2-34061B225E3C}"
+          s:par="SearchType=others&amp;NumberOfScrolls"
+          s:ph="/main/row-2-1/container-3/others-loadmore"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{BEAB40DF-F3DE-4F53-9CAB-269671029E5C}"
+          p:after="r[@uid='{CC541F08-D983-4B9D-8F21-5C0EAB571E46}']"
+          s:ds=""
+          s:id="{C0AF3E6F-ADD6-4910-B7F2-34061B225E3C}"
+          s:par="SearchType=article&amp;NumberOfScrolls"
+          s:ph="/main/row-2-1/container-3/article-loadmore"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{C9684B44-9449-413C-9996-0CCA6A65A7D9}"
+          p:after="r[@uid='{BEAB40DF-F3DE-4F53-9CAB-269671029E5C}']"
+          s:ds=""
+          s:id="{C0AF3E6F-ADD6-4910-B7F2-34061B225E3C}"
+          s:par="SearchType=product&amp;NumberOfScrolls"
+          s:ph="/main/row-2-1/container-3/pdp-loadmore"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{594FA88E-BFCA-4AFB-97DC-49F426D609DC}"
+          p:after="r[@uid='{C9684B44-9449-413C-9996-0CCA6A65A7D9}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-2-1"
+          s:ds="" />
+        <r
+          uid="{26741655-C3A8-4C58-8FD8-854659F2AECD}"
+          p:after="r[@uid='{594FA88E-BFCA-4AFB-97DC-49F426D609DC}']"
+          s:ds="{1F5D9DF0-230F-4397-98EE-5EAF2C31203B}"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BAA673467-6127-43D2-8781-4608A0D6EE1C%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{A9641B70-6F18-46DE-A4E6-7AC170DE901E}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2=%7B48194A28-1F87-4086-AADC-E2B09B8EA318%7D%7C%7BADDFB720-BE49-4750-BD0A-48FCBFDA5647%7D&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221001T194321Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{616ED8A9-B050-4496-B498-DBCD6822005C}" />
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "41b17cd3-d543-4c7c-9bfa-b21765882326"
+      Hint: HeroImageMobile
+      Value: |
+        <image mediaid="{616ED8A9-B050-4496-B498-DBCD6822005C}" />
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Search
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Search | Central Life Sciences
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Search | Central Life Sciences
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Search | Central Life Sciences
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0d5daeaf-cdb6-46ea-81a0-ccec00ecba79"
+    - ID: "9bf7a7f6-34f8-4c38-a3d7-2fd0470518b1"
+      Hint: HideInSearchResults
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: Search
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{B6D98AB8-FCA9-47F0-8F6F-E04EF7125EC5}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221012T103512Z

@@ -1,0 +1,23 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.utility-navigation {
+    &.brand-listing {
+      .field-heading {
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: #636569;
+      }
+      .brand-img-container {
+        justify-content: center;
+      }
+      .inner-wrapper {
+        img {
+          max-width: 3.5rem;
+        }
+      }
+    }
+  }
+}

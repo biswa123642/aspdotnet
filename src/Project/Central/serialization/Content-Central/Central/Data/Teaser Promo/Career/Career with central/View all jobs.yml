@@ -1,0 +1,55 @@
+﻿---
+ID: "80b4d412-9bd6-433e-817f-412e5713d3dd"
+Parent: "98d4bfbb-2083-472a-a18c-fc91bf1d9337"
+Template: "d1070ed7-b4f7-4c03-b622-f9b5fb072dea"
+Path: /sitecore/content/OneWeb/Central/Data/Teaser Promo/Career/Career with central/View all jobs
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220804T074428Z
+    - ID: "68a9ed16-a3b4-4b4f-b9e8-7b5585772a62"
+      Hint: SecondCTA
+      Value: |
+        <link text="SEARCH JOBS" linktype="external" url="https://phe.tbe.taleo.net/phe02/ats/careers/v2/jobSearch?org=CENTRAL&amp;cws=49" anchor="" target="_blank" />
+    - ID: "7cf24deb-783d-4e7a-be2d-1c5410b73c66"
+      Hint: FirstCTA
+      Value: |
+        <link linktype="internal" text="LEARN MORE" querystring="" target="" id="{680D43DA-F55A-4FC7-BC65-6B75E9249F44}" />
+    - ID: "81651106-4b95-4713-84df-90a36c488b2f"
+      Hint: TeaserImage
+      Value: |
+        <image mediaid="{BA38F7BA-9D3C-40C8-91FC-A9B6520B7E06}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "18fa5016-05f3-48cb-8127-327b079b012a"
+    - ID: "93e6482d-fb03-46b2-8e90-1bc13a59230d"
+      Hint: SecondaryTitle
+      Value: |
+        <h2>View All <br />
+        Central Jobs
+        </h2>
+    - ID: "a9c3d58d-0ada-44ae-8ac2-a6ac6989ce0a"
+      Hint: ImageOnRight
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "ca6a3070-03e0-47cf-ba54-c58f83c49cfa"
+      Hint: Title
+      Value: |
+        The Central<br />
+        Family
+    - ID: "d0e762c4-5805-4ff6-b3f9-72d69a4a96cb"
+      Hint: SecondaryTeaserImage
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220902T094117Z

@@ -1,0 +1,102 @@
+﻿---
+ID: "7a456b4a-4714-414c-94f5-b53a1a61eb55"
+Parent: "019e848b-72bf-494c-accc-b00c1d7b6aa5"
+Template: "bc41b87d-2a9b-4689-9f51-80bb5b31a6e7"
+Path: "/sitecore/content/OneWeb/HJE/Home/all-products/retail/all-purpose-fertilizers/all-purpose-fertilizer"
+SharedFields:
+- ID: "76fb6ffd-4487-4028-a1cf-705fbe360cba"
+  Hint: Priority
+  Value: 0.5
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "02a41838-168c-4858-bafd-f0031b877ddc"
+      Hint: ProductAttributes
+      Value: "{68EBE955-B2F2-4C60-8B4B-0DEE23C784FB}"
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{923ECE62-E2CC-4EBF-983A-8167B13F655F}" />
+    - ID: "1e2f8b03-c529-4fee-8663-5ec9f6b6a701"
+      Hint: SecondaryCategories
+      Value: "{CEF8FB56-F019-4A53-B8E8-1FB82842F2A3}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220915T110327Z
+    - ID: "30b0a514-dc94-432c-9655-8c01e474023f"
+      Hint: ExtendedContent
+      Value: For flowers, trees, shrubs, and vegetable gardens.
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: All Purpose Fertilizer
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: For flowers, trees, shrubs, and vegetable gardens.
+    - ID: "543b1d82-a096-4893-90b3-35bbb2ab2b1a"
+      Hint: PageHeaderScripts
+      Value: |
+        <meta property="og:type"               content="product" />
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: For flowers, trees, shrubs, and vegetable gardens.
+    - ID: "63b15778-d2e2-425d-9ecb-7c8589214f31"
+      Hint: AdditionalInfo
+      Value: Fertilizers
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: For flowers, trees, shrubs, and vegetable gardens.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: All Purpose Fertilizer | HJE Retail Products
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: All Purpose Fertilizer
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e563e034-a788-4b00-b582-281290580eaf"
+    - ID: "ab818f97-8aa8-4d81-9e70-29c2d400c1fb"
+      Hint: RenderCanonicalTag
+      Value: 1
+    - ID: "b433c832-fadf-498e-b77b-e7933f19ba8e"
+      Hint: Accordion1Title
+      Value: SDS
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c95560b6-d1ef-47eb-b4bb-da582a84a444"
+      Hint: Accordion1
+      Value: |
+        <a href="-/media/DF6FA3527CDA43438713C443D5DCB59C.ashx">08-08-08 All Purpose SDS</a>
+        <a href="-/media/10CF9B90C8EF4DDC89F554AC58BCBABC.ashx">10-10-10 All Purpose SDS</a>
+        <a href="-/media/A51DC77EFCDE41B49D5ACB9A4C7C61CC.ashx">10-20-10 All Purpose SDS</a>
+        <a href="-/media/FB2B79B206D4435783895D9F89672526.ashx">12-12-12 All Purpose SDS</a>
+        <a href="-/media/538DF25DBC32454182377BE602DFB1F6.ashx">12-24-12 All Purpose SDS</a>
+        <a href="-/media/06ACBD633E3844CB825C52A78CB05FF2.ashx">13-13-13 All Purpose SDS</a>
+        <a href="-/media/7A88C05EAEDC41A4836835EF10BDC0FD.ashx">16-16-16 All Purpose SDS</a>
+        <a href="-/media/2D6D801F73FB4C67997A0DA8975291B7.ashx">5-10-5 All Purpose SDS</a>
+    - ID: "ca373527-0c18-4282-83b0-121b8a197598"
+      Hint: LongTitle
+      Value: All Purpose
+    - ID: "d603a982-51bb-4898-8aed-d25e3c6c416c"
+      Hint: Accordion2
+      Value: |
+        <a href="-/media/4097000631E34E88B7311191F4724530.ashx">08-08-08 All Purpose Label</a>
+        <a href="-/media/DD3DF6BE45FE40DE9426C1076A752593.ashx">10-10-10 All Purpose 35 lb Label</a>
+        <a href="-/media/41DC7AAAF2CF4220AECC4C1C6D83C680.ashx">10-20-10 All Purpose Label</a>
+        <a href="-/media/FB9AB78ECAF340CE832821A2FF5612D8.ashx">12-12-12 All Purpose Label</a>
+        <a href="-/media/A8431442745F456DA6B08A509F384CDD.ashx">13-13-13 All Purpose Label</a>
+        <a href="-/media/3F34AE54C5A541E5A5F7F0E7B2874C25.ashx">16-16-16 All Purpose Label</a>
+        <a href="-/media/520186FC429A4787B831109F58DFEBE2.ashx">21-00-00 All Purpose Label</a>
+        <a href="-/media/C0109EE0C40A4C3D913DDFCD83271E90.ashx">5-10-5 All Purpose Label</a>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221011T133533Z
+    - ID: "ee6a4f12-e8eb-4b34-9d07-d477e8ad63d4"
+      Hint: Accordion2Title
+      Value: Labels

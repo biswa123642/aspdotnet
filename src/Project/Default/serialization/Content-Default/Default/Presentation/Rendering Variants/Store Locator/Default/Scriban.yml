@@ -1,0 +1,120 @@
+﻿---
+ID: "608c5c22-23c8-4381-a6d6-e1b91d491aa1"
+Parent: "dda8d06e-09fd-4a6d-930e-7891dba3ae74"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Store Locator/Default/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    {{ isOverlayEnabled = sc_parameter "EnableOverlay" }}
+    {{ storeoverlayclass = "" }}
+    {{ if isOverlayEnabled == 1 }}
+       {{ storeoverlayclass = "store-overlay modal" }}
+       {{ storeoverlayid = "store-overlay" }}
+       {{ modelcentered = "modal-dialog-centered" }}
+       {{ modelbody = "modal-body" }}
+       {{ spanbutton = '<span class="close-btn" data-dismiss="#store-overlay">×</span>' }}
+       <div class="sxa-btn">
+          <a href="#store-overlay" data-toggle="modal"  data-target="#store-overlay">{{ sc_translate 'Find a Store' }}</a>
+       </div>
+    {{ end }}
+    <div class="{{storeoverlayclass}}" id="{{storeoverlayid}}">
+    <div class="{{modelcentered}}">
+    <div class="{{modelbody}}">
+    {{spanbutton}}
+       <script src="https://maps.google.com/maps/api/js?key=AIzaSyCQA8RwbLSESxbQotiIZIaCyRjitmx3uNY" type="text/javascript"></script>
+       {{ if i_item.StoreLocatorTitle !='' }}
+          <div class="component-title">
+             <h3>{{ sc_field i_item "StoreLocatorTitle" }}</h3>
+          </div>
+       {{ end }}
+       {{ if o_pagemode.is_experience_editor_editing }}
+          <div>
+             <span>{{ sc_field i_item "ZipcodeLabel" }}</span><br />
+             <span>{{ sc_field i_item "ZipcodePlaceholderText" }}</span><br />
+             <span>{{ sc_field i_item "StoreListRadiusLabel" }}</span><br />
+             <span>{{ sc_field i_item "StoreListRadiusDefaultText" }}</span><br />
+             <span>{{ sc_field i_item "SearchButtonLabel" }}</span><br />
+             <span>{{ sc_field i_item "GetDirectionsLinkText" }}</span><br />
+             <span>{{ sc_field i_item "ApiUrl" }}</span><br />
+             <span>{{ sc_field i_item "BrandAPIRequestSetting" }}</span><br />
+             <span>{{ sc_field i_item "ProductIdAPIRequestSetting" }}</span><br />
+             {{ if i_item.DefaultSearchRadius !='' }}
+                <span>{{ i_item.DefaultSearchRadius.Value }}</span><br />
+             {{ end }}
+             <span>{{ sc_field i_item "NoLocationsFoundErrorMessage" }}</span><br />
+             <span>{{ sc_field i_item "NotValidZipcodeErrorMessage" }}</span><br />
+             {{ if i_item.MarkerImage !='' }}
+                <span>{{ sc_field i_item "MarkerImage" }}</span><br />
+             {{end}}
+             <span>{{ sc_field i_item "DogFinderFooterText" }}</span>
+          </div>
+       {{else}}
+          <div class="tab-pane fade score-tab-panel store-locator-info" id="where-to-buy" data-ApiUrl="{{i_item.ApiUrl.raw}}" data-GetDirectionsText="{{i_item.GetDirectionsLinkText.raw}}" data-DefaultSearchRadius="{{i_item.DefaultSearchRadius.value.raw}}" data-BrandSetting="{{i_item.BrandAPIRequestSetting.raw}}" data-ProductIdSetting="{{i_item.ProductIdAPIRequestSetting.raw}}">
+             <div class="search-store-form">
+                <form>
+                   <div class="form-group short selector">
+                      <label for="zipcode">{{ sc_field i_item "ZipcodeLabel" }}</label>
+                      <input type="text" class="textInput" name="zipcode" id="zipcode" placeholder="{{ sc_field i_item "ZipcodePlaceholderText" }}">
+                         {{ if i_item.DefaultSearchRadius !='' && i_item.DefaultSearchRadius.Parent !='' }}
+                            {{ if i_item.DefaultSearchRadius.Parent.hasChildren }}
+                               <select id="radius">
+                                  {{ for i_child in i_item.DefaultSearchRadius.Parent.Children }}
+                                     {{ if i_child.Value.raw == i_item.DefaultSearchRadius.Value }}
+                                        <option value="{{i_child.Value}}" selected>{{i_child.Key}}</option>
+                                     {{ else }}
+                                        <option value="{{i_child.Value}}">{{i_child.Key}}</option>
+                                     {{ end }}
+                                  {{ end }}
+                               </select>
+                            {{ end }}
+                         {{ end }}
+                      <button class="btn btn-default" id="search-btn">{{ sc_field i_item "SearchButtonLabel" }}</button>
+                      <div class="zip-error">{{ sc_field i_item "NotValidZipcodeErrorMessage" }}</div>
+                   </div>
+                </form>
+             </div>
+             <div class="storeResultsMapContainer">
+                {{ if i_item.MarkerImage !='' }}
+                   <div id="marker-icon" style="display: none;">{{ sc_field i_item "MarkerImage" }}</div>
+                {{end}}
+                <div class="google-map" id="storeResultsMap"></div>
+             </div>
+             <div id="search-result-list">
+                <div class="no-locations-found">{{ sc_field i_item "NoLocationsFoundErrorMessage" }}</div>
+             </div>
+             {{ if i_item.DogFinderFooterText !='' }}
+                <div>{{ sc_field i_item "DogFinderFooterText" }}</div>
+             {{ end }}
+          </div>
+       {{ end }}
+    </div>
+    </div>
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220513T080300Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d2dbe377-2c8f-44e1-819b-669c0c567628"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220913T065006Z

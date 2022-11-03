@@ -1,0 +1,224 @@
+﻿---
+ID: "dc8acca8-ed63-4ead-b112-daa569052d9d"
+Parent: "56a11d3e-d22b-44a5-977a-39ced2a32778"
+Template: "3bc22e05-e1ff-45a6-b8c3-fcf4c8f84a43"
+Path: /sitecore/content/OneWeb/FourPaws/Home
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{9557B210-D15A-4ED6-A02E-22442CB7E3CC}"
+- ID: "961cadd8-8f7d-4b12-b0da-7af04b54b22d"
+  Hint: OpenGraphType
+  Value: products
+- ID: "b0f2f11d-f706-41da-81fe-88ebfacb3b53"
+  Hint: OpenGraphSiteName
+  Value: Four Paws Pet Products For Dog and Cats | Four Paws
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{FD0BD533-C586-44BA-88B8-F95746541E30}"
+          p:before="*"
+          s:ds="{0BCC2252-9C8B-42C5-A334-B4BE5CE3BC80}"
+          s:id="{8CECDF2B-DC7E-4E39-A959-94E68B752646}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B3D30483B-C221-4834-B402-EC776D44EEF0%7D&amp;Styles&amp;GridClass&amp;TextAlign&amp;ImageAlign&amp;ShowOverlay&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=25"
+          s:ph="/main/container-4/container-20/column-2-21/row-1-24" />
+        <r
+          uid="{A6368191-B902-4614-893F-1013DB96FEA8}"
+          p:after="r[@uid='{FD0BD533-C586-44BA-88B8-F95746541E30}']"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=24"
+          s:ph="/main/container-4/container-20/column-2-21" />
+        <r
+          uid="{FB833885-D0C1-415D-A83C-87C32BBDA951}"
+          p:after="r[@uid='{A6368191-B902-4614-893F-1013DB96FEA8}']"
+          s:ds="{DCFF0909-16BA-4168-BB51-19BA7201F944}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B28567F0B-E70B-491F-AA33-E3416E4F8E45%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=23"
+          s:ph="/main/container-4/container-20/column-1-21/row-1-22" />
+        <r
+          uid="{1C08167A-C4EE-400D-93AF-9A36B2B0EAA4}"
+          p:after="r[@uid='{FB833885-D0C1-415D-A83C-87C32BBDA951}']"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=22"
+          s:ph="/main/container-4/container-20/column-1-21" />
+        <r
+          uid="{7AF0C97B-F94C-479E-8C93-1BC59DDC9F46}"
+          p:after="r[@uid='{1C08167A-C4EE-400D-93AF-9A36B2B0EAA4}']"
+          s:ds=""
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B7AF5C340-8A60-4D59-A7A1-5DBAB391292C%7D%7C%7BFA0DF184-71D5-4B37-BAB6-20C936E84FFA%7D&amp;ColumnWidth2=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BC417AE43-BBE2-4B58-9B43-A125B3013ADE%7D%7C%7B19EFEA92-650D-4786-96E4-5EC96CA47A57%7D%7C%7BE974E610-84AC-4A5E-8658-AD9D7F14B83F%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;DynamicPlaceholderId=21&amp;CacheClearingBehavior=Clear%20on%20publish"
+          s:ph="/main/container-4/container-20"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{22B184A9-8265-44B2-95B5-D270F8A32F10}"
+          p:after="r[@uid='{7AF0C97B-F94C-479E-8C93-1BC59DDC9F46}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=20"
+          s:ph="/main/container-4" />
+        <r
+          uid="{68FC86C5-3DDD-4405-AA9A-0263F05FEC90}"
+          p:after="r[@uid='{22B184A9-8265-44B2-95B5-D270F8A32F10}']"
+          s:ds="{2A0DCF57-B6F1-4585-82F2-51792D19D72A}"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B4DA37A2A-DE74-4E24-ACC5-E1F1C930DB1B%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=19"
+          s:ph="/main/container-9/row-1-18" />
+        <r
+          uid="{F0E786E9-B48A-411E-8D77-5A678E68C6C3}"
+          p:after="r[@uid='{68FC86C5-3DDD-4405-AA9A-0263F05FEC90}']"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=18"
+          s:ph="/main/container-9" />
+        <r
+          uid="{58602552-F950-4B1B-86C4-A2CAD51648A6}"
+          p:after="r[@uid='{F0E786E9-B48A-411E-8D77-5A678E68C6C3}']"
+          s:ds="{BD623E50-085E-4260-874B-46E4CDA7A53D}"
+          s:id="{189D0B61-1B80-4180-8F7A-25BCD63692BB}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B660B0A61-9AA4-4A0E-ADC4-115B24E417A1%7D&amp;Styles=%7BFF2E5378-CD13-4889-AA4F-25D01BD8FB24%7D&amp;TitleHeadingLevel=%7B6A44D9C6-61F0-4B69-8E1A-FDC27F96BA0F%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=12"
+          s:ph="/main/container-3/row-1-11"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{37956098-DC34-4B3E-AB79-C6BA9F519A96}"
+          p:after="r[@uid='{58602552-F950-4B1B-86C4-A2CAD51648A6}']"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=11"
+          s:ph="/main/container-3" />
+        <r
+          uid="{6BD381AA-3B0D-4E4D-8665-094AAB7133B1}"
+          p:after="r[@uid='{37956098-DC34-4B3E-AB79-C6BA9F519A96}']"
+          s:ds="{C32F55BC-3833-4C98-932B-15CC3153D116}"
+          s:id="{28F481FC-631F-4BDF-9130-A2DA74164968}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B24093BF7-32EA-43B2-89A2-548BB2AFFEF8%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/container-2/row-1-7" />
+        <r
+          uid="{92153FE9-9A53-482D-B056-DF2CF9B94901}"
+          p:after="r[@uid='{6BD381AA-3B0D-4E4D-8665-094AAB7133B1}']"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=7"
+          s:ph="/main/container-2" />
+        <r
+          uid="{E0CED490-B957-4DC6-9A54-187126DB62DC}"
+          p:after="r[@uid='{92153FE9-9A53-482D-B056-DF2CF9B94901}']"
+          s:ds="{43061EE9-2A71-4783-9573-D5CD8600C3EE}"
+          s:id="{7561DEB5-5388-4A43-A4CB-353078D32352}"
+          s:par="Reset Caching Options&amp;Timeout=4000&amp;PauseOnHover&amp;Autoplay=1&amp;OverlayAlign&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BDD24582A-74CD-48C4-A6AF-E9B3DECF9586%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/container-1/row-1-5"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{E3080F9A-E84E-4354-BA7A-B95FA00E94D1}"
+          p:after="r[@uid='{E0CED490-B957-4DC6-9A54-187126DB62DC}']"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=5"
+          s:ph="/main/container-1" />
+        <r
+          uid="{373DD1B0-696A-4262-8877-F0F48AC12B96}"
+          p:after="r[@uid='{E3080F9A-E84E-4354-BA7A-B95FA00E94D1}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1&amp;CacheClearingBehavior=Clear%20on%20publish"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{BE52ADD8-0493-4CD1-B171-37E1AB89A7D1}"
+          p:after="r[@uid='{373DD1B0-696A-4262-8877-F0F48AC12B96}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="main" />
+        <r
+          uid="{723F594C-4F07-43CA-B31F-C0CA217AEC7E}"
+          p:after="r[@uid='{BE52ADD8-0493-4CD1-B171-37E1AB89A7D1}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{821022D1-D0A9-4600-9978-7BE8A6D6F26D}"
+          p:after="r[@uid='{723F594C-4F07-43CA-B31F-C0CA217AEC7E}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage=%3Cimage%20mediaid%3D%22%7BDA8DA52A-DB69-455D-8FAC-D74F1355E3E6%7D%22%20%2F%3E&amp;Styles=%7B8E522558-FE85-4187-A673-DA720E4A4545%7D%7C%7BA445F150-3472-4649-8681-F7904C86E8D8%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{77598B18-AA2C-4594-A0E5-78A5899645D7}"
+          p:after="r[@uid='{821022D1-D0A9-4600-9978-7BE8A6D6F26D}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="main" />
+        <r
+          uid="{2B98EAEA-C357-47EC-960A-9B5B0784D735}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{92EB9EFB-88D4-4089-82BE-AAD92D4FA24E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220524T092342Z
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Home
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Four Paws is the leader in cat and dog products that keep pets happy, healthy, & clean. Our solutions cover potty training, pet grooming, supplements, & beyond.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Four Paws Dog & Cat Products
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: "Four Paws, Magic Coat, and Wee-Wee Products"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7c73446b-04b9-4b89-a231-a3fb7dfb13a1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{9FA2C13C-6578-41FE-AC16-21E8AB3D31CD}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220927T040153Z

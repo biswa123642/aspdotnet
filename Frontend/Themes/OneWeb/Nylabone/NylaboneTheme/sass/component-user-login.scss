@@ -1,0 +1,30 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+.modal {
+  .close {
+    color: $orange;
+    &:hover {
+      color: $black-overlay;
+    }
+  }
+
+  .sxa-btn-default,
+  .sxa-btn-submit {
+    border-radius: 20px;
+    background: $orange;
+    color: $white;
+    border: 2px solid $orange;
+    padding: 9px 20px;
+    font-size: 1.6rem;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 1.6rem;
+    &:hover {
+      background-color: $white;
+      border-color: $orange;
+      color: $orange;
+    }
+  }
+}

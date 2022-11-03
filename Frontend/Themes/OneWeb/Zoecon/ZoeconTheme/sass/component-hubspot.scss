@@ -1,0 +1,128 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.hubspot-form {
+        .hs-form {
+            label:not(.hs-form-booleancheckbox-display) {
+
+                &.hs-error-msg,
+                span {
+                    color: $green;
+                    font-size: 1.6rem;
+                    font-weight: 700;
+                }
+            } 
+            .input {
+
+                input,
+                select,
+                textarea {
+                    border-radius: 7px;
+                    padding: 0 1rem;
+                    border-color: #707070;
+                    border-width: 1px !important;
+                }
+
+                select {                    
+                    background-image: url("../images/down-arrow.png") !important;
+                    background-position: 97% 50% !important;
+                    background-size: auto !important;
+                }
+
+                textarea {                    
+                    min-height: 10rem;
+                    padding: 2rem;
+                    padding: 2rem 1rem;
+                }
+
+
+            }
+
+            .hs-form-booleancheckbox-display {
+                font-size: 1.6rem;
+            }
+
+            .hs-form-booleancheckbox {
+                width: initial;
+
+                label {
+                    span {
+                        width: 100%;
+                        display: inline-block;
+                        margin: 0;
+                        padding: 0 2rem;
+                        color: $primary-color;
+
+                        &::before {
+                            top: 0;
+                            margin-left: -37px;
+                        }
+
+                    }
+                }
+
+                label input[type=checkbox]:not(:checked)+span {
+                    &::before {
+                        background-image: url("../images/box-notchecked.png");
+                    }
+                }
+
+                label input[type=checkbox]:checked+span {
+                    &::before {
+                        background-image: url("../images/box-checked.png");
+                    }
+                }
+            }
+
+            input[type=submit] {
+                background-color: $green;
+                font-size: 2rem;
+                font-weight: bold;
+                border-radius: 50px;
+                text-transform: capitalize;                
+
+                &:hover {
+                    background-color: $button-hover  !important;
+                }
+            }
+
+        }
+
+
+
+
+        input:not([type="submit"]),
+        select,
+        textarea,
+        .input {
+            width: 100% !important;
+            margin: 0 !important;
+            box-sizing: border-box !important;
+            max-width: initial !important;
+            min-height: 3.7rem;
+            line-height: 1.2 !important;
+        }
+
+        textarea {
+            height: 10rem;
+        }
+
+        @include respond-to(tab) {
+            fieldset {
+                padding-bottom: 1.5rem !important;
+                &.form-columns-2 {
+                    >div {
+                        &:first-child {
+                            padding-right: 1rem;
+                        }
+
+                        &:last-child {
+                            padding-left: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

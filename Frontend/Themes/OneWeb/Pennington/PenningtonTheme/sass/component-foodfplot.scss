@@ -1,0 +1,72 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "base/fontawesome/font-awesome";
+
+.foodplot {
+
+    .panel-title {
+
+        a {
+
+            font-size: 2rem;
+            font-weight: bold;
+            color: $bg-black;
+        }
+    }
+
+    .foodplotHowToContent {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: $bg-black;
+
+        ol {
+            li {
+                font-size: 1.6rem;
+                font-weight: 600;
+                color: $bg-black;
+            }
+        }
+    }
+
+    .speciesCheckList {
+
+        .NoPadding {
+            color: $bg-black;
+            font-size: 1.4rem;
+            font-weight: bold;
+        }
+    }
+
+    #divRecommendedProducts {
+
+        font-size: 1.5rem;
+
+        a {
+            color: $anchor;
+            font-size: 1.5rem;
+            text-decoration: none;
+            font-weight: 300;
+
+            &:hover {
+                text-decoration: underline;
+                text-decoration-color: $bg-black;
+            }
+        }
+    }
+
+    @include respond-to(mobile) {
+
+        .hidden-xs {
+            display: none !important;
+        }
+    }
+
+    .panel-heading {
+        a {
+            &:before {
+                @include fa-icon();
+                content: $fa-var-chevron-down;
+            }
+        }
+    }
+}

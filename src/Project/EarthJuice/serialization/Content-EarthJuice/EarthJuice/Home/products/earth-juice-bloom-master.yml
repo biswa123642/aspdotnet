@@ -1,0 +1,119 @@
+﻿---
+ID: "bf667745-feb4-48f0-9b23-370e1e4e1737"
+Parent: "6f4acf84-948d-4697-94b2-1679a22a23a5"
+Template: "bc41b87d-2a9b-4689-9f51-80bb5b31a6e7"
+Path: "/sitecore/content/OneWeb/EarthJuice/Home/products/earth-juice-bloom-master"
+SharedFields:
+- ID: "76fb6ffd-4487-4028-a1cf-705fbe360cba"
+  Hint: Priority
+  Value: 0.5
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: "{01D931A8-9F50-46B8-8D30-E68AF282B721}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{2D3CDB5C-499D-4ADC-99FD-F68498AB1226}"
+          s:ds="local:/Data/Youtube Video"
+          s:id="{3C84ED23-7591-45E0-8850-1AE96D1342B1}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles=%7BA3FE985E-AED2-423F-9EF7-107947C154B9%7D&amp;RenderingIdentifier"
+          s:ph="/main/sxa-product-details-partial/container-1/row-1-2/row-1-3/column-1-5/container-19"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02a41838-168c-4858-bafd-f0031b877ddc"
+      Hint: ProductAttributes
+      Value: "{84C2EA1A-9F18-4967-8289-A8E90BC68369}|{68F6D115-AA3F-4797-B41E-E832A5526530}|{663E2161-183F-43DE-A89D-920AC8B361F7}|{EF23F7F5-BE3E-407D-8F28-07C8FC8347E7}|{072DDFC7-1A2B-4B57-B644-57D3741F779D}|{769D5E7E-1537-41DF-97B4-2345347CDEAF}"
+    - ID: "0318fbe2-2d38-434f-9381-8b0c7500e19a"
+      Hint: ProductDocuments
+      Value: |
+        {674B95D8-8C06-4AE0-93D9-2296BAFB6CA9}
+        {EF8621B9-CD62-4B9D-8627-5F3DBD852E1A}
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{E7E6D87B-A8D3-49A7-880E-F14A20327691}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220621T153029Z
+    - ID: "27aae902-36ee-42d6-a409-540b226404b0"
+      Hint: PDFDocuments
+      Value: "{0F25D795-F12E-4F1D-8B12-4008504296E8}"
+    - ID: "2a99ffc2-2811-4c06-8960-b56f3669dd33"
+      Hint: ProductRanking
+      Value: 14
+    - ID: "30b0a514-dc94-432c-9655-8c01e474023f"
+      Hint: ExtendedContent
+      Value: |
+        <p>N0.00% – P50.00% – K30.00%</p> <p>Water-soluble bud’n’bloom booster with rock phosphate and steamed bone meal. Bloom Master is a super concentrated water-soluble bud &amp; bloom plant food &amp; booster designed to increase the production of blooms and improve the development of essential oils, resins and fragrances. Earth Juice Bloom Master is formulated to be used on indoor or outdoor plants in hydroponic systems and soil. To be used as part of a complete fertilizer program. </p> <p class="lead score-lead label-lead">Available Sizes:</p> <p>3lb | 7lb | 20lb | 40lb</p>
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "48e01a28-92f2-445f-a43f-6ddb7082c998"
+      Hint: AllDocuments
+      Value: |
+        <link text="SEE ALL CHARTS" anchor="" linktype="internal" class="" title=""  querystring="" id="{4CA2AD2C-8FF3-4CEC-B219-7792F06915DD}" />
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Earth Juice Bloom Master
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: "Water-soluble bud & bloom plant food & booster designed to increase the production of blooms and improve the development of essential oils, resins and fragrances."
+    - ID: "543b1d82-a096-4893-90b3-35bbb2ab2b1a"
+      Hint: PageHeaderScripts
+      Value: |
+        <meta property="og:type"               content="product" />  <!-- Start of Survicate (www.survicate.com) code -->  <script type="text/javascript">    (function (w) {      var s = document.createElement('script');      s.src = 'https://survey.survicate.com/workspaces/0a4fb9fe21e1d4f1b90403e1e4156837/web_surveys.js';      s.async = true;      var e = document.getElementsByTagName('script')[0];      e.parentNode.insertBefore(s, e);    })(window);  </script>  <!-- End of Survicate code -->
+    - ID: "5e650555-c7f0-456a-8185-f69388169cbc"
+      Hint: MetaKeywords
+      Value: "{7D9FB66E-598C-444C-A178-F9752BF25FC2}|{1A326BF9-0BCC-4CCB-9718-BF51074820CF}|{F31ADE9B-F55E-429B-8F0E-464B67B853D5}"
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: "Water-soluble bud’n’bloom booster with rock phosphate and steamed bone meal."
+    - ID: "665c0084-5a1e-484b-a888-4b00b920fda5"
+      Hint: ProductDocumentsLabel
+      Value: FEEDING CHARTS
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "Water-soluble bud & bloom plant food & booster designed to increase the production of blooms and improve the development of essential oils, resins and fragrances."
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Earth Juice Bloom Master | Bud and Bloom Booster Fertilizer
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Earth Juice Bloom Master
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e9994d13-8422-42bb-bf4b-15d20cabf7aa"
+    - ID: "9e6d1091-e2cf-4bcf-8663-9e804c9f18e6"
+      Hint: PDFDocumentsLabel
+      Value: "SDS:"
+    - ID: "ab818f97-8aa8-4d81-9e70-29c2d400c1fb"
+      Hint: RenderCanonicalTag
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "ca373527-0c18-4282-83b0-121b8a197598"
+      Hint: LongTitle
+      Value: Earth Juice Bloom Master
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{E7E6D87B-A8D3-49A7-880E-F14A20327691}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220714T100820Z

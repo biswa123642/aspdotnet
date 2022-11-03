@@ -1,0 +1,30 @@
+﻿---
+ID: "48c00af4-2378-42c2-9975-b365303aaee0"
+Parent: "6e7840e3-5d65-44e8-b1dd-f418b11653d8"
+Template: "6e7840e3-5d65-44e8-b1dd-f418b11653d8"
+Path: /sitecore/templates/Feature/OneWeb/Find Sales Representatives/States/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{9FFA21A0-7135-4D41-8350-AFD818B3EDC6}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220923T153058Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b3cd0ed3-9076-4ae8-a8d0-872c43206a94"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220923T153126Z

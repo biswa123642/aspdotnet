@@ -1,0 +1,615 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+    &.teaser-promo {
+        &.variant-2 {
+            background-color: $text-color;
+
+            .content-right {
+                .inner-wrap {
+                    text-align: center;
+                    padding: 0;
+                    padding-top: 2rem;
+
+                    .field-description {
+                        text-align: center;
+                        font-size: 1rem;
+                        color: $link-color;
+                        text-transform: uppercase;
+                        font-weight: 100;
+                        @include Helvetica-font-stack();
+                        margin-bottom: 1rem;
+                    }
+
+                    .bottom-link {
+                        .sxa-btn {
+                            a {
+                                border: none;
+                                font-size: 2rem;
+                                @include georgia-font-stack();
+                                font-weight: 500;
+
+                                &:after {
+                                    content: '';
+                                    background-image: url("../images/insects.svg");
+                                    background-size: 100% 100%;
+                                    width: 46px;
+                                    height: 100px;
+                                    margin: 1rem auto 0px;
+                                    display: block;
+                                }
+
+                                &:hover {
+                                    text-decoration: underline;
+                                    text-decoration-color: $color-primary;
+                                    color: $color-primary;
+                                }
+
+                                @media only screen and (min-width: 1400px) {
+                                    &:after {
+                                        margin-top: 40px;
+                                        width: 65px;
+                                        height: 70px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            @include respond-to(tab) {
+                margin-top: 8rem;
+                margin-bottom: 12.8rem;
+
+                .content-right {
+                    .inner-wrap {
+                        text-align: center;
+                        padding-top: 2rem;
+
+                        .field-description {
+                            font-size: 1.4rem;
+                        }
+
+                        .bottom-link {
+                            .sxa-btn {
+                                a {
+                                    font-size: 2.8rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            @media only screen and (min-width: 1200px) {
+                figure {
+                    background-position: center;
+                }
+
+                .content-right {
+                    .inner-wrap {
+                        padding-top: 8rem;
+                    }
+                }
+            }
+
+            @media only screen and (min-width: 1500px) {
+                .content-right {
+                    .inner-wrap {
+                        .field-description {
+                            font-size: 2rem;
+                            line-height: 37px;
+                        }
+
+                        .bottom-link {
+                            .sxa-btn {
+                                a {
+                                    font-size: 4rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.promo-floting-box {
+            background-color: $text-color;
+            padding: 0 1.5rem;
+
+            @include respond-to(desktop) {
+                padding: 0px 6.6rem;
+            }
+
+            .header--ribbon {
+                text-align: center;
+                padding-top: 3rem;
+                
+
+                h2 {
+                    text-align: left;
+                    padding-top: 1rem;
+                    padding-bottom: 1rem;
+                    position: relative;
+                    background-image: url("../images/icon3.svg");
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    color: $text-color;                    
+                    background-position: center;
+                    height: 4rem;
+                    display: inline-block;
+                    min-width: 444px;
+                    font-weight: 800;
+                    font-size: 1.6rem;                    
+                    padding-left: 36%;
+
+                    &:before {
+                        content: '';
+                        background-image: url("../images/icon2.svg");
+                        display: inline-block;
+                        height: 82px;
+                        width: 82px;
+                        position: absolute;
+                        background-size: contain;
+                        top: 50%;
+                        left: 30px;
+                        transform: translateY(-50%);
+                    }
+                    @include respond-to(desktop){
+                        font-size: 2rem;
+                        text-align: center;
+                        padding-top: 1.7rem;
+                        padding-left: initial;
+                        min-width: 491px;
+                        height: 6rem;
+                        &:before {
+                            left: 0;
+                        }
+                    }
+
+                   
+                }
+            }
+
+            h2 {
+                text-align: center;
+                padding-top: 3rem;
+                padding-bottom: 2rem;
+                font-size: 3.5rem;
+                @include georgia-font-stack();
+                font-weight: 400;
+            }
+
+            .content-left {
+                @include respond-to(desktop) {
+                    text-align: right;
+                }
+            }
+
+            .content-right {
+                display: flex;
+                flex-direction: column;
+                padding: 1rem 1.5rem;
+
+                a {
+                    color: #580000;
+                    font-size: 14px;
+                    line-height: 22px;
+                    font-weight: 500;
+                    border: 2px solid #580000;
+                    border-radius: 0px;
+                    text-transform: uppercase;
+                    margin: 0px 0px 0.75rem 0px;
+                    padding: 15px 9px;
+                    text-align: left;
+                    width: 300px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    text-decoration: none;
+                    position: relative;
+
+                    &:hover {
+                        text-transform: none;
+                    }
+
+                    &:after {
+                        content: "\003E";
+                        color: $color-primary;
+                        position: absolute;
+                        right: 12px;
+                        font-weight: 500;
+                    }
+                }
+                @include respond-to(desktop){
+                    justify-content: center;
+                }
+            }
+
+            .content-wrap {
+                text-align: center;
+
+                @include respond-to(tab) {
+                    text-align: right;
+                }
+
+                text-align:right;
+
+                h2 {
+                    padding-bottom: 0;
+                    font-size: 1.6rem;
+                    text-align: center;
+                    font-weight: 700;
+                    color: $color-secondary;
+                    @include Helvetica-font-stack();
+
+                    @include respond-to(tab) {
+                        text-align: right;
+                        font-size: 2.4rem;
+                    }
+                }
+
+                p {
+                    font-size: 1.8rem;
+                    color: $color-secondary;
+                    font-weight: 400;
+                    text-align: left;
+                    padding-top: 3rem;
+                    padding-bottom: 3rem;
+                }
+
+                h3 {
+                    a {
+                        font-size: 1.6rem;
+                        text-decoration: none;
+                        font-style: italic;
+                        font-weight: 400;
+
+                        @include respond-to(tab) {
+                            font-size: 2.4rem;
+                        }
+                    }
+                }
+            }
+
+            .content-right-align {
+                text-align: center;
+
+                @include respond-to(tab) {
+                    text-align: left;
+                }
+
+                h2 {
+                    text-align: center;
+
+                    @include respond-to(tab) {
+                        text-align: left;
+
+                    }
+                }
+            }
+
+            .list-wrapper {
+                margin: auto;
+
+                h3 {
+                    font-size: 2rem;
+                    font-weight: 400;
+                    @include georgia-font-stack();
+                }
+
+                ul {
+                    padding-left: 2rem;
+
+                    li {
+                        list-style-type: disc;
+                        color: $color-secondary;
+                        font-size: 1.8rem;
+
+                        &::marker {
+                            color: $color-primary;
+                        }
+                    }
+
+                    &.check {
+                        padding-left: 0rem;
+
+                        li {
+                            list-style-type: none;
+                            display: inline-flex;
+
+                            &::before {
+                                content: "\2713";
+                                color: $color-primary;
+                                font-weight: 700;
+                                padding-right: 2rem;
+                            }
+
+                            @include respond-to(extra-large-desktop) {
+                                display: block;
+                            }
+                        }
+                    }
+
+                    &.cross {
+                        padding-left: 0rem;
+
+                        li {
+                            list-style-type: none;
+                            display: inline-flex;
+
+                            &::before {
+                                content: '';
+                                display: inline-block;
+                                margin-right: 1.5rem;
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                                width: 18px;
+                                height: 15px;
+                                background-image: url("../images/cross.svg");
+                            }
+
+                            @include respond-to(extra-large-desktop) {
+                                display: block;
+                            }
+                        }
+                    }
+
+                }
+            }
+
+            .qoutes-content {
+                color: $color-secondary;
+                font-size: 1.8rem;
+                position: relative;
+                margin: 4rem;
+
+                &:before,
+                &:after {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    top: -14px;
+                    left: -40px;
+                    transform: translateY(-50%);
+                    width: 47px;
+                    height: 47px;
+                    background-image: url("../images/icon1.svg")
+                }
+
+                &:after {
+                    content: "";
+                    right: 0rem;
+                    transform: rotate(180deg) translateY(-50%);
+                    content: "";
+                    top: 66%;
+                    left: auto;
+                }
+
+                a {
+
+                    font-style: italic;
+                }
+            }
+
+            .logo-wrapper {
+                figure {
+                    margin: 0;
+                    padding: 0 1.5rem;
+                }
+
+                @media only screen and (max-width: 992px) {
+                    padding: 0;
+                }
+
+                text-align: right;
+
+                @include respond-to(desktop) {
+                    max-width: 28%;
+                }
+
+                @include respond-to(extra-large-desktop) {
+                    max-width: 20%;
+                }
+            }
+
+            .description-wrap {
+                display: flex;
+                align-items: center;
+                color: $color-secondary;
+                font-size: 1.2rem;
+                font-weight: 400;
+
+                p {
+                    color: $color-secondary;
+                }
+
+                @include respond-to(tab) {
+                    font-size: 1.8rem;
+                }
+            }
+        }
+
+        &.multiple-floating-box {
+            border-bottom: 2px solid $border-color;
+            margin-bottom: 3rem;
+            margin-top: 4rem;
+
+            .content-left {
+                .content-wrapper {
+                    .heading-wrapper {
+                        font-size: 1.4rem;
+                        color: $color-secondary;
+                        padding: 1rem 1.5rem;
+                    }
+
+                    .link-wrapper {
+                        @include respond-to(desktop) {
+                            position: relative;
+
+                            a {
+                                font-size: 1.4rem;
+                                position: absolute;
+                                bottom: 3rem;
+                                font-style: italic;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .content-right {
+                width: 350px;
+
+                .button-wrapper {
+                    display: flex;
+                    max-width: none;
+                    align-items: flex-start;
+                    flex-wrap: wrap;
+                    flex-direction: row;
+
+                    a {
+                        width: calc(50% - 20px);
+                        border: 2px solid #580000;
+                        text-transform: uppercase;
+                        color: #580000;
+                        font-size: 1rem;
+                        margin-bottom: 10px;
+                        margin-left: 1rem;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        text-transform: uppercase;
+                        padding-left: 10px;
+                        text-decoration: none;
+                        position: relative;
+
+                        &:after {
+                            content: "\003E";
+                            color: $color-primary;
+                            position: absolute;
+                            right: 10px;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.floating-highlight {
+    transition: all ease-in-out 300ms;
+    opacity: 0;
+    transform: translateX(100%);
+    position: fixed;
+    right: 0;
+    top: 110px;
+    width: 290px;
+    background: #ffffff;
+    padding: 10px 30px;
+    z-index: 11;
+    display: none;
+
+    &.active {
+        opacity: 1;
+        transform: translateX(0%);
+        padding: 2rem 1.5rem;
+    }
+
+    .header--ribbon {
+        text-align: center;
+        padding-top: 3rem;
+
+        h2 {
+            text-align: center;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            position: relative;
+            background-image: url("../images/icon3.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            color: $text-color;
+            height: 3.8rem;
+            background-position: center;
+            font-size: 1.4rem;
+            display: inline-block;
+            min-width: 319px;
+
+            &:before {
+                content: '';
+                background-image: url("../images/icon2.svg");
+                display: inline-block;
+                height: 78px;
+                width: 55px;
+                position: absolute;
+                background-size: contain;
+                top: 83%;
+                left: 0;
+                transform: translateY(-50%);
+                background-repeat: no-repeat;
+            }
+        }
+        
+    }
+
+    h2 {
+        font-size: 2.4rem;
+        text-align: center;
+        @include georgia-font-stack();
+        font-weight: 400;
+
+    }
+
+    img {
+        height: 180px;
+        display: block;
+        overflow: hidden;
+        position: relative;
+        width: auto !important;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0px !important;
+    }
+
+    .content-right {
+        display: flex;
+        flex-direction: column;
+        max-width: 290px;
+
+        a {
+            color: #580000;
+            font-size: 14px;
+            line-height: 22px;
+            font-weight: 500;
+            border: 2px solid #580000;
+            border-radius: 0px;
+            text-transform: uppercase;
+            margin: 0px 0px 0.75rem 0px;
+            padding: 9px 9px;
+            text-align: left;
+            width: 250px;
+            margin-left: auto;
+            margin-right: auto;
+            text-decoration: none;
+            position: relative;
+
+            &:hover {
+                text-transform: none;
+            }
+
+            &:after {
+                content: "\003E";
+                color: $color-primary;
+                position: absolute;
+                right: 5px;
+                font-weight: 500;
+            }
+        }
+    }
+
+    @include respond-to(desktop) {
+        display: block;
+    }
+}

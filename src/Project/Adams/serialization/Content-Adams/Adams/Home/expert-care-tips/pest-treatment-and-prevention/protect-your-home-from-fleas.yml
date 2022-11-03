@@ -1,0 +1,683 @@
+﻿---
+ID: "21e3f318-d52b-4c02-8a79-3d39651ece03"
+Parent: "9831b080-f9b1-4398-bd31-d847a99259d8"
+Template: "057af325-c948-4918-a4e4-2c3f6cf04524"
+Path: "/sitecore/content/OneWeb/Adams/Home/expert-care-tips/pest-treatment-and-prevention/protect-your-home-from-fleas"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{F7DC6144-4B9A-4C90-81B5-8C9739CF6B2E}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{D10EA836-2B70-4E65-BAB3-C9560393F584}"
+          p:before="*"
+          s:ds="{49437F0F-FA91-480B-9676-5AC1249B5D7E}"
+          s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B9D8139B8-DAED-43CB-9586-C04CF733C9D3%7D%7C%7BAC68FB5B-16C7-4EEA-9E0D-B57F31508A52%7D&amp;RenderingClass&amp;FieldNames=%7B99EE7040-5ACF-434E-9637-3A9058AE4096%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=31"
+          s:ph="/main/row-4-3/container-13" />
+        <r
+          uid="{1C5276A5-4B56-4746-9669-1330CE00F511}"
+          p:after="r[@uid='{D10EA836-2B70-4E65-BAB3-C9560393F584}']"
+          s:ds="{6C51372C-2DB0-4381-B191-03578EB89C71}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B1F82374C-AFA3-4764-B5B8-5873FEB5E749%7D&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=29"
+          s:ph="/main/row-7-3/container-28" />
+        <r
+          uid="{49FA6828-BE53-440C-B769-1362DE066A4A}"
+          p:after="r[@uid='{1C5276A5-4B56-4746-9669-1330CE00F511}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=28"
+          s:ph="/main/row-7-3" />
+        <r
+          uid="{508AEF5D-3CDB-4ADD-B0D3-DA80D1ED8DFD}"
+          p:after="r[@uid='{49FA6828-BE53-440C-B769-1362DE066A4A}']"
+          s:ds="{0704E83D-EF47-4608-A368-D0B793092C3B}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B1F82374C-AFA3-4764-B5B8-5873FEB5E749%7D&amp;Styles=%7B6EDFF3BB-D934-425D-AD04-F8578EACEF46%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=27"
+          s:ph="/main/row-6-3/container-24/column-2-25" />
+        <r
+          uid="{8E23F6B4-B9B8-4430-AF48-40BFF5E6841D}"
+          p:after="r[@uid='{508AEF5D-3CDB-4ADD-B0D3-DA80D1ED8DFD}']"
+          s:ds="{9C577164-2C3F-4CF7-A35C-EDBCE540696F}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B1F82374C-AFA3-4764-B5B8-5873FEB5E749%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=26"
+          s:ph="/main/row-6-3/container-24/column-1-25" />
+        <r
+          uid="{60B6BE0A-4A8C-41CD-ADFF-B63C277C3CB1}"
+          p:after="r[@uid='{8E23F6B4-B9B8-4430-AF48-40BFF5E6841D}']"
+          s:ds=""
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B7C578874-2BE2-4305-92BA-CD9D774ED7C2%7D&amp;ColumnWidth2=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BBC383D5D-B404-43F4-B814-790378FABAC2%7D%7C%7B829E9759-5946-45DF-A06D-3CB37AE9D613%7D%7C%7BBADFB0CB-8D31-4438-90C4-FA7BE8C18C49%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=25"
+          s:ph="/main/row-6-3/container-24" />
+        <r
+          uid="{8B251443-4CC8-4E7C-B12D-64EB3009B95E}"
+          p:after="r[@uid='{60B6BE0A-4A8C-41CD-ADFF-B63C277C3CB1}']"
+          s:ds="{02699018-3FE7-47A4-95A5-B53DEBB2DF23}"
+          s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B9D8139B8-DAED-43CB-9586-C04CF733C9D3%7D%7C%7BAC68FB5B-16C7-4EEA-9E0D-B57F31508A52%7D&amp;RenderingClass&amp;FieldNames=%7B99EE7040-5ACF-434E-9637-3A9058AE4096%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=33"
+          s:ph="/main/row-6-3/container-24" />
+        <r
+          uid="{F7CAB8AB-FFC9-4FFB-A4AD-E9B617FF2126}"
+          p:after="r[@uid='{8B251443-4CC8-4E7C-B12D-64EB3009B95E}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=24"
+          s:ph="/main/row-6-3" />
+        <r
+          uid="{922953CA-3EEB-4CC5-A896-52B49ABAB49C}"
+          p:after="r[@uid='{F7CAB8AB-FFC9-4FFB-A4AD-E9B617FF2126}']"
+          s:ds="{357EDEC8-E335-4D6B-B00E-8EE0CBBB52D1}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B1F82374C-AFA3-4764-B5B8-5873FEB5E749%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=23"
+          s:ph="/main/row-5-3/container-18/column-4-19" />
+        <r
+          uid="{6D214020-FE87-4FED-BFDE-19E5C99642CF}"
+          p:after="r[@uid='{922953CA-3EEB-4CC5-A896-52B49ABAB49C}']"
+          s:ds="{D388D9F1-F916-4F1E-8509-CDAEAF61D2E6}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B1F82374C-AFA3-4764-B5B8-5873FEB5E749%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=22"
+          s:ph="/main/row-5-3/container-18/column-2-19" />
+        <r
+          uid="{588A6F77-8710-4062-8DA5-4401BBD6FF75}"
+          p:after="r[@uid='{6D214020-FE87-4FED-BFDE-19E5C99642CF}']"
+          s:ds="{6251C174-4AD7-41F0-87FB-34125B6F15FE}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B1F82374C-AFA3-4764-B5B8-5873FEB5E749%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=21"
+          s:ph="/main/row-5-3/container-18/column-3-19" />
+        <r
+          uid="{E9F566F8-8758-4E23-A48A-35DA1F758ADC}"
+          p:after="r[@uid='{588A6F77-8710-4062-8DA5-4401BBD6FF75}']"
+          s:ds="{04CAA28A-4BC6-4A29-8722-D6015CECFEA9}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B1F82374C-AFA3-4764-B5B8-5873FEB5E749%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=20"
+          s:ph="/main/row-5-3/container-18/column-1-19" />
+        <r
+          uid="{EEAF32AB-3940-4007-8478-8A2EA7B4E546}"
+          p:after="r[@uid='{E9F566F8-8758-4E23-A48A-35DA1F758ADC}']"
+          s:ds=""
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth2=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth3=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth4=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C3%2C2%2C4&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=19"
+          s:ph="/main/row-5-3/container-18" />
+        <r
+          uid="{068F003D-4352-46E4-AE7E-6A9C0F6E0EA8}"
+          p:after="r[@uid='{EEAF32AB-3940-4007-8478-8A2EA7B4E546}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=18"
+          s:ph="/main/row-5-3" />
+        <r
+          uid="{CE7438BE-2B9C-4021-BC9A-4DD43FD103FC}"
+          p:after="r[@uid='{068F003D-4352-46E4-AE7E-6A9C0F6E0EA8}']"
+          s:ds="{E89AE000-0078-4117-A1A8-00439A12C52C}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B1F82374C-AFA3-4764-B5B8-5873FEB5E749%7D&amp;Styles=%7B29998DB5-6C20-4078-A13F-A2B7E9792059%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=17"
+          s:ph="/main/row-4-3/container-13/column-2-14" />
+        <r
+          uid="{408DE1DB-11A2-445B-8AF9-487C791A31BE}"
+          p:after="r[@uid='{CE7438BE-2B9C-4021-BC9A-4DD43FD103FC}']"
+          s:ds="{A1DB8D90-49AC-4C24-A5A4-9F1E389A6D21}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B1F82374C-AFA3-4764-B5B8-5873FEB5E749%7D&amp;Styles=%7B29998DB5-6C20-4078-A13F-A2B7E9792059%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=16"
+          s:ph="/main/row-3-3/container-10/column-1-11" />
+        <r
+          uid="{64651F8B-79ED-4AC3-8AB2-F926BB99DF7A}"
+          p:after="r[@uid='{408DE1DB-11A2-445B-8AF9-487C791A31BE}']"
+          s:ds="{5BE159C2-8741-4231-AFAA-00BA91515A2C}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B1F82374C-AFA3-4764-B5B8-5873FEB5E749%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=15"
+          s:ph="/main/row-4-3/container-13/column-1-14" />
+        <r
+          uid="{4968546A-68BB-4A7F-8E55-CD46B2DD5DB1}"
+          p:after="r[@uid='{64651F8B-79ED-4AC3-8AB2-F926BB99DF7A}']"
+          s:ds=""
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B7C578874-2BE2-4305-92BA-CD9D774ED7C2%7D&amp;ColumnWidth2=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BBC383D5D-B404-43F4-B814-790378FABAC2%7D%7C%7B829E9759-5946-45DF-A06D-3CB37AE9D613%7D%7C%7BBADFB0CB-8D31-4438-90C4-FA7BE8C18C49%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=14"
+          s:ph="/main/row-4-3/container-13" />
+        <r
+          uid="{BAEB1B96-6000-4436-9824-94B39A356331}"
+          p:after="r[@uid='{4968546A-68BB-4A7F-8E55-CD46B2DD5DB1}']"
+          s:ds="{258EE03A-3DE6-4116-A5D5-610DD5A76237}"
+          s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B9D8139B8-DAED-43CB-9586-C04CF733C9D3%7D%7C%7BAC68FB5B-16C7-4EEA-9E0D-B57F31508A52%7D&amp;RenderingClass&amp;FieldNames=%7B99EE7040-5ACF-434E-9637-3A9058AE4096%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=32"
+          s:ph="/main/row-4-3/container-13" />
+        <r
+          uid="{E9F0659A-0060-4D64-8548-A73419272631}"
+          p:after="r[@uid='{BAEB1B96-6000-4436-9824-94B39A356331}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=13"
+          s:ph="/main/row-4-3" />
+        <r
+          uid="{4C2F0FE5-CC20-4313-9E0D-2E894FFEAB0A}"
+          p:after="r[@uid='{E9F0659A-0060-4D64-8548-A73419272631}']"
+          s:ds="{E291F389-38B5-4A60-87A9-E0926F151703}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B1F82374C-AFA3-4764-B5B8-5873FEB5E749%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=12"
+          s:ph="/main/row-3-3/container-10/column-2-11" />
+        <r
+          uid="{98C5D109-3A25-49ED-812F-A823DD097B2D}"
+          p:after="r[@uid='{4C2F0FE5-CC20-4313-9E0D-2E894FFEAB0A}']"
+          s:ds=""
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth2=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=11"
+          s:ph="/main/row-3-3/container-10" />
+        <r
+          uid="{1B0644B1-5590-4A20-8A20-502729B6170B}"
+          p:after="r[@uid='{98C5D109-3A25-49ED-812F-A823DD097B2D}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/row-3-3" />
+        <r
+          uid="{3737CCA0-8405-41DA-B0D7-93BE14C10276}"
+          p:after="r[@uid='{1B0644B1-5590-4A20-8A20-502729B6170B}']"
+          s:ds="{76A0F24A-AA96-4C51-AD61-217A128444C6}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B1F82374C-AFA3-4764-B5B8-5873FEB5E749%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/row-2-3/container-6/column-2-7" />
+        <r
+          uid="{8966F599-0FBB-4D30-9C4C-7DF9379260FE}"
+          p:after="r[@uid='{3737CCA0-8405-41DA-B0D7-93BE14C10276}']"
+          s:ds="{86AA1F3F-2A4F-43FB-8EE9-542F1382E6EC}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B1F82374C-AFA3-4764-B5B8-5873FEB5E749%7D&amp;Styles=%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/row-2-3/container-6/column-1-7" />
+        <r
+          uid="{6630BA2A-5FBE-4DEB-A1CF-F83EA7298E4D}"
+          p:after="r[@uid='{8966F599-0FBB-4D30-9C4C-7DF9379260FE}']"
+          s:ds=""
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B7C578874-2BE2-4305-92BA-CD9D774ED7C2%7D&amp;ColumnWidth2=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BBC383D5D-B404-43F4-B814-790378FABAC2%7D%7C%7B829E9759-5946-45DF-A06D-3CB37AE9D613%7D%7C%7BBADFB0CB-8D31-4438-90C4-FA7BE8C18C49%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-2-3/container-6" />
+        <r
+          uid="{08AF32CC-231E-4614-872D-9FE749C979B4}"
+          p:after="r[@uid='{6630BA2A-5FBE-4DEB-A1CF-F83EA7298E4D}']"
+          s:ds="{BA80B9B6-3489-45AA-B68B-D489536F6C36}"
+          s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B9D8139B8-DAED-43CB-9586-C04CF733C9D3%7D%7C%7BAC68FB5B-16C7-4EEA-9E0D-B57F31508A52%7D&amp;RenderingClass&amp;FieldNames=%7B99EE7040-5ACF-434E-9637-3A9058AE4096%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=30&amp;CacheClearingBehavior=Clear%20on%20publish"
+          s:ph="/main/row-2-3/container-6"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{07FBB9D7-5D27-4C24-A4BF-66653A85672D}"
+          p:after="r[@uid='{08AF32CC-231E-4614-872D-9FE749C979B4}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-2-3" />
+        <r
+          uid="{7E1E71BD-2E24-4497-B5A7-C90968CC6F5E}"
+          p:after="r[@uid='{07FBB9D7-5D27-4C24-A4BF-66653A85672D}']"
+          s:ds="{89E72610-63F7-40CD-BFDB-F01881CB1AE0}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B1F82374C-AFA3-4764-B5B8-5873FEB5E749%7D&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D%7C%7B48194A28-1F87-4086-AADC-E2B09B8EA318%7D%7C%7BADDFB720-BE49-4750-BD0A-48FCBFDA5647%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-1-3/container-4" />
+        <r
+          uid="{7ED9CAE1-3F41-4B0B-A877-E59558E41986}"
+          p:after="r[@uid='{7E1E71BD-2E24-4497-B5A7-C90968CC6F5E}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-1-3" />
+        <r
+          uid="{46170A98-07EE-4F47-8188-CEF268071052}"
+          p:after="r[@uid='{7ED9CAE1-3F41-4B0B-A877-E59558E41986}']"
+          s:ds=""
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%3E&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BDDC7245B-DE5B-4083-B3D1-C3FBD4BF56F7%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/container-1" />
+        <r
+          uid="{06602139-F9DB-4F67-B19A-340855E47837}"
+          p:after="r[@uid='{46170A98-07EE-4F47-8188-CEF268071052}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+        <r
+          uid="{E5332F24-43A4-43E3-93C6-B431FBD78B43}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3%2C4%2C5%2C6%2C7&amp;Styles1=%7B685D116D-D822-4384-ACD5-819FE7EF6B31%7D&amp;Styles2=%7BB11AAAD5-4209-48A5-A88B-999930A4054F%7D&amp;Styles3=%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;Styles4=%7BB11AAAD5-4209-48A5-A88B-999930A4054F%7D%7C%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;Styles5=%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D%7C%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;Styles6=%7BB11AAAD5-4209-48A5-A88B-999930A4054F%7D%7C%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;Styles7=%7B56AC347A-BF04-4541-998C-224DF56E208C%7D%7C%7BFCA63CD5-CFCB-413B-872E-307FD9F3DD60%7D&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=3"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{9E7693A6-7082-4B40-B8DB-82F0E2EAB55B}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220622T072624Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "36aa965e-f5ea-4871-a55b-53e090d5026e"
+      Hint: ArticleType
+      Value: "{169F937D-7CDC-4848-BCE8-BD94476E9F33}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Protect Your Home From Fleas
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Protecting your home from fleas differs depending on the type of home you live in and requires layered treatments throughout your home, yard, and your pet.
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+            <div class="infographic-wrapper">
+                <div class="ht">&nbsp;</div>
+                <!-- HEADER -->
+                <div class="infographic-header">
+                    <div class="container">
+                        <div class="row flex-column">
+                            <div class="col d-flex justify-content-center align-items-center">
+                                <img src="-/media/6B1A320FBFFE4E6EB54FA28E967CE367.ashx" alt="Adam's Plus" />
+                            </div>
+                            <div class="col">
+                                <div class="infographic-title">
+                                    PROTECT YOUR HOME FROM FLEAS
+                                </div>
+                                <div class="infographic-subtitle">
+                                    Protecting your home from fleas differs depending<br />
+                                    on the type of home you live in.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--CONTEUDO SECTION -->
+                <section class="c1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-8 col-8 d-flex justify-content-center flex-column">
+                                <div class="infographic-h2">
+                                    APARTMENT/CONDO
+                                </div>
+                                <p style="background: #f1f1f1;">
+                                    Apartment protection begins with treating your dog or cat, so they don't bring fleas into your home in the first place. Provide pets with flea treatment and prevention products, including a  <a rel="noopener noreferrer" href="https://www.walmart.com/ip/Adams-Flea-Tick-2PK-Collar-for-Large-Dogs-Grey-One-Size/366833988" target="_blank">flea collar</a> and <a rel="noopener noreferrer" href="https://www.walmart.com/ip/Adams-Plus-Flea-and-Tick-Shampoo-with-Precor-Flea-Treatment-for-Dogs-and-Cats-12-ounce/25581764" target="_blank">flea shampoo</a>.
+                                </p>
+                            </div>
+                            <div class="col-lg-6 col-md-4 col-4 offset-lg-1">
+                                <img src="-/media/7553B941C5BF4D4E88093B866032A702.ashx" class="hide-tablet" />
+                                <img src="-/media/0BED5CC49B9844639C52AE42A88D6E28.ashx" class="show-tablet" />
+                                <img src="-/media/93DFA8A316914C08B838CB8F1EBF78E6.ashx" class="show-mini-mobile" />
+                                <div class="cat">
+                                    <img src="-/media/7C742642A2644862B689D555F3977211.ashx" />
+                                </div>
+                            </div>
+                            <div class="col-12 show-tablet prods-mobile">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h3>
+                                            <a href="https://www.walmart.com/ip/Adams-Flea-Tick-2PK-Collar-for-Large-Dogs-Grey-One-Size/366833988" target="_blank" class="prod">
+                                                <img src="-/media/B203C332C5DD420AA989089F7F32066D.ashx" />
+                                                Adams Flea &amp; Tick 2PK Collar for Large Dogs
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div class="col-6">
+                                        <h3>
+                                            <a href="https://www.walmart.com/ip/Adams-Plus-Flea-and-Tick-Shampoo-with-Precor-Flea-Treatment-for-Dogs-and-Cats-12-ounce/25581764" target="_blank" class="prod">
+                                                <img src="-/media/333A29D050934C0F90256606E7A45847.ashx" />
+                                                Adams Plus Flea and Tick Shampoo with Precor, Flea Treatment for Dogs and Cats
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="c2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 ">
+                                <img src="-/media/9E7693A670824B40B8DB82F0E2EAB55B.ashx" class="hs" />
+                                <div class="dog-walk">
+                                    <img src="-/media/2EC260754D6A43F4BB5B3DA085EF7884.ashx" />
+                                </div>
+                            </div>
+                            <div class="col-lg-5 offset-lg-1 d-flex justify-content-center flex-column">
+                                <div class="infographic-h2">
+                                    TOWNHOUSE
+                                </div>
+                                <p>
+                                    For bigger spaces, you need to address both your pet and your home. Wash your pet with <a rel="noopener noreferrer" href="https://www.walmart.com/ip/Adams-Plus-Flea-and-Tick-Shampoo-with-Precor-Flea-Treatment-for-Dogs-and-Cats-12-ounce/25581764" target="_blank">flea shampoo</a> and have her sport a <a rel="noopener noreferrer" href="https://www.walmart.com/ip/Adams-Flea-Tick-2PK-Collar-for-Large-Dogs-Grey-One-Size/366833988" target="_blank">flea collar</a>. Avoid flea infestations in your townhouse by treating it with a <a rel="noopener noreferrer" href="https://www.walmart.com/search/?query=100525088" target="_blank">spray</a> that starts working within five minutes and keeps working for several months.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="prods-tabs show-tablet">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 prods-mobile">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h3>
+                                            <a href="https://www.walmart.com/ip/Adams-Plus-Flea-and-Tick-Shampoo-with-Precor-Flea-Treatment-for-Dogs-and-Cats-12-ounce/25581764" target="_blank" class="prod">
+                                                <img src="-/media/333A29D050934C0F90256606E7A45847.ashx" />
+                                                Adams Plus Flea and Tick Shampoo with Precor, Flea Treatment for Dogs and Cats
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div class="col-6">
+                                        <h3>
+                                            <a href="https://www.walmart.com/ip/Adams-Flea-Tick-2PK-Collar-for-Large-Dogs-Grey-One-Size/366833988" target="_blank" class="prod">
+                                                <img src="-/media/B203C332C5DD420AA989089F7F32066D.ashx" />
+                                                Adams Flea &amp; Tick 2PK Collar for Large Dogs
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div class="col-12">
+                                        <h3>
+                                            <a href="https://www.walmart.com/ip/Adams-Home-Spray-24-ounces/44432722" target="_blank" class="prod">
+                                                <img src="-/media/3A4A94A4EE854EBCA129DA5B2E58AEF4.ashx" />
+                                                Adams Flea &amp; Tick Home Spray
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="c3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5 d-flex justify-content-center flex-column">
+                                <div class="infographic-h2">
+                                    SINGLE-FAMILY HOME
+                                </div>
+                                <p style="background: #f1f1f1;">
+                                    A larger home calls for a wider variety of treatments to avoid or manage a flea infestation. Offer your pet three levels of protection via <a rel="noopener noreferrer" href="https://www.walmart.com/ip/Adams-Plus-Flea-and-Tick-Shampoo-with-Precor-Flea-Treatment-for-Dogs-and-Cats-12-ounce/25581764" target="_blank">flea shampoo</a>, <a rel="noopener noreferrer" href="https://www.walmart.com/ip/Adams-Flea-Tick-2PK-Collar-for-Large-Dogs-Grey-One-Size/366833988" target="_blank">flea collar</a>, and a <a rel="noopener noreferrer" href="https://www.walmart.com/ip/Adams-Plus-Flea-and-Tick-Prevention-Spot-On-for-Dogs-X-Large-Dog-61-to-150-lbs/845296550" target="_blank">topical flea treatment</a>.
+                                </p>
+                            </div>
+                            <div class="col-lg-6 offset-lg-1">
+                                <img src="-/media/6563844DEFCF47278924ED4F12FA2DB1.ashx" class="house" />
+                                <div class="dog right1 up1">
+                                    <img src="-/media/8B655217234E46C5A09F7681C85BEF39.ashx" />
+                                </div>
+                                <img src="-/media/02A6E05FA4DC4C27AA9BA022D98035D9.ashx" class="cloud" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="prods-tabs show-tablet">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 prods-mobile">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h3>
+                                            <a href="https://www.walmart.com/ip/Adams-Plus-Flea-and-Tick-Shampoo-with-Precor-Flea-Treatment-for-Dogs-and-Cats-12-ounce/25581764" target="_blank" class="prod">
+                                                <img src="-/media/333A29D050934C0F90256606E7A45847.ashx" />
+                                                Adams Plus Flea and Tick Shampoo with Precor, Flea Treatment for Dogs and Cats
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div class="col-6">
+                                        <h3>
+                                            <a href="https://www.walmart.com/ip/Adams-Flea-Tick-2PK-Collar-for-Large-Dogs-Grey-One-Size/366833988" target="_blank" class="prod">
+                                                <img src="-/media/B203C332C5DD420AA989089F7F32066D.ashx" />
+                                                Adams Flea &amp; Tick 2PK Collar for Large Dogs
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div class="col-6">
+                                        <h3>
+                                            <a href="https://www.walmart.com/ip/Adams-Flea-Tick-Indoor-Fogger-3-Pack-3-Ounces/145865623" target="_blank" class="prod">
+                                                <img src="-/media/DE6EECD73F8144F3A5C15B54E5CDDC79.ashx" />
+                                                Adams Plus Flea &amp; Tick Prevention Spot On for Dogs
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div class="col-6">
+                                        <h3>
+                                            <a href="https://www.walmart.com/search/?query=100521074" target="_blank" class="prod">
+                                                <img src="-/media/ABCD8E75BB5F415E8DD6A512F2D92720.ashx" />
+                                                Adams Yard and Garden Spray
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div class="col-12">
+                                        <h3>
+                                            <a href="https://www.walmart.com/ip/Adams-Home-Spray-24-ounces/44432722" target="_blank" class="prod">
+                                                <img src="-/media/3A4A94A4EE854EBCA129DA5B2E58AEF4.ashx" />
+                                                Adams Flea &amp; Tick Home Spray
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="c4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img src="-/media/630DB26A938F47AFB25EFC6315F2CE94.ashx" />
+                                <p>
+                                    If you have a flea infestation, first kill the existing fleas with a flea shampoo. However, once you rinse off the shampoo, the active ingredient that takes care of the fleas is gone too.
+                                </p>
+                            </div>
+                            <div class="col-lg-6">
+                                <img src="-/media/46283D53FFB4410FB5537DA4121A26AF.ashx" />
+                                <p>
+                                    Make sure you follow up with a product that protects your pet from any newly hatched fleas.
+                                </p>
+                            </div>
+                            <div class="col-lg-6">
+                                <img src="-/media/61115C0F7C254D09B69586C2CA388786.ashx" />
+                                <p>
+                                    Wait 24 to 48 hours (when your pet's coat is completely dry) before putting on a flea collar or a topical flea treatment to help avoid any adverse affects your pet may experience.
+                                </p>
+                            </div>
+                            <div class="col-lg-6">
+                                <img src="-/media/F28A062A583E490EBAE54E457CE1832F.ashx" />
+                                <p>
+                                    Also, be sure to treat both your home and your yard to keep fleas at bay.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="c5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="infographic-h2">
+                                    RANCH/FARM
+                                </div>
+                                <p style="background: #f1f1f1;">
+                                    Squashing the flea population on a large ranch or farm begins with treating your pet with <a rel="noopener noreferrer" href="https://www.walmart.com/ip/Adams-Plus-Flea-and-Tick-Shampoo-with-Precor-Flea-Treatment-for-Dogs-and-Cats-12-ounce/25581764" target="_blank">flea shampoo</a>, <a rel="noopener noreferrer" href="https://www.walmart.com/ip/Adams-Plus-Flea-and-Tick-Prevention-Spot-On-for-Dogs-X-Large-Dog-61-to-150-lbs/845296550" target="_blank">topical flea treatment</a>, and a <a rel="noopener noreferrer" href="https://www.walmart.com/ip/Adams-Flea-Tick-2PK-Collar-for-Large-Dogs-Grey-One-Size/366833988" target="_blank">flea collar</a>. It ends with treating your property with <a href="https://www.walmart.com/ip/Adams-Home-Spray-24-ounces/44432722">home spray</a>, <a rel="noopener noreferrer" href="https://www.walmart.com/search/?query=100521074" target="_blank">yard spray</a>, <a rel="noopener noreferrer" href="https://www.walmart.com/ip/Adams-Flea-Tick-Indoor-Fogger-3-Pack-3-Ounces/145865623" target="_blank">and foggers</a>.
+                                </p>
+                                <img src="-/media/61115C0F7C254D09B69586C2CA388786.ashx" />
+                                <p style="background: #f1f1f1;">
+                                    Remember to wait 24 to 48 hours after you apply the topical flea treatment before you put a flea collar on your dog.
+                                </p>
+                            </div>
+                            <div class="col-lg-7">
+                                <img src="-/media/764AA0837460421A970DEFDAFB671526.ashx" class="house" />
+                                <img src="-/media/C78DF35AFEC74925BAC8E991C4AA8E07.ashx" class="dog" />
+                                <img src="-/media/5E9CF60898E44BA192801CD2E55792DA.ashx" class="mount" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="prods-tabs show-tablet">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 prods-mobile">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h3>
+                                            <a href="https://www.walmart.com/ip/Adams-Plus-Flea-and-Tick-Shampoo-with-Precor-Flea-Treatment-for-Dogs-and-Cats-12-ounce/25581764" target="_blank" class="prod">
+                                                <img src="-/media/333A29D050934C0F90256606E7A45847.ashx" />
+                                                Adams Plus Flea and Tick Shampoo with Precor, Flea Treatment for Dogs and Cats
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div class="col-6">
+                                        <h3>
+                                            <a href="https://www.walmart.com/ip/Adams-Flea-Tick-Indoor-Fogger-3-Pack-3-Ounces/145865623" class="prod">
+                                                <img src="-/media/DE6EECD73F8144F3A5C15B54E5CDDC79.ashx" />
+                                                Adams Plus Flea &amp; Tick Prevention Spot On for Dogs
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div class="col-6">
+                                        <h3>
+                                            <a href="https://www.walmart.com/ip/Adams-Flea-Tick-2PK-Collar-for-Large-Dogs-Grey-One-Size/366833988" target="_blank" class="prod">
+                                                <img src="-/media/B203C332C5DD420AA989089F7F32066D.ashx" />
+                                                Adams Flea &amp; Tick 2PK Collar for Large Dogs
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div class="col-6">
+                                        <h3>
+                                            <a href="https://www.walmart.com/ip/Adams-Home-Spray-24-ounces/44432722" target="_blank" class="prod">
+                                                <img src="-/media/3A4A94A4EE854EBCA129DA5B2E58AEF4.ashx" />
+                                                Adams Flea &amp; Tick Home Spray
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div class="col-6">
+                                        <h3>
+                                            <a href="https://www.walmart.com/search/?query=100521074" target="_blank" class="prod">
+                                                <img src="-/media/ABCD8E75BB5F415E8DD6A512F2D92720.ashx" />
+                                                Adams Yard and Garden Spray
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div class="col-6">
+                                        <h3>
+                                            <a href="https://www.walmart.com/ip/Adams-Flea-Tick-Indoor-Fogger-3-Pack-3-Ounces/145865623" target="_blank" class="prod">
+                                                <img src="-/media/E2AF62C7F480427C89E5FA8879A9652E.ashx" />
+                                                Adams Plus Flea &amp; Tick Indoor Fogger
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- FOOTER -->
+                <footer>
+                    <div class="container">
+                        <div class="row  d-flex justify-content-center align-items-center ">
+                            <div class="col-xl-9 col-lg-10 d-flex justify-content-center align-items-center flex-column">
+                                <p>
+                                    Fleas are incredibly stubborn pests that require layered treatments throughout your home, yard, and on your pet to be most effective.
+                                    A proactive approach to flea prevention goes a long way toward avoiding infestations.
+                                </p>
+                                <!--<img src="-/media/325C560E95A54B70AF332216C3BD4985.ashx" alt="Healthy Pet, Healthy home">-->
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <section class="modals">
+                    <div class="pop-mod">
+                        <img src="-/media/333A29D050934C0F90256606E7A45847.ashx" />
+                        <h3>
+                            Adams Plus Flea and Tick Shampoo with Precor, Flea Treatment for Dogs and Cats
+                        </h3>
+                        <a href="https://www.walmart.com/ip/Adams-Plus-Flea-and-Tick-Shampoo-with-Precor-Flea-Treatment-for-Dogs-and-Cats-12-ounce/25581764" target="_blank">
+                            Buy
+                        </a>
+                    </div>
+                    <div class="pop-mod">
+                        <img src="-/media/E2AF62C7F480427C89E5FA8879A9652E.ashx" />
+                        <h3>
+                            Adams Flea &amp; Tick Indoor Fogger
+                        </h3>
+                        <a href="https://www.walmart.com/ip/Adams-Flea-Tick-Indoor-Fogger-3-Pack-3-Ounces/145865623" target="_blank">
+                            Buy
+                        </a>
+                    </div>
+                    <div class="pop-mod">
+                        <img src="-/media/3A4A94A4EE854EBCA129DA5B2E58AEF4.ashx" />
+                        <h3>
+                            Adams Flea &amp; Tick Home Spray
+                        </h3>
+                        <a href="https://www.walmart.com/ip/Adams-Home-Spray-24-ounces/44432722" target="_blank">
+                            Buy
+                        </a>
+                    </div>
+                    <div class="pop-mod">
+                        <img src="-/media/B203C332C5DD420AA989089F7F32066D.ashx" />
+                        <h3>
+                            Adams Flea &amp; Tick 2PK Collar for Large Dogs
+                        </h3>
+                        <a href="https://www.walmart.com/ip/Adams-Flea-Tick-2PK-Collar-for-Large-Dogs-Grey-One-Size/366833988" target="_blank">
+                            Buy
+                        </a>
+                    </div>
+                    <div class="pop-mod">
+                        <img src="-/media/ABCD8E75BB5F415E8DD6A512F2D92720.ashx" />
+                        <h3>
+                            Adams Yard and Garden Spray
+                        </h3>
+                        <a href="https://www.walmart.com/search/?query=100521074" target="_blank">
+                            Buy
+                        </a>
+                    </div>
+                    <div class="pop-mod">
+                        <img src="-/media/DE6EECD73F8144F3A5C15B54E5CDDC79.ashx" />
+                        <h3>
+                            Adams Plus Flea &amp; Tick Prevention Spot On for Dogs
+                        </h3>
+                        <a href="https://www.walmart.com/ip/Adams-Plus-Flea-and-Tick-Prevention-Spot-On-for-Dogs-X-Large-Dog-61-to-150-lbs/845296550">
+                            Buy
+                        </a>
+                    </div>
+                </section>
+            </div>
+    - ID: "6dd157fe-8ea8-496a-b595-0e6a18489836"
+      Hint: ThumbnailImage
+      Value: |
+        <image mediaid="{9E7693A6-7082-4B40-B8DB-82F0E2EAB55B}" ></image>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Protecting your home from fleas differs depending on the type of home you live in and requires layered treatments throughout your home, yard, and your pet.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Protect Your Home From Fleas | Adams™
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Protect Your Home From Fleas
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "420c59b2-2cef-4473-8161-29ee4e9d3513"
+    - ID: "acf86c8a-ae9a-4d4a-8570-870673814f85"
+      Hint: ArticleShortDescription
+      Value: Protecting your home from fleas differs depending on the type of home you live in.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{9E7693A6-7082-4B40-B8DB-82F0E2EAB55B}" ></image>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220712T084043Z
+    - ID: "eaaa3bf1-4f5c-4f65-9f61-c6f234ffc31f"
+      Hint: BlogPostTopic
+      Value: "{5C846A28-43BC-4424-A424-E1617159349C}"

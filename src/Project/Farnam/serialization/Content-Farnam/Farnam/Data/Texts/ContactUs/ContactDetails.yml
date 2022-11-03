@@ -1,0 +1,48 @@
+﻿---
+ID: "b4516b41-9dc0-40c5-a4bc-830647ed84e9"
+Parent: "610af95d-20ef-4dad-bb71-eeb3cd3fce17"
+Template: "b8f5894c-b493-4016-bf78-4090b0a2fd16"
+Path: /sitecore/content/OneWeb/Farnam/Data/Texts/ContactUs/ContactDetails
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Contact Details
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220701T103921Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8907e58e-9116-4df6-8db0-72590549bca0"
+    - ID: "b3635965-6786-457c-9dee-28de73c0a331"
+      Hint: Text
+      Value: |
+        <div class="contact-info">
+        <ul>
+            <li><img alt="Phone" src="-/media/FD707EB2F8554D19B229F254BCE38E63.ashx" /> (800) 234-2269<br />
+            Monday-Friday 8:00am until 5:00pm CST</li>
+            <li><img alt="Box" src="-/media/8E94A9BA28BF4895AF2F2BDD132C3F3D.ashx" /> Interested in selling Farnam products? Brick and mortar retailers, click <a href="~/link.aspx?_id=2D3B9ECB2871490CAE8849E81E48D895&amp;_z=z">here</a>. Online retailers, click <a href="~/link.aspx?_id=28B1DCB7DE924A2C9853D7F8BB6B84EB&amp;_z=z">here</a>.</li>
+        </ul>
+        </div>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220808T142031Z

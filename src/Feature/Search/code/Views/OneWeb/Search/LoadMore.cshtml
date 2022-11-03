@@ -1,0 +1,19 @@
+﻿@using Sitecore.XA.Foundation.MarkupDecorator.Extensions
+@using Sitecore.XA.Foundation.SitecoreExtensions.Extensions
+@using CGP.Foundation.SitecoreExtensions.Utilities
+
+@model CGP.Feature.Search.Models.ViewModel.LoadMoreViewModel
+@if (Model != null)
+{
+
+    <div @Html.Sxa().Component("load-more", Model.Attributes)>
+        <div class="component-content">
+            <div class="d-none btn-wrap load-more-result sxa-btn sxa-btn-default" id="load-more-@Model.SearchType"
+                 data-initpage="1" data-searchtype=@Model.SearchType
+                 data-pagesize="@Model.PageSize"
+                 data-scrollsize="@Model.NumberOfScrolls">
+                <a id="show-more-button-content" class="loadresult" href="javascript:void(0);">@SitecoreUtil.DefaultDictionaryValue("LoadMore")</a>
+            </div>
+        </div>
+    </div>
+}

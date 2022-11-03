@@ -1,0 +1,41 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    .richprofilelisting {
+        .profile-listing {
+            >div>.rich-profile-cta {
+                pointer-events: none;
+                cursor: pointer;
+            }
+
+            .rich-profile-cta,
+            .profile-content {
+
+                display: inline-block;               
+                vertical-align: top;
+                padding: 0 1.5rem;
+
+                .rich-profile-cta {
+                    padding: 0;
+                    text-decoration: none;
+                    width: 100%;
+                    pointer-events: none;
+                    cursor: pointer;
+                    
+                }
+                .profile-heading{
+                    margin-top: -4rem;
+                    padding-bottom: 2rem;
+                }
+            }
+            @include respond-to(desktop){
+                .rich-profile-cta,
+            .profile-content {               
+                width: 50%;
+            }
+            }
+
+        }
+    }
+}

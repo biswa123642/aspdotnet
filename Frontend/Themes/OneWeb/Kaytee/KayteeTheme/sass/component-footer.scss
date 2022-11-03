@@ -1,0 +1,76 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+#footer {
+  background: url("../images/footer_grass.png") no-repeat bottom;
+  min-height: 25rem;
+
+  .utility-navigation {
+    &.social-links {
+      .icon-container {
+        border: none;
+        a {
+          &:hover {
+            color: $primary-color;
+            text-decoration: none;
+          }
+          .fa {
+            font-size: 4rem;
+          }
+        }
+      }
+    }
+  }
+
+  .component {
+    &.rich-text {
+      h3 {
+        color: $black;
+        font-size: 2.4rem;
+        margin-bottom: 3rem;
+      }
+      span {
+        font-size: 1.6rem;
+        color: #565656;
+      }
+      p {
+        color: $white;
+        font-size: 1.52rem;
+        a {
+          @include Tahoma-font-stack();
+          font-size: 1.6rem;
+          text-decoration: none;
+          &:hover {
+            color: $primary-color;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
+  .link-list {
+    &.inline-link {
+      ul {
+        li {
+          .field-link {
+            a {
+              color: $white;
+              font-size: 1.52rem;
+              font-weight: 400;
+              &:hover {
+                color: $white;
+                border-bottom: none;
+                text-decoration: underline;
+              }
+            }
+          }
+          &.even::before {
+            background: $white;
+          }
+        }
+      }
+    }
+  }
+}

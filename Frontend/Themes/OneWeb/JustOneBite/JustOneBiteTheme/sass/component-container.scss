@@ -1,0 +1,31 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.container:not(.col-12) {
+    max-width: 100%;
+    @include respond-to(tab){
+        max-width: 72rem;
+    }
+    @include respond-to(desktop){
+        max-width: 94rem;
+    }
+    @media screen and(min-width:1500px){
+        max-width:150rem;
+    }
+}
+
+header{
+    .container:not(.col-12) {
+        max-width: 100%;
+        @include respond-to(tab){
+            max-width: 72rem;
+        }
+        @include respond-to(desktop){
+            max-width: 94rem;
+        }
+        @media screen and(min-width:1500px){
+            max-width:150rem;
+        }
+    }
+}

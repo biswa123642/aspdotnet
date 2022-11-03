@@ -1,0 +1,319 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.hero {
+        &.with-carousel {
+            .field-heroimagedesktop img {
+                width: 100%;
+            }
+
+            .hero-container {
+
+                @include respond-to(tab-horizontal) {
+                    padding: 4.3rem 6rem 6rem 6rem;
+                }
+
+                h1 {
+                    @include Kadwa-font-stack();
+                    font-size: 3.2rem;
+                    line-height: 1.25;
+                    font-weight: 700;
+                    color: $banner-carousel-title;
+
+                    @include respond-to(desktop) {
+                        line-height: 1.06;
+                        font-size: 5rem;
+                        margin-bottom: 0;
+                    }
+
+                    @include respond-to(large-desktop) {
+                        font-size: 6.6rem;
+                        margin-bottom: 2.5rem;
+                    }
+                }
+
+                .slick-slider {
+                    @include respond-to(tab) {
+                        margin-top: 1.5rem;
+                    }
+                }
+
+                .slide {
+                    // default
+                    padding-top: 1rem;
+
+                }
+            }
+        }
+
+        &.banner-adjustable-height {
+            h1 {
+                font-size: 4.5rem;
+                line-height: 1.2;
+                @include Kadwa-font-stack();
+                font-weight: 400;
+            }
+            &.page-title h1 {
+                font-size: 4.5rem;
+                line-height: 1;
+                font-weight: 400;
+                @include Kadwa-font-stack();
+                color: $page-title-color;
+                text-transform: capitalize;
+                border: none;
+        
+                @include respond-to(tab) {
+                    font-size: 5.2rem;
+                }
+        
+            }
+            &.title-large,
+            &.page-title-large {
+                h1 {
+                    font-size: 4.2rem;
+                    @include respond-to(tab) {
+                        font-size: 5.5rem;
+                    }
+                }
+        
+            }
+            &.page-title-dark h1{
+                color: #0f273f;
+                font-weight: 700;
+            }
+        }
+
+        &.banner-with-content {
+
+
+            .hero-banner-description {
+
+                @include Helvetica-font-stack();
+                font-size: 1.8rem;
+                line-height: 1.2;
+                font-weight: 300;
+
+                h2,
+                h3 {
+                    @include Kadwa-font-stack();
+                    font-size: 3rem;
+                    line-height: 1.4;
+                    font-weight: 700;
+                    color: $secondary-color;
+                }
+
+            }
+
+            .hero-banner-title {
+                color: $primary-color;
+                @include Kadwa-font-stack();
+                font-size: 3rem;
+                line-height: 1.4;
+                font-weight: 700;
+            }
+
+
+
+            .banner-content-wrapper {
+                display: flex;
+                width: 100%;
+                flex-direction: column-reverse;
+                align-items: center;
+                text-align: left;
+                .content-bottom {
+                    width: 193px;
+                    height: 193px;
+                    padding: 0;
+                    max-width: 100%;
+                    .banner-conetent-image {
+                        max-width: 100%;
+                        padding: 0;
+
+                        img {
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+
+
+
+
+        }
+
+    }
+
+
+
+}
+
+@include respond-to(tab) {
+
+
+
+    .component {
+        &.hero {
+
+            &.banner-with-content {
+
+                .hero-banner-description {
+                    color: $white-color;
+
+                    h2,
+                    h3 {
+                        color: $white-color;
+                        font-size: 2rem;
+
+                    }
+                }
+
+                .inner-container {
+                    z-index: 10;
+                }
+
+                .banner-content-wrapper {
+                    display: flex;
+                    max-width: 700px;
+                    width: 100%;
+                    flex-direction: row-reverse;
+                    align-items: center;
+                    color: $white-color;
+                    right: 0;
+                    transform: translate(0, -50%);
+                    left: auto;
+
+                    .content-top {
+                        width: calc(100% - 193px);
+                        padding-left: 5rem;
+                    }
+
+                    
+                }
+
+                .banner-image {
+                    background-position: center center;
+                    background-size: contain;
+                    padding-top: 26.97%;
+
+                    &:before {
+                        content: '';
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        z-index: 0;
+                        top: 0;
+                        left: 0;
+                        background-position: right;
+                        background-repeat: no-repeat;
+                        background-image: url(../images/site-bg/banner-right-blue-overlay.svg);
+                    }
+                }
+                &.position-left,
+                &.overlay-left {
+                    .banner-image {
+                        &:before {
+                            background-image: url(../images/site-bg/banner-left-blue-overlay.svg);
+                            background-position: left;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+}
+
+@include respond-to(desktop) {
+
+    // min 992
+    .component {
+        &.hero {
+            &.banner-with-content {
+                .hero-banner-description {
+                    font-size: 1.6rem;
+
+                    h2,
+                    h3 {
+                        font-size: 2.5rem;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+@include respond-to(large-desktop) {
+
+    // min 1200
+    .component {
+        &.hero {
+            &.banner-with-content {
+                .hero-banner-description {
+                    font-size: 1.8rem;
+
+                    h2,
+                    h3 {
+                        font-size: 3rem;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+
+
+
+
+@include respond-to(mobile) {
+
+    //max 767
+    .component {
+        &.hero {
+            &.banner-with-content {
+                .banner-content-wrapper {
+                    position: static;
+                    transform: none;
+
+                    .content-bottom {
+                        position: static;
+                        background: transparent;
+                        
+                    }
+                    &.left-align{
+                        transform: none;
+                    }
+                }
+
+                .inner-container {
+                    position: static;
+                    transform: none;
+                }
+
+                .hero-banner-title {
+                    color: $white-color;
+                }
+                .banner-image{
+                    background-image: none !important;
+                }
+                
+            }
+        }
+    }
+
+
+
+
+
+
+}

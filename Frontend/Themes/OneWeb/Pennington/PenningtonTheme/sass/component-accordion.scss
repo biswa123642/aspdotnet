@@ -1,0 +1,137 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+//FAQ
+.component {
+    &.accordion {
+        &.variant-1 {
+            ul {
+                &.items {
+                    li {
+                        &.item {
+                            border-bottom: 1px solid $border-gray-accordion;
+
+                            &:last-child {
+                                border-bottom: none;
+                            }
+
+                            .field-heading {
+                                padding-left: 2rem;
+                                position: relative;
+                                font-weight: 900;
+                                font-size: 2rem;
+
+                                h3 {
+                                    font-size: inherit;
+                                    font-weight: inherit;
+
+                                    strong {
+                                        font-weight: inherit;
+                                    }
+                                }
+
+
+                                &:before {
+                                    color: $text-secondary;
+                                    font-size: 2.2rem;
+                                    left: 7px;
+                                    top: 16px
+                                }
+
+                                @include respond-to(tab) {
+                                    padding-left: 4rem;
+
+                                    &:before {
+                                        color: $text-secondary;
+                                        font-size: 3.3rem;
+                                        left: 2rem;
+                                        top: 12px;
+                                    }
+                                }
+                            }
+
+                            .toggle-content {
+                                .field-content {
+                                    color: $text-secondary;
+                                    font-size: 1.6rem;
+                                    line-height: 2.2rem;
+                                    font-weight: 500;
+                                    padding-bottom: 15px;
+
+                                    a {
+                                        color: $anchor;
+                                        text-decoration: none;
+
+                                        &:hover {
+                                            text-decoration: underline;
+                                        }
+                                    }
+                                }
+                            }
+
+                        }
+
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+// for our story
+.component {
+    .product-title {
+        h3 {
+            font-size: 3.0rem;
+            line-height: 3.3rem;
+            font-weight: 900;
+        }
+
+        a {
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+//breadcrumb
+.component.breadcrumb {
+    li {
+        position: relative;
+        display: block;
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        padding-right: 5px;
+
+        .separator {
+            display: none;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 1.33rem;
+            font-weight: 400;
+            color: #999;
+            text-transform: uppercase;
+            line-height: 2.2;
+        }
+
+        > :before {
+            content: "/\00a0";
+            padding: 0 5px;
+            color: #ccc;
+        }
+
+        &:first-child {
+            > :before {
+                content: "";
+                display: none;
+            }
+        }
+    }
+}

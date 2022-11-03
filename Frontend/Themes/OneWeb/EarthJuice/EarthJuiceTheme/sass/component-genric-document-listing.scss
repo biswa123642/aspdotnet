@@ -1,0 +1,101 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+    &.generic-content-list {
+        &.variant-3 {
+
+            .listing-description {
+                margin: 44px 0 22px;
+                margin-top:0px;
+
+                h2 {
+
+                    font-size: 2.4rem;
+                    font-weight: 300;
+                    padding-bottom: 0;
+                    color:$light-black;
+                    @include Lilita-font-stack();
+                    
+
+                }
+
+                p {
+                    font-size: 1.6rem;
+                }
+
+                .subheading {
+
+                    padding-top: 0;
+                   padding-bottom: 0;
+                }
+            }
+
+            .inner-wrap {
+                margin-bottom: 2rem;
+                transition-property: transform;
+                transition-timing-function: ease-out;
+                transition-duration: 200ms;
+                &:hover{
+                    top:-5px; 
+                   
+                }
+                
+
+                a {
+                    text-decoration: none;
+                    display: inline-block;
+                    max-width: 16.0rem;
+                    text-align: center;
+                    transition: 200ms;
+                    transition-timing-function: ease-out;
+                    color:$light-black;
+                    font-weight: 700;
+                    font-size:1.6rem;
+                    @include raleway-font-stack();
+
+
+                    &:hover { 
+                        text-decoration: underline;
+                        text-decoration-color: $light-black;
+                        margin-top:0;
+                       
+                    }
+                }
+
+                img {
+                    border: 1px solid $border-gray;
+                    transition-property: box-shadow;
+                    border-radius: 2px;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+
+
+                }
+
+                p {
+
+
+                    color: $light-black;
+                    font-weight: 700;
+                }
+            }
+
+
+            @media only screen and (max-width: 991px) {
+                .inner-wrap {
+                    a {
+
+                        margin:auto ;
+                        display: block;
+                    }
+                }
+            }
+
+        }
+
+    }
+
+}

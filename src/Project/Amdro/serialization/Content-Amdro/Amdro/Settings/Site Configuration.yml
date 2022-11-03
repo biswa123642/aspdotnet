@@ -1,0 +1,84 @@
+﻿---
+ID: "d7ced2a7-c122-4e43-a74c-da3732e58737"
+Parent: "282e9546-53bb-4752-9344-cbf61b446f8f"
+Template: "77820909-82a2-4308-9e62-f54e15110ef3"
+Path: /sitecore/content/OneWeb/Amdro/Settings/Site Configuration
+SharedFields:
+- ID: "2da26fe5-8b7b-4912-a2fc-f683e630d5bb"
+  Hint: ProductAttributeLocation
+  Value: "{AA752FA0-4A88-4C14-8536-80A8BEC24B2C}"
+- ID: "75e1ab85-58fa-4e28-9d2a-c7d8836b8ffa"
+  Hint: PageAttributeLocation
+  Value: "{453DFBD4-5420-43E5-8F11-8CF9C2DF5D1D}"
+- ID: "e86000b0-2a64-4152-9178-6591115b5265"
+  Hint: BlogPostTopicAttributeLocation
+  Value: "{D1BED628-5880-4DEA-9D05-C501C8C05F7F}"
+- ID: "f885a9cc-d0c1-431b-8afe-85b73f80db86"
+  Hint: ArticleTypeAttributeLocation
+  Value: "{FEE93625-7338-46E4-8E0B-AD92BFFBB6C6}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220613T045448Z
+    - ID: "4762f3c8-900d-44ff-ba2e-d44e57e8f5fb"
+      Hint: BrandName
+      Value: Amdro
+    - ID: "7be09131-f96b-4f0e-acb8-2d50aa27c6e2"
+      Hint: PowerReviewsAPIKey
+      Value: "482eb34f-14c9-472b-b212-3a70048839e4"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c4fd8603-efe2-473c-9194-ca694afc0247"
+    - ID: "8f0f4b7c-759c-4871-91ae-d6166bf319ea"
+      Hint: PowerReviewsMerchantID
+      Value: 14992
+    - ID: "9b7bb2ea-cc16-4ef0-862a-b5da3537a938"
+      Hint: PriceSpiderAccount
+      Value: 1747
+    - ID: "9e24eada-2dbd-4c64-964d-da5d755fa5ad"
+      Hint: GAId
+      Value: "UA-145039385-1"
+    - ID: "afcfbb0d-d8af-4442-9083-d0f0712ed0a2"
+      Hint: PowerReviewsLocale
+      Value: en_US
+    - ID: "b40ebd0e-ff54-4ee7-8d12-e95a86743552"
+      Hint: ReviewMapperURL
+      Value: "{27229ADC-6E3A-4A8B-B0C7-DABC301E90AF}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "be547b09-1b5f-4ed9-8772-2f79b5e64d83"
+      Hint: PriceSpiderConfig
+      Value: 5890d15df7e16f9972cf25ff
+    - ID: "d30967e5-f8c5-4ee6-a5a0-559a6cf5d639"
+      Hint: PowerReviewsMerchantGroupID
+      Value: 80583
+    - ID: "d7d037d1-e378-40fe-a22d-7d9e73ba75a3"
+      Hint: GTMId
+      Value: "GTM-K7T4RXS"
+    - ID: "d8692e4f-d312-490e-881b-84059310d731"
+      Hint: OneTrustCookiesID
+      Value: "511007e5-849e-4d06-a8a5-55b050a53a97"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220713T055430Z
+    - ID: "ec3719f3-58b4-4504-8545-df1af5aef83d"
+      Hint: EnableSeoSchema
+      Value: 1
+    - ID: "ed38d73e-a875-424c-8f31-8e0b0c0d197e"
+      Hint: EnablePowerReviews
+      Value: 1
+    - ID: "f6a9e708-acdf-411a-a685-9d9cbf9252c1"
+      Hint: SelectSeoSchema
+      Value: |
+        {258F3385-A91A-4F85-91BE-23754F010FCB}
+        {E485C1AD-741F-40A7-847F-4278082FA82E}
+        {5A6884B5-B433-458B-960F-A6959A28206E}
+        {61FE73DD-0B53-447B-8071-917CAF2B9161}
+        {1E8390B0-6166-4E1E-81E2-FBEDE861C90F}
+        {31906487-4CE4-42A4-97E4-4AF3390A11C5}

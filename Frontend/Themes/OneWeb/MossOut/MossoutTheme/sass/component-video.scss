@@ -1,0 +1,18 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "base/fonts/fonts";
+.component{
+    &.video{
+        text-align: center;
+        margin-top: 5rem;
+        @include respond-to(extra-largedesktop){
+            text-align: end;
+            .mobile-youtube{
+                iframe{
+                    width: 75rem;
+                    height: 42rem;
+                }
+            }
+        }
+    }
+  }

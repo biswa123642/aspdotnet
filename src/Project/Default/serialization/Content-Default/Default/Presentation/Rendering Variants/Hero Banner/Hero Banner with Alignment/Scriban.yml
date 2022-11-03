@@ -1,0 +1,68 @@
+﻿---
+ID: "9f1049f9-2c72-4518-9eb4-3a54ffadeea9"
+Parent: "5f12d974-6981-49e1-a1b4-13ecc5f914a7"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Hero Banner/Hero Banner with Alignment/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    {{heroImageMobile = sc_follow i_datasource 'HeroImageMobile' | sc_medialink }}
+    {{if i_item.Overlay.raw | string.contains "1" }}
+    {{cssclass = "disable-overlay"}}
+    {{end}}
+    {{if i_item.HeroBannerTitle != "" || i_item.HeroBannerContent != "" }}
+    <div class="container body-copy">
+        {{if i_item.HeroBannerAlignment.raw !=''}}
+            {{Align = i_item.HeroBannerAlignment.raw | string.downcase}}
+            <div class = " {{Align}} hero-banner-title {{cssclass}}" bg-color = "{{i_item.OverlayColor.raw}}{{i_item.OverlayColorOpacity.raw}};" mob-bg-color = "{{i_item.MobileBackgroundColor.raw}}">
+        {{else}}
+            <div class = "hero-banner-title {{cssclass}}" bg-color = "{{i_item.OverlayColor.raw}}{{i_item.OverlayColorOpacity.raw}};" mob-bg-color = "{{i_item.MobileBackgroundColor.raw}}">
+        {{end}}
+                <div style = "color:{{i_item.HeroBannerTextColor.raw}};">
+                    {{ sc_field i_item "HeroBannerTitle"}}
+                    {{ sc_field i_item "HeroBannerContent"}}
+                </div>
+            </div>
+    </div>
+        {{if heroImageMobile != "#" }}
+    		<div class="banner-image d-none d-md-block" style = "line-height:0">
+    			{{ sc_field i_item "HeroImageDesktop"}}
+    		</div>
+    		<div class="banner-mobile-image d-md-none" style = "line-height:0">
+    			{{ sc_field i_item "HeroImageMobile"}}
+    		</div>   
+    	{{else}}
+    		<div class="banner-image" style = "line-height:0">
+    			{{ sc_field i_item "HeroImageDesktop"}}
+    		</div>
+    	{{end}}
+    
+    {{end}}
+    
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220427T101154Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "23c444fc-cccb-43aa-95bb-38212c3a5ef7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220718T102259Z

@@ -1,0 +1,32 @@
+{
+	"namespace": "Project.Farnam",
+	"references": [ "Feature.*" ],
+	"items": {
+		"includes": [
+			//{
+			//	"name": "Content-Farnam",
+			//	"path": "/sitecore/content/OneWeb/Farnam",
+			//	"scope": "ItemAndDescendants",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//},
+			//{
+			//	"name": "MediaLibrary-Farnam",
+			//	"path": "/sitecore/media library/Project/OneWeb/Farnam",
+			//	"scope": "singleItem",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			////},
+			{
+				"name": "MediaLibrary-Farnam-Themes",
+				"path": "/sitecore/media library/Themes/OneWeb/Farnam",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			}
+			//{
+			//	"name": "Forms-Farnam",
+			//	"path": "/sitecore/Forms/OneWeb/Farnam",
+			//	"scope": "ItemAndDescendants",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//}
+		]
+	}
+}

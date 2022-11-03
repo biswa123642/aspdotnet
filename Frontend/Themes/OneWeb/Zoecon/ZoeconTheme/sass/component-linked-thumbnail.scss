@@ -1,0 +1,115 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.linked-thumbnail {
+        &.quick-links {
+            padding: 0 1.5rem;
+
+            >.component-content {
+                padding-bottom: 3rem;
+                padding-left: 2rem;
+            }
+
+            * {
+                font-family: 'Roboto', sans-serif !important;
+            }
+
+            h3 {
+                color: $green;
+                font-size: 2.5rem;
+                font-weight: 700;
+                text-transform: capitalize;
+            }
+
+            ul {
+                margin-left: 3rem;
+            }
+
+            .QuickLink-Style {
+                a {
+                    font-weight: bold;
+                    color: $primary-color;
+                    font-size: 1.6rem;
+                    text-decoration: underline;
+                }
+            }
+
+            &.article-right {
+
+                >.component-content {
+                    padding-bottom: 0;
+                }
+
+                h3 {
+                    margin: 0;
+                }
+
+                ul {
+                    margin-left: 0;
+
+                    li {
+                        list-style: none;
+
+                    }
+                }
+
+                .QuickLink-Style {
+                    a {
+                        line-height: 35px;
+                        font-weight: normal;
+                        color: $gray-secondary;
+
+                    }
+                }
+
+                &.secondary {
+                    .QuickLink-Style {
+                        a {
+                            font-weight: bold;
+                            color: $gray-secondary;
+
+                        }
+                    }
+                }
+            }
+        }
+
+        &.border-bottom {
+            @media screen and (max-width:991px) {
+                >.component-content {
+                    border-color: transparent;
+                }
+            }
+        }
+
+        @include respond-to(desktop) {
+            &.article-right {
+                margin-bottom: 15rem;
+            }
+        }
+
+    }
+}
+
+.homepage {
+    .component {
+        &.linked-thumbnail {
+            &.quick-links {
+                h3{
+                    font-size: 2.8rem;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
+.flies{
+    .component {
+        &.image {
+            img{
+                width: auto;
+            }
+        }
+    }
+}

@@ -1,0 +1,1 @@
+Files needed for adding custom Solr core

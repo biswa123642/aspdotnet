@@ -1,0 +1,67 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+.component{
+    &.salesmap{
+        position: static;
+        #info-box{
+            background-color: #333;
+            color: #fff;
+            padding: .4rem;
+            display: none;
+        }
+        .representative-results-wrapper{
+            .sxa-representative-caption{
+                display: flex;
+                flex-wrap: wrap;
+                position: relative;
+                padding-left: 6.5rem;
+                margin-top: 1.5rem;
+                .color-box{
+                    order: 0;
+                    position: absolute;
+                    left: 1.5rem;
+                }
+                .sxa-representative-name{
+                    order: 1;
+                    width: 100%;
+                }
+                .sxa-representative-designation{
+                 order: 3;  
+                 width: 100%;
+                }
+                .sxa-representative-phone{
+                    order: 2;
+                    width: 100%;
+                }
+                .sxa-representative-email{
+                    order: 4;
+                    width: 100%;
+                }
+                @include respond-to(desktop){
+                    .sxa-representative-name,.sxa-representative-email,.sxa-representative-phone,.sxa-representative-designation{
+                        width: 40%;
+                    }
+                }
+            }
+            h1{
+                display: none;
+            }
+            h3{
+                font-size: 1.6rem;
+                color: $black;
+                font-family: Arial,  sans-serif;
+                font-weight: bold;
+                margin: 0;
+            }
+            p{
+                margin: 0;
+            }
+            a{
+                color: $link-blue;
+                &:hover{
+                    color: $link-hover;
+                }
+            }
+        }
+    }
+}

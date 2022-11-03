@@ -1,0 +1,162 @@
+﻿---
+ID: "6c1f0135-a6e5-44fc-a38c-23a6a0f57b51"
+Parent: "5a395ac8-444b-432e-ae2e-e07d86a170d9"
+Template: "77820909-82a2-4308-9e62-f54e15110ef3"
+Path: /sitecore/content/OneWeb/Corrys/Settings/Site Configuration
+SharedFields:
+- ID: "2da26fe5-8b7b-4912-a2fc-f683e630d5bb"
+  Hint: ProductAttributeLocation
+  Value: 
+- ID: "e86000b0-2a64-4152-9178-6591115b5265"
+  Hint: BlogPostTopicAttributeLocation
+  Value: 
+- ID: "f885a9cc-d0c1-431b-8afe-85b73f80db86"
+  Hint: ArticleTypeAttributeLocation
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "12773a99-51f6-4c4e-9344-b88bc60a1721"
+      Hint: PowerReviewsSendProductInfo
+      Value: 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220801T063115Z
+    - ID: "41c147d8-4a0a-4627-a517-54fad45d5229"
+      Hint: EnableSurveyPolls
+      Value: 1
+    - ID: "4762f3c8-900d-44ff-ba2e-d44e57e8f5fb"
+      Hint: BrandName
+      Value: Corry's | Home
+    - ID: "7be09131-f96b-4f0e-acb8-2d50aa27c6e2"
+      Hint: PowerReviewsAPIKey
+      Value: "9f4bc52b-9423-4a0d-bfe1-080c5f1102e6"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "67e8f893-0020-4707-bb52-8d8680eb1453"
+    - ID: "8f0f4b7c-759c-4871-91ae-d6166bf319ea"
+      Hint: PowerReviewsMerchantID
+      Value: 488536
+    - ID: "9b7bb2ea-cc16-4ef0-862a-b5da3537a938"
+      Hint: PriceSpiderAccount
+      Value: 1747
+    - ID: "9e24eada-2dbd-4c64-964d-da5d755fa5ad"
+      Hint: GAId
+      Value: "UA-145039385-1"
+    - ID: "afcfbb0d-d8af-4442-9083-d0f0712ed0a2"
+      Hint: PowerReviewsLocale
+      Value: en_US
+    - ID: "b1ab2b86-16b2-441e-b0d2-404c8c139e3d"
+      Hint: DisableGA
+      Value: 
+    - ID: "b40ebd0e-ff54-4ee7-8d12-e95a86743552"
+      Hint: ReviewMapperURL
+      Value: "{DC6B0482-C638-4AF0-9AC4-2816AF77B6F7}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "be547b09-1b5f-4ed9-8772-2f79b5e64d83"
+      Hint: PriceSpiderConfig
+      Value: 5e554c5aea176c001f58f04b
+    - ID: "c07be27b-fcb2-44eb-9162-a1e183ee79b9"
+      Hint: BrandLogo
+      Value: |
+        <image mediaid="{7628C1AA-D845-4124-8BD8-757D77F9831B}" />
+    - ID: "c9095aa3-af8f-436c-b8f1-26bc20c245c6"
+      Hint: SurvicateWorkspaceId
+      Value: 0a4fb9fe21e1d4f1b90403e1e4156837
+    - ID: "d01ab4f5-7dd1-48f4-ae48-a45c1c3bf458"
+      Hint: DisableGTM
+      Value: 
+    - ID: "d30967e5-f8c5-4ee6-a5a0-559a6cf5d639"
+      Hint: PowerReviewsMerchantGroupID
+      Value: 80554
+    - ID: "d7d037d1-e378-40fe-a22d-7d9e73ba75a3"
+      Hint: GTMId
+      Value: "GTM-3ZWQ65R"
+    - ID: "d8692e4f-d312-490e-881b-84059310d731"
+      Hint: OneTrustCookiesID
+      Value: "ac567b85-16da-45bb-b8c7-86068c109c1c"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220913T092954Z
+    - ID: "ec3719f3-58b4-4504-8545-df1af5aef83d"
+      Hint: EnableSeoSchema
+      Value: 1
+    - ID: "ed38d73e-a875-424c-8f31-8e0b0c0d197e"
+      Hint: EnablePowerReviews
+      Value: 1
+    - ID: "f6a9e708-acdf-411a-a685-9d9cbf9252c1"
+      Hint: SelectSeoSchema
+      Value: |
+        {E485C1AD-741F-40A7-847F-4278082FA82E}
+        {5A6884B5-B433-458B-960F-A6959A28206E}
+        {61FE73DD-0B53-447B-8071-917CAF2B9161}
+        {258F3385-A91A-4F85-91BE-23754F010FCB}
+        {1E8390B0-6166-4E1E-81E2-FBEDE861C90F}
+        {31906487-4CE4-42A4-97E4-4AF3390A11C5}
+- Language: es
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220908T064051Z
+    - ID: "4762f3c8-900d-44ff-ba2e-d44e57e8f5fb"
+      Hint: BrandName
+      Value: Comun quese con Corry's
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "209840b7-8764-4471-9502-e48f32627b3e"
+    - ID: "9b7bb2ea-cc16-4ef0-862a-b5da3537a938"
+      Hint: PriceSpiderAccount
+      Value: 1747
+    - ID: "9e24eada-2dbd-4c64-964d-da5d755fa5ad"
+      Hint: GAId
+      Value: "UA-145039385-1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "be547b09-1b5f-4ed9-8772-2f79b5e64d83"
+      Hint: PriceSpiderConfig
+      Value: 5e554c5aea176c001f58f04b
+    - ID: "bf6b073f-2c03-4d90-bda3-fd070fe69665"
+      Hint: DisablePriceSpider
+      Value: 1
+    - ID: "c07be27b-fcb2-44eb-9162-a1e183ee79b9"
+      Hint: BrandLogo
+      Value: |
+        <image mediaid="{7628C1AA-D845-4124-8BD8-757D77F9831B}" />
+    - ID: "d7d037d1-e378-40fe-a22d-7d9e73ba75a3"
+      Hint: GTMId
+      Value: "GTM-3ZWQ65R"
+    - ID: "d8692e4f-d312-490e-881b-84059310d731"
+      Hint: OneTrustCookiesID
+      Value: "ac567b85-16da-45bb-b8c7-86068c109c1c"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220914T050802Z
+    - ID: "ec3719f3-58b4-4504-8545-df1af5aef83d"
+      Hint: EnableSeoSchema
+      Value: 1
+    - ID: "f6a9e708-acdf-411a-a685-9d9cbf9252c1"
+      Hint: SelectSeoSchema
+      Value: |
+        {E485C1AD-741F-40A7-847F-4278082FA82E}
+        {5A6884B5-B433-458B-960F-A6959A28206E}
+        {61FE73DD-0B53-447B-8071-917CAF2B9161}
+        {258F3385-A91A-4F85-91BE-23754F010FCB}
+        {1E8390B0-6166-4E1E-81E2-FBEDE861C90F}
+        {31906487-4CE4-42A4-97E4-4AF3390A11C5}

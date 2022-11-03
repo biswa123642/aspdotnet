@@ -1,0 +1,31 @@
+﻿---
+ID: "5cf9f09a-ac31-42db-a8d1-d16d572aa047"
+Parent: "1c3cd11d-ba39-4304-9d6b-b654f7e6e352"
+Template: "54d7472a-6e38-4cf8-bfd2-7a777cab6f4d"
+Path: /sitecore/content/OneWeb/Default/Global Data/Where To Buy/StoreLocator
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Store Locator
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220430T070114Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2b2dc98a-b7dd-4dee-b74f-55e032b0baf0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220725T111355Z

@@ -1,0 +1,126 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  &.hubspot-form {
+    #hubspot-f448548e-30f4-4b60-b6f1-9856666ddf80 {
+      .form-columns-1 {
+        input {
+          border: 1px solid $text-black-light;
+          line-height: 1;
+        }
+      }
+
+      .form-columns-2 {
+        input {
+          border: 1px solid $text-black-light;
+          line-height: 1;
+        }
+      }
+
+      .hs-form fieldset,
+      form fieldset {
+        margin-top: 20px;
+      }
+
+      .input select.hs-input {
+        max-width: calc(100% - 15px);
+      }
+
+      .input .hs-input {
+        max-width: calc(100% - 24px);
+      }
+
+      .seed-right-section {
+        p {
+          color: $text-basic;
+        }
+      }
+
+      @include respond-to(mobile) {
+
+        // padding: 40px;
+        .hs_submit {
+          margin-bottom: 3rem;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        textarea {
+          &:focus {
+            outline: none !important;
+            border: 2px solid $text-golden !important;
+            border-radius: 0.2rem;
+          }
+        }
+      }
+
+      @include respond-to(tab) {
+
+        // padding: 40px;
+        .hs_submit {
+          margin-bottom: 3rem;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        textarea {
+          &:focus {
+            outline: none !important;
+            border: 2px solid $bg-black !important;
+            border-radius: 0.2rem;
+          }
+        }
+      }
+
+      @media (min-device-width: 320px) and (max-device-width: 480px) {
+        .input {
+          .hs-input {
+            max-width: calc(100% - 8px);
+            width: 98% !important;
+          }
+        }
+
+        .input select.hs-input {
+          max-width: calc(100% - -3px);
+          width: 101% !important;
+        }
+      }
+
+      @media (min-device-width: 481px) and (max-device-width: 767px) {
+
+        /* .input {
+          .hs-input {
+            max-width: calc(100% - 10px);
+           
+          }
+        }*/
+        .input select.hs-input {
+          max-width: calc(100% - 0px);
+        }
+
+        .hs_address,
+        .hs_city {
+          margin-bottom: 1.8rem;
+        }
+      }
+
+      @media (min-device-width: 768px) and (max-device-width: 991px) {
+        .input {
+          .hs-input {
+            max-width: calc(100% - 18px);
+
+          }
+        }
+
+        .input select.hs-input {
+          max-width: calc(100% - 5px);
+        }
+
+
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+	"namespace": "Feature.VideoPlayList",
+	"references": [ "*Foundation.*" ],
+	"items": {
+		"includes": [
+			{
+				"name": "Templates",
+				"path": "/sitecore/templates/Feature/OneWeb/Video PlayList",
+				"allowedPushOperations": "createUpdateandDelete",
+				"scope": "itemAndDescendants"
+			},
+			{
+				"name": "Branch-Templates",
+				"path": "/sitecore/templates/Branches/Feature/OneWeb/Video PlayList",
+				"allowedPushOperations": "createUpdateandDelete",
+				"scope": "itemAndDescendants"
+			},
+			{
+				"name": "System-Settings",
+				"path": "/sitecore/system/Settings/Feature/OneWeb/Video PlayList",
+				"allowedPushOperations": "createUpdateandDelete",
+				"scope": "itemAndDescendants"
+			},
+			{
+				"name": "Renderings",
+				"path": "/sitecore/layout/Renderings/Feature/OneWeb/Video PlayList",
+				"allowedPushOperations": "createUpdateandDelete",
+				"scope": "itemAndDescendants"
+			},
+			{
+				"name": "Edit-Frame-buttons",
+				"database": "core",
+				"path": "/sitecore/content/Applications/WebEdit/Edit Frame Buttons/Video PlayList",
+				"allowedPushOperations": "createUpdateandDelete",
+				"scope": "itemAndDescendants"
+			}
+		]
+	}
+}

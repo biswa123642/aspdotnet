@@ -1,0 +1,37 @@
+@import "abstracts/vars";
+
+.component {
+    &.content {
+        &.related-articles {
+            &.variant-2 {
+                padding: 0 1.5rem;
+
+                .inner-wrap {
+                    .img-wrapper {
+                        line-height: 0;
+                        border: 1px solid $border-gray-light;
+                    }
+
+                    background: transparent;
+                    padding: 0;
+
+                    .caption {
+                        padding: 2rem 0 4rem 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width:767px) {
+    .component {
+        &.content {
+            &.related-articles {
+                &.variant-2 {
+                    padding: 2rem 1.5rem;
+                }
+            }
+        }
+    }
+}

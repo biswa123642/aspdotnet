@@ -1,0 +1,96 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+.component {
+  &.feature-content-tiles {
+    &.variant-2 {
+      padding: 4rem 0 3rem 0;
+      margin: 0;
+      background-color: #d1d3d4;
+      .promo-tile {
+        padding: 0;
+        margin: 0 -3rem;
+        .field-image {
+          height: 15.5rem;
+          max-width: 30.5rem !important;
+          position: relative;
+          text-align: center;
+          padding: 0;
+          border: none;
+          margin: 5px auto;
+          a {
+            img {
+              height: 15.5rem;
+              object-fit: contain;
+            }
+          }
+        }
+        .field-data {
+          position: absolute;
+          display: flex;
+          text-align: center;
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+          top: 20%;
+          padding: 0 0 0 3rem;
+          .field-title {
+            font-family: "Myrad Pro", sans-serif;
+            text-transform: uppercase;
+            color: #ffffff;
+            text-shadow: 1px 1px 1px $black;
+            font-size: 2rem;
+            font-weight: 400;
+          }
+          .sxa-btn {
+            a {
+              color: #ffffff;
+              background-color: rgba(0, 0, 0, 0.5);
+              border-color: rgba(0, 0, 0, 0.5);
+              padding: 5px 10px;
+              min-width: 120px;
+              text-decoration: none;
+              padding: 10px 25px;
+              border: none;
+              font-size: 1.6rem;
+              line-height: 1.42857143;
+              border-radius: 4px;
+              &:hover {
+                background-color: $black;
+              }
+            }
+          }
+        }
+      }
+      @include respond-to(desktop) {
+        margin: 3rem 0;
+        padding: 3rem 0 1.5rem 0;
+        .promo-tile {
+          margin: 0 -1rem;
+          .field-image {
+            height: 23.2rem;
+            a {
+              img {
+                height: 23.2rem;
+                object-fit: cover;
+              }
+            }
+          }
+          .field-data {
+            top: 25%;
+            padding: 1.8rem 0;
+            .field-title {
+              font-size: 3.5rem;
+            }
+          }
+        }
+      }
+      @include respond-to(extra-largedesktop) {
+        .promo-tile {
+          .field-image {
+            max-width: 45rem !important;
+          }
+        }
+      }
+    }
+  }
+}

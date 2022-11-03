@@ -1,0 +1,15 @@
+.club-nylabone{
+    ul{
+        color: $white;
+        background-color: $orange-primary;
+        border-radius: 15px;
+        padding: 6rem 4rem 6rem 4rem;
+        // background-image: url("../images/PaperTexture.png");
+        li{
+            list-style: url("../images/paw_white.png");
+            padding-left: 1rem;
+            margin-left: 2rem;
+        }
+
+    }
+}

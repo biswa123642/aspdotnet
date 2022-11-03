@@ -1,0 +1,82 @@
+﻿---
+ID: "dda1bc92-c88a-418c-bf31-be13543c7305"
+Parent: "4965d481-3427-4059-8137-094315574669"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Related Products and Articles/Related Articles/Container/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    {{ hideImage = sc_parameter 'HideImage' | string.contains "1" }}
+    {{ related_items = sc_followmany i_item "RelatedArticles"}}
+    {{if related_items|array.size > 0 }} 
+            <div class= "inner-wrap">
+                {{if (i_item.RelatedArticlesLabel !="")}}
+                    <h3>{{i_item.RelatedArticlesLabel}}</h3>
+                {{end}}
+                {{ if hideImage == false}}
+                    {{if related_items|array.size > 0 }}
+                        {{ for child in related_items}}
+                            {{desktopImage = sc_follow child 'DesktopImage' | sc_medialink }}
+                            {{ if child != null}}
+                                <a href = "{{child.url}}" >
+                                    <div class="article-tag">
+                                                    {{child.ArticleType.Value}}
+                                    </div>
+                                    <div class="img-wrapper">
+                                            {{if desktopImage != "#" }}
+                                                {{child.DesktopImage}}
+                                            {{else}}
+                                                {{child.OpenGraphImageUrl}}
+                                            {{end}}
+                                    </div>
+                                    <div class ="caption">
+                                        {{child.Title.raw}}
+                                    </div>
+                                </a>
+                            {{end}}
+                        {{end}}
+                    {{end}}
+                {{else}}
+                    {{if related_items|array.size > 0 }}
+                            {{ for child in related_items}}
+                                {{ if child != null}}
+                                <ul>
+                                    <li>
+                                        <a href = "{{child.url}}" >
+                                            {{child.Title.raw}}
+                                        </a>
+                                    </li>
+                                </ul>
+                            {{end}}
+                    {{end}}
+                {{end}}
+            {{end}}
+        </div>
+    {{end}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220322T034511Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b265f7c4-be33-47a1-96bd-29808772d485"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220923T074750Z

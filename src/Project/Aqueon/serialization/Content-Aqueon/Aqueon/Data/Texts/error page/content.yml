@@ -1,0 +1,44 @@
+﻿---
+ID: "9ff72226-7cd7-4810-9df1-f9530f1fae02"
+Parent: "9b1e28d4-ff21-4618-9a3b-970e8b3ad124"
+Template: "b8f5894c-b493-4016-bf78-4090b0a2fd16"
+Path: /sitecore/content/OneWeb/Aqueon/Data/Texts/error page/content
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220912T082009Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fc57ba9d-0e4d-46ae-b953-bc73e51b54d6"
+    - ID: "b3635965-6786-457c-9dee-28de73c0a331"
+      Hint: Text
+      Value: |
+        <div class="error-rte">
+        <h1>
+        Uh oh! This page is lost.
+        </h1>
+        <p>Uhh... Looks like we broke something. The page you were looking for has vanished or got eaten. </p>
+        <p>Why not try the <a href="/">HOME</a>&nbsp;page or use the navigation links above.</p>
+        </div>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221006T065246Z

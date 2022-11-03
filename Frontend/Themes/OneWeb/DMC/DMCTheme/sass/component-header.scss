@@ -1,0 +1,152 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.header-shell {
+    &.variant-3{
+      @include respond-to(desktop) {
+      -webkit-box-shadow: 0 6px 21px 0 #0000004d;
+      }
+      position: initial;
+      background: transparent;
+      box-shadow: none;
+      .component{
+        &.plain-html{
+          .hamburger{
+            background-color:$blue-heading;
+            margin: 3rem 0px;
+            padding: 9px 9px;
+            span{
+              &:first-child{
+                margin-top: 0;
+              }
+            }
+          }
+        }
+      }
+      .header-global-menu{
+        background: none;
+        ul{
+          &.items{
+            justify-content: initial;
+            li{
+              &.item{
+                border: none;
+                @include respond-to(desktop) {
+                  padding: 3.2rem 2rem 3.2rem 2rem;
+                }
+                a{
+                  color:$blue-heading;
+                  font-size: 2rem;
+                  @include respond-to(desktop) {
+                    font-size: 1.7rem;
+                  }
+                  &:hover {
+                    color:$orange-heading;
+                    
+                  }
+                }
+                &:hover{
+                  color:$orange-heading;
+                  background-color: #e7e7e7;
+                  margin-bottom: -.8rem;
+                  cursor: pointer;
+                  a{
+                    color:$orange-heading;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      &.active{
+        .component{
+          &.search-box{
+            position: initial;
+            width:100%;
+            margin-bottom: 2.5rem;
+            .component-content{
+              position: initial;
+            }
+            .search-holder{
+              .search-wrapper{
+                &:before {
+                  background: none;
+                }
+              }
+              .search-input-wrapper{
+                input{
+                  display:block;
+                  display: inline-block;
+                  color: $blue-heading;
+                  background-color: $search-color;
+                  border-radius: 20px;
+                  border: none;
+                }
+                .custom-search-box-button{
+                  right:-5rem;
+                  top: 0;
+                  display: block;
+                }
+              }
+            }
+            
+          }
+        }
+      }
+      .component{
+        &.search-box{
+          @include respond-to(desktop) {
+            position: absolute;
+            right: 13%;
+          }
+          .search-holder{
+            .search-input-wrapper{
+              input{
+                @include respond-to(desktop) {
+                  display: none;
+                }
+              }
+              .custom-search-box-button{
+                display:none;
+                @include respond-to(desktop) {
+                  display: block;
+                  &::after{
+                    font-family: FontAwesome;
+                    content: "\f002";
+                    font-size: 3rem;
+                    color: $blue-heading;
+                    font-weight: normal;
+                  }
+                }
+              }
+            }
+          }
+          &.active{
+            .search-holder{
+              .search-wrapper{
+                .search-input-wrapper{
+                  input{
+                    @include respond-to(desktop) {
+                      display: block!important;
+                      position: absolute;
+                      top: 3.5rem;
+                      right: 0rem;
+                      width: 200px;
+                      border-radius: 4px;
+                      border: 2px solid $blue-heading;
+                      background-color: $white;
+                      padding: 7px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      } 
+    }
+  }
+}

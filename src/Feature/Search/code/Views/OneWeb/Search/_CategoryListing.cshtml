@@ -1,0 +1,93 @@
+﻿@using Sitecore.Mvc.Presentation
+@using CGP.Foundation.SitecoreExtensions.Utilities
+@using SolrNet
+@model List<CGP.Feature.Search.Models.GlobalResultItem>
+@{
+    var computedImage = string.Empty;
+    var contentUrl = string.Empty;
+    var contentTitle = string.Empty;
+    var opengraphDescription = string.Empty;
+    var gridClass = "col-12";
+    string gridSelection = HelperExtension.GetValueFromCurrentRenderingParameters(CGP.Foundation.Search.Constants.LoadMore.GridSelection);
+    gridClass = string.IsNullOrWhiteSpace(gridSelection) ? gridClass : gridSelection;
+    gridClass = gridClass.Equals("col-12") ? string.Empty : gridClass;
+    var hideDescriptionOnTiles = Convert.ToBoolean(Convert.ToInt32(HelperExtension.GetValueFromCurrentRenderingParameters(CGP.Foundation.Search.Constants.HideDescriptionOnTiles) ?? "0"));
+    var hideTitleOnTiles = Convert.ToBoolean(Convert.ToInt32(HelperExtension.GetValueFromCurrentRenderingParameters(CGP.Foundation.Search.Constants.HideTitleOnTiles) ?? "0"));
+    string articleListingFacetType = HelperExtension.GetValueFromCurrentRenderingParameters(CGP.Foundation.Search.Constants.ArticleListingFacetType) ?? CGP.Foundation.Search.Constants.PageAttributes;
+    string filterOrder = HelperExtension.GetValueFromCurrentRenderingParameters(CGP.Foundation.Search.Constants.FilterOrder) ?? CGP.Foundation.Search.Constants.SameAsCMS;
+    string descriptionLengthLimit = HelperExtension.GetValueFromCurrentRenderingParameters(CGP.Foundation.Search.Constants.DescriptionLengthLimit) ?? string.Empty;
+    int intDescriptionLengthLimit;
+    bool intResultTryParse = int.TryParse(descriptionLengthLimit, out intDescriptionLengthLimit);
+
+    bool checkToLoadChildArticlesOnly = Convert.ToBoolean(Convert.ToInt32(HelperExtension.GetValueFromCurrentRenderingParameters(CGP.Foundation.Search.Constants.CheckToLoadChildArticlesOnly) ?? "0"));
+
+    string listingSortDirection = HelperExtension.GetValueFromCurrentRenderingParameters(CGP.Foundation.Search.Constants.SortDirection);
+    string listingSortOrder = HelperExtension.GetValueFromCurrentRenderingParameters(CGP.Foundation.Search.Constants.SortingLookup);
+
+
+    <div id="values-preserved-listing"
+         data-gridclasstype="@gridClass"
+         data-hidedescriptionontiles="@hideDescriptionOnTiles"
+         data-hidetitleontiles="@hideTitleOnTiles"
+         data-articleListingFacetType="@articleListingFacetType"
+         data-filterorder="@filterOrder"
+         data-checkToLoadChildArticlesOnly="@checkToLoadChildArticlesOnly"
+         data-listingsortdirection="@listingSortDirection"
+         data-listingsortorder="@listingSortOrder"
+         data-descriptionlengthlimit="@descriptionLengthLimit"
+         hidden> </div>
+
+    if (Model != null)
+    {
+        <div class="card-body">
+            <ul class="product-list row">
+                @foreach (var item in Model)
+                {
+                    computedImage = !string.IsNullOrWhiteSpace(item.ResultItem.ComputedImage) ? item.ResultItem.ComputedImage : string.Empty;
+                    contentTitle = !string.IsNullOrWhiteSpace(item.ResultItem.Title) ? item.ResultItem.Title : string.Empty;
+                    contentUrl = !string.IsNullOrWhiteSpace(item.ResultItem.RedirectUrl) ? item.ResultItem.RedirectUrl : string.Empty;
+
+                    contentUrl = (string.IsNullOrWhiteSpace(contentUrl) && !string.IsNullOrWhiteSpace(item.ResultItem.ContentUrl)) ? item.ResultItem.ContentUrl : contentUrl;
+
+                    opengraphDescription = !string.IsNullOrWhiteSpace(item.ResultItem.OpengraphDescription) ? item.ResultItem.OpengraphDescription : string.Empty;
+                    if (intResultTryParse == true)
+                    {
+                        opengraphDescription = !string.IsNullOrWhiteSpace(opengraphDescription) && (opengraphDescription.Length > intDescriptionLengthLimit) ? StringUtil.TruncateAtWord(opengraphDescription, intDescriptionLengthLimit) : opengraphDescription;
+                    }
+
+                    <li class="col-12 @gridClass">
+                        <div class="cgp-product h-100">
+                            <div class="image-holder">
+                                @if (!computedImage.Contains("src=''"))
+                                {
+                                    <a href="@contentUrl">
+                                        @Html.Raw(computedImage)
+                                    </a>
+                                 }
+                               
+                            </div>
+
+                            @if (!string.IsNullOrWhiteSpace(contentTitle))
+                            {
+
+
+                                <div class="body-copy">
+                                    @if (!hideTitleOnTiles)
+                                    {
+                                        <h3>
+                                            <a href="@contentUrl">@Html.Raw(contentTitle)</a>
+                                        </h3>
+                                    }
+                                    @if (!string.IsNullOrWhiteSpace(opengraphDescription) && !hideDescriptionOnTiles)
+                                    {
+                                        <p>@opengraphDescription</p>
+                                    }
+                                </div>
+                            }
+                        </div>
+                    </li>
+                }
+            </ul>
+        </div>
+    }
+}

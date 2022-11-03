@@ -1,0 +1,214 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+body {
+  line-height: 1.428;
+  font-size: 1.4rem;
+  height: auto !important;
+  overflow-x: hidden;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  line-height: 1.1;
+  font-size: 4.8rem;
+  font-weight: 500;
+  color: $white;
+  @include ff-ernestine-pro-font-stack();
+
+  @include respond-to(bootstrap-onlyTablet) {
+    font-size: 8.2rem;
+  }
+
+  @include respond-to(desktop) {
+    font-size: 6.8rem;
+  }
+
+  @include respond-to(extra-large-desktop) {
+    font-size: 9.9rem;
+  }
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: $white;
+  @include ff-ernestine-pro-font-stack();
+  line-height: 1.1;
+
+  @include respond-to(desktop) {
+    font-size: 2.4rem;
+  }
+
+  @include respond-to(extra-large-desktop) {
+    font-size: 3.2rem;
+  }
+}
+
+h3 {
+  font-size: 3.52rem;
+  font-weight: 700;
+  color: $text-color-primary;
+  @include ff-ernestine-pro-font-stack();
+
+  @include respond-to (desktop) {
+    font-size: 2.2vw;
+  }
+}
+
+h4 {
+  font-size: 1.8rem;
+  @include fieldwork-hum-font-stack();
+  color: $color-secondary;
+  font-weight: 500;
+}
+
+h6 {
+  @include fieldwork-hum-font-stack();
+  font-weight: 700;
+  color: $text-color-primary;
+  font-size: 1.92rem;
+
+  @include respond-to(desktop) {
+    font-size: 1.3vw;
+
+  }
+}
+
+p {
+  color: $text-color-primary;
+  font-size: 1.9rem;
+  font-weight: 400;
+  @include fieldwork-hum-font-stack();
+}
+
+a {
+  font-size: 1.6rem;
+  color: $text-color-primary;
+  font-weight: 500;
+}
+
+.content ol li,
+.rich-text ol li {
+  list-style: inherit;
+  list-style-position: inherit;
+}
+
+.rich-text {
+  .h2{
+    margin-top: 10px;
+    margin-bottom: 20px
+  }
+  li {
+    @include ff-ernestine-pro-font-stack();
+    font-size: 1.6rem;
+    line-height: 30px;
+    @include respond-to(desktop) {}
+  }
+}
+
+.sxa-btn {
+  &.sxa-btn-primary,&.sxa-btn-bordered {
+    &.sxa-btn-round {
+      //padding-bottom: 37px;
+      a {
+        // border: 0px;
+        // padding: 6px 12px;
+        background-image: url(../images/Icons/Green_learn_more.png);
+        color: $dark-green !important; //override color
+      }
+    }
+  }
+  &.load-more-result a,.clear-filter-btn{
+    background-image: url(../images/Icons/Green_learn_more.png);
+    color: $dark-green;
+    width: 132px!important;
+  }
+  &.load-more-result a{
+    text-align: center!important;
+  }
+
+    &.hero-banner-cta{
+      a {
+        background-image: url(../images/Icons/White_learn_more.png);
+        color: $white !important; //override color
+      }
+    }
+
+  &.sxa-btn-primary,
+  &.sxa-btn-bordered,&.load-more-result{
+    a {
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: left;
+      font-weight: 600;
+      font-size: 1.4rem;
+      text-align: left;
+      display: inline-block;
+      padding: 15px 15px 14.5px 15px;
+      width: 15rem;
+      line-height: initial;
+
+      border: none;
+      min-width: initial !important;
+      position: relative;
+      @include fieldwork-hum-font-stack();
+
+      &:hover {
+        transform: scale(1.1);
+        transition: all .25s ease-in-out;
+      }
+
+      @include respond-to(desktop) {
+        font-size: 1.4rem;
+        width: 166px;
+       // height: 40px;        
+      }
+
+      @include respond-to(extra-large-desktop) {
+        font-size: 1.8rem;
+        width: 295px;
+        padding-left: 2rem;
+        //height: 45px;
+      }
+    }
+  }
+}
+
+.component {
+  &.plain-html {
+    &.position-center {
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+      max-width: 100%;
+    }
+  }
+
+}
+
+.component {
+  &.hero {
+    .sxa-btn {
+      margin: 1rem 0 !important;
+    }
+  }
+}
+
+.modal .close:hover{
+  color: $white;
+}
+.sxa-video-wrapper{
+  line-height: 0;
+  
+}

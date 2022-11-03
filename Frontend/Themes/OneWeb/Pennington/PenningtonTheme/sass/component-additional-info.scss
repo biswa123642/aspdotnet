@@ -1,0 +1,89 @@
+@import "abstracts/mixins";
+@import "abstracts/vars";
+
+.component {
+  &.content {
+    &.component-additional-info {
+      padding: 3rem 1.5rem;
+
+      .bg-angled-gray {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        padding: 5rem 2rem;
+        background-color: $slider-bg-gray;
+      }
+
+      h2 {
+        font-size: 3.4rem;
+        font-weight: 900;
+        margin-top: 3.2rem;
+        margin-bottom: 2.2rem;
+        color: $text-black;
+
+        a {
+          text-decoration: none;
+          color: $anchor;
+          font-size: inherit;
+
+          span {
+            color: $text-secondary;
+            font-weight: 900;
+            font-size: inherit;
+          }
+
+          &:hover {
+            text-decoration: underline;
+            text-decoration-color: $anchor;
+          }
+        }
+      }
+
+      p {
+        color: $text-secondary;
+
+        a {
+          text-decoration: none;
+          color: $anchor;
+
+          span {
+            color: $text-secondary;
+          }
+
+          &:hover {
+            text-decoration: underline;
+            text-decoration-color: $anchor;
+          }
+        }
+      }
+
+      @include respond-to(desktop) {
+        .bg-angled-gray {
+          padding: 6rem 8rem;
+          background-color: $slider-bg-gray;
+        }
+
+        h2 {
+          font-size: 4.5rem;
+
+          a {
+            font-size: inherit;
+
+            span {
+              font-size: inherit;
+            }
+          }
+        }
+      }
+
+      strong {
+        a {
+          font-weight: inherit;
+
+          span {
+            font-weight: inherit;
+          }
+        }
+      }
+    }
+  }
+}

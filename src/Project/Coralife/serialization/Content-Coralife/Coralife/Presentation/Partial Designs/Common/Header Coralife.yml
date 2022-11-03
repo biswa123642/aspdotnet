@@ -1,0 +1,70 @@
+﻿---
+ID: "08d70b85-c2cb-4842-ab95-7c050a09fe19"
+Parent: "f9428acf-829a-4866-a1b7-3cab10d338f3"
+Template: "d68e3c5a-253d-4765-be54-b7b18c350cb1"
+Path: /sitecore/content/OneWeb/Coralife/Presentation/Partial Designs/Common/Header Coralife
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: header
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{8E426D7F-ACF5-4267-BA8F-041A9A9B5815}"
+          p:before="*"
+          s:ds="{304E79DC-BBBB-4B5D-9CC6-9E0A93CA3142}"
+          s:id="{F8E3B6D3-64C9-4ED0-8922-107BCA5FA411}"
+          s:par="SourceType=%7B90105CB9-2CFD-4151-9FA8-6CDF92B158C2%7D&amp;Reset Caching Options&amp;ListSignature&amp;PageSize&amp;Offset&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BDDC8D3F2-027B-4064-BA7A-F3F6F9202AD8%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/header/headerright-2-1" />
+        <r
+          uid="{1BCA3628-BDA6-4B4D-853A-F6BD2D349406}"
+          p:after="r[@uid='{8E426D7F-ACF5-4267-BA8F-041A9A9B5815}']"
+          s:ds="{E5C509DD-3FFD-476C-A70C-43C763305BA3}"
+          s:id="{6DDA07A9-18D3-47A0-AB74-DF54956DD5F1}"
+          s:par="Reset Caching Options&amp;GridParameters={908E2BC6-C110-4ED7-AF39-7EEACBB31A34}&amp;Styles&amp;CacheClearingBehavior=Clear on publish&amp;RenderingIdentifier"
+          s:ph="/header/headerright-2-1" />
+        <r
+          uid="{3C484776-1D1D-4E3A-9963-E672BEF11D03}"
+          p:after="r[@uid='{1BCA3628-BDA6-4B4D-853A-F6BD2D349406}']"
+          s:ds="{3A6D2BA7-11EF-4514-B405-DABE8A6C8E05}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA856EE79-BA67-47A1-BD2E-F00BACE41BB9%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/header/headerleft-1-1" />
+        <r
+          uid="{A2FC56FC-844C-4C13-879C-F62F630D40F6}"
+          p:after="*[1=2]"
+          s:id="{31182E20-2590-4F8E-93E2-EE3CBAC58983}"
+          s:par="StickyFunctionality&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1&amp;FieldNames=%7B39522A7B-29C2-4CFE-88AC-F91459B7379F%7D"
+          s:ph="header" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T093303Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "45023388-ea0d-4256-ab01-8b9506716c44"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220922T093505Z

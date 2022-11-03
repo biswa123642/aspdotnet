@@ -1,0 +1,225 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.accordion {
+        ul.items {
+            padding: 0;
+            li.item {     
+                -webkit-box-shadow: 0 1px 1px #0000000d;      
+                box-shadow: 0 1px 1px #0000000d;      
+                .toggle-header {
+                    .label {
+                        padding: 0;
+                    }
+                  
+                    .component {
+                        .field-heading {
+                            padding: 11px 4.5rem 12px 0;
+                            font-size: 1.6rem;
+                            h5,
+                            h4 {                        
+                                font-weight: bold;                             
+                            }                        
+
+                            &:before,
+                            &:after {
+                                background: #33322e;
+                                right: 26px;
+                            }
+                        }
+                    }
+                }
+                .toggle-content {
+                    .field-content {
+                        color: #33322e;
+                        padding: 15px 1.5rem 1.5rem 1.5rem;
+                        border-top: 1px solid #ddd;
+                        font-weight: 400;
+                        strong {
+                            font-weight: 700;
+                        }
+                        p {
+                            margin: 0 0 10px 0;
+                        }
+                        .takeaways {
+                            h3 {
+                                color: #ff4222;
+                                font-family: "Lato", sans-serif;
+                                font-size: 26px;
+                                font-weight: bold;
+                                text-decoration: none;
+                            }
+                            p {
+                                color: #ff4222;
+                                font-family: "Lato", sans-serif;
+                                font-size: 18px;
+                                font-weight: bold;
+                                text-decoration: none;
+                            }
+                        }
+
+                        .score-button {
+                            background-color: #fff;
+                            border-color: #0000;
+                            color: #b1bf2d;
+                            font-family: "Lato", sans-serif;
+                            font-size: 26px;
+                            font-weight: 900;
+                            text-decoration: none;
+                            border: 1px solid #0000;
+                            white-space: nowrap;
+                            padding: 6px 12px;
+                            line-height: 1.42857143;
+                            border-radius: 4px;
+                            margin-top: 30px;
+                            display: inline-block;
+                            &:hover {
+                                color: #b1bf2d;
+                                background-color: #e6e6e6;
+                                border-color: #0000;
+                            }
+                            &:after {
+                                content: "\e072";
+                                font-family: "Glyphicons Halflings";
+                                padding-left: 10px;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+               
+            }
+        }
+    }
+}
+.bg-color-black{
+    .component {
+        &.accordion {
+            ul.items {
+                padding: 0;
+                li.item {
+                    background-color: #fff;
+                    margin-top: 5px;
+                    position: relative;
+                    padding-left: 50px;
+                    box-shadow: none;
+                    .toggle-header {
+                        .label {
+                            padding: 0;
+                        }
+                        &:after {
+                            color: #b1bf2d;
+                            content: "\002b";
+                            font-size: 64px;
+                            line-height: 48px;
+                            position: absolute;
+                            top: 11px;
+                            left: 15px;
+                            font-family: "Lato", sans-serif;
+                            font-weight: 700;
+                        }
+                        .component {
+                            .field-heading {
+                                padding: 11px 1.5rem 12px 1.5rem;
+    
+                                h4 {
+                                    color: #ff4222;
+                                    font-family: "Lato", sans-serif;
+                                    font-size: 30px;
+                                    font-weight: bold;
+                                    line-height: 1.1;
+                                    margin-top: 0;
+                                }
+                                h5 {
+                                    color: #000;
+                                    font-family: "Lato", sans-serif;
+                                    font-size: 18px;
+                                    font-weight: bold;
+                                    line-height: 1;
+                                }
+    
+                                &:before,
+                                &:after {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                    .toggle-content {
+                        .field-content {
+                            color: #000;
+                            font-family: Lato, sans-serif;
+                            font-size: 18px;
+                            font-weight: 400;
+                            padding: 15px 1.5rem 1.5rem 1.5rem;
+                            border-top: 1px solid #ddd;
+                            p {
+                                margin: 0 0 10px 0;
+                            }
+                            .takeaways {
+                                h3 {
+                                    color: #ff4222;
+                                    font-family: "Lato", sans-serif;
+                                    font-size: 26px;
+                                    font-weight: bold;
+                                    text-decoration: none;
+                                }
+                                p {
+                                    color: #ff4222;
+                                    font-family: "Lato", sans-serif;
+                                    font-size: 18px;
+                                    font-weight: bold;
+                                    text-decoration: none;
+                                }
+                            }
+    
+                            .score-button {
+                                background-color: #fff;
+                                border-color: #0000;
+                                color: #b1bf2d;
+                                font-family: "Lato", sans-serif;
+                                font-size: 26px;
+                                font-weight: 900;
+                                text-decoration: none;
+                                border: 1px solid #0000;
+                                white-space: nowrap;
+                                padding: 6px 12px;
+                                line-height: 1.42857143;
+                                border-radius: 4px;
+                                margin-top: 30px;
+                                display: inline-block;
+                                &:hover {
+                                    color: #b1bf2d;
+                                    background-color: #e6e6e6;
+                                    border-color: #0000;
+                                }
+                                &:after {
+                                    content: "\e072";
+                                    font-family: "Glyphicons Halflings";
+                                    padding-left: 10px;
+                                    font-size: 20px;
+                                }
+                            }
+                        }
+                    }
+                    &.active {
+                        .toggle-header {
+                            &:after {
+                                content: "\2013";
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    } 
+}
+@include respond-to(tab){
+    .bg-color-black .component.accordion ul.items li.item .toggle-header .component .field-heading h4{
+        font-size: 5rem;
+    }
+    .component.accordion ul.items li.item .toggle-header .component .field-heading {
+        padding: 11px 4.5rem 12px 1.5rem;
+    }
+}

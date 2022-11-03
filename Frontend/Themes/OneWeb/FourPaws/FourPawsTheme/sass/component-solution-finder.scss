@@ -1,0 +1,78 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.breadcrumb-bg {
+  cursor: pointer;
+  .solution-finder-breadcrumb-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 54px;
+    @include respond-to(all-mobile) {
+      flex-direction: column;
+      margin-top: 0px;
+    }
+    .solution-finder-breadcrumb {
+      font-size: 1.2rem;
+    }
+  }
+}
+.component-solution-finder {
+  .solution-finder {
+    .questionDiv {
+      background-color: $white;
+      padding: 0px;
+      h3 {
+        @include lora-font-stack();
+        color: $text-small-heading-color;
+        font-size: 1.8rem;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        line-height: 1.1;
+      }
+    }
+    .answersDiv {
+      .answer-div {
+        h3 {
+          &:hover {
+            opacity: 0.3;
+          }
+        }
+        img {
+          &:hover {
+            opacity: 0.3;
+          }
+        }
+
+        .answer-title {
+          @include lora-font-stack();
+
+          color: #5886a7;
+          margin-left: auto;
+          margin-right: auto;
+          padding: 0 5px;
+          text-transform: none;
+          max-width: 100%;
+          font-size: 1.8rem;
+          font-weight: 600;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.where-buy-section {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@include respond-to(extraLarge-desktop) {
+  .component-solution-finder {
+    .solution-finder {
+      .answersDiv {
+        width: 1401px;
+        margin: auto;
+      }
+    }
+  }
+}

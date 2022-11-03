@@ -1,0 +1,68 @@
+﻿---
+ID: "82b40741-dcc7-4730-9fea-924c34eea563"
+Parent: "a83c1b9d-ed47-4117-836d-9e5abec25209"
+Template: "1ca0304b-e5b6-4810-8211-54426f1752c2"
+Path: /sitecore/content/OneWeb/Default/Presentation/Placeholder Settings/social share
+SharedFields:
+- ID: "0e54a8dc-72ad-4372-a7c7-bb4773fad44d"
+  Hint: VaryByUser
+  Value: 0
+- ID: "1084d3d2-0457-456a-abbc-eb4cc0966072"
+  Hint: VaryByQueryString
+  Value: 0
+- ID: "3ad2506a-dc39-4b1e-959f-9d524addbf50"
+  Hint: VaryByParm
+  Value: 0
+- ID: "3d08db46-2267-41b0-bc52-be69fd618633"
+  Hint: Cacheable
+  Value: 0
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: social share
+- ID: "8b6d532b-6128-4486-a044-ca06d90948ba"
+  Hint: VaryByData
+  Value: 0
+- ID: "8d9232b0-613f-440b-a2fa-dcdd80fbd33e"
+  Hint: VaryByLogin
+  Value: 0
+- ID: "a6d4fc1d-0803-4e0a-9145-b8c6121d6f26"
+  Hint: CacheClearingBehavior
+  Value: 0
+- ID: "c98cf969-ba71-42da-833d-b3fc1368ba27"
+  Hint: VaryByDevice
+  Value: 0
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Value: "{A4C39F97-D5B8-4BA5-940F-876610268EC8}"
+- ID: "f3e7e552-d7c8-469b-a150-69e4e14ab35c"
+  Hint: ClearOnIndexUpdate
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220430T064135Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9551b550-7916-4f24-89ae-5d2017c9f132"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220430T064227Z
+    - ID: "ff1fa49e-6fac-4ff2-8f79-57abe7338715"
+      Hint: Reset Caching Options
+      Value: 0

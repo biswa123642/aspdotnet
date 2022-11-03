@@ -1,0 +1,50 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.hero {
+        &.with-carousel {
+            .field-heroimagedesktop img {
+                width: 100%;
+            }
+
+            .hero-container {
+                
+                @include respond-to(tab-horizontal) {
+                    padding: 4.3rem 6rem 6rem 6rem;
+                }
+                
+                h1 {
+                    @include Roboto-font-stack();
+                    line-height: 1.25;
+                    font-weight: 700;
+                    color: $banner-carousel-title;
+
+                    @include respond-to(desktop) {
+                        line-height: 1.06;
+                        font-size: 5rem;
+                        margin-bottom: 0;
+                    }
+
+                    @include respond-to(large-desktop) {
+                        font-size: 6.6rem;
+                        margin-bottom: 2.5rem;
+                    }
+                }
+
+                .slick-slider {
+                    @include respond-to(tab) {
+                        margin-top: 1.5rem;
+                    }
+                }
+
+                .slide { // default
+                    padding-top: 1rem;
+                 
+                }
+            }
+        }
+
+    }
+
+}

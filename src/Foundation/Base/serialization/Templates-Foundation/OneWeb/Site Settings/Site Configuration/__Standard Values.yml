@@ -1,0 +1,40 @@
+﻿---
+ID: "387ee427-6cf3-4739-87a3-18b012ddc777"
+Parent: "77820909-82a2-4308-9e62-f54e15110ef3"
+Template: "77820909-82a2-4308-9e62-f54e15110ef3"
+Path: /sitecore/templates/Foundation/OneWeb/Site Settings/Site Configuration/__Standard Values
+SharedFields:
+- ID: "668b8710-8e39-4b7b-87b5-3d7b68a13f5b"
+  Hint: Pagesize
+  Value: 8
+- ID: "7bea2506-c26d-4030-a5ef-e2bd2e8baa4c"
+  Hint: NoImage
+  Value: |
+    <image mediaid="{56B5AD4D-8604-4D4B-95A9-7364429C58A6}" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: "-1"
+- ID: "e4acfb78-8493-4948-af51-35da5b417a4d"
+  Hint: NumberOfScrolls
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220331T103805Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0b12dfa7-64cb-4d0c-a4f4-54a2139b66d2"
+    - ID: "9382bdce-c7d0-4ca8-a214-160d80410c08"
+      Hint: DisableStoreConfig
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220725T111804Z

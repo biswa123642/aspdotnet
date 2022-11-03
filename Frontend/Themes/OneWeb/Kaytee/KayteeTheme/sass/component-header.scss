@@ -1,0 +1,236 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.header-shell {
+    &.variant-2 {
+      @include Ubuntu-font-stack();
+      .wrapper {
+        background: $primary-color;
+
+        .wrapper-nav {
+          background: $primary-color;
+        }
+      }
+
+      .component {
+        &.plain-html {
+          .hamburger {
+            background: transparent;
+
+            .icon-bar {
+              height: 2px;
+            }
+          }
+        }
+      }
+
+      &.active {
+        .component {
+          &.plain-html {
+            .hamburger {
+              .icon-bar:first-child {
+                transform: rotateZ(45deg) translate(8px, 8px);
+              }
+            }
+          }
+        }
+      }
+
+      .component {
+        &.page-list {
+          &.variant-1 {
+            .items {
+              .item {
+                border-bottom: none;
+                a {
+                  color: $white;
+                  font-size: 1.8rem;
+                  font-weight: 700;
+                  border-bottom: none;
+                }
+                .submenu-utility-linklist {
+                  margin: 1rem;
+                  .link-list {
+                    .component-content {
+                      h3 {
+                        color: $white;
+                        border-bottom: none;
+                        font-size: 1.4rem;
+                        text-transform: uppercase;
+                        @include Ubuntu-font-stack();
+                      }
+                      li {
+                        margin: 5px 10px;
+                        a {
+                          color: $white;
+                          font-size: 1.2rem;
+                          font-weight: 700;
+                          padding-left: 0;
+                          text-transform: uppercase;
+
+                          &:hover {
+                            text-decoration: underline;
+                          }
+                        }
+                      }
+                    }
+                  }
+
+                  .component {
+                    &.image {
+                      img {
+                        max-height: 12.5rem;
+                        width: auto;
+                      }
+                    }
+                  }
+                }
+                &.has-submenu-list {
+                  position: relative;
+                  &::before {
+                    color: $white;
+                    right: 1.5rem;
+                  }
+                  &.open {
+                    &::before {
+                      top: 1.8rem;
+                    }
+                  }
+                }
+              }
+            }
+
+            .top-nav {
+              background: $white;
+              .list-wrap {
+                display: flex;
+                justify-content: center;
+                .list-item {
+                  margin: 5px;
+                  a {
+                    color: $primary-color;
+                    border-bottom: none;
+                    font-size: 1.4rem;
+                    font-weight: 700;
+
+                    &::before {
+                      font-weight: 400;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      @include respond-to(desktop) {
+        .wrapper {
+          background: $white;
+        }
+
+        .logo-container {
+          .file-type-icon-media-link {
+            position: absolute;
+            z-index: 1;
+            top: 2.2rem;
+          }
+        }
+
+        .utility-navigation {
+          .top-nav {
+            .list-wrap {
+              margin: 0.5rem 0;
+              .list-item {
+                a {
+                  color: $primary-color;
+                  font-size: 1.4rem;
+                  padding: 0px 1rem;
+
+                  &:hover {
+                    text-decoration: underline;
+                  }
+
+                  &::before {
+                    font-weight: 400;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .component {
+          &.page-list {
+            &.variant-1 {
+              padding-right: initial;
+              margin: 1rem auto;
+
+              .items {
+                justify-content: flex-end;
+                .item {
+                  padding: 1.5rem;
+                  a {
+                    font-size: 1.4rem;
+                  }
+                  .submenu-utility-linklist {
+                    background: $white;
+                    margin: auto -1.5rem;
+                    padding: 1.5rem;
+                    box-shadow: 0 12px 12px rgba(0, 0, 0, 0.18);
+
+                    .link-list {
+                      .component-content {
+                        h3 {
+                          color: #565656;
+                          border-bottom: none;
+                          font-size: 1.4rem;
+                          text-transform: none;
+                        }
+                        li {
+                          a {
+                            color: $primary-color;
+                            font-size: 1.4rem;
+                            font-weight: 400;
+                            padding-left: 0;
+                            text-transform: none;
+                            @include Ubuntu-font-stack();
+                            &:hover {
+                              text-decoration: underline;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                  &.has-submenu-list {
+                    position: static;
+
+                    &::before {
+                      display: none;
+                    }
+
+                    &:hover {
+                      background: $white;
+
+                      a {
+                        color: $primary-color;
+                        text-transform: none;
+                        font-weight: 400;
+                      }
+
+                      .submenu-utility-linklist {
+                        display: block;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

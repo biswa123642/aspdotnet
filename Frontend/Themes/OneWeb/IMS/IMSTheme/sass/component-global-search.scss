@@ -1,0 +1,20 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.global-search-sugest {
+  &.ui-menu {
+    .ui-menu-item {
+      .ui-menu-item-wrapper {
+        color: $title_primary;
+        font-size: 1.6rem;
+        @include Arial-font-stack();
+
+        &:hover {
+          color: $white;
+          background: $bg-blue;
+        }
+      }
+    }
+  }
+}

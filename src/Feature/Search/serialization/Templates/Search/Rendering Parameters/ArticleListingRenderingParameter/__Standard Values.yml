@@ -1,0 +1,30 @@
+﻿---
+ID: "f5f8c9cc-7854-4391-ac0d-5388855c109a"
+Parent: "65de5587-2484-43ef-906b-802390bfdec5"
+Template: "65de5587-2484-43ef-906b-802390bfdec5"
+Path: /sitecore/templates/Feature/OneWeb/Search/Rendering Parameters/ArticleListingRenderingParameter/__Standard Values
+SharedFields:
+- ID: "ae20ee44-f5c0-4265-beb4-3590f2fbee1b"
+  Hint: SortDirection
+  Value: asc
+- ID: "fdc7b94a-97a7-496c-b926-72f8a249e066"
+  Hint: SortingLookup
+  Value: __updated_tdt
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220707T081429Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8e0095ec-b1d0-4c8c-b590-61caac9829ab"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220712T153335Z

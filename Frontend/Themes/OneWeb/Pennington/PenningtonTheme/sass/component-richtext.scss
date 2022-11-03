@@ -1,0 +1,58 @@
+@import "abstracts/vars";
+
+.component {
+    &.rich-text {
+        padding-bottom: 3rem;
+
+        ol,
+        li,
+        p,
+        div,
+        td {
+            font-size: 1.6rem;
+            color: $text-secondary;
+            font-weight: 500;
+            padding-right: 1.5rem;
+        }
+
+        h2 {
+            color: $text-secondary;
+        }
+    }
+
+    &.content {
+        &.full-width-banner {
+            padding: 0;
+        }
+
+        h2,
+        div {
+            color: $text-secondary;
+        }
+
+        .product-title {
+            h2 {
+                font-size: 3rem;
+            }
+        }
+
+        h3 {
+            color: $text-secondary;
+        }
+
+    }
+    &.video{
+          iframe{
+        min-height:300px!important;
+        width: 100%!important;
+    }
+    }
+}
+
+footer {
+    .component {
+        &.rich-text {
+            padding-bottom: 0;
+        }
+    }
+}

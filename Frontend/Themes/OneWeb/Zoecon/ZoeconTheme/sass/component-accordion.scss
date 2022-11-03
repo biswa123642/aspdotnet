@@ -1,0 +1,169 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.accordion {
+        &.variant-2 {
+            padding: 0;
+
+            ul.items {
+                padding-top: 0;
+                li.item {
+                    padding-bottom: 0;
+                    margin-bottom: .5rem;
+
+                    .toggle-header {
+                        background-color: transparent;
+
+                        .label {
+                            padding: 0;
+                            
+                        }
+                        .field-heading {
+                            font-size: 2rem;
+                            padding: 20px 45px 20px 20px;
+                            font-weight: 500;
+                            color: $primary-color;
+
+                            &::after,
+                            &::before {
+                                height: 3rem;
+                                width: .4rem;
+                                background-color: $primary-color;
+                            }
+
+                            &:hover {
+                                text-decoration: none;
+                            }
+                        }
+                    }
+
+                    .toggle-content {
+                        border: none;
+                        padding: 1rem 1.5rem;
+                        background-color: transparent;
+
+                        .field-content {
+                            padding: 0;
+
+                            p {
+                                a {
+                                    color: inherit;
+                                    font-weight: bold;
+                                    font-size: inherit;
+                                }
+                            }
+
+                        }
+                    }
+                   
+                }
+            }
+
+            @include respond-to(desktop) {
+                //padding: 0 1.5rem;
+
+                ul.items {
+                    li.item {
+                        .toggle-header {
+                            background-color: transparent;
+
+                            .field-heading {
+                                font-size: 2.5rem;
+                                font-weight: 700;                               
+                            }
+                        }
+
+                        .toggle-content {
+                            .field-content {
+                                .accordion-left {
+                                    padding-right: 25%;
+                                }
+                            }
+                            .accordion-image{
+                                padding: 0 3rem;
+                                img{
+                                    margin-bottom: 3rem;
+                                    margin-right: 2rem;
+                                }
+                               }
+                        }
+                    }
+                }
+            }
+            
+        }
+        &.variant-3{
+            ul.items {
+                li.item {
+                    .toggle-header { 
+                        .label{
+                            padding: 0;
+                        }                           
+                        .field-heading {                                
+                            font-weight: 500;
+                            line-height: 22px;
+                            padding: 2.65rem 4rem 2.65rem 2.65rem ;
+                            &::before,&::after{
+                                width: 2px;
+                            }
+                        }
+                    }    
+                   
+                }
+            }
+        }
+    }
+    &.product-tab-accordion{
+        .card{
+            padding: 0;
+        }
+    }
+}
+
+body.resource-center{
+    .component {
+        &.accordion {
+            &.variant-2 {    
+                padding: 0 1.5rem;            
+                ul.items {
+                    li.item {                       
+    
+                        .toggle-header {
+                           .field-heading{
+                            font-size: 2rem;   
+                            font-weight: 500;                        
+                           }
+                        }
+    
+                        .toggle-content {
+                           h1{
+                            text-transform: capitalize;
+                           }
+                           h4{
+                            font-size: 2rem;
+                            font-weight: 500;
+                            padding: 1rem 0;
+                            margin: 0;
+                            line-height: 22px;
+                           }
+                           a{
+                            font-weight: bold;
+                            display: block;
+                           }
+                           
+                        }
+                        @include respond-to(desktop){
+                            .accordion-left,.accordion-right,.accordion-center{
+                                padding-left: 2.5rem;
+                               }                               
+                        }
+                       
+                    }
+                }    
+               
+            }
+        }
+        
+    }
+}

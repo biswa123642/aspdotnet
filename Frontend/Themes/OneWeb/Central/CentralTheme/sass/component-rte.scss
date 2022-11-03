@@ -1,0 +1,67 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+.component{
+    &.rich-text{
+        &.page-title{
+        .component-content{
+            h1, h2, h3  {
+                color:$text-color-primary;
+                @include ff-ernestine-pro-font-stack();
+            }
+            h1{
+                font-size:4rem;
+                font-weight:600;
+            }
+           h2{
+               font-size:3.2rem;
+            }
+            h3{
+                font-size:4.1rem; 
+              }
+            p{
+            &.quotes{
+                font-size:1.9rem;
+                color:$color-secondary;
+                font-weight:400;
+                @include fieldwork-hum-font-stack();
+                &:before ,&:after {
+                    font-family: Georgia, sans-serif;
+                    content: "\201c";
+                    color:$heading-color-secondary;
+                    font-size: 3em;
+                    line-height: 0em;
+                    margin-right: 0.2rem;
+                    vertical-align: -0.45em;
+                    display: inline;
+                }
+                &:after {
+                    content: "\201D";
+                    line-height: 0.1em;
+                    margin-right: 0.8rem;
+                    vertical-align: -0.599em;
+                }
+            }
+        }
+        @include respond-to(desktop){
+            h2{
+                width: 180px;
+                margin: 180px auto;
+            }
+            .content-wrap{
+                padding:3rem;
+            }
+            }
+        }
+    }
+ }
+}
+
+.component{
+    &.rich-text{
+        h3{
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+    }
+}

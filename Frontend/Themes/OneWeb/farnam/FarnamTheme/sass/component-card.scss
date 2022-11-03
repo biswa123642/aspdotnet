@@ -1,0 +1,235 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+
+
+.component {
+
+    /*===========================================
+        product card
+    =============================================*/
+    .related-products,
+    &.product-details,
+    &.variant-1,
+    #product-type,
+    #article-type,
+    #others-type,
+    .product-result-tiles {
+
+        .product-card,
+        .cgp-product {
+            .body-copy {
+                font-size: 1.6rem;
+                line-height: 2;
+                @include Helvetica-font-stack();
+                font-weight: 300;
+                color: $product-card-description-color;
+                padding-bottom: 1.5rem;
+
+                h3 {
+                    @include Kadwa-font-stack();
+                    color: $product-card-title-color;
+                    font-size: 1.6rem;
+                    line-height: 2.2;
+                    font-weight: bold;
+                    padding: 0;
+                    margin: 20px 0 10px 0;
+                    border-bottom: 2px solid $light-orange;
+
+
+                    a {
+                        color: inherit;
+                    }
+
+                    &:hover {
+                        color: $link-color-hover;
+
+                        a {
+                            color: inherit;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+
+        .result-count {
+            @include Helvetica-font-stack();
+            font-size: 1.6rem;
+            font-weight: 300;
+            font-style: italic;
+            color: #0F273F;
+        }
+    }
+
+    /*===========================================
+        product card on listing page
+    =============================================*/
+    &.product-listing {
+
+        #product-type,
+        #article-type,
+        #others-type,
+        .product-result-tiles {
+
+            .product-card,
+            .cgp-product {
+
+
+                .body-copy {
+
+                    h3 {
+                        color: $product-card-title-color;
+
+                        &:hover {
+                            color: $product-card-title-color;
+                            text-decoration: underline;
+
+                            a {
+                                color: inherit;
+                                text-decoration: inherit;
+                            }
+                        }
+
+
+
+                    }
+
+                }
+            }
+        }
+    }
+
+    /*===========================================
+        product card on artical listing page
+    =============================================*/
+    &.article-listing {
+
+        #product-type,
+        #article-type,
+        #others-type,
+        .product-result-tiles {
+            .product-card,
+            .cgp-product {
+                .body-copy {
+
+                    h3 {
+                        color: $product-card-title-color;
+                        &:hover {
+                            color: $product-card-title-color;
+
+                            a {
+                                color: inherit;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .card-body {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+    }
+
+    /*=======================================
+        Related Articles component
+=========================================*/
+    &.related-articles-horizontal-view {
+        .body-copy {
+            padding: 9px;
+            text-align: left;
+
+            h3 {
+                font-size: 2rem;
+                @include Kadwa-font-stack();
+                line-height: 1.5;
+                font-weight: 700;
+                margin-bottom: 1.6rem;
+                margin-top: 2rem;
+
+                a {
+                    text-decoration: none;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    /*===========================================
+        Search Result Product Card
+    =============================================*/
+}
+
+.component {
+    &.article-listing {
+        #article-type {
+            ul.product-list li {
+                &.full-width {
+                    .body-copy {
+                        h3 {
+                            border-bottom: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+} 
+
+@include respond-to(tab) {
+    .component {
+        &.product-listing,
+        &.global-search-listing,
+        &.article-listing {
+
+                #product-type,
+                #article-type,
+                #others-type,
+                .product-result-tiles {
+                    ul.product-list li {
+                        &.full-width {
+                            -ms-flex: 0 0 100%;
+                            flex: 0 0 100%;
+                            max-width: 100%;
+
+                            .cgp-product {
+                                display: flex;
+                                width: 100%;
+                                align-items: center;
+                                padding-bottom: 2.8rem;
+                            }
+
+                            .image-holder {
+                                width: 100%;
+                                padding-right: 22px;
+                                max-width: 214px;
+                            }
+                            .body-copy {
+                                @include Helvetica-font-stack();
+                                font-size: 1.8rem;
+                                line-height: 1.5;
+                                font-weight: 300;
+                                color: #0F273F;
+        
+                                h3 {
+                                    border-bottom: none;
+                                    padding: 0;
+                                    line-height: 1;
+                                    font-size: 1.8rem;
+                                }
+                            }
+                        }
+                    }
+
+                  
+
+                }
+        }
+
+    }
+}

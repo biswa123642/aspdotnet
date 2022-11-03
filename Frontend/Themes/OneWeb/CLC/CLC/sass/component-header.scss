@@ -1,0 +1,65 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.header-shell {
+  &.variant-3 {
+    .header-global-menu {
+      ul {
+        &.items {
+          li {
+            &.item {
+              padding: 32px 0vw 32px 0vw;
+
+              a {
+                @include fieldwork-hum-font-stack();
+                font-size: 2.6rem;
+                font-weight: normal;
+                text-decoration: underline;
+                color: $anchor-hover;
+                text-transform: initial;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .container {
+      max-width: 100% !important; // to override header
+
+      > .row {
+        > div {
+          @include respond-to(desktop) {
+            &:nth-child(1) {
+              display: none;
+            }
+
+            &:nth-child(2) {
+              flex: 0 0 100%;
+              max-width: 100%;
+            }
+          }
+        }
+      }
+    }
+
+    position: relative;
+    margin: 0px;
+
+    .image {
+      max-width: 150px;
+    }
+
+    .component {
+      &.plain-html {
+        .hamburger {
+          z-index: 2;
+          margin: 1rem;
+          left: 0%;
+          right: initial;
+          top: -80px;
+        }
+      }
+    }
+  }
+}

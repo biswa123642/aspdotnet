@@ -1,0 +1,31 @@
+﻿---
+ID: "b8950980-dd61-4530-bc19-0a11c8acf088"
+Parent: "54d6fc8d-a828-4540-84dc-b293453dbdcf"
+Template: "9ce871ef-0a1e-497d-ba48-6245acd12eb1"
+Path: "/sitecore/content/OneWeb/GardenTech/Home/privacy-policy"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 950
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "22753447-be25-4035-a3c9-7f875afe8e57"
+      Hint: RedirectUrl
+      Value: |
+        <link linktype="external" url="https://www.central.com/central-privacy-policy" anchor="" target="_blank" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220609T112745Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "72ba9439-fd48-48ae-b82d-3d671e21541e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220721T081122Z

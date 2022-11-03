@@ -1,0 +1,125 @@
+﻿---
+ID: "e91229bb-1392-4a1a-a708-46fb19aed7bd"
+Parent: "80b110ae-39a2-4474-bd5d-e825fd6df1ab"
+Template: "7bdf7d45-c98f-4e4d-ac3a-ad8035780bbe"
+Path: "/sitecore/content/OneWeb/EarthJuice/Home/nutrient-systems"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/32x32/text.png
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{4EFE2E3B-DE1F-41C8-9C4D-A39048F17620}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{404D09F6-A6FD-4CED-B11E-0659C1A8DC1C}"
+          p:before="*"
+          s:ds="page:"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B5F12D974-6981-49E1-A1B4-13ECC5F914A7%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{7538A439-53AF-43B1-87AE-FF6D1450A051}"
+          p:after="r[@uid='{404D09F6-A6FD-4CED-B11E-0659C1A8DC1C}']"
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BCD668FC6-3540-465C-BD4D-8AC7ADA17355%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/container-1" />
+        <r
+          uid="{193124B4-94CC-46AB-B139-D26701000C72}"
+          p:after="r[@uid='{7538A439-53AF-43B1-87AE-FF6D1450A051}']"
+          s:ds=""
+          s:id="{86FBA02B-2E9C-4A00-9CCF-DE607B1FCDC7}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass&amp;HideImage&amp;FieldNames=%7B5E95079F-9128-444C-A23F-2AC9AE8C60F8%7D&amp;Styles=%7B29998DB5-6C20-4078-A13F-A2B7E9792059%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/container-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{155DD814-D451-44C0-B90F-0E1E03467BFE}"
+          p:after="*[1=2]"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7B08F9C786-BCB6-4AD0-917A-7CCF1573D688%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "055a2c41-4d44-4441-b589-b86f39cc64e5"
+      Hint: HeroBannerContent
+      Value: |
+        <p>Earth Juice offers a diverse selection of premium fertilizer
+        products to meet the nutritional demands of all plants</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220617T061541Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{696B47AB-F6D2-46F5-81AC-184BB56F2B24}" ></image>
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "nutrient-systems"
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: <p>The Earth Juice Plant Nutrient System’s purpose is to help the gardener simplify Earth Juice choices by combining the various Earth Juice liquids and dry fertilizers that are designed to function together. By selecting a system and referring to the appropriate feeding chart, you can build a complete and harmonized plant food maintenance program, one that is a custom fit for your specific gardening environment and plant requirements.</p>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: The Earth Juice Plant Nutrient System’s purpose is to help the gardener simplify Earth Juice choices by combining the various Earth Juice liquids and dry fertilizers that are designed to function together.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Earth Juice Nutrient Systems | Hydro-Organics"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: PLANT NUTRIENT SYSTEMS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e882a966-3ac9-46e7-a109-1339c5580947"
+    - ID: "a6772724-fc83-4e63-a2f6-a893b8329b9e"
+      Hint: HeroBannerAlignment
+      Value: "Left-Align"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c0dea859-79fd-453e-99da-f5b81bfa44da"
+      Hint: MobileBackgroundColor
+      Value: #005796
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: |
+        <h1>NUTRIENTS YOU
+        CAN DEPEND ON</h1>
+    - ID: "d09bc090-2bb2-462b-8f8d-ccde0f555fd3"
+      Hint: OverlayColorOpacity
+      Value: 00
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{4CB9CB3E-8755-474D-8E2A-6E0FB96DF2B5}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220712T102306Z
+    - ID: "f1115acb-7ba4-48e9-8262-cb95f1f52313"
+      Hint: OverlayColor
+      Value: #005796
+    - ID: "fb742e87-7bf7-4c72-97a9-987a40989ece"
+      Hint: RelatedArticles
+      Value: |
+        {DFB75BB5-61AB-4035-BF8A-4A411E42C0A9}
+        {31D7013E-EB80-4275-BF60-1C8F3D6A223C}
+        {5C57EF69-4C53-4533-A0A0-F9D7C3C55AE9}
+        {BD1C3B6A-0096-4D8E-A82C-445D182C6E69}

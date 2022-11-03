@@ -1,0 +1,163 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.gray-bg {
+  background-color: $grey-bg;
+}
+
+body {
+  @include source-code-pro-mono();
+  color: $text-color;
+  font-size: 1.92rem;
+  -webkit-font-smoothing: auto;
+}
+
+a {
+  color: $anchor;
+  text-decoration: none;
+
+  &:hover {
+    color: $anchor-hover;
+    text-decoration: underline;
+  }
+}
+
+.content {
+  a {
+    color: $anchor;
+
+    &:hover {
+      color: $anchor-hover;
+      text-decoration: underline;
+    }
+  }
+}
+
+.sxa-btn {
+  a {
+    background-color: $white;
+    margin-top: 13%;
+    display: block;
+    background-image: url(../images/link_fish.png);
+    background-repeat: no-repeat;
+    background-position: 84% 40%;
+
+    font-size: 1.6rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    background-size: 17px;
+    padding-right: 24px;
+    word-spacing: 2px;
+    max-width: 300px;
+    border: none;
+    min-width: 250px;
+    font-weight: 600;
+
+    &:hover {
+      color: $bg-blue-active;
+      background-color: $white;
+      text-decoration: none;
+      background-image: url(../images/link_fish.png);
+    }
+  }
+}
+
+.content {
+  p {
+    // font-size: 2rem;
+    // @include itc-geovanni-font-stack();
+    // color: $small-heading-black;
+    margin: 0 0 10px;
+  }
+}
+
+p {
+  // font-size: 2rem;
+  // @include itc-geovanni-font-stack();
+  // color: $small-heading-black;
+  margin: 0 0 10px;
+}
+
+.score-document-header h1, h1{
+  font-weight: bold;
+  font-size: 3.9rem;
+  color:$blue-heading;
+  @include respond-to(desktop) {
+    font-size: 4.2rem;
+  }
+}
+.score-document-header h1, h1{
+  font-size: 1.7rem;
+  @include respond-to(desktop) {
+    font-size: 2.1rem;
+  }
+}
+.panel-heading a{
+  font-size: 1.3rem;
+  color:$blue-heading;
+}
+
+
+.image-hover-opacity {
+  img {
+    &:hover {
+      opacity: 0.3;
+      cursor: pointer;
+    }
+  }
+}
+
+.slick-dots {
+  li {
+    background-color: $bg-blue-light;
+    border-color: $bg-blue-light;
+
+    &.slick-active {
+      background-color: $flip-rollover;
+      border-color: $flip-rollover;
+    }
+  }
+}
+
+.fa-phone {
+  &:hover {
+    border-bottom: none !important;
+    cursor: auto;
+  }
+}
+
+@include respond-to(mobile) {
+  .full-with-bg-container {
+    &.indent-bottom-xl>.component-content {
+      padding-bottom: 0rem;
+    }
+  }
+}
+
+.meta-component-wrapper {
+  position: fixed;
+  bottom: -100%;
+}
+
+.sxa-btn{
+ &.sxa-btn-primary{
+  a{
+    @include arial-sans();
+    background-color: $orange-heading;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border: none;
+    position: relative;
+    padding: 15px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: $white;
+    max-width: 70%;
+    margin: auto;
+  }
+ }
+}

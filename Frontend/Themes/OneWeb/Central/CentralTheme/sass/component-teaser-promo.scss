@@ -1,0 +1,12 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+    &.teaser-promo {
+        @import "variants/component-teaser-promo/variant-1.scss";
+        @import "variants/component-teaser-promo/variant-2.scss";
+        @import "variants/component-teaser-promo/variant-3.scss";
+        @import "variants/component-teaser-promo/variant-5.scss";
+    }
+}

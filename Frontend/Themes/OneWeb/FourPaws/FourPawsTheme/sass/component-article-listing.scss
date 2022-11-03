@@ -1,0 +1,137 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "base/fontawesome/font-awesome-mix-var";
+
+.component {
+  &.hero {
+    &.banner-adjustable-height {
+      .component-content{
+        p{
+          font-size: 2.1rem
+        }
+        h1{
+          margin: 5rem;
+        
+        }
+      }
+      &.text-color-blue {
+        p {
+          @include montserrat-font-stack();
+          color: #5886a7;
+          font-weight: 500;
+          font-size: 1.4rem;
+        }
+      }
+      &#product-category-listing {
+        .component-content {
+          max-width: 100%;
+          width: 1140px;
+          margin: auto;
+          padding: 3rem 1.5rem;
+        }
+      }
+
+      &.light-blue {
+        background-color: #1599e8;
+
+        .component-content {
+          h1,
+          h2 {
+            color: $white;
+            font-size: 3rem;
+          }
+
+          p {
+            font-size: 2.1rem;
+          }
+        }
+      }
+
+      &.pink {
+        background-color: $pink-heading-color;
+        .component-content {
+          padding: 0px 25px 20px 25px !important;
+          h1,
+          h2 {
+            color: $text-heading-blue;
+            margin-top: 20px;
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            line-height: 1.1;
+            @include respond-to(desktop) {
+              font-size: 3rem;
+              line-height: 1.7;
+            }
+          }
+
+          p {
+            color: $text-heading-blue;
+            font-weight: 500;
+            font-size: 1.68rem;
+            line-height: 1.4;
+            padding: 0px;
+            @include respond-to(desktop) {
+              font-size: 2.1rem;
+            }
+          }
+        }
+      }
+
+      min-height: 10rem;
+      margin-bottom: 5rem;
+      @include respond-to(all-mobile) {
+        margin-bottom: 3rem;
+      }
+
+      .banner-wrapper {
+        .custom-text-banner-align {
+          &.banner-content-wrapper {
+            transform: translate(25%, -75%);
+            left: 0;
+          }
+        }
+
+        .banner-content-wrapper {
+          .hero-banner-description {
+            p {
+              font-weight: 500;
+              font-style: normal;
+              color: $text-small-heading-color;
+              font-size: 1.3rem;
+              text-align: center;
+              line-height: 1.6;
+            }
+          }
+        }
+      }
+
+      .component-header-rte {
+        p {
+          font-size: 2.1rem;
+        }
+      }
+    }
+  }
+}
+
+.component {
+  &.article-listing {
+    #article-type {
+      .custom-listing-wrapper {
+        .product-list {
+          .cgp-product {
+            h3 {
+              line-height: 22px;
+              padding: 1rem 0rem;
+
+              a {
+                font-size: 2rem;
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

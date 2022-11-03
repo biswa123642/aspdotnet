@@ -1,0 +1,294 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+@import "base/fonts/fonts";
+
+body {
+    @include Helvetica-font-stack();
+    font-size: 1.8rem;
+    line-height: 1.4;
+    color: $text-basic;
+}
+#content {
+    > .row {
+        display: block;
+    }
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+.content a,
+.rich-text a,
+a {
+    color: $secondary-color;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover {
+        color: $link-color-hover;
+        text-decoration: underline;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @include Lato-font-stack();
+    color: $heading-primary-color;
+    line-height: 1.1;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    small {
+        font-size: 65%;
+        font-weight: normal;
+        line-height: 1;
+        color: #777;
+    }
+}
+
+h1 {
+    color: $heading-primary-color;
+    font-size: 3.6rem;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+h5 {
+    font-size: 1.4rem;
+}
+
+h6 {
+    font-size: 1.2rem;
+}
+
+p {
+    margin-bottom: 0 0 0 1rem;
+}
+
+.component {
+    &.content,
+    &.rich-text {
+        @include Helvetica-font-stack();
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+        font-weight: 500;
+        color: $text-basic;
+        small {
+            font-size: 1.4rem;
+        }
+        table {
+            td,
+            th,
+            tr {
+                vertical-align: top;
+            }
+        }
+        p {
+            margin: 0 0 10px;
+        }
+        b,
+        strong {
+            font-weight: 700;
+        }
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+           // @include Lato-font-stack();
+            font-family: "Arial", "Helvetica", sans-serif;      
+            color: $heading-primary-color;
+            line-height: 1.2;
+            font-weight: 500;
+            margin-top: 0;
+            margin-bottom: 1rem;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            small {
+                font-size: 65%;
+                font-weight: normal;
+                line-height: 1;
+                color: #777;
+            }
+            strong{
+                font-weight: 700;
+            }
+        }
+
+        h1 {        
+            font-size: 3.6rem;           
+        }
+
+        h2 {           
+            font-size: 3rem;         
+        }
+
+        h3 {
+            font-size: 2.4rem;
+                
+        }
+
+        h4 {
+            font-size: 1.8rem;
+        }
+        h5 {
+            font-size: 1.4rem;
+        }
+        &.heading-bold {
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-weight: 900;
+            }
+        }
+        &.heading-light {
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-weight: 500;
+            }
+        }
+    }
+    &.rich-text-content {
+        h1 {
+            font-size: 3.6rem;
+            font-weight: 900;
+            @include Lato-font-stack();
+            color: $text-basic;
+        }
+    }
+    &.content-large {
+        font-size: 3.6rem;
+        line-height: 1.5;
+    }
+    &.content-medium {
+        font-size: 2.4rem;
+    }
+    &.content-small {
+        font-size: 2rem;
+        line-height: 1.4;
+    }
+    &.content-extra-small {
+        font-size: 1.3rem;
+    }
+    &.colored-heading {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: $secondary-color;
+        }
+    }
+}
+body.on-page-editor.bg-color-black,
+.bg-color-black {
+    background-color: #000 !important;
+}
+.orange-bg {
+    background-image: url(../images/site-bg/red-black-border.jpg);
+    background-color: #ff4222 !important;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-size: auto;
+    background-repeat: repeat-x;
+    background-position: bottom;
+
+    .content,
+    .rich-text {
+        font-size: 26px;
+        line-height: 1.42857143;
+        font-weight: bold;
+        font-family: "Lato", sans-serif;
+        text-decoration: none;
+        span {
+            color: #b1bf2d !important;
+            display: inline-block;
+        }
+    }
+}
+.light-gray-bg * {
+    color: $text-basic !important;
+    .content,
+    .rich-text {
+        a {
+            color: $secondary-color !important;
+
+            &:hover {
+                color: $link-color-hover !important;
+            }
+        }
+        .sxa-btn {
+            a {
+                color: #fff !important;
+            }
+        }
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            small {
+                font-size: 65% !important;
+                font-weight: normal;
+                line-height: 1;
+                color: #777 !important;
+            }
+        }
+    }
+}
+
+.indent-top-large {
+    padding-top: 5rem;
+    padding-bottom: 0;
+}
+.indent-top-xl {
+    padding-top: 6rem;
+    padding-bottom: 0;
+}
+
+.indent-top {
+    padding-top: 3rem;
+}
+.indent-top-sm {
+    padding-top: 4rem;
+}
+
+.indent-bottom {
+    padding-bottom: 3rem;
+}
+.indent-bottom-large {
+    padding-bottom: 5rem;
+}
+.indent-bottom-xl {
+    padding-bottom: 6rem;
+}
+.indent-bottom-sm {
+    padding-bottom: 4rem;
+}

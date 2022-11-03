@@ -1,0 +1,48 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+.rodent-control-strategy {
+  .component {
+    &.accordion {
+      margin-bottom: 2rem;
+      ul.items {
+        padding: 0 2rem;
+        li.item {
+          padding: 1rem;
+          margin-bottom: 1.5rem;
+          .toggle-header {
+            .component {
+              .field-heading {
+                &::before,
+                &::after {
+                  height: 1.5rem !important;
+                  right: 1rem;
+                }
+                .rodent-accord-title {
+                  color: $red-text;
+                  font-family: "john-doe";
+                  font-size: 3.33rem;
+                  font-weight: bold;
+                  text-decoration: none;
+                  margin: 0;
+                  display: inline-block;
+                  width: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+      @include respond-to(desktop) {
+        margin-bottom: -2rem;
+        ul.items {
+          padding: 0 5rem 8rem;
+        }
+      }
+      @include respond-to(extra-largedesktop) {
+        ul.items {
+          padding: 0 8rem 8rem;
+        }
+      }
+    }
+  }
+}

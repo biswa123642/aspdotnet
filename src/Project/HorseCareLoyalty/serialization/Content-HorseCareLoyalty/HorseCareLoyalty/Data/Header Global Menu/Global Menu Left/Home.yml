@@ -1,0 +1,41 @@
+﻿---
+ID: "f8700797-fee7-42a7-8196-d15d4379dfcf"
+Parent: "f2c9af73-ab9d-4d67-b27e-281f47c1f098"
+Template: "e229ce6c-561d-41d9-b521-efbf47d00b6c"
+Path: /sitecore/content/OneWeb/HorseCareLoyalty/Data/Header Global Menu/Global Menu Left/Home
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F75C8541-EAE2-45C8-873D-ABE4A09CCD3A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220822T114741Z
+    - ID: "2d366fb9-cb2f-48ab-bafa-c29c581934c5"
+      Hint: Link
+      Value: |
+        <link text="Home" linktype="external" url="/##home" anchor="" target="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f9e1e58c-0d30-4645-8c23-23050bf23bf5"
+    - ID: "b6784c02-1bfd-4ff8-951e-8fef2cdf0739"
+      Hint: HasSubMenu
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "bbab91a3-9b68-4e29-a614-51c8ecf24be6"
+      Hint: ViewAllProductsLink
+      Value: |
+        <link linktype="external" url="" anchor="" target="" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220824T104858Z

@@ -1,0 +1,40 @@
+// bordered
+&.variant-1 {
+    .item {
+        border-bottom: 1px solid $accordion-border;
+        &:last-child {
+            border-bottom: none;
+        }
+        &.active {
+            .toggle-header {
+                .field-heading {
+                    &::before {
+                        transform: translateY(0.2rem) translateX(0.75rem) rotate(90deg);
+                    }
+                }
+            }
+        }
+    }
+    .toggle-header {
+        .component { 
+            .field-heading {
+                &:before {
+                    @include fa-icon();
+                    display: block;
+                    right:auto;
+                    content: $fa-var-angle-right;
+                    opacity: .8;
+                    position: absolute;
+                    top: 0.2rem;
+                    left: 1.5rem;
+                    font-size:1.5em;
+                    // right:auto;
+                    // transform: translateY(-50%);
+                }
+                &:after{ 
+                    display: none;
+                }
+            }
+        }
+    }
+}

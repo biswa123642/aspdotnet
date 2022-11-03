@@ -1,0 +1,32 @@
+{
+	"namespace": "Project.ComfortZone",
+	"references": [ "Feature.*" ],
+	"items": {
+		"includes": [
+			{
+				"name": "Content-ComfortZone",
+				"path": "/sitecore/content/OneWeb/ComfortZone",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			{
+				"name": "MediaLibrary-ComfortZone",
+				"path": "/sitecore/media library/Project/OneWeb/ComfortZone",
+				"scope": "singleItem",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			{
+				"name": "MediaLibrary-ComfortZone-Themes",
+				"path": "/sitecore/media library/Themes/OneWeb/ComfortZone",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			{
+				"name": "Forms-ComfortZone",
+				"path": "/sitecore/Forms/OneWeb/ComfortZone",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			}
+		]
+	}
+}

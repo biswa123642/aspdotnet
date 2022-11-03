@@ -1,0 +1,74 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.product-tab-accordion:not(.product-tab) {
+        .tabs-accordion {
+            .card {
+                overflow: auto;
+                @include index;
+                position: relative;
+                border-bottom: 2px solid $white;
+                border-bottom-left-radius: 8px;
+                border-bottom-right-radius: 8px;
+                
+
+                .card-header {
+                    padding: 0;
+                    border-bottom: none;
+                    background-color: $green;
+                    h2 {
+
+                        button {                            
+                            color: $white;
+                            font-size: 1.6rem;
+                            font-weight: 500;
+                            font-family: inherit;
+                            padding: 2.65rem;
+                            line-height: 22px;
+
+                            &::before,
+                            &::after {
+                                background-color: $white;
+                                height: 2px;
+                            }
+
+                            &[aria-expanded="true"] {
+                                color: $primary-color;
+                                background-color: $white;
+                                border: 2px $green solid;
+                                border-bottom: none;
+                                border-top-left-radius: 8px;
+                                border-top-right-radius: 8px;
+
+                                &::before,
+                                &::after {
+                                    background-color: $primary-color;
+                                }
+                            }
+                        }
+
+                    }
+                }
+
+                &:first-child {
+                    border-top-left-radius: 8px;
+                    border-top-right-radius: 8px
+                }
+                &:last-child{
+                    border-color: $green;
+                }
+                
+
+                .collapse {
+                    background-color: $white;
+                    padding-top: 0;
+                    border: 2px $green solid;
+                    border-top: none;
+                    border-bottom: none;
+                    
+                }
+            }
+        }
+    }
+}

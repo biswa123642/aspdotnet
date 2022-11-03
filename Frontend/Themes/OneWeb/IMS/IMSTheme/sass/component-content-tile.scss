@@ -1,0 +1,50 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.content-tile {
+    .component-content {
+      .text-multibg-overlay {
+        .tile-wrap {
+          .text-wrap {
+            right: 4%;
+            opacity: 0.9;
+            h2 {
+              font-size: 2.7rem;
+              font-weight: 800;
+              text-transform: uppercase;
+
+              @include respond-to(desktop) {
+                text-transform: none;
+                font-size: 4.48rem;
+              }
+            }
+            p {
+              font-size: 2.16rem;
+              @include respond-to(desktop) {
+                font-size: 1.92rem;
+              }
+              a {
+                &:hover {
+                  color: $hover_link;
+                }
+              }
+            }
+          }
+          .image-wrap {
+            margin: 1rem -2rem;
+
+            @include respond-to(tablet) {
+              margin: 1rem -2.4rem;
+            }
+
+            @include respond-to(desktop) {
+              margin: 3rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

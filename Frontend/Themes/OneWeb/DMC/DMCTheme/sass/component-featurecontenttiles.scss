@@ -1,0 +1,14 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  &.feature-content-tiles{
+    &.category-list{
+        .promo-tile{
+            .field-data{
+                display: none;
+            }
+        }
+    }
+  }
+}

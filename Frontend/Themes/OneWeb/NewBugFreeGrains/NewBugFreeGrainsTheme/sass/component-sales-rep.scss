@@ -1,0 +1,180 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+
+.component {
+
+    &.salesmap {
+        padding: 3rem 1.5rem;
+        text-align: center;
+
+        .representative-results-wrapper {
+            text-align: center;
+            padding: 1.5rem;
+
+            img {
+                display: none;
+            }
+            h1 {
+                margin: 2.2rem 0 3rem 0;
+                @include Molengo--font-stack();
+                font-size: 2.8rem;
+                font-weight: bold;
+            }
+            h3 {
+                @include Molengo--font-stack();
+                font-size: 2.1rem;
+                font-weight: bold;
+            }
+            p{
+                @include Arial-font-stack();
+                a{
+                    font-weight: 700;
+                }
+            }
+        }
+
+        @include respond-to(below-tab) {
+            #vmap {
+                display: none;
+            }
+
+            select {
+                display: block;
+                width: 100%;
+                height: 36px;
+                padding: 6px 12px;
+                font-size: 16px;
+                line-height: 1.42857143;
+                color: #555555;
+                background-color: $white-color;
+                background-image: none;
+                border: 1px solid #cccccc;
+                border-radius: 4px;
+                box-shadow: inset 0 1px 1px #00000014;
+                transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+            }
+        }
+
+        @include respond-to(desktop) {
+            select {
+                display: none;
+            }
+
+            .vmap-wrapper {
+                display: inline-block;
+                text-align: center;
+                width: 66.66%;
+
+                #vmap {
+                    margin: auto;
+                }
+            }
+            .representative-content-wrapper{
+                margin: auto;
+                text-align: center;
+            }
+            .representative-results-wrapper {                
+                img {
+                   display: none;
+                }
+
+                h1 {
+                    margin: 2.2rem 0 3rem 0;
+                    @include Molengo--font-stack();
+                    font-size: 2.8rem;
+                    font-weight: bold;
+                }
+                h3 {
+                    @include Molengo--font-stack();
+                    font-size: 2.1rem;
+                    font-weight: bold;
+                }
+                p{
+                    @include Arial-font-stack();
+                    a{
+                        font-weight: 700;
+                    }
+                }
+            }
+
+            svg {
+                width: 100% !important;
+            }
+
+            .representative-results-wrapper {
+                text-align: center;
+            }
+
+            path {
+
+                &:hover {
+                    fill: #aaa;
+                }
+
+                &:active {
+                    fill: $anchor-hover;
+                }
+            }
+
+            .selected {
+                fill: $anchor-hover;
+            }
+
+            #info-box {
+                display: none;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                z-index: 1;
+                background-color: $black-color;
+                color: $white-color;
+                border-radius: .5px;
+                padding: .5rem;
+
+            }
+        }
+    }
+}
+
+.sr-map {
+    .component {
+        &.content {
+            h2 {
+                color: $primary-color;
+                margin: 2.2rem 0;
+                line-height: 1.1;
+            }
+        }
+    }
+
+    .zoecon-page-content {
+        padding-top: 3rem;
+    }
+
+    .representative-results-wrapper {
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        h3 {
+            font-size: 2.8rem;
+            font-weight: 500;
+            margin: 2.2rem 0;
+        }
+
+        a {
+            font-weight: bold;
+        }
+
+    }
+
+    h1 {
+        line-height: 1.1;
+    }
+
+    sup {
+        font-size: 75%;
+    }
+
+}

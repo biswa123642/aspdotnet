@@ -1,0 +1,23 @@
+@import "abstracts/mixins";
+
+.modal {
+    .modal-dialog {
+        left: 1%;
+        top: 30%;
+        @include respond-to(desktop) {
+          left: 30%;
+          top: 30%;
+        }
+      }
+    &.show{
+        .modal-dialog {
+            left: 1%;
+            top: 30%;
+            @include respond-to(desktop) {
+              left: 30%;
+              top: 30%;
+            }
+          }
+    }
+
+}

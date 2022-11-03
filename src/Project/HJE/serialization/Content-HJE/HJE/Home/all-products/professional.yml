@@ -1,0 +1,121 @@
+﻿---
+ID: "a23962f9-a8e5-44de-829d-c93f52bbfca3"
+Parent: "95730922-1564-4507-b64a-4cc70269cceb"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/HJE/Home/all-products/professional"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: 
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{48EADD7E-6B00-48EE-A71B-61F24F9A0ADB}"
+          p:before="*"
+          s:ds=""
+          s:id="{0346C989-2CC7-4346-8920-F5F99F243EDB}"
+          s:par="ArticleCategoryView&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B82E6FE1B-7789-4EF4-8A72-A62474A6F4AC%7D&amp;Styles=%7BD885407B-64D6-4261-9101-56DD3266413E%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-3-1/container-5"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{F8EDF656-5BDC-48E2-BBFB-6BF858896521}"
+          p:after="r[@uid='{48EADD7E-6B00-48EE-A71B-61F24F9A0ADB}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-3-1" />
+        <r
+          uid="{2FC9288F-E302-4199-8E66-89D3AFB30D2B}"
+          p:after="r[@uid='{F8EDF656-5BDC-48E2-BBFB-6BF858896521}']"
+          s:ds="page:"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B4DA37A2A-DE74-4E24-ACC5-E1F1C930DB1B%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-2-1/container-3"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{8A64CA8F-4CF5-41E4-8F26-43C8394AD29B}"
+          p:after="r[@uid='{2FC9288F-E302-4199-8E66-89D3AFB30D2B}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{65BF2E29-4847-4EDE-B26F-778A4CA29142}"
+          p:after="r[@uid='{8A64CA8F-4CF5-41E4-8F26-43C8394AD29B}']"
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%2F&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B1D790729-2C96-41CB-AB54-EFCE42474F1E%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{D5FD152F-3F49-46DF-B49B-C1907894BCFE}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "055a2c41-4d44-4441-b589-b86f39cc64e5"
+      Hint: HeroBannerContent
+      Value: 
+    - ID: "0f23895f-2926-493e-8ff0-0d2e0f0b749d"
+      Hint: Overlay
+      Value: 1
+    - ID: "237274d5-0911-4d4e-a9eb-48c2a8483ca1"
+      Hint: FeaturedChildList
+      Value: |
+        {ED0C0B5D-D53C-41EB-AB7C-5684156A1593}
+        {D65159D0-848A-4E36-B24E-9F250C55002E}
+        {D0584EFB-CA97-4ADA-9ED2-7D260C43723C}
+        {FB1E516D-65AE-4FFE-816F-20413BB91F97}
+        {2ED834A4-0997-4CDD-80A8-FFC08C5EB21A}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220915T105122Z
+    - ID: "2b413044-4890-48c9-a955-78565193a0b8"
+      Hint: HeroBannerDescription
+      Value: "Includes Professional Pre-Emergent, Post-Emergent, Golf Course/Turf/Ornamental, Insect Control, and Granular Fungicide products."
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{60910274-FBC1-4AEA-A307-1BD7F81E4325}" />
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "41b17cd3-d543-4c7c-9bfa-b21765882326"
+      Hint: HeroImageMobile
+      Value: |
+        <image mediaid="{60910274-FBC1-4AEA-A307-1BD7F81E4325}" />
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Professional
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Professional Products | HJE
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Professional Products | HJE
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5279d3a0-d2a6-409e-a24f-9e04b831e682"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: PROFESSIONAL
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221014T104836Z
+    - ID: "e829eba5-21e1-443d-929c-71b8d331f023"
+      Hint: HeroBannerCTA
+      Value: |
+        <link text="View Products" anchor="" linktype="internal" class="" title=""  querystring="" id="{A076424F-AE3F-45C4-A8E6-21B0F1B54750}" />

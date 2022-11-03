@@ -1,0 +1,107 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+#footer {
+  padding: 24px 16px;
+  color: $white-color;
+  background-color: #7d716d;
+  .component {
+    &content,
+    &.rich-text {
+      color: $white-color;
+      p {
+        font-size: 1.8rem;
+        margin: 0 0 1rem 0;
+      }
+    }
+    &.utility-navigation {
+      &.social-links {
+        .icon-container {
+          border: none;
+          justify-content: flex-start;
+          a {
+            &:hover {
+              text-decoration: none;
+            }
+          }
+          .fa {
+            padding: 13px 6px 22px 6px;
+          }
+        }
+      }
+    }
+    &.link {
+      &.sxa-btn{
+        a{
+          margin-bottom: 28px;
+          margin-left: -18px;
+          border-top-left-radius: 0px;
+          border-bottom-left-radius: 0px;
+        }
+      }
+    }
+    &.link-list {
+      margin-bottom: 23px;
+      ul {
+        li {
+          .field-link {
+            margin-bottom: 7px;
+            a {
+              font-size: 2.4rem;
+              text-transform: uppercase;
+              font-weight: 500;
+              border: none;
+              color: $white-color;
+              opacity: 1;
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+    }
+    &.file-type-icon-media-link {
+      img {
+        margin: 2px 0 13px 0;
+      }
+    }
+  }
+}
+
+@include respond-to(tab) {
+  #footer {    
+    .component {
+      &content,
+      &.rich-text {
+        text-align: right;
+      }
+      &.file-type-icon-media-link {
+        text-align: right;
+      }
+        
+    }
+  }
+}
+@include respond-to(desktop) {
+  #footer {
+    padding: 24px 50px;
+    .component {    
+     
+      &.link {
+        &.sxa-btn{
+          a{
+            margin-left: -52px;
+          }
+        }
+      }
+      &.utility-navigation {
+        &.social-links {
+          .icon-container {
+            justify-content: flex-end;
+          }
+        }
+      }
+    }
+  }
+}

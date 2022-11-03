@@ -1,0 +1,76 @@
+﻿---
+ID: "9a238832-13b0-4f2d-beb7-437aec2f3a83"
+Parent: "b65d98e1-da41-491f-978d-edf058370775"
+Template: "8455b301-b57b-43ad-a4f4-4e83ffb31905"
+Path: "/sitecore/content/OneWeb/GardenTech/Data/Solution Finder/Solution Finder/Solution/pt-ants-tree"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1700
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220705T071108Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2897f6da-78e2-47b7-81a9-a948b525a518"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "cbb746c0-f90e-4acc-8bee-98084234b389"
+      Hint: SolutionProducts
+      Value: |
+        {A251C4C9-C7E2-4DDA-81B6-90C75AAB4D00}
+        {BFD2768A-486D-47A0-A5AE-DC8E538965A5}
+        {E98D0A99-2E10-4C43-B9C2-D5C2B8A83728}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220705T082842Z
+    - ID: "ecff41e9-ad3e-4503-9b0c-0f5d2965c749"
+      Hint: RequiredAnswers
+      Value: |
+        {E47D01F0-7D79-442D-A84D-BA4ACF600ECB}
+        {09A81790-D40F-4526-B139-B0640BDE5761}
+        {19777AF3-7642-4478-AD56-83ED7E17FDDF}
+- Language: es
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220705T071108Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "80b58f3f-9eae-4be6-90f4-a42dfb1460c7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "cbb746c0-f90e-4acc-8bee-98084234b389"
+      Hint: SolutionProducts
+      Value: |
+        {A251C4C9-C7E2-4DDA-81B6-90C75AAB4D00}
+        {BFD2768A-486D-47A0-A5AE-DC8E538965A5}
+        {E98D0A99-2E10-4C43-B9C2-D5C2B8A83728}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220715T074627Z
+    - ID: "ecff41e9-ad3e-4503-9b0c-0f5d2965c749"
+      Hint: RequiredAnswers
+      Value: |
+        {E47D01F0-7D79-442D-A84D-BA4ACF600ECB}
+        {09A81790-D40F-4526-B139-B0640BDE5761}
+        {19777AF3-7642-4478-AD56-83ED7E17FDDF}

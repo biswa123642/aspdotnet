@@ -1,0 +1,40 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+#header {
+    .header-shell {
+        background: #000;        
+        min-height: 114px;
+        -webkit-box-shadow: 0 6px 21px 0 #0000004d;
+        box-shadow: 0 6px 21px 0 #0000004d;
+        padding-left: 0;
+        padding-right: 0;
+        &.variant-3{
+            position: relative;
+        }
+        .container:not(.col-12) {
+            max-width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .image{
+            padding-top: 17px;
+            text-align: center;
+            max-width: 100%;
+        }
+      
+      
+        
+    }
+}
+
+@include respond-to(desktop) {
+    #header {
+        .header-shell {
+            .image{               
+                text-align: left;
+            }
+        }
+    }
+}
+

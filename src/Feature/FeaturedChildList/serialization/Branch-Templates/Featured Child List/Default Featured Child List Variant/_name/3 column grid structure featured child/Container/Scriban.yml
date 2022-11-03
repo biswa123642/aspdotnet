@@ -1,0 +1,60 @@
+﻿---
+ID: "645fc8dc-bf2c-4021-a29b-0da842fa8f39"
+Parent: "89c55a2c-34e2-4bf6-a278-498f5b04f7c1"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/templates/Branches/Feature/OneWeb/Featured Child List/Default Featured Child List Variant/$name/3 column grid structure featured child/Container/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    {{ selectedChild = sc_followmany i_page "FeaturedChildList"}}
+    {{for child in selectedChild}}
+        <div class="section-container">
+            <div class="row">
+                <div class="col col-12  col-lg-4">
+                    <div class="promo-tile">
+                        <div class="field-image">
+                            {{sc_field child "DesktopImage"}}
+                        </div>
+    
+                        <div class="field-data">
+                            <h2 class="field-title">
+                                {{sc_field child "Title"}}
+                            </h2>
+                            <p class="field-subtext">
+                                <span class="background-color: #ffffff; color: #4a4a4c;">
+                                    {{sc_field child "Content"}}
+                                </span>
+                            </p>
+                            <div class="sxa-btn sxa-btn-primary">
+                                <a href="{{child.url}}">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {{end}}
+    
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220204T111321Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2d21acba-88ce-4af5-a81c-7ccd62139a1f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220427T194416Z

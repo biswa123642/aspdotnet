@@ -1,0 +1,37 @@
+@import "abstracts/mixins";
+@import "abstracts/vars";
+@import "base/fontawesome/font-awesome-mix-var.scss";
+
+.component {
+
+
+    .article-listing{
+
+        .body-copy{
+
+            h3{
+           
+                a{
+                    font-weight:500;
+                    font-size:3.4rem;
+                    text-transform: uppercase !important; // to overide default;
+                    @include Lilita-font-stack();
+                    &:hover{ 
+                        text-decoration: underline !important; // to overide default;
+                    }
+                     
+                }
+            }
+           .image-holder{
+            img{
+                object-fit: cover;
+            }
+           }
+            p{
+                color:$light-black;
+                font-size:1.6rem;
+                @include raleway-font-stack();
+            }
+        }
+    }
+}

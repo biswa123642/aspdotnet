@@ -1,0 +1,86 @@
+﻿---
+ID: "fb53a990-1cfc-46e2-bee5-88c5e692be31"
+Parent: "5a0e3d2c-de81-4859-8a66-ac2a7003b186"
+Template: "9874a4bd-a371-4049-85e6-0ed0ad713e54"
+Path: /sitecore/content/OneWeb/GardenTech/Data/Solution Finder/Solution Finder/Find A Product/Pest Location
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03b55013-fdf9-40f2-9e5b-88d26865df7b"
+      Hint: Image
+      Value: |
+        <image mediaid="{44E0E64E-221A-43E5-AF3F-4A912A82F814}" />
+    - ID: "096443cb-b8dd-4635-af3e-a4435f9612f1"
+      Hint: BreadcrumbTitle
+      Value: Pest Location
+    - ID: "0a9a0bf9-863c-4c36-8bc6-b576213cbad9"
+      Hint: Order
+      Value: 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220628T090526Z
+    - ID: "4d1593b6-8eac-4cd1-8383-16cbc881112e"
+      Hint: Title
+      Value: Pest Location
+    - ID: "51a7792c-e5b0-4f4e-b6ac-b1bbac2daa48"
+      Hint: NextQuestion
+      Value: "{4318992A-47A5-4844-9F7E-6FEA6D0F7DD5}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b383be8c-328d-432c-8614-6f5f565c12c4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d53f6957-984b-4af6-a3c6-696f1ef8ec04"
+      Hint: Value
+      Value: "pest-location"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220718T100433Z
+- Language: es
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03b55013-fdf9-40f2-9e5b-88d26865df7b"
+      Hint: Image
+      Value: |
+        <image mediaid="{44E0E64E-221A-43E5-AF3F-4A912A82F814}" alt="location" height="" width="" hspace="" vspace="" />
+    - ID: "096443cb-b8dd-4635-af3e-a4435f9612f1"
+      Hint: BreadcrumbTitle
+      Value: Identificación de plagas
+    - ID: "0a9a0bf9-863c-4c36-8bc6-b576213cbad9"
+      Hint: Order
+      Value: 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220628T090526Z
+    - ID: "4d1593b6-8eac-4cd1-8383-16cbc881112e"
+      Hint: Title
+      Value: Identificación de plagas
+    - ID: "51a7792c-e5b0-4f4e-b6ac-b1bbac2daa48"
+      Hint: NextQuestion
+      Value: "{4318992A-47A5-4844-9F7E-6FEA6D0F7DD5}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "843ed9a1-ef1c-46a3-9767-6d116661abd9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d53f6957-984b-4af6-a3c6-696f1ef8ec04"
+      Hint: Value
+      Value: "pest-location"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220718T103333Z

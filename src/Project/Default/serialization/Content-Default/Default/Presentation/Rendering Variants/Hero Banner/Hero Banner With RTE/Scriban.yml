@@ -1,0 +1,58 @@
+﻿---
+ID: "74792c4e-bb1e-4804-aeda-7a3a0323e4dc"
+Parent: "aa673467-6127-43d2-8781-4608a0d6ee1c"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Hero Banner/Hero Banner With RTE/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    {{if i_item.HeroBannerTitle.raw != ''}}
+    {{if i_item.HeroImageMobile != '' }}
+    			<div class="d-none d-md-block" style = "line-height:0">
+    				{{ sc_field i_item "HeroImageDesktop"}}
+    			</div>
+    			<div class="d-md-none" style = "line-height:0">
+    				{{ sc_field i_item "HeroImageMobile"}}
+    			</div>   
+    		{{else}}
+    			<div class="banner-image" style = "line-height:0">
+    				{{ sc_field i_item "HeroImageDesktop"}}
+    			</div>
+    {{end}}
+    <div  class="container">
+        {{ sc_field i_item "HeroBannerTitle"}}
+        {{ sc_field i_item "HeroBannerContent"}}
+    </div>
+    {{else}}
+    <div class="container">
+        {{ sc_field i_item "HeroBannerTitle"}}
+        {{ sc_field i_item "HeroBannerContent"}}
+    </div>
+    {{end}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220427T101154Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "362529e6-557d-4a38-873c-3f8afa5de49d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220714T104119Z

@@ -1,0 +1,53 @@
+@import "abstracts/mixins";
+@import "abstracts/vars";
+@import "base/fontawesome/font-awesome-mix-var.scss";
+
+.component {
+
+    &.product-documents-list {
+      margin-left:3rem;
+      padding:2rem 0;
+      
+
+        .short-product-list {
+            h3{
+            color:$light-black;
+            @include Lilita-font-stack();
+            font-weight:500;
+            }
+
+            .short-product-list-wrapper{
+                .product-item{
+                    text-align:left;
+                }
+               
+            }
+            .sxa-btn-primary{
+              border: 2px solid $light-black; 
+              border-radius: 3rem; 
+               
+                a{
+                    color:$light-black; 
+                    
+                    font-weight: 700; 
+                   
+                } 
+            }
+        
+        @include respond-to(desktop) {
+            .component-content{
+                margin-top:0px;
+                margin-bottom:0px;
+            }
+            .short-product-list-wrapper{
+                .product-item{
+                    text-align:center;
+                }
+               
+            }
+            
+               
+            }
+        }
+    }
+}

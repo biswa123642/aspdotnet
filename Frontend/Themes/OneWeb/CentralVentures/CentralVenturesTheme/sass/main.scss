@@ -1,0 +1,118 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @include fieldwork-hum-font-stack();
+  line-height: 1.428;
+  font-size: 1.6rem;
+  height: auto !important;
+  overflow-x: hidden;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  padding-top: 89.38px;
+
+  @include respond-to(desktop) {
+    padding-top: 98px;
+  }
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @include ff-ernestine-pro-font-stack();
+
+}
+
+div,
+p,
+a,
+span,
+li {
+  font-weight: 300;
+  @include fieldwork-hum-font-stack();
+  font-size: 2rem;
+  line-height: 1.2;
+  color: $text-basic;
+
+}
+
+h1,
+.content h1,
+.rich-text h1 {
+  font-size: 4.5rem;
+  color: $white;
+
+  @include respond-to(desktop) {
+    font-size: 8.2rem;
+  }
+}
+
+h2,
+.content h2,
+.rich-text h2 {
+  font-size: 4.48rem;
+  font-weight: 600;
+  color: $dark-green;
+  line-height: 49px;
+}
+
+.sxa-btn,
+.sxa-btn-primary,
+.sxa-btn.sxa-btn-primary {
+  a {
+    margin: 2rem 0px;
+    padding: 0px 23px 0px 0px;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
+    transition: all ease-in-out 300ms;
+    border: none;
+    background-size: 99% 100%;
+    height: 66px;
+    line-height: 66px;
+    min-width: 275px;
+    background-repeat: no-repeat;
+    background-image: url('../images/btn-bg.svg');
+    color: #006e43;
+    text-decoration: none;
+
+    &:hover {
+      color: $white;
+      background-image: url('../images/btn-hover.svg');
+    }
+  }
+}
+
+.dark-green-bg {
+  * {
+    color: $light-green  !important;
+    border-color: $light-green  !important;
+  }
+
+  .sxa-btn {
+    a {
+      &:hover {
+        color: $white  !important;
+      }
+    }
+  }
+}
+
+.light-green-bg {
+  .sxa-btn {
+    a {
+      &:hover {
+        color: $white  !important;
+      }
+    }
+  }
+}

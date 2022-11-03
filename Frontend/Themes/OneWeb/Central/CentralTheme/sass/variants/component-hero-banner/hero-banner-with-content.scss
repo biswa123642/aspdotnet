@@ -1,0 +1,127 @@
+&.banner-with-content {
+    .banner-image {
+        background-position: center top;
+        padding-top: 0;
+
+        &::before {
+            content: "";
+            width: 100%;
+            position: absolute;
+            height: 100%;
+            background-color: #000;
+            opacity: .3;
+        }
+    }
+
+    .inner-container {
+        position: static;
+        transform: translate(0, 0);
+    }
+
+    .banner-content-wrapper {
+        display: none;
+        padding: 5rem 1.5rem;
+        position: static;
+        transform: translate(0, 0);
+
+        .content-top {
+            text-align: left;
+
+            .hero-banner-title {
+                font-size: 7vw;
+                font-weight: 600;
+                @include ff-ernestine-pro-font-stack();
+                color: $color-primary;
+            }
+
+            .hero-banner-description {
+                font-weight: 400;
+                @include fieldwork-hum-font-stack();
+                font-size: 4vw;
+                color: $color-primary;
+                line-height: 1.3;
+            }
+
+            .banner-cta-holder {
+                display: block;
+
+                .sxa-btn {
+                    a {
+                        border-color: $white;
+                        color: $white;
+                    }
+                }
+            }
+
+        }
+
+        .content-bottom {
+            background-color: transparent;
+        }
+    }
+
+    @include respond-to(tab) {
+        .banner-content-wrapper {
+            max-width: 100%;
+        }
+    }
+
+    @include respond-to(desktop) {
+        .banner-image {
+            padding-top: 0;
+        }
+
+        .inner-container {
+            max-width: 100%;
+        }
+
+        .banner-content-wrapper {
+            display: block;
+            padding: 10rem 1.5rem 10rem 11%;
+
+            .content-top {
+                width: 50rem;
+
+                .hero-banner-title {
+                    font-size: 3vw;
+                }
+
+                .hero-banner-description {
+                    font-size: 1.3vw;
+                }
+
+            }
+
+        }
+
+    }
+
+    @media screen and (max-width:991px) {
+        .banner-image {
+            background-color: $white;
+            background-image: none !important;
+
+            .banner-mobile-image {
+                display: block !important;
+                img {
+                    width: 100%;
+                }
+            }
+
+            .inner-container {
+                position: absolute;
+                transform: translate(-50%, -50%);
+
+                .banner-content-wrapper {
+                    display: block;
+
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,98 @@
+@import "abstracts/mixins";
+@import "abstracts/vars";
+
+.component {
+  &.store-locator {
+    .store-locator-info {
+      .no-locations-found{
+        font-size: 1.4rem;
+      }
+      .zip-error{
+        color: $header-light-gray;
+      }
+      .search-store-form {
+        #zipcode {
+         border-radius: 0px;
+         border:1px solid $header-light-gray;
+         
+        }
+      }
+      #search-result-list {
+        padding: 0px 0 0 60px;
+        .store-marker,
+        h4 {
+          color: $border-dark;
+        }
+        .store-info {
+          p {
+            a {
+              color: $anchor;
+              &:hover{
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+      .search-store-form{
+        .btn-default{
+          border: 1px solid $bg-blue-active;
+          border-radius: 0px;
+        }
+      }
+    }
+    h3 {
+      font-weight: 600;
+      border-bottom: 4px solid $text-heading-blue;
+      color: $light-grey-heading;
+      font-size: 2.1rem;
+      line-height: 1.1;
+      @include respond-to (desktop){
+        width: 101%;
+      }
+    }
+    #search-btn {
+      margin: auto;
+      margin-top: 8px;
+      background-color: $light-grey-heading;
+      line-height: 30px;
+      min-width: 113px;
+      border-radius: 4px;
+      font-size: 1.4rem;
+      border: 1px solid $bg-basic-color-active;
+      margin-bottom: 30px;
+    }
+    .form-group {
+      label {
+        color: $light-grey-heading;
+        font-size: 14px;
+      }
+      #radius {
+        margin-left: 0px;
+       border: 1px solid $header-light-gray;
+       border-radius: 0px;
+        option {
+          color: $light-grey-heading;
+        }
+      }
+    }
+
+    @include respond-to(desktop) {
+      #search-btn {
+        background-color: $light-grey-heading;
+        line-height: 30px;
+        min-width: 113px;
+        margin-left: 72px;
+        border-radius: 4px;
+        font-size: 1.4rem;
+        border: 1px solid $bg-basic-color-active;
+      }
+      .form-group{
+        #radius {
+          margin-left: 75px;
+        }
+      }
+     
+    }
+  }
+}

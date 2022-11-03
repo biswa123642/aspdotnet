@@ -1,0 +1,48 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.global-search-listing {
+    .product-wrap {
+      .search-box {
+        margin-left: 1.5rem;
+        margin-top: 1.5rem;
+      }
+      .result-count{
+        margin-left: 0.2rem;
+      }
+      #product-type,
+      #article-type,
+      #others-type {
+        h3 {
+          border-color: $text-disabled;
+          color: $text-green;
+          .result-count {
+            color: $text-body;
+          }
+          .link-btn[aria-expanded] {
+            &::before {
+              background: $text-green;
+            }
+            &::after {
+              background: $text-green;
+            }
+          }
+        }
+        .body-copy {
+          h3 {
+            a {
+              color: $text-green;
+              font-size: 2rem;
+              font-weight: bold;
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

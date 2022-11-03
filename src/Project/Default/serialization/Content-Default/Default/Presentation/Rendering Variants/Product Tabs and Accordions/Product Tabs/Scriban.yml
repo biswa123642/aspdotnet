@@ -1,0 +1,144 @@
+﻿---
+ID: "56a241a5-8190-4764-972f-4db226c08c18"
+Parent: "1bdadada-81b6-4759-89b4-772b8eb99fa3"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Product Tabs and Accordions/Product Tabs/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    {{if (i_item.Accordion1Title !="") || (i_item.Accordion2Title !="") || (i_item.Accordion3Title !="") || (i_item.Accordion4Title !="") || (i_item.Accordion1 !="") || (i_item.Accordion2 !="")|| (i_item.Accordion3 !="") || (i_item.Accordion4 !="")}}
+    <div class="copy-wrap">
+    <ul id="tabs" class="nav nav-tabs" role="tablist">
+    {{if (i_item.Accordion1Title !="")}}
+    <li class="nav-item">
+    <a id="tab-general" href="#pane-general" class="nav-link active" data-toggle="tab" role="tab">{{i_item.Accordion1Title.Raw}}</a>
+    </li>
+    {{end}}
+    {{if (i_item.Accordion2Title !="")}}
+    <li class="nav-item">
+    <a id="tab-specification" href="#pane-specification" class="nav-link" data-toggle="tab" role="tab">{{i_item.Accordion2Title.Raw}}</a>
+    </li>
+    {{end}}
+    {{if (i_item.Accordion3Title !="")}}
+    <li class="nav-item">
+    <a id="tab-instructions" href="#pane-instructions" class="nav-link" data-toggle="tab" role="tab">{{i_item.Accordion3Title.Raw}}</a>
+    </li>
+    {{end}}
+    {{if (i_item.Accordion4Title !="")}}
+    <li class="nav-item">
+    <a id="tab-ingredients" href="#pane-ingredients" class="nav-link" data-toggle="tab" role="tab">{{i_item.Accordion4Title.Raw}}</a>
+    </li>
+    {{end}}
+    </ul>
+    <div id="content" class="tab-content" role="tablist">
+    {{if (i_item.Accordion1Title !="")||(i_item.Accordion1 !="")}}
+    <div id="pane-general" class="card tab-pane fade show active" role="tabpanel" aria-labelledby="tab-general">
+    {{if (i_item.Accordion1Title !="")}}
+    <div class="card-header" role="tab" id="heading-general">
+    <h5 class="mb-0">
+    <!-- Note: `data-parent` removed from here -->
+    <a data-toggle="collapse" href="#collapse-general" aria-expanded="true" aria-controls="collapse-general">
+    {{i_item.Accordion1Title.Raw}}
+    </a>
+    </h5>
+    </div>
+    {{end}} <!-- Note: New place of `data-parent` -->
+    {{if (i_item.Accordion1 !="")}}
+    <div id="collapse-general" class="collapse show" data-parent="#content" role="tabpanel" aria-labelledby="heading-general">
+    <div class="card-body">
+    {{i_item.Accordion1.Raw}}
+    </div>
+    </div>
+    {{end}}
+    </div>
+    {{end}}
+    {{if (i_item.Accordion2Title !="")||(i_item.Accordion2 !="")}}
+    <div id="pane-specification" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-specification">
+    {{if (i_item.Accordion2Title !="")}}
+    <div class="card-header" role="tab" id="heading-specification">
+    <h5 class="mb-0">
+    <a class="collapsed" data-toggle="collapse" href="#collapse-specification" aria-expanded="false" aria-controls="collapse-specification">
+    {{i_item.Accordion2Title.Raw}}
+    </a>
+    </h5>
+    </div>
+    {{end}}
+    {{if (i_item.Accordion2 !="")}}
+    <div id="collapse-specification" class="collapse" data-parent="#content" role="tabpanel" aria-labelledby="heading-specification">
+    <div class="card-body">
+    {{i_item.Accordion2.Raw}}
+    </div>
+    </div>
+    {{end}}
+    </div>
+    {{end}}
+    {{if (i_item.Accordion3Title !="")||(i_item.Accordion3 !="")}}
+    <div id="pane-instructions" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-instructions">
+    {{if (i_item.Accordion3Title !="")}}
+    <div class="card-header" role="tab" id="heading-instructions">
+    <h5 class="mb-0">
+    <a class="collapsed" data-toggle="collapse" href="#collapse-instructions" aria-expanded="false" aria-controls="collapse-instructions">
+    {{i_item.Accordion3Title.Raw}}
+    </a>
+    </h5>
+    </div>
+    {{end}}
+    {{if (i_item.Accordion3 !="")}}
+    <div id="collapse-instructions" class="collapse" role="tabpanel" data-parent="#content" aria-labelledby="heading-instructions">
+    <div class="card-body">
+    {{i_item.Accordion3.Raw}}
+    </div>
+    </div>
+    {{end}}
+    </div>
+    {{end}}
+    {{if (i_item.Accordion4Title !="")||(i_item.Accordion4 !="")}}
+    <div id="pane-ingredients" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-ingredients">
+    {{if (i_item.Accordion4Title !="")}}
+    <div class="card-header" role="tab" id="heading-ingredients">
+    <h5 class="mb-0">
+    <a class="collapsed" data-toggle="collapse" href="#collapse-ingredients" aria-expanded="false" aria-controls="collapse-ingredients">
+    {{i_item.Accordion4Title.Raw}}
+    </a>
+    </h5>
+    </div>
+    {{end}}
+    {{if (i_item.Accordion4 !="")}}
+    <div id="collapse-ingredients" class="collapse" role="tabpanel" data-parent="#content" aria-labelledby="heading-ingredients">
+    <div class="card-body">
+    {{i_item.Accordion4.Raw}}
+    </div>
+    </div>
+    {{end}}
+    </div>
+    {{end}}
+    </div>
+    </div>
+    {{end}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220502T154113Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ccb8680d-c553-474b-bc71-915ccb36c6e4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220525T095759Z

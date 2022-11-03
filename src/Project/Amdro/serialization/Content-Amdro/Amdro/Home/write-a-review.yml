@@ -1,0 +1,85 @@
+﻿---
+ID: "27229adc-6e3a-4a8b-b0c7-dabc301e90af"
+Parent: "bdf3c1ae-ea7c-44c9-9121-370a36a240c1"
+Template: "574f54f5-6f3d-4cf6-ac3e-225fdd39e963"
+Path: "/sitecore/content/OneWeb/Amdro/Home/write-a-review"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{C9738C7F-4183-4DBA-A993-A543DF0A0157}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 800
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{BCFC7537-EFF4-434C-96F5-BF4F55FD175B}">
+        <r
+          ds=""
+          id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          par="BreadcrumbRoot&amp;Separator=%3E&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B45CEBBAE-B6CE-497E-91E7-3A2D10760A37%7D&amp;Styles=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          ph="/main/sxa-content-page/container-1/row-3-2/container-2"
+          uid="{622647AA-069F-49B2-9ACC-BC8431170E55}"
+          ccb="Clear on publish" />
+        <r
+          id="{D6B60627-4476-461C-B9E4-FDEFD6CFB712}"
+          par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B7B1344B9-BCF9-4F3E-B7B3-202C695BEAF4%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          ph="/main/sxa-content-page/container-1/row-3-2/container-2"
+          uid="{C88012EC-4C68-4DCB-8E89-D8E7AA043E9B}" />
+        <r
+          id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BC8AE8DAF-E579-456F-8747-7D6B522A7587%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          ph="/main/sxa-content-page/container-1/row-3-2"
+          uid="{F609AC32-2792-4B94-A1B6-DC9DA90446D3}" />
+      </d>
+      <d
+        id="{0B4A31C9-712D-4578-A396-2DDC0F34B63A}"
+        l="{72C595AD-68BB-44BC-B5CD-2A857039515F}" />
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220621T053810Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: WRITE A REVIEW
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Write a Review
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Write a Review
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Write a Review
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "098b23ff-ca22-429e-a9e8-c2e709e2dcb5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220714T090809Z

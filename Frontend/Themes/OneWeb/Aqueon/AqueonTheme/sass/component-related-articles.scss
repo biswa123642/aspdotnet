@@ -1,0 +1,57 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.related-articles {
+    &.variant-2 {
+      background: $bg-light;
+      padding: 2rem;
+
+      .inner-wrap {
+        h3 {
+          font-size: 3rem;
+          @include Sans-serif-font();
+        }
+        a {
+          display: flex;
+          background: $white;
+          margin: 1rem;
+          padding: 1rem;
+          .article-tag {
+            display: none;
+          }
+          .img-wrapper {
+            max-width: 15rem;
+            padding-right: 1rem;
+            img {
+              margin: auto;
+            }
+          }
+          .caption {
+            color: $text-secondary;
+            font-size: 2rem;
+            font-weight: 600;
+          }
+
+          &:hover {
+            text-decoration-color: $text-secondary;
+          }
+        }
+      }
+    }
+
+    @include respond-to(desktop) {
+      &.variant-2 {
+        .inner-wrap {
+          a {
+            padding: 1.5rem;
+            .caption {
+              font-size: 1.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

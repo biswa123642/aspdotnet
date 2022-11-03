@@ -1,0 +1,37 @@
+﻿---
+ID: "7cd30013-85ae-4321-859f-b2e9a1a9d64a"
+Parent: "4ba92a8d-b76e-424b-9d47-6da7ab1c15d3"
+Template: "e229ce6c-561d-41d9-b521-efbf47d00b6c"
+Path: /sitecore/content/OneWeb/Adams/Data/Header Global Menu/Faq
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220615T075828Z
+    - ID: "2d366fb9-cb2f-48ab-bafa-c29c581934c5"
+      Hint: Link
+      Value: |
+        <link id="{BB530C31-8FE8-469E-A3BE-37D6A518337F}" querystring="" target="" text="FAQ" url="/OneWeb/Adams/Home/frequently-asked-questions" linktype="internal" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fde6175c-8270-4b31-9321-a04bae4cb66d"
+    - ID: "b6784c02-1bfd-4ff8-951e-8fef2cdf0739"
+      Hint: HasSubMenu
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220630T084459Z

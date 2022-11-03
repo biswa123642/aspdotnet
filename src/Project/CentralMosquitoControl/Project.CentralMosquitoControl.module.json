@@ -1,0 +1,42 @@
+{
+  "namespace": "Project.CentralMosquitoControl",
+  "references": [ "Feature.*" ],
+  "items": {
+    "includes": [
+      {
+        "name": "Content-CMC",
+        "path": "/sitecore/content/OneWeb/CentralMosquitoControl",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete",
+        //"rules": [
+        //  {
+        //    "path": "/Home/all-products/barrier-treatments",
+        //    "alias": "barrier-tre"
+        //  },
+        //  {
+        //    "path": "/Home/all-products/fourstar",
+        //    "alias": "fourstar"
+        //  }
+        //]
+      },
+      {
+        "name": "MediaLibrary-CMC",
+        "path": "/sitecore/media library/Project/OneWeb/CentralMosquitoControl",
+        "scope": "singleItem",
+        "allowedPushOperations": "createUpdateAndDelete"
+      },
+      {
+        "name": "MediaLibrary-CMC-Themes",
+        "path": "/sitecore/media library/Themes/OneWeb/CentralMosquitoControl",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      },
+      {
+        "name": "Forms-CMC",
+        "path": "/sitecore/Forms/OneWeb/CentralMosquitoControl",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      }
+    ]
+  }
+}

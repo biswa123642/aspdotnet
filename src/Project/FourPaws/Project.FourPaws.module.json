@@ -1,0 +1,26 @@
+{
+  "namespace": "Project.FourPaws",
+  "references": [ "*Feature.*" ],
+  "items": {
+    "includes": [
+      // {
+      //  "name": "Content-FourPaws",
+      //  "path": "/sitecore/content/OneWeb/FourPaws",
+      //  "scope": "ItemAndDescendants",
+      //  "allowedPushOperations": "createUpdateAndDelete"
+      // },
+      //{
+      // "name": "MediaLibrary-Themes",
+      // "path": "/sitecore/media library/Themes/OneWeb/FourPaws",
+      // "scope": "ItemAndDescendants",
+      // "allowedPushOperations": "createUpdateAndDelete"
+      //}
+      //{
+      // "name": "FourPaws-Forms",
+      // "path": "/sitecore/Forms/OneWeb/FourPaws",
+      // "scope": "ItemAndDescendants",
+      // "allowedPushOperations": "createUpdateAndDelete"
+      //}
+    ]
+  }
+}

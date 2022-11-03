@@ -1,0 +1,458 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  &.header-shell {
+    &.variant-2 {
+      min-height: 5.2rem;
+      &::after {
+        content: '';
+        display: block;
+        height: 2rem;
+        background-image: url('../images/site-bg/bfg-homepage-orange-line.svg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        right: 0;
+        margin-top: 4rem;
+        top: 100%;
+        @include respond-to(desktop) {
+          height: 5.7rem;
+          margin-top: -0.8rem;
+        }
+        @include respond-to(extra-largedesktop){
+          margin-top: -1px;
+        }
+      }
+
+      .wrapper {
+        .inner-wrap {
+          padding: 0 0;
+          @include respond-to(desktop){
+            padding: 0 7.3rem;
+          }
+
+          >.container {
+            max-width: 100%;
+            padding: 0 1.5rem;
+          }
+        }
+
+        .wrapper-nav {
+          padding: 0;
+          margin: 0 -6px;
+          background-color: transparent;
+          background-image: none;
+          position: relative;
+        
+
+          @include respond-to(tablet) {
+            margin: 0 -9px;
+          }
+
+          @include respond-to(desktop) {
+            background-color: transparent;
+
+            >.container {
+              max-width: 100%;
+              padding: 0 3.5rem;
+            }
+          }
+        }
+      }
+
+      .logo-container {
+        .file-type-icon-media-link {
+          padding: 0.5rem;
+          a {
+            img {
+              padding-left: 0;
+              position: absolute;
+              z-index: 1;
+              left: 1.5rem;
+              max-width: 9.7rem;
+              top: 0;
+
+              @include respond-to(desktop) {
+                max-width: 12.4rem;
+                top: -1rem;
+              }
+            }
+          }
+        }
+      }
+
+      .utility-navigation {
+        @include respond-to(desktop){
+          margin-top: 3.5rem;
+          padding-bottom: 10px;
+        }
+        .component-content>div {
+          justify-content: flex-end;
+
+          .list-item {
+            margin-right: 1.5rem;
+            a {
+              color: $black-color;
+              text-transform: none;
+              font-size: 1.8rem;
+              padding: 0.6rem 1.3rem;
+              font-weight: 700;
+              border: 1px solid $top-anchor;
+              line-height: 3.5rem;
+              border-radius: 2.5rem;
+            }
+
+            &:hover {
+              a {
+                text-decoration: none;
+                color: $white-color;
+                background-color: $top-anchor;
+              }
+            }
+          }
+        }
+      }
+
+      .search-box {
+        &.active {
+          display: none;
+
+          @include respond-to(desktop) {
+            display: block;
+
+            .search-input-wrapper {
+              input {
+                position: absolute;
+                top: 2rem;
+                right: 5rem;
+                width: 26rem;
+                border: 2px solid $header-border;
+                color: $primary-color;
+                background-color: $search-background;
+                font-size: 1.6rem;
+                border-radius: 2rem;
+                padding: 0.5rem 1rem;
+
+                &::placeholder {
+                  opacity: 1;
+                }
+
+                &:hover,
+                :active,
+                :visited,
+                :focus-visible {
+                  border-color: $primary-color;
+                }
+              }
+
+              button {
+                border-radius: 0;
+              }
+            }
+          }
+        }
+      }
+
+      .search-wrapper {
+        @include respond-to(desktop) {
+          &::before {
+            background: transparent;
+          }
+
+          .search-input-wrapper {
+            @include respond-to(desktop) {
+              min-height: 3rem;
+            }
+
+            input {
+              background: transparent;
+              border: 2px solid $header-border;
+              color: $primary-color;
+              display: none;
+              background-color: $search-background;
+              font-size: 1.6rem;
+
+              &::placeholder {
+                color: $primary-color;
+              }
+            }
+
+            .custom-search-box-button {
+              height: 5.5rem;
+              top: 0.7rem;
+            }
+          }
+        }
+      }
+
+      .component {
+        &.plain-html {
+          .hamburger {
+            background: transparent;
+            padding: 1.2rem 1.5rem 1.5rem 1.5rem;
+
+            .icon-bar {
+              background-color: $mobile-hamburger-icon-bar;
+              height: 0.4rem;
+              width: 3rem;
+              border-radius: 0.4rem;
+              margin-top: 0.5rem;
+            }
+          }
+        }
+      }
+
+      .component {
+        &.header-global-menu {
+          padding: 3rem 0 0;
+          margin-top: 4rem;
+
+          .top-nav-clone {
+            background: none;
+            text-align: left;
+            background-color: $top-anchor-hover;
+
+            .list-wrap {
+              flex-direction: column;
+              text-align: center;
+
+              .list-item {
+                padding: 0 1.5rem;
+
+                &:hover {
+                  background-color: $top-anchor-hover;
+                }
+
+                a {
+                  border-left: none;
+                  text-transform: uppercase;
+                  font-weight: 700;
+                  font-size: 1.8rem;
+                  text-align: center;
+                  color: $white-color;
+                  background-color: $top-anchor;
+                  text-decoration: none ;
+                  width: 21rem;
+                  display: inline-block;
+                  margin-bottom: 1rem;
+                  float: none;
+                  border-radius: 2rem;
+                  padding: 0.6rem 1.3rem;
+
+                }
+              }
+            }
+          }
+
+          .search-box {
+            display: block;
+            background: none;
+            position: relative;
+            top: 0;
+            background-color: $top-anchor-hover;
+
+            .search-holder {
+              .search-wrapper {
+                &::before {
+                  display: none;
+                }
+
+                .search-input-wrapper {
+                  input {
+                    background: $search-background;
+                    color: $primary-color;
+                    border-radius: 0.5rem;
+                    width: 90%;
+                    font-size: 1.6rem;
+                    padding: 0.7rem;
+                    &::placeholder {
+                      opacity: 1;
+                    }
+
+                    @include respond-to(tab) {
+                      width: 95%;
+                    }
+                  }
+
+                  button {
+                    position: absolute;
+                    right: -1rem;
+                    filter: invert(1.3);
+                  }
+                }
+              }
+            }
+          }
+
+          @include respond-to(desktop) {
+            padding: 0 7.5rem;
+            margin: 0;
+          }
+
+          ul.items {
+            justify-content: flex-end;
+            padding: 0;
+            margin-bottom: 0;
+            background-color: $top-anchor-hover;
+
+            @include respond-to(desktop) {
+              background-color: transparent;
+            }
+
+            li.item {
+              padding: 1rem 3rem;
+              border-bottom: 1px solid $white-color;
+
+              &.open,
+              &:hover,
+              &:active {
+                background-color: $top-anchor-hover;
+              }
+
+              @include respond-to(desktop) {
+                padding: 1.5rem 2rem 1.5rem 1.5rem;
+                border: none;
+                &.active-item{
+                  background-color: $header-link;
+                  a {
+                    color: $white-color;
+                  }
+                  .list-wrap{
+                    &.has-sublist{
+                      &::before{
+                        color: $white-color;
+                      }
+                    }
+                  }
+                }
+
+                &:hover {
+                  background-color: $top-anchor-hover;
+                  
+                  a {
+                    color: $white-color;
+                  }
+
+                  .list-wrap {
+                    &.has-sublist {
+                      &::before {
+                        color: $white-color;
+                      }
+                    }
+                  }
+                }
+              }
+
+              .list-wrap {
+                &.has-sublist {
+                  &::before {
+                    font-size: 1.6rem;
+                    color: $white-color;
+                    font-weight: 600;
+                    right: 0;
+                    top: 45%;
+
+                    @include respond-to(desktop) {
+                      right: -1.3rem;
+                      color: $black-color;
+                    }
+                  }
+
+                  a::before {
+                    color: $black-color;
+                  }
+                }
+              }
+
+              a {
+                color: $white-color;
+                font-size: 1.524rem;
+                font-weight: 700;
+
+                @include respond-to(desktop) {
+                  color: $black-color;
+                }
+              }
+
+              &:hover {
+                @include respond-to(desktop) {
+                  ul.sub-menu-list {
+                    display: block;
+                  }
+                }
+              }
+
+              ul.sub-menu-list {
+                min-width: 24rem;
+                padding: 0.5rem;
+                border-top: 1px solid $white-color;
+                margin: 1rem -2.8rem -1.4rem;
+
+                @include respond-to(desktop) {
+                  background: $top-anchor-hover;
+                  padding: 0.5rem 0;
+                  margin: auto;
+                  box-shadow: $header-shadow;
+                  border: 1px solid rgba(0, 0, 0, 0.15);
+                  border-radius: 0 0 0.4rem 0.4rem;
+                  min-width: 16rem;
+                  margin-top: 1px;                  
+                  top: 100%;
+                }
+                @include respond-to(extra-largedesktop){
+                  margin-top: 0px;
+                }
+
+                li.sub-menu-item {
+                  padding: 0 1rem;
+                  margin: 0.1rem 0;
+                  border-bottom: 1px solid $white-color;
+
+                  @include respond-to(desktop) {
+                    border: none;
+                  }
+
+                  &:last-child {
+                    border: none;
+                  }
+
+                  a {
+                    color: $white-color;
+                    line-height: 1.42857143;
+                    font-size: 1.524rem;
+                    font-weight: 700;
+                    padding: 1rem 3rem;
+
+                    @include respond-to(desktop) {
+                      padding: 0.3rem 1rem;
+                    }
+
+                    &:hover {
+                      text-decoration: underline;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &.active {
+        .component {
+          &.plain-html {
+            .hamburger {
+              .icon-bar {
+                &:first-child {
+                  transform: rotate(45deg) translate(6px, 7px);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

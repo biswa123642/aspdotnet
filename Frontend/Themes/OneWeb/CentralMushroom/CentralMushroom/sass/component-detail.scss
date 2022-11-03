@@ -1,0 +1,32 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+div,
+.component {
+    &.product-details {
+        &.variant-4 {
+            .product-wrapper {
+                h1 {
+                    font-size: 36px;
+                    font-weight: 700;
+                    color: #008061;
+                    text-transform: uppercase;
+                    padding: 0;
+                }
+                .body-copy {
+                    color: #020202;
+                    font-size: 1.8rem;
+                    line-height: 1.39;
+                    ul {
+                        padding: 0 0 0 2rem;
+                    }
+                }
+            }
+        }
+    }
+  
+ 
+   
+
+}
+

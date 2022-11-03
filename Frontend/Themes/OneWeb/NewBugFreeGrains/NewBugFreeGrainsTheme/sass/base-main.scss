@@ -1,0 +1,163 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "base/fonts/fonts";
+
+body {
+    @include Roboto-font-stack();
+    font-size: 1.6rem;
+    line-height: 1.42;
+    color: $text-basic;
+    overflow-x: hidden;
+}
+
+#content {
+    >.row {
+        display: block;
+    }
+}
+sup{
+    font-size: 75%;
+}
+b,
+strong {
+    font-weight: bold;
+}
+hr {
+    margin-top: 2.2rem;
+    margin-bottom: 2.2rem;
+    border: 0;
+    border-top: 1px solid $search-background;
+}
+
+.content a,
+.rich-text a,
+a {
+    color: $black-color;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+
+    &:hover {
+        color: $link-color-hover;
+        text-decoration: underline;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: inherit;
+    color: inherit;
+    line-height: 1.1;
+    margin-top: 2.2rem;
+    margin-bottom: 1.1rem;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.8rem;
+}
+
+h3 {
+    font-size: 2.1rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+h5 {
+    font-size: 1.78rem;
+}
+
+h6 {
+    font-size: 1.31rem;
+}
+
+p {
+    margin-bottom: 0 0 0 1.1rem;
+}
+
+.component {
+
+    &.content,
+    &.rich-text {
+        @include Roboto-font-stack();
+        font-size: 1.6rem;
+        line-height: 1.42;
+        color: $text-basic;
+
+        small {
+            font-size: 1.6rem;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: inherit;
+            color: $anchor-hover;
+            line-height: 1.1;
+            margin-top: 2.2rem;
+            margin-bottom: 1.1rem;
+            font-weight: 700;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+        }
+
+        h2 {
+            font-size: 2.8rem;
+        }
+
+        h3 {
+            font-size: 2.1rem;
+        }
+
+        h4 {
+            font-size: 1.8rem;
+        }
+        .geaps-icon{
+            margin: 3rem 0;
+            a{
+                text-decoration: none;
+                color: $white-color;
+                background-image: linear-gradient(#ea972d, #d15e14);
+                border: 2px solid $white-color;
+                border-radius: 2rem;
+                box-shadow: $box-shadow;
+                padding: 0.8rem 1.2rem;
+                font-size: 1.6rem;
+                line-height: 1.42857143;
+                margin: -0.3rem;
+                font-weight: 400;
+                &:hover{
+                    background-image: linear-gradient(#656868, #000000);
+                    border: 2px solid;
+                }
+            }
+                > a:first-child:not(:last-child):not(.dropdown-toggle){
+                    border-bottom-right-radius: 0;
+                    border-top-right-radius: 0;
+                    margin-left: 0;
+                    }
+                > a:not(:first-child):not(:last-child):not(.dropdown-toggle){
+                    border-radius: 0;
+                    }
+                > a:last-child:not(:first-child){
+                    border-bottom-left-radius: 0;
+                    border-top-left-radius: 0;
+                    }
+        }
+    }
+}

@@ -1,0 +1,135 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+.about-contact-page {
+  .container {
+    .component-content {
+      .column-splitter {
+        > div {
+          &:nth-child(2) {
+            &::before {
+              content: "";
+              position: absolute;
+              width: calc(100% - 30px);
+              height: 1px;
+              background-color: $light-grey;
+              top: 0;
+              left: 15px;
+            }
+          }
+          @include respond-to(desktop) {
+            > .row {
+              > div {
+                padding: 0px;
+              }
+            }
+
+            padding: 0rem 1.5rem;
+            &:nth-child(2) {
+              padding-left: 30px;
+              &::before {
+                content: "";
+                position: absolute;
+                width: 1px;
+                height: calc(100% - 87px);
+                background-color: $light-grey;
+                top: 79px;
+                left: 0;
+              }
+            }
+            &:nth-child(1) {
+              padding-right: 3rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.home {
+  main {
+    @include respond-to(desktop) {
+      padding-top: 31rem;
+      #content {
+        width: 117rem;
+      }
+    }
+  }
+  .image {
+    &.file-type-icon-media-link {
+      &.header-image {
+        a {
+          img {
+            @include respond-to(desktop) {
+              height: 46rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  .feature-content-tiles {
+    padding-bottom: 0rem;
+    &.variant-2 {
+      .container {
+        width: 100%;
+        .row {
+          > div {
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+            padding: 0px;
+            margin-bottom: 3rem;
+            background-image: radial-gradient(circle, #e21d37, #9e1426);
+            background-repeat: no-repeat;
+            color: $white-color;
+            .promo-tile {
+              .field-data {
+                padding: 1rem 1.5rem 1rem 1.5rem;
+                text-align: inherit;
+                .field-subtext {
+                  margin-bottom: 1rem;
+                }
+              }
+              .sxa-btn {
+                a {
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    @include respond-to(tab) {
+      padding: 3rem 0px;
+      &.variant-2 {
+        .container {
+          .row {
+            > div {
+              -ms-flex: 0 0 50%;
+              flex: 0 0 50%;
+              max-width: 50%;
+              padding: 0px 1.5rem;
+              background: $white-color;
+              .promo-tile {
+                background-image: radial-gradient(circle, #e21d37, #9e1426);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.page-not-found {
+  #content {
+    width: 100%;
+    @include respond-to(desktop) {
+      width: 117rem;
+    }
+    h2 {
+      text-transform: none;
+      padding: 0px 15px;
+    }
+  }
+}

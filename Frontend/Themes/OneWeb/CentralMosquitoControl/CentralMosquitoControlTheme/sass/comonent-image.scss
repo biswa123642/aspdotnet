@@ -1,0 +1,12 @@
+@import "abstracts/vars";
+
+.component {
+    &.image {
+        .image-caption {
+            font-style: normal;
+            color: $black;
+            font-size: 1.6rem;
+            text-align: center;
+        }
+    }
+}

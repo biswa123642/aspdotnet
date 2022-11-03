@@ -1,0 +1,30 @@
+.promo{
+    &.page-not-found{
+        margin: 0;
+        h2{
+            font-size: 2.4rem;
+            padding-bottom: 0;
+        }
+        .field-promolink a{
+            font-size: 1.8rem;
+            border: none;
+            color: #434343;
+            text-decoration: underline;
+            font-weight: bold;
+            padding: 0;
+        }
+        @media screen and (max-width:991px) {
+            .container{
+                >.row{
+                    flex-direction: column-reverse;
+                }
+            }
+            .offset-md-2{
+                margin: 0 ;
+            }
+        }
+    }
+}
+.error-title{
+    padding: 1rem 0 2rem 0;
+}

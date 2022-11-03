@@ -1,0 +1,52 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component-solution-finder {
+  .solution-finder {
+    .breadcrumb-bg {
+      background-color: $white;
+      color: $breadcrumb-color;
+      font-size: 1.6rem;
+      font-weight: 700;
+      @include din-14-stack();
+      .solution-finder-breadcrumb-container {
+        padding: 2rem 0;
+      }
+    }
+    .questionDiv {
+      background-color: $white;
+      padding: 2rem 0;
+      h3 {
+        color: $text-blue-primary;
+        font-size: 3.6rem;
+        font-weight: 700;
+        text-align: left;
+        padding: 0;
+        @include urw-din-condensed-font();
+
+        @include respond-to(larger-desktop) {
+          font-size: 2.6vw;
+        }
+      }
+    }
+    .answersDiv {
+      .answer-div {
+        margin: 1rem 2rem;
+        .answer-title {
+          color: $text-blue-primary;
+          font-size: 3rem;
+          font-weight: 700;
+          text-transform: none;
+          @include urw-din-condensed-font();
+          &:hover {
+            color: $text-red-primary;
+          }
+        }
+        .answer-image {
+          max-height: 31rem;
+        }
+      }
+    }
+  }
+}

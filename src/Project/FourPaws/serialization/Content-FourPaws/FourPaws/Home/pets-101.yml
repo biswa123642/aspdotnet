@@ -1,0 +1,136 @@
+﻿---
+ID: "5f884eba-6149-44de-961b-b95d6e931328"
+Parent: "dc8acca8-ed63-4ead-b112-daa569052d9d"
+Template: "b38986e8-884f-400d-a503-6379538fb556"
+Path: "/sitecore/content/OneWeb/FourPaws/Home/pets-101"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{9557B210-D15A-4ED6-A02E-22442CB7E3CC}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 900
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{B97FF15A-E097-4277-9D71-8C460B40EC77}"
+          p:before="*"
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%3E&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B243269CD-1497-4574-9B4F-7AAA59AD554B%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/container-6" />
+        <r
+          uid="{26E22469-48A4-4862-ABA6-E0FCE8B44330}"
+          p:after="r[@uid='{B97FF15A-E097-4277-9D71-8C460B40EC77}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="main" />
+        <r
+          uid="{3D78F7FB-92AA-4165-9C5E-1CCC133D96B0}"
+          p:after="r[@uid='{26E22469-48A4-4862-ABA6-E0FCE8B44330}']"
+          s:ds="{64613BC0-AA3B-4245-A515-0C16837B0EF4}"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B4DA37A2A-DE74-4E24-ACC5-E1F1C930DB1B%7D&amp;Styles=%7B7E3BD380-061F-45B3-86C1-42B1DB86FA2F%7D%7C%7BCDABE288-05F9-4009-B4AC-2FB45C61298F%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5&amp;CacheClearingBehavior=Clear%20on%20publish"
+          s:ph="/main/container-4"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{879C94FE-1A67-4527-8C40-17F7D20D5A37}"
+          p:after="r[@uid='{3D78F7FB-92AA-4165-9C5E-1CCC133D96B0}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="main" />
+        <r
+          uid="{5CDDC968-D75A-4032-A364-AD1058CDCAF1}"
+          p:after="r[@uid='{879C94FE-1A67-4527-8C40-17F7D20D5A37}']"
+          s:ds=""
+          s:id="{0346C989-2CC7-4346-8920-F5F99F243EDB}"
+          s:par="ArticleCategoryView&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B49C72842-04E7-410E-81E1-7AA246084563%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/container-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{0E4E0F7D-F21D-42AD-9689-7D317E223C23}"
+          p:after="*[1=2]"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "055a2c41-4d44-4441-b589-b86f39cc64e5"
+      Hint: HeroBannerContent
+      Value: |
+        <p style="text-align: center;">Welcome to our world of pet parenting knowledge and fun activities! This library is your all-in-one resource for conquering shedding season, decoding your cat's body language, and so much more.
+        </p>
+    - ID: "237274d5-0911-4d4e-a9eb-48c2a8483ca1"
+      Hint: FeaturedChildList
+      Value: |
+        {1789A060-FE06-44C0-AC6D-E5E1DDBFA9EA}
+        {F872BCD9-5FDE-4A6F-A75D-8EC78DC4727E}
+        {545465C1-419B-4B16-864E-3A2F0C1B3DD7}
+        {F016176B-8FE3-42AB-A00F-AA4F0F5BFCA1}
+        {DFAED707-3B96-462F-B235-4A39D20EFFF7}
+        {D52A3FE8-2259-4790-A84F-EA2C94D66BF8}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220606T195836Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{1ED08D4F-7B51-4E7A-95C7-6D13FBB8B867}" />
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "363cfc7c-aff0-4d45-8a1f-11c311fd36bc"
+      Hint: ShowTextWithOverlay
+      Value: 1
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Pets 101
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "Welcome to Pets 101! Explore the official Four Paws library of pet articles, how-tos, tips, and activities created just for pet parents."
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Pets 101
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: "Pets 101 - Pet Parenting Tips &amp; Articles | Four Paws"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "39139247-4006-48e4-a3fb-61932e34142a"
+    - ID: "a6772724-fc83-4e63-a2f6-a893b8329b9e"
+      Hint: HeroBannerAlignment
+      Value: "custom-text-banner-align"
+    - ID: "ab818f97-8aa8-4d81-9e70-29c2d400c1fb"
+      Hint: RenderCanonicalTag
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: |
+        <h1 style="text-align: center;">Pets 101</h1>
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{1ED08D4F-7B51-4E7A-95C7-6D13FBB8B867}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220726T090209Z

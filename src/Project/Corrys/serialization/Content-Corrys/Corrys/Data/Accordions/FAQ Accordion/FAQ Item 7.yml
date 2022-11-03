@@ -1,0 +1,102 @@
+﻿---
+ID: "3d3a112d-1a5d-4f64-ae38-dcfaaca5c2f9"
+Parent: "8583cda5-17e0-4ac5-9c93-1360286afea9"
+Template: "a6ddac75-7d24-4bdb-b3f6-5f47fbb21379"
+Path: /sitecore/content/OneWeb/Corrys/Data/Accordions/FAQ Accordion/FAQ Item 7
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1700
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{09BD444B-FABC-47EA-981D-2C8271655469}">
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B5423143A-760D-4F0E-BA4D-0B02E649A778%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-title"
+          uid="{BD8BFE38-3900-4949-A586-33BED9894A19}" />
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-content"
+          uid="{747808B0-F8ED-43A0-BB70-67B57EC4DEBC}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220613T083401Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5a236869-e375-49c0-a92d-0c2f1db7788f"
+      Hint: Content
+      Value: |
+        The best way to protect your garden is to begin preventative treatments on your desired areas in the early spring or fall right before the most active slug and snail seasons. Use Corry's Slug &amp; Snail Copper Tape Barrier to protect tree trunks, flower pots and particular areas that you are trying to preserve. Copper barriers are useful in protecting susceptible plants such as basil, cabbage, hosta, lettuces, marigolds, strawberries and other seedlings and succulent plants. For maximum protection, also spread Corry's Slug &amp; Snail Killer ready-to-use pellets in your garden. Corry's Brand controls these pests and remains effective even after rain or sprinkling.
+        <br />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7240053b-9140-48ac-acea-abfccd7761a1"
+      Hint: Heading
+      Value: |
+        WHAT'S THE BEST WAY TO PROTECT MY GARDEN?
+        
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8ea94093-3aac-4cbe-9e7f-a3805ab793e6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220913T063005Z
+- Language: es
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220913T050928Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5a236869-e375-49c0-a92d-0c2f1db7788f"
+      Hint: Content
+      Value: |
+        La mejor manera de proteger su jard&iacute;n consiste en comenzar los tratamientos preventivos en el lugar deseado a comienzos de primavera o en el oto&ntilde;o antes de la &eacute;poca de mayor actividad por parte de caracoles y babosas. Use la barrera de cinta de cobre Corry's contra caracoles y babosas para proteger el tronco de los &aacute;rboles, las macetas de flores y las &aacute;reas particulares que desee preservar. Las barreras de cobre son muy pr&aacute;cticas para proteger las plantas susceptibles como albahacas, repollos, hostas, lechugas, clavelones, fresas y otras posturas y plantas suculentas. Para lograr una protecci&oacute;n m&aacute;xima, disperse tambi&eacute;n los gr&aacute;nulos de veneno listos para usar Corry's para caracoles y babosas en su jard&iacute;n. Los productos de la marca Corry's controlan estas plagas y mantienen su efecto incluso despu&eacute;s de la lluvia o el riego.
+        <br />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7240053b-9140-48ac-acea-abfccd7761a1"
+      Hint: Heading
+      Value: "¿QUÉ ES LO MEJOR PARA PROTEGER MI JARDÍN?"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "afef4660-850a-4c1d-8997-932101780747"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220913T051811Z

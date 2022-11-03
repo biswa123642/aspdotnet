@@ -1,0 +1,32 @@
+{
+	"namespace": "Project.Coralife",
+	"references": [ "Feature.*" ],
+	"items": {
+		"includes": [
+			//{
+			//	"name": "Content-Coralife",
+			//	"path": "/sitecore/content/OneWeb/Coralife",
+			//	"scope": "ItemAndDescendants",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//},
+			//{
+			//	"name": "MediaLibrary-Coralife",
+			//	"path": "/sitecore/media library/Project/OneWeb/Coralife",
+			//	"scope": "singleItem",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//},
+			{
+				"name": "MediaLibrary-Coralife-Themes",
+				"path": "/sitecore/media library/Themes/OneWeb/Coralife",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			}
+			//{
+			//	"name": "Forms-Coralife",
+			//	"path": "/sitecore/Forms/OneWeb/Coralife",
+			//	"scope": "ItemAndDescendants",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//}
+		]
+	}
+}

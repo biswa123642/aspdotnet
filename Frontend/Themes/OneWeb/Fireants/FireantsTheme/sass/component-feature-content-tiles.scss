@@ -1,0 +1,75 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+    &.feature-content-tiles {
+        &.variant-2 {
+            padding-left: 0;
+            padding-right: 0;
+            .component-content {
+                .container {
+                    padding: 0;
+                }
+            }
+            .row {
+                .col {
+                    @include respond-to(desktop) {
+                        max-width: 50%;
+                        flex: auto;
+                    }
+                    .field-image {
+                        img {
+                            vertical-align: middle;
+                        }
+                    }
+                    .field-data {
+                        background-color: $text-color;
+                        min-height: 230px;
+                        .subtitle{
+                            padding: 0 42px;
+                                a {
+                                    font-size: 1.4rem;
+                                    color: $link-color  !important;
+                                    text-decoration: none;
+                                    font-weight:100;
+                                    &:hover {
+                                        text-decoration-color: $link-color ;
+                                        text-decoration: underline;
+                                    }
+                                    @media only screen and (min-width: 1600px){
+                                        font-size: 2rem;
+                                        line-height: 37px;
+                                    }
+                                }
+                            h2 {
+                             
+                                a {
+                                    text-align: left !important;
+                                    border: none;
+                                    color: $color-primary  !important;
+                                    font-size: 2.8rem;
+                                    @media only screen and (min-width: 1500px){ 
+                                        font-size: 4rem;       
+                                    }
+                                    font-weight:500;
+                                    @include georgia-font-stack();
+                                    text-decoration: none;
+                                    &:hover {
+                                        text-decoration: underline;
+                                        text-decoration-color: $color-primary;
+                                    }
+                                    @media only screen and (min-width: 1600px){
+                                        font-size: 4rem;
+                                        line-height: 4.6rem;
+                                    }
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}    

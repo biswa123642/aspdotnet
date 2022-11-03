@@ -1,0 +1,56 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &content,
+    &.rich-text {
+        .error-404 {
+            font-size: 4rem;
+            font-weight: 700;
+            display: inline-block;
+            color: #008061;
+            background: #7d716d;
+            padding: 0px 20px;
+        }
+      
+        ul li {
+            font-size: inherit;
+        }
+      
+    }
+
+    /*============================================
+            Basic content list style
+    ==============================================*/
+    &.linked-thumbnail.horizontal-list.quick-links,
+    &.content,
+    &.product-tab-accordion,
+    &.product-variant .variant-description,
+    &.rich-text {
+        ol:not([class]),
+        ul:not([class]) {
+            margin-top: 0;
+            margin-bottom: 10px;
+            padding: 0 0 0 4rem;
+            margin-left: 0;
+
+            li {
+                list-style-type: disc;
+                display: list-item;
+                list-style-position: outside;
+                font-size: 1.6rem;
+                margin-bottom: 0;
+                margin-left: 0;
+            }
+        }
+
+        ol:not([class]) {
+            li {
+                list-style: decimal;
+            }
+        }
+    }
+}
+@include respond-to(desktop) {
+   
+}

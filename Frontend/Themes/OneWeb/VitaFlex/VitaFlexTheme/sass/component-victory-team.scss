@@ -1,0 +1,56 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.richprofilelisting {
+  h1 {
+    text-align: center;
+    @include Vita-din-2014-font-stack();
+    margin: 30px 0 30px 0;
+  }
+  .profile-listing {
+    > {
+      div {
+        margin-bottom: 40px;
+        @include respond-to(tab-horizontal-max) {
+          border-bottom: 1px solid $gray-secondary;
+        }
+      }
+    }
+    a {
+      @include Vita-din-2014-font-stack();
+      color: $blue-color;
+      font-weight: bold;
+      font-size: 1.8rem;
+      margin-top: 15px;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    a[target="_blank"] {
+      color: $dark-red-color;
+      margin-top: 0;
+    }
+    .rich-profile-cta {
+      &:hover {
+        text-decoration: none;
+      }
+    }
+    p {
+      @include respond-to(desktop) {
+        padding-right: 40px;
+      }
+    }
+  }
+  .profile-heading {
+    h2 {
+      color: $blue-color;
+      margin-bottom: -5px;
+    }
+    span {
+      color: $gray-color;
+      font-weight: bold;
+      font-size: 32px;
+    }
+  }
+}
+

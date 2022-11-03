@@ -1,0 +1,36 @@
+﻿---
+ID: "af6effd3-9e27-4286-b277-b246a8ba2b14"
+Parent: "f330c68f-a96e-4bfd-b061-effc1ae6a058"
+Template: "6e7840e3-5d65-44e8-b1dd-f418b11653d8"
+Path: /sitecore/content/OneWeb/Default/Data/Sales Representatives Data/Sales Representatives Data/Utah
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 4400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220429T043230Z
+    - ID: "89588acd-1d0d-4092-90c9-8831be0f26f0"
+      Hint: StateName
+      Value: Utah
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "216660f4-a9f9-4e48-ac34-f58148e0c921"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220927T074840Z
+    - ID: "e4c426fe-7336-4e80-8c2d-f89f02659a76"
+      Hint: SalesRepList
+      Value: "{09350892-67C9-44C2-BBB8-43E1296CA354}"
+    - ID: "fe92cf46-537c-4e47-8d4a-e418794d9780"
+      Hint: StateCode
+      Value: UT

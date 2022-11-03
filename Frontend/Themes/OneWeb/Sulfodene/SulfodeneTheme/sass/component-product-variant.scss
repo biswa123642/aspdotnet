@@ -1,0 +1,34 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.product-variant {
+    padding: 0 2.5rem 1.5rem;
+    .component-content {
+      display: flex;
+      width: 50%;
+      h4 {
+        margin: 0;
+        color: $black;
+        border-radius: 0;
+        font-size: 1.6rem;
+        font-weight: 700;
+        padding: 1.7rem 1rem;
+        font-family: work-sans, sans-serif;
+      }
+      select {
+        display: inline-block;
+        border-radius: 10px;
+        background-color: transparent;
+        border: 1px solid #000;
+        color: #000;
+        cursor: pointer;
+        width: max-content;
+        font-family: inherit;
+        font-size: 1.6rem;
+        margin-bottom: 0;
+      }
+    }
+  }
+}

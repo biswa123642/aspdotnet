@@ -1,0 +1,49 @@
+﻿---
+ID: "b38986e8-884f-400d-a503-6379538fb556"
+Parent: "46ba9eed-381a-465e-8c64-5a0be95ca3aa"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/OneWeb/Default/Pages/Article/Article Landing Page
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Core2/32x32/mail_box.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{E269FBB5-3750-427A-9149-7AA950B49301}"
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: |
+    {16B1698F-44F1-4632-BD3C-7BFDB58D7FB9}
+    {A7AEB4B3-99F3-439A-9F98-948D9228250B}
+    {0BEC8E55-1F86-4C69-94D3-8651E1A1D38A}
+    {2E64E7F3-1510-4293-94A8-09F7979AE56B}
+    {426A555B-0249-4303-A4DC-3BD0BEED8883}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{05E855A2-79FF-49FC-9A94-0859745B29A6}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220421T193600Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2f2b2cdc-432f-4a0f-94d1-7a1a56e3d828"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220627T105959Z

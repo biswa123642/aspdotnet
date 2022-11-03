@@ -1,0 +1,78 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "base/fonts/fonts";
+
+.component {
+  &.accordion {
+    > .component-content {
+      padding: 30px 6%;
+      background-color: $input-color;
+      border-radius: 6px;
+      .items {
+        padding: 15px;
+        background-color: $white;
+        border-radius: 6px;
+        @include respond-to(desktop) {
+            padding: 0px;
+            background-color: $input-color;
+            border-radius: 0px;
+
+        }
+
+        .item {
+          color: $heading1_color;
+          @include respond-to(desktop) {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            background-color: $white;
+            border-radius: 6px;
+            padding: 15px;
+
+        }
+        }
+      }
+    }
+    .toggle-header {
+      .label {
+        padding: 0px;
+      }
+      .component {
+        .field-heading {
+          color: $heading1_color;
+          font-size: 1.92rem;
+          font-weight: 700;
+          padding: 1rem 0;
+          @include Montserrat-font-stack();
+          margin-right: 1rem;
+          padding-right: 1.2rem;
+          &:before,
+          &::after {
+            background: $heading1_color;
+            right: 0px;
+          }
+          &:hover{
+            text-decoration: underline;
+            color: $primary-color;
+          }
+        }
+      }
+    }
+    .toggle-content {
+      .component {
+        .field-content {
+          padding: 0px;
+          @include Montserrat-font-stack();
+          color: $secondary-color;
+          font-size: 1.8rem;
+          p {
+            @include Montserrat-font-stack();
+            color: $secondary-color;
+            font-size: 1.8rem;
+            margin-bottom: 3rem;
+          }
+        }
+      }
+    }
+  }
+}
+

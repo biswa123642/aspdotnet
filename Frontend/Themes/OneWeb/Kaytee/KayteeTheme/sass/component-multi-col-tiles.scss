@@ -1,0 +1,32 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.multi-column-content-tiles {
+    &.variant-2 {
+      background: none;
+      a {
+        color: $white;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+      h3 {
+        color: $white;
+      }
+
+      .wrapper {
+        .inner-wrap {
+          .copy-wrap {
+            .card-body {
+              .col-left {
+                background-image: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+﻿---
+ID: "d925d990-be0d-4a42-8f3e-89617e7120ce"
+Parent: "5e732ae8-148e-4b84-ae04-97067fcaa79f"
+Template: "3c7c79e8-554d-46d9-bf1a-63da22a4ee6f"
+Path: /sitecore/content/OneWeb/ComfortZone/Data/Hero Carousel/HomePage/HomePage/Slide3
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Slide 3
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "007ef8df-edb2-4a64-a736-7a408093d2f5"
+      Hint: SlideImageMobile
+      Value: |
+        <image mediaid="{AAF22A3E-0E03-4881-AB9F-269FE281FA3F}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221007T061529Z
+    - ID: "3bfd4b9e-3049-4c8d-a9b5-6bebb83f895d"
+      Hint: SlideImage
+      Value: |
+        <image mediaid="{AAF22A3E-0E03-4881-AB9F-269FE281FA3F}" ></image>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b172a1f4-a694-4361-9835-9ea284c28299"
+    - ID: "a8933445-15ca-4e23-b171-a33892eb0ef8"
+      Hint: SlideCardTitle
+      Value: "WHY ARE MY CATS HISSING AND FIGHTING?"
+    - ID: "b34e88f9-8800-43b1-92b5-029fbfae12e9"
+      Hint: SlideCardLogo
+      Value: |
+        <image mediaid="{9648C688-6183-4969-9EB3-5A2863C0DE74}" ></image>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "bdb04894-83ee-4bf2-b582-f1a7bac2118c"
+      Hint: OverrideOverlayAlign
+      Value: "overlay-right"
+    - ID: "d691b058-6e52-4e4b-baae-a23aed9de6e0"
+      Hint: SlideCardSubText
+      Value: "If your household is struggling with cats acting mean and attacking one another, your cats may be responding to stress. Comfort Zone’s Multi-Cat Diffuser can help restore harmony to your home."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221007T120747Z
+    - ID: "e10d2e79-68cc-438a-a732-abf80f62be76"
+      Hint: SlideCardCTA
+      Value: |
+        <link text="FIND YOUR SOLUTION" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{948286A0-BBFE-48F5-8922-5C83C2B22F6F}" />

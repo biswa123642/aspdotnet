@@ -1,0 +1,115 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+@import "base/fontawesome/font-awesome";
+
+.component {
+  .footer-container-width {
+    .utility-navigation {
+      &.social-links {
+        .icon-container {
+          .field-heading {
+            margin-right: 2rem;
+            font-size: 1.2rem;
+            font-weight: 500;
+            padding-top: 2.5rem;
+          }
+        }
+      }
+    }
+    .component {
+      &.rich-text {
+        margin: initial;
+      }
+    }
+  }
+}
+
+@include respond-to(mobile-mid) {
+  .component {
+    .footer-container-width {
+      &.indent-top {
+        padding-top: 6rem;
+      }
+      .indent-bottom {
+        padding-bottom: 0;
+      }
+      .indent-top {
+        padding-top: 0;
+      }
+      .link-list {
+        h3 {
+          &:before {
+            content: "\002B";
+            color: #fff;
+            width: 20px;
+            height: 16px;
+            position: absolute;
+            right: 45px;
+            transform: translateY(-10%);
+            font-size: 24px;
+          }
+        }
+        .expanded {
+          &:before {
+            content: "\002D";
+          }
+        }
+        ul {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+#footer {
+  .link-list {
+    &.inline-link {
+      ul {
+        li {
+          &.even {
+            &:before {
+              display: none;
+            }
+          }
+
+          .field-link {
+            a {
+              color: #fff !important;
+              font-size: 1rem;
+              font-weight: 500;
+              margin-right: 0px;
+            }
+          }
+        }
+      }
+    }
+    .fa-phone{
+      pointer-events: none;
+    }
+  }
+  .component {
+    &.rich-text {
+      .component-content {
+        font-size: 1rem;
+        font-weight: 500;
+        padding-top: 2px;
+      }
+    }
+  }
+}
+
+.utility-navigation{
+  .field-heading{
+    @include montserrat-font-stack();
+    font-size: 1.4rem;
+    margin-bottom: 2.5rem;
+    font-weight: 500;
+  }
+    a{
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}

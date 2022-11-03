@@ -1,0 +1,30 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.content-center {
+  max-width: 55%;
+  margin-top: 40px;
+  text-align: center;
+  color: $white-color;
+  margin: auto;
+}
+
+@include respond-to(tab-horizontal-max) {
+  .content-center {
+    max-width: 95%;
+  }
+}
+
+.home-page {
+  .content-center {
+    h2 {
+      color: $white-color;
+    }
+    p {
+      margin-bottom: 30px;
+      font-size: 1.5rem;
+      line-height: 23px;
+      font-weight: 500;
+    }
+  }
+}

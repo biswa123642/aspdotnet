@@ -1,0 +1,45 @@
+﻿---
+ID: "29e01340-69f9-4cb0-ab3e-d02a0479a6dd"
+Parent: "dd11aecc-5cce-47b1-ad50-812206161589"
+Template: "ade9eff4-da78-4e26-9248-b01bd93eae95"
+Path: /sitecore/content/OneWeb/CLC/Data/Videos/Video
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "10dc336d-04a0-4ad7-acd9-7e820cfcb9cb"
+      Hint: MP4Movie
+      Value: |
+        <link linktype="media" target="" id="{53324407-747D-47BF-A353-B82271918BDE}" />
+    - ID: "22379a66-606e-4205-abee-f9ac597084dd"
+      Hint: PosterImage
+      Value: |
+        <image mediaid="{1ED6AEE5-E0DB-4F3C-9054-E5A67707064B}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221012T121542Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "75562c38-22f6-4b63-af7a-daf44f0730f1"
+      Hint: MovieDescription
+      Value: <h2>Q3'20 Meeting Recap</h2>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "accce1f0-0da5-45ee-ad40-e343bdc54d15"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221013T095157Z

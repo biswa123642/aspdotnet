@@ -1,0 +1,32 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.container {
+  &:not(.col-12) {
+    max-width: 127.4rem;
+    @include respond-to(desktop){
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+  }
+}
+.component{
+  &.header-shell{
+    .container {
+      &:not(.col-12) {
+        max-width: 127.4rem;
+      }
+    }
+  }
+}
+#footer{
+  .container{
+    &:not(.col-12) {
+      max-width: 127.4rem;
+      @media only screen and (min-width: 1500px){
+        max-width: 80%;
+      }
+    }
+  }
+}

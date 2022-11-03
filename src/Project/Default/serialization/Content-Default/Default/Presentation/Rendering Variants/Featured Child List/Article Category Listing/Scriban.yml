@@ -1,0 +1,105 @@
+﻿---
+ID: "20a57dbd-13d7-49d9-98a5-7e81fd65204a"
+Parent: "49c72842-04e7-410e-81e1-7aa246084563"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Featured Child List/Article Category Listing/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    {{func ImageRight(items)}}
+            <a href="{{items.url}}">
+                <div class="row">
+                    <div class="col-md-6 inner-wrap">
+                        <div class="component-subtitle" >
+                            <h2  style="color:{{items.FeaturedTitleTextColor.raw}}">{{items.FeaturedTitle.raw}}</h2>
+                        </div>
+                        <div class="component-description">
+                            <p>{{items.FeaturedDescription.raw}}</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="component-img">
+                            {{items.FeaturedImage}}
+                        </div>
+                    </div>
+                </div>
+            </a>
+    {{end}}
+    {{func ImageLeft(items)}}
+            <a  href="{{items.url}}">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="component-img">
+                            {{items.FeaturedImage}}
+                        </div>
+                    </div>
+                    <div class="col-md-6 inner-wrap">
+                        <div class="component-subtitle">
+                            <h2  style="color:{{items.FeaturedTitleTextColor.raw}}">{{items.FeaturedTitle.raw}}</h2>
+                        </div>
+                        <div class="component-description">
+                            <p>{{items.FeaturedDescription.raw}}</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+    {{end}}
+    {{selectedCategories = sc_followmany i_datasource "FeaturedChildList" }}
+    {{if selectedCategories|array.size <= 0 }}
+        {{selectedCategories = i_datasource.children}}
+    {{end}}
+    {{PageView = sc_parameter 'ArticleCategoryView'}}
+    <div class="page-listing featuredChildList-Variant1 image-hover-opacity">
+    {{for items in selectedCategories}}
+        {{itemtemplateid = items.template_id}}
+        {{if itemtemplateid | string.contains "4C358B662BC544DF88A6888A0C502E1D" }}
+            {{ case PageView }}
+                {{ when 'ImageLeft' }}
+                    {{ImageLeft items}}
+                {{ when 'ImageRight'}}
+                    {{ImageRight items}}
+                {{ when 'ImageLeftwithAlternateView'}}
+                     {{if for.odd}}
+                        {{ImageRight items}}  
+                    {{else}}
+                        {{ImageLeft items}}
+                    {{end}}
+                {{ when 'ImageRightwithAlternateView'}}
+                    {{if for.even}}
+                        {{ImageRight items}}
+                    {{else}}
+                        {{ImageLeft items}}
+                    {{end}}
+                {{ else }}
+                   {{ImageLeft items}}                
+            {{ end }}
+        {{end}}
+    {{end}}
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220722T072551Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "557f74f0-23aa-487a-8fc4-36c16cdff533"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220726T140126Z

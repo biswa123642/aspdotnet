@@ -1,0 +1,180 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+
+.component-solution-finder {
+    .solution-finder {
+        .breadcrumb-bg{
+            background-color: $top-anchor-hover;
+            color: $white-color; 
+            padding: 2rem 1.5rem;
+            @include respond-to(desktop){
+                padding: 2rem 10rem;
+            }
+            text-align: left;
+            .solution-finder-breadcrumb-container{
+                .solution-finder-breadcrumb{
+                    &::before{
+                        content: '';
+                        display: inline-block;
+                        background-image: url('../images/site-bg/breadcrumb.svg');
+                        width: 1.6rem;
+                        height: 1.5rem;
+                        background-repeat: no-repeat;
+                        vertical-align: middle;
+                        background-size: 100% 100%;
+                        margin: 0px 10px;
+                    }
+                    &:first-child{
+                        &::before{
+                            display: none;
+                        }
+                    }
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+      .questionDiv{
+        background-color: $top-anchor-hover;
+        color: $white-color;
+        padding: 1.5rem;
+        @include respond-to(desktop){
+            padding: 2rem 13rem 9rem;
+        }
+        >div{
+            font-size: 3.5rem;
+            @include Roboto-font-stack();
+            text-align: center;
+            font-weight: 400;
+        }
+      }
+      .answer-div[questionid="Water"]{
+        .answer-image{
+            display: none;
+        }
+        .answer-title{
+            font-size: 5.33rem !important;
+            font-weight: 500 !important;
+            background-image: none !important;
+            border: none !important;
+            box-shadow: none !important;
+        }
+        &:hover{
+            svg{
+                width: 400px;
+                height: 400px;
+               
+            }
+        }
+        .image-hover-wrapper{
+            width: 100% !important;
+        }
+    }
+    .answer-div[questionid=products]{
+        .answer-title{
+            background-image: none !important;
+            box-shadow: none !important;
+            border: none !important;
+            text-align: left;
+            font-size: 2rem !important;
+            padding: 1rem 0 !important;
+        }
+        .answer-title + div{
+            position: relative;
+            z-index: 2;
+            display: block;
+            width: 100%;
+            font-weight: 100;
+            text-align: left;
+        }
+    }
+      .answersDiv{
+        background-color: $top-anchor-hover;
+        color: $white-color;
+        padding-bottom: 5rem;
+        @include respond-to(desktop){
+            padding-bottom: 11rem;
+        }
+        .sales-rep-button{
+            display: none;
+        }
+        .answer-div{
+            width: 27rem;
+            margin: 2rem 3rem;
+            @include respond-to(desktop){
+                width: 35rem;
+                margin: 0 5rem 3rem;
+            }
+            .answer-image{
+                max-height: 350px;
+                max-width: 350px;
+                width: 100%;
+                z-index: 2;
+                position: relative;
+                overflow: hidden;
+                border-radius: 0.5rem;
+            }
+            .image-hover-wrapper{
+                position: absolute;
+                z-index: 1;
+                top: 50%;
+                left: 50%;
+                width: 200%;
+                transform: translateX(-50%) translateY(-50%);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                svg ellipse{
+                    opacity: 0;
+                    transition: all ease-in-out 250ms;
+
+                }
+            }
+            &:hover{
+                svg{
+                    #Ellipse_1, #Ellipse_4{
+                        opacity: 1;
+                        z-index: 0;
+                    } 
+                } 
+            }
+            .answer-title{
+                width: 100%;
+                @include Roboto-font-stack();
+                font-size: 1.393rem;
+                background-image: none;
+                border-radius: 2.5rem;
+                font-weight: 400;
+                border: none;
+                box-shadow: none;
+                color: $white-color;
+                transition: filter ease-in-out 150ms;
+                z-index: 2 !important;
+                padding: 1rem 1.5rem;
+                position: relative;
+                text-transform: capitalize;
+                @include respond-to(desktop){
+                    background-image: linear-gradient(#EA972D, #D15E14);
+                    border-radius: 2.5rem;
+                    border: 2px solid $white-color;
+                    box-shadow: $box-shadow;
+                }
+                @include respond-to(extra-largedesktop){
+                    font-size: 1.741rem;
+                }
+                &:hover,
+                &:focus {
+                    text-decoration: none;
+                    background-image: linear-gradient(#656868, #000000);;
+                    box-shadow: $box-shadow;
+                    border: 2px solid;
+                }
+            }
+           
+        }
+      }
+
+    }
+}

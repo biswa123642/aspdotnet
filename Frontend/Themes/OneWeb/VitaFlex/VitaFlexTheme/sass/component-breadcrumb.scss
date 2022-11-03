@@ -1,0 +1,35 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    .breadcrumb {
+      padding: 0;
+      @include respond-to(tab-horizontal-max) {
+        display: none;
+      }
+      .breadcrumb-item{
+        margin-left: 0;
+      }
+      .separator {
+        color: $gray;
+        font-weight: normal;
+        font-family: monospace;
+        font-size: 14px;
+      }
+      a {
+        text-transform: capitalize;
+        color: $light-dark;
+        font-size: 1.4rem;
+        font-weight: normal;
+      }
+      .breadcrumb-item:not(.last) {
+        a {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+
+  
+  

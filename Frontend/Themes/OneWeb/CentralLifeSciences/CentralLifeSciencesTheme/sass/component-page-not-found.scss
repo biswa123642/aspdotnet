@@ -1,0 +1,34 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  .content {
+    .field-content {
+      .page-not-found {
+        max-width: 364px;
+        margin: auto;
+        text-align: center;
+        padding: 5px 0px;
+        @include respond-to(desktop) {
+          margin-top: 11rem;
+        }
+        h1,
+        h2 {
+          font-size: 2rem;
+          line-height: 2.5rem;
+          margin-bottom: 4rem;
+          font-weight: 600;
+          @include respond-to(desktop) {
+            font-size: 5rem;
+            line-height: 6.1rem;
+          }
+        }
+        a {
+          font-weight: 600;
+          font-size: 3rem;
+          @include fieldwork-hum-font-stack();
+        }
+      }
+    }
+  }
+}

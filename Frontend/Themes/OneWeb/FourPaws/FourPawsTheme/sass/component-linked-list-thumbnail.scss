@@ -1,0 +1,128 @@
+@import "abstracts/mixins";
+@import "abstracts/vars";
+@import "base/fontawesome/font-awesome-mix-var";
+
+.component {
+  &.linked-thumbnail {
+    &.vertical {
+      margin-top: 0px;
+      h3 {
+        border-bottom: 4px solid $flip-rollover;
+        color: $light-grey-heading;
+      }
+    }
+    &.horizontal-list {
+      ul {
+        display: flex;
+        justify-content: center;
+      }
+    }
+    .component-content {
+      // padding-top: 3rem;
+      h3 {
+        color: $bg-blue-active;
+        font-weight: 600;
+        font-size: 2.5rem;
+      }
+    }
+    &.mt-0 {
+      .component-content {
+        padding-top: 0;
+        li {
+          .field-image {
+            img {
+              width: 18rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include respond-to(desktop) {
+  .component {
+    &.linked-thumbnail {
+      margin-top: -150px;
+      margin-bottom: 6rem;
+      .slick-track {
+        left: 5rem;
+      }
+      ul {
+        li {
+          a {
+            display: block;
+          }
+          img {
+            width: 11rem;
+          }
+        }
+      }
+      &.horizontal-list {
+        margin-top: -12.2rem;
+        &:not(.image-hover-opacity) {
+          ul {
+            width: 50%;
+            margin: auto;
+            li {
+              width: 100%;
+              text-align: center;
+            }
+          }
+        }
+        ul {
+          li {
+            &.last {
+              img {
+                padding: 0px;
+              }
+            }
+          }
+        }
+      }
+      &.vertical {
+        h3,
+        h2 {
+          color: $light-grey-heading;
+          font-weight: 600;
+          border-bottom: 4px solid$text-heading-blue;
+          text-transform: uppercase;
+          font-size: 2.1rem;
+          line-height: 1.1;
+        }
+      }
+    }
+  }
+}
+@include respond-to(tablet) {
+  .multi-column-content-tiles{
+    &.flip-over-tiles{
+      // .is-mobile-carousel{
+      //   .flip-over-image{
+          max-width:50%;
+          margin: auto;
+      //   }
+      // }
+    }
+  }
+}
+
+@include respond-to(all-mobile) {
+
+  .slick-layout{
+    .slick-slider{
+      .slick-track{
+       display: table-cell!important;//To overide slick functionality
+        .slick-slide{
+          width: 50%!important;
+          .field-image{
+            img{
+              width: 22rem!important;;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

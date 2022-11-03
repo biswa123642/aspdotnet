@@ -1,0 +1,16 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+.component{
+    &.content{
+        @include respond-to(desktop){
+            .half-list{ 
+                display: inline-block;
+                li{
+                    width: 44% ;
+                    float: left;                  
+                    list-style: disc;
+                }
+            }
+        }
+    }
+}

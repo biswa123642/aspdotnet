@@ -1,0 +1,75 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.related-articles {
+    .inner-wrap {
+      background: $product-bg-secondary;
+      padding: 1.9rem;
+
+      h3 {
+        color: $body-color;
+        font-size: 2.88rem;
+        text-transform: none;
+      }
+
+      .article-tag {
+        display: none;
+      }
+
+      .caption {
+        font-size: 1.8rem;
+        color: $body-color;
+        font-weight: 700;
+        margin: 1rem 0 2rem 0;
+      }
+
+      a {
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+          text-decoration-color: $black;
+        }
+      }
+    }
+  }
+
+  &.content {
+    &.related-articles-horizontal-view {
+      .copy-wrap {
+        background: $white;
+
+        > div {
+          padding: 3rem 4rem;
+        }
+      }
+      h2 {
+        font-size: 2.88rem;
+        background: $product-bg-secondary;
+        padding: 6px 2rem;
+      }
+
+      .inner-wrap {
+        .body-copy {
+          h3 {
+            line-height: 1.2rem;
+            a {
+              color: $article-gray;
+              font-size: 1.44rem;
+              font-weight: 700;
+              text-transform: none;
+              @include Arial-font-stack();
+            }
+          }
+          a {
+            p {
+              font-size: 1.2rem;
+              color: $article-gray;
+            }
+          }
+        }
+      }
+    }
+  }
+}

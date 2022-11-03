@@ -1,0 +1,90 @@
+﻿---
+ID: "4f166cd2-80cd-4d28-8b26-f301b247b8f7"
+Parent: "ae4092cd-e1d8-4759-baec-43936b5bace7"
+Template: "dd22f1b3-bd87-4db2-9e7d-f7a496888d43"
+Path: /sitecore/system/Modules/PowerShell/Script Library/OneWeb/Solution Finder/Scheduled Task Versions/Rebuild Solution Finder JSONs
+SharedFields:
+- ID: "9135200a-5626-4dd8-ab9d-d665b8c11748"
+  Hint: __Never publish
+  Value: 1
+- ID: "b1a94ff0-6897-47c0-9c51-aa6acb80b1f0"
+  Hint: Script
+  Value: |
+    Import-Function Get-DailyJobTimeLimit
+    Import-Function Generate-SolutionFinderJSON
+    Import-Function Publish-Workaround
+    
+    $TaskItem = Get-Item -Path "/sitecore/system/Tasks/Schedules/OneWeb/Rebuild Solution Finder JSONs"
+    #if ( (Get-DailyJobTimeLimit $TaskItem) -eq $false -and ((get-user -current).localname) -ne "admin" ){ exit }
+    
+    $DebugPreference = "SilentlyContinue"
+    $SPSFTemplate = get-item master: -ID "{B3A89C48-C0FA-438E-AD7D-383F2D8B44C1}"
+    $SystemLanguagesPath = "/sitecore/system/Languages"
+    $linkDb = [Sitecore.Globals]::LinkDatabase
+    
+    $SPSFRefs = $linkDb.GetReferrers($SPSFTemplate)
+    
+    foreach ($SPSFRef in $SPSFRefs){
+        $SPSFItemID = $SPSFRef.SourceItemID
+        $SPSFItem = get-item master: -ID "$SPSFItemID"
+        if ($SPSFItem.TemplateID -ne $SPSFTemplate.ID){ continue }
+        "{0,-40} {1} " -f $SPSFItem.ID, $SPSFItem.FullPath
+        
+        $languages = Get-ChildItem -Path $SystemLanguagesPath
+        
+        foreach($lang in $languages)
+        {
+            $item = Get-Item -Path $SPSFItem.fullpath -Language $lang.Iso
+            
+            if($item -ne $null)
+            {
+                Write-Host $item.Paths.FullPath
+                Generate-SolutionFinderJSON ($item) ($lang.Iso)
+                Publish-Workaround ($item) (Get-Database "web")
+            }
+        }
+    }
+    
+    
+    ##----- Keep this for Quick Validation for site specific
+    # $languages = Get-ChildItem -Path $SystemLanguagesPath
+    # foreach($lang in $languages)
+    # {
+    #     $item = Get-Item -Path "master:/sitecore/content/OneWeb/GardenTech/Data/Solution Finder/Solution Finder" -Language $lang.Iso
+          
+    #     if($item -ne $null)
+    #     {
+    #         # Write-Host $item.Paths.FullPath
+    #          Generate-SolutionFinderJSON ($item) ($lang.Iso)
+    #           Write-Host $linkUrl
+    #     }
+    # }
+    
+    Write-Host "Complete" -ForegroundColor Red
+    
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220616T185421Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dc1dbdca-0871-4176-bf6a-cd3e58e31f91"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220719T205008Z

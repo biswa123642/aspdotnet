@@ -1,0 +1,93 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+#footer {
+  padding-top: 8.5rem;
+  padding-bottom: 4.6rem;
+  color: #000;
+  position: relative;
+  &:before {
+    content: "";
+    background-color: #707070;
+    height: 1px;
+    width: calc(100% - 60px);
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 30px;
+  }
+  .component {
+    &content,
+    &.rich-text {
+      color: #000;
+      font-family: "Muli", sans-serif;
+      font-size: 1.2rem;
+      font-weight: 600;
+      max-width: 500px;
+      margin: 0 auto;
+      line-height: 1.42857143;
+      text-align: center;
+      p {
+        font-size: 1.2rem;
+        margin: 0 0 1rem 0;
+      }
+    }
+
+    &.link-list {
+      margin-top: 25px;
+      text-align: center;
+      ul {
+        align-items: center;
+        justify-content: center;
+        li {
+          .field-link {
+            a {
+              color: #000;
+              font-family: "Muli", sans-serif;
+              font-size: 2.1rem;
+              font-weight: 600;
+              line-height: 1.5;
+              font-style: normal;
+            }
+          }
+        }
+      }
+    }
+    &.image{
+      text-align: center;
+    }
+  }
+}
+
+@include respond-to(tab) {
+  #footer {
+    .component {
+    }
+  }
+}
+@include respond-to(desktop) {
+  #footer {
+    &:before {
+      width: calc(100% - 30px);
+      left: 15px;
+    }
+    .component {
+      &.image{
+        text-align: right;
+      }
+      &content,
+    &.rich-text {
+      text-align: left;
+      max-width: 500px;
+      margin: 0;
+    }
+    &.link-list {
+      text-align: left;
+      margin-top: 0;
+      ul{
+        justify-content: flex-start;
+      }
+    }
+    }
+  }
+}

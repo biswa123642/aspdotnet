@@ -1,0 +1,101 @@
+﻿---
+ID: "11405d9c-ace5-4c47-835d-7d821c069d8e"
+Parent: "45b039a4-d895-47c7-9a30-21ab882774e5"
+Template: "0bec8e55-1f86-4c69-94d3-8651e1a1d38a"
+Path: /sitecore/content/OneWeb/Default/Home/Development/WhereToBuy
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{AA37DA23-15A1-47A9-9438-56FBA3301815}"
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: "{FC75DCA0-840C-47E5-ABE8-352389B012D9}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{E565CB47-6924-49AC-A0FC-08A3C41BA4C4}"
+              p:before="*"
+              s:id="{99A633FC-B9A9-44A0-B78A-BCBB08DD02C9}"
+              s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;FieldNames=%7b2C3A093F-A398-4FEB-9726-50D59E22DF34%7d&amp;DynamicPlaceholderId=5&amp;CacheClearingBehavior=Clear+on+publish&amp;Reset Caching Options"
+              s:ph="main" />
+            <r
+              uid="{217ED395-2F73-4E2E-94C0-04E2DD5C23D1}"
+              p:after="r[@uid='{E565CB47-6924-49AC-A0FC-08A3C41BA4C4}']"
+              s:ds="{D5D6C044-6F26-4824-95F2-C3DDA49AB590}"
+              s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+              s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;FieldNames&amp;DynamicPlaceholderId=6&amp;CacheClearingBehavior=Clear+on+publish&amp;Reset Caching Options"
+              s:ph="main"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{35D9A36D-C2CB-4B71-BAB7-D5360590F283}"
+              p:after="r[@uid='{217ED395-2F73-4E2E-94C0-04E2DD5C23D1}']"
+              s:ds="local:/Data/Links"
+              s:id="{189D0B61-1B80-4180-8F7A-25BCD63692BB}"
+              s:par="Reset Caching Options&amp;GridParameters&amp;FieldNames=%7B1B7E81AF-A74E-4013-929B-E2ECF25B1ED8%7D&amp;Styles&amp;TitleHeadingLevel=%7B6A44D9C6-61F0-4B69-8E1A-FDC27F96BA0F%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+              s:ph="/main/container-2/column-1-3"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{411B0852-D494-47F2-BE8A-2C4B9D3C0CCE}"
+              p:after="r[@uid='{35D9A36D-C2CB-4B71-BAB7-D5360590F283}']"
+              s:ds="local:/Data/WhereToBuy"
+              s:id="{064D8EB1-51D4-41AA-90DD-166CA0D5F899}"
+              s:par="Reset Caching Options&amp;GridParameters=%7b908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7d&amp;FieldNames=%7bDDA8D06E-09FD-4A6D-930E-7891DBA3AE74%7d&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1&amp;CacheClearingBehavior=Clear+on+publish"
+              s:ph="/main/container-2/column-2-3"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{E8B3A8AD-AA5D-43E6-B650-2BB1921443C9}"
+              p:after="r[@uid='{411B0852-D494-47F2-BE8A-2C4B9D3C0CCE}']"
+              s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+              s:par="DynamicPlaceholderId=3&amp;ColumnWidth6&amp;Styles4&amp;SplitterSize=2&amp;ColumnWidth3&amp;Reset Caching Options&amp;Styles7&amp;ColumnWidth1=%7bD503428B-F850-42EF-98DF-923F15582406%7d&amp;ColumnWidth4&amp;Styles3&amp;EnabledPlaceholders=1%2c2&amp;Styles1&amp;ColumnWidth8&amp;Styles2&amp;ColumnWidth7&amp;Styles6&amp;Styles5&amp;CacheClearingBehavior=Clear+on+publish&amp;ColumnWidth2=%7b47AF4C5D-C5CA-4D7C-B601-D74F82035C8A%7d&amp;Styles8&amp;ColumnWidth5"
+              s:ph="/main/container-2" />
+            <r
+              uid="{A006B316-B41C-410E-A556-31FC8C71F008}"
+              p:after="*[1=2]"
+              s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+              s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7b908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7d&amp;DynamicPlaceholderId=2&amp;BackgroundImage&amp;CacheClearingBehavior=Clear+on+publish&amp;Reset Caching Options"
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220513T075652Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: WhereToBuy
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: 
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Where to Buy Nylabone® Products Near You
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e501f51f-7b5b-44e6-be52-cd27be3e4037"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220519T140058Z

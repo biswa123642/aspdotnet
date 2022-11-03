@@ -1,0 +1,10 @@
+.component {
+    &.video {
+        padding: 1.5rem;
+
+        iframe {
+            width: 100%;
+            min-height: 20rem;
+        }
+    }
+}

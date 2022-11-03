@@ -1,0 +1,106 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+
+    &.hero-carousel {
+        &:not(.mulitple-bottom-links) {           
+            .slide:not(.wrap),
+            .slide {
+                background-color: transparent !important;
+            }
+
+        }
+
+        &.responsive-carousel {
+
+            // this will move into defaut theme
+            :not(.mulitple-bottom-links) {
+                .slick-slider {
+                    .slick-dots {
+                        bottom: 0;
+                        top: auto;
+                        left: 3%;
+                        right: auto;
+                        width: auto;
+                        display: none !important;
+                        li {
+                            border: 1px solid $white-color;
+                            background-color: $white-color;
+
+                            &.slick-active {
+                                border: 1px solid $footer-color;
+                                background-color: $footer-color;
+                            }
+                        }
+                    }
+
+                    .slick-prev {
+                        display: block !important;
+                        background-image: url('../images/site-bg/icon-left.png');
+                    }
+                    .slick-next{
+                        display: block !important;
+                        background-image: url('../images/site-bg/icon-right.png');
+                    }
+
+                }
+            }
+
+        }
+
+        &.responsive-carousel:not(.mulitple-bottom-links) .slide:not(.wrap),
+        .component.hero-carousel.variant-default :not(.mulitple-bottom-links) .slide:not(.wrap) {
+            padding-top: 1.8%;
+            padding-bottom: 0rem;
+            background-position: center center;
+            background-size: 0%;
+            margin-right: 0;
+            min-height: auto;
+
+            @include respond-to(desktop) {
+                padding-top: 31.8%;
+                margin-right: 30px;
+                padding-bottom: 0;
+                background-size: auto;
+            }
+
+            .container {
+                padding: 16px;
+                left: auto;
+                right: auto;
+                max-width: 100%;
+                position: absolute;
+                top: 0;
+
+                @include respond-to(desktop) {
+                    max-width: 57rem;
+                    left: 35%;
+                    top: 50%;
+                }
+
+                .body-copy {
+                    background-color: transparent;
+                    max-width: 100%;
+                    width: 100%;
+
+                    .caption {
+                        max-width: 100%;
+
+                        a {
+                            margin-top: 2rem;
+                        }
+                    }
+                }
+            }
+
+            .mobile-img {
+                position: relative;
+                bottom: 0;
+                left: 0;
+            }
+        }
+
+    }
+
+}

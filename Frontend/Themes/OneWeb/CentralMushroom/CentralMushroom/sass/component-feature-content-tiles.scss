@@ -1,0 +1,35 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.feature-content-tiles {
+        &.variant-5 {         
+           
+            h2 {
+                font-size: 30px;
+                font-weight: 500;
+                color: $secondary-color;
+                margin-bottom: 40px;
+            }
+            .field-data {
+                text-align: center;
+                .field-title,
+                h2 {
+                    font-size: 24px;
+                    color: $secondary-color;
+                    font-weight: 500;
+                    margin-bottom: 10px;
+                }
+           
+            }
+         
+       
+        }
+     
+    }
+   
+    
+}
+
+
+

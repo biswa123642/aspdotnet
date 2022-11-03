@@ -1,0 +1,36 @@
+﻿---
+ID: "e1ba4714-9c1e-44e4-80c1-5c5fc162d0a7"
+Parent: "94d12a6e-eee9-40a9-b810-54b882592e75"
+Template: "8455b301-b57b-43ad-a4f4-4e83ffb31905"
+Path: "/sitecore/content/OneWeb/Adams/Data/Solution Finder Folder/Solution Finder/Solution/Fogger/FP-MH-FOG-Adams Flea Tick Indoor Fogger"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220720T060405Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fc97cb26-4b9f-416e-9999-45c3e7c16dac"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "cbb746c0-f90e-4acc-8bee-98084234b389"
+      Hint: SolutionProducts
+      Value: "{FFCEDB8C-B360-43F9-9DF1-3FD14C44B81C}"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220720T060542Z
+    - ID: "ecff41e9-ad3e-4503-9b0c-0f5d2965c749"
+      Hint: RequiredAnswers
+      Value: |
+        {24F21D52-9EF8-4BD2-93EB-6E34AB1BAA8F}
+        {9162C6DB-0F79-443B-8C1C-5638075D45AF}
+        {5E14912A-3635-4652-AFC2-35787DC49D0C}

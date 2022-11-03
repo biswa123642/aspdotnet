@@ -1,0 +1,86 @@
+﻿---
+ID: "37281df1-a7e9-483e-9b3e-846f093fa8a6"
+Parent: "cd11a443-cf56-43ce-9a20-c4cf3e9a9c82"
+Template: "d68e3c5a-253d-4765-be54-b7b18c350cb1"
+Path: /sitecore/content/OneWeb/EarthJuice/Presentation/Partial Designs/Common/Header
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: header
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{ADD40FD8-050D-468C-9769-12878D4F4AE9}"
+          p:before="*"
+          s:id="{31182E20-2590-4F8E-93E2-EE3CBAC58983}"
+          s:par="StickyFunctionality&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1&amp;FieldNames=%7B39522A7B-29C2-4CFE-88AC-F91459B7379F%7D"
+          s:ph="/header/container-4" />
+        <r
+          uid="{F3BE34B0-DBB9-4441-9F3E-B13F3B9963B5}"
+          p:after="r[@uid='{ADD40FD8-050D-468C-9769-12878D4F4AE9}']"
+          s:ds="{7D89610E-A073-46B7-8AD4-ED0B99C80C4D}"
+          s:id="{6DDA07A9-18D3-47A0-AB74-DF54956DD5F1}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;RenderingIdentifier"
+          s:ph="/header/container-4/headerleft-1-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{1E01916F-4D66-47EE-946D-0E4F24F5E707}"
+          p:after="r[@uid='{F3BE34B0-DBB9-4441-9F3E-B13F3B9963B5}']"
+          s:ds="{758911D3-0F16-40A0-AC0B-7083937DC333}"
+          s:id="{F8E3B6D3-64C9-4ED0-8922-107BCA5FA411}"
+          s:par="SourceType=%7B90105CB9-2CFD-4151-9FA8-6CDF92B158C2%7D&amp;Reset Caching Options&amp;ListSignature&amp;PageSize&amp;Offset&amp;GridParameters=%7B2D1405E2-266F-4CD9-B9AB-1B27309D25ED%7D&amp;FieldNames=%7BDDC8D3F2-027B-4064-BA7A-F3F6F9202AD8%7D&amp;Styles=%7BD998DE26-C59E-43DE-ABD2-90FDE5C374E6%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/header/container-4/headerright-2-1" />
+        <r
+          uid="{ACE2E3A6-A7AF-4B16-B6F3-1F829BB0D0F3}"
+          p:after="r[@uid='{1E01916F-4D66-47EE-946D-0E4F24F5E707}']"
+          s:ds=""
+          s:id="{7F06A24A-1051-4B98-9347-22616A582210}"
+          s:par="PlaceholderText&amp;DisableSearchTextBox&amp;DisableAutoSugession&amp;SearchResultPage=%7BAC66168F-38D6-405F-A29F-626E00893605%7D&amp;MinSuggestionsTriggerCharacterCount=3&amp;MaxPredictiveResultsCount=10&amp;MaxProductResultsCount=5&amp;MaxArticleResultsCount=3&amp;MaxOthersResultCount=2"
+          s:ph="/header/container-4/headerright-2-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{863C0BF0-D62A-4324-9B6C-DC00E7F7FE97}"
+          p:after="r[@uid='{ACE2E3A6-A7AF-4B16-B6F3-1F829BB0D0F3}']"
+          s:ds="{E38CE7C1-A9C4-4745-886B-06963945D497}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B5FA85C51-051E-4214-A69D-6CF93F3B34D0%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/header/container-4/headerleft-1-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{ABF2C886-94D9-422E-93A1-EDAE7DAEB474}"
+          p:after="*[1=2]"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="header" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220609T113431Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e0c9ad70-7141-427a-b47e-745665f5f535"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220627T074504Z

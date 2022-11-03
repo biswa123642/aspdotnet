@@ -1,0 +1,62 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.feature-content-tiles {
+    &.variant-2 {
+      .row{
+        .col{
+          margin-bottom:3rem;
+          @include respond-to(desktop){
+            margin-bottom:1rem;
+          }
+        }
+      }
+      .promo-tile {
+        .field-data {
+          padding: 0 15px;
+          @include respond-to(desktop){
+            padding: 1.5rem 0;
+          }
+          h2 {
+            color: $primary-color-green;
+            font-weight: 900;
+            font-size: 2.1rem;
+            margin-top:0.5rem;
+            margin-bottom: 0.5rem;
+            // margin-bottom: 0;
+            // @include respond-to(desktop){
+            //   margin-bottom: 1rem;
+            // }
+          }
+          .field-subtext {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            width: 100% !important;
+            min-height: auto !important;
+            @include respond-to(desktop){
+              font-size: 1.8rem;
+              margin-bottom: 2.5rem;
+              min-height: 5.14rem !important;
+            }
+          }
+          .sxa-btn {
+            a {
+              background-color: $primary-color-green;
+              color: $white;
+              text-decoration: none;
+              font-weight: 700;
+              @media screen and (max-width:767px){
+                font-size: 1.3rem;
+              }
+              &:hover {
+                background-color: $anchor-hover-green;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

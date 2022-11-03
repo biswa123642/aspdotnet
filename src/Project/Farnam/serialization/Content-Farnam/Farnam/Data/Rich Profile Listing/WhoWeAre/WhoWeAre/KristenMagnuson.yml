@@ -1,0 +1,52 @@
+﻿---
+ID: "1c1a81f7-54cd-4982-b24f-7fc94431e73c"
+Parent: "eff08337-7be1-4c80-96cb-bc10eaa2a6d6"
+Template: "116f3617-03e9-4be7-9cfb-b2cb5e08d001"
+Path: /sitecore/content/OneWeb/Farnam/Data/Rich Profile Listing/WhoWeAre/WhoWeAre/KristenMagnuson
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 900
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Kristen Magnuson
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "03106243-1f19-4934-904f-966bb9d452f2"
+      Hint: ProfileImage
+      Value: |
+        <image mediaid="{D65A5D57-9B8D-43C7-B377-E72968C2F7F4}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220718T161731Z
+    - ID: "3de3b0c1-9b74-43f9-927b-6af32bb271d0"
+      Hint: RelatedProducts
+      Value: |
+        {A63CA4ED-7496-4BEE-A1B6-A45393818239}
+        {2B4543C0-DE6B-464A-8135-4D8EB5C75E21}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c0273c6f-7b7a-44c8-b5ca-4dfd49b3ec74"
+    - ID: "ae3a10af-37b7-47f7-9de6-2c3e946e47e6"
+      Hint: ProfileHeading
+      Value: "<p>What Kristen keeps in stock at the barn:</p>"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220722T043020Z
+    - ID: "dbc7e3d3-a46b-4b2c-a60c-5d2361c2aeed"
+      Hint: ProfileTitle
+      Value: Kristen Magnuson
+    - ID: "e9b19b2d-8185-4f40-b0b0-b46bee945332"
+      Hint: ProfileDescription
+      Value: <p>Kristen has been leading the finance effort at Farnam since 2005 and is currently Director of Finance for Central Life Sciences. She owns three cats. Although she is not a horse owner, she loves working with such a passionate and knowledgeable team.</p>

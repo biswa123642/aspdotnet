@@ -1,0 +1,53 @@
+﻿---
+ID: "3a5ca07e-ca2e-46af-8e06-951213288bad"
+Parent: "76319746-dd4a-44a6-9b2f-e3ec40e85230"
+Template: "f3e6da4e-5d19-49b8-9737-2ee2e9067757"
+Path: /sitecore/content/OneWeb/Central/Data/Hero Banner/About us/csr strategy/Employee well being
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "055a2c41-4d44-4441-b589-b86f39cc64e5"
+      Hint: HeroBannerContent
+      Value: |
+        <h3>Our Commitment</h3>
+        <p>Supporting the holistic well-being of our employees</p>
+        <h3>Our Focus Areas</h3>
+        <ul>
+            <li>Embrace diversity and inclusion</li>
+            <li>Invest in learning and development</li>
+            <li>Make employees safety a top priority</li>
+        </ul>
+    - ID: "0f23895f-2926-493e-8ff0-0d2e0f0b749d"
+      Hint: Overlay
+      Value: 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220809T092418Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{B437E369-D685-4715-A7BD-E99A0D4BD175}" alt="employee" height="" width="" hspace="" vspace="" ></image>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1d2d9f07-dfb3-4960-bb08-93e70e6e8c90"
+    - ID: "a6772724-fc83-4e63-a2f6-a893b8329b9e"
+      Hint: HeroBannerAlignment
+      Value: "Right-Align"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: Employee Wellbeing
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220809T110514Z
+    - ID: "f1115acb-7ba4-48e9-8262-cb95f1f52313"
+      Hint: OverlayColor
+      Value: #FFFFFF

@@ -1,0 +1,177 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+#footer {
+    .component {
+        &.container {
+            padding: 0 3rem;
+        }
+
+        &.file-type-icon-media-link {
+            margin: 3rem 0rem;
+
+            a {
+                max-width: 30rem;
+            }
+        }
+
+        &.link-list {
+            &.inline-link {
+                ul {
+                    display: block;
+
+                    li {
+                        &.even {
+                            &::before {
+                                display: none;
+                            }
+                        }
+
+                        .field-link {
+                            a {
+                                color: $color-primary  !important;
+                                font-weight: 500;
+                                @include fieldwork-hum-font-stack();
+
+                                &:hover {
+                                    text-decoration: none;
+                                    border-bottom: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.rich-text {
+            padding-top: 2.5rem;
+            padding-bottom: 2.5rem;
+
+            .component-content {
+                font-size: 1.6rem;
+                font-weight: 600;
+                @include fieldwork-hum-font-stack();
+            }
+        }
+
+        &.utility-navigation {
+            &.brand-listing {
+                .brand-img-container {
+                    justify-content: flex-start;
+                    padding-top: 3rem;
+                    padding-bottom: 3rem;
+                }
+            }
+        }
+
+        @include respond-to(desktop) {
+            &.file-type-icon-media-link {}
+
+            &.link-list {
+                &.inline-link {
+                    ul {
+                        display: flex;
+
+                        li {
+                            padding: 5px 20px 5px 0px;
+
+                            .field-link {
+                                a {
+                                    margin: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.utility-navigation {
+                &.brand-listing {
+                    .inner-wrapper {
+                        padding: 0 .5rem;
+                    }
+
+                    .brand-img-container {
+                        justify-content: center;
+                        padding-top: 0rem;
+                        padding-bottom: 0rem;
+                        float: right;
+                        margin-top: -9rem;
+
+                        .field-image {
+                            img {
+                                &:hover {
+                                    transform: scale(1.2);
+                                    transition: all 0.2s ease-in-out;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .position-left {
+                width: 100%;
+                max-width: 100%;
+                flex: auto;
+            }
+
+            .position-right {
+                width: 100%;
+                max-width: 100%;
+                flex: auto;
+            }
+        }
+
+        @include respond-to(large-desktop) {
+            &.utility-navigation {
+                &.brand-listing {
+                    .inner-wrapper {
+                        padding: 0 .9rem;
+                    }
+
+                    .brand-img-container {
+                        justify-content: center;
+                        padding-top: 0rem;
+                        padding-bottom: 0rem;
+                        float: right;
+                        margin-top: -9rem;
+                    }
+                }
+            }
+
+            &.link-list {
+                &.inline-link {
+                    ul {
+                        li {
+                            padding: 5px 50px 0px 0px;
+                        }
+                    }
+                }
+            }
+        }
+
+        @media only screen and (min-width: 1500px) {
+            &.file-type-icon-media-link {
+                a {
+                    max-width: 30%;
+                }
+            }
+        }
+
+        @media screen and (max-width:991px) {
+            .component {
+                &.utility-navigation {
+                    &.brand-listing {
+                        .brand-img-container {
+                            justify-content: flex-end;
+                            flex-direction: row-reverse;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

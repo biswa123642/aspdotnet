@@ -1,0 +1,39 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.product-variant {
+    h4,
+    select {
+      color: $text-blue-primary;
+      font-size: 2rem;
+      font-weight: 900;
+      @include urw-din-font-stack();
+    }
+    select {
+      border: 0.1rem solid $text-blue-primary;
+      background-image: url("../images/Dropdown_Arrow_Red.png");
+      background-repeat: no-repeat;
+      background-position: 97% 50%;
+      width: 100%;
+      appearance: none;
+      background-color: $white;
+    }
+  }
+}
+
+.ps-ribbon {
+  div {
+    div {
+      &.ps-tab-dualColumn {
+        .ps-local-heading,
+        .ps-online-heading {
+          color: $white;
+          font-weight: 400;
+          @include urw-din-font-stack();
+        }
+      }
+    }
+  }
+}

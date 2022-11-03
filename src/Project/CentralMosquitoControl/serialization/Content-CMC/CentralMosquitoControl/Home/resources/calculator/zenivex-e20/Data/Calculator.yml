@@ -1,0 +1,55 @@
+﻿---
+ID: "b2966fe0-e286-488c-89b8-84c9bf586a1a"
+Parent: "bb29a828-834e-4d9f-8ba1-22a77ec25654"
+Template: "2ad23d55-aecd-43dd-ae0d-72d2ebcba60f"
+Path: "/sitecore/content/OneWeb/CentralMosquitoControl/Home/resources/calculator/zenivex-e20/Data/Calculator"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24cce27c-05db-4473-a1ed-e69b1725ff1c"
+      Hint: HtmlCode
+      Value: |
+        {
+        "fields": [
+        {
+        "label": "Enter price per gallon of Zenivex ($):",
+        "id": "enter_price_per_gallon",
+        "type": "input"
+        },
+        {
+        "label": "Enter per acre application rate (lbs. of A.I. per acre):",
+        "id": "application_rate",
+        "type": "input"
+        },
+        {
+        "label": "Cost per acre:",
+        "id": "",
+        "type": "output",
+        "formula": "{enter_price_per_gallon}/1.48*{application_rate}",
+        "format": "currency"
+        }
+        ]
+        }
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220930T065756Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d8db5dd0-22a1-4df6-a975-dc7a69a7df6b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220930T071515Z

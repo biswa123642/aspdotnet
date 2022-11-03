@@ -1,0 +1,39 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.product-tab-accordion {
+        .copy-wrap {
+            border: 2px solid $tab-border;
+        }
+
+        ul.nav-tabs {
+            li.nav-item {
+                margin: 0;
+
+                @include respond-to(tab) {
+                    padding: 0 .25rem;
+
+                    &:first-child {
+                        padding-left: 0;
+                    }
+
+                    &:last-child {
+                        padding-right: 0;
+                    }
+                }
+
+            }
+        }
+
+        .card-body {
+            ul {
+                li {
+                    list-style: disc;
+                    margin-left: 3rem;
+                }
+            }
+        }
+
+    }
+}

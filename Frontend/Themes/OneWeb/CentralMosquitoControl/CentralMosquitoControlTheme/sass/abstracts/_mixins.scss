@@ -1,0 +1,46 @@
+@import "vars";
+
+
+/* breakpoints */
+$break-tab: 768px;
+$break-desktop: 992px;
+$extra-large-desktop: 1600px;
+$break-all-mobile:991px;
+
+@mixin wrapper() {
+  max-width: 991px;
+  margin: 0 auto !important;
+}
+
+@mixin respond-to($media) {
+  @if $media==tab {
+    @media only screen and (min-width: ($break-tab)) {
+      @content;
+    }
+  }@else if $media==all-mobile {
+    @media only screen and (max-width: $break-all-mobile) {
+      @content;
+    }
+  }
+
+  @else if $media==desktop {
+    @media only screen and (min-width: $break-desktop) {
+      @content;
+    }
+  }
+
+  @else if $media==extra-large-desktop {
+    @media only screen and (min-width: $extra-large-desktop) {
+      @content;
+    }
+  }
+}
+
+// font-family for  central.com
+@mixin nunito-sans() {
+  font-family: 'nunito-sans', sans-serif;
+}
+
+@mixin bebas-neue() {
+  font-family: 'Bebas Neue', sans-serif;
+}

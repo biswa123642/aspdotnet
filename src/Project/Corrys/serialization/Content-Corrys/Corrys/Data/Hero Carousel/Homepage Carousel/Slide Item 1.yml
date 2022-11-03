@@ -1,0 +1,102 @@
+﻿---
+ID: "0c27fb9c-70ff-4791-8c60-087dc3881605"
+Parent: "c109255f-df1a-4b00-b06b-3257f85dcd5f"
+Template: "3c7c79e8-554d-46d9-bf1a-63da22a4ee6f"
+Path: /sitecore/content/OneWeb/Corrys/Data/Hero Carousel/Homepage Carousel/Slide Item 1
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{0F1F8145-0F2D-425C-A054-B3C8E04B6059}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "007ef8df-edb2-4a64-a736-7a408093d2f5"
+      Hint: SlideImageMobile
+      Value: |
+        <image mediaid="{197CC27D-DCBF-4E9B-8310-5FB502228769}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220208T144401Z
+    - ID: "3bfd4b9e-3049-4c8d-a9b5-6bebb83f895d"
+      Hint: SlideImage
+      Value: |
+        <image mediaid="{197CC27D-DCBF-4E9B-8310-5FB502228769}" ></image>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "332511fb-aaad-4a73-b280-fa95ddb062fd"
+    - ID: "a8933445-15ca-4e23-b171-a33892eb0ef8"
+      Hint: SlideCardTitle
+      Value: |
+        <h2> Perfected Formula</h2>
+        <p>Make A Snail's Pace 
+        <span>Even Slower</span>
+        </p>
+    - ID: "b34e88f9-8800-43b1-92b5-029fbfae12e9"
+      Hint: SlideCardLogo
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d691b058-6e52-4e4b-baae-a23aed9de6e0"
+      Hint: SlideCardSubText
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220915T072408Z
+    - ID: "e10d2e79-68cc-438a-a732-abf80f62be76"
+      Hint: SlideCardCTA
+      Value: |
+        <link text="Learn More" anchor="" linktype="internal" class="" title=""  querystring="" id="{C986CAD8-66C6-4436-A764-DB9BC1E48355}" />
+- Language: es
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "007ef8df-edb2-4a64-a736-7a408093d2f5"
+      Hint: SlideImageMobile
+      Value: |
+        <image mediaid="{197CC27D-DCBF-4E9B-8310-5FB502228769}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220908T081047Z
+    - ID: "3bfd4b9e-3049-4c8d-a9b5-6bebb83f895d"
+      Hint: SlideImage
+      Value: |
+        <image mediaid="{197CC27D-DCBF-4E9B-8310-5FB502228769}" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fe882de8-5e11-4a74-8297-b4da526ed6ad"
+    - ID: "a8933445-15ca-4e23-b171-a33892eb0ef8"
+      Hint: SlideCardTitle
+      Value: |
+        <h2>F&oacute;rmula perfeccionada</h2>
+        <p>Para hacer que los
+        <span>caracoles sean más lentos</span>
+        </p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d691b058-6e52-4e4b-baae-a23aed9de6e0"
+      Hint: SlideCardSubText
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220915T072434Z
+    - ID: "e10d2e79-68cc-438a-a732-abf80f62be76"
+      Hint: SlideCardCTA
+      Value: |
+        <link text="Averigüe más" anchor="" linktype="internal" class="" title=""  querystring="" id="{C986CAD8-66C6-4436-A764-DB9BC1E48355}" />

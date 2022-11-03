@@ -1,0 +1,129 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.product-details {
+    &.variant-4 {
+      .product-wrapper {
+        h1 {
+          font-size: 3.6rem;
+          color: $text-title-primary;
+        }
+        h2 {
+          margin-bottom: 2rem;
+        }
+        .body-copy {
+          ul {
+            li {
+              color: $para-color;
+              font-weight: 700;
+              list-style-position: outside;
+              margin-bottom: 1rem;
+            }
+          }
+          p {
+            small {
+              font-size: 85%;
+            }
+          }
+          img {
+            max-width: 13rem;
+          }
+        }
+      }
+    }
+  }
+
+  &.product-variant {
+    select {
+      width: auto;
+      color: $para-color;
+      font-size: 1.6rem;
+      text-align: left;
+      border: 1px solid $para-color;
+      background-image: url("../images/down-arrow.PNG");
+      background-repeat: no-repeat;
+      background-position: 100% 100%;
+      appearance: none;
+      background-color: $white;
+      padding-right: 4rem;
+      height: 4.5rem;
+      border-radius: 5px;
+    }
+
+    .where-to-buy {
+      width: fit-content;
+    }
+  }
+
+  &.product-tab-accordion:not(.product-tab) {
+    .card {
+      padding: 0;
+    }
+    .card-header {
+      background: none;
+      padding: 0.75rem 0rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid $border-light;
+
+      h2 {
+        button {
+          &.btn-link {
+            color: $anchor-primary;
+            font-size: 1.8rem;
+            font-weight: 700;
+            padding: 1rem 0;
+
+            &:hover {
+              text-decoration: underline;
+            }
+
+            &::before,
+            &::after {
+              width: 15px;
+              height: 3px;
+              border-radius: 5px;
+              background: $anchor-primary;
+              right: 1rem;
+            }
+          }
+        }
+      }
+    }
+    #collapse-general {
+      background: $text-secondary;
+      border-radius: 1.6rem;
+      //margin: 1rem;
+
+      h4 {
+        color: $white;
+        font-size: 1.8rem;
+        border-bottom: 2px solid $white;
+        padding: 1rem 0;
+        @include Yanone-font-stack();
+      }
+      p {
+        color: $white;
+        font-size: 1.6rem;
+        padding: 1rem 0;
+      }
+      li {
+        color: $white;
+        font-size: 1.6rem;
+      }
+    }
+
+    .pdf-list {
+      a {
+        color: $anchor-primary;
+        display: inline-block;
+        padding-top: 6rem;
+        width: 10rem;
+        margin: 0 1.5rem;
+        background: transparent url("../images/bg-link-pdf.png") no-repeat;
+        background-size: 5rem;
+      }
+    }
+  }
+}

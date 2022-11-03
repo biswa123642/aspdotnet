@@ -1,0 +1,45 @@
+﻿---
+ID: "66458222-4ee8-4865-8004-33fe0bec1f7a"
+Parent: "76ec1c60-0763-4b2f-b7ea-7b0f1e10b007"
+Template: "a14d9266-1924-4e7f-87cc-760e2f8429ce"
+Path: /sitecore/content/OneWeb/ComfortZone/Data/Feature Content Tiles/ComfortYourCat/ComfortYourCat/CatNotEating
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 5
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Cat Not Eating
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1e4da860-d6cf-4956-8d76-66331aa43cd0"
+      Hint: SubText
+      Value: Cats usually jump at the chance to nom on some treats. If your cat has stopped eating, it can be a serious issue you shouldn't ignore. Consult this guide to get to the bottom of why your cat's not eating.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220927T054028Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7a5e75ba-4b9b-4de0-8f6a-d76174c53386"
+    - ID: "ac0ef552-e2a9-4e8f-8942-4b8ab5061e4b"
+      Hint: CTA
+      Value: |
+        <link text="CAT NOT EATING" anchor="" linktype="internal" class="" title=""  querystring="" id="{8B7D60E4-653A-4836-B2D4-F221E123F12D}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d140070d-9058-400a-82ca-36aee31966d5"
+      Hint: Image
+      Value: |
+        <image mediaid="{5970510D-BE05-4F56-AADF-722947CF1D07}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220927T055826Z
+    - ID: "f2995045-5047-4be3-be4a-dbe0a1530118"
+      Hint: Title
+      Value: "Is Your Cat Not Eating as Much?"

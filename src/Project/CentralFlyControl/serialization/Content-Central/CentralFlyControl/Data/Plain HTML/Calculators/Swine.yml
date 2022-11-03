@@ -1,0 +1,60 @@
+﻿---
+ID: "b431caa5-641c-43f6-8fea-c8ecd0e7dbd0"
+Parent: "fb553d66-92a0-497b-ba1b-a1ad31bdaf1f"
+Template: "2ad23d55-aecd-43dd-ae0d-72d2ebcba60f"
+Path: /sitecore/content/OneWeb/CentralFlyControl/Data/Plain HTML/Calculators/Swine
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24cce27c-05db-4473-a1ed-e69b1725ff1c"
+      Hint: HtmlCode
+      Value: |
+        <div class="calculator" data-calculator="{'id':'swine','productConcentration':'0.4','animalWeight':'450','feedIntake':'10','animalName':'Swine'}">
+        <div class="calculator__input">
+        <label>ClariFly<sup>&reg;</sup> Larvicide Product</label>
+        <select data-bind="options: productOptions, optionsText: 'name', value: selectedProduct, optionsCaption: '-- Choose product --'"></select>
+        </div>
+        <div data-bind="visible: selectedProduct">
+        <div class="calculator__input">
+        <label></label>
+        <select data-bind="options: swineOptions, optionsText: 'name', value: selectedSwine, optionsCaption: '-- Select your swine --'"></select>
+        </div>
+        </div>
+        <div data-bind="visible: selectedSwine">
+        <div class="calculator__input">
+        <label>Enter the average weight (lbs) per animal:</label>
+        <input data-bind="value: animalWeight, valueUpdate: 'afterkeydown'" size="8" />
+        </div>
+        <div class="calculator__input">
+        <label>Enter the estimated feed intake (lbs) per animal:</label>
+        <input data-bind="value: feedIntake, valueUpdate: 'afterkeydown'" size="8" />
+        </div>
+        <div class="calculator__output">
+        <label>lbs of ClariFly<sup>&reg;</sup> Larvicide Per Ton</label>
+        <span data-bind="text: output"></span>
+        </div>
+        </div>
+        </div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220930T065039Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d74dbe24-35af-4c33-9ab4-77799215e4f8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220930T065043Z

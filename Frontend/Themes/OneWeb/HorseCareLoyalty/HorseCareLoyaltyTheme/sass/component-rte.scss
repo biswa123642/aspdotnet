@@ -1,0 +1,68 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.rich-text {
+    z-index: 1;
+
+    .heading {
+      display: inline-block;
+      margin-bottom: 2rem;
+      h2 {
+        font-size: 4rem;
+        color: $anchor-primary;
+        padding: 2rem 0;
+      }
+      &::after {
+        content: "";
+        display: block;
+        height: 16px;
+        border-radius: 5px;
+        background-color: $border-yellow;
+        width: 100%;
+      }
+    }
+
+    p {
+      font-size: 1.6rem;
+      font-weight: 500;
+      color: $anchor-primary;
+      margin: 2rem 0;
+      @include Arial-narrow-font-stack();
+    }
+
+    a {
+      color: $anchor-primary;
+      font-weight: 700;
+    }
+
+    .how-to {
+      border-bottom: 2px solid $anchor-primary;
+    }
+
+    @include respond-to(tab) {
+      .heading {
+        h2 {
+          padding: 2rem 7.5rem;
+        }
+      }
+    }
+
+    @include respond-to(desktop) {
+      .heading {
+        h2 {
+          font-size: 5rem;
+        }
+      }
+      p {
+        font-size: 2.6rem;
+        font-weight: 700;
+        margin: 6rem 0;
+      }
+      .how-to {
+        border-bottom: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+﻿---
+ID: "0a24e622-9dae-4d71-9c89-8feaf07d47f0"
+Parent: "9272ed69-5fe6-46e2-9340-5deca59efb8b"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/CentralMosquitoControl/Home/ma-2019/m2/fourstar-catalog"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{EE6F2F77-A846-4808-93EE-77BFFDEC0063}"
+          p:before="*"
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles=%7BE951A28D-10FF-4D94-BDE6-BB1DDE779D5E%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-2-1/container-4" />
+        <r
+          uid="{768D99D8-57CE-4391-AF26-875F440EF286}"
+          p:after="r[@uid='{EE6F2F77-A846-4808-93EE-77BFFDEC0063}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{01916501-4635-4CB9-A6CE-DCBD193050D9}"
+          p:after="r[@uid='{768D99D8-57CE-4391-AF26-875F440EF286}']"
+          s:ds=""
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%2F&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B34C68150-D3B2-463D-9B91-B2F7BCBD3727%7D&amp;Styles=%7BFCA63CD5-CFCB-413B-872E-307FD9F3DD60%7D%7C%7BFAF28AF7-0575-40E0-9EE8-3C33FB91AC01%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3&amp;CacheClearingBehavior=Clear%20on%20publish"
+          s:ph="/main/row-1-1/container-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{DA1C2C08-5CA9-4E71-A817-7DE6DD6EE30C}"
+          p:after="r[@uid='{01916501-4635-4CB9-A6CE-DCBD193050D9}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{CDD06FA1-2D5F-4195-AE63-6896CB6DA567}"
+          p:after="*[1=2]"
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221003T121131Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: FourStar Catalog
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Environmentally responsible FourStar® Larvicides are available in 3 formulations including briquets, granules and water soluble pouches. 
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <div class="row">
+        <div class="col-md-8">
+        <h1>Protect Your Community with FourStar<sup>®</sup> Larvicides</h1>
+        <p>FourStar<sup>®</sup> Larvicides offer effective, long-term mosquito control in a variety of formulations. Click the link below to get our FourStar<sup>®</sup> Product Catalog. </p>
+        <br />
+        <div class="sxa-btn sxa-btn-primary"><a href="-/media/2BAA378414794696A6A571B9C2B948EF.ashx">GET CATALOG</a>
+        </div>
+        </div>
+        <div class="col-md-4"><a href="-/media/2BAA378414794696A6A571B9C2B948EF.ashx"><img alt="" height="612" width="792" src="-/media/7E824EF8A3854B6BAB131331ADA5D070.ashx" /></a>
+        </div>
+        </div>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Environmentally responsible FourStar® Larvicides are available in 3 formulations including briquets, granules and water soluble pouches. 
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: FourStar Catalog | Central Mosquito Control
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: "fourstar-catalog"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "923c64d2-407e-49da-a7ac-e92ee1626151"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{7E824EF8-A385-4B6B-AB13-1331ADA5D070}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221013T120303Z

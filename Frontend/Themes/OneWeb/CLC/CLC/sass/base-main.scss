@@ -1,0 +1,144 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+body {
+  @include ff-ernestine-pro-font-stack();
+  font-size: 1.4rem;
+  line-height: 1.42857143;
+  background-color: $white-color;
+}
+
+main {
+  min-height: calc(100vh - 189px);
+}
+
+.sxa-btn {
+  a {
+    &.clear-filter-btn {
+      margin-top: 7px;
+    }
+    background: $white-color;
+    border-color: $primary-color;
+    border-radius: 5px;
+    border-style: solid;
+    color: $primary-color;
+    display: inline-block;
+    padding: 2rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+}
+
+h2 {
+  margin: 2rem auto 1rem auto;
+  color: $primary-color;
+  font-size: 2.1rem;
+  font-weight: 700;
+}
+
+.link {
+  a {
+    background: $primary-color;
+    border: 3px solid $primary-color;
+    border-radius: 0;
+    color: $white-color;
+    display: inline-block;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+    text-decoration: none;
+    width: 250px;
+    text-align: center;
+
+    &:hover {
+      background-color: $anchor-hover;
+      text-decoration: none;
+      color: $white-color;
+    }
+  }
+}
+
+h1,
+h2 {
+  margin: 1rem auto 2rem auto;
+}
+
+.component {
+  &.rich-text {
+    h2 {
+      color: $primary-color;
+      @include ff-ernestine-pro-font-stack();
+      font-size: 2.6rem;
+      font-weight: 700;
+      text-decoration: none;
+      margin: 2rem 0rem 1rem 0rem;
+
+      @include respond-to(desktop) {
+        font-size: 2.6vw;
+      }
+    }
+
+    h3 {
+      color: $primary-color;
+      @include fieldwork-hum-font-stack();
+      font-size: 1.6rem;
+      font-weight: 500;
+      text-decoration: none;
+      margin-bottom: 0;
+      margin-top: 0;
+
+      @include respond-to(desktop) {
+        font-size: 1.5vw;
+      }
+    }
+
+    p {
+      color: $praragraph-color;
+      @include fieldwork-hum-font-stack();
+      font-size: 1.6rem;
+      font-weight: 500;
+      text-decoration: none;
+      margin-bottom: 0;
+      margin-top: 0;
+
+      @include respond-to(desktop) {
+        font-size: 1.25vw;
+      }
+    }
+
+    a {
+      color: $primary-color;
+    }
+
+    ul {
+      padding-left: 4rem;
+
+      li {
+        color: $praragraph-color;
+
+        @include fieldwork-hum-font-stack();
+        font-size: 1.6rem;
+
+        @include respond-to(desktop) {
+          font-size: 1.25vw;
+        }
+
+        font-weight: 500;
+        text-decoration: none;
+        margin-bottom: 0;
+        margin-top: 0;
+        list-style: disc;
+        margin: 0;
+        list-style-position: outside;
+
+        ul {
+          li {
+            list-style-type: circle;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+﻿---
+ID: "3a635697-020f-4707-ba55-45834394c214"
+Parent: "f35f6a7a-7545-4888-94d1-b07b329e273e"
+Template: "77820909-82a2-4308-9e62-f54e15110ef3"
+Path: /sitecore/content/OneWeb/HorseCareLoyalty/Settings/Site Configuration
+SharedFields:
+- ID: "09ba3cf1-8c05-4628-b0ae-9aae26dff1e7"
+  Hint: CheckToDisableOtherSection
+  Value: 1
+- ID: "17683604-f1c3-47d0-ac8e-a94e0e2abcb1"
+  Hint: CheckToDisableProductsSection
+  Value: 1
+- ID: "668b8710-8e39-4b7b-87b5-3d7b68a13f5b"
+  Hint: Pagesize
+  Value: 9
+- ID: "7bea2506-c26d-4030-a5ef-e2bd2e8baa4c"
+  Hint: NoImage
+  Value: |
+    <image mediaid="{56B5AD4D-8604-4D4B-95A9-7364429C58A6}" />
+- ID: "e4acfb78-8493-4948-af51-35da5b417a4d"
+  Hint: NumberOfScrolls
+  Value: 1
+- ID: "e86000b0-2a64-4152-9178-6591115b5265"
+  Hint: BlogPostTopicAttributeLocation
+  Value: "{5012C4D2-DF54-4310-A1AD-68E240D7A32A}"
+- ID: "f885a9cc-d0c1-431b-8afe-85b73f80db86"
+  Hint: ArticleTypeAttributeLocation
+  Value: "{BF54E497-1A49-4891-A3D8-49D559287BAE}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0926e173-227e-40c2-9f60-0e5dbf4f45d8"
+      Hint: DisableExternalBrand
+      Value: 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220721T050948Z
+    - ID: "37cbf5a7-e02d-42f8-9cd1-7bbf37e23773"
+      Hint: GAIdGlobal
+      Value: 
+    - ID: "45242e6b-9adf-4f32-bfc1-24135e46f74a"
+      Hint: PublisherID
+      Value: 
+    - ID: "4762f3c8-900d-44ff-ba2e-d44e57e8f5fb"
+      Hint: BrandName
+      Value: Horse Care Loyalty
+    - ID: "4e1bcb01-18ee-49a1-9866-e15475dc49a8"
+      Hint: AdSlotID
+      Value: 
+    - ID: "51deedc1-0600-4d1d-85ec-db67cd6f2bad"
+      Hint: DisableCookiesBanner
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "228373ef-6f94-4f9d-8ca2-11042b79dd40"
+    - ID: "9e24eada-2dbd-4c64-964d-da5d755fa5ad"
+      Hint: GAId
+      Value: "UA-145039385-1"
+    - ID: "b1ab2b86-16b2-441e-b0d2-404c8c139e3d"
+      Hint: DisableGA
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "bf6b073f-2c03-4d90-bda3-fd070fe69665"
+      Hint: DisablePriceSpider
+      Value: 1
+    - ID: "c07be27b-fcb2-44eb-9162-a1e183ee79b9"
+      Hint: BrandLogo
+      Value: |
+        <image mediaid="{4911B392-F3C9-4DBF-9328-24AECCBF5658}" alt="logo" height="" width="" hspace="" vspace="" />
+    - ID: "d01ab4f5-7dd1-48f4-ae48-a45c1c3bf458"
+      Hint: DisableGTM
+      Value: 
+    - ID: "d7d037d1-e378-40fe-a22d-7d9e73ba75a3"
+      Hint: GTMId
+      Value: 
+    - ID: "d8692e4f-d312-490e-881b-84059310d731"
+      Hint: OneTrustCookiesID
+      Value: "7ebd8c15-c1e0-4a9f-95b4-6a27a4877195"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220913T090607Z
+    - ID: "ec3719f3-58b4-4504-8545-df1af5aef83d"
+      Hint: EnableSeoSchema
+      Value: 1
+    - ID: "f65570f1-60bb-4355-841a-90653e2160de"
+      Hint: DisableGoogleAds
+      Value: 1
+    - ID: "f6a9e708-acdf-411a-a685-9d9cbf9252c1"
+      Hint: SelectSeoSchema
+      Value: |
+        {5A6884B5-B433-458B-960F-A6959A28206E}
+        {31906487-4CE4-42A4-97E4-4AF3390A11C5}
+        {61FE73DD-0B53-447B-8071-917CAF2B9161}

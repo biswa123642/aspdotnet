@@ -1,0 +1,103 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.load-more,
+.content-right,.banner-cta-holder {
+  .sxa-btn {
+    a {
+      background-color: $white-color;
+      color: $dark-green-primary;
+      border: 2px solid $dark-green-primary;
+      padding: 10px 25px;
+      font-weight: 700;
+      max-width: 100%;
+      margin: 25px 0;
+      font-size: 1.5rem;
+      cursor: pointer;
+      border-radius: 0;
+      @include Lato-font-stack();
+      line-height: 21px;
+      &:hover {
+        background-color: $dark-green-primary;
+        color: $white-color;
+        border: 2px solid $dark-green-primary;
+      }
+    }
+  }
+}
+
+.component {
+  &.hubspot-form {
+    .actions {
+      text-align: center;
+    }
+    input[type="submit"] {
+      background-color: $white-color;
+      color: $dark-green-primary;
+      border: 2px solid $dark-green-primary !important;
+      padding: 10px 25px;
+      font-weight: bolder;
+      max-width: 100%;
+      margin: 10px 0 25px 0;
+      font-size: 1.4rem;
+      line-height: initial;
+      cursor: pointer;
+      border-radius: 0;
+      &:hover {
+        background-color: $dark-green-primary;
+        color: $white-color;
+        border: 2px solid $dark-green-primary;
+      }
+    }
+  }
+}
+
+.component {
+  &.hubspot-form {
+    .hs-form {
+      @include Gotham-SSm-A-B-font-stack();
+      .hs-error-msgs {
+        li {
+          label {
+            color: $green-tertiary;
+            margin-bottom: 0;
+          }
+        }
+      }
+      label {
+        font-weight: 700;
+        color: $black-primary;
+        margin-bottom: 10px;
+      }
+      .hs-form-field {
+        margin-top: 15px;
+      }
+      .hs-input,
+      input[type="email"],
+      input[type="tel"],
+      select,
+      textarea {
+        line-height: 25px;
+      }
+      input,
+      select,
+      textarea {
+        border: 1px solid $dark-green-primary;
+        padding: 10px;
+        &:focus {
+          box-shadow: 0px 0px 6px 0px $dark-green-secondary;
+        }
+      }
+      .form-columns-1 {
+        .input {
+          input[type="email"] {
+            max-width: 100%;
+          }
+          .hs-input {
+            max-width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,134 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.hubspot-form {
+    padding: 2rem;
+
+    .hubspot-form {
+      .hs-form-field {
+        label {
+          span {
+            color: $text-blue-primary;
+            font-size: 2.4rem;
+            font-weight: 700;
+            @include din-14-stack();
+          }
+        }
+      }
+
+      .hs-form-booleancheckbox {
+        width: auto;
+        label {
+          span {
+            color: $text-blue-primary;
+            font-size: 2.4rem;
+            font-weight: 400;
+            line-height: 1.428571;
+          }
+          input[type="checkbox"]:not(:checked) + span:before {
+            background: none;
+            border: 0.2rem solid $text-gray-primary;
+            border-radius: 0.5rem;
+            top: 5%;
+            height: 2.4rem;
+            width: 2.4rem;
+          }
+          input[type="checkbox"]:checked + span:before {
+            background: $text-blue-primary;
+            border: 0.2rem solid $text-blue-primary;
+            content: "✔";
+            border-radius: 0.5rem;
+            color: $white;
+            top: 5%;
+            height: 2.4rem;
+            width: 2.4rem;
+            font-size: 1.6rem;
+            padding-left: 0.4rem;
+          }
+        }
+      }
+    }
+
+    .hs-form {
+      .hs-richtext {
+        color: $text-blue-primary;
+        font-size: 2.4rem;
+        font-weight: 800;
+        @include din-14-stack();
+      }
+      .hs-error-msgs {
+        li {
+          label {
+            color: $text-red-primary;
+            font-size: 2.4rem;
+            font-weight: 400;
+            @include din-14-stack();
+          }
+        }
+      }
+      .input {
+        select {
+          background: url("../images/Dropdown_Arrow_Green.png");
+          background-repeat: no-repeat;
+          background-position: 97% 50%;
+          text-align: center;
+          background-size: 1.2rem 0.8rem;
+          color: $text-blue-primary;
+          font-size: 2.4rem;
+          font-weight: 500;
+          line-height: 3rem;
+          @include din-14-stack();
+          option {
+            color: $text-blue-primary;
+          }
+        }
+      }
+      .form-columns-1 {
+        .input {
+          .hs-input {
+            min-width: 100%;
+          }
+        }
+      }
+
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"],
+      select,
+      textarea {
+        border: 0.1rem solid $text-blue-primary;
+        box-sizing: border-box;
+        box-shadow: none;
+        height: 4rem;
+        &:focus {
+          border: 0.1rem solid $text-red-primary;
+          box-shadow: 0 0 0.6rem 0 $text-red-primary;
+        }
+      }
+    }
+
+    input[type="submit"] {
+      border-color: $primary-button;
+      background-color: $primary-button;
+      font-size: 2.4rem;
+      font-weight: 500;
+      box-shadow: none;
+      text-shadow: none;
+      border-radius: 2.5rem;
+      width: 20rem;
+      padding: 0.4rem;
+      @include din-14-stack();
+      &:hover {
+        border-color: $primary-button;
+        background-color: $primary-button;
+        font-size: 2.4rem;
+        font-weight: 500;
+        opacity: 0.7;
+        box-shadow: none;
+        @include din-14-stack();
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+
+
+body {
+  padding-top: 11.131rem;
+  @include respond-to(desktop){
+    padding-top: 0
+  }
+  @include Helvetica-font-stack();
+  font-size: 1.6rem;
+  color: $body-color;
+  line-height: 1.5;
+  background-color: #808080;
+}
+#wrapper {
+  overflow: hidden;
+  //max-width: 1800px;
+  margin: 0 auto;
+  background: #fff;
+}
+.content, .rich-text{
+  @include Helvetica-font-stack();
+  font-size: 1.6rem;
+  color: $body-color;
+  line-height: 1.5;
+}
+a {
+  color: $orange;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $orange;
+  font-weight: 700;
+}
+
+h1 {
+  line-height: 1.1;
+}
+
+h4 {
+  font-size: 2.2rem;
+}
+
+@include respond-to(tab) {
+  h1 {
+    font-size: 3.4vw;
+  }
+}
+.content h3, .content h4, .content p, .rich-text h3, .rich-text h4, .rich-text p {
+  margin: 10px 0;
+}
+
+.clearfix{
+  &:before,&:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

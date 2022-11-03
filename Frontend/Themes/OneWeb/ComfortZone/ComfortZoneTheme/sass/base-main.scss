@@ -1,0 +1,186 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+@import "base/fonts/fonts";
+html{
+    font-size: 16px;
+}
+body {
+    @include Montserrat-font-stack();
+    font-size: 1rem;
+    line-height: 1.42857143;   
+    color: #000;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sup {
+    top: -0.5em;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+a {
+    color: $link-color;
+    transition: all ease-in-out 200ms;    
+    cursor: pointer;
+    text-decoration: none;
+    &:hover {
+        color: $link-color-hover;
+        text-decoration: underline;
+    }
+}
+small {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @include Nunito-font-stack();
+    font-weight: bold;
+    color: #78256c;
+    line-height: 1.1;
+    small {
+        font-size: 75%;
+    }
+}
+h1,
+h2,
+h3{
+    margin-top: 22px;
+    margin-bottom: 11px;
+}
+h4,
+h5,
+h6 {
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 2.4rem;
+}
+h4 {
+    font-size: 1.28rem;
+}
+h5 {
+    font-size: 1.024rem;
+}
+h6 {
+    font-size: 0.8192rem;
+}
+p {
+    margin: 0 0 11px;
+}
+
+.component {
+    &.content,
+    &.rich-text {
+        @include Montserrat-font-stack();
+        font-size: 1rem;
+        line-height: 1.42857143;   
+        color: #000;
+        .sxa-btn{
+            margin-top: 30px;
+            a{
+                margin-right: 15px;
+            }
+        }
+        p {
+            margin: 0 0 11px;
+        }
+        a {
+            color: $link-color;
+            transition: all ease-in-out 200ms;    
+            cursor: pointer;
+            text-decoration: none;
+            &:hover {
+                color: $link-color-hover;
+                text-decoration: underline;
+            }
+        }
+        ul li{
+            font-size: inherit;
+        }
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            @include Nunito-font-stack();
+            font-weight: bold;
+            color: #78256c;
+            line-height: 1.1;
+        
+            small {
+                font-size: 75%;
+            }
+        }
+        h1,
+        h2,
+        h3{
+            margin-top: 22px;
+            margin-bottom: 11px;
+        }
+        h4,
+        h5,
+        h6 {
+            margin-top: 11px;
+            margin-bottom: 11px;
+        }
+        h1 {
+            font-size: 2.5rem;
+        }
+        h2 {
+            font-size: 2rem;
+        }
+        h3 {
+            font-size: 2.4rem;
+        }
+        h4 {
+            font-size: 1.28rem;
+        }
+        h5 {
+            font-size: 1.024rem;
+        }
+        h6 {
+            font-size: 0.8192rem;
+        }
+        table {
+            td,
+            th,
+            tr {
+                vertical-align: top;
+            }
+        }
+    }
+}
+
+.space-lg-top{}
+.space-md-top{}
+
+
+

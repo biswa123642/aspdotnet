@@ -1,0 +1,15 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+.component{
+    &.image{
+        &.scroll-button-wrap{
+            .to-top{
+                border:none;
+                background-color: transparent;
+                padding:0;
+            }
+        }
+    }
+    }
+ 

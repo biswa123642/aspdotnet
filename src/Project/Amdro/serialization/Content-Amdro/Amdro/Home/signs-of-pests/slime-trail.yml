@@ -1,0 +1,175 @@
+﻿---
+ID: "38218b38-f534-491c-a763-6420fbd6a79f"
+Parent: "dd2a01d4-5f65-4e10-af38-8e89b43b9130"
+Template: "057af325-c948-4918-a4e4-2c3f6cf04524"
+Path: "/sitecore/content/OneWeb/Amdro/Home/signs-of-pests/slime-trail"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{7B5F2C3C-FD5B-4C2E-935F-14BBAC81B805}"
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: "{87E501C1-F272-47F7-ACE8-1C74BBFF4B59}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{BA6A85EA-AA23-4E61-A5A5-17A90532EA97}"
+          p:before="*"
+          s:ds="local:/Data/Images/Image2"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D%7C%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5&amp;CacheClearingBehavior=Clear%20on%20publish"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/column-2-12"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{62A35CA2-30AD-4A8B-9849-DE920B8B6353}"
+          p:after="r[@uid='{BA6A85EA-AA23-4E61-A5A5-17A90532EA97}']"
+          s:ds="local:/Data/Rich Text/Rich text 3"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;FieldNames=%7BBFD3AC15-5752-4848-BAE0-975B2C024D7D%7D&amp;Styles=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D%7C%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/column-2-12" />
+        <r
+          uid="{813B6D26-1B7B-4505-AA20-25DEE518B46D}"
+          p:after="r[@uid='{62A35CA2-30AD-4A8B-9849-DE920B8B6353}']"
+          s:ds="local:/Data/Images/Image1"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D%7C%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/column-1-12" />
+        <r
+          uid="{15DECC47-DF2B-4C06-86E0-8B3349311D3D}"
+          p:after="r[@uid='{813B6D26-1B7B-4505-AA20-25DEE518B46D}']"
+          s:ds="local:/Data/Rich Text/Rich text 2"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;FieldNames=%7BBFD3AC15-5752-4848-BAE0-975B2C024D7D%7D&amp;Styles=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D%7C%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/column-1-12" />
+        <r
+          uid="{727264BD-F105-4082-A779-A812F596EB84}"
+          p:after="r[@uid='{15DECC47-DF2B-4C06-86E0-8B3349311D3D}']"
+          s:ds="local:/Data/Rich Text/Rich text 4"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;FieldNames=%7BBFD3AC15-5752-4848-BAE0-975B2C024D7D%7D&amp;Styles=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D%7C%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/column-2-11" />
+        <r
+          uid="{33D1C4C2-CD75-4591-AFA0-9DB1D4DAD7C0}"
+          p:after="r[@uid='{727264BD-F105-4082-A779-A812F596EB84}']"
+          s:ds="local:/Data/Rich Text/Rich text 1"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;FieldNames=%7BBFD3AC15-5752-4848-BAE0-975B2C024D7D%7D&amp;Styles=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D%7C%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/sxa-content-page/container-1/row-3-2" />
+        <r
+          uid="{0EFA01DD-5E59-4E0A-9AD9-7EECD30BDCAD}"
+          p:after="r[@uid='{33D1C4C2-CD75-4591-AFA0-9DB1D4DAD7C0}']"
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth2=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=12"
+          s:ph="/main/sxa-content-page/container-1/row-3-2" />
+        <r
+          uid="{976C2335-6D71-4D38-B1F8-7086FD9D1C6C}"
+          p:after="r[@uid='{0EFA01DD-5E59-4E0A-9AD9-7EECD30BDCAD}']"
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B9AD9D6FB-28FC-43C5-8DA4-4A6A63CE802F%7D&amp;ColumnWidth2=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=11"
+          s:ph="/main/sxa-content-page/container-1/row-3-2" />
+        <r
+          uid="{A5C2063E-357A-4276-A389-83B33F42D881}"
+          p:after="r[@uid='{976C2335-6D71-4D38-B1F8-7086FD9D1C6C}']"
+          s:ds="local:/Data/Rich Text/Rich text 6"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;FieldNames=%7BBFD3AC15-5752-4848-BAE0-975B2C024D7D%7D&amp;Styles=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D%7C%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/sxa-content-page/container-1/row-3-2" />
+        <r
+          uid="{A64B9512-9AE4-48DA-977F-9A6EE3B08094}"
+          p:after="r[@uid='{A5C2063E-357A-4276-A389-83B33F42D881}']"
+          s:ds=""
+          s:id="{86FBA02B-2E9C-4A00-9CCF-DE607B1FCDC7}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;RenderingClass=col-lg-4&amp;HideImage&amp;FieldNames=%7B030A8961-CB9F-428C-9411-9B06FBAADCBC%7D&amp;Styles=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D%7C%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D%7C%7BD0931F67-1E8F-4C4C-A14A-77777C8F560D%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/sxa-content-page/container-1/row-3-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{94B640BF-211A-482C-87FE-C38860543A61}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{4030B29A-563B-45AA-9721-561DA018EB15}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220624T164509Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Slime Trails
+    - ID: "50094021-6c44-4bb3-b384-f4e2bc0262ea"
+      Hint: RelatedArticlesAndProducts
+      Value: |
+        {0374E6B5-FAA6-4218-98EF-6B60EF2277D8}
+        {DB6FDAA6-A8C6-4113-A6EA-774F12C5627A}
+        {7B9B95FE-E2B9-4021-A612-49FD19E752A7}
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Learn how to identify what pest you are dealing with from slime trails they leave.
+    - ID: "54a1450c-b9d8-42ce-b085-8c9109daaf37"
+      Hint: RelatedArticlesandProductsLabel
+      Value: Related Articles
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <br /><image src="~/media/87391806548D4430A6AA6552F04BBB64.ashx" /><br /><h3><a href="~/link.aspx?_id=29980EFDECB74698A4D82475DEF54394&amp;_z=z">Slugs</a></h3> <p>Like snails, slugs are mollusks that move on a muscular foot, but slugs lack the hard external shells that snails have. Slug mucus helps these moisture-dependent pests stay lubricated and traverse surfaces. Signs of slugproduced slime trails include:</p> <ul>     <li>Shiny mucus trails on foliage marred by large, irregular holes</li>     <li>Solid trailing lines of wet mucus or silvery dried slime</li>     <li>Slime and leaf damage that happens at night</li>     <li>Trails that lead to slugs hiding in soil or wet plant litter</li> </ul><br /><p style="text-align: left;"><small><em>Photo credit: Andrew E. Larsen (CC BY-ND 2.0)</em></small></p><br /><image src="~/media/4030B29A563B45AA9721561DA018EB15.ashx" /><br /><h3><a href="~/link.aspx?_id=29980EFDECB74698A4D82475DEF54394&amp;_z=z">Snails</a></h3> <p>Snails are mollusks with hard, external shells. They travel along on a muscular foot that sometimes gets lifted as they move. Snail slime aids movement and helps these pests adhere to surfaces. Signs of snail-generated slime trails include:</p> <ul>     <li>Fresh or dried mucus paired with large, irregular holes on leaves</li>     <li>Solid or dotted mucus trails that appear overnight</li>     <li>Transparent slime that dries to a silvery sheen</li>     <li>Trails that lead to snails, often in damp garden debris</li> </ul><br /><h2 style=`"z-index: 1;`"></h2><br />Finding a network of silvery slime trails on plants or outdoor surfaces usually goes hand in hand with extensive <a href="~/link.aspx?_id=FB0AF4CEFB514F5F9642FC98F7838659&amp;_z=z">leaf damage</a>&nbsp;to foliage plants. By learning to recognize slime trails when they first appear, you can take steps to stop the leaf-damaging pests that leave them.<br /><h2>HOW TO FIX SLIME TRAILS</h2> <p>Snail and slug slime changes in viscosity and adhesion according to pressure from the pest's contracting foot. Add water to wet slime and you may have a bigger mess. Instead, wipe the slime with a disposable cloth or paper towel first. Then rinse the wiped area clean. For dried slime, use water and a broom or brush. Slugs and snails can carry pathogens, so always wear gloves and avoid direct contact with snails, slugs or their slime.</p>
+    - ID: "6dd157fe-8ea8-496a-b595-0e6a18489836"
+      Hint: ThumbnailImage
+      Value: |
+        <image mediaid="{4030B29A-563B-45AA-9721-561DA018EB15}" />
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Learn how to identify what pest you are dealing with from slime trails they leave.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Signs of Pests: Slime Trails"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Slime Trails
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fb85ec2b-b484-4271-8e5e-a4d7a13c5432"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "caaa6c5b-798c-4d26-8919-fe66d620f798"
+      Hint: Page Attributes
+      Value: "{27193CAA-5DC3-4CA1-B81A-76BD3B875FF7}"
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{4030B29A-563B-45AA-9721-561DA018EB15}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220715T191506Z
+    - ID: "f0d0a9d9-6b70-4a54-a04a-537c38d5b2e1"
+      Hint: RelatedArticlesLabel
+      Value: Related Articles
+    - ID: "fb742e87-7bf7-4c72-97a9-987a40989ece"
+      Hint: RelatedArticles
+      Value: 

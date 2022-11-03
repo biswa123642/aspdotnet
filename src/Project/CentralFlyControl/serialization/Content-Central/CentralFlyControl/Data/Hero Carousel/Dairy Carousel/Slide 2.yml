@@ -1,0 +1,40 @@
+﻿---
+ID: "f6dc9da7-c101-47fd-9213-59feb1c1779d"
+Parent: "2caaee20-59f2-4add-97d1-af241dc40a0a"
+Template: "3c7c79e8-554d-46d9-bf1a-63da22a4ee6f"
+Path: /sitecore/content/OneWeb/CentralFlyControl/Data/Hero Carousel/Dairy Carousel/Slide 2
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T120525Z
+    - ID: "3bfd4b9e-3049-4c8d-a9b5-6bebb83f895d"
+      Hint: SlideImage
+      Value: |
+        <image mediaid="{C427324A-1793-4C40-98FC-04C47417891B}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d70caf1a-e8bb-4e57-913a-3328a4a412b3"
+    - ID: "a8933445-15ca-4e23-b171-a33892eb0ef8"
+      Hint: SlideCardTitle
+      Value: Micro Machine Calculator
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d691b058-6e52-4e4b-baae-a23aed9de6e0"
+      Hint: SlideCardSubText
+      Value: Take advantage of our Micro Machine Calculator to determine inclusion level per Ton of a DFB additive for your dairy cattle operation.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220922T121525Z
+    - ID: "e10d2e79-68cc-438a-a732-abf80f62be76"
+      Hint: SlideCardCTA
+      Value: |
+        <link linktype="internal" text="Calculate Now" querystring="" target="" id="{34D16262-323C-41F1-94AC-93FB925E4B52}" />

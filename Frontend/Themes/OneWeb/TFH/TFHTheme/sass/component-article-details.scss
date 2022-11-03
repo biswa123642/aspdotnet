@@ -1,0 +1,176 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.article-detail {
+        .article-left {
+            @include respond-to(desktop) {
+                padding-right: 2rem;
+                margin-bottom: 4rem;
+            }
+
+            .article-detail,
+            .field-content {
+                @include itc-geovanni-font-stack();
+                font-size: 2rem;
+                font-weight: 400;
+                color: $grey-text;
+
+                h1 {
+                    @include canada-font-stack();
+                }
+
+                h3 {
+                    @include itc-geovanni-font-stack();
+                }
+
+                h2 {
+                    @include itc-geovanni-font-stack();
+                    font-size: 2rem;
+                    font-weight: 500;
+                    color: $grey-text;
+                }
+
+                p {
+                    @include itc-geovanni-font-stack();
+                    font-size: 2rem;
+                    color: $grey-text;
+
+                    a {
+                        word-break: break-word;
+                    }
+
+                    b {
+                        @include itc-geovanni-font-stack();
+                        font-size: 2rem;
+                        font-weight: 700;
+                        color: $grey-text;
+                    }
+                }
+                ul{
+                    margin-left:4rem;
+                    li{
+                        list-style-type: disc;
+                        font-size: 2rem;
+                        font-weight: 400;
+                    }
+                }
+                table{
+                    width: 100%;
+                    tbody{
+                            tr:nth-of-type(odd) {
+                                background: #eee;
+                            }
+                            tr{
+                                td{
+                                    background:transparent;
+                                    @include respond-to(all-mobile) {
+                                        padding: 0 !important;
+                                    }
+                                p{
+                                    font-size: 1.8rem;
+                                    b{
+                                        font-size: 1.8rem;
+                                        font-weight: 700;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .field-content {
+
+                strong,
+                b {
+                    @include itc-geovanni-font-stack();
+                    font-size: 2rem;
+                    font-weight: 700;
+                    color: $grey-text;
+                }
+            }
+        }
+
+        .article-right {
+            @include respond-to(desktop) {
+                position: -webkit-sticky;
+                position: sticky;
+                top: 0;
+                align-self: flex-start;
+            }
+            .image {
+                &.file-type-icon-media-link {
+                    a {
+                        width: 100%;
+                        @include respond-to(desktop) {
+                            width:auto;
+                        }
+
+                        img {
+                            @include respond-to(desktop) {
+                                margin-left: 1.5rem;
+                            }
+
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+
+            .component {
+                &.variant-2 {
+                    &.related-articles {
+                        background: none;
+
+                        .inner-wrap {
+                            padding: 0 !important;
+                            background: none;
+
+                            a {
+                                text-decoration: none;
+
+                                .article-tag,
+                                .caption {
+                                    font-size: 1.5rem;
+                                    font-weight: bold;
+                                    color: $small-heading-black;
+
+                                    &:hover {
+                                        text-decoration: underline;
+                                    }
+                                }
+                                .article-tag{
+                                    display:none;
+                                }
+
+                                .caption {
+                                    text-align: center;
+
+                                    @include respond-to(desktop) {
+                                        text-align: left;
+                                        padding-left: 0;
+                                    }
+
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+        @include respond-to(all-mobile){
+            .component{
+                &.content{
+                    .component{
+                        &.image{
+                            padding: 1.5rem 0;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

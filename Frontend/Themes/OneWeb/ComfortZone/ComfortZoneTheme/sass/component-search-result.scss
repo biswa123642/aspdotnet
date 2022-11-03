@@ -1,0 +1,104 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+/*===========================================
+    Clear Button
+  =============================================*/
+
+.sxa-btn {
+    a.clear-filter-btn {
+        color: $secondary-color;
+        font-weight: bold;
+        font-size: 2rem;
+        margin-bottom: 16px;
+        display: inline-block;
+        cursor: pointer;
+        padding: 0;
+        border: none;
+        &:hover {
+            box-shadow: none;
+        }
+    }
+   
+}
+
+/*===========================================
+    Search  component
+  =============================================*/
+
+/*===========================================
+    Search  filter
+  =============================================*/
+.component {
+    #searchfilter {
+        h3 {
+            background-color: #e0d8d6;
+            border-bottom: 1px solid #ddd;
+            border-top-right-radius: 3px;
+            border-top-left-radius: 3px;
+            padding: 0;
+            margin-top: 0;
+            .link-btn {
+                
+                @include Montserrat-font-stack();
+                font-size: 2rem;
+                line-height: 1.1;
+                font-weight: 700;
+                color: $secondary-color;
+                text-transform: uppercase;
+                padding: 9px 30px 9px 10px;
+                &[aria-expanded]::after {
+              
+                }
+                &[aria-expanded="false"]::after {
+                 
+                }
+                &[aria-expanded]::before {
+                
+                }
+            }
+        }
+        .facet-wrapper {
+            .collapse {
+                padding: 1px 0 10px 0;
+            }
+            .form-check {
+                margin: 16px 0;
+                padding: 0;
+                position: relative;
+                .form-check-input {
+                    position: absolute;
+                    left: -9999px;
+                }
+                .form-check-label {
+                    font-size: 1.6rem;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    line-height: 30px;
+                    position: relative;
+                    padding-right: 45px;
+                    cursor: pointer;
+                    display: block;
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        right: 10px;
+                        top: 0px;
+                        width: 30px;
+                        height: 30px;
+                        border: 1px solid #e04326;
+                        border-radius: 0px;
+                        background-color: #0000;
+                        transition: background-color 170ms ease-in-out;
+                    }
+                    &:hover:after {
+                        border: 2px solid #e04326;
+                    }
+                }
+                [type="checkbox"]:checked + label:after {
+                    background-color: #e04326;
+                }
+            }
+        }
+    }
+}

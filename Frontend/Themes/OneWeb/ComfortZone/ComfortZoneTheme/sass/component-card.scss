@@ -1,0 +1,183 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+    /*===========================================
+        product card
+    =============================================*/
+
+    #product-type,
+    #article-type,
+    #others-type,
+    .product-result-tiles {
+        .product-card,
+        .cgp-product {
+            .body-copy {
+                font-size: 1rem;
+                line-height: 1.42857143;
+                font-weight: 300;
+                color: $black-color;
+                h3 {
+                    font-weight: 300;
+                    font-size: 1.2rem;
+                    line-height: 1.1;
+                    color: $secondary-color;
+                    padding: 1.4rem 0 1rem 0;
+                    a {
+                        color: inherit;
+                        text-transform: uppercase;
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+
+        .result-count {
+            @include Montserrat-font-stack();
+            font-size: 1.2rem;
+            font-weight: 300;
+            font-style: italic;
+            color: $secondary-color;
+        }
+    }
+
+    /*===========================================
+        product card on listing page
+    =============================================*/
+    &.product-listing {
+        #product-type,
+        #article-type,
+        #others-type,
+        .product-result-tiles {
+            .product-card,
+            .cgp-product {
+                .image-holder {
+                    img {
+                        transition: all ease-in-out 250ms;
+                        max-height: 275px;
+                        margin: 0px auto 36px;
+                    }
+                }
+             
+            }
+        }
+    }
+
+    /*===========================================
+        product card on artical listing page
+    =============================================*/
+    &.article-listing {
+        #product-type,
+        #article-type,
+        #others-type,
+        .product-result-tiles {
+            .product-card,
+            .cgp-product {
+            }
+        }
+    }
+    &.global-search-listing {
+        #product-type,
+        #article-type,
+        #others-type,
+        .product-result-tiles {
+            li{
+                padding-bottom: 3rem;
+                .cgp-product {
+                    border: 1px solid #aaa;
+                    padding: 15px;
+                }
+            }
+            h3 {
+                font-size: 1.5rem;
+                line-height: 1.2;
+                font-weight: 700;
+                color: $secondary-color;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                border-bottom-color: #ddd;
+                .link-btn{
+                    &[aria-expanded]::after {
+                        content: "";
+                        border-style: solid;
+                        border-width: 12px 12px 0 12px;
+                        border-color: #e04326 #0000 #0000 #0000;
+                        position: absolute;
+                        z-index: 2;
+                        transition: all ease-in-out 150ms;
+                        right: 17px;
+                        top: calc(50% + 2px);
+                        transform: translateX(50%) translateY(-50%);
+                        background: transparent;
+                    }
+                    &[aria-expanded="false"]::after {
+                        top: 50%;
+                        right: 18px;
+                        transform: translateX(50%) translateY(-50%) rotate(90deg);
+                    }
+                    &[aria-expanded]::before {
+                        display: none;
+                    }
+                }
+            }
+            .product-card,
+            .cgp-product {
+                .body-copy {
+                    h3 {
+                        font-size: 1.5rem;
+                        font-weight: 700;
+                        line-height: 30px;
+                        color: #cf3f37;
+                        text-transform: none;
+                        a {
+                            color: inherit;
+                            text-transform: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*=======================================
+        Related Articles component
+=========================================*/
+    &.related-articles-horizontal-view {
+    }
+    &.related-articles {
+        &.variant-2 {
+            h3 {
+                font-size: 1.5rem;
+                line-height: 30px;
+                color: $secondary-color;
+                text-transform: uppercase;
+                font-weight: 300;
+                margin: 0px 0px 32px;
+            }
+            .inner-wrap {
+                a {
+                    font-weight: 300;
+                    text-decoration: none;
+                }
+                .caption {
+                    font-size: 1.2rem;
+                    text-transform: uppercase;
+                    font-weight: 300;
+                    color: $secondary-color;
+                    margin: 18px 0px 24px;
+                    line-height: 1.1;
+                }
+                .article-tag {
+                    margin-bottom: 10px;
+                    display: none;
+                }
+            }
+        }
+    }
+
+    /*===========================================
+        Search Result Product Card
+    =============================================*/
+}

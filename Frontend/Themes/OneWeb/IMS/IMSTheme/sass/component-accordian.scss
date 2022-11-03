@@ -1,0 +1,81 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.accordion {
+    .items {
+      .item {
+        background: $white;
+        margin: 2rem 0;
+        border-radius: 4px;
+
+        .toggle-header {
+          .component {
+            .field-heading {
+              font-size: 1.8rem;
+              padding: 1.2rem 0;
+              margin: 0 6rem 0 3rem;
+
+              @include respond-to(desktop) {
+                margin: 0 5rem 0 3rem;
+              }
+
+              &:before {
+                @include fa-icon();
+                content: $fa-var-angle-right;
+                top: 50%;
+                right: 0;
+                transform: translateY(-50%);
+                background-repeat: no-repeat;
+                font-size: 4.6rem;
+                //transition: none;
+                width: 1rem;
+                height: auto;
+                color: $title_primary;
+                margin-right: -3rem;
+
+                @include respond-to(desktop) {
+                  margin-right: -2rem;
+                }
+              }
+              &::after {
+                display: none;
+              }
+            }
+          }
+        }
+
+        .toggle-content {
+          .component {
+            .field-content {
+              color: $body-color;
+
+              padding: 1.2rem 0;
+              margin: 0 6rem 0 3rem;
+
+              @include respond-to(desktop) {
+                margin: 0 5rem 0 3rem;
+              }
+            }
+          }
+        }
+
+        &.active {
+          .toggle-header {
+            .component {
+              .field-heading {
+                border-bottom: 1px solid $title_primary;
+
+                &:before {
+                  top: auto;
+                  transform: rotate(90deg);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

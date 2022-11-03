@@ -1,0 +1,192 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+.component {
+
+
+    .global-search-listing{
+
+        .product-wrap {
+            .product-list {
+
+                .cgp-product {
+                    .body-copy {
+
+                        padding-bottom: 1.5rem;
+                         transition: box-shadow ease-in-out 200ms;
+                        background: $white;
+
+                        h3 {
+                            text-align: center;
+
+                            a {
+
+                                @include raleway-font-stack();
+
+                                font-size: 1.6rem;
+                                color: $bg-black;
+                                font-weight: 900;
+                                text-transform: uppercase;
+                            }
+
+                        }
+
+                        p {
+
+                            text-align: center;
+                            font-size: 1.6rem;
+                            color: $light-black;
+                            font-weight: 300;
+                            padding: 1rem;
+                            @include raleway-font-stack();
+                        }
+                    }
+
+                    &:hover {
+
+                        .body-copy {
+                            p {
+
+                                box-shadow: 0 20px 40px -30px $black;
+
+                            }
+                        }
+                    }
+                }
+            }
+            #product-type , #article-type , #others-type{
+            
+            h3{
+                border-color:$search-border;
+                a{
+                    text-transform: uppercase;
+                }
+                .link-btn{
+                    font-size: 1.6rem;
+                    color: $light-black;
+                    @include raleway-font-stack();
+
+                    
+                }
+ 
+            } }
+            .result-count{
+
+                font-size:1.6rem;
+                color: $light-black;
+                @include raleway-font-stack();
+                font-weight:600;
+
+            }
+            #searchfilter {
+
+                background-color:$error-msg-red;
+                position: relative;
+                padding: 2rem;
+                margin-top: 2rem;
+                background-image:url("../images/Pattern-3");
+                background-repeat: no-repeat;
+                background-position-x: 100%;
+                background-position-y: 0;
+
+
+                &:before,
+                &:after {
+                    content: "";
+                    background-image: url("../images/white-bottom");
+                    background-size: cover;
+                    position: absolute;
+                    left: -1px;
+                    right: -1px;
+                    z-index: 2;
+                    -moz-transform: scaleX(-1) scaleY(-1);
+                    -webkit-transform: scaleX(-1) scaleY(-1);
+                    transform: scaleX(-1) scaleY(-1);
+                    height: 40px;
+                    top: -1px;
+
+
+                }
+
+                &:after {
+
+                    top: auto;
+                    bottom: -2rem;
+                    transform: none;
+                }
+
+                h3 {
+                    border: none;
+                    text-transform:uppercase;
+
+                    .link-btn {
+
+                        &:before,
+                        &:after {
+                            content: "";
+                            background-color: $white;
+                        }
+                    }
+                }
+
+                .facet-wrapper {
+                    h3 {
+                        button {
+                            color: $white;
+                            font-size: 1.8rem;
+                            @include raleway-font-stack();
+                            font-weight: 900;
+                            text-transform: uppercase;
+
+                        }
+                    }
+
+                    .form-check {
+                        position: relative;
+                        padding-left:4rem;
+                        input {
+                            width: 18px;
+                            height: 18px;
+                            border: 1px solid #dddddd;
+                            background: #f8f8f8;
+                            border-radius: 3px;
+                            box-shadow: inset 0 1px 3px RGB(0 0 0 / 30%), 3px 3px 3px transparent;
+                            position:absolute;
+                            top:0;
+                            left:0;
+                        }
+
+                        label {
+                            color: $navbar-color;  
+                            font-size: 1.6rem; 
+                            font-weight:700; 
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+        
+
+    }
+   
+}
+#product-type{
+.product-list 
+{
+    h3{
+        a{
+            text-transform: uppercase;
+        }
+    }
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+     .global-search-listing{
+        .search-box{
+      padding-left:1.7rem;  
+    }
+    }
+    }
+

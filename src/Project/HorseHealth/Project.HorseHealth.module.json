@@ -1,0 +1,32 @@
+{
+	"namespace": "Project.HorseHealth",
+	"references": [ "Feature.*" ],
+	"items": {
+		"includes": [
+			//{
+			//	"name": "Content-HorseHealth",
+			//	"path": "/sitecore/content/OneWeb/HorseHealth",
+			//	"scope": "ItemAndDescendants",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//},
+			//{
+			//	"name": "MediaLibrary-HorseHealth",
+			//	"path": "/sitecore/media library/Project/OneWeb/HorseHealth",
+			//	"scope": "singleItem",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//},
+			{
+				"name": "MediaLibrary-HorseHealth-Themes",
+				"path": "/sitecore/media library/Themes/OneWeb/HorseHealth",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			}
+			//{
+			//	"name": "Forms-HorseHealth",
+			//	"path": "/sitecore/Forms/OneWeb/HorseHealth",
+			//	"scope": "ItemAndDescendants",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//}
+		]
+	}
+}

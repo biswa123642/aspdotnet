@@ -1,0 +1,151 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+@import "base/fonts/fonts";
+@import "base/fontawesome/font-awesome";
+
+
+body {
+    @include Montserrat-font-stack();
+    font-size: 1.8rem;
+    line-height: 1.45;
+    font-weight: 500;
+    color: $text-basic;
+}
+#content{
+    >.row{
+        display: block;
+    }
+}
+#wrapper{
+    position: relative;
+    z-index: 0;
+}
+b,
+strong {
+    font-weight: bold;
+}
+
+.content a,
+.rich-text a,
+a {
+    color: $text-basic;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+        color: $link-color-hover;
+        text-decoration: none;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @include Montserrat-font-stack();
+    color: $heading-primary-color;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    @include Roboto-font-stack();
+    font-size: 3.2rem;
+    line-height: 1;
+    font-weight: 700;
+
+    @include respond-to(tab) {
+        font-size: 4.5rem;
+    }
+
+}
+
+h2 {
+
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: $heading-secondary-color;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+h5 {
+    font-size: 1.6rem;
+}
+
+h6 {
+    font-size: 1.5rem;
+}
+
+p {
+    margin-bottom: 0 0 0 1rem;
+}
+
+.component {
+    &.content,
+    &.rich-text {
+        @include Montserrat-font-stack();
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+        font-weight: 500;
+        color: $text-basic;
+        small {
+            font-size: 14px;
+        }
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            @include Montserrat-font-stack();
+            color: $heading-primary-color;
+            line-height: 1.2;
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+
+        h1 {
+            @include Roboto-font-stack();
+            font-size: 3.2rem;
+            line-height: 1;
+            font-weight: 700;
+
+            @include respond-to(tab) {
+                font-size: 4.5rem;
+            }
+        }
+
+        h2 {
+            @include Montserrat-font-stack();
+            font-size: 3.2rem;
+            font-weight: 700;
+
+
+        }
+
+        h3 {
+            font-size: 2.2rem;
+            @include Montserrat-font-stack();
+            font-weight: 900;
+            color: $heading-secondary-color;
+        }
+
+        h4 {
+            font-size: 1.8rem;
+        }
+
+
+    }
+}

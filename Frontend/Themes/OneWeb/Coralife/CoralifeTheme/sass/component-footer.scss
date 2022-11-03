@@ -1,0 +1,106 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+#footer {
+  padding-bottom: 10px;
+  .container {
+    max-width: 90%;
+    margin: auto;
+  }
+  .link-list {
+    &.inline-link {
+      h3 {
+        color: rgba(234, 240, 246, 0.9);
+        text-transform: capitalize;
+        line-height: 18px;
+      }
+      ul {
+        li {
+          .field-link {
+            padding-top: 4px;
+            a {
+              color: rgba(234, 240, 246, 0.9);
+              margin-left: 0;
+              font-size: 1.2rem;
+              font-weight: 500;
+              line-height: 18px;
+              @include respond-to(mobile) {
+                font-size: 1.1rem;
+              }
+              &:hover {
+                color: rgba(234, 240, 246, 0.9);
+                border-bottom: none;
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+      .component-content {
+        display: flex;
+      }
+    }
+  }
+  .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .rich-text {
+    .component-content {
+      margin-bottom: 10px;
+      color: rgba(234, 240, 246, 0.9);
+      font-weight: 500;
+    }
+  }
+  .rich-text {
+    .contact-link {
+      padding-top: 4px;
+      li{
+        font-size: 1.2rem;
+      }
+      a {
+        color: rgba(234, 240, 246, 0.9);
+        margin-left: 0;
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 18px;
+        text-decoration: none;
+        @include respond-to(mobile) {
+          font-size: 1.1rem;
+        }
+        &:hover {
+          color: rgba(234, 240, 246, 0.9);
+          border-bottom: none;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+.component {
+  &.utility-navigation {
+    &.brand-listing {
+      @include respond-to(tab-horizontal) {
+        margin-bottom: 10px;
+      }
+      .brand-img-container {
+        justify-content: flex-end;
+        @include respond-to(tab-horizontal) {
+          position: absolute;
+          right: 0;
+        }
+        @include respond-to(tab-horizontal-max) {
+          justify-content: flex-start;
+          margin-bottom: 15px;
+          .inner-wrapper {
+            padding-left: 0;
+          }
+        }
+        img {
+          max-width: 125px;
+        }
+      }
+    }
+  }
+}

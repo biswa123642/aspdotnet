@@ -1,0 +1,50 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "base/fonts/fonts";
+
+.component {
+  &.related-articles {
+    .inner-wrap {
+      > a {
+        &:hover{
+          color: $heading1_color;
+          text-decoration: none;
+        }
+        .article-tag {
+         display: none;
+        }
+
+        .caption {
+          font-size: 2.4rem;
+          @include Montserrat-font-stack();
+          font-weight: 800;
+          line-height: 1.1;
+          &:hover{
+            color: $anchor-hover;
+            text-decoration: underline;
+          }
+        }
+      }
+      h3{
+        margin-top: 0px;
+        font-size: 3.48rem;
+        @include Montserrat-font-stack();
+        font-weight: 800;
+        line-height: 39px;
+        margin-bottom: 3rem;
+        cursor: text;
+        color: $heading1_color;
+      }
+    }
+  }
+
+  .field-content {
+    color: $secondary-color;
+    font-weight: 500;
+    font-size: 1.8rem;
+    @include Montserrat-font-stack();
+    a {
+      font-weight: 500;
+    }
+  }
+}

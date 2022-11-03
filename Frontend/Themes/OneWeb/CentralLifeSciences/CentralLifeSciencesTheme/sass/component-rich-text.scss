@@ -1,0 +1,169 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+.component {
+  &.rich-text {
+    .body-copy {
+      .content-wrapper {
+        @include respond-to(tablet) {
+          max-width: 300px;
+          margin: auto;
+        }
+      }
+      margin: 0 -15px;
+      @include respond-to(desktop) {
+        padding: 30px 0;
+        max-width: 1400px;
+        margin: auto;
+      }
+      .body-title {
+        color: $white;
+        @include ff-ernestine-pro-font-stack();
+        text-align: center;
+        font-weight: 600;
+        margin: 40px 0 50px 0;
+        h2 {
+          font-size: 3.52rem;
+        }
+      }
+      .body-wrap {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px;
+        .body-content {
+          padding: 5px;
+          @include respond-to(desktop) {
+            text-align: center;
+            padding: 0px 4px;
+          }
+        }
+        .caption {
+          margin-top: -7rem;
+          margin-left: 10px;
+          padding: 25px 17px;
+          line-height: 1.42;
+          margin-bottom: 2rem;
+          text-align: start;
+          h2 {
+            color: $white;
+            @include ff-ernestine-pro-font-stack();
+            font-weight: 700;
+            font-size: 2.25rem;
+            text-shadow: -1px -1px 4px #000000;
+            @include respond-to(bootstrap-onlyTablet) {
+              font-size: 4.6rem;
+            }
+            @include respond-to(desktop) {
+              font-size: 3vw;
+            }
+          }
+          .subtitle {
+            color: $white !important; //override default
+            font-size: 1.4rem;
+            @include fieldwork-hum-font-stack();
+          }
+        }
+      }
+    }
+  }
+  .text-wrapper {
+    align-items: center;
+    padding: 40px 20px;
+    @include respond-to(desktop) {
+      padding: 70px 20px;
+    }
+    @include respond-to(extra-large-desktop) {
+      padding: 70px 310px;
+    }
+
+    h2 {
+      font-weight: 600;
+      @include ff-ernestine-pro-font-stack();
+      font-size: 40px;
+      line-height: 49px;
+    }
+    p {
+      font-size: 1.6rem;
+      line-height: 26px;
+      font-weight: 400;
+      @include respond-to(desktop) {
+        font-size: 2rem;
+        line-height: 28px;
+      }
+    }
+    &.variant-2 {
+      max-width: 1200px;
+      margin: auto;
+      margin-top: 2rem;
+      @include respond-to(extra-large-desktop) {
+        max-width: 90%;
+      }
+      .text-buttonwrapper {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        text-align: center;
+        a {
+          background-color: rgb(0, 110, 67);
+          border-radius: 5px;
+          color: $text-basic;
+          padding: 10px;
+          font-size: 1.25em;
+          line-height: 28px;
+          @include fieldwork-hum-font-stack();
+          @include respond-to(desktop) {
+            font-size: 2.5rem;
+          }
+        }
+      }
+      .text-container {
+        border: 1px solid $bg-basic-color-active;
+        width: 100%;
+        text-align: center;
+        border-radius: 15px;
+        padding: 0.8em;
+        box-sizing: border-box;
+        .text-positionsCount {
+          color: $text-basic;
+          font-size: 2.75em;
+          font-weight: bold;
+          line-height: 30px;
+          text-align: center;
+          font-family: Roboto Slab;
+          @include respond-to(desktop) {
+            font-size: 5.5rem;
+          }
+        }
+        .text-positionsLabel {
+          margin-top: 0;
+          font-size: 1.4em;
+          color: $search-page-color;
+          margin-bottom: 0.75em;
+          font-weight: 500;
+          line-height: 1.2;
+          --margin-block-start: 1em;
+          --margin-block-end: 1em;
+          --margin-inline-start: 0px;
+          --margin-inline-end: 0px;
+          display: block;
+          text-align: center;
+          font-family: Roboto Slab;
+          @include respond-to(desktop) {
+            font-size: 2.8rem;
+          }
+        }
+      }
+      p {
+        &.text-title {
+          font-size: 1.4em;
+          color: $dark-green;
+          @include respond-to(desktop) {
+            font-size: 2.8rem;
+          }
+        }
+        color: $text-basic;
+      }
+    }
+  }
+}

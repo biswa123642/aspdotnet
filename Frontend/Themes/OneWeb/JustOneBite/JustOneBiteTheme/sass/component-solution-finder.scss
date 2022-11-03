@@ -1,0 +1,116 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component-solution-finder {
+  .solution-finder {
+    .breadcrumb-bg {
+      background-color: transparent;
+      .solution-finder-breadcrumb {
+        color: $red-text;
+        font-family: "antique-olive", sans-serif;
+        font-size: 4.17rem;
+        font-weight: normal;
+        text-decoration: none;
+        border: none;
+        background-color: #ffffff;
+        border-radius: 0;
+        padding: 3.2rem;
+        margin: 0 1rem;
+        width: 8.6rem;
+        height: 11.4rem;
+        text-align: center;
+        &:hover {
+          color: $black;
+        }
+      }
+    }
+    .solutionFinderMainDisplay {
+      padding-top: 2rem;
+      .questionDiv {
+        background-color: transparent;
+        padding: 0;
+        h3 {
+          color: #c23c32;
+          font-family: "antique-olive", sans-serif;
+          font-size: 4.17rem;
+          font-weight: inherit;
+          text-decoration: none;
+          text-align: center;
+          margin: 3rem 0;
+        }
+      }
+      .answersDiv {
+        .answer-div {
+          margin: 1rem;
+          .answer-title {
+            color: inherit;
+            font-family: "john-doe";
+            font-size: 2.17rem;
+            font-weight: bold;
+            text-decoration: inherit;
+            text-align: center;
+            text-transform: inherit;
+            &:hover {
+              color: $red-text;
+              text-decoration: underline;
+            }
+          }
+          .answer-image {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+          }
+        }
+      }
+    }
+    @include respond-to(tab) {
+      .solutionFinderMainDisplay {
+        .questionDiv {
+          h3 {
+            font-size: 4.17rem;
+          }
+        }
+        .answersDiv {
+          .answer-div {
+            max-width: 40%;
+          }
+        }
+      }
+    }
+    @include respond-to(desktop) {
+      max-width: 140rem;
+      margin: auto;
+      .breadcrumb-bg {
+        .solution-finder-breadcrumb {
+          width: 12.9rem;
+        }
+      }
+      .solutionFinderMainDisplay {
+        .questionDiv {
+          h3 {
+            font-size: 4.17rem;
+          }
+        }
+        .answersDiv {
+          .answer-div {
+            max-width: 26%;
+            margin: 3rem;
+            .answer-image {
+              width: 25rem;
+              height: 20rem;
+            }
+          }
+        }
+      }
+    }
+    @include respond-to(extra-large-desktop) {
+      .solutionFinderMainDisplay {
+        .answersDiv {
+          .answer-div {
+            max-width: 21%;
+          }
+        }
+      }
+    }
+  }
+}

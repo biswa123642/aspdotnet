@@ -1,0 +1,31 @@
+@import "styles/container/*";
+@import "abstracts/mixins";
+@import "abstracts/vars";
+
+.container {
+  padding: 0;
+  &:not(.col-12) {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    max-width: 117rem;
+  }
+}
+#content > .row {
+  display: block;
+  .container {
+    &:not(.col-12) {
+      max-width: 117rem;
+    }
+  }
+}
+.component{
+  &.header-shell{
+    .container {
+      @include respond-to(larger-desktop) {
+        max-width: 160rem;
+      }
+    }
+  }
+}

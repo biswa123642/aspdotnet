@@ -1,0 +1,12 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+
+.component {
+    &.hero {
+        @import "variants/component-hero-banner/with-text.scss";
+        @import "variants/component-hero-banner/with-adjustable-height.scss";
+
+    }
+}

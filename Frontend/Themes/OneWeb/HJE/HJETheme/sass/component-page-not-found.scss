@@ -1,0 +1,46 @@
+.page-404 {
+  .search-box {
+    margin: 0 auto;
+    position: inherit;
+    .search-holder {
+      .search-wrapper {
+        &::before {
+          background: transparent;
+        }
+        .search-input-wrapper {
+          .search-input {
+            padding: 0;
+            border: 1px solid rgb(118, 118, 118);
+            padding-left: 3px;
+            color: #636569;
+            line-height: 1;
+            font-size: 1.6rem;
+            box-shadow: none;
+            border-radius: 3px;
+            margin-left: 1.5rem;
+            &:focus {
+              border: 2px solid #000 !important;
+            }
+          }
+          .custom-search-box-button {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .position-center {
+    padding-top: 10rem;
+    .page-not-found {
+      p {
+        a {
+          color: #337ab7;
+          &:hover {
+            color: #23527c;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

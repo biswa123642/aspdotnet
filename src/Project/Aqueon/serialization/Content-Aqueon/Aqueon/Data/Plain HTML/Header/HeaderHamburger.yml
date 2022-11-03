@@ -1,0 +1,47 @@
+﻿---
+ID: "2d4f0b93-07d9-4cab-83ff-4e40f5457fa6"
+Parent: "2d400d22-5797-4877-8886-ff07c91acdee"
+Template: "2ad23d55-aecd-43dd-ae0d-72d2ebcba60f"
+Path: /sitecore/content/OneWeb/Aqueon/Data/Plain HTML/Header/HeaderHamburger
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Header Hamburger
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24cce27c-05db-4473-a1ed-e69b1725ff1c"
+      Hint: HtmlCode
+      Value: |
+        <button class="mobile-search-button mobile-search-toggle"></button>
+        <button type="button" data-toggle="collapse" data-target="#mm-bb907eb1-f5be-462b-a6a1-36b98f5659a6" class="hamburger navbar-toggle">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        
+        <script src="https://use.typekit.net/adj6swo.js"></script>
+        <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220311T083701Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "74c27f51-7764-40dd-a0d5-8eb0bb104539"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220923T082013Z

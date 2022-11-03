@@ -1,0 +1,82 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+.component {
+  &.link {
+    &.back {
+      a {
+        margin-top: -45px;
+        font-size: 1.2em;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        background-size: 24px;
+        background-color: $bg-transparent;
+        word-spacing: 1px;
+        padding-top: 40px;
+        padding-bottom: 74px;
+        margin-left: 11px;
+        padding-left: 70px;
+        background-image: url(../images/Icons/arrow_lft_green.svg);
+        background-position: 11% 92%;
+        width: 337px;
+        height: 30px;
+        border: none;
+        color: $light-green;
+        margin-bottom: 30px;
+        &:hover {
+          color: $light-green;
+          background-color: $bg-transparent;
+        }
+      }
+    }
+    padding: 0;
+    a {
+      color: $dark-green;
+      background-color: $light-green;
+      background-repeat: no-repeat;
+      background-image: url(../images/Icons/Arrow_right_DKgreen.png);
+      background-position: 90% center;
+      width: 100%;
+      float: left;
+      margin-bottom: 1%;
+      border-radius: 0;
+      padding: 0 20px 0 31px;
+      line-height: 10rem;
+      font-size: 2.0rem;
+      font-weight: 300;
+      @include fieldwork-hum-font-stack();
+      text-align: left;
+    }
+  }
+  @include respond-to(desktop) {
+    &.link {
+      &.back {
+        a {
+          padding-bottom: 81px;
+        }
+      }
+      padding: 0px 15px;
+      a {
+        line-height: 11.8rem;
+        margin-bottom: 5%;
+        font-size: 2.24rem;
+        &:hover {
+          background-color: $light-grey;
+          color: $white;
+        }
+      }
+    }
+  }
+  @include respond-to(extra-large-desktop){
+    &.link{
+      a{
+        font-size: 3.2rem;
+      }
+    }
+  }
+}
+.accordian-body .column-splitter {
+  @include respond-to(desktop) {
+    width: 70%;
+    margin: auto ;
+  }
+}

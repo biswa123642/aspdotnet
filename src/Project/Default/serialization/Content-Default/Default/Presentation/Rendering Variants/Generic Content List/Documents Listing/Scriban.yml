@@ -1,0 +1,64 @@
+﻿---
+ID: "6ab94498-c278-4d68-b60e-a0cb49367b11"
+Parent: "4650091d-82e9-4dd9-82ea-68f152ab72d2"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Generic Content List/Documents Listing/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    <div class="row">
+    		<div class="listing-description">
+    			<h2 class="">{{i_item.Title}}</h2>
+    			<p class="">{{i_item.Description}}</p>
+    			<h3 class="subheading">{{i_item.SubTitle}}</h3>
+    		</div>
+    </div>
+    {{gridclass = sc_parameter 'GridClass'}}
+    <div class="row">
+    		{{for i_list in (sc_followmany i_item "ListItems") 
+    		
+    		sc_editframe i_list 'Custom List'}}
+    		{{if i_list.Image !=''}}
+                {{if gridclass !=''}}
+                    <div class="inner-wrap col-12 {{gridclass}}">
+                {{else}}
+                    <div class="inner-wrap col-12 col-lg-3">
+                {{end}}
+                    <a href="{{i_list.CTA.media_url}}">
+                    {{i_list.Image}}
+                    </a>
+                    <p>{{i_list.CTA}}</p>
+                    
+    		        </div>
+    		{{end}}
+    		{{sc_endeditframe
+    		
+    		end}}
+    </div>		
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220607T090257Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "db82397f-3b55-4516-a52a-2a63dd0a9fc2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220620T101600Z

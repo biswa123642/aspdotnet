@@ -1,0 +1,31 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component{
+&.product-documents-list {
+    &.pdf-documents-list{
+.short-product-list {
+.short-product-list-wrapper {
+    
+.product-item {
+      a {
+       margin:-1.3rem;
+       @include respond-to(desktop) {
+        margin:0;
+        
+      } 
+
+      img
+
+{
+border:none;
+
+}
+}
+}
+}
+}
+}
+}
+}

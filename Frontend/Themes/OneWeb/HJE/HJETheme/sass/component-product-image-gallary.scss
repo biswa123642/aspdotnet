@@ -1,0 +1,30 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  &.product-image-gallery {
+    .image-placeholder {
+      width: 100%;
+      border: 0;
+      background-color: $white-color;
+      a {
+        &:focus {
+          outline: 0;
+        }
+        img {
+          max-width: 429px !important;
+          max-height: 429px !important;
+          margin: 0 auto;
+        }
+      }
+    }
+    .inner-wrap {
+      .image-container {
+        .product-tile {
+          border: 0;
+          background-color: $white-color;
+        }
+      }
+    }
+  }
+}

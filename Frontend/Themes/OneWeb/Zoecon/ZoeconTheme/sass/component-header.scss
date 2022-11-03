@@ -1,0 +1,495 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.header-shell {
+        &.variant-2 {
+            padding: initial;           
+
+            .wrapper {
+                padding: 0;
+
+                .inner-wrap {
+                    background: url('../images/greengrad.png') 10rem 0 no-repeat;
+                    background-size: cover;
+                    min-height: 6.2rem;
+                    padding: 0 1.5rem;
+                }
+
+                .wrapper-nav {
+                    padding: 0;
+                    background-color: transparent;
+                }
+            }
+
+            .logo-container {
+                .component {
+                    &.image {
+                        padding: 4.2px 0 0 0;
+
+                        img {
+                            width: 10rem;
+                        }
+                    }
+                }
+            }
+
+            .component {
+                &.plain-html {
+                    padding: 0;
+
+                    .mobile-search-button {
+                        background-image: url("../images/MagnifyingGlass.png");
+                        height: 36px;
+                        width: 40px;
+                        background-repeat: no-repeat;
+                        position: absolute;
+                        top: 50%;
+                        right: 6rem;
+                        transform: translateY(-50%);
+                    }
+
+                    .hamburger {
+                        right: 0;
+                        margin: 8.5px 0;
+                        padding: 9px 10px;
+                        width: 48px;
+                        height: 45px;
+                        border-color: rgba(67, 67, 67, 0.75);
+                        border-radius: 0;
+                        background: rgba(67, 67, 67, 0.75);
+                        color: $white;
+
+                        .icon-bar {
+                            display: block;
+                            border-radius: 0;
+                            background-color: $white;
+                            width: 100%;
+                            margin: 4px 0;
+                            height: 4px;
+                        }
+                    }
+                }
+            }
+
+            .component {
+                &.page-list {
+                    border: 2px solid $border-light-gary;
+                    margin: 18px 0 0;
+
+                    ul.items {
+                        li.item {
+                            padding: 0;
+
+                            >a {
+                                padding: 1rem 0 1rem 1.5rem;
+                                display: inline-block;
+                                font-size: 2rem;
+                                text-transform: capitalize;
+                                color: $primary-color;
+                                font-weight: normal;
+                            }
+
+                            a {
+                                border-bottom: none;
+                            }
+
+                            .submenu-utility-linklist {
+                                background-color: $white;
+
+                                .linked-thumbnail {
+                                    ul {
+                                        li {
+                                            display: flex;
+                                            align-items: center;
+                                            padding: 1rem 1.5rem;
+                                            border: 1px solid $border-light-gary;
+
+                                            .field-image {
+                                                img {
+                                                    width: 60px;
+                                                    padding: 0;
+                                                    border-radius: 100%;
+                                                }
+                                            }
+
+                                            .field-description {
+                                                padding-left: 1.5rem;
+
+                                                a {
+                                                    font-size: 20px;
+                                                    text-transform: capitalize;
+                                                    color: $gray-secondary;
+                                                    font-weight: normal;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .component {
+                                    &.link {
+                                        .field-link {
+                                            text-align: center;
+                                            background-color: $green;
+                                            padding: 1.2rem 0;
+
+                                            a {
+                                                font-size: 2rem;
+                                                font-weight: bold;
+                                                color: $white;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            &.has-submenu-list {
+                                position: relative;
+
+                                &:after,
+                                &:before {
+                                    content: '';
+                                    display: block;
+                                    position: absolute;
+                                    right: 25px;
+                                    width: 30px;
+                                    height: 5px;
+                                    background-color: $primary-color;
+                                    top: 2.4rem;
+                                    transition: transform 0.25s ease-in-out;
+                                }
+
+                                &::after {
+                                    transform: rotate(90deg);
+                                    top: 2.2rem;
+                                }
+
+                                &.open {
+                                    background-color: $primary-color;
+
+                                    >a {
+                                        color: $white;
+                                    }
+
+                                    &:before {
+                                        background-color: $white;
+                                        transform: rotate(0) translateY(-50%);
+                                    }
+
+                                    &::after {
+                                        display: none
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+
+            .component {
+                &.utility-navigation {}
+            }
+
+            .component {
+                &.search-box {
+                    position: absolute;
+                    top: 2%;
+
+                    &.active {
+                        display: block;
+                    }
+
+                    background-color: transparent;
+                    padding: 0 1.5rem;
+
+                    .search-wrapper {
+                        &::before {
+                            display: none;
+                        }
+                    }
+
+                    .search-input-wrapper {
+                        min-height: 4rem;
+                        background-color: transparent;
+                        padding: 0;
+
+                        input {
+                            right: 0;
+                            min-width: 25.4rem;
+                            border-radius: 1.4rem;
+                            border: 2px solid $input-border;
+                            font-size: 15px;
+                            font-weight: bold;
+                            height: 4.5rem;
+                            padding: 0 1.5rem;
+                        }
+
+                        .custom-search-box-button {
+                            background-image: url("../images/search-icon.png");
+                        }
+                    }
+
+                    &.active,
+                    &:hover {
+                        .search-input-wrapper {
+                            input {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+
+            @include respond-to(tab) {
+                .wrapper {
+                    background-size: cover;
+                    background-position-x: 15rem;
+
+                }
+
+                .logo-container {
+                    .component {
+                        &.image {
+                            img {
+                                width: 9.8rem;
+                            }
+                        }
+                    }
+                }
+            }
+
+            @include respond-to(desktop) {
+                position: fixed;
+                .wrapper {
+                    height: 12.6rem;
+                    background-position-x: 20rem;
+                    background: url('../images/greengrad.png') 18rem 0 no-repeat;
+                    background-size: cover;
+
+                    .inner-wrap {
+                        padding: 0 1.5rem;
+                        background-image: none;
+                        position: relative;
+                    }
+
+                    .wrapper-nav {
+                        padding: 0 1.5rem;
+                    }
+                }
+
+                .logo-container {
+                    position: static !important;
+                    display: initial;
+
+                    .component {
+                        &.image {
+                            top: 0;
+                            max-width: 20%;
+                            position: absolute;
+                            left: 1.5rem;
+                            z-index: 2;
+
+                            img {
+                                width: 20rem;
+                                padding: .5rem 0 0 0;
+                            }
+                        }
+                    }
+                }
+
+                .component {
+                    &.page-list {
+                        padding: 0;
+                        margin: 0 6rem 0 0;
+                        border: none;
+                        position: static;
+
+                        ul.items {
+                            justify-content: flex-end;
+
+                            li.item {
+                                >a {
+                                    padding: 1rem;
+                                    color: $white;
+                                }
+
+                                &.has-submenu-list {
+                                    position: static;
+
+                                    &::before,
+                                    &::after {
+                                        display: none;
+                                    }
+                                }
+
+                                .submenu-utility-linklist {
+                                    padding: 3rem;
+                                    border-bottom-left-radius: 24px;
+                                    border-bottom-right-radius: 24px;
+
+                                    .linked-thumbnail {
+
+                                        ul {
+                                            display: flex;
+                                            justify-content: center;
+
+                                            li {
+                                                text-align: center;
+                                                flex-direction: column;
+                                                border: none;
+                                                width: 20%;
+
+                                                .field-image {
+                                                    img {
+                                                        width: 156px;
+                                                        padding: 0;
+                                                        border-radius: 100%;
+                                                    }
+                                                }
+
+                                                .field-description {
+                                                    padding-top: 2rem;
+                                                    padding-left: 0;
+
+                                                    a {
+                                                        font-size: 25px;
+                                                        font-weight: bold;
+                                                    }
+                                                }
+                                            }
+                                        }
+
+                                        >div {
+                                            border-bottom: none;
+                                        }
+                                    }
+
+                                    .component {
+                                        &.link {
+                                            margin-bottom: .5rem;
+
+                                            .field-link {
+                                                text-align: center;
+                                                background-color: transparent;
+                                                padding: 0 0 3rem 0;
+
+                                                a {
+                                                    padding: 1rem 6rem;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                &:hover {
+                                    >a {
+                                        background-color: $primary-color;
+                                    }
+
+                                    .submenu-utility-linklist {
+                                        width: 103rem;
+                                        display: block;
+                                        left: 50%;
+                                        transform: translateX(-50%);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .component {
+                    &.search-box {
+                        padding: 0;
+                        flex: initial;
+
+                        .search-input-wrapper {
+                            position: relative;
+
+                            input {
+                                display: none;
+                                position: absolute;
+                                top: 100%;
+                            }
+
+                            .custom-search-box-button {
+                                top: 50%;
+                                background-image: url("../images/MagnifyingGlass.png");
+                            }
+                        }
+                    }
+                }
+
+                .component {
+                    &.utility-navigation {
+                        padding: 2.5rem 1.5rem 2rem 0;
+
+                        .component-content {
+                            >div {
+                                justify-content: flex-end;
+                            }
+                        }
+
+                        .top-nav {
+                            .list-wrap {
+                                .list-item{
+                                    padding: 0;
+                                }
+                                >div {
+                                    a {
+                                        font-size: 2rem;
+                                        color: $white;
+                                        text-transform: uppercase;
+                                        text-decoration: none;
+                                        font-weight: normal;
+                                        padding: 1rem 1.5rem;
+                                    }
+
+                                    &:last-child {
+                                        a {
+                                            border-radius: 50px;
+                                            background-color: $white;
+                                            border: 2px solid $green;
+                                            color: $green;
+                                            padding: 10px 20px;
+                                            font-weight: bold;
+                                        }
+
+                                        &:hover {
+                                            a {
+                                                background-color: $white;
+                                            }
+                                        }
+                                    }
+
+                                    &:hover {
+                                        a {
+                                            background-color: $primary-color;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.header-static{
+    padding-top: 0;
+    .component{
+        &.header-shell{
+            &.variant-2{
+                position: static;
+            }
+        }
+    }
+}
+
+.header-shell.active .component.plain-html .hamburger .icon-bar:first-child {
+    transform: rotate(45deg) translate(6px, 6px);
+}

@@ -1,0 +1,24 @@
+.landing-page{
+    .container{
+        width: 100%;
+        padding:1.6rem;
+        .title{
+            margin:4rem 0 3rem;
+            padding-bottom: 0.9rem;
+        }
+        .field-title{
+            font-size: 36px;
+            font-weight: bold;
+            color: #00aeef;
+            line-height: 1.1;
+        }
+        .content{
+            font-size: 2rem;
+            line-height: 3.2rem;
+            margin-bottom:3rem;
+        }
+        @media screen and(min-width:992px) {
+            padding:8rem 8rem 1.6rem 8rem;   
+        }
+    }
+}

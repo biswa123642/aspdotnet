@@ -1,0 +1,71 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component{
+    &.product-listing{
+        .product-wrap{
+            .copy-wrap{
+                    a{
+                        @include arial-sans();
+                        text-align: left;
+                        color:$orange-heading;
+                        font-size: 1.4rem;
+                        padding-left: .5rem;
+                        text-transform: capitalize;
+                        font-weight: 400;
+                        background: none;
+                }
+            }
+            #searchfilter{
+                .facet-wrapper{
+                    h3{
+                        font-weight: 700;
+                        border-bottom: 2px solid $blue-heading;
+                        font-size: 1.3rem;
+                        color:$blue-heading;
+                        button{
+                            @include source-code-pro-sans();
+                            text-transform: uppercase;
+                            &:after{
+                                width:1.3rem;
+                                background:$blue-heading;
+                            }
+                            &:before{ 
+                                width:1.3rem;
+                                background:$blue-heading;
+                            }
+                        }
+                    }
+                    .form-check{
+                        .form-check-label{
+                            @include source-code-pro-sans();
+                            font-size: 1.4rem;
+                        }
+                    }
+                }
+            }
+            #product-type{
+                .result-count{
+                    @include arial-sans();
+                    font-weight: 400;
+                }
+                #product-wrapper{
+                    .product-list{
+                        .cgp-product{
+                            .body-copy{
+                                h3{
+                                    a{
+                                        @include source-code-pro-sans();
+                                        color: $orange-heading;
+                                        font-size: 1.7rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

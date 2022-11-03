@@ -1,0 +1,60 @@
+﻿---
+ID: "faa258cd-eedf-48e6-bf79-08a3a1d8ac45"
+Parent: "be0629ef-1eee-429c-a9f9-ca923f21d025"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Product Attribute Listing/Default/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    {{if o_model.filtered_product_attribute_list && o_model.filtered_product_attribute_list.size> 0}}
+    <div class="horizontal-wrapper">
+       <div class="helps-with-rte">
+          <h4>{{sc_translate "HelpsWith"}}</h4>
+       </div>
+       <ul class="helps-with">
+          {{for productattribute in o_model.filtered_product_attribute_list}}
+          <li>
+             {{productattribute.Image}}
+          </li>
+          {{end}}
+       </ul>
+    </div>
+    {{end}}
+    {{ if o_model.filtered_product_attribute_item!=null}}
+    <div class="vertical-wrapper">
+       <div class="chewmeter-rte">
+          <h3>{{sc_translate "ChewMeter"}}</h3>
+          <p><a href="~/link.aspx?_id=EB83294C7F8F4DA1A9CDAED9605402EC&amp;_z=z">{{sc_translate "WhatIsThis"}}</a></p>
+       </div>
+       <div class="field-tile-image">
+          {{o_model.filtered_product_attribute_item.Image}}
+       </div>
+    </div>
+    {{end}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220513T172848Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "10fdeb94-7b79-427a-899e-6b9b23cac29d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220604T105815Z

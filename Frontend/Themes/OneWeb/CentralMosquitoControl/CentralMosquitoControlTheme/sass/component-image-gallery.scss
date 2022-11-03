@@ -1,0 +1,66 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.image-gallery {        
+        padding: 0 1.5rem;
+        h3{
+            margin: 0;
+        }
+        .container:not(.col-12) {
+            padding: 0;
+        }
+
+        .row {
+            .column-card {
+                padding: .5rem;
+
+                >a {
+                    display: inline-block;
+                    line-height: 1;
+                }
+
+                @media screen and (min-width:768px) and (max-width:991px) {
+                    &:nth-child(even) {
+                        text-align: left;
+                    }
+
+                    &:nth-child(odd) {
+                        text-align: right;
+                    }
+                }
+            }
+        }
+
+        .column-card {
+            .card {
+                background-color: transparent;
+                display: block;
+                padding: 0;
+                border: 0;
+                height: auto !important;
+            }
+
+            .field-image {
+                background-color: $blue;
+                padding: 25px;
+                width: 250px;
+                height: 125px;
+                margin: auto;
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        @include respond-to(desktop) {            
+            .column-card {
+                flex: 0 0 33.33%;
+                max-width: 33.33%;
+            }
+            >.component-content{
+                max-width: 800px;
+                margin: auto;
+            }
+        }
+    }
+}

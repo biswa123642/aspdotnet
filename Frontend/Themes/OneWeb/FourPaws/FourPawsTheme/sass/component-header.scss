@@ -1,0 +1,479 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.header-shell {
+    .component {
+      &.utility-navigation {
+        .variant-1 {
+          .top-nav {
+            margin-right: 10%;
+          }
+        }
+      }
+    }
+
+    &.variant-1 {
+      &::before {
+        top: 103px;
+      }
+
+      position: fixed;
+      top: 0;
+      z-index: 99;
+      background-position: 50% 90%;
+      margin-top: -1px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-bottom: -60px;
+
+      transition: all ease-in-out 200ms;
+      box-shadow: none;
+
+      .menu-wrapper {
+        .page-list {
+          .items {
+            .item {
+              a{
+                border-bottom: none;
+              }
+              &.has-submenu-list{
+                &::before{
+                  display: none;
+                }
+              }
+              .submenu-utility-linklist {
+                .social-links {
+                  a {
+                    &:hover {
+                      border-bottom: none;
+                    }
+                  }
+                }
+
+                .sub-menu-left {
+                  display: grid;
+                }
+
+                background-color: $white;
+                padding: 10px 20px;
+
+                .linked-thumbnail {
+                  margin: auto;
+
+                  ul {
+                    display: flex;
+
+                    li {
+                      border: none;
+                      max-width: 73px;
+                      margin: auto;
+
+                      .field-image {
+                        a {
+                          border: none;
+                        }
+                      }
+
+                      .field-description {
+                        margin: auto;
+                        text-align: center;
+                        transition: all 0.2s ease-in-out;
+                        background: transparent;
+                        height: 55px;
+                      }
+                    }
+                  }
+                }
+
+                .utility-navigation {
+                  .icon-container {
+                    display: flex;
+                    justify-content: flex-start;
+                    border: none;
+
+                    .fa {
+                      padding: 2px 0px 7px 0;
+                      display: block;
+                      color: $bg-blue-active;
+                      margin-right: 10px;
+                    }
+                  }
+                }
+
+                .link {
+                  a {
+                    padding: 2px 0px 7px 0;
+                    display: block;
+                    color: $bg-blue-active;
+                    font-size: 10px;
+                    outline: none;
+                    text-transform: capitalize;
+                    margin-right: 10px;
+                    font-weight: 700;
+                    list-style: none;
+                    border: none;
+
+                    &:hover {
+                      text-decoration: underline;
+                    }
+                  }
+                }
+
+                .link-list {
+                  ul {
+                    li {
+                      &:hover {
+                        text-decoration: underline;
+                      }
+
+                      @include montserrat-font-stack();
+                      font-size: 1.4rem;
+
+                      a {
+                        border: none;
+                        display: contents;
+                        color: $header-light-gray;
+                        font-weight: 700;
+                        font-size: 1rem;
+                      }
+                    }
+                  }
+                }
+                .sub-menu-left{
+                  @include respond-to(desktop){
+                    border-right: 1px solid $border-gray-light;
+                  }
+                }
+              }
+
+              &:hover {
+                @include respond-to(desktop) {
+                  .submenu-utility-linklist {
+                    display: block;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &.active {
+        .menu-wrapper {
+          display: block;
+        }
+        .component {
+          &.plain-html {
+            .hamburger {
+              .icon-bar {
+                &:first-child {
+                  transform: rotate(45deg) translate(7px, 8px);
+                }
+              }
+            }
+          }
+        }
+      }
+
+      @include respond-to(desktop) {
+        border-top: 8px solid $bg-blue-active;
+
+        &:before {
+          border-bottom: 0px;
+        }
+
+        .search-box {
+          .search-holder {
+            .global-search {
+              .search-input-wrapper {
+                .custom-search-box-button {
+                  background-image: url("../images/FP_Mag_glass.png");
+                  background-repeat: no-repeat;
+                  background-size: contain;
+                  background-position: top right;
+                  z-index: 999999;
+                  position: absolute;
+                  display: block;
+                  right: 5rem;
+                  top: 2.5rem;
+                  padding: 11px;
+                  height: auto;
+                }
+
+                input {
+                  padding: 1rem 4.4rem 1rem 1rem;
+                  border: none;
+                  padding-left: 4rem;
+                  min-width: 200px;
+                  top: 3rem;
+                  right: 8rem;
+                  position: absolute;
+                  box-shadow: 0 0 10px 0px $bg-blue-active;
+                  background-color: $bg-blue-active;
+                  display: none;
+                  color: $white;
+                  text-align: center;
+                }
+              }
+            }
+          }
+
+          &.active {
+            .search-holder {
+              .global-search {
+                .search-input-wrapper {
+                  input {
+                    display: block;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .menu-wrapper {
+          .page-list {
+            .items {
+              .item {
+                padding-bottom: 1.2rem;
+                position: initial;
+
+                a {
+                  border-bottom: none;
+
+                  &:hover {
+                    border-bottom: 4px solid $bg-blue-active;
+                  }
+                }
+
+                .submenu-utility-linklist {
+                  background-color: #ffffffe6;
+                  box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+
+                  &.submenu-large {
+                    width: 83rem;
+                  }
+
+                  &.submenu-small {
+                    width: 32rem;
+                  }
+
+                  &.submenu-medium {
+                    width: 64rem;
+                  }
+
+                  .linked-thumbnail {
+                    ul {
+                      li {
+                        .field-description {
+                          a {
+                            font-size: 0.875rem;
+                            color: $header-light-gray;
+                            text-align: center;
+                            @include montserrat-font-stack();
+                            font-weight: 700;
+
+                            &:hover {
+                              transform: scale(1.05);
+                              border-bottom: none;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      @include respond-to(all-mobile) {
+        .menu-wrapper {
+          .page-list {
+            .items {
+              .item {
+                &.has-submenu-list {
+                  position: relative;
+
+                  &:after {
+                    display: inline-block;
+                    position: absolute;
+                    top: 0;
+                    top: 12px;
+                    right: 5px;
+                    content: "";
+                    color: $anchor;
+                    border-top: 4px dashed;
+                    border-right: 4px solid transparent;
+                    border-left: 4px solid transparent;
+                  }
+
+                  &.open {
+                    .submenu-utility-linklist {
+                      display: block;
+                    }
+
+                    &::after {
+                      transform: rotate(-180deg);
+                      color: $header-light-gray;
+                    }
+                  }
+
+                  >a {
+                    width: 100%;
+                    color: $header-light-gray;
+                    border-bottom: none;
+                    max-width: 100%;
+                    z-index: 9999;
+                  }
+
+                  .submenu-utility-linklist {
+                    .linked-thumbnail {
+                      ul {
+                        display: block;
+
+                        li {
+                          max-width: none;
+
+                          .field-image {
+                            display: none;
+                          }
+
+                          .field-description {
+                            text-align: left;
+                            height: 2rem;
+                            color: $header-light-gray;
+                            font-weight: 700;
+                            font-size: 1rem;
+
+                            img {
+                              display: none;
+                            }
+
+                            a {
+                              text-align: left;
+                              height: 2rem;
+                              color: $header-light-gray;
+                              font-weight: 700;
+                              font-size: 1rem;
+                              text-decoration: none;
+                              border-bottom: none;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          .search-box {
+            flex: 0 0 100%;
+            max-width: 100%;
+
+            .component-content {
+              display: block;
+
+              .search-holder {
+                .search-input-wrapper {
+                  input {
+                    padding-left: 20px;
+                    border: none;
+                    outline: none;
+                    box-shadow: none;
+                    border-right: 1px solid $white;
+                    border-left: 1px solid $white;
+                    border-top: 1px solid $white;
+                    display: block !important;
+                  }
+
+                  button {
+                    background-image: url("/~/media/Project/OneWeb/FourPaws/Images/FourPaws Images/FP_Mag_glass.png");
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    background-position: top right;
+                    z-index: 999999;
+                    position: absolute;
+                    display: block;
+                    right: 0;
+                    top: 10px;
+                    padding: 11px;
+                    height: auto;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include respond-to(desktop) {
+  .global-search-sugest {
+    &.ui-menu {
+      border-bottom-left-radius: 1em;
+      border-bottom-right-radius: 1em;
+      border: 2px solid $bg-blue-active !important;
+      padding: 22px 0 15px 0;
+      color: $bg-blue-active;
+      background: $white;
+      overflow: hidden;
+      width: 20rem;
+
+      li {
+        &.ui-menu-item {
+          .ui-menu-item-wrapper {
+            color: $bg-blue-active;
+            font-size: 1.2rem;
+            @include lora-font-stack();
+
+            &.ui-state-active {
+              background: none;
+
+              &:hover {
+                @include lora-font-stack();
+                color: $bg-blue-active;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include respond-to(all-mobile) {
+  .component {
+    &.header-shell {
+      .component {
+        &.plain-html {
+          .hamburger {
+            margin-top: 3rem;
+          }
+        }
+      }
+    }
+
+  }
+
+  .global-search-sugest {
+    &.ui-menu {
+      border-bottom-left-radius: 1em;
+      border-bottom-right-radius: 1em;
+      border: 2px solid $bg-blue-active !important;
+      padding: 22px 0 15px 0;
+      color: $bg-blue-active;
+      background: $white;
+      overflow: hidden;
+      max-width: 80%;
+    }
+  }
+}

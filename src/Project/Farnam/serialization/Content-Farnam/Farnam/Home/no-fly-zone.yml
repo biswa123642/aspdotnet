@@ -1,0 +1,182 @@
+﻿---
+ID: "d7088e9f-b715-4fdf-9342-4df875a1dc26"
+Parent: "1ad1add7-8633-4b74-887e-87ae80a1e243"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/Farnam/Home/no-fly-zone"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{A76E29CE-8739-47B1-8120-D7ABE45FB697}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{B2945079-0025-49B6-AB76-8EF7FB5DA3FE}"
+          p:before="*"
+          s:ds="{25D89A4E-EF9B-4331-B2DE-D72A9E93DE69}"
+          s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass=col-md-6&amp;FieldNames=%7BDD2A67DD-2C78-484F-9B69-9E17B40C4BD1%7D&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D%7C%7BFCA63CD5-CFCB-413B-872E-307FD9F3DD60%7D%7C%7B1D80192A-9692-4818-8744-A0CFB72D05FD%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=12"
+          s:ph="/main/row-1-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{3ECD460B-326A-421B-83AF-AC7005952A95}"
+          p:after="r[@uid='{B2945079-0025-49B6-AB76-8EF7FB5DA3FE}']"
+          s:ds="{EB0077E7-886C-40EB-96AB-D16952B3BA13}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B4FFFD41C-24F3-4E7F-9515-C6BA481861EB%7D&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D%7C%7B90398043-8496-4D82-901C-C111D29E7615%7D%7C%7BFCA63CD5-CFCB-413B-872E-307FD9F3DD60%7D%7C%7B1D80192A-9692-4818-8744-A0CFB72D05FD%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/row-7-1/container-9"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{5AD77EFF-A61C-4D24-B04B-413A84B88960}"
+          p:after="r[@uid='{3ECD460B-326A-421B-83AF-AC7005952A95}']"
+          s:ds="{B520D898-094C-43B4-9A9B-990AA72F3694}"
+          s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass=col-md-4&amp;FieldNames=%7BDD2A67DD-2C78-484F-9B69-9E17B40C4BD1%7D&amp;Styles=%7B90398043-8496-4D82-901C-C111D29E7615%7D%7C%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
+          s:ph="/main/row-7-1/container-9"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{DCD395EE-96CF-4E3D-AF73-480543D2505B}"
+          p:after="r[@uid='{5AD77EFF-A61C-4D24-B04B-413A84B88960}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/row-7-1" />
+        <r
+          uid="{17C4F95A-B4DC-475D-AF7E-A8B1141D6455}"
+          p:after="r[@uid='{DCD395EE-96CF-4E3D-AF73-480543D2505B}']"
+          s:ds="{B5AA5620-9D27-4DA8-ADB2-53348DEDA5D7}"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B4DA37A2A-DE74-4E24-ACC5-E1F1C930DB1B%7D&amp;Styles=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=15"
+          s:ph="/main/row-6-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{AF6B8013-CA5F-4C3A-9478-ED1E373260EC}"
+          p:after="r[@uid='{17C4F95A-B4DC-475D-AF7E-A8B1141D6455}']"
+          s:ds="{4093B01F-C099-426E-88C7-7FFC3ACED68F}"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B4DA37A2A-DE74-4E24-ACC5-E1F1C930DB1B%7D&amp;Styles=%7BCF662AE7-C7E9-473F-B3D0-72B03C989BAB%7D%7C%7B8D38663D-4028-4440-96C6-BCAA6062E23B%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=14"
+          s:ph="/main/row-5-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{3672A831-3B0E-41B4-8404-09FC4AE094C3}"
+          p:after="r[@uid='{AF6B8013-CA5F-4C3A-9478-ED1E373260EC}']"
+          s:ds="{E2550403-FACF-41C0-AB9E-E6BFBBBA22D7}"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B4DA37A2A-DE74-4E24-ACC5-E1F1C930DB1B%7D&amp;Styles=%7B8D38663D-4028-4440-96C6-BCAA6062E23B%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=13"
+          s:ph="/main/row-4-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{403ECE4C-E77F-4B45-A30D-E06FB288C1BA}"
+          p:after="r[@uid='{3672A831-3B0E-41B4-8404-09FC4AE094C3}']"
+          s:ds="{D44845C9-DBDE-4674-8B68-F626F5558105}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B4FFFD41C-24F3-4E7F-9515-C6BA481861EB%7D&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D%7C%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-3-1/container-4" />
+        <r
+          uid="{A918F407-9F06-4356-AA0A-7F985727FA70}"
+          p:after="r[@uid='{403ECE4C-E77F-4B45-A30D-E06FB288C1BA}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-3-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{4EB9CBAA-DBBB-4F81-A5D7-9992CF7B8EC6}"
+          p:after="r[@uid='{A918F407-9F06-4356-AA0A-7F985727FA70}']"
+          s:ds=""
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%3E&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BFA9C16C2-4D5A-4C37-B5CF-EFE2E480BD2A%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-2-1/container-10"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{8E463FDC-9D7D-42F8-B3D1-EC4D0FFDF408}"
+          p:after="r[@uid='{4EB9CBAA-DBBB-4F81-A5D7-9992CF7B8EC6}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/row-2-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{927E5F81-D7D8-4A8B-98F6-E7F8DFE8C8FF}"
+          p:after="r[@uid='{8E463FDC-9D7D-42F8-B3D1-EC4D0FFDF408}']"
+          s:ds=""
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BEB97EC7C-7A08-4D35-835C-AA9365EE9319%7D&amp;Styles=%7B8FCA7511-6AE4-4E01-AC0D-CCF8B60252DE%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/row-1-1/container-7"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{AF178628-42C4-4A8A-8BEC-B0DD378EF612}"
+          p:after="r[@uid='{927E5F81-D7D8-4A8B-98F6-E7F8DFE8C8FF}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-1-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{F6B9CE2B-D88C-46B4-B343-8C23DFA031E1}"
+          p:after="r[@uid='{AF178628-42C4-4A8A-8BEC-B0DD378EF612}']"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3%2C4%2C5%2C6%2C7&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+        <r
+          uid="{A548920A-4373-4A79-A840-E86B5FEF9735}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1&amp;Styles1=%7B56AC347A-BF04-4541-998C-224DF56E208C%7D%7C%7BE5CAE910-E377-474B-BB22-264E5813D058%7D&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;DynamicPlaceholderId=2"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{0D04CF5D-BE95-4FB5-BAD3-CA417EA8ACFC}" />
+    - ID: "1d9016e0-30b3-492f-b94a-f1ebdf628005"
+      Hint: MobileImage
+      Value: |
+        <image mediaid="{EA3DC2D3-44F6-46EC-B9BD-1D67BB4387EF}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220701T141339Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: No Fly Zone
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: The No Fly Zone is Farnam’s system for keeping your horse comfortable and happy.
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: The No Fly Zone is Farnam’s system for keeping your horse comfortable and happy.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: No Fly Zone | Farnam
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: No Fly Zone | Farnam
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b3032b8f-13d5-442a-a21d-ea2a09467831"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220817T120330Z

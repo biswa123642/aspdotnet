@@ -1,0 +1,95 @@
+&.variant-2 {
+  .container {
+    @include respond-to(extra-largedesktop) {
+      max-width: 133rem;
+    }
+  }
+  @include respond-to(desktop) {
+    max-width: 100%;
+    margin: auto;
+  }
+  .row {
+    @include respond-to(desktop) {
+      width: 113rem;
+      margin: auto;
+    }
+
+    > div {
+      width: 100%;
+      margin-top: 2rem;
+      margin-bottom: 3.5rem;
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0px;
+      @include respond-to(tab) {
+        padding: 1rem;
+      }
+      @include respond-to(desktop) {
+        flex: 0 0 50%;
+        max-width: 100%;
+      }
+      .promo-tile {
+        border: 2px solid $heading1_color;
+        border-radius: 4px;
+
+        .sxa-btn {
+          a {
+            background-color: $heading1_color;
+            color: $white;
+
+            border: 2px solid $heading1_color;
+            text-decoration: none;
+            &:hover {
+              background-color: $white;
+              color: $heading1_color;
+              &::after {
+                color: $heading1_color;
+              }
+            }
+            &::after {
+              transform: rotate(0deg);
+              font-family: FontAwesome;
+              content: "\f105";
+              font-size: 1.4em;
+              line-height: 0.7em;
+              float: right;
+              color: $white;
+              padding: 3px 10px;
+            }
+          }
+        }
+      }
+
+      .field-data {
+        padding: 0px;
+      }
+      .field-title {
+        font-size: 3rem;
+        padding: 2.5rem 1rem;
+        @include Montserrat-font-stack();
+        color: $heading1_color;
+        font-weight: 900;
+        display: block;
+        text-align: center;
+        background: transparent;
+        margin: 0px;
+      }
+      .sxa-btn {
+        @include respond-to(tab) {
+          text-align: center;
+        }
+        a {
+          background-color: $heading1_color;
+          color: $white;
+          padding: 9px 15px;
+          min-width: 10.9rem;
+          @include Arial-font-stack();
+          font-size: 1.8rem;
+          font-weight: 800;
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+}

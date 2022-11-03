@@ -1,0 +1,22 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+.component {
+  &.related-articles {
+    &.variant-2 {
+      .component-content {
+        border-top: 1px solid $light-grey;
+        @include respond-to(desktop){
+            border: none;
+        }
+        .inner-wrap {
+          h3 {
+            color: $secondary-color;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 2.8rem;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  &.hero {
+    &.banner-with-content {
+      .inner-container {
+        left: 0;
+        transform: translate(4%, -50%);
+      }
+      .banner-content-wrapper {
+        left: 16rem;
+        @include respond-to(desktop) {
+          left: 25rem;
+        }
+        .content-top {
+          text-align: left;
+        }
+      }
+      .hero-banner-title{
+        font-weight: 600;
+        h2{
+          font-weight: inherit;
+        }
+      }
+      .hero-banner-description {
+        color: $white;
+        p {
+          color: $white;
+          font-size: 20px;
+        }
+      }
+      .banner-cta-holder {
+        justify-content: flex-start;
+      }
+      .sxa-btn {
+        &.sxa-btn-primary {
+          a {
+            color: $white;
+            background-image: url("../images/cta-white-outline.svg");
+            &:hover {
+              color: $dark-green;
+              background-image: url("../images/cta-dark-green-hover.svg");
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,571 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.header-shell {
+        box-shadow: none;
+
+        &.variant-3 {
+            padding: 0;
+            z-index: 99;
+
+            @include respond-to(desktop) {
+                background-color: transparent;
+                padding-left: 15px;
+                padding-right: 15px;
+                position: fixed;
+
+                .container {
+                    padding-left: 50px;
+                    padding-right: 50px;
+                }
+
+                .image {
+                    margin: 0;
+                }
+
+                .component-content {
+                    .row {
+                        flex-wrap: nowrap;
+                    }
+                }
+            }
+
+            .component {
+                &.search-box {
+                    z-index: 3;
+
+                    .global-search-wrapper {
+                        .search-input-wrapper {
+                            .search-input {
+                                font-weight: 700;
+                                padding: 1.5rem 4rem 1.5rem 1.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.active {
+                .component {
+                    &.plain-html {
+                        .hamburger {
+                            .icon-bar {
+                                &:first-child {
+                                    transform: rotateZ(45deg) translate(14px, 14px);
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+
+            .component {
+                &.plain-html {
+                    .hamburger {
+                        margin: 3.5rem 1.5rem 3.3rem;
+                        padding: 0;
+
+                        span {
+                            width: 50px;
+                            height: 7px;
+                            background-color: $heading-color-secondary;
+                            margin-top: 12px;
+
+                            &:first-child {
+                                margin-top: 0;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .header-global-menu {
+                ul {
+                    &.items {
+                        float: none;
+                        justify-content: left;
+                        @include fieldwork-hum-font-stack();
+
+                        li {
+                            &.item {
+                                border: none;
+
+                                a {
+                                    color: $text-color-primary;
+                                    font-size: 1.9rem;
+                                    @include fieldwork-hum-font-stack();
+                                }
+
+                                .sub-menu-item {
+                                    padding-top: 10px;
+                                    padding-bottom: 10px;
+                                }
+
+                                .has-sublist {
+                                    font-size: 1.9rem;
+
+                                    &::after {
+                                        display: none
+                                    }
+
+                                    &:before {
+                                        //display: none;
+                                        @include fa-icon();
+                                        content: $fa-var-caret-down;
+                                        color: $text-color-primary;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            @media screen and (max-width: 991px) {
+                position: static;
+
+                .header-global-menu {
+                    padding-bottom: 195px;
+                    background-image: url('../images/Central_Exp_Menu_Icon.png');
+                    background-repeat: no-repeat;
+                    background-position: bottom right;
+                    background-size: 233px;
+                }
+
+                .image {
+                    max-width: 17.5rem;
+
+                    &.file-type-icon-media-link {
+                        a {
+                            background-image: url('../images/StickyNav_Logo_green.png');
+                            display: block;
+                            height: 83px;
+                            background-repeat: no-repeat;
+
+                            img {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+
+                .component {
+                    &.search-box {
+                        position: absolute;
+                        width: 100%;
+                        top: 0;
+                        left: 50%;
+                        transform: translate(-50%, -54%);
+                        margin-top: -20px;
+
+                        .global-search-wrapper {
+                            .search-input-wrapper {
+                                .custom-search-box-button {
+                                    background-image: none;
+                                    margin-top: -4px;
+                                    padding: 5px 0 0 10px;
+                                    min-height: 47px;
+
+                                    &::after {
+                                        font-family: FontAwesome;
+                                        content: "\f002";
+                                        font-size: 3rem;
+                                        color: $heading-color-secondary;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            @include respond-to(desktop) {
+                .header-global-menu {
+                    ul {
+                        &.items {
+                            float: none;
+                            justify-content: right;
+                            @include fieldwork-hum-font-stack();
+
+                            li {
+                                &.item {
+                                    padding: 3.2rem 1.7vw 3.2rem 1.7vw;
+
+                                    a {
+                                        color: $color-primary;
+                                        font-size: 1.92rem;
+                                        @include fieldwork-hum-font-stack();
+                                        font-weight: 600;
+                                    }
+
+                                    .sub-menu-item {
+                                        padding-top: unset;
+                                        padding-bottom: unset;
+
+                                        a {
+                                            font-weight: 500;
+                                            padding-bottom: .4rem;
+                                        }
+                                    }
+
+                                    &:hover {
+                                        .sub-menu-list {
+                                            display: block;
+                                        }
+                                    }
+
+                                    ul {
+                                        &.sub-menu-list {
+                                            border: 2px solid $color-primary;
+
+                                            li {
+                                                a {
+
+                                                    &:hover {
+                                                        text-decoration: underline;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    .has-sublist {
+                                        &::after {
+                                            right: -2rem;
+                                            top: 50%;
+                                            color: $color-primary;
+                                            display: block;
+                                            transform: translateY(-50%);
+                                        }
+
+                                        &:before {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+                .component {
+                    &.search-box {
+                        padding: 3rem 0 3rem 3rem;
+
+                        &.active {
+                            .global-search-wrapper {
+                                .search-wrapper {
+                                    .search-input-wrapper {
+                                        input.search-input {
+                                            display: block !important; // to override default css 
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .global-search-wrapper {
+                            .search-wrapper {
+                                &:before {
+                                    background-color: transparent;
+                                }
+
+                                .search-input-wrapper {
+                                    display: block;
+
+                                    input.search-input {
+                                        display: none;
+                                        position: absolute;
+                                        min-width: 20rem;
+                                        top: 3.6rem;
+                                        right: 1.2rem;
+                                        border: 2px solid $border-primary;
+                                        border-radius: 1rem;
+                                        color: $text-color-primary;
+                                        background: $color-primary;
+                                    }
+
+                                    .custom-search-box-button {
+                                        background-image: none;
+                                        height: 2.9rem;
+                                        position: relative;
+                                        display: inline-block;
+
+                                        &::after {
+                                            font-family: "FontAwesome";
+                                            content: "\f002";
+                                            font-size: 3rem;
+                                            color: $color-primary;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .image{
+                    &.file-type-icon-media-link{                        
+                        img{
+                            height: 85px;
+                            width: 100%;
+                        }
+                    }
+                }
+
+                &.sticky {
+                    background-color: $text-color-primary;
+                    margin-top: 0px;
+                    position: fixed;
+                    top: -5px;
+                    transition: all 0.5s ease-out;
+                    z-index: 99;
+                    color: $heading-color-secondary;
+
+                    .image {
+                        &.file-type-icon-media-link {
+                            a {
+                                background-image: url('../images/StickyNav_Logo_green.png');
+                                display: block;
+                                height: 84px;
+                                background-repeat: no-repeat;
+
+                                img {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+
+                    ul {
+                        &.items {
+                            li {
+                                @include fieldwork-hum-font-stack();
+
+                                &.item {
+                                    a {
+                                        color: $heading-color-secondary;
+                                    }
+
+                                    ul {
+                                        &.sub-menu-list {
+                                            background-color: $text-color-primary;
+
+                                            li {
+                                                a {
+                                                    color: $color-primary;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    .has-sublist {
+                                        &::after {
+                                            color: $heading-color-secondary;
+                                        }
+
+                                        &:before {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .component {
+                        &.search-box {
+                            .global-search-wrapper {
+                                .search-wrapper {
+                                    .search-input-wrapper {
+                                        .custom-search-box-button {
+                                            &::after {
+                                                font-family: "FontAwesome";
+                                                content: "\f002";
+                                                color: $heading-color-secondary;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            @media screen and (min-width: 992px) and (max-width:1200px) {
+                .image img {
+                    max-width: 80%;
+                }
+
+                .header-global-menu {
+                    display: block;
+                    background-color: transparent;
+                    position: relative;
+                    right: 4rem;
+
+                    ul {
+                        &.items {
+                            li {
+                                &.item {
+                                    a {
+                                        font-size: 1.6rem;
+                                        vertical-align: top;
+                                    }
+
+                                    .has-sublist {
+                                        &:after {
+                                            top: 1rem;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .component {
+                    &.search-box {
+                        right: -15px;
+                        position: absolute;
+                        top: 7px;
+                        z-index: 99;
+
+                        .search-input-wrapper input {
+                            font-size: 15px;
+                            font-weight: 500;
+                            border: none;
+                            height: 45px;
+                            outline: none;
+                            padding: 0 10px;
+                            transition: all 250ms ease-in-out;
+                            border: 1px solid $white;
+                            box-shadow: none;
+                        }
+
+                        .component-content {
+                            position: initial;
+                        }
+                    }
+                }
+            }
+
+            @media screen and (min-width:1300px) {
+                .header-global-menu {
+                    ul {
+                        justify-content: space-between;
+                    }
+                }
+
+                .component {
+                    &.search-box {
+                        padding: 0rem 0 0.5rem 6rem;
+                        margin-left: -30px;
+                    }
+                }
+            }
+
+            @include respond-to(extra-large-desktop) {
+                .header-global-menu {
+                    ul {
+                        &.items {
+
+                            //justify-content: right;
+                            li {
+                                &.item {
+                                    ul.sub-menu-list {
+                                        li.sub-menu-item {
+                                            a {
+                                                font-size: 1.92rem;
+                                                font-weight: 500;
+                                                letter-spacing: .6px;
+                                            }
+                                        }
+                                    }
+
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+                .component.search-box{
+                    .global-search-wrapper{
+                        .search-wrapper{
+                            .search-input-wrapper{
+                                .custom-search-box-button{
+                                    margin-left: 4rem;
+                                }
+                            }
+                        }
+                    }
+                }   
+            }
+        }
+    }
+}
+
+.header-variant-2 {
+    .header-shell {
+        &.variant-3 {
+            background-color: $text-color-primary;
+
+           @include respond-to(desktop){
+            .header-global-menu {
+                ul.items {
+                    li.item {
+                        .list-wrap {
+                            >a {
+                                color: $light-green;
+                            }
+
+                            &::after {
+                                color: $light-green;
+                            }
+                        }
+
+                        .sub-menu-list {
+                            background-color: $dark-green;                            
+                        }
+                    }
+                }
+            }
+           }
+
+            .component.search-box {
+                .global-search-wrapper {
+                    .search-wrapper .search-input-wrapper {
+                        .custom-search-box-button::after {
+                            color: $light-green;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.global-search-sugest.ui-menu {
+    max-width: 200px;
+
+    .ui-menu-item-wrapper {
+        color: $text-color-primary;
+        font-weight: 500;
+    }
+}
+
+.on-page-editor {
+    .component {
+        &.header-shell {
+            &.variant-3 {
+                &.sticky {
+                    position: static;
+                    background-color: $text-color-primary;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,159 @@
+﻿---
+ID: "0b0de4ff-43db-43f4-b9d6-f386685fce28"
+Parent: "70dc6ad1-c06e-4ce0-acb7-217259864699"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/CentralMosquitoControl/Home/reduced-risk-mosquito-control"
+SharedFields:
+- ID: "d4952280-2d7d-4bf4-a99a-ea36dad0f0a7"
+  Hint: Body Css Class
+  Value: "reduced-risk-mosquito-control"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{97D0B6A5-DB27-497E-A491-FCBB240553C7}"
+          p:before="*"
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=13"
+          s:ph="/main/row-2-1/container-3" />
+        <r
+          uid="{CC9DE097-4E7C-4367-B1DA-611BF4F9583A}"
+          p:after="r[@uid='{97D0B6A5-DB27-497E-A491-FCBB240553C7}']"
+          s:ds="{0F00FF5E-6274-4252-87F7-15EEBBBBF6E1}"
+          s:id="{86FBA02B-2E9C-4A00-9CCF-DE607B1FCDC7}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass=col-md-4&amp;HideImage&amp;IsMobileCarousel&amp;IsDesktopCarousel&amp;ShowDescription=1&amp;FieldNames=%7B3C2CCCE6-6DC8-4816-A20B-8551B44E446C%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=12"
+          s:ph="/main/row-5-1/container-11"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{A299C131-DFE1-48CF-8AC1-768F2B082BD9}"
+          p:after="r[@uid='{CC9DE097-4E7C-4367-B1DA-611BF4F9583A}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BE951A28D-10FF-4D94-BDE6-BB1DDE779D5E%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
+          s:ph="/main/row-5-1" />
+        <r
+          uid="{373ABCEC-8467-4419-B9F0-6F13EAD909A3}"
+          p:after="r[@uid='{A299C131-DFE1-48CF-8AC1-768F2B082BD9}']"
+          s:ds="{8DF9589F-659E-4DB5-9EA0-C33E0FF7218D}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B12AC793F-ADEB-44D4-80E6-199CF9BDF022%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/row-4-1/container-9" />
+        <r
+          uid="{4C85249F-CA18-484C-B756-BFF3320A52D6}"
+          p:after="r[@uid='{373ABCEC-8467-4419-B9F0-6F13EAD909A3}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/row-4-1" />
+        <r
+          uid="{9A0E5AEB-5FE9-4478-A0D7-B8296D1BFD2B}"
+          p:after="r[@uid='{4C85249F-CA18-484C-B756-BFF3320A52D6}']"
+          s:ds="{6EBCAAE9-7B33-4C32-8BC8-6209348DF7B6}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BE706B4E7-E4FA-48D0-BF3F-32833C47E434%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/row-3-1/container-5/column-2-6" />
+        <r
+          uid="{198F7121-982A-446D-BAEF-524B840786E2}"
+          p:after="r[@uid='{9A0E5AEB-5FE9-4478-A0D7-B8296D1BFD2B}']"
+          s:ds="{C2A0F54B-A49C-458A-A1BA-B6DB282CF97C}"
+          s:id="{882F60C4-4A33-4995-AC39-C8FF97EE8F1D}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B0A165447-FFF3-44FB-8521-2AFCDFEA24E5%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-3-1/container-5/column-1-6" />
+        <r
+          uid="{9F0C69CA-933B-412F-BBB8-F3CF60E62DFE}"
+          p:after="r[@uid='{198F7121-982A-446D-BAEF-524B840786E2}']"
+          s:ds=""
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B9AD9D6FB-28FC-43C5-8DA4-4A6A63CE802F%7D&amp;ColumnWidth2=%7B9AD9D6FB-28FC-43C5-8DA4-4A6A63CE802F%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-3-1/container-5" />
+        <r
+          uid="{F757137E-6F9A-4D58-A40E-EA30AC5DCE91}"
+          p:after="r[@uid='{9F0C69CA-933B-412F-BBB8-F3CF60E62DFE}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-3-1" />
+        <r
+          uid="{89F714CF-D675-4671-927F-474339192A7D}"
+          p:after="r[@uid='{F757137E-6F9A-4D58-A40E-EA30AC5DCE91}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{50215F15-6DD8-4D44-91E9-EFD6E251D956}"
+          p:after="r[@uid='{89F714CF-D675-4671-927F-474339192A7D}']"
+          s:ds="page:"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BEB97EC7C-7A08-4D35-835C-AA9365EE9319%7D&amp;Styles=%7B4C470906-DEA4-4CC7-9470-39371086A10B%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2&amp;CacheClearingBehavior=Clear%20on%20publish"
+          s:ph="/main/row-1-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{85C819A6-C974-46D2-A1E7-76948078B27C}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3%2C4%2C5&amp;Styles1=%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{4D13942D-2464-4E0B-93A9-8E43AAE844BE}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220930T052556Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Environmentally Sound Formulations Made for You
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: "Our commitment to protecting the public’s health and our environment is seen in our Zenivex® line of low-toxicity adulticides."
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <h1>Environmentally Sound Formulations Made for You</h1>
+        <h3>Manage Mosquitoes with Zenivex<sup>&reg;</sup> Formulations</h3>
+        <p>While Covid-19 is at the forefront of everyone&rsquo;s minds, mosquitoes haven&rsquo;t stopped spreading their own set of harmful viruses. Now more than ever, we need to be diligent in protecting our planet and ourselves against mosquito borne viruses. </p>
+        <p>Our commitment to protecting the public&rsquo;s health and our environment is seen in our <a href="~/link.aspx?_id=DD6911F8D2C24FD6A6A265EE89F4D654&amp;_z=z"><span style="text-decoration: underline; color: #000000;">Zenivex<sup>&reg;</sup> line</span></a>&nbsp;of low-toxicity adulticides, a lineup that has grown to be one of the industry&rsquo;s most comprehensive collections of reduced-risk solutions.</p>
+        <p>To learn more about the benefits of the <a href="~/link.aspx?_id=DD6911F8D2C24FD6A6A265EE89F4D654&amp;_z=z"><span style="text-decoration: underline; color: #000000;">Zenivex<sup>&reg;</sup> line</span></a>&nbsp;of mosquito control solutions we offer, contact a Central Life Sciences rep in your region.
+        </p>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "Our commitment to protecting the public’s health and our environment is seen in our Zenivex® line of low-toxicity adulticides."
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Environmentally Sound Formulations Made for You
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: "reduced-risk-mosquito-control"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "58fdf9f6-1c74-4d98-ab1f-01d955c06e8e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{4D13942D-2464-4E0B-93A9-8E43AAE844BE}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221027T091250Z

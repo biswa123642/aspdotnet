@@ -1,0 +1,50 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.product-listing {
+  .product-wrap {
+    .result-count {
+      font-size: 1.6rem;
+    }
+    #product-wrapper {
+      .card-body {
+        padding: 0;
+        .product-list {
+          margin-bottom: 0;
+          .cgp-product {
+            text-align: center;
+            padding: 2rem 2.4rem;
+            .image-holder {
+              min-height: 24rem;
+              position: relative;
+              a {
+                display: block;
+              }
+            }
+            .body-copy {
+              padding: 1rem 0;
+              text-align: center;
+              h3 {
+                padding: 0 0 1rem 0;
+                font-size: 1.792rem;
+                a {
+                  color: #2b2d42;
+                  font-size: 1.792rem;
+                  font-weight: 500;
+                  line-height: 1.4;
+                  text-decoration: none;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                }
+              }
+            }
+            @include respond-to(desktop) {
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+  }
+}

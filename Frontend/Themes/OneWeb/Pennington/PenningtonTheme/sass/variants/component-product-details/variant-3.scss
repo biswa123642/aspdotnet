@@ -1,0 +1,48 @@
+// related article and product
+.copy-wrap {    
+    h2,
+    h3>a {
+        color: $text-black-header;  
+        font-size: 3rem;     
+    }   
+    .inner-wrap {
+        padding-top: 1.5rem;
+        .image-holder img{
+            object-fit: cover;          
+        }
+        .body-copy {
+            h3 {
+                >a {
+                    color: $text-black-header-secondary;
+                    text-decoration: none;
+                    font-size: 2rem; 
+                    font-weight: 900;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+
+@include respond-to(tab) {
+    .copy-wrap {
+        h2,
+        h3>a {
+            color: $text-black-header;            
+        }
+        .inner-wrap {
+            .image-holder img{
+                width: 100%;
+            }
+            .body-copy {
+                text-align: left;
+                h3 {
+                    line-height: 1.1;
+                    >a {
+                        color: $text-black-header-secondary;
+                    }
+                }
+            }
+        }
+    }
+}

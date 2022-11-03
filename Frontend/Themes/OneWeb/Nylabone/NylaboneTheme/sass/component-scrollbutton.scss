@@ -1,0 +1,22 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.scroll-button-wrap {
+    .to-top {
+      right: 2rem;
+      bottom: 5rem;
+      width: 50px;
+      height: 50px;
+      border: 1px dotted $orange;
+      border-radius: 1rem;
+      padding: inherit;
+      background-color: #ffffff4d;
+      &:hover{
+        background-color: #ffffff;
+      }
+      
+    }
+  }
+}

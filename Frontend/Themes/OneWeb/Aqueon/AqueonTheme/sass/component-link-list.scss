@@ -1,0 +1,31 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.link-list {
+    h3 {
+      font-size: 3rem;
+      font-weight: 700;
+      color: $text-primary;
+      border: none;
+    }
+    .component-content {
+      li {
+        margin-bottom: 1rem;
+        a {
+          font-size: 2rem;
+          font-weight: 500;
+          padding-left: 0;
+          color: $text-secondary;
+          @include Helvetica-neue-font();
+
+          &:hover {
+            text-decoration: underline;
+            border-bottom: none;
+          }
+        }
+      }
+    }
+  }
+}

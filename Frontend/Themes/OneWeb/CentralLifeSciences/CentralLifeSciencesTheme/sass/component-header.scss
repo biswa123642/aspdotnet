@@ -1,0 +1,420 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.header-shell {
+  &.variant-3 {
+    max-height: 100px;
+    .container > div > div {
+      @media screen and (min-width: 1150px) {
+        &:first-child {
+          flex: 0 0 15%;
+          max-width: 15%;
+        }
+        &:last-child {
+          flex: 0 0 85%;
+          max-width: 85%;
+        }
+      }
+    }
+    @include respond-to(desktop) {
+      background-color: transparent;
+      box-shadow: none;
+    }
+    &.sticky {
+      @include respond-to(desktop) {
+        background-color: $dark-green;
+      }
+    }
+    @include respond-to(all-mobile) {
+      padding: 0;
+    }
+    .image {
+      margin: inherit;
+      padding: 0;
+      > {
+        div {
+          @include respond-to(all-mobile) {
+            display: flex;
+            justify-content: center;
+          }
+        }
+      }
+      @include respond-to(desktop) {
+        padding-left: 15px;
+      }
+      img {
+        max-width: 150px;
+        margin-top: 0 !important; // used to separate header logo
+        padding: 0;
+        @include respond-to(extra-large-desktop) {
+          max-width: 150px;
+        }
+      }
+      @include respond-to(all-mobile) {
+        margin: auto;
+      }
+    }
+    .component {
+      &.plain-html {
+        .hamburger {
+          left: 0;
+          top: -8rem;
+        }
+      }
+    }
+    .component-content {
+      .search-box {
+        @include respond-to(all-mobile) {
+          width: 100%;
+          top: 6.5rem;
+        }
+        .component-content{
+          @include respond-to(all-mobile) {
+            top: -9rem;
+          }
+        }
+      }
+    }
+  }
+  .component {
+    &.page-list {
+      &:after {
+        @include respond-to(all-mobile) {
+          content: "";
+          position: absolute;
+          bottom: 0px;
+          right: 15px;
+          width: 169px;
+          height: 113px;
+          background-image: url("../images/navbar-collapse-logo.svg");
+        }
+      }
+      &.variant-1 {
+        @include respond-to(all-mobile) {
+          background-color: $light-green;
+          margin-top: -3px !important;
+          box-shadow: 2px 3px 10px 2px #00000029;
+          padding: 15px 0 60px 0;
+        }
+      }
+      a {
+        border-bottom: none;
+        @include respond-to(all-mobile) {
+          color: $dark-green !important;
+        }
+        @include respond-to(desktop) {
+          color: $white !important;
+        }
+        &:hover {
+          color: $white;
+          @include respond-to(all-mobile) {
+            color: $dark-green;
+            text-decoration: underline;
+            font-weight: 700;
+            border-bottom: none;
+          }
+        }
+      }
+      &.variant-1 {
+        padding-right: 5%;
+        margin-top: 4rem;
+        @include respond-to(extra-large-desktop) {
+          margin-top: 3.4rem;
+        }
+        .items {
+          min-width: 60%;
+          @include respond-to(desktop) {
+            float: none;
+            justify-content: flex-start;
+          }
+          .item {
+            padding-right: 30px;
+            margin: 0;
+            @include respond-to(all-mobile) {
+              border-bottom: none;
+              display: block;
+            }
+            @include respond-to(desktop){
+              margin-right: 2.1rem;
+            }
+            > {
+              a {
+                color: $white;
+                @include fieldwork-hum-font-stack();
+                @media screen and (min-width: 768px) and (max-width: 1024px) {
+                  font-size: 1.6rem;
+                }
+                @include respond-to(all-mobile) {
+                  color: $dark-green !important;
+                }
+                font-size: 1.6rem;
+                @include respond-to(extra-large-desktop) {
+                  font-size: 2rem;
+                }
+                &:hover {
+                  color: $white;
+                }
+              }
+            }
+          }
+        }
+        .has-submenu-list {
+          @include respond-to(all-mobile) {
+            display: inline-block;
+            &.open {
+              &:before {
+                top: 15px;
+              }
+            }
+          }
+          .submenu-utility-linklist {
+            &.submenu-large {
+              @include respond-to(desktop) {
+                min-width: 1000px;
+                border: 3px solid $white;
+                background-color: rgba(0, 110, 67, 0.8);
+                padding: 20px;
+                top: calc(100% - -0px);
+                > div > div > div {
+                  ul {
+                    border-right: 2px solid $white;
+                  }
+                  &:last-child ul {
+                    border-right: none;
+                  }
+                }
+              }
+            }
+            &.submenu-small {
+              @include respond-to(desktop) {
+                min-width: 150px;
+                border: 3px solid $white;
+                background-color: rgba(0, 110, 67, 0.8);
+                top: calc(100% - -0px);
+              }
+              a{
+                font-size: 1.8rem;
+                font-weight: 400;
+                line-height: 3.2rem;
+                @include fieldwork-hum-font-stack();
+              }
+            }
+          }
+          .us-icon {
+            padding-right: 40px;
+            &:before {
+              content: url("../images/usa-flag.png");
+              background-repeat: no-repeat;
+              background-position: center right;
+              position: absolute;
+              right: -25px;
+              vertical-align: middle;
+              height: 2rem;
+              @include respond-to(extra-large-desktop) {
+                vertical-align: middle;
+              }
+            }
+          }
+        }
+        .can-icon {
+          padding-right: 25px !important;
+          &:before {
+            content: url("../images/can-flag.png");
+            background-repeat: no-repeat;
+            background-position: center right;
+            position: absolute;
+            right: -25px;
+            vertical-align: middle;
+            height: 2rem;
+            @include respond-to(extra-large-desktop) {
+              vertical-align: middle;
+            }
+          }
+        }
+      }
+      .items {
+        .item {
+          &.has-submenu-list {
+            &:hover {
+              @include respond-to(desktop) {
+                .submenu-utility-linklist {
+                  display: block;
+                }
+              }
+            }
+            &.us-icon-wrap {
+              &:before {
+                right: 1.2rem;
+                @include respond-to(desktop){
+                  right: 5rem;
+                }
+              }
+            }
+            &:before {
+              right: 12px;
+              color: $white;
+              @include respond-to(all-mobile) {
+                color: $dark-green;
+              }
+            }
+          }
+        }
+      }
+    }
+    &.search-box {     
+      .search-holder {
+        .search-wrapper {
+          @include respond-to(all-mobile) {
+            &:before {
+              background-color: transparent;
+            }
+          }
+        }
+        .search-input-wrapper {
+          min-height: 3rem;
+          @include respond-to(all-mobile) {
+            min-height: 5rem;
+          }
+          input {
+            display: none;
+            @include respond-to(all-mobile) {
+              margin-top: -2.9rem;
+            }
+          }
+          .custom-search-box-button {
+            @include respond-to(all-mobile) {
+              right: -40px;
+              top: -4.7rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  &.active .component.plain-html .hamburger .icon-bar:first-child{
+    transform: rotateZ(45deg) translate(8px,8px);
+  }
+}
+header{
+  .search-wrapper {
+    .search-input-wrapper {
+      .search-input {
+        height: 45px;
+        @include respond-to(all-mobile) {
+          width: 100%;
+        }
+        position: absolute;
+        top: 0;
+        right: 5rem;
+        width: 400px;
+        @include respond-to(all-mobile) {
+          top: 5.5rem;
+          right: -2rem;
+          background-color: $bg-light-gray;
+        }
+      }
+      .custom-search-box-button {
+        background-image: url("../images/search-white.svg");
+      }
+    }
+  }
+}
+
+
+.link-list {
+  > .component-content {
+    li {
+      a {
+        padding-left: 0px;
+        &:hover {
+          @include respond-to(desktop) {
+            border-bottom: 1px solid $white;
+            color: $white !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+.header-shell
+  .component.page-list
+  .items
+  .item
+  .sub-menu-wrapper
+  .has-sublist:before {
+  @include respond-to(all-mobile) {
+    color: $dark-green;
+    transform: rotate(270deg);
+    top: 1px;
+  }
+}
+
+.header-shell
+  .component.page-list
+  .items
+  .item
+  .sub-menu-wrapper
+  .has-sublist.active:before {
+  @include respond-to(all-mobile) {
+    color: $dark-green;
+    transform: rotate(180deg);
+  }
+}
+
+.sub-menu-wrapper {  
+  .has-sublist {
+    border: none;
+    @include respond-to(desktop){
+      border-left: 1px solid $white;
+    border-right: 1px solid $white;
+    }
+      &:first-child{
+      border: none;
+    }    
+    &:last-child{
+      border: none;
+    }  
+    .component {
+      &.link {
+        .field-link {
+          a {
+            font-size: 1.8rem !important;
+            font-weight: 600;
+            @include fieldwork-hum-font-stack();
+            cursor: inherit;
+          }
+        }
+      }
+      &.link-list{
+        .field-link {
+          a {
+            font-size: 1.8rem !important;
+            font-weight: 400;
+            line-height: 32px;
+            @include fieldwork-hum-font-stack();
+          }
+        }
+      }
+    }
+    &:before {
+      @include respond-to(desktop) {
+        display: none !important;
+      }
+    }
+    &.active {
+      .link-list {
+        display: block !important;
+      }
+    }
+  }
+}
+
+.header-variant-2 {
+  .header-shell {
+    &.variant-3 {
+      background-color: $dark-green;
+      position: static;
+    }
+  }
+}

@@ -1,0 +1,108 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.product-listing {
+    .product-wrap {
+      .result-count {
+        font-size: 1.6rem;
+      }
+      .copy-wrap {
+        background: $filter-bg;
+        padding: 1rem 2rem;
+
+        .search-box {
+          margin: 2rem 1.5rem;
+
+          .search-wrapper {
+            &::before {
+              background: none;
+            }
+            .search-input-wrapper {
+              input {
+                padding: 0 1rem;
+                border-radius: 1.6rem;
+                border: 1px solid $anchor-primary;
+                box-shadow: none;
+                font-size: 1.92rem;
+                color: $black;
+                &:focus-visible {
+                  border: 2px solid $black;
+                }
+              }
+              .custom-search-box-button {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    #searchfilter {
+      background: $filter-bg;
+      padding: 2rem;
+      h3 {
+        margin: 0;
+        border-bottom: none;
+
+        .link-btn {
+          color: $text-secondary;
+          font-size: 2.4rem;
+          font-weight: 900;
+
+          &:hover {
+            text-decoration: underline;
+          }
+
+          &::before,
+          &::after {
+            background: $text-secondary;
+          }
+        }
+      }
+
+      label {
+        font-size: 1.6rem;
+        color: $text-secondary;
+        text-transform: uppercase;
+      }
+    }
+
+    #product-type {
+      .product-list {
+        .cgp-product {
+          margin: 2rem 1rem 6rem 1rem;
+          .image-holder {
+            width: 22rem;
+            margin: auto;
+            min-height: 24rem;
+          }
+          h3 {
+            // background: $text-secondary;
+            // height: 6rem;
+            // padding: initial;
+            // display: flex;
+            // align-items: center;
+            // justify-content: center;
+            text-align: center;
+            padding: 1rem 0;
+            a {
+              color: $anchor-primary;
+              font-size: 2.4rem;
+              @include Yanone-font-stack();
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+          p {
+            font-size: 1.6rem;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+    /*===========================================
+        product card
+    =============================================*/
+
+    #product-type,
+    #article-type,
+    #others-type,
+    .product-result-tiles {
+        .product-card,
+        .cgp-product {
+            .body-copy {
+                font-size: 1.4rem;
+                line-height: 1.42857143;
+                font-weight: 300;
+                color: #333;
+                h3 {
+                    font-weight: 300;
+                    font-size: 1.8rem;
+                    line-height: 1.1;
+                    color: #008061;
+                    padding: 1.4rem 0 1rem 0;
+                    a {
+                        color: inherit;
+                        text-transform: uppercase;
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+
+  
+}

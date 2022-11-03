@@ -1,0 +1,26 @@
+@import "abstracts/mixins";
+.global-search-sugest {
+  .ui-menu {
+    li{
+        font-size: 1.4rem;
+        width: 100%!important;
+        min-width: 78%;
+    }
+    @include respond-to(desktop) {
+      box-shadow: 0 5px 15px -3px #474849;
+      min-width: 10%!important;
+      width: 11%!important;
+      margin: 2px 0 0;
+      padding: 0px;
+      li{
+        .ui-state-active{
+            &:hover{
+                background-color: $secondary-color;
+                color: $white-color;
+            }
+        }
+      }
+     
+    }
+  }
+}

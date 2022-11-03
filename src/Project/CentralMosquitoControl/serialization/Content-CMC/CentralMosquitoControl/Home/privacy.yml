@@ -1,0 +1,125 @@
+﻿---
+ID: "17c05d41-d5be-4f75-b1bf-5e3b6a9ca636"
+Parent: "70dc6ad1-c06e-4ce0-acb7-217259864699"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: /sitecore/content/OneWeb/CentralMosquitoControl/Home/privacy
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{5F71C884-E3FF-4B14-86BD-7A048E98DA97}"
+          p:before="*"
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-3-1/container-6" />
+        <r
+          uid="{98129B4D-DB00-407D-B4D2-5186D768ACA6}"
+          p:after="r[@uid='{5F71C884-E3FF-4B14-86BD-7A048E98DA97}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles=%7BE951A28D-10FF-4D94-BDE6-BB1DDE779D5E%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-3-1" />
+        <r
+          uid="{11F9FD70-07CB-4BA4-A475-B80CC39263D1}"
+          p:after="r[@uid='{98129B4D-DB00-407D-B4D2-5186D768ACA6}']"
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B28C76009-CBBF-4D05-8911-94F9A74652F7%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-2-1/container-4" />
+        <r
+          uid="{860B2477-3658-4273-B47F-A4A6636864AC}"
+          p:after="r[@uid='{11F9FD70-07CB-4BA4-A475-B80CC39263D1}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{091C50B0-6A92-46AD-8748-3A1ABC2AC349}"
+          p:after="r[@uid='{860B2477-3658-4273-B47F-A4A6636864AC}']"
+          s:ds=""
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%2F&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B34C68150-D3B2-463D-9B91-B2F7BCBD3727%7D&amp;Styles=%7BFAF28AF7-0575-40E0-9EE8-3C33FB91AC01%7D%7C%7BE951A28D-10FF-4D94-BDE6-BB1DDE779D5E%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3&amp;CacheClearingBehavior=Clear%20on%20publish"
+          s:ph="/main/row-1-1/container-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{2EEC64F8-9F26-4E32-8163-E6EA04713371}"
+          p:after="r[@uid='{091C50B0-6A92-46AD-8748-3A1ABC2AC349}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{E1C66CCA-0055-4110-A867-6C9929EC3EF0}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220930T071336Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Privacy
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Central Life Sciences has this privacy policy statement to demonstrate its commitment to doing business with the highest ethical standard. 
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        Central Life Sciences has created this security and privacy policy statement in order to demonstrate and communicate its commitment to doing business with the highest ethical standard and appropriate internal controls.
+        Protecting your personal privacy is very important to us. Below you will find a statement of our commitment to ensuring the privacy of your personally identifiable information (such as your full name, address, e-mail address, telephone number and/or other identifying information). This privacy policy statement is applicable to the clarifly.com (SM) web site (the "Site").
+        <h2>GATHERING AND USE OF INFORMATION</h2>
+        <p>Central Life Sciences will never willfully disclose any personally identifiable information about our visitors to any third party without first receiving the user's permission. We do not collect personally identifiable information from our visitors other that what is supplied to us on a voluntary basis. Visitors may provide personally identifiable information to Central Life Sciences during (1) guest book registration or (2) contacting us for more information. In addition, personally the user in connection with certain content submissions, comments and suggestions or voting may voluntarily provide identifiable information.</p>
+        <p>Central Life Sciences may use such information for its internal purposes, including, but not limited to, editorial feedback, marketing and promotional purposes. In addition, Central Life Sciences may collect Internet Protocol ("IP") addresses for the purposes of system administration and to report aggregate information to our advertisers. An IP address is a number that is automatically assigned to your computer whenever you are surfing the Web. Central Life Sciences does not link IP addresses to anything personally identifiable; so your use of our Site remaining anonymous.</p>
+        <h2>ACCEPTANCE OF UNSOLICITED IDEAS THROUGH THE INTERNET</h2>
+        <p>The receipt of unsolicited ideas by Central Life Sciences does not obligate the company to keep these ideas confidential, nor does it obligate the company to pay the person who submits them.</p>
+        <h2>USE OF COOKIES</h2>
+        <p>Cookies are pieces of information that a web site transfers to an individual's hard drive for record-keeping purposes. Cookies make web surfing easier for you by saving your subscription information and personal preferences while you are at our Site. The use of cookies is an industry standard, and you will find cookies at most major web sites. Cookies also help Central Life Sciences to see which areas are popular and which are not, and allow Central Life Sciences to make improvements and updates to the Site based on such data as total number of visitors and pages viewed. This information is most easily tracked with cookies. Central Life Sciences never uses cookies to retrieve information from your computer that was not originally sent in a cookie. Central Life Sciences does not use information transferred through cookies for any promotional or marketing purposes, nor is that information shared with any third parties whatsoever.</p>
+        <p>Most browsers are initially set to accept cookies. If you prefer, you can change your browser settings to refuse cookies. However, in doing so, you may not be able to fully utilize the Site or may experience difficulties accessing parts of the Site.</p>
+        <h2>HYPERLINKED SITES</h2>
+        <p>Any link, (including hyperlinks, buttons or referral devices if any kind) used in this Site is provided for the use and convenience of the visitor. The appearance of a link on this Site does not constitute an endorsement, recommendation or certification by Central Life Sciences, nor should the presence of a link in any way be construed as a suggestion that the Site has any relationship with Central Life Sciences.</p>
+        <p>Central Life Sciences generally does not object to links to the Site from third party sites. However, there are certain conditions that must be followed:</p>
+        <p>Unless we enter into a specific written agreement with you, you may not use any Central Life Science names, logos, designs, slogans, product trademarks or service marks in or with your links, except that you may link to the site using the plain text name of that site or the plain text name if ClariFly.</p>
+        <p>Do not present the link to the Site in any way that suggests Central Life Sciences has any relationship or affiliation with your site or endorses sponsors or recommends the information, products or services on your site. Do not use any Central Life Sciences names, logos, designs, slogans, product trademarks or service marks in any advertising, publicity, promotion, or in any other commercial manner without the prior express written permission for a particular use from Central Life Sciences.</p>
+        <p>We ask that you link only to the home page/first page/registration page of the Site. Please do not incorporate any content from this Site into your site (e.g., by in-lining or framing). Do not use any of Central Life Sciences names, logo, designs, slogans, product trademark or service marks, or any other information used by search, by search engines or other information location tools to identify and select sites, without Central Life Sciences express written permission for a particular use.</p>
+        <p>If you have any comments, questions or requests, please address your inquires to Webmaster, Central Life Sciences, 1501 E. Woodfield Rd., Suite 200 West, Schaumburg, IL 60173</p>
+        <p>Brand Name: Altosid &amp; Zenivex</p>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Central Life Sciences has this privacy policy statement to demonstrate its commitment to doing business with the highest ethical standard. 
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Our Privacy Terms 
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Privacy Terms
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "44daaaad-ff1b-4626-9dba-0c1818ecedf8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{68C3FFDE-E2C9-410E-A453-D784E091AA4A}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221011T054145Z

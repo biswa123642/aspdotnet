@@ -1,0 +1,57 @@
+﻿---
+ID: "398ee0d2-f7aa-473c-8995-d2f110755e89"
+Parent: "b98608fc-997b-4a26-a28c-bfd9ee23caa2"
+Template: "2ad23d55-aecd-43dd-ae0d-72d2ebcba60f"
+Path: /sitecore/content/OneWeb/CentralMosquitoControl/Data/Plain HTML/Zenivex Rebate Calculator
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24cce27c-05db-4473-a1ed-e69b1725ff1c"
+      Hint: HtmlCode
+      Value: |
+        <div class="content-spot">
+        <h4 style="z-index: 1;">Follow these 3 steps:</h4>
+        <p style="z-index: 1;"><strong>1. Calculate Your Potential Return.</strong></p>
+        <p style="z-index: 1;"><strong><em>Minimum required amount spent: $10,000</em> </strong></p>
+        <div class="zenivex-rebate-calculator" style="font-size: 20px;">
+          <label>Product Purchased</label>
+          <select class="rebate-calculator__input" data-bind="value: product">
+            <option value="zenivex_e20">Zenivex® E20 </option>
+            <option value="aqua_zenivex_e20">Aqua Zenivex™ E20 </option>
+            <option value="zenivex_e4_rtu">Zenivex® E4 RTU </option>
+          </select>
+          <br>
+          <label>Quantity</label>
+          <input type="text" class="rebate-calculator__input rebate-calculator__quantity" placeholder="gallons" data-bind="value: quantity, valueUpdate: 'afterkeydown'" size="8">
+          <label class="error">Please enter a valid amount</label>
+          <label class="minimum-message" data-bind="text: minimumMessage"></label>
+          <br>
+          <label>Rebate Amount</label>
+          <span class="rebate-calculator__sign rebate-calculator__rebate-percent" data-bind="text: rebatePercent"></span>
+          <br>
+          <br>
+        </div>
+        </div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220929T073023Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a3f15919-85e5-4220-a33a-648bf18f0ba6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220929T090955Z

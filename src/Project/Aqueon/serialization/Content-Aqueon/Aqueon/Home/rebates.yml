@@ -1,0 +1,127 @@
+﻿---
+ID: "4f113635-381c-424c-b6f5-971d34a2cb9e"
+Parent: "47f9532d-09fb-4c04-87ea-74e05f095315"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: /sitecore/content/OneWeb/Aqueon/Home/rebates
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{51D3628D-DF83-4F08-B41B-2A622E7863CA}"
+          p:before="*"
+          s:ds="{3F22A333-8693-4F8A-B4DA-FD9257675D29}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B8C0EDB3F-8D1F-49CF-9F73-F2A177EB3C03%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-3-1/container-3" />
+        <r
+          uid="{9EEC0BF4-1D17-46B9-9CF2-0A8620D3E6CF}"
+          p:after="r[@uid='{51D3628D-DF83-4F08-B41B-2A622E7863CA}']"
+          s:ds="{41F81C89-20D2-46D1-ADB4-DB9A355D3BBC}"
+          s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass&amp;FieldNames=%7BDD2A67DD-2C78-484F-9B69-9E17B40C4BD1%7D&amp;Styles=%7BBB969ED1-37A3-4E5F-8F0A-5F9F55BB6D75%7D%7C%7BEB24B82B-F17B-4FFD-A8E0-75FDB3BA079F%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-3-1/container-3"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{C8300F73-4017-42BD-A4EF-B5DB72DE385C}"
+          p:after="r[@uid='{9EEC0BF4-1D17-46B9-9CF2-0A8620D3E6CF}']"
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="Filter&amp;RenderingIdentifier&amp;Styles&amp;GridParameters&amp;Separator=%3E&amp;CacheClearingBehavior=Clear%20on%20publish&amp;FieldNames=%7BDC8324B2-802B-4D36-8D62-C4F2449DFA02%7D&amp;BreadcrumbRoot&amp;DynamicPlaceholderId=5&amp;IsNavigation&amp;Reset Caching Options"
+          s:ph="/main/row-2-1/container-2" />
+        <r
+          uid="{D1C66948-A83C-4970-87E6-E9950D633E74}"
+          p:after="r[@uid='{C8300F73-4017-42BD-A4EF-B5DB72DE385C}']"
+          s:ds=""
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7b908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7d&amp;FieldNames=%7bFFF92AD1-B9FF-4ED0-9316-F18C1B5B5508%7d&amp;DynamicPlaceholderId=4&amp;CacheClearingBehavior=Clear+on+publish&amp;Reset Caching Options"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{1D1C5618-709E-4CDD-BEC4-2A21A264EE54}"
+          p:after="r[@uid='{D1C66948-A83C-4970-87E6-E9950D633E74}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;DynamicPlaceholderId=3&amp;BackgroundImage&amp;CacheClearingBehavior=Clear+on+publish&amp;Reset Caching Options"
+          s:ph="/main/row-3-1" />
+        <r
+          uid="{19EEE8DD-B75A-40A1-A17D-7C6DF9D9BA27}"
+          p:after="r[@uid='{1D1C5618-709E-4CDD-BEC4-2A21A264EE54}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;DynamicPlaceholderId=2&amp;BackgroundImage&amp;CacheClearingBehavior=Clear+on+publish&amp;Reset Caching Options"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{A2B799E6-BB65-420B-9E00-526E9434520C}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Styles6&amp;DynamicPlaceholderId=1&amp;Styles8&amp;Styles4&amp;Styles7&amp;Reset Caching Options&amp;CacheClearingBehavior=Clear+on+publish&amp;EnabledPlaceholders=1%2c2%2c3&amp;Styles2&amp;Styles1&amp;Styles5&amp;SplitterSize=2&amp;Styles3"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{D1C66948-A83C-4970-87E6-E9950D633E74}"
+              s:ccb="Clear on publish"
+              s:ds="page:"
+              s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BFFF92AD1-B9FF-4ED0-9316-F18C1B5B5508%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220912T062639Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{CEE369D8-3E65-4813-903F-5FF4940138C2}" ></image>
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Rebates
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: "Looking for a deal on Aqueon Products?  Find Rebates to use at your favorite local store right here."
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "Looking for a deal on Aqueon Products?  Find Rebates to use at your favorite local store right here."
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Rebates | Aqueon Aquarium Products: It's all about the fish!"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: "Rebates | Aqueon Aquarium Products: It's all about the fish!"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c59ba27a-e66b-486d-9ffd-e55dd6430124"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: |
+        <br class="t-last-br" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220930T124621Z

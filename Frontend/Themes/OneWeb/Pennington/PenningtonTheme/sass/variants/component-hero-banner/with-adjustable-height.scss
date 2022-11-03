@@ -1,0 +1,57 @@
+
+&.banner-adjustable-height {
+    .banner-content-wrapper {
+        display: none;
+        &.right-align{
+            width: 45%;
+            background-color: $overlay-green;             
+            .hero-banner-title{
+                line-height: 1;
+                font-size: 2.4vw;
+                text-transform: uppercase;
+            } 
+            .hero-banner-description{
+                font-size: 1vw;
+                padding-top: 1rem;
+            } 
+            .hero-banner-logo{
+                padding: 1.5rem 0;
+            }                 
+           
+        }
+
+        @include respond-to(tab) {
+            display: block;
+        }
+    }
+
+
+}
+@media screen and (max-width:767px) {
+    &.banner-adjustable-height{
+        .banner-wrapper{
+            position: relative;
+            .inner-container{
+                position: absolute;
+                top: 5%;
+                right: 0;
+                width: 40%;
+                .banner-content-wrapper{
+                    display: block;
+                    
+                    &.right-align{
+                        margin-right: 1rem;
+                        width: initial;
+                        padding:1rem 3rem;
+                        .hero-banner-logo{
+                            padding: 1rem 0;
+                        }                        
+                        .hero-banner-description{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

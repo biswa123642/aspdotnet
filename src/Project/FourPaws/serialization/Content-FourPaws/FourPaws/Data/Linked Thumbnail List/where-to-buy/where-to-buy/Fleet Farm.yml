@@ -1,0 +1,38 @@
+﻿---
+ID: "f2b662d9-17f0-4adb-bc9c-9ef7e515feea"
+Parent: "52a73733-caaf-41dd-a181-480adece4c21"
+Template: "20a8b875-b660-4893-91a7-b05f80e94666"
+Path: "/sitecore/content/OneWeb/FourPaws/Data/Linked Thumbnail List/where-to-buy/where-to-buy/Fleet Farm"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220604T063304Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e9b67d08-e653-4955-b2e1-794ef3cd0ceb"
+    - ID: "8daa9cfe-2ab1-4f9a-86ac-b2092acc9fde"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="https://www.fleetfarm.com/search?Ntt=four+paws" anchor="" target="_blank" />
+    - ID: "9a5ce26a-e5f7-4528-b319-d23a1be1eede"
+      Hint: Description
+      Value: Fleet Farm
+    - ID: "b3524bdb-f8ec-4d85-a20b-ef5f2837d74f"
+      Hint: Image
+      Value: |
+        <image mediaid="{5BDC301A-CA64-4F9E-972B-21036455A643}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220707T055040Z

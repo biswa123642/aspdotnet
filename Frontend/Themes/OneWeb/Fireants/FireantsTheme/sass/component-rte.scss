@@ -1,0 +1,39 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+    &.spacing-bottom {
+        .link {
+            .field-link {
+                a {
+                    font-size: 2.5rem;
+                    color: $color-primary;
+                    font-weight: 400;
+                    @include georgia-font-stack();
+                    text-decoration: none;
+                    border-bottom: none;
+                    &:after {
+                        content: "\003E";
+                        color: $color-primary;
+                    }
+                    &:hover {
+                        text-decoration: underline;
+                        text-decoration-color: #333;
+                        color: #333;
+                        &:after {
+                            color: #333;
+                        }
+                    }
+                }
+            }
+        }
+        .about-us-wrapper{
+            text-align:left;
+                margin-top:2rem;
+                h3, p{ 
+                    margin:0;
+                }
+            }
+        }
+    }

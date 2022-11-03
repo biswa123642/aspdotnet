@@ -1,0 +1,96 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component{
+    &.article-listing{
+        .product-wrap{
+            #article-type{
+            &.product-result-tiles{
+                .custom-listing-wrapper{
+                    .product-list{
+                        .cgp-product{
+                            .body-copy{
+                                text-align: center;
+                                h3{
+                                    padding: 1rem 0 1rem 0;
+                                    a{
+                                        color:$bg-black;
+                                        &:hover{
+                                            text-decoration:underline;
+                                        }
+                                    }
+                                }
+                                p{
+                                    font-size:1.4rem;
+                                    font-weight: 400;
+                                    color:$bg-black;
+                                    @include itc-geovanni-font-stack();
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+    }
+}
+.component{
+    &.hero{
+        &.banner-adjustable-height{
+            .banner-wrapper{
+                .inner-container{
+                    @include respond-to(tablet) {
+                        top: 68%;
+                        transform: translate(-24%,-50%);
+                    }
+                }
+                .banner-image{
+                    img{
+                        @include respond-to(tablet) {
+                            object-fit: cover;
+                            height: 48rem;
+                        }
+                    }
+                }
+                .inner-container{
+                    @include respond-to(extra-large-desktop) {
+                        top: 62%;
+                        left: 42%;
+                    }
+                }
+                .banner-content-wrapper{
+                    top: 0;
+                    padding-top: 7rem;
+                    max-width:90rem;
+                    .hero-banner-title{
+                        font-size: 6.7rem;
+                        @include respond-to(tablet) {
+                            font-size: 3.8rem;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.breadcrumb{
+    &.navigation-title{
+        .breadcrumb-item{
+            .navigation-title{
+                a{
+                    color:$blue-theme;
+                    &:hover {
+                        color:$blue-theme;
+                        text-decoration: underline;
+                    }
+                }
+            }
+            .separator{
+                color:$blue-theme;
+            }
+        }
+    }
+}

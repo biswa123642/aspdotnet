@@ -1,0 +1,136 @@
+﻿@using Sitecore.XA.Foundation.MarkupDecorator.Extensions
+@using Sitecore.XA.Foundation.SitecoreExtensions.Extensions
+@using CGP.Foundation.SitecoreExtensions.Utilities
+@using CGP.Foundation.Search
+@using CGP.Feature.Search.Helper
+@model CGP.Feature.Search.Models.ViewModel.GlobalSearchResultViewModel
+
+@{
+    <div @Html.Sxa().Component("global-search-listing col-12", Model.Attributes)>
+        <div class="component-content">
+            @if (Model != null && Model.GlobalSearchResult != null)
+            {
+                var hideSearchFilter = SearchHelper.IsSearchFilterDisabled();
+                var searchResultSectionClass = "col-lg-12";
+                if (Model.GlobalSearchResult.Facets.Count > 0)
+                {
+                    searchResultSectionClass = !hideSearchFilter ? "col-12 col-md-8 col-lg-9" : "col-12";
+                }
+
+                <div class="product-wrap">
+                    <div class="row">
+                        @if (!hideSearchFilter)
+                        {
+                            <div class="col-md-4 col-lg-3">
+                                <div class="copy-wrap">
+                                    @Html.Sitecore().Placeholder("internal-search-box")
+                                    <div class="sxa-btn sxa-btn-primary">
+                                        <a class="clear-filter-btn"
+                                           href="javascript:void(0);">@SitecoreUtil.DefaultDictionaryValue("Clear_All")</a>
+                                    </div>
+                                </div>
+                                @Html.Partial("~/Views/OneWeb/Search/_SearchFilter.cshtml", Model.GlobalSearchResult.Facets)
+                            </div>
+                        }
+                        <div class="@searchResultSectionClass">
+                            <div class="result-search-wrap">
+                                @if (hideSearchFilter)
+                                {
+                                    @Html.Sitecore().Placeholder("internal-search-box")
+                                }
+                                @if (!string.IsNullOrWhiteSpace(Model.GlobalSearchResult.SearchTerm))
+                                {
+                                    <div class="result-count row">
+                                        <p>
+                                            @Sitecore.Globalization.Translate.Text("Search_Keyword_Title")
+                                            '@Model.GlobalSearchResult.SearchTerm'
+                                            (@Model.GlobalSearchResult.TotalResultCount)
+                                        </p>
+                                    </div>
+                                }
+                            </div>
+                            <div id="search-wrapper">
+                                @if (Model.GlobalSearchResult.Products.GroupItems != null)
+                                {
+                                    <div id="product-type" class="product-result-tiles">
+                                        <h3 class="mb-0">
+                                            <button class="link-btn" type="button" data-toggle="collapse" data-target="#product-wrapper"
+                                                    aria-expanded="true" aria-controls="product-wrapper">
+                                                @SitecoreUtil.DefaultDictionaryValue("Category_Title_Products")
+                                                <div class="result-count">
+                                                    @Model.GlobalSearchResult.Products.GroupCount
+                                                    @SitecoreUtil.DefaultDictionaryValue("Search_Total_Records")
+                                                    <input id="product-total" class="total-count" name="currentpage" type="hidden"
+                                                           value="@Model.GlobalSearchResult.Products.GroupCount" />
+                                                </div>
+                                            </button>
+                                        </h3>
+
+                                        <div id="product-wrapper" class="collapse show custom-listing-wrapper" aria-labelledby="product-heading"
+                                             data-parent="#search-wrapper">
+                                            @Html.Partial("~/Views/OneWeb/Search/_CategoryListing.cshtml",
+                                            Model.GlobalSearchResult.Products.GroupItems)
+                                            @Html.Sitecore().Placeholder("pdp-loadmore")
+                                        </div>
+                                    </div>
+                                }
+                                @if (Model.GlobalSearchResult.Articles.GroupItems != null)
+                                {
+                                    <div id="article-type" class="product-result-tiles">
+                                        <h3 class="mb-0">
+                                            <button class="link-btn" type="button" data-toggle="collapse" data-target="#article-wrapper"
+                                                    aria-expanded="true" aria-controls="article-wrapper">
+                                                @SitecoreUtil.DefaultDictionaryValue("Category_Title_Articles")
+                                                <div class="result-count">
+                                                    @Model.GlobalSearchResult.Articles.GroupCount
+                                                    @SitecoreUtil.DefaultDictionaryValue("Search_Total_Records")
+                                                    <input id="article-total" class="total-count" name="currentpage" type="hidden"
+                                                           value="@Model.GlobalSearchResult.Articles.GroupCount" />
+                                                </div>
+                                            </button>
+                                        </h3>
+                                        <div id="article-wrapper" class="collapse show custom-listing-wrapper" aria-labelledby="article-heading"
+                                             data-parent="#search-wrapper">
+                                            @Html.Partial("~/Views/OneWeb/Search/_CategoryListing.cshtml",
+                                            Model.GlobalSearchResult.Articles.GroupItems)
+                                            @Html.Sitecore().Placeholder("article-loadmore")
+                                        </div>
+                                    </div>
+                                }
+                                @if (Model.GlobalSearchResult.Others.GroupItems != null)
+                                {
+                                    <div id="others-type" class="product-result-tiles">
+                                        <h3 class="mb-0">
+                                            <button class="link-btn" type="button" data-toggle="collapse" data-target="#others-wrapper"
+                                                    aria-expanded="true" aria-controls="others-wrapper">
+                                                @SitecoreUtil.DefaultDictionaryValue("Category_Title_Others")
+                                                <div class="result-count">
+                                                    @Model.GlobalSearchResult.Others.GroupCount
+                                                    @SitecoreUtil.DefaultDictionaryValue("Search_Total_Records")
+                                                    <input id="other-total" class="total-count" name="currentpage" type="hidden"
+                                                           value="@Model.GlobalSearchResult.Others.GroupCount" />
+                                                </div>
+                                            </button>
+
+                                        </h3>
+
+                                        <div id="others-wrapper" class="collapse show custom-listing-wrapper" aria-labelledby="article-heading"
+                                             data-parent="#search-wrapper">
+                                            @Html.Partial("~/Views/OneWeb/Search/_CategoryListing.cshtml",
+                                            Model.GlobalSearchResult.Others.GroupItems)
+                                            @Html.Sitecore().Placeholder("others-loadmore")
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <div>No results. Search again.</div>
+            }
+        </div>
+    </div>
+}

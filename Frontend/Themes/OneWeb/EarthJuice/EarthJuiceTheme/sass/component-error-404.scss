@@ -1,0 +1,28 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+
+.component {
+
+    .component-content{
+
+        p{
+        &.error-description{
+
+   
+       color:$light-black;
+       
+       a{ 
+
+      color: $link-error;
+        text-decoration:none;
+        &:hover{
+            text-decoration: underline;
+            color: $error-page-link;
+        }
+       }
+        }
+    }
+    }
+}

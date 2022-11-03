@@ -1,0 +1,25 @@
+.component {
+    &.breadcrumb {
+        display: block;
+        margin-top: 3rem;
+
+        a {
+            font-size: 1.6rem;
+            font-weight: normal;
+            text-transform: capitalize;
+        }
+
+        .breadcrumb-item {
+            margin-left: 0;
+            .navigation-title{
+                a{
+                    &:hover{
+                        text-decoration: underline;
+                        color: inherit;
+                    }
+                }
+            }
+        }
+        
+    }
+}

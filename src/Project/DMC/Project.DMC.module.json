@@ -1,0 +1,32 @@
+{
+	"namespace": "Project.DMC",
+	"references": [ "Feature.*" ],
+	"items": {
+		"includes": [
+			{
+				"name": "Content-DMC",
+				"path": "/sitecore/content/OneWeb/DMC",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			{
+				"name": "MediaLibrary-DMC",
+				"path": "/sitecore/media library/Project/OneWeb/DMC",
+				"scope": "singleItem",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			{
+				"name": "MediaLibrary-DMC-Themes",
+				"path": "/sitecore/media library/Themes/OneWeb/DMC",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			{
+				"name": "Forms-DMC",
+				"path": "/sitecore/Forms/OneWeb/DMC",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			}
+		]
+	}
+}

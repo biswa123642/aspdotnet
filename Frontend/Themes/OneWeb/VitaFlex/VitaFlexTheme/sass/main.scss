@@ -1,0 +1,71 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+body {
+  font-family: sans-serif;
+  color: $light-dark;
+  font-size: 1.8rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $dark-red-color;
+  font-weight: 700;
+  @include Vita-din-2014-font-stack();
+}
+
+.rich-text h1 {
+  font-size: 4rem;
+  color: $red-color;
+  @include Vita-din-condensed-font-stack();
+}
+
+h1 {
+  font-size: 4rem;
+  color: $dark-red-color;
+}
+
+h2 {
+  font-size: 3.2rem;
+  color: $dark-red-color;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.bg-yellow {
+  background-color: $yellow-color;
+}
+
+.bg-red{
+  background-color: $dark-red-color;
+}
+
+

@@ -1,0 +1,38 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  &.variant-4 {
+    &.product-details {
+      margin-bottom: 0;
+      padding: 1.5rem;
+      .product-wrapper {
+        .additional-info {
+          color: #58595b;
+          font-size: 3rem;
+          margin-bottom: 3rem;
+          font-weight: 500;
+          line-height: 1.1;
+        }
+        .body-copy {
+          margin-bottom: 0;
+        }
+        h1 {
+          color: #72c052;
+          font-size: 4rem;
+          text-decoration: inherit;
+          font-weight: 600;
+          text-transform: capitalize;
+          text-align: center;
+        }
+      }
+      @include respond-to(desktop) {
+        .product-wrapper {
+          h1 {
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+}

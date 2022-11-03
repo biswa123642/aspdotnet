@@ -1,0 +1,63 @@
+﻿---
+ID: "9c9bd906-0910-499c-a4e1-a93bc529eeec"
+Parent: "030a8961-cb9f-428c-9411-9b06fbaadcbc"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Related Products and Articles/RelatedProductsAndArticle/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    {{ related_items = sc_followmany i_item "RelatedArticlesandProducts"}}
+    
+    {{ if related_items | array.size > 0 }}
+        {{ cssClass = sc_parameter 'RenderingClass' }}
+            {{if cssClass == null || (cssClass != null && cssClass == "")}}
+                {{cssClass = "col-lg-3"}}
+            {{end}}
+    
+            {{if (i_item.RelatedArticlesandProductsLabel !="")}}
+                <div class="copy-wrap">
+                    <h2>{{i_item.RelatedArticlesandProductsLabel}}</h2>
+                    <div class="row">
+                        {{ for child in related_items}}
+                                {{ if child != null}}
+                                    <div class="inner-wrap col-12 col-md-6 {{cssClass}}">
+                                        <div class="image-holder">
+                                            <a href="{{child.url}}" class="product-url">{{sc_field child "OpenGraphImageUrl"}}</a>
+                                        </div>
+                                        <div class="body-copy ">
+                                            <h3><a href="{{child.url}}" class="field-title">{{sc_field child "Title"}}</a></h3>
+                                        </div>
+                                    </div>
+                                {{end}}
+                        {{end}}
+                    </div>
+                </div>
+            {{end}}
+    {{end}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220323T093157Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "76e7e111-4ee1-4551-b906-3c40100ad7a1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220720T064043Z

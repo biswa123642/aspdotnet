@@ -1,0 +1,83 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.feature-content-tiles {
+    &.variant-1 {
+      .content-wrapper {
+        .inner-wrapper {
+          .copy-wrap {
+            a {
+              text-decoration: none;
+              h3 {
+                position: static;
+                @include urw-din-font-stack();
+              }
+            }
+          }
+        }
+      }
+    }
+    &.variant-2 {
+      .slick-dots {
+        li {
+          &.slick-active {
+            background-color: $text-red-primary;
+            border-color: $text-red-primary;
+          }
+        }
+      }
+      .slick-prev {
+        border-bottom: 2rem solid transparent;
+        border-right: 2rem solid $primary-button;
+        border-top: 2rem solid transparent;
+        top: 30%;
+        &::before {
+          content: none;
+        }
+      }
+      .slick-next {
+        border-bottom: 2rem solid transparent;
+        border-left: 2rem solid $primary-button;
+        border-top: 2rem solid transparent;
+        top: 30%;
+        &::after {
+          content: none;
+        }
+      }
+      .promo-tile {
+        .field-data {
+          text-align: center;
+          h2 {
+            color: $text-blue-primary;
+            //font-size: 2.8rem;
+            font-size: 6rem;
+            font-weight: 700;
+            @include din-14-stack();
+          }
+          p {
+            color: $text-gray-primary;
+            font-size: 2.4rem;
+            font-weight: 800;
+            line-height: 1.1;
+            @include din-14-narrow-stack();
+
+            @include respond-to(desktop) {
+              font-size: 1.5vw;
+            }
+          }
+
+          a {
+            @include nimbus-font-stack();
+            max-width: 70%;
+
+            @include respond-to(desktop) {
+              font-size: 1vw;
+            }
+          }
+        }
+      }
+    }
+  }
+}

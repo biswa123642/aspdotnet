@@ -1,0 +1,49 @@
+@import "abstracts/vars";
+
+.component {
+    &.breadcrumb {
+        .separator {
+            color:$breadcrumb-color;
+            font-weight: 400;
+        }
+        &.navigation-title {
+            nav {
+                ol {
+                    padding: 0px;
+                    .breadcrumb-item {
+                        .navigation-title {
+                            color: $color-primary;
+                        }
+                        .field-navigationtitle {
+                            a {
+                                color: $color-primary;
+                                text-decoration: none;
+                                font-size: 1.6rem !important; // to overide default 
+                                font-weight: 400 !important; //to overide default 
+                                text-transform: uppercase;
+                                &:hover {
+                                    text-decoration: underline;
+                                    color: $color-primary;
+                                }
+                            }
+                        }
+                        &:not(.home) {
+                            margin-left: 4px;
+                        }
+                        &.last {
+                            .field-navigationtitle {
+                                a {
+                                    color: $breadcrumb-color;
+                                    text-transform: uppercase;
+                                    font-size: 1.6rem !important; // to overide default 
+                                    font-weight: 400 !important; //to overide default 
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component{
+    &.accordion{
+        .toggle-header{
+            background-color: #ededed;
+            &:hover{
+                background-color: #ededed;
+            }
+            .component{
+                .field-heading{
+                    font-size: 2rem;
+                    @include nunito-sans();
+                    font-weight: 900;
+                    color: #333;
+                    &::before,&:after{
+                        top: 16px;
+                        left: 2rem;
+                        right: initial;
+                        width: 3px;                        
+                        height: 12px;
+                        border: none;
+                        background-color: #333;
+                    }
+                }
+            } 
+        }
+        .toggle-content{
+            .component{
+                .field-content{
+                    font-size: 1.6rem;
+                    color: $black;
+                    font-weight: normal;
+                    font-family: Arial, sans-serif;
+                }
+            }
+        } 
+    }
+}

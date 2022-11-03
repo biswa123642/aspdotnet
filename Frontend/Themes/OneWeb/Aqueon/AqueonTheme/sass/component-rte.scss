@@ -1,0 +1,272 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.rich-text {
+    a {
+      color: $text-primary;
+    }
+
+    h1 {
+      color: inherit;
+      font-size: 4rem;
+      font-weight: 800;
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      color: $text-primary;
+      font-size: 3rem;
+    }
+
+    h3 {
+      color: $text-primary;
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+    p {
+      a {
+        color: #337ab7;
+        text-decoration: none;
+        &:hover {
+          color: #23527c;
+          text-decoration: underline;
+        }
+      }
+    }
+    p,
+    li {
+      color: #545557;
+      font-size: 2rem;
+      font-weight: 500;
+    }
+
+    li {
+      list-style-position: initial;
+    }
+
+    .setup-rte {
+      h1 {
+        color: $text-primary;
+      }
+      padding-bottom: 2rem;
+    }
+
+    .fishkeeping-guide {
+      .guide-list {
+        ul {
+          li {
+            a {
+              text-transform: uppercase;
+            }
+          }
+        }
+      }
+      a {
+        font-size: 2rem;
+        font-weight: 500;
+      }
+      ul {
+        padding-inline-start: 4rem;
+        li {
+          font-size: 2rem;
+          list-style: inherit;
+          a {
+            text-decoration: none;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+      h2,
+      h3,
+      h4 {
+        color: $text-secondary;
+        @include Helvetica-neue-font();
+      }
+      h2 {
+        font-size: 3rem;
+      }
+      h3 {
+        font-size: 2.5rem;
+      }
+      h4 {
+        font-size: 2.2rem;
+      }
+
+      p {
+        a {
+          color: $text-primary;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+
+      table {
+        border: none;
+        td {
+          border: none;
+          p {
+            margin-bottom: auto;
+          }
+          img {
+            max-width: initial;
+          }
+        }
+      }
+    }
+
+    .error-rte {
+      p {
+        font-size: 2rem;
+        color: $text-primary;
+        font-weight: 500;
+      }
+      a {
+        color: #337ab7;
+        text-decoration: none;
+        &:hover {
+          color: #23527c;
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .newsletter-acknowlegde {
+      h2 {
+        font-size: 3rem;
+        font-weight: 500;
+        @include Helvetica-neue-font();
+        color: $body-color;
+      }
+      p {
+        color: $text-primary;
+      }
+    }
+
+    .quote-text {
+      p {
+        font-size: 1.5rem;
+        font-weight: 900;
+      }
+      a {
+        color: $text-secondary;
+        text-decoration: none;
+        font-weight: 900;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .about-us-rte,
+    .contact-us {
+      a {
+        color: $text-secondary;
+        font-size: 2.5rem;
+        font-weight: 600;
+        text-decoration: none;
+        &::after {
+          content: ">";
+          color: $text-secondary;
+          padding-left: 10px;
+        }
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+    }
+
+    .about-us-rte {
+      h1 {
+        line-height: $line-height;
+      }
+      h2 {
+        font-size: 3rem;
+        color: $text-primary;
+      }
+      p {
+        color: $text-primary;
+        font-size: 2rem;
+        font-weight: 500;
+      }
+      h3 {
+        font-size: 3rem;
+        color: #231f20;
+      }
+    }
+
+    .contact-us {
+      h2 {
+        font-size: 3.5rem;
+        font-weight: 800;
+      }
+      p {
+        color: $text-primary;
+      }
+    }
+
+    .call-us {
+      font-size: 2.5rem;
+      font-weight: 800;
+      border-bottom: 1px solid $white;
+
+      h3 {
+        font-weight: 600;
+      }
+      // &::after {
+      //   content: "";
+      //   position: absolute;
+      //   height: 1px;
+      //   width: 95%;
+      //   left: 50%;
+      //   transform: translateX(-50%);
+      //   background-color: $white;
+      // }
+    }
+
+    .write-to {
+      h3 {
+        font-weight: 600;
+      }
+      p {
+        line-height: 1.1;
+      }
+    }
+
+    .where-to-buy {
+      p {
+        color: $text-primary;
+      }
+    }
+
+    @include respond-to(desktop) {
+      .setup-rte {
+        border-bottom: 1px solid #a7a9ac;
+        margin-bottom: 4rem;
+      }
+
+      .call-us {
+        // &::after {
+        //   content: "";
+        //   height: 90%;
+        //   width: 1px;
+        //   left: auto;
+        //   right: 0px;
+        //   top: 50%;
+        // }
+        border-bottom: none;
+        border-right: 1px solid $white;
+      }
+
+      .write-to {
+        width: 50%;
+        margin: auto;
+      }
+    }
+  }
+}

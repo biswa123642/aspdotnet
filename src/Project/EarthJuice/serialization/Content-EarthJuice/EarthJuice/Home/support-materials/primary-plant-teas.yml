@@ -1,0 +1,101 @@
+﻿---
+ID: "b3370294-1baf-4f09-b091-1f490c75b991"
+Parent: "4ca2ad2c-8ff3-4cec-b219-7792f06915dd"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/EarthJuice/Home/support-materials/primary-plant-teas"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{A4F40F33-D019-496E-92AC-45D363D8D28A}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{0CDAB187-AA23-414C-A61D-A7FA6865E6BD}"
+          s:ds="{D570D72A-0CD9-430C-9435-00D731C74DE6}"
+          s:id="{0CFDA4AE-936C-4C05-890A-6A96058D566E}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;GridClass=col-md-4&amp;FieldNames=%7B4650091D-82E9-4DD9-82EA-68F152AB72D2%7D&amp;Styles=%7BC610D6ED-EB8F-40BB-9396-CE9BE1BC4B24%7D%7C%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-support-materials/container-6/row-1-7"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220614T113011Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{7E38DFFF-AB4D-4459-BFD5-70836F5E4D9F}" alt="EJ-Primary-Plant-Teas-Version2-1920x535" height="" width="" hspace="" vspace="" />
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "primary-plant-teas"
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Earth Juice Primary Plant Teas that can be used as a complete fertilizers.
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <p>The Plant Tea Recipe are divided into two types, TS &amp; TP Teas:</p>
+        <ul>
+            <li>TS refers to a Tea Supplement (supplement plant tea) to be used as part of a complete fertilization maintenance program.</li>
+            <li>TP refers to a Tea Primary (primary plant tea) that can be used as a complete fertilizer.</li>
+        </ul>
+        <p><strong>Application rates:</strong> per 1 gallon (3.785 liters) of water.</p>
+        <p><strong>Aeration (brewing) period: </strong>12-48 hours.</p>
+        <p><strong>Water: </strong>Recommend TAP water. Use an inexpensive pool/spa chlorine tester to determine any chlorine residue.</p>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Earth Juice Primary Plant Teas that can be used as a complete fertilizers.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Earth Juice Primary Plant Teas
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: EARTH JUICE PRIMARY PLANT TEA RECIPES
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1be44ca8-35f9-4992-af6b-5bf47f79b957"
+    - ID: "a6772724-fc83-4e63-a2f6-a893b8329b9e"
+      Hint: HeroBannerAlignment
+      Value: "Left-Align"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c0dea859-79fd-453e-99da-f5b81bfa44da"
+      Hint: MobileBackgroundColor
+      Value: #005796
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: <h1>IT'S TEA TIME</h1>
+    - ID: "caaa6c5b-798c-4d26-8919-fe66d620f798"
+      Hint: Page Attributes
+      Value: "{939ED03F-C910-4FA9-AE22-697346AA7FA8}"
+    - ID: "d09bc090-2bb2-462b-8f8d-ccde0f555fd3"
+      Hint: OverlayColorOpacity
+      Value: 00
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{7E38DFFF-AB4D-4459-BFD5-70836F5E4D9F}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220711T105708Z
+    - ID: "f1115acb-7ba4-48e9-8262-cb95f1f52313"
+      Hint: OverlayColor
+      Value: #005796

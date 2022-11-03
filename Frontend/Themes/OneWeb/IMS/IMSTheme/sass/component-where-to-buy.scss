@@ -1,0 +1,185 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.where-buy-section {
+    border-bottom: 2px solid $title_primary;
+
+    .nav-tabs-wrapper-inner {
+      ul {
+        &.nav-tabs {
+          margin: 1rem 1.5rem;
+          li {
+            a {
+              color: $title_primary;
+              border-bottom: 2px solid $title_primary;
+              font-size: 1.8rem;
+              &.active {
+                color: $white;
+                background-color: $title_primary;
+                border: 1px solid $title_primary;
+                border-radius: 4px 4px 0 0;
+                border-bottom: 2px solid $title_primary;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .linked-thumbnail {
+      &.vertical {
+        h3 {
+          @include respond-to(tab) {
+            font-size: 3.4rem;
+            color: $title_primary;
+            border-bottom: 2px solid $title_primary;
+            margin-bottom: 2rem;
+          }
+          @include respond-to(desktop) {
+            font-size: 4.48rem;
+          }
+        }
+        ul {
+          background: $white;
+          height: auto;
+
+          @include respond-to(tab) {
+            height: 54rem;
+          }
+
+          @include respond-to(desktop) {
+            margin-right: -2rem;
+            padding: 1rem;
+            height: 40rem;
+          }
+          li {
+            img {
+              max-width: 28%;
+              @include respond-to(tab) {
+                max-width: 39%;
+              }
+            }
+          }
+        }
+      }
+    }
+    .store-locator {
+      .component-title {
+        h3 {
+          @include respond-to(tab) {
+            color: $title_primary;
+            font-size: 3.4rem;
+            border-bottom: 2px solid $title_primary;
+            margin-bottom: 2rem;
+          }
+          @include respond-to(desktop) {
+            font-size: 4.48rem;
+          }
+        }
+      }
+      .store-locator-info {
+        margin-top: 0;
+        min-height: 40rem;
+        padding: 2rem;
+
+        @include respond-to(tab) {
+          min-height: 54rem;
+          background: $white;
+        }
+
+        @include respond-to(desktop) {
+          margin-left: -1rem;
+          min-height: 40rem;
+        }
+
+        .zip-error {
+          color: $zip-error;
+          font-size: 1.8rem;
+        }
+
+        .no-locations-found {
+          font-size: 1.8rem;
+          color: $error-gray;
+        }
+
+        #search-result-list {
+          .store-marker {
+            color: $title_primary;
+            font-size: 1.8rem;
+          }
+          .store-info {
+            h4 {
+              color: $title_primary;
+              font-size: 2.08rem;
+              font-weight: 500;
+              text-transform: uppercase;
+            }
+            p {
+              a {
+                color: $title_primary;
+              }
+            }
+          }
+        }
+
+        .search-store-form {
+          label {
+            font-size: 1.8rem;
+          }
+          #zipcode {
+            width: 75%;
+          }
+          #radius {
+            @include respond-to(desktop) {
+              margin-left: 87px;
+            }
+
+            option {
+              color: $black;
+              text-align: left;
+            }
+          }
+
+          .btn-default {
+            background-color: $error-gray;
+            @include Franlink-font-stack();
+            font-size: 1.8rem;
+            color: $white;
+            border: none;
+            border-radius: 0px;
+            padding: 0px 25px;
+            height: 40px;
+            letter-spacing: 2.7px;
+            text-transform: uppercase;
+            border: 1px solid $border-btn;
+            @include respond-to(desktop) {
+              margin-left: 8.7rem;
+              @include Helvetica-font-stack();
+              font-size: 1.35rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.content {
+    .where-to-buy {
+      h2 {
+        color: $black;
+        font-size: 4.5rem;
+      }
+      p {
+        color: $black;
+        margin-bottom: 1.1rem;
+      }
+    }
+    .about-us {
+      p {
+        color: $gray-heading;
+      }
+    }
+  }
+}

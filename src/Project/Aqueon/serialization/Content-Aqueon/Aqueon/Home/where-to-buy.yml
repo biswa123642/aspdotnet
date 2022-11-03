@@ -1,0 +1,104 @@
+﻿---
+ID: "2d11883d-0892-4a23-8b4e-16657fe404a2"
+Parent: "47f9532d-09fb-4c04-87ea-74e05f095315"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/Aqueon/Home/where-to-buy"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{6D2FC4EC-8C24-4076-BC99-99727E912E78}"
+          p:before="*"
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%3E&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BDC8324B2-802B-4D36-8D62-C4F2449DFA02%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/row-1-1/container-7" />
+        <r
+          uid="{F4C14B58-5794-4063-9358-E87BE1AAD70A}"
+          p:after="r[@uid='{6D2FC4EC-8C24-4076-BC99-99727E912E78}']"
+          s:ds="page:"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BFFF92AD1-B9FF-4ED0-9316-F18C1B5B5508%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{20BA5FB7-DD6A-4D5F-9EBD-A91DF3B4FA12}"
+          p:after="r[@uid='{F4C14B58-5794-4063-9358-E87BE1AAD70A}']"
+          s:ds="{50304CAF-5FE1-498E-A293-9716E61C8EBA}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BB32A1687-CC70-459B-A8F1-C5627234A86A%7D&amp;Styles=%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-1-1/container-7"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{ADDA6E51-BAA8-4A9F-B506-7FA48F7F6E19}"
+          p:after="r[@uid='{20BA5FB7-DD6A-4D5F-9EBD-A91DF3B4FA12}']"
+          s:ds="{FB7CB23F-15D5-4FA2-8817-6814F86DC07F}"
+          s:id="{064D8EB1-51D4-41AA-90DD-166CA0D5F899}"
+          s:par="EnableOverlay&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BDDA8D06E-09FD-4A6D-930E-7891DBA3AE74%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/row-1-1/container-7"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{B6BC83FE-14D6-45C7-93DA-5DF0F32C52C8}"
+          p:after="r[@uid='{ADDA6E51-BAA8-4A9F-B506-7FA48F7F6E19}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-1-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{115AB173-D8F6-43BE-B752-7A197D28A4AA}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{203CB16E-43F9-4A6D-8D77-A8965D4280B5}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220816T052813Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{203CB16E-43F9-4A6D-8D77-A8965D4280B5}" />
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Where to Buy
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Buy Aqueon Products | Fish Food, Aquariums, & More
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Buy Aqueon Products | Fish Food, Aquariums, & More
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "53d5c490-7ace-47e3-a3c2-e9c8aa88010a"
+    - ID: "9bf7a7f6-34f8-4c38-a3d7-2fd0470518b1"
+      Hint: HideInSearchResults
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221007T053716Z

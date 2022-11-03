@@ -1,0 +1,48 @@
+﻿---
+ID: "001252cc-fa8a-4326-bc16-60771600a5fe"
+Parent: "e074340b-3498-4dff-8704-55b3481e5db2"
+Template: "d1070ed7-b4f7-4c03-b622-f9b5fb072dea"
+Path: /sitecore/content/OneWeb/Farnam/Data/Teaser Promo/HomePage/HorseCareLoyalty
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Horse Care Loyalty
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220705T063329Z
+    - ID: "7cf24deb-783d-4e7a-be2d-1c5410b73c66"
+      Hint: FirstCTA
+      Value: |
+        <link text="Get Started" linktype="external" url="https://www.horsecareloyalty.com/" anchor="" target="_blank" />
+    - ID: "81651106-4b95-4713-84df-90a36c488b2f"
+      Hint: TeaserImage
+      Value: |
+        <image mediaid="{DF400B80-7198-4CA1-8E3F-F2A9BAADB2BD}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9db3c3ba-b5cd-418b-88b0-c6244c2bd4db"
+    - ID: "9fd53b32-f6f3-484c-b662-d9a1b2013a0d"
+      Hint: Description
+      Value: |
+        <img alt="" src="-/media/C5E740516B0146FBAEFEABBCDAC9C41C.ashx" />
+        <h2>Horse Care Loyalty Rewards Program</h2>
+        <p>For every 5 qualifying products purchased, horse owners will get the next one completely FREE! There's an extensive list of participating products that provide solutions for various horse care needs.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "ca6a3070-03e0-47cf-ba54-c58f83c49cfa"
+      Hint: Title
+      Value: 
+    - ID: "ce281eff-5b53-4327-b106-d567df721aab"
+      Hint: MobileTeaserImage
+      Value: |
+        <image mediaid="{A134F8C8-9CFC-4345-9424-190013D8BE5E}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220705T080800Z

@@ -1,0 +1,26 @@
+{
+	"namespace": "Project.Adams",
+	"references": [ "*Feature.*" ],
+	"items": {
+		"includes": [
+			//{
+			//	"name": "Content-Adams",
+			//	"path": "/sitecore/content/OneWeb/Adams",
+			//	"scope": "ItemAndDescendants",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//},
+			{
+				"name": "MediaLibrary-Themes",
+				"path": "/sitecore/media library/Themes/OneWeb/Adams",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			}
+			//{
+			//	"name": "Adams-Forms",
+			//	"path": "/sitecore/Forms/OneWeb/Adams",
+			//	"scope": "ItemAndDescendants",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//}
+		]
+	}
+}

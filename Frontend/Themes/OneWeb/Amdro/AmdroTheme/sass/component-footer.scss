@@ -1,0 +1,207 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+
+#footer {
+    color: $footer-color;
+    background-color: $footer-background;
+    padding: 4rem 1.5rem 2.4rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.85;
+
+    @include respond-to(tab) {
+        padding: 4rem 4.4rem 2.4rem;
+    }
+
+    a {
+        color: $footer-links-color;
+
+        &:hover {
+            color: $footer-links-color-hover;
+            text-decoration: none;
+        }
+    }
+
+    .component {
+        >.component-content {
+            padding-bottom: 2rem;
+        }
+
+        &.position-right {
+            @include respond-to(mobile) {
+                text-align: center;
+            }
+        }
+
+        &.content,
+        &.rich-text {
+            color: $footer-color;
+            font-weight: 500;
+            font-size: 1.4rem;
+            line-height: 1.85;
+
+            .component-content {
+                font-size: 1.4rem;
+                padding-bottom: 0;
+                padding-top: 2rem;
+            }
+        }
+
+        &.file-type-icon-media-link {
+            img {
+                display: block;
+            }
+
+            .component-content {
+                @include respond-to(tab) {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                }
+            }
+
+            &.media-logo {
+                text-align: center;
+
+                img {
+                    @include respond-to(tab) {
+                        max-width: 17.2rem;
+                    }
+                }
+
+                .component-content {
+                    justify-content: center;
+                }
+            }
+        }
+
+    }
+
+
+
+    .link a {
+        color: $footer-links-color;
+        font-weight: 500;
+        font-size: 1.4rem;
+        border: none;
+
+        @include respond-to(desktop) {
+            padding-left: 11.5rem;
+        }
+
+        &:hover {
+            color: $footer-links-color-hover;
+            text-decoration: none;
+        }
+    }
+
+    .link-list {
+
+        &.inline-link {
+            ul {
+                justify-content: center;
+                flex-wrap: wrap;
+
+                @include respond-to(tab) {
+                    justify-content: flex-start;
+                }
+
+                li {
+                    &.even:before,
+                    &:before {
+                        content: ' / ';
+                        width: auto;
+                        background: transparent;
+                        margin: 0;
+                        height: auto;
+                    }
+                    &.first{
+                        &::before{
+                            display: none;
+                        }
+                    }
+
+                    .field-link a {
+                        color: $footer-links-color !important;
+                        font-weight: 500;
+                        font-size: 1.4rem;
+                        &:before{
+                            display: none;
+                        }
+                        &:hover {
+                            color: $footer-links-color-hover !important;
+                            text-decoration: none;
+                            border: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .utility-navigation {
+        &.social-links {
+            @include respond-to(desktop) {
+                padding-top: 4rem;
+            }
+
+            h3 {
+                color: $footer-color;
+                width: 100%;
+
+                +.fa {
+                    margin-left: 0;
+                }
+            }
+
+            .icon-container {
+                border: none;
+
+                @include respond-to(tab) {
+                    justify-content: start;
+                }
+
+                .fa {
+                    width: 4.5rem;
+                    height: 4.5rem;
+                    font-size: 3.4rem;
+                    color: $footer-social-icon-color;
+
+                    line-height: 4.5rem;
+                    text-align: center;
+                    border-radius: 100%;
+                    background-color: $footer-social-bg;
+                    padding: 0;
+                    display: inline-block;
+                    margin-left: 2.1rem;
+
+                }
+
+                a {
+                    &:first-child {
+                        .fa {
+                            margin-left: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.scroll-button-wrap {
+    min-height: 0;
+
+    .to-top.show {
+        padding: 0;
+        width: 6.4rem;
+        height: 6.4rem;
+        right: 5rem;
+        bottom: 5rem;
+        border-radius: 100%;
+        background: $back-top-background;
+        border: none;
+    }
+
+}

@@ -1,0 +1,202 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.sds-labels {
+        .table-data {
+            margin: 1em 0;
+            &.fixed{
+                .table-heading{
+                    position: fixed;
+                    top: 0;
+                }
+            }
+            table {
+                width: 100%;
+                margin-bottom: 5rem;
+            }
+            thead {
+                font-size: 0px;
+              
+                display: none;
+                tr {
+                    display: flex !important;
+                    background: transparent;
+                    padding: 0;
+                    display: none;
+                    background-color: #a89c98;
+                    border: 1px solid #707070;
+                    th {
+                        float: none;
+                        font-size: 2.4rem;
+                        padding: 16px 20px;
+                        color: $white-color;
+                        line-height: 24px;
+                        background: transparent;
+                        text-transform: none;
+                        font-weight: normal;
+                        &:first-child {
+                            flex-grow: 1;
+                            font-weight: bold;
+                        }
+                    }
+                }
+                &.heading-fixed{
+                    &.fixed{
+                        .table-heading{
+                            position: fixed;
+                            top: 0;
+                            z-index: 99;
+                            width: 100%;
+                            max-width: 1140px;
+                            margin: 0 auto;
+                            max-width: calc(100% - 30px);  
+                            @include respond-to(tab){
+                                max-width: 72rem; 
+                            }
+                            @include respond-to(desktop){
+                                max-width: 94rem;
+                            }
+                            @include respond-to(large-desktop){
+                                max-width: 1140px;
+                            }
+                        }
+                      
+                    }
+                }
+            }
+            tr {
+                th {
+                    padding: 10px 20px;
+                    color: $white-color;
+                    line-height: 1.5rem;
+                }
+                td {
+                    line-height: 2rem;
+                    font-weight: bold;
+                }
+                td,
+                th {
+                    text-align: center;
+                    border: none;
+                    display: inline-block;
+                    font-weight: normal;
+                    width: auto;
+                    &:first-child,
+                    &:first-child {
+                        text-align: left;
+                        display: inline-block;
+                        width: 100%;
+                    }
+                }
+            }
+
+            .pdf-icon {
+                background-image: url(../images/site-icons/download-arrow-dark.png);
+                vertical-align: middle;
+                width: 28px;
+                height: 28px;
+                display: inline-block;
+            }
+            .tableFloatingHeader {
+                z-index: 2;
+                background-color: #a89c98;
+                border: 1px solid #707070;
+            }
+            tbody {
+                a {
+                    color: inherit;
+                    span {
+                        display: block;
+                    }
+                }
+                tr {
+                    display: flex !important;
+                    flex-wrap: wrap;
+                    background-color: $white-color;
+                    border-bottom: 1px solid #707070;
+                    padding: 0.1em 0.6em;
+                    td {
+                        line-height: 3.2rem;
+                        padding: 14px 15px;
+                        font-size: 1.6rem;
+                        font-weight: 300;
+                        &:first-child {
+                            width: 100%;
+                            display: block;
+                            font-size: 2.2rem;
+                        }
+                    }
+                    &:hover {
+                        background-color: #e0d8d6;
+                        td {
+                            color: #db2108;
+                            background: transparent;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    .component {
+        &.sds-labels {
+            .table-data {
+                thead {
+                    display: block;
+                    tr {
+                        display: block;
+                    }
+                }
+                tbody {
+                    a {
+                        span {
+                            display: none;
+                        }
+                    }
+                    tr {
+                        td {
+                            font-size: 2.2rem;
+                            &:first-child {
+                                flex-grow: 1;
+                                width: 32%;
+                                display: inline-block;
+                            }
+                        }
+                    }
+                }
+                tr {
+                    td,
+                    th {
+                        width: 22.666%;
+                        &:first-child,
+                        &:first-child {
+                            width: 33.33%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .component {
+        &.sds-labels {
+            .table-data {
+                thead {
+                    tr {
+                        th {
+                            font-weight: normal;
+                            &:first-child {
+                                font-weight: normal;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

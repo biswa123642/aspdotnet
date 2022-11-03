@@ -1,0 +1,22 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "base/fonts/fonts";
+.component{
+    &.title {
+      padding: 0px;
+      h1{
+        &.article-title{
+          color: $heading1_color;
+          text-transform: uppercase;
+          font-weight: 900;
+          @include Montserrat-font-stack();
+          font-size: 3.99rem;
+          cursor: text;
+          line-height: 1.1;
+          margin: 0px;
+          padding: 0px;
+          border: none;
+        }
+      }
+    }
+  }

@@ -1,0 +1,416 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.6rem;
+  color: #000;
+  line-height: 1.428;
+
+  @include respond-to(desktop) {
+    padding-top: 20.0528rem;
+  }
+
+  &.sticky {
+    padding-top: 13.444;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  @include nunito-sans();
+}
+
+h1 {
+  line-height: 1.1;
+  font-size: 4.8rem;
+  font-weight: 500;
+  color: $white;
+
+  @include respond-to(bootstrap-onlyTablet) {
+    font-size: 8.2rem;
+  }
+
+  @include respond-to(desktop) {
+    font-size: 6.8rem;
+  }
+
+  @include respond-to(extra-large-desktop) {
+    font-size: 9.9rem;
+  }
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: $white;
+  line-height: 1.1;
+
+  @include respond-to(desktop) {
+    font-size: 2.4rem;
+  }
+
+  @include respond-to(extra-large-desktop) {
+    font-size: 3.2rem;
+  }
+}
+
+h3 {
+  font-size: 3.52rem;
+  font-weight: 700;
+  color: $black;
+
+  @include respond-to (desktop) {
+    font-size: 2.2vw;
+  }
+}
+
+h4 {
+  font-size: 1.8rem;
+  color: $black;
+  font-weight: 500;
+}
+
+
+h6 {
+  @include nunito-sans();
+  font-weight: 700;
+  color: $black;
+  font-size: 1.92rem;
+
+  @include respond-to(desktop) {
+    font-size: 1.3vw;
+
+  }
+}
+
+.content {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @include nunito-sans();
+    font-weight: 900;
+    color: $black;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  h3 {
+    font-size: 3rem;
+  }
+
+  h4{
+    font-size: 2rem;
+  }
+ 
+  h5{
+    font-size: 1.6rem;
+  }
+
+  a,
+  a span {
+    color: $link-blue;
+    text-decoration: none;
+
+    &:hover {
+      color: $link-hover;
+      text-decoration: underline;
+    }
+  }
+
+  ol li{
+    font-size: 1.6rem;
+    color: $black;
+    list-style-position: outside;
+  }
+}
+
+.sxa-btn {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.sxa-btn a,
+.content .sxa-btn a,
+a.button {
+  background-color: $white;
+  border: 4px solid #5eb383;
+  color: #5eb383 !important;
+  padding: .5rem 1.5rem;
+  font-size: 2rem !important;
+  font-weight: 900;
+  @include nunito-sans();
+  display: inline-block;
+  line-height: 1.428;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  box-shadow: 0px 4px 12px #00000029;
+
+  &:hover {
+    color: $hover-anchor  !important;
+    text-decoration: none;
+  }
+}
+
+p,
+span,
+li,
+div,
+.rich-text {
+  color: $black; 
+}
+
+.content {
+  p {
+    margin: 1.1rem 0;
+  }
+
+  a {
+    color: $link-blue;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      color: $link-hover;
+    }
+  }
+  ul{
+    li{
+      list-style: disc;
+      margin-left: 3.5rem;
+      font-size: 1.6rem;
+    }
+  }
+}
+
+.image {
+  a {
+    display: initial;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+@include respond-to (all-mobile) {
+  .component {
+    &.column-splitter {
+
+      >div.blue-bg-color,
+      >div.faded-green {
+        width: calc(100% - 6rem);
+        margin: auto;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+
+//background color
+.blue-bg-color {
+  background-color: $blue;
+}
+
+.faded-green {
+  background-color: $faded-green;
+
+  img {
+    padding: 4rem 2.5rem;
+
+    @include respond-to(desktop) {
+      padding: 9rem;
+    }
+  }
+}
+
+.padding-0 {
+  padding: 0 !important;
+}
+
+.indent-top-large {
+  padding-top: 10rem;
+}
+
+.indent-bottom-large {
+  padding-bottom: 8rem;
+}
+
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.padding-90 {
+  padding: 4rem 2rem !important;
+
+  @include respond-to(tab) {
+    padding: 4rem !important;
+  }
+
+  @include respond-to(desktop) {
+    padding: 9rem !important;
+  }
+
+}
+
+.section-divider-white,
+.section-divider-black {
+  @include respond-to (desktop) {
+    position: relative;
+
+    &::after,
+    &:before {
+      content: "";
+      height: 100%;
+      width: 10px;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: $black;
+      transition: height .5s ease-in-out;
+    }
+
+    &:before {
+      display: none;
+    }
+
+    &.top-20 {
+      &::after {
+        height: 10%;
+      }
+    }
+
+    &.bottom-20 {
+      &::after {
+        display: none;
+      }
+
+      &:before {
+        display: block;
+        height: 10%;
+        top: initial;
+        bottom: 0;
+      }
+
+      &.top-20 {
+
+        &::before,
+        &::after {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.section-divider-white {
+  @include respond-to(desktop) {
+    &::after {
+      background-color: $white;
+    }
+  }
+}
+
+.indent-top {
+  padding-top: 4rem;
+
+  @include respond-to(desktop) {
+    padding-top: 8rem;
+  }
+}
+
+.indent-bottom {
+  padding-bottom: 4rem;
+
+  @include respond-to(desktop) {
+    padding-bottom: 8rem;
+  }
+}
+
+.indent-top-xl {
+  padding-top: 4rem;
+
+  @include respond-to(desktop) {
+    padding-top: 10rem;
+  }
+}
+
+.indent-bottom-xl {
+  padding-bottom: 4rem;
+
+  @include respond-to(desktop) {
+    padding-bottom: 10rem;
+  }
+}
+
+.border-bottom-dark-gray {
+  border-bottom: 1px $black solid;
+}
+
+.margin-0 {
+  &.container-fluid {
+    >div {
+      >.row {
+        @include respond-to(all-mobile) {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+#wrapper {
+  width: 100%;
+}
+
+.dots {
+  @include respond-to(desktop) {
+    background-image: url('../images/dots.png');
+    background-repeat: repeat-y;
+    padding-left: 35px !important;
+  }
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+#info-box {
+  position: absolute;
+  z-index: 9;
+}
+.plain-html{
+  .content-left{
+    max-width: 66.66%;
+  }
+  h4{
+    font-size: 2rem;
+    font-weight: 900;
+  }
+}
+main{
+  min-height: 350px;
+  @include respond-to(extra-large-desktop){
+    min-height: 700px;
+  }
+}

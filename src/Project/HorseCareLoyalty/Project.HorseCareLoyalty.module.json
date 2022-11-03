@@ -1,0 +1,32 @@
+{
+	"namespace": "Project.HorseCareLoyalty",
+	"references": [ "Feature.*" ],
+	"items": {
+		"includes": [
+			//{
+			//	"name": "Content-HorseCareLoyalty",
+			//	"path": "/sitecore/content/OneWeb/HorseCareLoyalty",
+			//	"scope": "ItemAndDescendants",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//},
+			//{
+			//	"name": "MediaLibrary-HorseCareLoyalty",
+			//	"path": "/sitecore/media library/Project/OneWeb/HorseCareLoyalty",
+			//	"scope": "singleItem",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//},
+			{
+				"name": "MediaLibrary-HorseCareLoyalty-Themes",
+				"path": "/sitecore/media library/Themes/OneWeb/HorseCareLoyalty",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			}
+			//{
+			//	"name": "Forms-HorseCareLoyalty",
+			//	"path": "/sitecore/Forms/OneWeb/HorseCareLoyalty",
+			//	"scope": "ItemAndDescendants",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//}
+		]
+	}
+}

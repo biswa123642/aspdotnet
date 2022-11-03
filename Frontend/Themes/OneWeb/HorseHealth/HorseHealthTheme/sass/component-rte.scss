@@ -1,0 +1,116 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.rich-text {
+    h3 {
+      font-size: 1.6rem;
+      font-weight: 400;
+      text-align: center;
+      @include Yanone-font-stack();
+    }
+
+    .email-signup {
+      background: $anchor-primary;
+      padding: 2rem 2rem 5rem 2rem;
+      text-align: center;
+      max-width: 85%;
+      margin-left: auto;
+      margin-right: auto;
+
+      h3 {
+        border-top: 1px solid $white;
+        border-bottom: 1px solid $white;
+        color: $white;
+        font-size: 3rem;
+        font-weight: 500;
+        padding: 1rem;
+        text-align: center;
+        @include Arvo-font-stack();
+      }
+
+      p {
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 4rem;
+        padding: 2rem;
+        @include Arvo-font-stack();
+      }
+
+      a {
+        color: $anchor-primary;
+        background-color: $white;
+        border-color: $anchor-primary;
+        font-size: 3rem;
+        padding: 1rem 5rem;
+        width: 85%;
+        border-radius: 5px;
+        text-decoration: none;
+      }
+    }
+  }
+
+  &.content {
+    .coupons-rte {
+      h1 {
+        color: $para-color;
+        font-size: 3.6rem;
+        @include Arvo-font-stack();
+      }
+      p {
+        color: $gray-heading;
+        font-size: 2.34rem;
+        @include Arvo-font-stack();
+      }
+    }
+
+    .page-not-found {
+      background: radial-gradient(ellipse, $white -30%, $ellipse-bg 75%);
+      min-height: 45rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: -1.5rem;
+
+      h1 {
+        color: $white;
+        font-size: 3.6rem;
+      }
+      h2 {
+        color: $white;
+        font-size: 3rem;
+        border-bottom: 1px solid $border-light;
+        padding-bottom: 20px;
+        margin: 1rem 2rem;
+      }
+    }
+  }
+
+  &.border-bottom {
+    border-bottom: 1px solid $border-light;
+  }
+
+  @include respond-to(desktop) {
+    &.rich-text {
+      h3 {
+        text-align: left;
+      }
+    }
+
+    &.content {
+      .about-us-rte {
+        border-right: 1px solid rgba(109, 28, 84, 0.25);
+        padding-right: 10%;
+        margin-right: 2rem;
+      }
+
+      .page-not-found {
+        h2 {
+          margin: 1rem 10rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,108 @@
+﻿---
+ID: "50195e4c-4f8a-45cb-8b30-e0b85d965a8d"
+Parent: "a0ab735b-4442-441a-8d45-8e4191ed50ca"
+Template: "25f18683-2f03-4776-ada3-6d2a76dbdf2d"
+Path: /sitecore/content/OneWeb/GardenTech/Settings/HTML Snippets/GA script
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220708T090113Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2c5df87c-1fe3-4f4a-b947-a27f5399ee62"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220726T111506Z
+    - ID: "ec4a491f-cc4b-4175-858a-3e6e859540bb"
+      Hint: Html
+      Value: |
+        <!-- GOOGLE ANALYTICS -->
+            <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+              ga('create', 'UA-39472827-1', 'auto');
+              ga('create', 'UA-145039385-1', 'auto', 'cgpGlobal');
+              ga('require', 'linkid', 'linkid.js');
+              ga('require', 'displayfeatures');
+              ga('send', 'pageview');
+              ga('cgpGlobal.send', 'pageview');
+              setTimeout("ga('send','event','AdjustedBounceRate','time on page more than 0.25 minutes')",15000);
+            </script>
+            <!-- END GOOGLE ANALYTICS -->
+        <!-- Google Tag Manager -->
+            <script>
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-5MHQGLT');</script>
+            <!-- END Google Tag Manager -->
+- Language: es
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220726T111516Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "64004f57-5d38-4301-aa89-d188d22c34c9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220726T111553Z
+    - ID: "ec4a491f-cc4b-4175-858a-3e6e859540bb"
+      Hint: Html
+      Value: |
+        <!-- GOOGLE ANALYTICS -->
+            <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+              ga('create', 'UA-39472827-1', 'auto');
+              ga('create', 'UA-145039385-1', 'auto', 'cgpGlobal');
+              ga('require', 'linkid', 'linkid.js');
+              ga('require', 'displayfeatures');
+              ga('send', 'pageview');
+              ga('cgpGlobal.send', 'pageview');
+              setTimeout("ga('send','event','AdjustedBounceRate','time on page more than 0.25 minutes')",15000);
+            </script>
+            <!-- END GOOGLE ANALYTICS -->
+        <!-- Google Tag Manager -->
+            <script>
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-5MHQGLT');</script>
+            <!-- END Google Tag Manager -->

@@ -1,0 +1,142 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "base/fonts/fonts";
+
+
+
+body {
+    @include Helvetica-font-stack();
+    font-size: 1.4rem;
+    line-height: 1.4;
+    color: $text-basic;
+    background: url(../images/site-bg/body_bg.jpg) repeat top left;
+    overflow-x: hidden;
+}
+
+#content {
+    >.row {
+        display: block;
+    }
+}
+sup{
+    font-size: 75%;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+.content a,
+.rich-text a,
+a {
+    color: $secondary-color;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+        color: $link-color-hover;
+        text-decoration: underline;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @include Roboto-font-stack();
+    color: $heading-primary-color;
+    line-height: 1.1;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h1 {
+    color: $heading-primary-color;
+    font-size: 3.6rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+h5 {
+    font-size: 1.4rem;
+}
+
+h6 {
+    font-size: 1.2rem;
+}
+
+p {
+    margin-bottom: 0 0 0 1rem;
+}
+
+.component {
+
+    &.content,
+    &.rich-text {
+        @include Helvetica-font-stack();
+        font-size: 1.4rem;
+        line-height: 2rem;
+        font-weight: 400;
+        color: $text-basic;
+
+        small {
+            font-size: 1.4rem;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            @include Roboto-font-stack();
+            color: $heading-primary-color;
+            line-height: 1.2;
+            margin-top: 0;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+        }
+
+
+        h1 {
+            font-size: 3.6rem;
+            font-weight: 700;
+        }
+
+        h2 {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        h3 {
+            font-size: 2.4rem;
+        }
+
+    }
+
+    &.rich-text-content {
+        h1 {
+            font-size: 3.6rem;
+            font-weight: 700;
+            @include Roboto-font-stack();
+            color: $secondary-color;
+            text-transform: uppercase;
+        }
+    }
+
+}

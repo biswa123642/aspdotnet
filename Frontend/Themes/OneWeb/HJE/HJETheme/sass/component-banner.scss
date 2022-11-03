@@ -1,0 +1,250 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  &.hero {
+    &.banner-adjustable-height {
+      padding: 0 1rem;
+      .banner-wrapper {
+        .inner-container {
+          padding: 0 1rem;
+          display: block !important;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 100%;
+          .banner-content-wrapper {
+            padding: 0;
+            background: #0000 !important;
+            max-width: 100%;
+            .hero-banner-title {
+              position: relative;
+              font-size: 2rem;
+              color: #58595b;
+              text-shadow: none;
+              text-transform: uppercase;
+              font-weight: 700;
+              text-align: center;
+            }
+            .hero-banner-description {
+              padding: 1rem;
+              background-color: rgba(0, 0, 0, 0.5);
+              margin: 1.5rem auto 0;
+              border-radius: 10px;
+              color: #ffffff;
+              text-shadow: none;
+              font-size: 1.5rem;
+              display: table;
+              max-width: 100%;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+
+    &.banner-with-content {
+      .banner-image {
+        margin: 0 1rem;
+        .banner-mobile-image {
+          img {
+            min-height: 28rem;
+          }
+        }
+      }
+      .inner-container {
+        .banner-content-wrapper {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          max-width: 100%;
+          .content-top {
+            .hero-banner-title {
+              text-shadow: #000 0 0 5px;
+              font-weight: bold;
+              position: relative;
+              z-index: 1;
+              display: inline-block;
+              margin-top: 0rem;
+              color: #ffffff;
+              padding-top: 1rem;
+              text-transform: uppercase;
+              font-size: 2.25rem;
+            }
+            .hero-banner-description {
+              text-shadow: #000 0 0 5px;
+              font-weight: bold;
+              position: relative;
+              color: #ffffff;
+              z-index: 1;
+              font-size: 1.5rem;
+              display: block;
+              margin: 0 auto 0;
+              line-height: 1.1;
+            }
+            .banner-cta-holder {
+              .sxa-btn {
+                margin: 0;
+                a {
+                  font-size: 1.5rem;
+                  padding: 10px 15px;
+                  background-color: rgba(0, 0, 0, 0.5);
+                  display: inline-block;
+                  margin: 0 auto;
+                  border-radius: 10px;
+                  border: none;
+                  margin-top: 0;
+                  color: #ffffff;
+                  text-shadow: none;
+                  text-decoration: none;
+                  &:hover {
+                    background-color: #000000;
+                    text-decoration: none;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    @include respond-to(desktop) {
+      &.banner-adjustable-height {
+        padding: 0;
+        .banner-wrapper {
+          .inner-container {
+            .banner-content-wrapper {
+              position: relative;
+              margin-top: 14rem;
+              .hero-banner-title {
+                font-size: 6rem;
+              }
+              .hero-banner-description {
+                font-size: 3rem;
+                padding: 3rem;
+                margin: 5rem auto 0;
+                max-width: 50%;
+              }
+            }
+          }
+        }
+      }
+
+      &.banner-with-content {
+        .banner-image {
+          margin: 0 4rem;
+        }
+        .inner-container {
+          .banner-content-wrapper {
+            max-width: 100%;
+            .content-top {
+              .hero-banner-title {
+                font-size: 6rem;
+                margin-top: 0;
+              }
+              .hero-banner-description {
+                font-size: 2.5rem;
+                margin: 2rem auto 0;
+                max-width: 55%;
+              }
+              .banner-cta-holder {
+                .sxa-btn {
+                  a {
+                    font-size: 2rem;
+                    padding: 15px 50px;
+                    margin-top: 3rem;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    @include respond-to(extra-largedesktop) {
+      &.banner-adjustable-height {
+        .banner-wrapper {
+          .inner-container {
+            .banner-content-wrapper {
+              margin-top: 0rem;
+            }
+          }
+        }
+      }
+      &.banner-with-content {
+        .inner-container {
+          .banner-content-wrapper {
+            .content-top {
+              .hero-banner-description {
+                font-size: 3rem;
+                max-width: 75%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.about-us {
+  .component {
+    .light-gray-bg {
+      background-color: #ccc;
+      margin: 0 1rem;
+      @include respond-to(desktop) {
+        margin: 0;
+      }
+    }
+    &.hero {
+      &.banner-adjustable-height {
+        .banner-wrapper {
+          .banner-image {
+            img {
+              height: 10.6rem;
+            }
+          }
+          .inner-container {
+            .banner-content-wrapper {
+              position: relative;
+              margin: 0;
+              .hero-banner-title {
+                margin-bottom: 0;
+                color: #ffffff;
+                font-size: 3.2rem;
+                padding: 30px 0;
+                font-weight: 400;
+              }
+              .hero-banner-description {
+                display: none;
+              }
+            }
+          }
+          @include respond-to(tab) {
+            .inner-container {
+              .banner-content-wrapper {
+                position: absolute;
+              }
+            }
+          }
+          @include respond-to(desktop) {
+            .banner-image {
+              img {
+                height: 12.8rem;
+              }
+            }
+            .inner-container {
+              .banner-content-wrapper {
+                position: absolute;
+                .hero-banner-title {
+                  font-size: 4.8rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

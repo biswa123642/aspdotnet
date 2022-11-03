@@ -1,0 +1,350 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+    /*===========================================
+        product card
+    =============================================*/
+    .related-products,
+    &.product-details,
+    &.variant-1,
+    #product-type,
+    #article-type,
+    #others-type,
+    .product-result-tiles {
+        .product-card,
+        .cgp-product {
+            .body-copy {
+                font-size: 1.8rem;
+                line-height: 2;
+                @include Helvetica-font-stack();
+                color: $product-card-description-color;
+                padding-bottom: 1.5rem;
+
+                h3 {
+                    @include arial-font-stack();
+                    color: $product-card-title-color;
+                    font-size: 2rem;
+                    line-height: 1.4;
+                    font-weight: 600;
+                    padding: 0;
+                    margin: 20px 0 10px 0;
+
+                    a {
+                        color: inherit;
+                    }
+
+                    &:hover {
+                        color: $link-color-hover;
+
+                        a {
+                            color: inherit;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+
+        .result-count {
+            @include Helvetica-font-stack();
+            font-size: 1.6rem;
+            font-weight: 300;
+            font-style: italic;
+            color: #0f273f;
+        }
+        .popular-products {
+            .inner-wrap {
+                .product-card {
+                    .content-wrap {
+                        padding: 1rem;
+                        .body-copy {
+                            h3 {
+                                font-weight: 100;
+                                @include Helvetica-font-stack();
+                                a {
+                                    color: $secondary-color;
+                                    font-family: inherit;
+                                    &:hover {
+                                        text-decoration: underline;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /*===========================================
+        product card on listing page
+    =============================================*/
+    &.product-listing {
+        #product-type,
+        #article-type,
+        #others-type,
+        .product-result-tiles {
+            .product-card,
+            .cgp-product {
+                .image-holder {
+                    border: 2px solid $border-light;
+                }
+                .body-copy {
+                    h3 {
+                        color: $secondary-color;
+                        font-size: 1.8rem;
+                        @include Helvetica-font-stack();
+                        font-weight: 100;
+
+                        &:hover {
+                            color: $secondary-color;
+                            text-decoration: underline;
+                            a {
+                                color: inherit;
+                                text-decoration: inherit;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /*===========================================
+        product card on artical listing page
+    =============================================*/
+    &.article-listing {
+        #product-type,
+        #article-type,
+        #others-type,
+        .product-result-tiles {
+            li{
+                margin-bottom: 3rem; 
+            }
+            .product-card,
+            .cgp-product {
+                background-color: $light-gray;
+                padding-bottom: 2rem;
+                border: 2px solid $off-black;
+                padding-left: 2rem;
+                padding-right: 2rem;
+               
+                .body-copy {
+                    h3 {
+                        color: $product-card-title-color;
+                        &:hover {
+                            color: $product-card-title-color;
+
+                            a {
+                                color: inherit;
+                            }
+                        }
+                    }
+                    p {
+                        line-height: 1.4;
+                    }
+                }
+            }
+
+            .card-body {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+    }
+
+    /*=======================================
+        Related Articles component
+=========================================*/
+    &.related-articles-horizontal-view {
+        .body-copy {
+            padding: 9px;
+            text-align: left;
+
+            h3 {
+                font-size: 2rem;
+                // @include Kadwa-font-stack();
+                line-height: 1.5;
+                font-weight: 700;
+                margin-bottom: 1.6rem;
+                margin-top: 2rem;
+
+                a {
+                    text-decoration: none;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+    &.related-articles {
+        &.variant-2 {
+            .inner-wrap {
+                ul {
+                    margin-bottom: 0;
+                }
+                li {
+                    margin-bottom: 0;
+                }
+                > a {
+                    background-color: #fff;
+                    border: 1px solid #ddd;
+                    border-radius: 4px;
+                    padding: 5px;
+                    display: block;
+                    margin-bottom: 30px;
+                    &:hover {
+                        text-decoration: none;
+                        .caption {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                .article-tag {
+                    line-height: 1.42857143;
+                    font-family: "Arial", "Helvetica", sans-serif;
+                    font-size: 1.8rem;
+                    color: #33322e;
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+                .caption {
+                    font-size: 30px;
+                    margin-top: 20px;
+                    margin-bottom: 10px;
+                    padding: 9px;
+                }
+                .img-wrapper {
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    /*===========================================
+        Search Result Product Card
+    =============================================*/
+}
+
+.component {
+    &.article-listing {
+        #article-type {
+            ul.product-list li {
+                &.full-width {
+                    .body-copy {
+                        h3 {
+                            border-bottom: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.global-search-listing {
+        .product-result-tiles {
+            .product-list li {
+                margin-bottom: 20px;
+                .cgp-product {
+                    border: 2px solid #efefef;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}
+.component-full-width {
+    .component {
+        &.container.full-width{
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+}
+@include respond-to(desktop){
+    .component-full-width {
+        .component {
+            &.file-type-icon-media-link,
+            &.rich-text {
+                width: 45%;
+                flex: 0 0 45%;
+                max-width: 45%;
+                padding: 0 0 0 10%;
+            }
+            &.file-type-icon-media-link {
+                img{
+                    width: 100%;
+                }
+            }
+            
+          
+        }
+    }
+}
+
+@include respond-to(tab) {
+    .component {
+        &.product-listing,
+        &.global-search-listing,
+        &.article-listing {
+            #product-type,
+            #article-type,
+            #others-type,
+            .product-result-tiles {
+                ul.product-list li {
+                    &.full-width {
+                        -ms-flex: 0 0 100%;
+                        flex: 0 0 100%;
+                        max-width: 100%;
+
+                        .cgp-product {
+                            display: flex;
+                            width: 100%;
+                            align-items: center;
+                            padding-bottom: 2.8rem;
+                        }
+
+                        .image-holder {
+                            width: 100%;
+                            padding-right: 22px;
+                            max-width: 214px;
+                        }
+                        .body-copy {
+                            @include Helvetica-font-stack();
+                            font-size: 1.8rem;
+                            line-height: 1.5;
+                            font-weight: 300;
+                            color: #0f273f;
+
+                            h3 {
+                                border-bottom: none;
+                                padding: 0;
+                                line-height: 1;
+                                font-size: 1.8rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@include respond-to(below-tab){
+    .component-full-width {
+        .component {       
+            &.rich-text {
+                margin-left: 5%;
+                margin-right: 5%;
+                width: 100%;
+            }
+            &.file-type-icon-media-link {
+                text-align: center;
+                width: 100%;
+            }
+            
+        }
+    }
+}

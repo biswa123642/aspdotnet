@@ -1,0 +1,126 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.feature-content-tiles {
+    padding-top: inherit;
+    padding-bottom: inherit;
+    .content-col,
+    .container{
+      padding-left: 0;
+      padding-right: 0;
+    }
+    &.variant-1 {
+        
+      .section-container {
+        margin: 0 1rem;
+      }
+      background-color: $white;
+
+      .content-wrapper {
+        .inner-wrapper {
+          padding: 0 0.528rem 1.056rem;
+          .copy-wrap {
+            .field-image {
+              img {
+                border-radius: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+    &.variant-3 {
+      .slick-dots {
+        bottom: 10px;
+        margin-top: 20px;
+        top: auto;
+    }
+    }
+    &.variant-2 {
+      .promo-tile {
+        .field-data {
+          text-align: center;
+          position: relative;
+          &.align-content {
+            .sxa-btn {
+              &.sxa-btn-primary {
+                position: absolute;
+                bottom: 0;
+                left: 25%;
+              }
+            }
+          }
+          h2 {
+            color: $grey-white;
+            margin-bottom: 0;
+          }
+          p {
+            color: $grey-white;
+          }
+        }
+      }
+    }
+    &.variant-4 {
+      padding-top: 0;
+      .wrap {
+        .inner-wrap {
+          margin-bottom: 0.25rem;
+          .field-image {
+            display: block;
+            padding: 0;
+          }
+        }
+      }
+    }
+    &.variant-5 {
+      background-color: $background-grey;
+
+      .row {
+        .col {
+          padding-bottom: 0;
+        }
+      }
+      .field-heading {
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+      }
+      .section-container {
+        padding: 0rem;
+        .field-image {
+          transition: all 0.2s ease-in-out;
+          padding: 0.5rem;
+          &:hover {
+            transform: none;
+          }
+        }
+
+        .field-data {
+          a {
+            display: none;
+          }
+        }
+      }
+    }
+
+    @include respond-to(desktop) {
+      &.variant-5 {
+        .field-heading {
+          font-size: 4.8rem;
+        }
+        .section-container {
+          padding: 0 1.5rem;
+          .field-image {
+            padding: 1rem;
+            &:hover {
+              transform: scale(1.1);
+            }
+          }
+        }
+      }
+    }
+  }
+}

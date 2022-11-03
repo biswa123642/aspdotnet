@@ -1,0 +1,33 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component{
+    &.breadcrumb{
+        display: block;
+        .breadcrumb-item {
+            margin-left: 5px;
+            &:last-child{
+               a{
+                color: #777777;
+               }
+            }
+        }
+        a{
+            color: #337ab7;
+            font-size: 1.6rem;
+            font-weight: normal;
+            text-transform: capitalize;
+            &:hover{                
+                text-decoration: underline;
+            }
+        }
+        .separator{
+            color: #cccccc;
+            font-weight: normal;
+            margin: 0 5px;
+        }
+        li>.navigation-title>a:hover{
+            color: #23527c;
+        }
+    }
+}

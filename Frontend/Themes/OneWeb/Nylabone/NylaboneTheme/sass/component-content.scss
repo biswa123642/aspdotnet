@@ -1,0 +1,206 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+.component {
+  &.article-detail {
+    width: 100%;
+    .breadcrumb { 
+      padding: 0 1.5rem;
+    }
+    .component.hero{
+      padding: 0 1.5rem;
+    }
+    .article-left .title h1,
+    .component.title .type-article{
+      margin-left: 0;
+    }
+  }
+  &.content {
+    &.article-detail {
+      .btn-where-to-buy {
+        border: none;
+        color: $white;
+        background-color: $orange;
+        border-radius: 5rem;
+        padding: 1rem 1.8rem;
+        text-transform: uppercase;
+        display: inline-block;
+        &:hover {
+          background-color: $orange-dark;
+          text-decoration: none;
+        }
+      }
+      .panel-heading {
+        a {
+          font-size: 1.6rem;
+          font-weight: 400;
+        }
+      }
+      .panel-collapse {
+        overflow: hidden;
+      }
+      h1 {
+        a {
+          font-size: 4.8rem;
+        }
+      }
+      h2 {
+        color: $breadcrumb-link;
+        font-size: 2.2rem;
+        margin-top: 2rem;
+        img {
+          margin-top: auto;
+        }
+      }
+      h3 {
+        color: $orange;
+        font-size: 1.8rem;
+      }
+      p {
+        color: $breadcrumb-link;
+        margin: 0 0 1rem;
+      }
+      a {
+        color: $orange;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      li {
+        font-size: 1.6rem;
+      }
+      ul,
+      ol {
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+        li {
+          font-size: 1.6rem;
+          color: $breadcrumb-link;
+          list-style-position: initial;
+        }
+      }
+      ul {
+        margin-left: 4rem;
+        li {
+          list-style: disc;
+        }
+      }
+
+      table {
+        thead {
+          text-transform: uppercase;
+
+          th {
+            text-align: center;
+            letter-spacing: 0.18rem;
+            font-size: 1.36rem;
+          }
+        }
+        tbody {
+          font-size: 1.5rem;
+
+          td {
+            text-align: center;
+            font-weight: 700;
+            padding: 1rem;
+          }
+        }
+      }
+
+      margin-bottom: 1rem;
+    }
+    &.variant-1 {
+      .field-relatedproductslabel {
+        color: $orange;
+        font-size: 1.68rem;
+        font-family: "Helvetica Neue", sans-serif;
+        font-weight: 700;
+        @include respond-to(desktop) {
+          font-size: 2.4rem;
+        }
+      }
+      .popular-products {
+        border: 0.1rem solid $orange;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        .inner-wrap {
+          .row {
+            .image-holder {
+              margin-bottom: 0;
+              a {
+                img {
+                  
+                  width: auto;
+                  margin: auto;
+                }
+              }
+            }
+            .body-copy {
+              h3 {
+                a {
+                  color: $orange;
+                  font-family: "Gotham", sans-serif;
+                  font-size: 1.6rem;
+                  font-weight: 400;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    &.variant-2 {
+      &.related-articles {
+        margin: 0;
+        padding-top: 2rem;
+        background: none;
+        .inner-wrap {
+          background-color: $flip-background;
+
+          padding-top: 1rem !important; //to overwrite default styling
+          background-image: url("/~/media/Project/OneWeb/Nylabone/Images/img/Corner_Fold-white-bg");
+          background-position: right top;
+          background-repeat: no-repeat;
+          background-size: auto;
+          min-width: 100%;
+          z-index: 1;
+          padding-bottom: 2rem;
+          min-height: 30rem;
+
+          img {
+            margin-top: auto;
+          }
+
+          h3 {
+            color: $orange;
+            font-size: 1.8rem;
+          }
+          a {
+            text-decoration: none;
+            .article-tag {
+              font-size: 1.6rem;
+              font-weight: 400;
+            }
+            .caption {
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+    }
+    &.variant-4 {
+      .product-wrapper {
+        .product-title {
+          h1 {
+            color: $orange;
+            text-transform: none;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}

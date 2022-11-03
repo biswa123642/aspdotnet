@@ -1,0 +1,13 @@
+@import "abstracts/mixins";
+
+.scroll-button-wrap {
+  .to-top,
+  .show {
+    border: none;
+    background-color: transparent;
+    @include respond-to(mobile) {
+      width: 8rem;
+      right: 0.5rem;
+    }
+  }
+}

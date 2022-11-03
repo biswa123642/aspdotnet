@@ -1,0 +1,35 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.content {
+        &.article-detail {
+            .field-content {
+                p {
+                    a {
+                        text-decoration: underline;
+                        font-weight: bold;
+                        color: inherit;
+                    }
+                }
+
+                img {
+                    padding-bottom: 2rem;
+                }
+                li{
+                    padding-bottom: 2rem;
+                }
+            }
+
+            .component {
+                &.link {
+                    padding: 1rem 0 1.5rem;
+                }
+            }
+
+            @include respond-to(desktop) {
+                padding-right: 15rem;
+            }
+        }
+    }
+}

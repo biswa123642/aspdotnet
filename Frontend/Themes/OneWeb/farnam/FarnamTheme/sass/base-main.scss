@@ -1,0 +1,201 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+@import "base/fonts/fonts";
+
+
+
+body {
+    @include Helvetica-font-stack();
+    font-size: 1.8rem;
+    line-height: 1.4;
+    font-weight: 300;
+    color: $text-basic;
+}
+#content{
+    >.row{
+        display: block;
+    }
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+.content a,
+.rich-text a,
+a {
+    color: $text-basic;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover {
+        color: $link-color-hover;
+        text-decoration: none;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {    
+    @include Helvetica-font-stack();
+    color: $heading-primary-color;
+    line-height: 1.1;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+h1 {
+    @include Kadwa-font-stack();
+    color: $heading-secondary-color;
+    font-size: 3rem;
+    font-weight: 500;
+    @include respond-to(tab) {
+        font-size: 5.2rem;
+    }
+}
+
+h2 {
+    font-size: 4.4rem;
+    @include Kadwa-font-stack();
+}
+
+h3 {
+    font-size: 4rem;
+}
+
+h4 {
+    font-size: 3rem;
+}
+
+h5 {
+    font-size: 1.6rem;    
+    line-height: 1.5;
+    font-weight: bold;
+    color: #0f273f;
+}
+
+h6 {
+    font-size: 1.4rem;
+    line-height: 1.3;
+    color: #0f273f;
+    font-weight: 500;
+}
+
+p {
+    margin-bottom: 0 0 0 1rem;
+}
+
+.component {
+    &.content,
+    &.rich-text {
+        @include Helvetica-font-stack();
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+        font-weight: 500;
+        color: $text-basic;
+        small {
+            font-size: 1.4rem;
+        }
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            @include Helvetica-font-stack();
+            color: $heading-primary-color;
+            line-height: 1.2;
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+
+        
+        h1 {
+            @include Kadwa-font-stack();
+            color: $heading-secondary-color;
+            font-size: 3rem;
+            font-weight: 500;
+            @include respond-to(tab) {
+                font-size: 5.2rem;
+            }
+        }
+
+        h2 {
+            @include Helvetica-font-stack();
+            font-size: 3rem;
+            font-weight: 700;
+
+
+        }
+
+        h3 {
+            font-size: 2.2rem;
+            @include Helvetica-font-stack();
+            font-weight: 900;
+            color: $heading-secondary-color;
+        }
+
+        h4 {
+            font-size: 1.8rem;
+        }
+        h5 {
+            font-size: 1.6rem;    
+            line-height: 30px;
+            font-weight: bold;
+            color: #0f273f;
+        }
+        .field-content{
+            .callout{
+                display: none;
+                margin-right: 2rem;
+                margin-bottom: 2rem;
+                padding: 2rem 2rem 2rem 0;
+                border-top: 0.5rem solid $global-button-hover-color;
+                border-bottom: 0.5rem solid $global-button-hover-color;
+                text-transform: uppercase;
+                width: 40%;
+                float: left;
+                @include respond-to(desktop){
+                    display: block;
+                }
+                @include respond-to(tab){
+                    display: block;
+                }
+            }
+        }
+        &.related-product{
+            h2{
+                color: $black-color;
+                @include Kadwa-font-stack();
+                text-align: center;
+                font-size: 3rem;
+                line-height: 1.5;
+                font-weight: 700;
+                
+            }
+        }
+      
+    }
+    &.rich-text-content{
+        h1 {
+            font-size: 4rem;
+            font-weight: 500;
+            font-family: "arial light", arial, sans-serif;
+            color: $text-basic;
+           
+        }
+    }
+    &.content-large{
+        font-size: 2rem;
+        line-height: 1.5;
+    }
+    &.content-small{
+        font-size: 1.6rem;
+        line-height: 1.4;
+    }
+}

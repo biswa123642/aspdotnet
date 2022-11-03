@@ -1,0 +1,95 @@
+﻿---
+ID: "fd1a1011-4f5e-43fe-9119-3f06672aa6b5"
+Parent: "fff92ad1-b9ff-4ed0-9316-f18c1b5b5508"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Hero Banner/Adjustable Height Hero Banner With Alignment/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    {{imageLogo = sc_follow i_datasource 'HeroBannerLogo' | sc_medialink }}
+    {{heroImageMobile = sc_follow i_datasource 'HeroImageMobile' | sc_medialink }}
+     <div class="banner-wrapper">
+        {{if i_item.Overlay.raw | string.contains "1" }}
+            {{cssclass = "disable-overlay"}}
+        {{end}}
+        <div class="banner-wrapper" style="background-color:{{i_item.BackgroundColor.raw}};">
+        	
+    		{{if heroImageMobile != "#" }}
+    			<div class="banner-image d-none d-md-block" style = "line-height:0">
+    				{{ sc_field i_item "HeroImageDesktop"}}
+    			</div>
+    			<div class="banner-mobile-image d-md-none" style = "line-height:0">
+    				{{ sc_field i_item "HeroImageMobile"}}
+    			</div>   
+    		{{else}}
+    			<div class="banner-image" style = "line-height:0">
+    				{{ sc_field i_item "HeroImageDesktop"}}
+    			</div>
+    		{{end}}
+    		{{if i_item.HeroBannerTitle != "" || i_item.HeroBannerContent != ""}}
+    			<div class="inner-container d-none d-md-block">
+    				{{if i_item.HeroBannerAlignment.raw !=""}}
+    					<div class="{{i_item.HeroBannerAlignment.raw | string.downcase}} banner-content-wrapper {{cssclass}}" style="background-color:{{i_item.OverlayColor.raw}}{{i_item.OverlayColorOpacity.raw}};">
+    						{{if imageLogo != "#" }}
+    							<div class="hero-banner-logo">{{ sc_field i_item "HeroBannerLogo"}}</div>
+    						{{end}}
+    						<div class="hero-banner-title" style="color:{{i_item.HeroBannerTextColor.raw}};">{{ sc_field i_item "HeroBannerTitle"}}</div>
+    						<div class="hero-banner-description" style="color:{{i_item.HeroBannerTextColor.raw}};">{{ sc_field i_item "HeroBannerContent"}}</div>
+    					</div>
+    				{{ else }}
+    					<div class="banner-content-wrapper {{cssclass}}" style="background-color:{{i_item.OverlayColor.raw}}{{i_item.OverlayColorOpacity.raw}};">
+    						{{if imageLogo != "#" }}
+    							<div class="hero-banner-logo">{{ sc_field i_item "HeroBannerLogo"}}</div>
+    						{{end}}
+    						<div class="hero-banner-title" style="color:{{i_item.HeroBannerTextColor.raw}};"> {{ sc_field i_item "HeroBannerTitle"}} </div>
+    						<div class="hero-banner-description" style="color:{{i_item.HeroBannerTextColor.raw}};"> {{ sc_field i_item "HeroBannerContent"}} </div>
+    					</div>
+    				{{end}}
+    			</div>
+    		{{end}}
+    		{{if i_item.HeroBannerTitle != "" && i_item.HeroBannerContent != "" && imageLogo != "#"}}
+    			<div class="inner-container d-md-none">
+    				{{if i_item.HeroBannerAlignment.raw !=""}}
+    					<div class="{{i_item.HeroBannerAlignment.raw | string.downcase}} banner-content-wrapper {{cssclass}}" style="background-color:{{i_item.OverlayColor.raw}}{{i_item.OverlayColorOpacity.raw}};">
+    							<div class="hero-banner-logo">{{ sc_field i_item "HeroBannerLogo"}}</div>
+    							<div class="hero-banner-title" style="color:{{i_item.HeroBannerTextColor.raw}};">{{ sc_field i_item "HeroBannerTitle"}}</div>
+    							<div class="hero-banner-description" style="color:{{i_item.HeroBannerTextColor.raw}};">{{ sc_field i_item "HeroBannerContent"}}</div>
+    					</div>
+    				{{ else }}
+    					<div class="banner-content-wrapper {{cssclass}}" style="background-color:{{i_item.OverlayColor.raw}}{{i_item.OverlayColorOpacity.raw}};">
+    							<div class="hero-banner-logo">{{ sc_field i_item "HeroBannerLogo"}}</div>
+    							<div class="hero-banner-title" style="color:{{i_item.HeroBannerTextColor.raw}};"> {{ sc_field i_item "HeroBannerTitle"}} </div>
+    							<div class="hero-banner-description" style="color:{{i_item.HeroBannerTextColor.raw}};"> {{ sc_field i_item "HeroBannerContent"}} </div>
+    					</div>
+    				{{end}}
+    			</div>
+    		{{end}}
+        </div>
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220427T101154Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1fd227c7-f704-44fb-91ab-e067c0a07567"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220806T042643Z

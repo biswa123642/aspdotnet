@@ -1,0 +1,188 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.hubspot-form {
+        width: 100%;
+
+        .hubspot-form {
+            margin-top: 1.8rem;
+        }
+
+        fieldset {
+            max-width: 100%;
+            min-width: 100%;
+
+            &.form-columns-2 {
+                .input {
+                    margin-right: 0;
+                }
+            }
+
+            &.form-columns-1 {
+                .input {
+                    margin-right: 0;
+                }
+            }
+
+            label {
+                color: #4A4A4C
+            }
+
+            .inputs-list {
+                padding-top: 0;
+
+                input {
+                    padding-top: 0;
+                }
+
+                li {
+                    span {
+                        font-size: 1.4rem;
+                        font-weight: 600;
+                        color: #4A4A4C;
+                    }
+
+                }
+            }
+        }
+
+        .input {
+            .hs-input {
+                width: 100%;
+                max-width: calc(100% - 20px);
+                line-height: 2.0rem;
+                box-shadow: none;
+                border-radius: 0;
+                font-size: 1.4rem;
+                padding: .5rem;
+                border-color: $text-secondary;
+
+                @include respond-to(mobile-mid) {
+                    max-width: calc(100% - 12px);
+                    min-width: 97%;
+                }
+
+                &[type='checkbox'] {
+                    width: auto;
+                    border: 1px solid #4a4a4c;
+                    margin-left: -0.4rem;
+                    margin-right: 1rem;
+                }
+            }
+
+            select.hs-input {
+                width: 100%;
+                max-width: calc(100% - 10px);
+                min-height: 3.0rem;
+
+                // appearance:none;
+                @include respond-to(mobile-mid) {
+                    max-width: 100%;
+                    min-width: 100%;
+                }
+            }
+        }
+
+        .actions {
+            margin-top: 0;
+            padding-top: 0;
+
+            input[type="submit"] {
+                background: #fff;
+                border-color: $text-secondary;
+                color: $text-secondary;
+                // padding:1.0rem 1.8rem ;
+                text-transform: uppercase;
+                font-weight: normal;
+                font-size: 1.8667rem;
+                line-height: 1.8667rem;
+                box-shadow: none;
+                border-radius: 0;
+                text-shadow: none;
+            }
+        }
+
+    }
+
+}
+
+.component {
+    &.content {
+        // padding: 0 1.5rem;
+
+        &.secondary-title {
+            h1 {
+                font-size: 3rem;
+            }
+
+            @include respond-to(tab) {
+                .product-title {
+                    h1 {
+                        font-size: 3rem;
+                    }
+                }
+            }
+        }
+
+        .product-title {
+            h1 {
+                font-size: 3.5rem;
+                font-weight: 900;
+                text-transform: uppercase;
+                color: $text-black-header;
+            }
+
+            p:empty {
+                display: none;
+            }
+
+            p {
+                &:first-child {
+                    margin-top: 0;
+                }
+            }
+
+            .signup-subtxt {
+                p {
+                    margin-bottom: 0;
+                }
+            }
+
+            ol {
+                padding-left: 2rem;
+                padding-top: 0;
+
+                li {
+                    font-size: 1.6rem;
+                    list-style-position: outside;
+                }
+            }
+        }
+
+        @include respond-to(tab) {
+            .product-title {
+                h1 {
+                    font-size: 5.3rem;
+                }
+            }
+        }
+    }
+}
+
+.seed-right-section {
+    p {
+        &:first-child {
+            margin-bottom: 0;
+        }
+
+        &:nth-child(2) {
+            margin-top: 0;
+        }
+    }
+}
+
+
+
+
+@import "styles/forms/*";

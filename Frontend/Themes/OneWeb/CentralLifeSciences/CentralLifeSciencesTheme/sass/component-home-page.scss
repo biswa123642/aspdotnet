@@ -1,0 +1,139 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.home-page {
+  .component {
+    &.multi-column-content-tiles {
+      &.variant-1 {
+        padding: 0;
+        .wrapper {
+          > {
+            .row {
+              > {
+                div {
+                  padding: 0;
+                  &:first-child {
+                    .inner-wrap {
+                      background-color: $dark-green;
+                      .body-copy > {
+                        h2 {
+                          color: $light-green;
+                          font-size: 4rem;
+                          line-height: 4.9rem;
+                          @include ff-ernestine-pro-font-stack();
+                          font-weight: 600;
+                        }
+                      }
+                      p {
+                        color: $light-green;
+                        background-color: transparent;
+                      }
+                    }
+                    .sxa-btn {
+                      &.sxa-btn-primary {
+                        a {
+                          background-position: left;  
+                          min-width: 30rem;   
+                          font-size: 2rem; 
+                          display: inline-block;
+                          width: auto;
+                          padding-left: 1rem;  
+                          @supports (-webkit-touch-callout: none) {
+                            min-width: 35rem;  
+                          }                  
+                          @-moz-document url-prefix() {
+                            margin-left: -1.3rem;
+                          }
+                          @include respond-to(desktop){
+                            min-width: 27rem;
+                            background-position: center;
+                          }
+                          @include respond-to(tab){
+                            min-width: 37rem;            
+                          }
+                          background-image: url("../images/cta-bg-hover.svg");
+                          color: $light-green;
+                          &:hover {
+                            background-image: url("../images/cta-dark-green-hover.svg");
+                            color: $dark-green;
+                          }
+                        }
+                      }
+                    }
+                  }
+                  &:last-child {
+                    .inner-wrap {
+                      .body-copy > {
+                        h2 {
+                          font-size: 4rem;
+                          line-height: 4.9rem;
+                          @include ff-ernestine-pro-font-stack();
+                          font-weight: 600;
+                        }
+                      }
+                      p {
+                        background-color: transparent;
+                        color: $dark-green;
+                      }
+                    }
+                  }
+                  .inner-wrap {
+                    box-shadow: none;
+                    border: none;
+                    padding: 80px 120px 40px 120px;
+                    @include respond-to(all-mobile) {
+                      padding: 80px 30px 40px 30px;
+                    }
+                    .body-copy {
+                      .rich-text {
+                        background-color: transparent;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    &.hero{
+      &.banner-with-content{
+        .banner-image{
+          filter: brightness(.9);
+          @include respond-to(tab){
+            padding-top: 46%;
+          }
+        }
+        .inner-container{
+        @include respond-to(tab){
+          left: 10%;
+        }
+      }
+        .banner-mobile-image{
+          img{
+            height: 55rem;
+            object-fit: cover;
+            object-position: left;
+            filter: brightness(.7);
+          }
+        }
+        .hero-banner-title{
+          h2{
+            font-size: 4rem;
+            font-weight: 600;
+            @include ff-ernestine-pro-font-stack();
+            line-height: 4.9rem;
+          }
+        }
+      }
+    }
+    .tabs{
+      .tab{
+        .tab-heading-mob{
+          background-color: $dark-green;
+        }
+      }
+    }
+  }
+}

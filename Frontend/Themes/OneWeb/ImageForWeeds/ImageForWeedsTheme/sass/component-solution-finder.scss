@@ -1,0 +1,75 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.solution-finder-body {
+  .product-title {
+    h1 {
+      margin-top: 40px;
+    }
+  }
+}
+
+.component-solution-finder {
+  .solution-finder {
+    margin-bottom: 40px;
+    .questionDiv {
+      padding: 0;
+      background-color: $white-color;
+      h3 {
+        color: $dark-green-primary;
+        font-size: 2.4rem;
+        font-weight: 700;
+      }
+    }
+    .answersDiv {
+      .answer-div {
+        margin: 20px;
+        .answer-title {
+          color: $white-color;
+          background-color: $dark-green-primary;
+          padding: 20px 15px;
+          width: 100%;
+          position: absolute;
+          bottom: -10px;
+          font-size: 1.4rem;
+          &:hover {
+            border: 1px solid $dark-green-primary;
+            background-color: $white-color;
+            color: $dark-green-primary;
+          }
+        }
+        .answer-image {
+          object-fit: cover;
+          height: 200px;
+        }
+      }
+    }
+    .breadcrumb-bg {
+      background-color: $dark-green-primary;
+      padding: 0 15px;
+      margin: 0 25px;
+      color: $white-color;
+    }
+    .answer-div[questionid="products"] {
+      border: 1px solid $dark-green-primary;
+      padding: 10px 0;
+      min-height: 370px;
+      .answer-title {
+        &:hover {
+          border-top: 1px solid $dark-green-primary;
+          border-left: none;
+          border-right: none;
+          border-bottom: none;
+          background-color: $white-color;
+          color: $dark-green-primary;
+        }
+      }
+    }
+    .answer-div[title~="Region"]{
+      .answer-image {
+        margin-bottom: 70px;
+        max-width: 350px;
+      }
+    }
+  }
+}

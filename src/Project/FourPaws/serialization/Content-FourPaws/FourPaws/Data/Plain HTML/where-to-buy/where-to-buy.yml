@@ -1,0 +1,38 @@
+﻿---
+ID: "1f417b12-2289-4ff1-88f3-af41be4a0f4c"
+Parent: "2847afb6-47c6-4aa0-8f2e-073067b5295f"
+Template: "2ad23d55-aecd-43dd-ae0d-72d2ebcba60f"
+Path: "/sitecore/content/OneWeb/FourPaws/Data/Plain HTML/where-to-buy/where-to-buy"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24cce27c-05db-4473-a1ed-e69b1725ff1c"
+      Hint: HtmlCode
+      Value: |
+        <div class="nav-tabs-wrapper-inner">
+                        <ul class="nav nav-tabs" role="tablist">  
+                        <li class="active" style="z-index: 1;"><a href="#link-list-vertical" data-toggle="tab" data-anchorable="false" aria-expanded="true" class="">FIND ONLINE</a></li><li class="" style="z-index: 1;"><a href="#where-to-buy" data-toggle="tab" data-anchorable="false" class="" aria-expanded="false">FIND LOCALLY</a></li></ul>
+                    </div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220621T072745Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8a620343-11aa-44ea-949a-5f50accad43c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220621T072819Z

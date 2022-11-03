@@ -1,0 +1,28 @@
+// product details related articles
+&.related-articles {
+    .inner-wrap {
+        h2 {
+            color: $text-secondary;
+        }
+        a {
+            color: $product-description-body;
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+            }
+            div.caption{
+                font-size: 2rem;
+                font-weight: 900;
+                padding-bottom: 3rem;
+                color: $text-secondary;
+                text-transform: uppercase;                
+                line-height: 1.2;
+            }
+        }
+        .caption {
+            &:hover {
+                color: $product-description-body;
+            }
+        }
+    }
+}

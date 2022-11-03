@@ -1,0 +1,141 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+#footer {
+  background-color: $small-heading-black;
+  .social-links {
+    .icon-container {
+      border: none;
+      a {
+        color: $social-icon-gray;
+        font-size: 1.9rem;
+        margin: 1.5rem 2.5rem;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .file-type-icon-media-link {
+    .component-content {
+      a {
+        max-width: 500px;
+        padding: 0 3rem 0 3rem;
+      }
+    }
+  }
+
+  .component {
+    .footer-container-width {
+      padding-left: 40px;
+      padding-top: 20px;
+
+      @include respond-to(tab) {
+        padding-left: 15px;
+      }
+
+      @include respond-to(all-mobile) {
+        .indent-top-sm {
+          padding-top: 0;
+        }
+
+        .indent-bottom {
+          padding-bottom: 0;
+        }
+
+        .link-list {
+          ul {
+            li {
+              padding: 0 1rem;
+            }
+          }
+        }
+      }
+
+      .link-list {
+        ul {
+          li {
+            .field-link {
+              margin: 0;
+              padding: 10px;
+              display: block;
+              line-height: 1.24;
+
+              a {
+                opacity: initial;
+                font-size: 1.4rem;
+
+                &:hover {
+                  border-bottom: 1px solid $white;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .rich-text {
+        max-width: 80%;
+        padding: 20px 0px 0;
+        margin-left: 30px;
+        margin-right: 0;
+        .component-content {
+          color: $white;
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+}
+
+@include respond-to(tab) {
+  #footer {
+    // padding-bottom: 3rem;
+    .component {
+      .footer-container-width {
+        padding-left: 12rem;
+        padding-right: 12rem;
+        .indent-bottom {
+          margin-bottom: -5rem;
+        }
+        .rich-text {
+          .component-content {
+            margin-top: 6rem;
+          }
+        }
+      }
+    }
+    .social-links {
+      .icon-container {
+        border: none;
+        a {
+          font-size: 2.2rem;
+        }
+      }
+    }
+  }
+}
+
+
+@include respond-to(desktop) {
+  #footer {
+    .component {
+      .file-type-icon-media-link {
+        .component-content {
+          a {
+            max-width: initial;
+          }
+        }
+      }
+
+      .footer-container-width {
+        .rich-text {
+          padding: 0 20px;
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

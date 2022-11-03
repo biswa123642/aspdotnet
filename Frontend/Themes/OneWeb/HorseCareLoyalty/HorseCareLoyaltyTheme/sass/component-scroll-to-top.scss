@@ -1,0 +1,32 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.scroll-button-wrap {
+    .to-top {
+      border: none;
+      background: none;
+      padding: 0;
+      bottom: 22rem;
+
+      img {
+        border-radius: 5px;
+        box-shadow: -1px 0px 5px 1px rgba(0, 0, 0, 0.35);
+      }
+    }
+
+    @include respond-to(tab) {
+      .to-top {
+        bottom: 12rem;
+      }
+    }
+
+    @include respond-to(desktop) {
+      .to-top {
+        padding: 1.5rem;
+        bottom: 10rem;
+      }
+    }
+  }
+}

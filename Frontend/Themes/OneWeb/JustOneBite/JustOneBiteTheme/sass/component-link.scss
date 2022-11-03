@@ -1,0 +1,46 @@
+@import "abstracts/mixins";
+@import "abstracts/vars";
+.link {
+  .field-link {
+    margin: 1.5rem 0 3rem 0;
+    .back-to-product {
+      border-color: #ededed;
+      border-radius: 4px;
+      display: inline-block;
+      padding: 2rem;
+      color: #c23c32;
+      font-family: "john-doe";
+      font-size: 1rem 2rem;
+      font-weight: bold;
+      text-decoration: inherit;
+      border-radius: 0;
+      background-color: transparent;
+      border: none;
+      text-align: left;
+      max-width: 150px;
+      white-space: normal;
+      margin-top: 0.3rem;
+      &:hover {
+        background-color: #d4d4d4;
+        border-color: #cecece;
+      }
+    }
+    .where-to-buy {
+      background-color: $black;
+      border-color: $black;
+      border-radius: 4px;
+      padding: 2rem;
+      display: inline-block;
+      color: $white-color;
+      font-family: "john-doe";
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-decoration: inherit;
+      border: none;
+      &:hover {
+        color: $white-color;
+        background-color: $black;
+      }
+    }
+  }
+}

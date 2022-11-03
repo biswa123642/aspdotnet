@@ -1,0 +1,90 @@
+&.variant-1 {
+    figure {
+        //background-position: center top;
+        min-height: initial;
+
+        .inner-wrap {
+            .field-description {
+                font-size: 1.92rem;
+                @include fieldwork-hum-font-stack();
+            }
+        }
+
+        .bottom-link {
+            .sxa-btn {
+                a {
+                    background-image: url(../images/Icons/White_learn_more.png);
+                    color: #fff !important;
+                      &::after{
+                        display: none;
+                      }
+                }
+            }
+        }
+    }
+
+    .content-right {
+        height: initial;
+        min-height: 25rem;
+
+        .inner-wrap {
+            top: 50%;
+            transform: translateY(-50%);
+
+            .field-title {
+                margin: 0;
+            }
+        }
+    }
+
+    @include respond-to(tab) {
+        figure {
+            .inner-wrap {
+                .field-description {
+                    font-size: 2.4rem;
+                }                
+            }
+        }
+
+        .content-right {
+            .inner-wrap {
+                .field-title {
+                    font-size: 4.8rem;
+                }
+            }
+        }
+    }
+
+    @include respond-to(desktop) {
+        figure {
+            .inner-wrap {
+                .field-description {
+                    font-size: 2.08rem;
+                }
+            }
+        }
+
+        .content-right {
+            .inner-wrap {
+                transform: translateX(-50%) translateY(-50%);
+            }
+        }
+    }
+
+    @include respond-to(extra-large-desktop) {
+        figure {
+            .inner-wrap {
+                .field-description {
+                    font-size: 1.5vw;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:767px) {
+        .bottom-link {
+            display: block;
+        }
+    }
+
+}

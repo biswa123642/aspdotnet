@@ -1,0 +1,108 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.hero {
+        &.with-carousel {
+            .field-heroimagedesktop img {
+                width: 100%;
+            }
+
+            .hero-container {
+                @include respond-to(tab-horizontal) {
+                    padding: 4.3rem 6rem 6rem 6rem;
+                }
+                h1 {
+                    @include Lato-font-stack();
+                    font-size: 3.2rem;
+                    line-height: 1.25;
+                    font-weight: 700;
+                    color: $banner-carousel-title;
+                    @include respond-to(desktop) {
+                        line-height: 1.06;
+                        font-size: 5rem;
+                        margin-bottom: 0;
+                    }
+                    @include respond-to(large-desktop) {
+                        font-size: 6.6rem;
+                        margin-bottom: 2.5rem;
+                    }
+                }
+
+                .slick-slider {
+                    @include respond-to(tab) {
+                        margin-top: 1.5rem;
+                    }
+                }
+
+                .slide {
+                    // default
+                    padding-top: 1rem;
+                }
+            }
+        }
+        &.banner-adjustable-height {
+           + .plain-html,
+            + .rich-text{
+                min-height: 0;
+            }
+            .banner-content-wrapper {
+                max-width: 100%;
+            }
+            .inner-container {
+                display: block !important;
+            }
+            ol:not([class]),
+            ul:not([class]) {
+                margin-top: 0;
+                margin-bottom: 1rem;
+                padding: 0 0 0 3.5rem;
+                margin-left: 0;
+
+                li {
+                    list-style-type: disc;
+                    display: list-item;
+                    list-style-position: outside;
+                    margin-bottom: 0.5rem;
+                    margin-left: 0;
+                    @include Helvetica-font-stack();
+                    font-size: 1.8rem;
+                    a {
+                        border: none;
+                        color: $link-color;
+                        text-decoration: none;
+                        padding-left: 0;
+                        font-size: 1.8rem;
+                        font-weight: 400;
+
+                        &:hover {
+                            border: none;
+                            color: $link-color-hover;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+
+            ol:not([class]) {
+                li {
+                    list-style: decimal;
+                }
+            }
+        }
+    }
+}
+@include respond-to(mobile) {
+    .component {
+        &.hero {
+            &.banner-adjustable-height {
+                .banner-content-wrapper {
+                    padding: 30px 15px;
+                }
+                .hero-banner-description{
+                    padding-bottom: 60px;
+                }
+            }
+        }
+    }
+}

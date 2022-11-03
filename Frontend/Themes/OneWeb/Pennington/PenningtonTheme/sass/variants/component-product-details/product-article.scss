@@ -1,0 +1,65 @@
+// product-article
+.product-article {
+    div {
+        a {
+            color: $text-secondary;
+        }
+
+        h1 {
+            color: $text-secondary;
+        }
+
+        h2 {
+            color: $product-description-body;
+
+        }
+
+        h3 {
+            &.blog-type {
+                color: $text-secondary;
+            }
+        }
+    }
+
+    p {
+        color: $product-description-body;
+    }
+
+    .sxa-btn-primary {
+        a {
+            color: $bg-basic-color;
+        }
+    }
+
+    .score-content-spot ul {
+        li {
+            color: $product-description-body;
+        }
+    }
+
+    @include respond-to(desktop) {
+        a {
+            &.hover {
+                color: $text-secondary;
+            }
+        }
+
+        .sxa-btn-primary {
+            a {
+                &:hover {
+                    background-color: $text-secondary;
+                }
+            }
+        }
+
+        .score-content-spot {
+            p {
+                a {
+                    &:hover {
+                        color: $text-secondary;
+                    }
+                }
+            }
+        }
+    }
+}

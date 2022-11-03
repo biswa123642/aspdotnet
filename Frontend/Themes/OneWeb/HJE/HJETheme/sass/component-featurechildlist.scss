@@ -1,0 +1,80 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  &.featuredchildlist.variant-2 {
+    padding: 2.5rem 4rem;
+    .component-content {
+      .featurechild {
+        padding: 1.2rem 0;
+        .inner-wrap {
+          position: relative;
+          text-align: center;
+          padding: 0;
+          border: none;
+          margin: auto;
+          height: 15.5rem;
+          max-width: 30.5rem;
+          background-size: cover;
+          background-position: center center;
+          .body-copy {
+            text-align: center;
+            width: 100%;
+            float: left;
+            align-items: center;
+            padding: 0;
+            h2 {
+              font-family: "Myrad Pro", sans-serif;
+              text-transform: uppercase;
+              color: #ffffff;
+              text-shadow: 2px 2px 2px rgba(0, 0, 0, 50%);
+              font-size: 2rem;
+              padding-top: 0;
+            }
+            .sxa-btn {
+              color: #ffffff;
+              background-color: rgba(0, 0, 0, 0.5);
+              border-color: rgba(0, 0, 0, 0.5);
+              min-width: 120px;
+              text-decoration: none;
+              padding: 8px 18px;
+              border-radius: 4px;
+              a {
+                display: inline-block;
+                text-align: center;
+                vertical-align: middle;
+                touch-action: manipulation;
+                cursor: pointer;
+                text-decoration: none;
+                border: none;
+                font-size: 1.6rem;
+                text-transform: inherit;
+                letter-spacing: normal;
+              }
+              &:hover {
+                background-color: $black-color;
+              }
+            }
+          }
+        }
+        @include respond-to(desktop) {
+          padding: 3.2rem 0;
+          .inner-wrap {
+            height: 23.2rem;
+            .body-copy {
+              h2 {
+                font-size: 3.5rem;
+                padding-top: 2rem;
+              }
+            }
+          }
+        }
+        @include respond-to(extra-largedesktop) {
+          .inner-wrap {
+            max-width: 45rem;
+          }
+        }
+      }
+    }
+  }
+}

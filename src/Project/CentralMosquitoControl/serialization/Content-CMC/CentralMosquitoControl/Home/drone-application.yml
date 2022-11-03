@@ -1,0 +1,152 @@
+﻿---
+ID: "61e21a68-a284-47e5-adcb-03286a8fde3f"
+Parent: "70dc6ad1-c06e-4ce0-acb7-217259864699"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/CentralMosquitoControl/Home/drone-application"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{8D8F9990-916D-4B90-8C28-DCC4526C9F45}"
+          p:before="*"
+          s:ds="{36C0184A-64BE-4552-8071-E140938008DD}"
+          s:id="{86FBA02B-2E9C-4A00-9CCF-DE607B1FCDC7}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass=col-lg-4&amp;HideImage&amp;IsMobileCarousel&amp;IsDesktopCarousel&amp;ShowDescription&amp;FieldNames=%7B3C2CCCE6-6DC8-4816-A20B-8551B44E446C%7D&amp;Styles=%7B8D38663D-4028-4440-96C6-BCAA6062E23B%7D%7C%7BFAF28AF7-0575-40E0-9EE8-3C33FB91AC01%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10&amp;CacheClearingBehavior=Clear%20on%20publish"
+          s:ph="/main/row-5-1/container-9"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{842FE138-8C72-41BC-8470-56A224BC6E90}"
+          p:after="r[@uid='{8D8F9990-916D-4B90-8C28-DCC4526C9F45}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/row-5-1" />
+        <r
+          uid="{2EFC5FFB-B9BD-4FDE-B6C2-BC61A9285D25}"
+          p:after="r[@uid='{842FE138-8C72-41BC-8470-56A224BC6E90}']"
+          s:ds="{B16DAE23-AA85-4762-91C0-F6CA2DDEE8AC}"
+          s:id="{3C84ED23-7591-45E0-8850-1AE96D1342B1}"
+          s:par="Reset Caching Options&amp;GridParameters={908E2BC6-C110-4ED7-AF39-7EEACBB31A34}&amp;Styles&amp;CacheClearingBehavior=Clear on publish&amp;RenderingIdentifier"
+          s:ph="/main/row-4-1/container-8" />
+        <r
+          uid="{30540173-70B3-4770-803E-2CE329F3F074}"
+          p:after="r[@uid='{2EFC5FFB-B9BD-4FDE-B6C2-BC61A9285D25}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/row-4-1" />
+        <r
+          uid="{0D3599AA-910B-4EB7-8A48-00F174E6F8F5}"
+          p:after="r[@uid='{30540173-70B3-4770-803E-2CE329F3F074}']"
+          s:ds=""
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles=%7B8D38663D-4028-4440-96C6-BCAA6062E23B%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-3-1/container-6" />
+        <r
+          uid="{B00DFC33-0FAE-455C-8036-6B6247D7C2E6}"
+          p:after="r[@uid='{0D3599AA-910B-4EB7-8A48-00F174E6F8F5}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-3-1" />
+        <r
+          uid="{8FDE1496-452E-4AC8-89C0-4B760EBDA832}"
+          p:after="r[@uid='{B00DFC33-0FAE-455C-8036-6B6247D7C2E6}']"
+          s:ds=""
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B28C76009-CBBF-4D05-8911-94F9A74652F7%7D&amp;Styles=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-2-1/container-4" />
+        <r
+          uid="{50A051A8-D652-4021-82CF-278B449DD363}"
+          p:after="r[@uid='{8FDE1496-452E-4AC8-89C0-4B760EBDA832}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{98686D02-BCF9-4CF0-B58B-D89AC2475212}"
+          p:after="r[@uid='{50A051A8-D652-4021-82CF-278B449DD363}']"
+          s:ds=""
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%2F&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B34C68150-D3B2-463D-9B91-B2F7BCBD3727%7D&amp;Styles=%7BFAF28AF7-0575-40E0-9EE8-3C33FB91AC01%7D%7C%7BE951A28D-10FF-4D94-BDE6-BB1DDE779D5E%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3&amp;CacheClearingBehavior=Clear%20on%20publish"
+          s:ph="/main/row-1-1/container-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{AA04FA12-0625-4BE2-ACDE-321FC22C327F}"
+          p:after="r[@uid='{98686D02-BCF9-4CF0-B58B-D89AC2475212}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{E9203741-CEDF-442E-A33B-A6ED9AA233B1}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3%2C4%2C5&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220930T090720Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Aerial Technology Meets Mosquito Control
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Innovative aerial technology enabled by drones is spurring advancements in mosquito control, as targeted surveillance opens the door for targeted treatment. 
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <div class="row">
+        <div class="col-md-4">
+        <a href="-/media/4A73226148DE4B819EFC7710F14B3FF1.ashx"><img alt="" height="792" width="612" src="-/media/C05761E0CC9B4172B5332D85DE9FE78B.ashx" /></a>
+        </div>
+        <div class="col-md-8">
+        <h3>Effective Mosquito Control for the 21st Century
+        </h3>
+        <p>Innovative aerial technology enabled by drones is spurring advancements in mosquito control, as targeted surveillance opens the door for targeted treatment. Central Life Sciences offers extended residual control products to provide mosquito control solutions in hard-to-reach areas. These targeted products such as <a href="~/link.aspx?_id=C28D77B96C2D49BB8A19D506EBDFB287&amp;_z=z"><span style="text-decoration: underline; color: #000000;">Altosid<sup>&reg;</sup> P35</span></a>, <a href="~/link.aspx?_id=37EDA4DAF100423FBDF1C38B117F0F81&amp;_z=z"><span style="text-decoration: underline; color: #000000;">Altosid<sup>&reg;</sup> XR-G Ultra</span></a>, and <a href="~/link.aspx?_id=975C139965634FBEA802DC20AA931913&amp;_z=z"><span style="text-decoration: underline; color: #000000;">Duplex&trade;-G</span></a>&nbsp;have low application rates in a higher density granule to allow for more treatment area per load when paired with drone technology.</p>
+        <p>
+        Easy application methods, surveillance, and reduced risk solutions can minimize hours spent in the field and treat targeted areas. These solutions are highly effective without harming fish, amphibians, mammals, or other beneficial insects. Stop the life cycle of mosquitoes with protection you can trust.</p>
+        <p>To learn more about remote aerial technology and mosquito control, download our Drone Sell Sheet. </p>
+        <div class="sxa-btn sxa-btn-primary"><a href="-/media/4A73226148DE4B819EFC7710F14B3FF1.ashx">DOWNLOAD</a></div>
+        </div>
+        </div>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Innovative aerial technology enabled by drones is spurring advancements in mosquito control, as targeted surveillance opens the door for targeted treatment. 
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Aerial Technology Meets Mosquito Control
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Aerial Technology Meets Mosquito Control
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "990f1880-ad47-42af-9c50-8b3187d1b0fc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{C05761E0-CC9B-4172-B533-2D85DE9FE78B}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221013T093823Z

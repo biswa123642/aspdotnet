@@ -1,0 +1,26 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.score-content-spot {
+  width: 80%;
+  margin: 0px auto 30px auto;
+}
+
+.terms-conditions {
+  .product-title {
+    text-align: center;
+    margin: 40px 0 0 0;
+  }
+}
+
+@include respond-to(desktop-max) {
+  .score-content-spot {
+    width: 100%;
+    padding: 0 15px 0 0;
+  }
+  .container {
+    &.score-page-layout-column1 {
+      padding: 0;
+    }
+  }
+}

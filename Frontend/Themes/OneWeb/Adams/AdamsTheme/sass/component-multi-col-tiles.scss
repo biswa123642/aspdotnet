@@ -1,0 +1,83 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.multi-column-content-tiles {
+    &.variant-2 {
+      background: none;
+
+      .wrapper {
+        .inner-wrap {
+          margin: 1.5rem;
+          .spacer-col {
+            &:first-child {
+              border-bottom: 0.2rem solid $seperator-blue;
+              @include respond-to(tab) {
+                border-right: 0.2rem solid $seperator-blue;
+                border-bottom: none;
+              }
+            }
+          }
+          .copy-wrap {
+            a {
+              text-decoration: none;
+              &:hover {
+                text-decoration: none;
+              }
+            }
+            .card-body {
+              &::after {
+                box-shadow: none;
+              }
+              &:hover {
+                &::after {
+                  box-shadow: none;
+                }
+              }
+
+              .col-right {
+                background: none;
+                .field-title {
+                  color: $text-gray-primary;
+                  font-size: 4.3rem;
+                  font-weight: 400;
+                  @include verveine-font-stack();
+                }
+                .field-subtext {
+                  color: $primary-button;
+                  font-size: 2rem;
+                  font-weight: 700;
+                  @include din-14-narrow-stack();
+                  &::after {
+                    content: ">";
+                    padding: 0 0.5rem;
+                  }
+                }
+              }
+              .col-left {
+                background: none;
+                .field-image {
+                  img {
+                    min-height: auto;
+                    @include respond-to(tab) {
+                      margin-top: 5rem;
+                    }
+                    @include respond-to(desktop) {
+                      margin-top: auto;
+                    }
+                  }
+                }
+              }
+              .col-right {
+                @include respond-to(tab) {
+                  padding: 6rem 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

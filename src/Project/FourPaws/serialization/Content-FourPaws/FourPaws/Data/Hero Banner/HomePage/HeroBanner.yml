@@ -1,0 +1,55 @@
+﻿---
+ID: "2a0dcf57-b6f1-4585-82f2-51792d19d72a"
+Parent: "da458fb4-0809-43c5-9665-44a7192c6a4f"
+Template: "f3e6da4e-5d19-49b8-9737-2ee2e9067757"
+Path: /sitecore/content/OneWeb/FourPaws/Data/Hero Banner/HomePage/HeroBanner
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "055a2c41-4d44-4441-b589-b86f39cc64e5"
+      Hint: HeroBannerContent
+      Value: |
+        <p style="text-align: center;">Welcome to our world of pet parenting knowledge and fun activities! This library is your all-in-one resource for conquering shedding season, decoding your cat's body language, and so much more.
+        </p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220601T055846Z
+    - ID: "2b413044-4890-48c9-a955-78565193a0b8"
+      Hint: HeroBannerDescription
+      Value: |
+        <p style="text-align: center;">Welcome to our world of pet parenting knowledge and fun activities! This library is your all-in-one resource for conquering shedding season, decoding your cat's body language, and so much more.
+        </p>
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{1ED08D4F-7B51-4E7A-95C7-6D13FBB8B867}" />
+    - ID: "41b17cd3-d543-4c7c-9bfa-b21765882326"
+      Hint: HeroImageMobile
+      Value: |
+        <image mediaid="{15149276-966B-4BE4-979C-A806CA9F36EF}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1ab5bc1b-b81a-4509-9adf-dc9eedc770bd"
+    - ID: "a6772724-fc83-4e63-a2f6-a893b8329b9e"
+      Hint: HeroBannerAlignment
+      Value: "Left-Align"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: |
+        <h2 style="text-align: center;">Pets 101</h2>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220614T110915Z
+    - ID: "e829eba5-21e1-443d-929c-71b8d331f023"
+      Hint: HeroBannerCTA
+      Value: |
+        <link text="EXPLORE OUR ARTICLES" anchor="" linktype="internal" class="" title=""  querystring="" id="{5F884EBA-6149-44DE-961B-B95D6E931328}" />

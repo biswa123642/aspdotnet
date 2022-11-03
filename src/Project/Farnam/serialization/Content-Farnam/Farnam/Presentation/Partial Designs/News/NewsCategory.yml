@@ -1,0 +1,106 @@
+﻿---
+ID: "4e2a7a87-7375-48dd-94dc-0fefac28050d"
+Parent: "42e78375-020b-4e6b-8957-fefe0d351d4c"
+Template: "d68e3c5a-253d-4765-be54-b7b18c350cb1"
+Path: /sitecore/content/OneWeb/Farnam/Presentation/Partial Designs/News/NewsCategory
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: newscategory
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{F2526AA1-6FAB-4D36-A6A1-BF557B3B0F4A}"
+          p:before="*"
+          s:ds="{8135BDF9-D0EE-4E23-BACD-1BD617E9EB7E}"
+          s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass=col-md-4&amp;FieldNames=%7BDD2A67DD-2C78-484F-9B69-9E17B40C4BD1%7D&amp;Styles=%7BCACA5E2A-B6F0-421F-869D-DB4FBB31A00E%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-4-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{4BED4C21-EC7C-4517-8196-3E96A9FE335C}"
+          p:after="r[@uid='{F2526AA1-6FAB-4D36-A6A1-BF557B3B0F4A}']"
+          s:ds=""
+          s:id="{B697DA6F-D14C-49C4-859D-00F1F9F8AE98}"
+          s:par="ArticleListingFacetType=Page-Attributes&amp;GridSelection=full-width&amp;FilterOrder=SameAsCMS&amp;CheckToLoadChildArticlesOnly=1&amp;HideSearchFilter=1&amp;HideDescriptionOnTiles&amp;DescriptionLengthLimit=250&amp;SortDirection=asc&amp;SortingLookup=__updated_tdt&amp;Styles"
+          s:ph="/main/row-3-1/container-4"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{AC687AEF-73AF-434A-AF4F-EA4FA3635A2E}"
+          p:after="r[@uid='{4BED4C21-EC7C-4517-8196-3E96A9FE335C}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-3-1" />
+        <r
+          uid="{B2CD8461-CA4E-436B-9402-1C0D3A913FC9}"
+          p:after="r[@uid='{AC687AEF-73AF-434A-AF4F-EA4FA3635A2E}']"
+          s:ds="{C04F5674-6947-4EEF-B4CD-2D595F281F8A}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B4FFFD41C-24F3-4E7F-9515-C6BA481861EB%7D&amp;Styles=%7B8D38663D-4028-4440-96C6-BCAA6062E23B%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-2-1/container-3" />
+        <r
+          uid="{31DB2039-1782-40DA-962B-C71520B593A5}"
+          p:after="r[@uid='{B2CD8461-CA4E-436B-9402-1C0D3A913FC9}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-2-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{C36DC876-2AAF-44A0-9345-2969880B5127}"
+          p:after="r[@uid='{31DB2039-1782-40DA-962B-C71520B593A5}']"
+          s:ds="{F1710D2C-CD84-476F-939B-EDAA068DC9F9}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B4FFFD41C-24F3-4E7F-9515-C6BA481861EB%7D&amp;Styles=%7BC0D31753-8422-405C-A6B3-6F70561A1049%7D%7C%7B1D80192A-9692-4818-8744-A0CFB72D05FD%7D%7C%7B483AF548-57D7-4735-A003-5710259189CC%7D%7C%7BC97A64E7-2ED1-483D-98B9-DCCBEE2B3EDA%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-1-1/container-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{577F247D-46DE-4DFF-8074-15571E1DDFF4}"
+          p:after="r[@uid='{C36DC876-2AAF-44A0-9345-2969880B5127}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{6A75D6D4-C866-4886-9CE3-7CB4A204D073}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3%2C4&amp;Styles1&amp;Styles2=%7B9243A5CB-1316-4423-9D79-5C0290F6B4E8%7D&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;DynamicPlaceholderId=1"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: News Category
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220704T125345Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "83c3d9f8-3830-43dc-a538-800472acf2c3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220823T093251Z

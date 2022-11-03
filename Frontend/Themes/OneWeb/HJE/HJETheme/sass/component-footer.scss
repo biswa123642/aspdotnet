@@ -1,0 +1,60 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+#onetrust-consent-sdk #onetrust-banner-sdk {
+  display: none;
+}
+
+#footer {
+  .container {
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+  }
+  .light-green-bg {
+    background-color: #72c052 !important;
+    justify-content: center;
+    display: flex;
+    padding: 0.5rem 3rem;
+    text-align: center;
+    * {
+      color: $white-color !important;
+    }
+    .rich-text {
+      display: flex;
+      align-items: center;
+      div {
+        font-size: 1.6rem !important;
+      }
+    }
+    .link-list {
+      display: flex;
+      align-items: center;
+      margin: 0 auto;
+      ul {
+        margin-bottom: 0;
+        padding: 0 0 0 1rem !important;
+        li {
+          .field-link {
+            margin-bottom: 0;
+            padding: 0 0.3rem;
+            a {
+              font-weight: normal !important;
+              text-decoration: underline;
+              border: 0 !important;
+            }
+          }
+        }
+        li.even {
+          &::before {
+            background: none !important;
+          }
+        }
+      }
+    }
+    @include respond-to(desktop) {
+      padding: 0.5rem 0;
+      .link-list {
+        margin: 0;
+      }
+    }
+  }
+}

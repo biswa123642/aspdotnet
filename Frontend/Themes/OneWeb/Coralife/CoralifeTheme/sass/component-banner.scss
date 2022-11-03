@@ -1,0 +1,49 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  &.hero {
+    &.banner-adjustable-height {
+      .banner-image {
+        img {
+          max-width: 90%;
+          margin: 30px auto 20px auto;
+          display: block;
+          min-height: 150px;
+          object-fit: cover;
+          @media (min-width: 480px) {
+            min-height: 200px;
+            max-height: 200px;
+          }
+          @media (min-width: 768px) {
+            min-height: 282px;
+            max-height: 282px;
+          }
+          @media (min-width: 1024px) {
+            min-height: 360px;
+            max-height: 360px;
+          }
+          @media (min-width: 1300px) {
+            min-height: 260px;
+            max-height: 260px;
+          }
+          @media (min-width: 1400px) {
+            min-height: 276px;
+            max-height: 276px;
+          }
+          @media (min-width: 1500px) {
+            min-height: 296px;
+            max-height: 296px;
+          }
+          @media (min-width: 1900px) {
+            min-height: 370px;
+            max-height: 370px;
+          }
+        }
+      }
+      .banner-mobile-image {
+        padding: 0 15px;
+      }
+    }
+  }
+}

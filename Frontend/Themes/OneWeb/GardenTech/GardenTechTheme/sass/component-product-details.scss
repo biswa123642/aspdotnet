@@ -1,0 +1,381 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.product-details {
+    &.variant-4 {
+      &.product-description {
+        .product-wrapper {
+          h1 {
+            color: $text-green;
+            font-weight: 900;
+            font-size: 3rem;
+            text-transform: capitalize;
+            @include respond-to(desktop) {
+              font-size: 3.96rem;
+            }
+          }
+          .body-copy {
+            ul {
+              padding-top: 0.5rem;
+              li {
+                font-size: 1.8rem;
+                color: $text-body;
+              }
+            }
+            h2 {
+              font-size: 2.1rem;
+              color: $text-green;
+              font-weight: bold;
+            }
+            p {
+              font-size: 1.8rem;
+              color: $text-body;
+            }
+          }
+        }
+      }
+    }
+    &.variant-3 {
+      &.related-products-and-related-articles {
+        .copy-wrap {
+          h2 {
+            font-size: 2.4rem;
+            color: $text-green;
+            font-weight: normal;
+            margin-bottom: 1rem;
+            text-transform: capitalize;
+            @include respond-to(desktop) {
+              font-size: 2.4rem;
+              margin-bottom: 0;
+            }
+          }
+          .inner-wrap {
+            .image-holder {
+              height: auto;
+              border: none;
+              max-height: initial;
+              @include respond-to(desktop) {
+                height: 17.4rem;
+                img {
+                  object-fit: contain;
+                  width: 100%;
+                }
+              }
+              @media screen and (max-width:767px){
+                img {
+                  height:auto;
+                }
+              }
+              @media screen and (min-width: 1400px) {
+                height: 29.4rem;
+              }
+            }
+            .body-copy {
+              h3 > a {
+                color: $text-green;
+                text-transform: inherit;
+                &:hover {
+                  color: $text-body;
+                }
+              }
+            }
+          }
+        }
+      }
+      .copy-wrap {
+        .inner-wrap {
+          border-color: $border-gray;
+          align-items: center;
+          .image-holder {
+            flex: 0 0 30%;
+            @include respond-to(desktop) {
+              flex: 0 0 40%;
+            }
+            img {
+              @include respond-to(mobile) {
+                height: auto;
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &.product-variant {
+    h4 {
+      font-weight: normal;
+      font-size: 1.8rem;
+      color: $text-body;
+      display: inline;
+      margin-right: 1.5rem;
+    }
+    select {
+      width: 15rem;
+      background-color: $border-dark;
+      border-radius: 0px;
+      border: none;
+      color: $white;
+      line-height: 4rem;
+      cursor: pointer;
+      text-align: left;
+      option {
+        background-color: $white;
+        color: $bg-black;
+      }
+    }
+  }
+  &.product-tab-accordion {
+    &.product-tab {
+      .nav-tabs {
+        padding-bottom: 0;
+        li {
+          margin-left: 0;
+          a {
+            background-color: $accordion-border;
+            color: $white;
+            font-size: 1.63rem;
+            margin-right: 0.2rem;
+            line-height: 1.42857143;
+            &:hover {
+              background-color: $text-body;
+            }
+            &.active {
+              background-color: $text-body;
+            }
+          }
+        }
+      }
+      .copy-wrap {
+        .tab-content {
+          border: 1px solid $accordion-border;
+          .tab-pane {
+            padding: 3rem;
+            .card-body {
+              padding: 0;
+              .how-to-use {
+                ul {
+                  padding-left: 4rem;
+                  li {
+                    list-style: disc;
+                    font-size: 1.8rem;
+                    line-height: 1.42857143;
+                    color: $text-body;
+                  }
+                }
+              }
+              .label {
+                a {
+                  width: 65%;
+                  padding: 0;
+                  margin: 2rem 0 2.4rem 0;
+                  background: none;
+                  color: $accordion-border;
+                  position: relative;
+                  margin-left: 6rem;
+                  float: none;
+                  text-align: left;
+                  display: inline-block;
+                  vertical-align: top;
+                  &::before {
+                    content: "";
+                    width: 4rem;
+                    height: 4rem;
+                    background: transparent url(../images/bg_link_pdf.png)
+                      no-repeat center top;
+                    background-size: contain;
+                    display: inline-block;
+                    vertical-align: middle;
+                    margin-right: 1rem;
+                    position: absolute;
+                    top: 50%;
+                    left: 0px;
+                    -webkit-transform: translate(-125%, -50%);
+                    -ms-transform: translate(-125%, -50%);
+                    -o-transform: translate(-125%, -50%);
+                    transform: translate(-125%, -50%);
+                  }
+                  @include respond-to(desktop) {
+                    width: 35%;
+                  }
+                }
+              }
+              .insects {
+                ul {
+                  padding-left: 2rem;
+                  display: block;
+                  width: 100%;
+                  li {
+                    list-style: disc;
+                    font-size: 1.8rem;
+                    line-height: 1.42857143;
+                    color: $text-body;
+                    a {
+                      color: $anchor;
+                      text-decoration: none;
+                      &:hover {
+                        color: $anchor-hover;
+                        text-decoration: underline;
+                      }
+                    }
+                  }
+                  @include respond-to(desktop) {
+                    padding-left: 2rem;
+                    display: table-cell;
+                    width: 31%;
+                  }
+                }
+              }
+              .kill {
+                ul {
+                  p {
+                    margin-left: -2.6rem;
+                    font-size: 1.8rem;
+                    font-weight: 700;
+                  }
+                  padding-left: 2rem;
+                  display: block;
+                  width: 100%;
+                  li {
+                    list-style: disc;
+                    font-size: 1.8rem;
+                    line-height: 1.42857143;
+                    color: $text-body;
+                    a {
+                      color: $anchor;
+                      text-decoration: none;
+                      &:hover {
+                        color: $anchor-hover;
+                        text-decoration: underline;
+                      }
+                    }
+                  }
+                  @include respond-to(desktop) {
+                    padding-left: 2rem;
+                    display: table-cell;
+                    width: 31%;
+                  }
+                }
+              }
+              .plants,
+              .diseases {
+                ul {
+                  padding-left: 2rem;
+                  display: block;
+                  width: 100%;
+                  li {
+                    list-style: disc;
+                    font-size: 1.8rem;
+                    line-height: 1.42857143;
+                    color: $text-body;
+                  }
+                  @include respond-to(desktop) {
+                    padding-left: 2rem;
+                    display: table-cell;
+                    width: 31%;
+                  }
+                }
+              }
+              .product-link {
+                a {
+                  color: $anchor;
+                  text-decoration: none;
+                  width: 100%;
+                  margin: 0;
+                  &::before {
+                    display: none;
+                  }
+                  &:hover {
+                    color: $anchor-hover;
+                    text-decoration: underline;
+                  }
+                }
+              }
+              .product {
+                p {
+                  a {
+                    color: $anchor;
+                    text-decoration: none;
+                    width: 100%;
+                    margin: 0;
+                    &::before {
+                      display: none;
+                    }
+                    &:hover {
+                      color: $anchor-hover;
+                      text-decoration: underline;
+                    }
+                  }
+                }
+                a {
+                  width: 65%;
+                  padding: 0;
+                  margin: 2rem 0 2.4rem 0;
+                  background: none;
+                  color: $accordion-border;
+                  position: relative;
+                  margin-left: 6rem;
+                  float: none;
+                  text-align: left;
+                  display: inline-block;
+                  vertical-align: top;
+                  &::before {
+                    content: "";
+                    width: 4rem;
+                    height: 4rem;
+                    background: transparent url(../images/bg_link_pdf.png)
+                      no-repeat center top;
+                    background-size: contain;
+                    display: inline-block;
+                    vertical-align: middle;
+                    margin-right: 1rem;
+                    position: absolute;
+                    top: 50%;
+                    left: 0px;
+                    -webkit-transform: translate(-125%, -50%);
+                    -ms-transform: translate(-125%, -50%);
+                    -o-transform: translate(-125%, -50%);
+                    transform: translate(-125%, -50%);
+                  }
+                  @include respond-to(desktop) {
+                    width: 35%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &.productimage {
+    .image-placeholder {
+      border: none;
+    }
+    .inner-wrap {
+      .image-container {
+        div {
+          width: calc(28% - 1rem);
+          border: none;
+          @include respond-to(desktop) {
+            width: calc(25% - 1rem);
+          }
+        }
+      }
+    }
+  }
+  &.power-reviews {
+    .pr-rd-flag-review-btn {
+      cursor: pointer;
+    }
+    .p-w-r {
+      .pr-media-modal {
+        .modal__body {
+          background-color: rgba(0, 0, 0, 0.7);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.image{
+  line-height:0;
+  .image-caption{
+    line-height: 1.42857;
+    padding:7px 0;
+  }
+}

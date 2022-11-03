@@ -1,0 +1,168 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+@import "base/fonts/fonts";
+@import "base/bootstrap/bootstrap";
+@import "base/fontawesome/font-awesome";
+
+html {
+    font-size: 62.5%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-bottom: 0px;
+    height: auto !important;
+}
+
+body {
+
+    position: relative;
+    font-size: 1rem;
+    overflow: auto;
+    color: $light-black;
+    line-height: $line-height;
+    //background: $page-bg;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    height: auto !important;
+
+
+
+
+    &.on-page-editor {
+        background: $page-bg-editor  !important;
+    }
+
+    // Temperory remove unwanted space below footer ...
+    >img {
+        height: 0;
+        position: absolute;
+        bottom: 0;
+        z-index: -1;
+    } 
+}
+
+.center {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+
+    &:hover {
+        transform: none;
+    }
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+    line-height: 1.2;
+    color: $light-black;
+}
+.content,.rich-text{
+    color: $light-black;
+}
+.content{
+    h3{
+        color: $content-h3;
+    }
+}
+
+h1 {
+    font-size: 4.8rem;
+    font-weight: 500;
+    line-height: 1.15;    
+    @include Lilita-font-stack();
+    color: $light-black;
+}
+
+h2 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    @include raleway-font-stack();
+    color: $light-black;
+}
+ 
+
+h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    @include raleway-font-stack();
+    color: $light-black;
+}
+
+
+    a {
+        line-height: 1.1;
+        font-size: 1.6rem;
+        @include raleway-font-stack();
+        color: $link-error;
+        font-weight:400;
+        
+
+        &:hover {
+            color: $error-page-link;
+            text-decoration: underline;
+        }
+    }
+
+
+
+p {
+    margin-bottom: 1.6rem;
+    color: $light-black;
+    @include raleway-font-stack();
+    font-weight:400;
+    font-size: 1.6rem;
+
+}
+
+
+// Mobile full with 
+.component {
+    &.mobile-full-width {
+        @include respond-to(mobile) {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+    }
+}
+
+
+// spacing for pdp pages 
+.pdp-spacing-top {
+    margin-top: 6.1rem;
+}
+
+.video-spacing {
+    margin-top: 1.5rem;
+}
+
+@include respond-to(desktop) {
+    .pdp-spacing-top {
+        margin-top: 10rem;
+    }
+
+    .video-spacing {
+        margin-top: 3.5rem;
+    }
+
+    .list-spacing {
+        text-align: center;
+    }
+} 
+.form-check{
+    label{
+        vertical-align: text-bottom;
+    }
+}

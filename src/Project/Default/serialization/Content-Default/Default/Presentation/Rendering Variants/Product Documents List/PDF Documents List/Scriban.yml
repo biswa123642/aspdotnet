@@ -1,0 +1,70 @@
+﻿---
+ID: "d129407c-9e21-4d73-8295-b5bce1e87909"
+Parent: "6d8a7c2a-db9b-4a1a-88fe-7ec7c7d0bb1c"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Product Documents List/PDF Documents List/Scriban
+BranchID: "fbc498f7-3c06-4013-8181-ab49dd0f4519"
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    {{gridClass = sc_parameter "GridClass"}}
+    {{pdf = sc_followmany i_item "PDFDocuments"}}
+    {{if pdf | array.size >0}}
+    <div class="vertical short-product-list">
+    
+    
+        <div class="row">
+    
+                   <div class="component-content">
+                           {{ if i_item.PDFDocumentsLabel != ""}}
+                <h3>{{sc_field i_item "PDFDocumentsLabel"}}</h3>
+                           {{end}}
+                   </div>
+    
+                {{for i_product in (sc_followmany i_item "PDFDocuments") }}
+                {{if gridClass != null}}
+                <div class="short-product-list-wrapper {{gridClass}}">
+                {{else}}
+                <div class="short-product-list-wrapper col-md-4 col-12">
+                {{end}}
+                    <div class="product-item">
+                        <a href="{{i_product.Link.media_url}}">
+                            {{i_product.Image}}
+                            <h4>{{i_product.Title}}</h4>
+                        </a>
+                    </div>
+                    </div>
+                {{end}}
+        </div>
+    </div>
+    {{end}}
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{CF2162D3-CD8B-40AF-80FC-CFA1DAE88728}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220526T052621Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "19930b0f-a9ca-47e9-b820-4c78daa01a9a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220818T124445Z

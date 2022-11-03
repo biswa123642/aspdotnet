@@ -1,0 +1,31 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.search-box {
+  position: relative;
+  margin: 0 auto;
+  .search-holder {
+    .search-wrapper {
+      &::before {
+        background: transparent;
+      }
+      .search-input-wrapper {
+        input {
+          border-radius: 1.5rem;
+          padding: 1.2rem 7rem 1.2rem 1.5rem;
+          font-size: 1.6rem;
+          border: 1px solid $black;
+          &:focus {
+            border: 1px solid $black !important;
+          }
+        }
+        .custom-search-box-button {
+          display: none;
+        }
+      }
+    }
+  }
+  @include respond-to(desktop) {
+    margin: 1rem 0 0 0;
+  }
+}

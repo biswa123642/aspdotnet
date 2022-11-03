@@ -1,0 +1,30 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+.component{
+    &.rich-text {
+        .home-rte{
+            @include respond-to(desktop){
+                margin-top: 40px;
+            }
+            h1{
+                color: $secondary-color;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 28px;
+                margin-top: 20px;
+                border-bottom: 1px solid $light-grey;
+                padding-bottom: 20px;
+                margin-bottom: 3rem;
+            }
+        }
+        .content-title{
+            color: $secondary-color;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 2.8rem;
+            border-bottom: 1px solid $light-grey;
+            padding-bottom: 2rem;
+            margin-bottom: 3rem;
+        }
+    }
+}

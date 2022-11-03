@@ -1,0 +1,24 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+
+.container:not(.col-12) {
+    max-width: 100%;
+    @include respond-to(large-desktop){
+        max-width: 117rem;
+        padding: 0 3rem;
+    }
+   
+}
+
+.component{
+    &.container{
+        &.container-large{
+            max-width: 145rem;
+        }
+        &.container-small{
+            max-width: 112rem;
+        }
+    }
+    
+}

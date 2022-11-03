@@ -1,0 +1,112 @@
+﻿---
+ID: "aa01cba9-a192-46ec-8844-14e5087d5d68"
+Parent: "7b02f670-b8c6-4d88-bf32-3b0cead6015e"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: /sitecore/content/OneWeb/Central/Home/careers/career with central
+SharedFields:
+- ID: "d4952280-2d7d-4bf4-a99a-ea36dad0f0a7"
+  Hint: Body Css Class
+  Value: "career-with-central"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{8B4CBEED-222F-440C-B88B-8E3EF82630B5}"
+          p:before="*"
+          s:ds="page:"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BFF4ADBCA-BDF1-4EBA-8466-888B74F65FEC%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/container-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{DCCAC25A-4AD0-4A22-ADF9-72E82191FDEC}"
+          p:after="r[@uid='{8B4CBEED-222F-440C-B88B-8E3EF82630B5}']"
+          s:ds="{462F3BB1-B658-406F-A790-1107848B73D4}"
+          s:id="{28F481FC-631F-4BDF-9130-A2DA74164968}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BB3BA5054-8690-4DFC-A2A3-595DB38055D5%7D&amp;Styles=%7B69D209DD-5FA5-49C5-AE9D-D462BB26C34D%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/container-1" />
+        <r
+          uid="{FEA8F8AA-1DD8-4817-9992-B16C95D54A1B}"
+          p:after="r[@uid='{DCCAC25A-4AD0-4A22-ADF9-72E82191FDEC}']"
+          s:ds="{5015D86C-DC20-4C1F-BCDB-5C2B571948ED}"
+          s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass=col-md-4&amp;FieldNames=%7B99EE7040-5ACF-434E-9637-3A9058AE4096%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/container-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{B300DC94-CB8F-45AC-B484-C9391A29314B}"
+          p:after="r[@uid='{FEA8F8AA-1DD8-4817-9992-B16C95D54A1B}']"
+          s:ds="{80B4D412-9BD6-433E-817F-412E5713D3DD}"
+          s:id="{28F481FC-631F-4BDF-9130-A2DA74164968}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B24093BF7-32EA-43B2-89A2-548BB2AFFEF8%7D&amp;Styles=%7B1E33BCA0-B5B0-4AB1-BD1C-8045B349E383%7D%7C%7B127FB6B4-435B-40C6-A82D-D9FB7C32EAF6%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5&amp;ColLeftGrid&amp;ColRightGrid"
+          s:ph="/main/container-1" />
+        <r
+          uid="{FECB0250-E34E-43B4-854C-4DF14CCCE14C}"
+          p:after="r[@uid='{B300DC94-CB8F-45AC-B484-C9391A29314B}']"
+          s:ds="{247FF605-F284-456E-9CE6-54E16DD84451}"
+          s:id="{28F481FC-631F-4BDF-9130-A2DA74164968}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B24093BF7-32EA-43B2-89A2-548BB2AFFEF8%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6&amp;ColLeftGrid&amp;ColRightGrid"
+          s:ph="/main/container-1" />
+        <r
+          uid="{AE76F0FB-D4D6-49DD-BA86-70278B42909D}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220803T080546Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{EEB3BD2C-E985-4DB1-A837-CA5479DA79A4}" ></image>
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: career with central
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "Discover why you should grow your career at Central Garden & Pet! Search and apply for job openings, including positions marketing, manafucturing, sales, and more. "
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Prospective Employees & Job Openings - Careers | Central Garden & Pet"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: "Prospective Employees & Job Openings - Careers | Central Garden & Pet"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8710b706-878a-4ae2-9f45-6847abd9ecb0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: |
+        <h1>A Career&nbsp;<br />
+        with Central</h1>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220906T113613Z

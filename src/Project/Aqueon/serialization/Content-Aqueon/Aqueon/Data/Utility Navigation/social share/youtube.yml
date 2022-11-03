@@ -1,0 +1,38 @@
+﻿---
+ID: "8130f8e0-07e3-44dc-aa40-7dd138691204"
+Parent: "b24e5a7c-9d2f-4944-89bd-c99a5acca250"
+Template: "21e9bd9f-1259-4a0a-b862-a250abf7a8b1"
+Path: /sitecore/content/OneWeb/Aqueon/Data/Utility Navigation/social share/youtube
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a984fb2-76bd-4a5b-a71b-c163ae3d23e9"
+      Hint: Image
+      Value: |
+        <image mediaid="{F0C2FE87-47E6-42F8-9943-E681DD83DE4C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220912T074210Z
+    - ID: "3fbfed70-8606-40c5-9e84-45a03aa258d5"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="https://www.youtube.com/user/AqueonProducts" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "22b16583-9245-4875-841a-72b9faecae6b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220929T094304Z
+    - ID: "f35d245b-3a57-4132-a025-00a22429f296"
+      Hint: IconClass
+      Value: 

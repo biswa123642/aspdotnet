@@ -1,0 +1,129 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  &.teaser-promo {
+    &.variant-5 {
+      margin-top: 0;
+      figure {
+        &.col-left {
+          @media screen and (min-width: 768px) and (max-width: 1023px) {
+            flex: 0 0 100%;
+            max-width: 100%;
+          }
+          .body-copy {
+            width: calc(100% - 10%);
+            @include respond-to(tab-horizontal-max) {
+              width: calc(100% - 0%);
+              padding: 3rem 1rem;
+            }
+            p {
+              padding-bottom: 1rem;
+              color: $light-black;
+            }
+            a {
+              color: $red-color;
+            }
+            span {
+              color: $light-black;
+              font-weight: 500;
+            }
+            sup {
+              color: $red-color;
+            }
+            .sxa-btn {
+              &.sxa-btn-primary {
+                a {
+                  color: $white-color;
+                }
+              }
+            }
+          }
+        }
+      }
+      .col-right {
+        background-size: cover;
+        background-position: center;
+        @media screen and (min-width: 768px) and (max-width: 1023px) {
+          flex: 0 0 100%;
+          max-width: 100%;
+        }
+        .body-copy {
+          width: calc(100% - 10%);
+          text-align: left;
+          @include respond-to(tab-horizontal-max) {
+            width: calc(100% - 0%);
+          }
+          h2 {
+            border-top: 1px solid $white-color;
+            border-bottom: 1px solid $white-color;
+            padding: 30px 0px 30px 0;
+            margin-bottom: 30px;
+          }
+          p {
+            font-size: 2.4rem;
+            font-weight: normal;
+            @include Vita-din-2014-font-stack();
+          }
+        }
+      }
+    }
+    .sxa-btn {
+      &.sxa-btn-round {
+        display: flex;
+        justify-content: space-around;
+        @include respond-to(tab-horizontal-max) {
+          display: block;
+          max-width: 350px;
+          margin: auto;
+        }
+        a {
+          @include respond-to(tab-horizontal-max) {
+            width: 100%;
+            margin-bottom: 15px;
+          }
+        }
+      }
+    }
+    .col-left {
+      background-color: rgb(244, 243, 243);
+      img {
+        display: block;
+        margin: auto;
+      }
+    }
+    .col-right {
+      .sxa-btn {
+        max-width: 200px;
+        &.sxa-btn-primary {
+          justify-content: flex-start;
+          @include respond-to(tab-horizontal-max) {
+            margin-left: 0;
+          }
+        }
+      }
+      a {
+        font-weight: normal;
+        background: transparent;
+        border: 2px solid $white-color;
+        @include Vita-din-2014-font-stack();
+        text-transform: capitalize;
+        &:hover {
+          background: $white-color;
+          border: 2px solid $white-color;
+          color: $black-color !important;
+        }
+      }
+    }
+  }
+  .rich-text {
+    &.section-title {
+      margin-top: 25px;
+      h2 {
+        color: $dark-red-color;
+        font-size: 3.2rem;
+        font-weight: bold;
+      }
+    }
+  }
+}

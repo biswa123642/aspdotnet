@@ -1,0 +1,278 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.hero-carousel {
+        &.mulitple-bottom-links {
+            padding-top: 2rem;
+            padding-bottom: 1.8rem;
+
+            .component-content {
+                .slick-dots {
+                    display: none !important;
+                }
+
+                .slide-wrap {
+                    .link-list-wrap {
+                        background: transparent;
+                    }
+                }
+
+                .slick-list {
+                    .slide {
+                        background-color: transparent;
+                        --imgw: 370;
+                        --imgh: 116;
+                        width: 100vw;
+                        min-height: calc(100vw * var(--imgh) / var(--imgw));
+                        height: calc(100vw * var(--imgh) / var(--imgw));
+                        background-size: auto 93%;
+                        background-position: 50% 0;
+                    }
+                }
+
+                .slick-arrow {
+                    top: 50%;
+
+                    &:after,
+                    &:before {
+                        color: $white;
+                        background: #00000033;
+                        border-radius: 46px;
+                        height: 3.5rem;
+                        width: 3.5rem;
+                        padding: 6px 11px;
+                        margin: auto;
+                        font-size: 2.5rem;
+                    }
+                }
+
+                .slick-prev {
+                    left: 20px;
+
+                    &:before {
+                        padding: 6px 6px;
+                    }
+                }
+
+                .slick-next {
+                    right: 20px;
+                }
+
+                @include respond-to(desktop) {
+                    .slick-dots {
+                        left: 0;
+                        top: initial;
+                        right: 0;
+                        margin: 0 auto;
+                        text-align: center;
+                        bottom: -13%;
+                        display: block !important;
+
+                        li {
+                            text-indent: -999px;
+                            border: 1px solid gray;
+                            border-radius: 10px;
+                            cursor: pointer;
+                            background-color: $white;
+
+                            &.slick-active {
+                                background-color: $blue-theme;
+                            }
+                        }
+                    }
+
+                    .slide-wrap {
+                        .slick-arrow {
+                            width: 15%;
+
+                            &:after,
+                            &:before {
+                                color: $white;
+                                background: #00000033;
+                                border-radius: 46px;
+                                height: 4.5rem;
+                                width: 4.5rem;
+                                padding: 7px 0px 7px 7px;
+                                margin: auto;
+                                font-size: 3rem;
+                            }
+
+                            &:hover {
+
+                                &:after,
+                                &:before {
+                                    background: #8C8C8C
+                                }
+                            }
+                        }
+
+                        .slick-prev {
+                            left: 0;
+
+                            &:before {
+                                padding: 7px 7px 7px 1px;
+                            }
+                        }
+
+                        .slick-next {
+                            right: 0;
+                        }
+
+                        .slick-list {
+                            width: 70%;
+                            margin: auto;
+
+                            .slide {
+                                --imgw: 940;
+                                --imgh: 200;
+                                width: 100vw;
+                                min-height: calc(100vw * var(--imgh) / var(--imgw));
+                                background-position: 35% 100%;
+                                background-size: cover;
+                            }
+                        }
+                    }
+                }
+
+                @include respond-to(extra-large-desktop) {
+                    .slick-dots {
+                        bottom: -10%;
+                    }
+                }
+            }
+
+            @include respond-to(desktop) {
+                padding-bottom: 3.8rem;
+            }
+        }
+    }
+}
+
+.component {
+    &.hero-carousel {
+        padding-bottom: 3rem;
+
+        .component-content {
+            .slide {
+                .slides {
+                    .slide {
+                        @include respond-to(all-mobile) {
+                            min-height: 27rem;
+                            background-position: 54% 50%;
+
+                            .mobile-img {
+                                min-height: 13.7rem;
+                                height: auto;
+                            }
+
+                            .body-copy {
+                                width: 100%;
+                                transform: translate(-15px, 13px);
+                                align-items: center;
+                                display: flex;
+                                bottom: 0;
+                                top: 12.4rem;
+                                border-radius: 0;
+
+                                h2 {
+                                    font-size: 2.5rem;
+                                }
+                            }
+                        }
+
+                        @include respond-to(tablet) {
+
+                            .body-copy {
+                                width: 100%;
+                                transform: translate(-39px, 13px);
+                            }
+                        }
+
+                    }
+
+                    .slick-dots {
+                        left: 0;
+                        top: initial;
+                        right: 0;
+                        margin: 0 auto;
+                        text-align: center;
+                        bottom: -18%;
+
+                        @include respond-to(desktop) {
+                            bottom: -10%;
+                        }
+                    }
+
+                    .body-copy {
+                        max-width: 100%;
+                        position: absolute;
+                        bottom: 6rem;
+                        border-radius: 100px;
+                        width: 90%;
+                        transform: translate(0%, 10px);
+                        min-height: 1px;
+
+                        .field-slidecardtitle {
+                            color: $white;
+                            font-weight: 400;
+                        }
+
+                        .sxa-btn {
+                            a {
+                                background-color: transparent;
+                                margin-top: 1rem;
+                                margin: auto;
+                                color: $white;
+                                padding-right: 0px;
+                                padding-left: 20px;
+                                background-image: url('../images/link_fish_wht.png');
+                                width: auto;
+                                max-width: fit-content;
+                                background-position: 90% 40%;
+                            }
+                        }
+
+                        @include respond-to(desktop) {
+                            bottom: 3rem;
+                            width: 62%;
+                            transform: translate(15%, 10px);
+
+                        }
+
+                        @include respond-to(extra-large-desktop) {
+                            transform: translate(0);
+                        }
+                    }
+
+                    .slick-slide {
+                        .slide {
+                            @include respond-to(extra-large-desktop) {
+                                background-position: 35% 0%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.responsive-carousel {            
+            .slides{
+                .slide{
+                    .container{
+                        @include respond-to(desktop){
+                            position: static;
+                            transform: translate(0, 0);
+                            .body-copy {
+                                left: 50%;
+                                transform: translate(-50%,10px);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+}

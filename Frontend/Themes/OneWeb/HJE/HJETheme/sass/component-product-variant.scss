@@ -1,0 +1,55 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.product-variant {
+    padding: 1.5rem;
+    h4 {
+      width: 100%;
+      margin: 0;
+      padding: 5px;
+      background-color: #58595b;
+      color: #ffffff;
+      border: 1px solid #58595b;
+      border-radius: 0;
+      font-size: 1.6rem;
+      font-weight: 700;
+    }
+    select {
+      appearance: none;
+      width: 100%;
+      background-image: url(../images/icon_caret.png);
+      background-position: 97% 42%;
+      background-repeat: no-repeat;
+      min-height: 32px;
+      font-size: 1.6rem;
+      text-align: left;
+      padding: 5px;
+      color: #333333;
+      border: 1px solid #333333;
+      option {
+        cursor: pointer;
+        background: white none repeat scroll 0 0;
+        color: black;
+        font-size: 1.6rem;
+        font-weight: 700;
+        min-height: 32px;
+        &:hover {
+          background-color: #d0c9af !important;
+        }
+      }
+    }
+    .variant-id {
+      display: none;
+    }
+    @include respond-to(desktop) {
+      h4 {
+        width: 50%;
+      }
+      select {
+        width: 50%;
+      }
+    }
+  }
+}

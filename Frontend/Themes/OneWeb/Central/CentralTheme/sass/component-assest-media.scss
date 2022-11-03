@@ -1,0 +1,177 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.asset-media-variant-1 {
+   &.container{
+    max-width: 110rem;
+   }
+    .component{
+      &.rich-text{
+        padding: 1.5rem;
+        .component-content{
+          h2{
+            margin: 0;
+            padding-bottom: 1rem;
+          }
+          a{
+            display: block;
+            line-height: 0;
+          }
+          p{
+            margin: 0;
+            padding-bottom: .8rem;
+            line-height: 1.428;
+          }
+          .anchor-wrap{
+            padding-bottom: 2rem;
+            a{
+              display: inline-block;
+            }
+          }
+          .bottom-wrap{
+            >a{
+              margin-bottom: 2rem;
+            }
+            p{
+              font-size: 1.4rem;
+              a{
+                display: inline;
+                font-size: inherit;
+              }
+            }
+          }
+        }
+        .subtitle{
+          padding: 0;
+        }
+        @include respond-to(desktop){
+          &.align-bottom-position{
+            position: absolute;
+            bottom: 0;
+            padding-bottom: 2.5rem;
+          }
+          h2{
+            font-size: 3.76rem;
+          }          
+          p{
+            margin: 0;
+            padding-bottom: 1.6rem;
+          }
+          .subtitle{
+            font-size: 1.8rem;
+            padding: 0 3.5rem;
+            font-weight: 600;
+          }
+          .component-content{
+            .bottom-wrap{
+              p{
+                font-size: 1.8rem;
+              }
+            }
+          }
+          .body-wrap{
+            min-height: 18rem;
+            border-bottom: 1px solid #989a8d;
+            margin-bottom: 2rem;
+          }
+        }
+      }
+      &.video{
+        padding: 0 1.5rem;
+        @include respond-to(desktop){
+          max-width: 80%;
+        }
+      }
+    }
+    p,
+    span {
+      font-weight: 400;
+      color: $color-secondary;
+      @include fieldwork-hum-font-stack();
+      font-size: 1.6rem;
+    }
+    p {
+      span {
+        color: $text-color-primary;
+        font-size: 1.6rem;
+      }
+    }
+    .content-adjust {
+      border-bottom: 1px solid $text-color-primary;
+      padding-bottom: 4rem;
+    }
+    a {
+      color: $text-color-primary;
+      font-weight: 600;
+    }
+    .anchor-wrap {
+      border-bottom: 1px solid #898a8d;
+    }
+    @include respond-to(desktop) {
+      .anchor-wrap {
+        border: 0px;
+        p {
+          display: flex;
+          text-align: center;
+          align-items: center;
+          img {
+            width: auto;
+          }
+        }
+      }
+      padding-top: 3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-left: 10rem;
+      padding-right: 10rem;
+      
+      .content-adjust {
+        border-bottom: 1px solid $text-color-primary;
+        padding-bottom: 4rem;
+        min-height: 15rem;
+      }
+      
+      .title-align-center {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+      img {
+        width: 80%;
+      }
+    }
+    @include respond-to(desktop){
+      .col-left,.col-right{
+        padding: 0 3.5rem;
+      }
+    }
+  }
+}
+
+.asset-page {
+    
+  .bottom-wrap {
+    a {
+      margin-bottom: 30px;
+      display: block;
+    }
+    p {
+      font-size: 1.4rem;
+      margin: 0 0 10px;
+    }
+  }
+
+  .component {
+    .video {
+        @include respond-to(desktop){
+            padding-left: 5rem;
+
+        }
+      margin-bottom: 0.5rem;
+      padding: 0px 15px;
+    }
+  }
+}

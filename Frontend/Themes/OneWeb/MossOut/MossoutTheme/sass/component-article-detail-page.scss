@@ -1,0 +1,56 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "base/fonts/fonts";
+
+.component {
+  &.article-detail {
+    &.container{
+      @include respond-to(extra-largedesktop){
+        min-width: 180rem;
+      }
+    }
+  
+    .related-articles {
+      .inner-wrap {
+        padding: 0px !important; //required due to default
+        .caption {
+          padding: 9px;
+        }
+      }
+    }
+    .breadcrumb {
+      padding: 0% 6%;
+    }
+    .row-splitter {
+      .container-fluid {
+        .column-splitter {
+          padding: 0px 5%;
+          @include respond-to(tab) {
+            padding: 0px 0%;
+            > div {
+              padding: 0px 15px;
+            }
+          }
+        }
+      }
+    }
+    .component-content {
+      img {
+        margin-top: 0px;
+        margin-bottom: 5px;
+      }
+    }
+    @include respond-to(desktop) {
+      .breadcrumb {
+        padding: 0px;
+      }
+      .row-splitter {
+        .container-fluid {
+          .column-splitter {
+            padding: 0px 6%;
+          }
+        }
+      }
+    }
+  }
+}

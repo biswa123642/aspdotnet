@@ -1,0 +1,28 @@
+{
+  "namespace": "Foundation.SitecoreExtensions",
+  "items": {
+    "includes": [
+      {
+        "name": "System-Settings",
+        "path": "/sitecore/system/Field types/List Types/Multilist Formatted with Search",
+        "database": "core",
+        "allowedPushOperations": "createUpdateandDelete",
+        "scope": "itemAndDescendants"
+      },
+      {
+        "name": "UserMultilist-CustomField",
+        "path": "/sitecore/system/Field types/List Types/Users Multilist",
+        "database": "core",
+        "allowedPushOperations": "createUpdateandDelete",
+        "scope": "itemAndDescendants"
+      },
+      {
+        "name": "ColorPicker-CustomField",
+        "path": "/sitecore/system/Field types/Custom",
+        "database": "core",
+        "scope": "itemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      }
+    ]
+  }
+}

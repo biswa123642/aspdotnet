@@ -1,0 +1,49 @@
+﻿---
+ID: "32df13ca-3d3a-404d-8788-e213bcf46eb5"
+Parent: "bdf3c1ae-ea7c-44c9-9121-370a36a240c1"
+Template: "80ed8527-6794-4b69-8c25-035c6b33eeef"
+Path: "/sitecore/content/OneWeb/Amdro/Home/all-products"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220621T121127Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: products
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <span style="background-color: #ffffff; color: #333333;">With nearly 40 years of experience, you can count on Amdro for highly effective solutions to your pest control needs.</span>
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Browse the Amdro Product Lineup
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5dbd04e9-1d12-4f96-a91d-f270fd47dfc3"
+    - ID: "92f32441-cec4-42a7-ba44-83e8bb569c74"
+      Hint: FacetAttributes
+      Value: "{FDD39FAA-E16E-4EC6-B676-38A099B7134F}|{77298C4D-406B-4826-996A-D547B9DFD34F}|{3C9A92B2-AEA1-49F3-888C-7B524D69E655}|{ED84D678-4A78-41C7-A21F-C3265E19E1CD}"
+    - ID: "b0c26a8e-ed75-4fac-9729-461caba576a0"
+      Hint: ProductDetailsAttributes
+      Value: "{77298C4D-406B-4826-996A-D547B9DFD34F}|{FDD39FAA-E16E-4EC6-B676-38A099B7134F}|{3C9A92B2-AEA1-49F3-888C-7B524D69E655}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220728T075314Z

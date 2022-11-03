@@ -1,0 +1,40 @@
+﻿---
+ID: "267ae4c4-8351-4543-9bb1-90fe33621318"
+Parent: "72a2be58-83c7-40b5-9038-2b58969d6b96"
+Template: "20a8b875-b660-4893-91a7-b05f80e94666"
+Path: "/sitecore/content/OneWeb/FourPaws/Data/Linked Thumbnail List/LearnMore/Pet-Supplements/amazon"
+BranchID: "6f13e7ea-9dd6-4933-bebf-47cb659579f9"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{AFB42433-6D01-4420-8E8F-5AA238B9A5B7}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220622T070123Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "30942742-8386-4cf9-9faf-54239aacccaa"
+    - ID: "8daa9cfe-2ab1-4f9a-86ac-b2092acc9fde"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="https://www.amazon.com/s?k=Four+Paws+Healthy+Promise&amp;rh=p_89:Four+Paws&amp;dc&amp;qid=1585578299&amp;rnid=2528832011&amp;ref=sr_nr_p_89_1" anchor="" target="_blank" />
+    - ID: "b3524bdb-f8ec-4d85-a20b-ef5f2837d74f"
+      Hint: Image
+      Value: |
+        <image mediaid="{CC065515-9EBE-48A4-953F-B134926B0CA1}" ></image>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220628T074809Z

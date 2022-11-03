@@ -1,0 +1,138 @@
+﻿---
+ID: "62781b46-2189-4723-9cae-85340473266e"
+Parent: "12b96163-605e-47b4-b846-548c223ae65e"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Video PlayList/Video playlist with carousel/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    <a id="btg-video" class="score-anchorpoint" name="btg-video" title=""></a>
+    {{ videos = sc_followmany i_item "Select Video" }}
+    {{ if videos | array.size <= 0 }}
+        {{ videos = i_item.children }}
+    {{ end }}
+    {{ autoplay = sc_parameter 'Autoplay' }}
+    {{ carouselInterval = sc_parameter 'CarouselInterval' }}
+    {{ showButton = false }}
+    {{ showPrevNextBtn = sc_parameter 'ShowPrevNext' }}
+    {{ if showPrevNextBtn == 1 }}
+        {{ showButton = true }}
+    {{ end }}
+    <div class="container video-gallery">
+        <div class="row">
+            <div class="col-12 slider-for gallery-item-wrapper">
+            {{ for childItem in videos }}
+                {{ youtubeVideoID = childItem["YoutubeVideo"] }}
+                {{ internalVideoURL = childItem["InternalVideo"] }}
+                <div class="row">
+                    <div class="col-lg-7">
+                    {{ if youtubeVideoID != '' }}
+                        {{ if (o_pagemode.is_experience_editor_editing) }}
+                            <div class="youtube-video">
+                                <iframe
+                                    data-video-id="{{youtubeVideoID.raw}}"
+                                    class="embed-responsive-item"
+                                    type="text/html"
+                                    title="YouTube Video"
+                                    src="//www.youtube.com/embed/{{youtubeVideoID.raw}}?enablejsapi=1&version=3&autoplay={{autoplay}}&controls=0">
+                                </iframe>
+                            </div>
+                        {{ else }}
+                            <div class="youtube-video">
+                                <iframe
+                                    data-video-id="{{youtubeVideoID}}"
+                                    class="embed-responsive-item"
+                                    type="text/html"
+                                    title="YouTube Video"
+                                    src="//www.youtube.com/embed/{{youtubeVideoID}}?enablejsapi=1&version=3&autoplay={{autoplay}}&controls=0">
+                                </iframe>
+                            </div>
+                        {{ end }}
+                    {{ else }}
+                        <div class="internal-video">
+                           <video controls>
+                               <source src="{{internalVideoURL.media_url}}" type="video/mp4">
+                            </video>
+                        </div>
+                    {{ end }}
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="gallery-item-info">
+                            <div class="item-header">
+                                {{ childItem["Highlight Header"] }}
+                            </div>
+                            <div class="caption">
+                                <h2>{{ childItem["Highlight Title"] }}</h2>
+                                <div class="post-date">
+                                    {{ childItem["Highlight Body"] }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {{ end }}
+            </div>
+            {{ if (o_pagemode.is_experience_editor_editing) }}
+                <div class="col-12 slider-nav-custom video-gallery-wapper" data-arrow="{{showButton}}" data-timing="{{carouselInterval}}" data-slidesToShow="1" data-slidesToScroll="1">
+                {{ for childItem in videos }}
+                    <div class="gallery-item">
+                        <div class="item-header">
+                            {{ childItem["Highlight Header"] }}
+                        </div>
+                        {{ childItem["Highlight Image"] }}
+                        <div class="caption">
+                            <h2>{{ childItem["Highlight Title"] }}</h2>
+                            <div class="post-date">
+                                {{ childItem["Highlight Body"] }}
+                            </div>
+                        </div>
+                    </div>
+                {{ end }}
+                </div>
+            {{ else }}
+                <div class="col-12 slider-nav video-gallery-wapper" data-arrow="{{showButton}}" data-timing="{{carouselInterval}}" data-slidesToShow="1" data-slidesToScroll="1">
+                {{ for childItem in videos }}
+                    <div class="gallery-item">
+                        <div class="item-header">
+                            {{ childItem["Highlight Header"] }}
+                        </div>
+                        {{ childItem["Highlight Image"] }}
+                        <div class="caption">
+                            <h2>{{ childItem["Highlight Title"] }}</h2>
+                            <div class="post-date">
+                                {{ childItem["Highlight Body"] }}
+                            </div>
+                        </div>
+                    </div>
+                {{ end }}
+                </div>
+            {{ end }}
+        </div>
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220904T110428Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3d23be99-3335-44cc-9825-71e36b146019"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221028T110833Z

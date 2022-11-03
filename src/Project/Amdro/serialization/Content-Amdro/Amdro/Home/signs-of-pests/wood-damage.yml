@@ -1,0 +1,192 @@
+﻿---
+ID: "22b31ab9-40b9-49c0-89fa-89ea2517a26a"
+Parent: "dd2a01d4-5f65-4e10-af38-8e89b43b9130"
+Template: "057af325-c948-4918-a4e4-2c3f6cf04524"
+Path: "/sitecore/content/OneWeb/Amdro/Home/signs-of-pests/wood-damage"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{7B5F2C3C-FD5B-4C2E-935F-14BBAC81B805}"
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: "{F5A89068-295D-45D3-B326-C4B8BC8EBF70}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{26DE3E9A-C531-489E-954B-B801B06C41BA}"
+          p:before="*"
+          s:ds="local:/Data/Images/Image3"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D%7C%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/container-1/container-3/column-3-4" />
+        <r
+          uid="{940E5BDE-502E-4AC5-96B4-0888E2DA9419}"
+          p:after="r[@uid='{26DE3E9A-C531-489E-954B-B801B06C41BA}']"
+          s:ds="local:/Data/Rich Text/Rich text 5"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;FieldNames=%7BBFD3AC15-5752-4848-BAE0-975B2C024D7D%7D&amp;Styles=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D%7C%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/container-1/container-3/column-3-4" />
+        <r
+          uid="{36FD0434-AEC8-401E-8C85-349EA6587DC4}"
+          p:after="r[@uid='{940E5BDE-502E-4AC5-96B4-0888E2DA9419}']"
+          s:ds="local:/Data/Images/Image2"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D%7C%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/container-1/container-3/column-2-4"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{61774467-A002-4708-B95B-A6FAFAD544BD}"
+          p:after="r[@uid='{36FD0434-AEC8-401E-8C85-349EA6587DC4}']"
+          s:ds="local:/Data/Rich Text/Rich text 3"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;FieldNames=%7BBFD3AC15-5752-4848-BAE0-975B2C024D7D%7D&amp;Styles=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D%7C%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/container-1/container-3/column-2-4" />
+        <r
+          uid="{F9E0D275-3FA1-4C63-88BE-7CDEF9F9CF4F}"
+          p:after="r[@uid='{61774467-A002-4708-B95B-A6FAFAD544BD}']"
+          s:ds="local:/Data/Rich Text/Rich text 4"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;FieldNames=%7BBFD3AC15-5752-4848-BAE0-975B2C024D7D%7D&amp;Styles=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D%7C%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/container-1/container-3/column-2-4" />
+        <r
+          uid="{3DE8BADC-AD8F-4FBD-89BA-47CC44C7B7D7}"
+          p:after="r[@uid='{F9E0D275-3FA1-4C63-88BE-7CDEF9F9CF4F}']"
+          s:ds="local:/Data/Images/Image1"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D%7C%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/container-1/container-3/column-1-4"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{F8935D96-8AF1-4994-95B7-19F7883CE995}"
+          p:after="r[@uid='{3DE8BADC-AD8F-4FBD-89BA-47CC44C7B7D7}']"
+          s:ds="local:/Data/Rich Text/Rich text 2"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;FieldNames=%7BBFD3AC15-5752-4848-BAE0-975B2C024D7D%7D&amp;Styles=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D%7C%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/container-1/container-3/column-1-4" />
+        <r
+          uid="{6482075A-6521-4175-A38A-0ECC6D2FB58B}"
+          p:after="r[@uid='{F8935D96-8AF1-4994-95B7-19F7883CE995}']"
+          s:ds=""
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth2=%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth3=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=4"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/container-1/container-3" />
+        <r
+          uid="{7029025F-3B54-4A9C-9BA1-33ED0DB52137}"
+          p:after="r[@uid='{6482075A-6521-4175-A38A-0ECC6D2FB58B}']"
+          s:ds="local:/Data/Rich Text/Rich text 6"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;FieldNames=%7BBFD3AC15-5752-4848-BAE0-975B2C024D7D%7D&amp;Styles=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D%7C%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=12"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/container-1/container-3" />
+        <r
+          uid="{7B14987A-595A-4F74-B240-67FD3D4EEC5A}"
+          p:after="r[@uid='{7029025F-3B54-4A9C-9BA1-33ED0DB52137}']"
+          s:ds=""
+          s:id="{86FBA02B-2E9C-4A00-9CCF-DE607B1FCDC7}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;RenderingClass=col-lg-4&amp;HideImage&amp;FieldNames=%7B030A8961-CB9F-428C-9411-9B06FBAADCBC%7D&amp;Styles=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D%7C%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D%7C%7BD0931F67-1E8F-4C4C-A14A-77777C8F560D%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=13"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/container-1/container-3"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{2713FB4E-9F14-42C8-BD36-134CAEB6C215}"
+          p:after="r[@uid='{7B14987A-595A-4F74-B240-67FD3D4EEC5A}']"
+          s:ds="local:/Data/Rich Text/Rich text 1"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;FieldNames=%7BBFD3AC15-5752-4848-BAE0-975B2C024D7D%7D&amp;Styles=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D%7C%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/container-1" />
+        <r
+          uid="{CF19FC12-2309-4E69-A8F2-3A920DBE497E}"
+          p:after="r[@uid='{2713FB4E-9F14-42C8-BD36-134CAEB6C215}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/container-1" />
+        <r
+          uid="{9D1CD49D-9C8E-4182-8ACC-884C6EBC2462}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-content-page/container-1/row-3-2" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{E5451BDB-F639-4C03-ABE1-D87907FC59B2}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220624T164510Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Wood Damage
+    - ID: "50094021-6c44-4bb3-b384-f4e2bc0262ea"
+      Hint: RelatedArticlesAndProducts
+      Value: |
+        {84141C7A-3F25-44FC-8DE0-A7B04E6D4E95}
+        {13864611-258E-4AEF-A72B-71A071B90728}
+        {38407E0A-694E-4240-9F91-D404BF64B929}
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Learn how to identify what pest you are dealing with from the wood damage they cause.
+    - ID: "54a1450c-b9d8-42ce-b085-8c9109daaf37"
+      Hint: RelatedArticlesandProductsLabel
+      Value: Related Articles
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <br /><image src="~/media/05375EF9340749129FACE9360E06DC12.ashx" /><br /><h3><a href="~/link.aspx?_id=0AE032274FD147ABA2CFF5B6432D81FF&amp;_z=z">Termites</a></h3> <p>Termites seek out areas with abundant wood and moisture. These pests eat wood, so there are no telltale sawdust piles. Termites may live in soil and travel back and forth to feed on wood. Signs of termite wood damage include:</p> <ul>     <li>Sand-like, tubular tunnels connecting soil and wood</li>     <li>Walls that sound hollow when tapped with a tool</li>     <li>Wood that collapses easily under pressure</li>     <li>Rough-sided galleries lined with gray-brown excrement and debris</li> </ul><br /><image src="~/media/8D1569E363894F4B980B5D8E36A31D63.ashx" /><br /><h3><a href="~/link.aspx?_id=5635ADAAE7FE4DE9A0F5976ADB274AF0&amp;_z=z">Carpenter Bees</a></h3> <p>Carpenter bees target bare, unpainted wood and create tunnels for nesting chambers. These pests do not eat the wood they excavate. Signs of carpenter bee wood damage include:</p> <ul>     <li>Round, fingertip-sized holes above piles of coarse sawdust</li>     <li>Burrowing, rumbling noises from inside wood</li>     <li>Yellow-brown excrement stains on wood under entry holes</li>     <li>Branching, lateral nesting chambers excavated in wood</li> </ul><br /><p style="text-align: left;"><small><em>Photo credit: Scot Nelson (public domain)</em></small></p><br /><image src="~/media/E5451BDBF6394C03ABE1D87907FC59B2.ashx" /><br /><h3><a href="~/link.aspx?_id=A10472F88F84494DBD80D09EBFEF0E61&amp;_z=z">Carpenter Ants</a></h3> <p>Carpenter ants seek out moist, decaying wood and excavate large galleries where they nest indoors. These pests do not eat the wood they damage. Signs of carpenter ant wood damage include:</p> <ul>     <li>Piles of sawdust under moisture-damaged wood</li>     <li>Muffled rustling sounds in walls</li>     <li>Trails of large, dark ants coming into your home</li>     <li>Smooth-sided, debris-free parallel channels excavated in wood</li> </ul><br /><h2 style=`"z-index: 1;`"></h2><br />Wood-damaging pests are more than nuisances. Left unchecked, they can cause extensive damage and threaten the structural integrity of your home. Learning to recognize the warning signs of wood damage can mean the difference between minor home repairs and major structural corrections.<br /><h2>HOW TO FIX WOOD DAMAGE</h2> <p>By the time you discover wood-damaging pests, the harm they've done may be extensive. With carpenter bees, you're more likely to catch damage early on. But carpenter ants and termites often go unnoticed until they've established large, destructive colonies.</p> <p> While wood fillers take care of brand-new entry holes, especially for carpenter bees, long-standing infestations of any wood-damaging pest can mean major repairs or reconstruction. Professional structural inspections can help you assess pest damage and protect your home's integrity and value.</p>
+    - ID: "6dd157fe-8ea8-496a-b595-0e6a18489836"
+      Hint: ThumbnailImage
+      Value: |
+        <image mediaid="{E5451BDB-F639-4C03-ABE1-D87907FC59B2}" />
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Learn how to identify what pest you are dealing with from the wood damage they cause.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Signs of Pests: Wood Damage"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Wood Damage
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2ef16d85-ef91-42f8-ba8b-7ebc3f615b37"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "caaa6c5b-798c-4d26-8919-fe66d620f798"
+      Hint: Page Attributes
+      Value: "{27193CAA-5DC3-4CA1-B81A-76BD3B875FF7}"
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{E5451BDB-F639-4C03-ABE1-D87907FC59B2}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220715T184753Z
+    - ID: "f0d0a9d9-6b70-4a54-a04a-537c38d5b2e1"
+      Hint: RelatedArticlesLabel
+      Value: Related Articles
+    - ID: "fb742e87-7bf7-4c72-97a9-987a40989ece"
+      Hint: RelatedArticles
+      Value: 

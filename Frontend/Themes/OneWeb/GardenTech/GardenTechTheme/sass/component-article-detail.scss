@@ -1,0 +1,216 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.article-detail {
+    > div {
+      font-size: 1.8rem;
+      color: $text-body;
+      line-height: 1.42857143;
+      margin-bottom: 1rem;
+      margin-top: 0;
+    }
+    .breadcrumb {
+      margin-top: 1rem;
+      padding-left: 1.5rem;
+      margin-bottom: 1rem;
+      @include respond-to(desktop) {
+        margin-top: 5rem;
+      }
+    }
+    .component-content {
+      img {
+        margin-top: 0;
+      }
+    }
+    .article-left {
+      border-width: 0.4rem;
+      border-color: $accordion-border;
+      .title {
+        padding-left: 0;
+        h1 {
+          color: $text-green;
+          font-size: 2rem;
+          margin: 2rem 0 1rem 0;
+          padding-bottom: 0;
+          @include respond-to(desktop) {
+            font-size: 3.2rem;
+          }
+        }
+      }
+      .addthis {
+        padding-left: 0;
+      }
+      .author-name {
+        text-align: left;
+        margin-bottom: 2.5rem;
+        text-transform: uppercase;
+      }
+      > div,
+      p {
+        font-size: 1.8rem;
+        color: $text-body;
+        line-height: 1.42857143;
+        margin-bottom: 1rem;
+        margin-top: 0;
+        a {
+          color: $anchor;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+            color: $anchor-hover;
+          }
+        }
+      }
+      .card-image {
+        img {
+          max-width: 100%;
+          float: none;
+          margin-left: 0;
+          @include respond-to(desktop) {
+            max-width: 50%;
+            float: right;
+            margin-left: 5px;
+          }
+        }
+      }
+      .insect-list {
+        ul {
+          display: block;
+          width: 100%;
+          @include respond-to(desktop) {
+            display: table-cell;
+            width: 37%;
+          }
+        }
+      }
+      h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        color: $text-green;
+        margin: 2rem 0 1rem;
+        @include respond-to(desktop) {
+          font-size: 2.4rem;
+        }
+        a {
+          color: $text-green;
+          cursor: default;
+          &:hover {
+            color: $text-green;
+          }
+        }
+      }
+      ul {
+        padding-left: 4rem;
+        margin-bottom: 0;
+        li {
+          list-style: disc;
+          font-size: 1.8rem;
+          color: $text-body;
+          line-height: 1.42857143;
+          a {
+            color: $anchor;
+            text-decoration: none;
+            &:hover {
+              text-decoration: underline;
+              color: $anchor-hover;
+            }
+          }
+        }
+      }
+      ol {
+        padding-left: 2rem;
+        margin-bottom: 1rem;
+        li {
+          font-size: 1.8rem;
+          color: $text-body;
+          line-height: 1.42857143;
+          list-style: decimal;
+          list-style-position: outside;
+        }
+      }
+    }
+    .article-right {
+      .link-list {
+        h3 {
+          border: none;
+          font-size: 2.4rem;
+          font-weight: bold;
+          color: $text-green;
+        }
+        ul {
+          margin: 0 0 2rem 0;
+          padding: 0 0 2rem 4rem;
+          border-bottom: 1px solid $accordion-border;
+          margin-bottom: 1rem;
+          padding-left: 4rem;
+          @include respond-to(desktop) {
+            margin-bottom: 3rem;
+            padding: 0 0 3rem 4rem;
+          }
+          li {
+            display: list-item;
+            list-style: disc;
+            list-style-position: outside;
+            margin-top: 0.6rem;
+            font-size: 1.8rem;
+            .field-link {
+              a {
+                font-size: 1.4rem;
+                text-transform: uppercase;
+                color: $text-body;
+                line-height: 1.42857143;
+                padding-left: 0;
+                &:hover {
+                  border-color: inherit;
+                }
+              }
+            }
+          }
+        }
+      }
+      .hubspot-form {
+        background-color: transparent;
+        .hs-form {
+          .hs-input {
+            min-width: 14.5rem;
+            border-width: 0.1rem;
+          }
+        }
+        .form-columns-1 {
+          .hs-richtext p {
+            width: 50%;
+          }
+        }
+      }
+    }
+    .related-articles-horizontal-view {
+      .copy-wrap {
+        h2 {
+          color: $text-green;
+          font-size: 2.4rem;
+          font-weight: normal;
+          margin: 4rem 0 1rem;
+        }
+      }
+      .body-copy {
+        h3 {
+          a {
+            color: $border-dark;
+            font-size: 1.6rem;
+            text-decoration: none;
+            font-weight: 600;
+            text-transform: capitalize;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+    .hero {
+      padding: 0;
+    }
+  }
+}

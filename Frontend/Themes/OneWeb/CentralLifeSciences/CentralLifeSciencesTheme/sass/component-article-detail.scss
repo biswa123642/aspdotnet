@@ -1,0 +1,238 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.article-left {
+  > div {
+    margin: 30px !important;
+  }
+  .content {
+    padding: 0;
+    .field-content {
+      a {
+        color: $text-basic;
+      }
+    }
+  }
+  .component {
+    &.hero {
+      &.banner-adjustable-height {
+        margin-top: 0;
+        .banner-wrapper {
+          .banner-mobile-image {
+            img {
+              height: auto;
+            }
+          }
+        }
+        &:nth-child(1) {
+          img {
+            margin-bottom: 3rem;
+          }
+        }
+        .banner-wrapper {
+          display: flex;
+          flex-direction: column-reverse;
+          .banner-mobile-image {
+            img {
+              @include respond-to(all-mobile) {
+                object-position: center;
+                margin-bottom: 20px;
+              }
+            }
+          }
+        }
+        .banner-content-wrapper {
+          max-width: 100%;
+          position: static;
+          transform: translate(0);
+          padding: 0;
+
+          .hero-banner-title {
+            @include ff-ernestine-pro-font-stack();
+            color: $dark-green;
+            font-weight: 600;
+            font-size: 2rem;
+            line-height: 25px;
+            margin: 2rem 0 1rem;
+            @include respond-to(desktop) {
+              font-size: 5rem;
+              line-height: 61px;
+            }
+          }
+          .hero-banner-description {
+            @include ff-ernestine-pro-font-stack();
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: $dark-green;
+            line-height: 2.2rem;
+            margin-bottom: 2rem;
+            @include respond-to(desktop) {
+              font-size: 3rem;
+              line-height: 3.6rem;
+            }
+          }
+        }
+        .inner-container {
+          display: block !important;
+          position: static;
+          transform: translate(0);
+        }
+      }
+    }
+  }
+  h1 {
+    @include ff-ernestine-pro-font-stack();
+    color: $dark-green;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    @include respond-to(desktop) {
+      font-size: 5rem;
+      line-height: 61px;
+    }
+  }
+  h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: $dark-green;
+    margin: 2rem 0 1rem;
+    line-height: 3.6rem;
+    @include respond-to(desktop) {
+      font-size: 3rem;
+    }
+  }
+  p {
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 26px;
+    color: $text-basic;
+    @include respond-to(desktop) {
+      font-size: 2rem;
+      line-height: 28px;
+    }
+  }
+  ul {
+    margin: 0.5rem 0 1.5rem;
+    li {
+      font-size: 2rem;
+      @include fieldwork-hum-font-stack();
+      color: $text-basic;
+      line-height: 2.8rem;
+      padding: 0px 0px 0px 36px;
+      margin-bottom: 2.6rem;
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 5px;
+        width: 1.6rem;
+        height: 1.6rem;
+        display: inline-block;
+        border-radius: 5px;
+        background-color: $heading-color-secondary;
+      }
+    }
+  }
+}
+
+.article-right {
+  > div {
+    background-color: $light-green;
+    margin: 30px !important;
+    padding-top: 35px;
+  }
+  .linked-thumbnail {
+    &.quick-links {
+      padding-left: 15px;
+      background-color: $light-green;
+      margin-bottom: 15px;
+      li {
+        list-style: none;
+      }
+      h3 {
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 36px;
+        @include ff-ernestine-pro-font-stack();
+        color: $dark-green;
+        @include respond-to(desktop) {
+          font-size: 3rem;
+        }
+      }
+      .QuickLink-Style {
+        a {
+          color: $dark-green;
+          font-size: 1.4rem;
+          @include fieldwork-hum-font-stack();
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  ul {
+    padding-left: 30px;
+    position: relative;
+    li {
+      list-style: none;
+      margin-bottom: 10px;
+      &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 16px;
+        height: 16px;
+        border-radius: 5px;
+        background-color: $dark-green;
+        margin-top: 5px;
+      }
+    }
+  }
+  .content {
+    &.variant-2 {
+      &.related-articles {
+        h3 {
+          font-size: 2rem;
+          font-weight: 600;
+          line-height: 36px;
+          @include ff-ernestine-pro-font-stack();
+          color: $dark-green;
+          @include respond-to(desktop) {
+            font-size: 3rem;
+          }
+        }
+        a {
+          font-size: 1.4rem;
+          text-decoration: none;
+          color: $dark-green;
+          font-weight: 400;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  .rich-text {
+    h3 {
+      font-size: 2rem;
+      line-height: 36px;
+      color: $dark-green;
+      font-weight: 600;
+      @include respond-to(desktop) {
+        font-size: 3rem;
+      }
+    }
+    h4 {
+      font-size: 2rem;
+      line-height: 28px;
+      color: $dark-green;
+      font-weight: 500;
+      @include fieldwork-hum-font-stack();
+      text-transform: uppercase;
+      margin-bottom: 0;
+    }
+  }
+}

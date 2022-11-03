@@ -1,0 +1,112 @@
+@import "abstracts/mixins";
+@import "abstracts/vars";
+
+.component {
+  &.hero {
+    &.banner-adjustable-height {
+      .bg-turquoise {
+        background-color: $bg-banner-turquoise;
+      }
+
+      .bg-grey {
+        background-color: $slider-bg-gray;
+      }
+
+      .bg-dark-green {
+        background-color: $bg-dark-green;
+      }
+
+      .bg-red {
+        background-color: $bg-dark-red;
+      }
+
+      .bg-light-green {
+        background-color: $bg-light-green;
+      }
+
+      .bg-blue {
+        background-color: $bg-dark-blue;
+      }
+
+      .bg-brown {
+        background-color: $dark-brown;
+      }
+
+      .bg-light-blue {
+        background-color: $bg-light-blue;
+      }
+
+      .bg-skyblue {
+        background-color: $bg-skyblue;
+      }
+
+      .bg-metalicgrey {
+        background-color: $bg-metalic-grey;
+      }
+
+      // overlay{
+      .banner-content-wrapper {
+        &.right-align {
+          &.disable-overlay {
+            background-color: transparent;
+          }
+        }
+      }
+
+      .banner-content-wrapper {
+        &.right-align {
+          &.green-overlay {
+            background-color: $overlay-green;
+          }
+        }
+      }
+
+      .banner-content-wrapper {
+        &.right-align {
+          &.turquoise-overlay {
+            background-color: $overlay-blue;
+
+          }
+        }
+      }
+
+      .banner-content-wrapper {
+        &.right-align {
+          &.brown-overlay {
+            background-color: $overlay-brown;
+
+
+          }
+        }
+      }
+
+
+      .banner-content-wrapper {
+        &.right-align {
+          &.dark-brown-overlay {
+            background-color: $overlay-red;
+
+          }
+        }
+      }
+
+      .banner-content-wrapper {
+        &.right-align {
+          &.dark-overlay {
+            background-color: $overlay-darkgreen;
+
+          }
+        }
+      }
+
+      .banner-content-wrapper {
+        &.right-align {
+          &.black-overlay {
+            background-color: $black-overlay;
+
+          }
+        }
+      }
+    }
+  }
+}

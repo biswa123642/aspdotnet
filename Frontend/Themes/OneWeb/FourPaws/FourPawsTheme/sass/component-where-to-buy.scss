@@ -1,0 +1,21 @@
+@import "abstracts/mixins";
+@import "abstracts/vars";
+
+.where-buy-section {
+  .nav-tabs-wrapper-inner {
+    ul.nav-tabs {
+      li {
+        a {
+          border-bottom: 2px solid $bg-blue-active;
+          color: $bg-blue-active;
+          &.active {
+            background-color: $bg-blue-active;
+            border: 1px solid $bg-blue-active;
+            border-bottom: 2px solid $bg-blue-active;
+            border-radius: 4px 4px 0 0;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,165 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+/*===========================================
+    Search  component
+  =============================================*/
+main {
+  .search-box {
+    width: 100%;
+    padding: 1.5rem;
+
+    .search-holder {
+      &.global-search-wrapper {
+        .sxa-btn {
+          a.clear-filter-btn {
+            width: 13.2rem !important;
+            height: 4.4rem !important;
+            line-height: 1;
+          }
+        }
+        .global-search {
+          .search-wrapper {
+            .search-input-wrapper {
+              position: relative;
+
+              .search-input {
+                position: relative;
+                right: auto;
+                width: 100%;
+              }
+
+              .custom-search-box-button {
+                background-image: url("../images/search-icon.svg");
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*===========================================
+    Search  filter
+  =============================================*/
+.component {
+  #article-type,
+  #others-type,
+  #product-type,
+  #searchfilter {
+    &.product-result-tiles {
+      h3 {
+        line-height: 1;
+        color: $dark-green;
+        border-color: $border-gray;
+
+        .link-btn {
+          @include fieldwork-hum-font-stack();
+          font-weight: 700;
+          font-size: 2.8rem;
+          color: inherit;
+          display: inline-block;
+          vertical-align: top;
+          padding: 0;
+          position: relative;
+
+          &[aria-expanded]::after,
+          &[aria-expanded]::before {
+            background: $dark-green;
+          }
+        }
+      }
+
+      .card-body {
+        .product-list {
+          li {
+            margin-bottom: 3rem;
+          }
+
+          .cgp-product {
+            padding: 1rem;
+            border: 1px solid #bbb;
+
+            .body-copy {
+              h3 {
+                color: $color-secondary;
+                font-size: 1.4rem;
+                font-weight: 400;
+                line-height: 1.428;
+                text-align: center;
+                padding: 1rem 0;
+                margin: 0;
+
+                a {
+                  color: inherit;
+                  font-size: inherit;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.article-listing {
+    #article-type {
+      &.product-result-tiles {
+        .card-body {
+          .product-list {
+            .cgp-product {
+              border: none;
+              padding: 0;
+
+              &:hover {
+                .body-copy {
+                  h3 {
+                    color: $white;
+                  }
+                }
+              }
+
+              .body-copy {
+                h3 {
+                  font-size: 2.8rem;
+                  font-weight: 500;
+                  color: $dark-green;
+                  text-align: left;
+
+                  a {
+                    font-size: inherit;
+                    font-weight: inherit;
+                    color: inherit;
+
+                    &:hover {
+                      color: $white;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    #searchfilter {
+      .facet-wrapper {
+        .form-check-label {
+          font-size: 1.8rem;
+          font-weight: 600;
+          @include fieldwork-hum-font-stack();
+        }
+      }
+    }
+  }  
+}
+@include respond-to(all-mobile){
+  .search-wrapper{
+    .search-input-wrapper{
+      .search-input {
+        top: 0;
+      }
+    }
+  }
+} 

@@ -1,0 +1,115 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.product-documents-list {
+        padding: 1.5rem;
+
+        .short-product-list {
+            .mobile-carousel:not(.slick-initialized){
+                .short-product-list-wrapper{
+                    &:first-child{
+                        padding-left: 0;
+                    }
+                }
+            }
+
+            .component-content h3 {
+                padding: 0 1.5rem;
+                font-size: 2rem;
+            }
+
+            .short-product-list-wrapper {
+                width: 100%;
+                margin-bottom: 1.5rem;
+               
+
+                .product-item {
+                    a {
+                        text-decoration: none;
+                        display: block;
+                        margin: 0;
+                        max-width: 100%;
+
+                        &:hover {
+                            transform: none;
+                        }
+
+                        h4 {
+                            text-transform: uppercase;
+                            background-color: $light-green;
+                            padding: 1.2rem;
+                            min-width: 85px;
+                            border-radius: 10px;
+                            font-weight: bold;
+                            color: $primary-color;
+                            font-size: 1.6rem;
+                            margin: 0;
+                            line-height: 1.428;
+                            &:hover{
+                                text-decoration: underline;
+                            }
+                        }
+
+                        img {
+                            border: none;
+                            width: 80%;
+                            margin: auto;
+                        }
+                    }
+                }
+
+                @include respond-to(tab) {
+                    width: initial;
+
+                    &.col-md-3 {
+                        flex: 0 0 100%;
+                        max-width: 100%;
+                    }
+
+                }
+
+                @include respond-to(desktop) {
+                    width: initial;
+
+                    &.col-md-3 {
+                        flex: 0 0 25%;
+                        max-width: 25%;
+                    }
+
+                    .product-item {
+                        a {
+                            img {
+                                border: none;
+                                width: 100%;
+                                margin: auto;
+                            }
+                        }
+                    }
+
+                }
+
+            }
+
+            .mobile-carousel {
+                margin: 0;
+            }
+        }
+
+        &:not(.pdf-documents-list) {
+            .short-product-list {
+                .short-product-list-wrapper {
+                    .product-item a {
+                        h4 {
+                            background-color: transparent;
+                            font-weight: normal;
+                            text-transform: initial;
+                            line-height: 1.1;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

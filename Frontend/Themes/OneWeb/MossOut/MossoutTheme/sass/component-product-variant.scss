@@ -1,0 +1,54 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "base/fonts/fonts";
+.component {
+  &.product-variant {
+    @include respond-to(extra-largedesktop){
+      padding-right: 20%;
+    }
+    .where-to-buy {
+      @include respond-to(tab) {
+        padding: 2rem 19.5rem;
+      }
+      @include respond-to(desktop) {
+        .ps-widget {
+          left: -18rem;
+        }
+      }
+      @include respond-to(extra-largedesktop) {
+        padding: 2rem 30.5rem;
+        .ps-widget {
+          left: -29rem;
+        }
+      }
+    }
+    h4 {
+      color: $secondary-color;
+      font-size: 1.8rem;
+    }
+    select {
+      border: 2px solid $select-border-color;
+      color: $secondary-color;
+      text-align: start;
+    }
+    .variant-description {
+      margin-bottom: 30px;
+      .score-lead {
+        @include Montserrat-font-stack();
+        color: $secondary-color;
+        font-size: 2.4rem;
+        font-weight: 900;
+        margin-bottom: 0.8em;
+        text-transform: uppercase;
+      }
+      ul {
+        padding-left: 4rem;
+        li {
+          font-size: 1.8rem;
+          @include Montserrat-font-stack();
+          list-style-type: disc;
+        }
+      }
+    }
+  }
+}

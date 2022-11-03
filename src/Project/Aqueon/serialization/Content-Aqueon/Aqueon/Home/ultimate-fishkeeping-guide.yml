@@ -1,0 +1,113 @@
+﻿---
+ID: "ed75db5c-2b67-4acb-b51a-a9c911a68efb"
+Parent: "47f9532d-09fb-4c04-87ea-74e05f095315"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/Aqueon/Home/ultimate-fishkeeping-guide"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{FF693B7D-921D-4C2B-89B5-4E7498EAFAA1}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{6078F589-26CF-4946-B678-19F6F620F602}"
+          p:before="*"
+          s:ds="{F42DE6A1-F709-4178-8BF5-115B6839C9A5}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B8C0EDB3F-8D1F-49CF-9F73-F2A177EB3C03%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-3-1/container-4"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{600DBE93-24D7-47B4-B667-B88AD7472B21}"
+          p:after="r[@uid='{6078F589-26CF-4946-B678-19F6F620F602}']"
+          s:ds="{0DFF5FD1-6B8E-4E17-ACF4-4C79F56FA539}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B8C0EDB3F-8D1F-49CF-9F73-F2A177EB3C03%7D&amp;Styles=%7BBB969ED1-37A3-4E5F-8F0A-5F9F55BB6D75%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-2-1/container-3"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{9E6F5233-8C2D-4AAB-9C42-3164459CD465}"
+          p:after="r[@uid='{600DBE93-24D7-47B4-B667-B88AD7472B21}']"
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%3E&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters&amp;FieldNames=%7BDC8324B2-802B-4D36-8D62-C4F2449DFA02%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-1-1/container-2" />
+        <r
+          uid="{B5A3D042-EF45-4066-8E60-15533C7AA4C4}"
+          p:after="r[@uid='{9E6F5233-8C2D-4AAB-9C42-3164459CD465}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-3-1" />
+        <r
+          uid="{E5E9CAE8-8402-46A7-9009-B3661EBE9F74}"
+          p:after="r[@uid='{B5A3D042-EF45-4066-8E60-15533C7AA4C4}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{D67E1B36-C1EB-4EF7-9937-10623B24C401}"
+          p:after="r[@uid='{E5E9CAE8-8402-46A7-9009-B3661EBE9F74}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{240B0257-68DC-4BCE-BCA4-0BB5A9922B5F}"
+          p:after="r[@uid='{D67E1B36-C1EB-4EF7-9937-10623B24C401}']"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+        <r
+          uid="{6A2DD455-EBEC-401F-89B5-5F9CFFF08202}"
+          p:after="*[1=2]"
+          s:ds="{463C2680-DA02-42F9-9A02-F97BD6368ABC}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B08FC33E5-D90D-44F4-A397-75C38C0AD0D5%7D&amp;Styles=%7B66DA64FC-456F-4AF6-A8D7-E5940EA20A30%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220920T064803Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Ultimate Fishkeeping Guide
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Ultimate Fishkeeping Guide
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Ultimate Fishkeeping Guide
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "65387ac3-1e90-4e02-8a99-4d3f19197829"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221004T110948Z

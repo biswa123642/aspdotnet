@@ -1,0 +1,76 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.store-locator {
+    .component-title {
+      h3 {
+        color: $text-green;
+        font-size: 3rem;
+        border: none;
+        padding-bottom: 0.9rem;
+        margin: 4rem 0 2rem;
+      }
+    }
+    .store-locator-info {
+      .search-store-form {
+        #zipcode {
+          height: 3.1rem;
+          width: 31.5%;
+          text-align: left;
+          border-width: 0.2rem;
+          padding: 0.5rem;
+          border-radius: 0;
+        }
+        #radius {
+          margin-right: 0;
+          margin-left: 0;
+          border-radius: 0;
+          height: 3.1rem;
+          border-width: 0.2rem;
+          option{
+            color: $text-green;
+          }
+        }
+        .btn-default {
+          background-color: $bg-basic-color-active;
+          margin-left: 0;
+          margin-top: 1.2rem;
+          min-width: 11.8rem;
+          height: 3.5rem;
+          line-height: 3.5rem;
+          border: none;
+          color: $bg-black;
+          font-weight: 900;
+          display: inline;
+          border-radius: 1.1rem;
+          font-size: 1.4rem;
+          padding: 0 0.9rem;
+        }
+      }
+      #search-result-list {
+        .store-marker {
+          color: inherit;
+        }
+        .store-info {
+          h4 {
+            color: $text-body;
+            font-size: 1.8rem;
+            font-weight: 400;
+            margin: 1rem 0;
+          }
+          .distance {
+            font-size: 1.4rem;
+            text-align: right;
+          }
+          .directionsText {
+            float: right;
+            color: $anchor;
+            margin-left: 1rem;
+          }
+        }
+      }
+    }
+  }
+}

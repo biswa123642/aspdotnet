@@ -1,0 +1,34 @@
+﻿---
+ID: "46b113bd-6aba-4ab9-8087-f63f7a8c6fa5"
+Parent: "9c846463-fb00-4396-bfc7-6527fddce434"
+Template: "e229ce6c-561d-41d9-b521-efbf47d00b6c"
+Path: /sitecore/content/OneWeb/Adams/Data/Footer Global Data/About Us
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220616T090540Z
+    - ID: "2d366fb9-cb2f-48ab-bafa-c29c581934c5"
+      Hint: Link
+      Value: |
+        <link text="About Us" anchor="" linktype="internal" class="" title=""  querystring="" id="{C29BCE89-BD91-434C-B2FA-2CE130DE7C1E}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "997d8372-50eb-4c9a-8217-42fa8a8fd688"
+    - ID: "b6784c02-1bfd-4ff8-951e-8fef2cdf0739"
+      Hint: HasSubMenu
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220616T091051Z

@@ -1,0 +1,77 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.sds-labels {
+        .sds-title {
+            @include nunito-sans();
+            font-size: 4rem;
+            color: $black;
+            font-weight: 900;
+        }
+
+        table {
+            border: 1px solid #ccc;
+
+            thead {
+
+                th {
+                    background-color: $thead-color;
+                    color: $white;
+                    padding: 1rem 2rem;
+                    font-size: 1.8rem;
+                    line-height: 2.4rem;
+
+                    &:first-child,
+                    &:last-child {
+                        border-radius: 0;
+                    }
+                }
+            }
+
+            tbody {
+                tr {
+                    border-bottom: 1px solid #ccc;
+
+                    &:nth-child(odd) {
+                        background-color: $row-grey;
+                    }
+
+                    &:nth-child(even) {
+                        background-color: $row-white;
+                    }
+
+                    td {
+                        background-color: transparent;
+                        line-height: 3.2rem;
+                        padding: 9px 15px;
+                    }
+                }
+            }
+
+            .pdf-icon {
+                background-image: url('../images/pdf.png');
+                background-repeat: no-repeat;
+                height: 25px;
+            }
+
+            @include respond-to(desktop) {
+
+                td,
+                th {
+                    width: auto;
+
+                    &:first-child {
+                        width: 30%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include respond-to(all-mobile){
+    td:empty {
+        display: none !important;
+      }
+}

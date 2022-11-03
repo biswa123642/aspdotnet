@@ -1,0 +1,52 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component-solution-finder {
+  .solution-finder {
+    .questionDiv {
+      background-color: $text-green;
+      background-position: center center;
+      position: relative;
+      padding: 1rem;
+      h3 {
+        font-size: 4rem;
+        font-weight: 900;
+      }
+      @include respond-to(desktop){
+        padding: 7rem;
+      }
+    }
+    .answersDiv {
+      .answer-div {
+        .answer-title {
+          color: $text-body;
+          font-size: 1.6rem;
+        }
+      }
+    }
+    .breadcrumb-bg {
+      background-color: $white;
+      margin-top: 4rem;
+      @include respond-to(desktop){
+        margin-top: 0;
+      }
+      .solution-finder-breadcrumb-container {
+        margin: 0 auto;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        max-width: 114rem;
+        .solution-finder-breadcrumb {
+          font-size: 1.5rem;
+          color: $text-body;
+          font-weight: 300;
+          margin: 2rem 0;
+          display: inline;
+          @include respond-to(desktop){
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+}

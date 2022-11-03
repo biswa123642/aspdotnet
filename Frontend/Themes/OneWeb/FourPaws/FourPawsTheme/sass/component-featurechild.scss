@@ -1,0 +1,42 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+&.featuredchildlist{
+    .component-content{
+        .featurechild{
+            .body-copy {
+                &:hover{
+                    background-color: $flip-rollover;
+                }
+                .sxa-btn{
+                    a{
+                        box-shadow: inset 10px 10px 40px $flip-rollover;
+                        background: transparent;
+                        &:hover{
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .featuredChildList-Variant1{
+        .inner-wrap{
+            padding: 0rem 2rem 3rem 2rem;
+            max-width: initial;
+            .component-description{
+                padding-bottom: 0;
+            }
+            .sxa-btn-primary{
+                a{
+                    color: $anchor;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+}

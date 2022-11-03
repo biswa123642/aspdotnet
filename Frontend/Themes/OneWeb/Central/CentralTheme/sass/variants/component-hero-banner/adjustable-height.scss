@@ -1,0 +1,140 @@
+&.banner-adjustable-height {
+    overflow: hidden;
+
+    .banner-image {
+        img {
+            min-height: 35rem;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    .inner-container {
+        display: block !important;
+    }
+
+    .hero-banner-description {
+        h3 {
+            font-weight: 800;
+            color: $dark-green;
+            @include fieldwork-hum-font-stack();
+            padding: 0;
+
+            @include respond-to(tab) {
+                font-size: 3.5rem;
+            }
+
+            @include respond-to(desktop) {
+                font-size: 2.8rem;
+            }
+
+            @include respond-to(extra-large-desktop) {
+                font-size: 2vw;
+            }
+        }
+
+        p,
+        li {
+            color: $dark-green;
+            font-size: 2.1rem;
+            line-height: 1.2;
+            font-weight: 500;
+            @include fieldwork-hum-font-stack();
+
+            @include respond-to(desktop) {
+                font-size: 1.96rem;
+            }
+
+            @include respond-to(extra-large-desktop) {
+                font-size: 1.5vw;
+            }
+        }
+
+        li {
+            margin-left: 3rem;
+            list-style: disc;
+            padding-bottom: 1.5rem;
+        }
+    }
+
+    .hero-banner-title {
+        position: absolute;
+        top: -25%;
+        font-size: 4.2rem;
+        font-weight: 600;
+        @include ff-ernestine-pro-font-stack();
+
+    }
+
+    .banner-content-wrapper {
+        padding: 4rem 1.5rem;
+    }
+
+    @media screen and (min-width:768px) and (max-width:991px) {
+        .banner-content-wrapper {
+            max-width: 100%;
+
+            &.right-align {
+                position: static;
+                transform: translate(0, 0);
+                left: initial;
+                top: initial;
+            }
+        }
+
+        .inner-container {
+            position: static;
+            transform: translate(0, 0);
+            left: initial;
+            top: initial;
+        }
+    }
+
+    @include respond-to(desktop) {
+        .hero-banner-title {
+            top: 5%;
+            left: 10%;
+            font-size: 3vw;
+            width: 25rem;
+        }
+
+        .banner-content-wrapper {
+            background-color: transparent !important;
+            position: static;
+            transform: translate(0, 0);
+            left: initial;
+            top: initial;
+        }
+
+        .inner-container {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: initial;
+            max-width: 100%;
+        }
+
+        .banner-content-wrapper {
+            max-width: 100%;
+            min-height: 35rem;
+
+            &.right-align {
+                position: relative;
+                transform: translate(0, 0);
+                left: initial;
+                top: initial;
+            }
+        }
+
+        .hero-banner-description {
+            background-color: #FFFFFFB0;
+            padding: 6rem 1.5rem;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 1rem;
+            width: 23%;
+
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+@import "base/fonts/fonts";
+
+main {
+  min-height: calc(100vh - 297px);
+}
+
+body {
+  @include Helvetica-font-stack();
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $text-blue-primary;
+}
+
+a {
+  color: $primary-button;
+}

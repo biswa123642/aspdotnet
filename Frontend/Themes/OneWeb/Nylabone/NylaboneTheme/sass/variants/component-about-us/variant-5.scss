@@ -1,0 +1,50 @@
+//back issues
+.back-issues {
+  max-width: 720px;
+  display: block;
+
+  .back-issues-content {
+    font-family: "canada-type-gibson", sans-serif;
+    text-align: left;
+    width: 100%;
+    padding: 15px;
+
+    h1 {
+      font-family: "canada-type-gibson", sans-serif;
+      font-weight: 600;
+      font-size: 2em;
+      text-align: left;
+    }
+  }
+}
+
+@include respond-to(desktop) {
+  .back-issues {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+
+    .back-issues-content {
+      width: 50%;
+      margin-top: 70px;
+      .lf-content-wrapper {
+        width: 80%;
+        padding-right: 50px;
+      }
+      .rt-content-wrapper {
+        border-left: 1px solid #0066cc;
+        padding-left: 96px;
+        height: 565px;
+        margin-left: 74px;
+      }
+    }
+   
+   
+  }
+}
+
+@include respond-to(tab) {
+  .back-issues {
+    max-width: 940px;
+  }
+}

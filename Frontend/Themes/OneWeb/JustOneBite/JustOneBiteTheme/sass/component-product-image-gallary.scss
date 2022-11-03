@@ -1,0 +1,20 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  &.product-image-gallery {
+    .image-placeholder {
+      width: 100%;
+      border: 2px #58595b solid;
+      background-color: $white-color;
+    }
+    .inner-wrap {
+      .image-container {
+        .product-tile {
+          border: 2px #58595b solid;
+          background-color: $white-color;
+        }
+      }
+    }
+  }
+}

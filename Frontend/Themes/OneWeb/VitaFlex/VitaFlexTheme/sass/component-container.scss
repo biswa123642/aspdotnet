@@ -1,0 +1,13 @@
+#content{
+  min-height: calc(100vh - 209px);
+}
+
+.container:not(.col-12) {
+    max-width: 1140px;
+  }
+  
+#wrapper {
+    margin: auto;
+}
+
+

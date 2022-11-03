@@ -1,0 +1,160 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+main {
+  min-height: calc(100vh - 214px);
+}
+
+body {
+  @include Yanone-font-stack();
+  font-size: 1.6rem;
+  line-height: $line-height;
+  color: $body-color;
+  background-color: $white;
+  -webkit-font-smoothing: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $anchor-primary;
+  font-weight: 700;
+  @include Arvo-font-stack();
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  &:hover {
+    color: $link-hover;
+    text-decoration: underline;
+  }
+}
+
+.component {
+  &.content {
+    line-height: $line-height;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $anchor-primary;
+      @include Yanone-font-stack();
+    }
+
+    h2 {
+      font-size: 2.2rem;
+      margin-top: 0;
+    }
+
+    h3 {
+      font-size: 2.4rem;
+    }
+
+    h4 {
+      font-size: 1.8rem;
+    }
+
+    p {
+      color: $para-color;
+      margin-bottom: 1rem;
+    }
+
+    img {
+      max-width: 30rem;
+      float: left;
+      padding-right: 3rem;
+      margin-bottom: 3rem;
+    }
+
+    a {
+      color: $link-color;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+        color: $link-hover;
+      }
+    }
+    li {
+      font-size: 1.6rem;
+      color: $para-color;
+    }
+    ul {
+      li {
+        list-style: disc;
+        margin-left: 4rem;
+      }
+      ul {
+        li {
+          list-style: circle;
+          list-style-position: inside;
+          margin-left: 6rem;
+        }
+      }
+    }
+    ol {
+      li {
+        list-style-position: initial;
+      }
+    }
+    sup {
+      line-height: 0;
+    }
+
+    table {
+      td {
+        border: 1px solid;
+      }
+    }
+
+    .product-title {
+      h1 {
+        font-size: 3.6rem;
+        color: $text-title-primary;
+        @include Arvo-font-stack();
+      }
+    }
+
+    &.category-title {
+      .product-title {
+        h1 {
+          font-size: 3rem;
+        }
+      }
+    }
+  }
+
+  &.title {
+    h1 {
+      font-size: 3.6rem;
+      color: $anchor-primary;
+      line-height: 1.1;
+      border-bottom: none;
+      cursor: auto;
+    }
+
+    .author-name {
+      color: $anchor-primary;
+      font-size: 1.6rem;
+      font-weight: 700;
+
+      span {
+        font-weight: 400;
+      }
+    }
+  }
+
+  &.custom-date {
+    .article-content-right {
+      color: $anchor-primary;
+      font-size: 1.6rem;
+      font-weight: 700;
+    }
+  }
+}

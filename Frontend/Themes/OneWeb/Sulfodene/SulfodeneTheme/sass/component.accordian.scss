@@ -1,0 +1,45 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  &.accordion {
+    .toggle-header {
+      .label {
+        padding: 1rem 0;
+      }
+
+      .component {
+        .field-heading {
+          font-size: 1.6rem;
+          @include mont-font-stack();
+          padding: 0 1.5rem;
+          font-weight: 600;
+          line-height: 1.728rem;
+          &::after,
+          &::before {
+            background: none;
+          }
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+
+    .toggle-content {
+      .component {
+        .field-content {
+          font-size: 1.6rem;
+          color: #2b2d42;
+          padding: 1rem 3rem;
+          ul {
+            li {
+              list-style-type: disc;
+            }
+          }
+        }
+      }
+    }
+  }
+}

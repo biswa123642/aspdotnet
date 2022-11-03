@@ -1,0 +1,96 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+.component {
+    &.feature-content-tiles {
+        &.variant-5 {
+            padding: 2rem 1.5rem;
+
+            .promo-tile {
+                padding-bottom: 3rem;               
+            }
+            .section-container{
+                .field-image {
+                    padding-bottom: 2.7rem;
+    
+                    img {
+                        border-radius: 100%;
+                        transition: all ease-in-out 100ms;    
+                        filter: drop-shadow(2px 1px 0 #c1c1c1) drop-shadow(-1px -1px 0 #c1c1c1);
+                    }
+                }
+                >.row{
+                    >div{
+                        &:hover {
+                            .field-image {
+                                img {
+                                    border-radius: 100%;
+                                    filter: drop-shadow(0px 0px 6px #000);
+                                }
+                            }
+            
+                        }
+                    }
+                }
+            }
+
+            .field-data {
+                text-align: center;
+                .sxa-btn {                    
+
+                    a {
+                        border: none;
+                        padding: 1.5rem 0;
+                        font-size: 2.5rem;
+                        font-weight: 700;
+                        color: $primary-color;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                p{
+                    text-align: left;
+                }
+                h2{
+                    font-size: 2.5rem;
+                    color: $green;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
+            }
+           @include respond-to(desktop){
+            .field-data {
+                width: 70%;
+                margin: auto;
+                .sxa-btn {
+                    text-align: center;
+
+                    a {
+                        border: none;
+                        padding: 1.5rem 0;
+                        font-size: 2.5rem;
+                        font-weight: 700;
+                        color: $primary-color;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+           }
+        }
+    }
+}
+
+.component{
+    &.feature-content-tiles.variant-5{
+        .row>.scLooseFrameZone{
+            .col-md-6,col,.col-lg-6{
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
+    }
+} 

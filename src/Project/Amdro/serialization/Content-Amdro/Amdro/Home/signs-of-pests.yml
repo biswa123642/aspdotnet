@@ -1,0 +1,81 @@
+﻿---
+ID: "dd2a01d4-5f65-4e10-af38-8e89b43b9130"
+Parent: "bdf3c1ae-ea7c-44c9-9121-370a36a240c1"
+Template: "b38986e8-884f-400d-a503-6379538fb556"
+Path: "/sitecore/content/OneWeb/Amdro/Home/signs-of-pests"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{7B5F2C3C-FD5B-4C2E-935F-14BBAC81B805}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 475
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{555F7670-22D1-4154-9E35-D385ECCDD6D6}"
+          p:before="*"
+          s:ds=""
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BCD668FC6-3540-465C-BD4D-8AC7ADA17355%7D&amp;Styles=%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/group-description-ph"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{3721E51E-22F5-48EE-AA27-190AC3221FCF}"
+          p:after="r[@uid='{555F7670-22D1-4154-9E35-D385ECCDD6D6}']"
+          s:ds=""
+          s:id="{C0AF3E6F-ADD6-4910-B7F2-34061B225E3C}"
+          s:par="SearchType=article&amp;NumberOfScrolls"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/article-loadmore"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{9CFC1E45-7337-498C-BD18-7A20EAB2DDC0}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{B697DA6F-D14C-49C4-859D-00F1F9F8AE98}"
+          s:par="ArticleListingFacetType=Page-Attributes&amp;GridSelection=col-lg-3&amp;FilterOrder=SameAsCMS&amp;CheckToLoadChildArticlesOnly=1&amp;HideSearchFilter=1&amp;HideDescriptionOnTiles&amp;SortDirection=asc&amp;SortingLookup=__updated_tdt&amp;Styles"
+          s:ph="/main/sxa-content-page/container-1/row-3-2"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220624T164356Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: IDENTIFYING SIGNS AND SYMPTOMS OF PEST DAMAGE 
+    - ID: "60e2c942-b696-452b-b9c7-b6f71d14b3c3"
+      Hint: SearchFacetAttributes
+      Value: "{F5B1167D-0108-45F7-AE9D-0CEA86B59934}"
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: <p>Correctly identifying and diagnosing the signs of pests is a critical step in halting further damage to your lawn or garden. Once you know what insect or rodent you are dealing with, follow our control tips to protect your lawn and landscape.</p>
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Identifying Signs and Symptoms of Pest Damage
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6ec2b55d-4d1d-4aa2-801b-936be2d3ef50"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220715T191612Z

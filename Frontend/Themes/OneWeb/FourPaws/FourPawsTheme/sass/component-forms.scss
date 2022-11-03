@@ -1,0 +1,47 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "styles/forms/*";
+
+.sxa-btn-secondary {
+    max-width: 19rem;
+    margin: auto;
+    padding: 2.5rem 0 1rem 0;
+    a {
+        font-weight: 700;
+        color: $white;
+        background: $anchor;
+        text-align: center;
+        margin: auto;
+        display: block;        
+        font-size: 1.2rem;
+        padding: 8px;
+        border-radius: 8px;
+        text-decoration: none;
+        &:hover{
+            background-color: $anchor-hover-light-blue;
+            color: $white;
+            text-decoration: none;
+        }
+    }
+}
+a.pink-btn{
+    background-color: $pink-cta;    
+    color: $white ;
+    font-size: 1.8rem; 
+    padding: 10px 16px;
+    cursor: pointer;  
+    display: block ;
+    min-width:75%;
+    font-family: $paragraph-font;
+    &:hover{
+        background-color: $pink-cta-hover-bg;
+        color: $white;
+        text-decoration: none;
+    }
+    @include respond-to (tab){
+        display: inline-block;
+        font-size: 2.8rem;
+    }
+}
+
+

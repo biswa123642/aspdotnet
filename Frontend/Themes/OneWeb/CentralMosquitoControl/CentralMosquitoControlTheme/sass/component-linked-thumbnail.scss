@@ -1,0 +1,29 @@
+.component {
+    &.linked-thumbnail {
+        ul {
+            max-width: 13rem;
+
+            li {
+                margin-bottom: 2rem;
+
+                .field-image {
+                    img {
+                        width: 100%;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.on-page-editor {
+    .component {
+        &.linked-thumbnail {
+            ul li {
+                width: 100%;
+            }
+        }
+    }
+
+}

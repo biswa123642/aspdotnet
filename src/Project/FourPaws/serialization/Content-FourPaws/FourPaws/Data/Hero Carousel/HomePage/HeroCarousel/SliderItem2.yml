@@ -1,0 +1,51 @@
+﻿---
+ID: "76d057ad-8d29-424b-8541-ec8066a87156"
+Parent: "43061ee9-2a71-4783-9573-d5cd8600c3ee"
+Template: "3c7c79e8-554d-46d9-bf1a-63da22a4ee6f"
+Path: /sitecore/content/OneWeb/FourPaws/Data/Hero Carousel/HomePage/HeroCarousel/SliderItem2
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "007ef8df-edb2-4a64-a736-7a408093d2f5"
+      Hint: SlideImageMobile
+      Value: |
+        <image mediaid="{6D536B81-C1BB-42DF-8ACD-E5F51BE94A60}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220524T135030Z
+    - ID: "3bfd4b9e-3049-4c8d-a9b5-6bebb83f895d"
+      Hint: SlideImage
+      Value: |
+        <image mediaid="{A9D3C638-2ED8-4EEB-9CF6-FABEA4949A69}" ></image>
+    - ID: "673ab889-05ad-4952-abe3-b145f6296383"
+      Hint: IsSlideCardCTAButton
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c72c03b9-2e16-43f2-a8d2-6f70a18b6a60"
+    - ID: "a8933445-15ca-4e23-b171-a33892eb0ef8"
+      Hint: SlideCardTitle
+      Value: Larger Size, Fresher Home
+    - ID: "b34e88f9-8800-43b1-92b5-029fbfae12e9"
+      Hint: SlideCardLogo
+      Value: |
+        <image mediaid="{B239E35E-42EE-4CA6-9DB6-3BC6D5440A6F}" ></image>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d691b058-6e52-4e4b-baae-a23aed9de6e0"
+      Hint: SlideCardSubText
+      Value: "Wee-Wee Pads with the Power of Febreze Freshness now offer even more coverage."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220628T105638Z
+    - ID: "e10d2e79-68cc-438a-a732-abf80f62be76"
+      Hint: SlideCardCTA
+      Value: |
+        <link linktype="external" text="LEARN MORE" url="/wee-wee-pads-with-febreze-freshness" anchor="" target="" />

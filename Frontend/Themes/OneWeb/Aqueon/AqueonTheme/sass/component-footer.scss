@@ -1,0 +1,118 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+#footer {
+  background: $text-primary;
+
+  .link-list {
+    display: flex;
+    justify-content: center;
+    h3 {
+      color: $white;
+      font-size: 2rem;
+      font-weight: 700;
+      text-transform: none;
+    }
+    ul {
+      li {
+        .field-link {
+          text-align: center;
+          a {
+            font-size: 1.5rem;
+            font-weight: 500;
+            opacity: 1;
+            @include Source-sans-pro-font();
+            &:hover {
+              border-bottom: none;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .utility-navigation {
+    &.brand-listing {
+      .brand-img-container {
+        justify-content: center;
+        .inner-wrapper {
+          padding: 0 5px;
+          img {
+            height: 3.8rem;
+            max-width: 3.8rem;
+          }
+        }
+      }
+      &.brands-family {
+        .brand-img-container {
+          justify-content: center;
+          .inner-wrapper {
+            padding: 2rem;
+            img {
+              max-width: 11rem;
+              height: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .component {
+    &.rich-text {
+      .component-content {
+        h3 {
+          font-size: 2rem;
+          text-align: center;
+          margin: 5px 0 10px;
+          a {
+            color: $white;
+            text-decoration: none;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+        p {
+          color: $white;
+          font-size: 1.5rem;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  @include respond-to(desktop) {
+    .link-list {
+      justify-content: flex-start;
+      ul {
+        li {
+          .field-link {
+            text-align: left;
+          }
+        }
+      }
+    }
+
+    .utility-navigation {
+      &.brand-listing {
+        .brand-img-container {
+          justify-content: flex-start;
+        }
+      }
+    }
+
+    .component {
+      &.rich-text {
+        .component-content {
+          h3,
+          p {
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+}

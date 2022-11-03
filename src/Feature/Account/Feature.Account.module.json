@@ -1,0 +1,20 @@
+{
+	"namespace": "Feature.Account",
+	"references": [ "*Foundation.*" ],
+	"items": {
+		"includes": [
+			{
+				"name": "Renderings",
+				"path": "/sitecore/layout/Renderings/Feature/OneWeb/Account",
+				"allowedPushOperations": "createUpdateandDelete",
+				"scope": "itemAndDescendants"
+			},
+			{
+				"name": "AccountTemplates",
+				"path": "/sitecore/templates/Feature/OneWeb/Account Login",
+				"allowedPushOperations": "createUpdateandDelete",
+				"scope": "itemAndDescendants"
+			}
+		]
+	}
+}

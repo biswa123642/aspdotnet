@@ -1,0 +1,89 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+
+
+ &.variant-3 {
+
+    &.related-articles-horizontal-view{
+      
+   .copy-wrap{
+    h2{
+        @include Lilita-font-stack();
+        font-size:3.3rem;
+        color:$light-black;
+        font-weight: 500;
+
+    }
+   }
+        .inner-wrap{ 
+            padding:2.5rem;
+            text-align: center;
+
+            .body-copy {
+                text-align:center;
+                display:block;
+                transition: box-shadow ease-in-out 200ms;
+                background-color:$white;
+                padding:.9rem;
+
+                h3{
+
+                    font-weight:600;
+                    @include Lilita-font-stack();
+                    min-height:5rem; 
+
+                    a{
+                        text-decoration:none;
+                        color:$light-black;
+                        font-size :2.8rem;
+                        font-weight:500;
+                        text-transform: uppercase;
+                        @include Lilita-font-stack();
+                        &:hover{   
+
+                            color:$error-page-link;
+                            text-decoration: underline;
+                        }
+                       
+                    } 
+                }
+            }
+            &:hover {
+            .body-copy {
+                box-shadow: 0 20px 40px -30px black;
+            }
+            }
+        }
+        @include respond-to(desktop) {
+       .inner-wrap{
+        text-align: inherit;
+       }
+          }
+    }
+
+    
+ }
+&.variant-2{
+ &.related-articles{
+
+.inner-wrap{ 
+
+    h3{
+        font-weight:700;
+      padding-bottom:3rem;
+    }
+        ul{
+            margin-left:.5rem; 
+    
+            li{
+                list-style-type: disc;  
+            } 
+        }
+    } 
+}
+ 
+}
+}

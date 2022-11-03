@@ -1,0 +1,77 @@
+﻿---
+ID: "cf38b70c-c314-48a7-9d40-c9c06eea7c58"
+Parent: "3c2ccce6-6dc8-4816-a20b-8551b44e446c"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Related Products and Articles/Related Products/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    {{ RenderingClass = sc_parameter 'RenderingClass' }}
+        {{ IsCarousel = sc_parameter 'IsMobileCarousel' }}
+        {{ ShowDescription = sc_parameter 'ShowDescription'}}
+        {{ Align = i_item.RelatedProductAlignment.raw}}
+        {{ related_items = sc_followmany i_item "RelatedProducts"}}
+        {{IsDesktopCarousel =  sc_parameter 'IsDesktopCarousel'}}
+        {{IsMobileCarouselClass = ""}}
+        {{IsDesktopCarouselClass= ""}}
+        {{ if related_items | array.size > 0 }}
+            {{if IsCarousel == 1 }}
+                {{IsMobileCarouselClass = "is-mobile-carousel"}}
+            {{end}}
+            {{if IsDesktopCarousel  == 1}}
+                {{IsDesktopCarouselClass = "is-desktop-carousel"}}   
+            {{end}}
+            <div class="popular-products {{IsMobileCarouselClass}} {{IsDesktopCarouselClass}}">
+                {{if i_item.RelatedProductsLabel != ""}}
+                    <h3 class="field-relatedproductslabel">{{i_item.RelatedProductsLabel.raw}}</h3>
+                    {{end}}
+                        <div class="inner-wrap">
+                            <div class="row">
+                                {{ for child in related_items}}
+                                    {{ if child != null}}
+                                        <div class="product-card col-12 {{Align}} {{ RenderingClass }}">
+                                                <div class="content-wrap">
+                                                        <div class="image-holder">
+                                                            <a href="{{child.url}}" class="product-url">{{sc_field child "DesktopImage"}}</a>
+                                                        </div>
+                                                        <div class="body-copy">
+                                                            <h3><a href="{{child.url}}" class="field-title">{{child.Title.raw}}</a></h3>
+                                                                {{if ShowDescription == 1 && child.Content != ""}}
+                                                                <p>{{sc_field child "Content"}}</p>
+                                                                {{end}}
+                                                        </div>
+                                                </div>
+                                        </div>
+                                    {{end}}
+                                {{end}}
+                            </div>
+                        </div>
+                </div>
+        {{end}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220321T134844Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "63e8942d-b909-49e1-8dde-6fc6e32e6a69"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221021T063356Z

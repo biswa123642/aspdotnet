@@ -1,0 +1,93 @@
+﻿---
+ID: "c26f9dde-04d9-4129-9a7e-9bf3eae49d08"
+Parent: "bdf3c1ae-ea7c-44c9-9121-370a36a240c1"
+Template: "b38986e8-884f-400d-a503-6379538fb556"
+Path: /sitecore/content/OneWeb/Amdro/Home/learn
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{8B970765-A2D5-46A0-8A61-DA94FDD79225}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{5E454829-1273-418A-99A2-F7C87368473A}"
+          p:before="*"
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%3E&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B45CEBBAE-B6CE-497E-91E7-3A2D10760A37%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/container-1" />
+        <r
+          uid="{896D97DA-54DC-4248-9E08-E5817FA44630}"
+          p:after="r[@uid='{5E454829-1273-418A-99A2-F7C87368473A}']"
+          s:ds=""
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BCD668FC6-3540-465C-BD4D-8AC7ADA17355%7D&amp;Styles=%7B8D38663D-4028-4440-96C6-BCAA6062E23B%7D%7C%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/container-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{835EA6F2-22DC-4CD4-8848-A3EBE7F45931}"
+          p:after="r[@uid='{896D97DA-54DC-4248-9E08-E5817FA44630}']"
+          s:ds=""
+          s:id="{B697DA6F-D14C-49C4-859D-00F1F9F8AE98}"
+          s:par="ArticleListingFacetType=Topics-and-Types&amp;GridSelection=col-lg-4&amp;FilterOrder=SameAsCMS&amp;CheckToLoadChildArticlesOnly=1&amp;HideSearchFilter&amp;HideDescriptionOnTiles&amp;SortDirection=asc&amp;SortingLookup=__updated_tdt&amp;Styles=%7BFCA63CD5-CFCB-413B-872E-307FD9F3DD60%7D"
+          s:ph="/main/container-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{2A9A3E63-0826-4E6B-A874-07285AAAB059}"
+          p:after="r[@uid='{835EA6F2-22DC-4CD4-8848-A3EBE7F45931}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+        <r
+          uid="{9CD3727B-19C1-4D35-8900-C4A74ABFBA68}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{C0AF3E6F-ADD6-4910-B7F2-34061B225E3C}"
+          s:par="SearchType=article&amp;NumberOfScrolls=2"
+          s:ph="/main/container-1/article-loadmore"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220624T085418Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: BLOG
+    - ID: "60e2c942-b696-452b-b9c7-b6f71d14b3c3"
+      Hint: SearchFacetAttributes
+      Value: 
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: "<p>From killing fire ants to controlling carpenter bees, we have how-to articles, videos, and expert tips to help win the battle against invading pests.</p>"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Resources to Protect Your Home & Lawn From Pests
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9d6c11ad-ab87-4e76-b456-f68b878a1b8c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220726T072900Z

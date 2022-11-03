@@ -1,0 +1,130 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.product-details {
+    &.variant-4 {
+      .product-wrapper {
+        h1 {
+          font-size: 3.1rem;
+          color: $primary-color;
+          text-transform: none;
+          @include Ubuntu-font-stack();
+        }
+        .body-copy {
+          p {
+            color: $body-color;
+          }
+        }
+      }
+    }
+  }
+
+  &.productimage {
+    .image-placeholder {
+      border: none;
+    }
+    .inner-wrap {
+      .image-container {
+        .field-image {
+          img {
+            border: 1px solid #ddd;
+          }
+        }
+      }
+    }
+  }
+
+  &.ps-widget[ps-sku] {
+    margin: 3rem 1.5rem;
+    max-width: fit-content;
+  }
+
+  &.product-variant {
+    select {
+      background: #ddd;
+      color: $body-color;
+      font-size: 1.6rem;
+    }
+    ul {
+      padding-inline-start: 4rem;
+      li {
+        font-size: 1.6rem;
+        list-style: disc;
+        line-height: $line-height;
+      }
+    }
+
+    .product-description-accordion {
+      .panel {
+        .panel-heading {
+          h4 {
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+            padding: 1.2rem 0;
+            margin: auto;
+            a {
+              color: $body-color;
+              @include Ubuntu-font-stack();
+              &:hover {
+                color: $primary-color;
+              }
+
+              &::after {
+                content: ">";
+                float: right;
+                font-size: 2rem;
+              }
+            }
+            a.collapsed {
+              &::after {
+                content: "^";
+              }
+            }
+          }
+        }
+        .panel-body {
+          padding: 1.5rem;
+        }
+      }
+    }
+
+    .dimensions,
+    .weight {
+      margin: 2rem 0;
+      h4 {
+        @include Ubuntu-font-stack();
+        color: #565656;
+        font-weight: 600;
+      }
+    }
+
+    .variant-id {
+      margin: 2rem 0;
+      p {
+        display: flex;
+        flex-direction: column;
+        font-weight: 600;
+        color: #565656;
+        @include Ubuntu-font-stack();
+
+        span {
+          font-weight: 400;
+          @include Roboto-font-stack();
+        }
+      }
+    }
+  }
+
+  @include respond-to(desktop) {
+    &.product-details {
+      &.variant-4 {
+        .product-wrapper {
+          h1 {
+            font-size: 4.4rem;
+          }
+        }
+      }
+    }
+  }
+}

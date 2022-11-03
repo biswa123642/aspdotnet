@@ -1,0 +1,80 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &content,
+    &.rich-text {
+        .error-404 {
+            font-size: 7.5rem;
+            font-weight: 700;
+            display: inline-block;
+            color: #fcfafa;
+            background: #7d716d;
+            padding: 0px 20px;
+        }
+        .youre-trapped {
+            color: $secondary-color;
+            z-index: 1;
+            font-size: 4.9rem;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+        .site-paragraph-large {
+            line-height: 1;
+            font-weight: 300;
+            color: $primary-color;
+            font-size: 2.4rem;
+        }
+        ul li {
+            font-size: inherit;
+        }
+        .ps-widget[ps-sku],
+        .ps-widget[data-ps-sku] {
+            margin-left: 0;
+        }
+    }
+
+    /*============================================
+            Basic content list style
+    ==============================================*/
+    &.linked-thumbnail.horizontal-list.quick-links,
+    &.content,
+    &.product-tab-accordion,
+    &.product-variant .variant-description,
+    &.rich-text {
+        ol:not([class]),
+        ul:not([class]) {
+            margin-top: 0;
+            margin-bottom: 10px;
+            padding: 0 0 0 4rem;
+            margin-left: 0;
+
+            li {
+                list-style-type: disc;
+                display: list-item;
+                list-style-position: outside;
+                font-size: 1.8rem;
+                margin-bottom: 0;
+                margin-left: 0;
+            }
+        }
+
+        ol:not([class]) {
+            li {
+                list-style: decimal;
+            }
+        }
+    }
+}
+@include respond-to(desktop) {
+    .component {
+        &.rich-text {
+            .error-404 {
+                font-size: 11.9rem;
+            }
+            .youre-trapped {
+                font-size: 8.3rem;
+            }
+        }
+    }
+}

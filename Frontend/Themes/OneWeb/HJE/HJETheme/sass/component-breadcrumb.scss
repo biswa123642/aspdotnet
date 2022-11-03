@@ -1,0 +1,34 @@
+.component {
+  &.breadcrumb {
+    display: block;
+    a {
+      font-size: 1.6rem;
+      font-weight: normal;
+      text-transform: capitalize;
+    }
+    ol {
+      margin: 0;
+      padding: 1.5rem 2.5rem;
+      font-size: 1.6rem;
+      .breadcrumb-item {
+        list-style: none;
+        color: black;
+        background-color: white;
+        border-radius: 4px;
+        margin: 0;
+        .navigation-title {
+          a {
+            &:hover {
+              text-decoration: underline;
+              color: inherit;
+            }
+          }
+        }
+        .separator {
+          font-weight: normal;
+          color: #cccccc;
+        }
+      }
+    }
+  }
+}

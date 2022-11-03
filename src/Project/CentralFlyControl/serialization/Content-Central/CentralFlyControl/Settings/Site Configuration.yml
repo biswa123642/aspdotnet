@@ -1,0 +1,60 @@
+﻿---
+ID: "69953938-00c0-497d-ac7a-4f1222bd52d8"
+Parent: "ea838848-a768-4cf1-9772-cc9632e49f89"
+Template: "77820909-82a2-4308-9e62-f54e15110ef3"
+Path: /sitecore/content/OneWeb/CentralFlyControl/Settings/Site Configuration
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "17683604-f1c3-47d0-ac8e-a94e0e2abcb1"
+  Hint: CheckToDisableProductsSection
+  Value: 1
+- ID: "668b8710-8e39-4b7b-87b5-3d7b68a13f5b"
+  Hint: Pagesize
+  Value: 8
+- ID: "7bea2506-c26d-4030-a5ef-e2bd2e8baa4c"
+  Hint: NoImage
+  Value: |
+    <image mediaid="{56B5AD4D-8604-4D4B-95A9-7364429C58A6}" />
+- ID: "e86000b0-2a64-4152-9178-6591115b5265"
+  Hint: BlogPostTopicAttributeLocation
+  Value: "{1C014F54-C3B9-4A53-B2AA-F9740F3405B2}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{45DE997D-E6EF-4843-82B9-9DEA69672CFC}"
+- ID: "f885a9cc-d0c1-431b-8afe-85b73f80db86"
+  Hint: ArticleTypeAttributeLocation
+  Value: "{90738EA6-6244-4B6C-AC69-ECE04E306CC1}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220915T115742Z
+    - ID: "37cbf5a7-e02d-42f8-9cd1-7bbf37e23773"
+      Hint: GAIdGlobal
+      Value: "UA-145039385-1"
+    - ID: "4762f3c8-900d-44ff-ba2e-d44e57e8f5fb"
+      Hint: BrandName
+      Value: ClariFly® Larvicide
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d2522d86-44f9-4d9a-9ad4-76ae6bd42a7d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c07be27b-fcb2-44eb-9162-a1e183ee79b9"
+      Hint: BrandLogo
+      Value: |
+        <image mediaid="{76B02A82-9269-42AF-BFE0-EED39EC8D5E9}" />
+    - ID: "d7d037d1-e378-40fe-a22d-7d9e73ba75a3"
+      Hint: GTMId
+      Value: "GTM-TQFKD88"
+    - ID: "d8692e4f-d312-490e-881b-84059310d731"
+      Hint: OneTrustCookiesID
+      Value: "07834b78-8133-4567-b7c6-a43c3bbefce9"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221013T131538Z

@@ -1,0 +1,67 @@
+﻿@using System.Web
+@using System
+@model CGP.Feature.SolutionFinder.Models.SolutionFinderSchema
+
+
+    
+    @if (Sitecore.Context.PageMode.IsExperienceEditorEditing)
+    {
+        <h3>Solution Finder</h3>
+        <p>
+            <div class="SolutionFinderDataToggle">
+                <div id="SolutionFinderDataToggleOpen"><label>Question Data: +</label></div>
+                <div id="SolutionFinderDataToggleClosed" style="display: none;"><label>Question Data: -</label></div>
+                <div id="SolutionFinderData" style="display: none;">
+                    @(!string.IsNullOrEmpty(Model.SolutionFinderJson) ? Model.SolutionFinderJson : string.Empty)
+                </div>
+            </div>
+            <div class="SolutionFinderDataToggle">
+                <div id="SolutionFinderDataToggleOpen"><label>AnswerTemplate Data: +</label></div>
+                <div id="SolutionFinderDataToggleClosed" style="display: none;"><label>AnswerTemplate Data: -</label></div>
+                <div id="SolutionFinderData" style="display: none;">
+                    @(!string.IsNullOrEmpty(Model.AnswerTemplate) ? Model.AnswerTemplate : string.Empty)
+                </div>
+            </div>
+            <div class="SolutionFinderDataToggle">
+                <div id="SolutionFinderDataToggleOpen"><label>BreadCrumbTemplate Data: +</label></div>
+                <div id="SolutionFinderDataToggleClosed" style="display: none;"><label>BreadCrumbTemplate Data: -</label></div>
+                <div id="SolutionFinderData" style="display: none;">
+                    @(!string.IsNullOrEmpty(Model.BreadCrumbTemplate) ? Model.BreadCrumbTemplate : string.Empty)
+                </div>
+            </div>
+            <div class="SolutionFinderDataToggle">
+                <div id="SolutionFinderDataToggleOpen"><label>QuestionTemplate Data: +</label></div>
+                <div id="SolutionFinderDataToggleClosed" style="display: none;"><label>QuestionTemplate Data: -</label></div>
+                <div id="SolutionFinderData" style="display: none;">
+                    @(!string.IsNullOrEmpty(Model.QuestionTemplate) ? Model.QuestionTemplate : string.Empty)
+                </div>
+            </div>
+        </p>
+    }
+    else
+    {
+        <div class="component-solution-finder ">
+          
+                    <div class="solution-finder-display" id="finderdata"
+                         data-ux-args="@(!string.IsNullOrEmpty(Model.SolutionFinderJson) ? Model.SolutionFinderJson : string.Empty)"
+                         data-breadcrumbtemplate="@(!string.IsNullOrEmpty(Model.BreadCrumbTemplate) ? Model.BreadCrumbTemplate : string.Empty)"
+                         data-questionTemplate="@(!string.IsNullOrEmpty(Model.QuestionTemplate) ? Model.QuestionTemplate : string.Empty)"
+                         data-answerTemplate="@(!string.IsNullOrEmpty(Model.AnswerTemplate) ? Model.AnswerTemplate : string.Empty)"
+                         data-ux-module="cgp_ui/Components/SolutionFinder"
+                         data-ux-state="pending">
+                        <div class="solution-finder">
+                            <div class="breadcrumb-bg">
+                                <div id="SolutionFinderBreadCrumbs" class="solution-finder-breadcrumb-container"></div>
+                            </div>
+
+
+                            <div id="SolutionFinderDisplay" class=" solutionFinderMainDisplay"></div>
+                            <div id="AnimatedDisplay" class=" solutionFinderAnimatedDisplay"></div>
+                        </div>
+                    </div>
+             
+        </div>
+    }
+
+
+

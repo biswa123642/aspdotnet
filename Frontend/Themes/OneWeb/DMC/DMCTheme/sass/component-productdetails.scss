@@ -1,0 +1,146 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component{
+    &.productimage{
+        .component-content{
+            .image-placeholder{
+                .slick-track{
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
+.component{
+    &.product-details{
+        &.variant-4{
+            &.product-description{
+                .product-wrapper{
+                    @include source-sans-pro-sans();
+                    h1{
+                        font-size: 2.8rem;
+                        font-weight: 700;
+                        @include respond-to(desktop) {
+                            font-size: 3.2rem;
+                        }
+                    }
+                    .body-copy{
+                        font-size: 1.7rem;
+                        ul{
+                            padding: 0 4rem 1.5rem;
+                            li{
+                                font-weight: 700;
+                                font-size: 1.7rem;
+                                color: $blue-heading;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.component{
+    &.product-variant{
+        select{
+            width: 75%;
+            background-size: 9%;
+            font-weight: 500;
+            @include source-code-pro-mono();
+            color: $select-color;
+            padding: 9px;
+            font-size: 1.6rem;
+            cursor: pointer;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+        .variant-description{
+            .product-description-accordion{
+                .panel{
+                    .panel-heading{
+                        .panel-title{
+                            a{
+                                @include source-code-pro-mono();
+                                font-size: 1.6rem;
+                                color: $blue-heading;
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.component{
+    &.link-button{
+        margin-top: 5rem;
+        .field-link{
+            a{
+                @include arial-sans();
+                background: $orange-heading;
+                color: #ffffff;
+                font-size: 2rem;
+                font-weight: bold;
+                padding: 16px;
+                width: 40%;
+                margin-top: 50px;
+            }
+        }
+    }
+}
+
+.component{
+    &.product-details{
+        &.variant-1{
+            &.related-products{
+                @include source-sans-pro-sans(); 
+                .popular-products{
+                    .field-relatedproductslabel{
+                        background-color: $search-color;
+                        font-size: 2.5rem;
+                        margin: 0px -15px;
+                        padding: 10px 40px;
+                        font-weight: 700;
+                        @include respond-to(desktop) {
+                            font-size: 3rem;
+                        }
+                    }
+                    .inner-wrap{
+                        .product-card{
+                            margin-top: 6.5rem;
+                            .body-copy{
+                                h3{
+                                    a{
+                                        @include arial-sans();
+                                        font-size: 1.3rem;
+                                        font-weight: 700;
+                                        color: $orange-heading; 
+                                    }
+                                }
+                            }
+                        }
+                        .row{
+                            &.slick-slider{
+                                .slick-arrow{
+                                    &:after{ 
+                                        color: $orange-heading;
+                                    }
+                                    &:before{ 
+                                        color: $orange-heading;
+                                    }
+                                }
+                            }
+                        }
+                        
+                    }
+                    
+                }
+            }
+        }
+    }
+}

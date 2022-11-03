@@ -1,0 +1,53 @@
+﻿---
+ID: "c32f55bc-3833-4c98-932b-15cc3153d116"
+Parent: "cc7c0c80-ca51-4ff7-9233-0b83e8d575fe"
+Template: "d1070ed7-b4f7-4c03-b622-f9b5fb072dea"
+Path: /sitecore/content/OneWeb/FourPaws/Data/Teaser Promo/HomePage/ContentTiles
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220525T031356Z
+    - ID: "68a9ed16-a3b4-4b4f-b9e8-7b5585772a62"
+      Hint: SecondCTA
+      Value: |
+        <link text="SHOP NOW" linktype="external" url="/cat-products" anchor="" target="" />
+    - ID: "7cf24deb-783d-4e7a-be2d-1c5410b73c66"
+      Hint: FirstCTA
+      Value: |
+        <link text="SHOP NOW" linktype="external" url="/dog-products" anchor="" target="" />
+    - ID: "81651106-4b95-4713-84df-90a36c488b2f"
+      Hint: TeaserImage
+      Value: |
+        <image mediaid="{A3EEFF25-C0E1-408D-ACC6-613770BAFB69}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f0687f36-4817-4e1b-bc43-1f39b0c26f2d"
+    - ID: "93e6482d-fb03-46b2-8e90-1bc13a59230d"
+      Hint: SecondaryTitle
+      Value: Cat Products
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "ca6a3070-03e0-47cf-ba54-c58f83c49cfa"
+      Hint: Title
+      Value: Dog Products
+    - ID: "ce281eff-5b53-4327-b106-d567df721aab"
+      Hint: MobileTeaserImage
+      Value: |
+        <image mediaid="{98937D76-F6A0-4107-A87E-026D7C7A5771}" />
+    - ID: "d0e762c4-5805-4ff6-b3f9-72d69a4a96cb"
+      Hint: SecondaryTeaserImage
+      Value: |
+        <image mediaid="{CE13CE65-F2F6-4134-95F7-EF0A3FCEE3C6}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220629T065059Z
+    - ID: "feff18c6-41d7-48e1-b396-9ad5b45605af"
+      Hint: MobileSecondaryTeaserImage
+      Value: |
+        <image mediaid="{A63D032E-FD5C-4B7F-BBAC-007132500A46}" />

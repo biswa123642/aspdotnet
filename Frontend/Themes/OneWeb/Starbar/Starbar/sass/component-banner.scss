@@ -1,0 +1,278 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.hero {
+        padding-left: 15px;
+        padding-right: 15px;
+        &.full-width {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        &.banner-adjustable-height {
+            .container {
+                padding-left: 0;
+                padding-right: 0;
+            }
+            .banner-content-wrapper {
+                padding: 0;
+                background: #0000;
+            }
+            .inner-container {
+                max-width: 100%;
+            }
+            .hero-banner-title {
+                position: relative;
+                color: #fcfafa;
+                font-size: 4.8rem;
+                font-weight: 400;
+                line-height: 71px;
+                padding-left: 20px;
+                padding-right: 20px;
+                h1 {
+                    margin: 0;
+                    color: inherit;
+                    font-size: inherit;
+                    font-weight: inherit;
+                    line-height: inherit;
+                    display: inline-block;
+                    position: relative;
+                }
+            }
+            .hero-banner-description {
+                padding: 20px;
+                font-size: 2.4rem;
+                font-weight: 400;
+                color: $light-black-color;
+                line-height: 1.42857143;
+                background-color: #fcfafad1;
+            }
+            &.home-banner {
+                .hero-banner-title {
+                    font-size: 3.6rem;
+                    font-weight: 700;
+                    color: $secondary-color;
+                    line-height: 1.1;
+                    padding: 0;
+                    text-align: center;
+                }
+                .hero-banner-description {
+                    padding: 0;
+                    margin-top: 10px;
+                    background: transparent;
+                    font-size: 2.2rem;
+                    line-height: 1.2;
+                    font-weight: 300;
+                    text-align: center;
+                    .sxa-btn {
+                        a {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+                .inner-container {
+                    padding: 0;
+                }
+                .banner-content-wrapper {
+                    padding: 2rem 4rem;
+                    margin: 3rem auto;
+                    width: 85%;
+                    &.left-align,
+                    &.right-align {
+                        position: relative;
+                    }
+                }
+            }
+            &.ipm-banner {
+                .banner-wrapper{
+                    padding-bottom: 0;
+                }
+                .banner-content-wrapper {
+                    padding: 18px 18px;
+                    background-color: #7e0202;
+                    width: 100%;
+                  
+                }
+                .hero-banner-description {
+                    padding: 20px 0 0 0;
+                    background: transparent;
+                    color: $white-color;
+                    font-size: 1.8rem;
+                }
+                .hero-banner-title {
+                    padding: 0;
+                    font-size: 4.48rem;
+                    font-weight: 600;
+                    line-height: 1;
+                    h1{
+                        &:after,
+                        &:before{
+                            display: none;
+                        }
+                    }
+                    h2 {
+                        font-size: 4.48rem;
+                        font-weight: 600;
+                        line-height: 1;
+                        margin: 0px;
+                    }
+                }
+                .sxa-btn {
+                    margin: 20px 0 0 0;
+                    a{
+                        
+                        color: $primary-color !important;
+                        background-color: #f7941d;
+                        border: none;
+                        padding: 9px 35px;
+                        border-radius: 10px;
+                        font-size: 2.4rem;
+                        line-height: 1.5;
+                        font-weight: 500;
+                        text-transform: uppercase;
+                        box-shadow: none;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@include respond-to(desktop) {
+    .component {
+        &.hero {
+            &.banner-adjustable-height {
+                .banner-wrapper {
+                    padding-bottom: 7px;
+                }
+                .hero-banner-title {
+                    h1 {
+                        &:before {
+                            content: "";
+                            width: 110px;
+                            height: 3px;
+                            background-color: #fcfafa;
+                            position: absolute;
+                            top: 50%;
+                            left: 100%;
+                            transform: translateX(26px) translateY(-50%);
+                        }
+                        &:after {
+                            content: "";
+                            width: 3px;
+                            height: 26px;
+                            background-color: #fcfafa;
+                            position: absolute;
+                            top: 50%;
+                            left: 100%;
+                            transform: translateX(135px) translateY(-50%);
+                        }
+                    }
+                }
+                .banner-content-wrapper {
+                    &.left-align {
+                        left: 6.3%;
+                        right: auto;
+                    }
+                    &.right-align {
+                        left: auto;
+                        right: 6.3%;
+                    }
+                }
+                &.home-banner {
+                    min-height: 350px;
+                    .hero-banner-title {
+                        text-align: left;
+                    }
+                    .hero-banner-description {
+                        text-align: left;
+                    }
+                    .banner-content-wrapper {
+                        width: 42.5%;
+                        margin: 3rem 0px;
+                        &.left-align,
+                        &.right-align {
+                            position: absolute;
+                            transform: none;
+                            top: 0;
+                        }
+                        &.right-align {
+                            right: 7.5%;
+                            left: auto;
+                        }
+                        &.left-align {
+                            left: 7.5%;
+                            right: auto;
+                        }
+                    }
+                    .inner-container {
+                        transform: none;
+                        left: 0;
+                        top: 0;
+                    }
+                }
+                &.ipm-banner {
+                    .banner-content-wrapper {
+                        padding: 30px 25px;
+                        max-width: 450px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include respond-to(large-desktop) {
+    .component {
+        &.hero {
+            &.banner-adjustable-height {
+                .banner-content-wrapper {
+                    width: 31%;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}
+@include respond-to(below-tab) {
+    .component {
+        &.hero {
+            &.banner-adjustable-height {
+                .banner-wrapper {
+                    background-color: #0000 !important;
+                }
+
+                .inner-container {
+                    display: block !important;
+                    position: static;
+                    transform: none;
+                    max-width: 75rem;
+                    padding: 15px;
+                }
+                .banner-content-wrapper {
+                    &.left-align,
+                    &.right-align {
+                        transform: none;
+                        position: static;
+                        max-width: 100%;
+                    }
+                }
+                &.home-banner {
+                    .banner-mobile-image {
+                        text-align: center;
+                        img {
+                            width: auto;
+                        }
+                    }
+                    .banner-wrapper {
+                        display: flex;
+                        flex-direction: column-reverse;
+                    }
+                }
+            }
+        }
+    }
+}

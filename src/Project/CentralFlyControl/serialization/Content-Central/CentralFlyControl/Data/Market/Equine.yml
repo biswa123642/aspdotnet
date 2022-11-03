@@ -1,0 +1,37 @@
+﻿---
+ID: "cb0cd765-15cc-406c-9a2d-c46386978433"
+Parent: "08b3ff0d-385b-4dde-9e43-944d0761900c"
+Template: "5b78968d-5913-4eb0-a978-0b706603291c"
+Path: /sitecore/content/OneWeb/CentralFlyControl/Data/Market/Equine
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220921T082443Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cedd2320-7be2-424d-a9e6-0fa8c18788b5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220921T102432Z
+    - ID: "f0d0a9d9-6b70-4a54-a04a-537c38d5b2e1"
+      Hint: RelatedArticlesLabel
+      Value: "Related Articles:"
+    - ID: "fb742e87-7bf7-4c72-97a9-987a40989ece"
+      Hint: RelatedArticles
+      Value: "{ADDEE4AD-B8E1-419A-B867-74E1490C1400}"

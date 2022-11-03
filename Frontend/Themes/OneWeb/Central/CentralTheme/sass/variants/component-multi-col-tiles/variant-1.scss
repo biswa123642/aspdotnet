@@ -1,0 +1,102 @@
+&.variant-1 {
+    padding: 0px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .wrapper {
+        .inner-wrap {
+            margin-right: auto;
+            margin-left: auto;
+            padding-left: 10px;
+            padding-right: 10px;
+            @include ff-ernestine-pro-font-stack();
+
+            @include respond-to(tab) {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            @include respond-to(desktop){
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+            .body-copy {
+                h2 {
+                    max-width: 25.7rem;
+                    color: $white;
+                    padding: 2rem;
+                    @include ff-ernestine-pro-font-stack();
+                    font-size: 3.2rem;
+                    font-weight: 600;
+                    line-height: 1.1;
+                }
+
+                .rich-text {
+                    ul {
+                        li {
+                            font-size: 1.2rem;
+                            font-weight: 400;
+                            @include fieldwork-hum-font-stack();
+
+                            @include respond-to(bootstrap-onlyTablet) {
+                                font-size: 1.6rem;
+                            }
+
+                            @include respond-to(desktop) {
+                                font-size: 1.92rem;
+                            }
+
+                            &::before {
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .rich-text {
+                padding: 20px 20px;
+            }
+
+            .body-copy {
+                height: auto;
+                    margin-top: -151px;
+                @include respond-to(desktop){
+                    min-height: 200px;
+                max-width: 85%;
+                margin-top: -191px;
+                padding: 0;
+                }
+            }
+        }
+    }
+
+    @include respond-to(desktop) {
+        padding: 10px 20px 10px 20px;
+
+        .wrapper {
+            .inner-wrap {
+                .body-copy {
+                    h2 {
+                        font-size: 3.2rem;
+                    }
+                }
+            }
+
+            .col {
+                &:nth-child(even) {
+                    .inner-wrap {
+                        padding-right: 10rem;
+                    }
+                }
+
+                &:nth-child(odd) {
+                    .inner-wrap {
+                        padding-left: 10rem;
+                    }
+                }
+            }
+        }
+    }
+}

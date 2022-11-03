@@ -1,0 +1,131 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+
+.component {
+    &.rich-text {
+        .about-us {
+            .our-story-component {
+                .body-copy {
+                    margin: 2rem 0 2rem 0;                    
+                    .has-child {
+                        .list-group-item-heading {
+                            @include Roboto-font-stack();
+                            line-height: 1.2;
+                            color: $heading-secondary-color;
+                            font-size: 4.5rem;
+
+                            @include respond-to(mobile) {
+                                position: absolute;
+                                top: 50px;
+                                left: 50%;
+                                width: 50%;
+                            }
+
+                            @include respond-to(small-device) {
+                                top: 35px;
+                            }
+
+                            @include respond-to(tab) {
+                                font-size: 5.6rem;
+                            }
+
+                            @include respond-to(desktop) {
+                                font-size: 6.6rem;
+                            }
+                        }
+
+                        .field-tile-image {
+                            @include respond-to(mobile) {
+                                align-items: flex-start;
+                            }
+                            .wrapper-content h3 {
+                                margin-top: 2rem;
+                            }
+                            .list-img {
+                           
+
+                                @include respond-to(mobile) {
+                                    width: 50%;
+                                    text-align: center;
+                                }
+                            }
+
+                        }
+
+                        &.timeline-end :before {
+                            @include respond-to(tab) {
+                                width: 80%;
+                                left: -80%;
+                            }
+                        }
+                        &.timeline-end{
+                            .list-group-item-heading{
+                                position: static;
+                                width: 100%;
+                            }
+                        }
+                    }
+
+                    .score-content-spot {
+                        font-size: 1.8rem;
+                        line-height: 1.5;
+                        font-weight: 500;                       
+                        @include Montserrat-font-stack();
+                        color: $text-basic;
+                        a {
+                            color: $link-color;
+                            font-weight: inherit;
+                            &:hover {
+                                color: $link-color-hover;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    /*============================================
+            Basic content list style
+    ==============================================*/
+    &.linked-thumbnail.horizontal-list.quick-links,
+    &.content ,
+    &.product-variant .variant-description,
+    &.rich-text {
+        ol:not([class]),
+        ul:not([class]) {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            padding: 0 0 0 3.5rem;
+            margin-left: 0;
+            li {
+                list-style-type: disc;
+                display: list-item;
+                list-style-position: outside;
+                font-size: 1.8rem;
+                margin-bottom: 0.5rem;
+                margin-left: 0;
+                a {
+                    border: none;
+                    color: $link-color;
+                    text-decoration: none;
+
+                    &:hover {
+                        border: none;
+                        color: $link-color-hover;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        ol:not([class]){
+            li{
+                list-style: decimal;
+            }
+            
+        }
+        
+    }
+}

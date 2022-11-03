@@ -1,0 +1,218 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  &.richprofilelisting {
+    padding: 0px;
+    margin-top: 5rem;
+    @include respond-to(desktop) {
+      max-width: 80%;
+      margin: 5rem auto;
+    }
+
+    .profile-listing {
+      .modal {
+        &.fade {
+          &.richprofile-modal {
+            .modal-dialog {
+              z-index: 100;
+              top: 7rem;
+              left: 50%;
+              position: absolute;
+              transform: translateX(-50%);
+              max-width: 600px;
+              width: 95%;
+              @include respond-to(desktop) {
+                max-width: 90%;
+                top: 25%;
+              }
+            }
+
+            .rich-profile-pop-up {
+              .profile-heading {
+                h2 {
+                  font-size: 2rem;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .rich-profile {
+        max-width: 47.5rem;
+        margin: 2rem auto;
+        .rich-profile-wrap {
+          &::before {
+            background-color: $bg-transparent;
+          }
+
+          .profile-content {
+            padding: 10px;
+            height: auto;
+            background-color: $light-green;
+            margin-bottom: 5px;
+            @include ff-ernestine-pro-font-stack();
+            color: $dark-green;
+            cursor: pointer;
+            h2 {
+              color: $dark-green;
+            }
+            &:hover {
+              background-color: $dark-green;
+              color: $white;
+              h2 {
+                color: $white;
+              }
+            }
+          }
+          .profile-image {
+            img {
+              width: 26rem;
+            }
+          }
+        }
+
+        span {
+          font-size: 1.2rem;
+          line-height: 17px;
+          font-weight: 600;
+        }
+      }
+      .rich-profile-pop-up {
+        .rich-profile {
+          max-width: 100%;
+        }
+      }
+
+      .modal-content {
+        .profile-content {
+          color: $white;
+          padding: 30px 0 0.2em;
+          font-size: 1.2rem;
+          @include fieldwork-hum-font-stack();
+
+          h2 {
+            font-size: 2rem;
+            border-bottom: 0px !important;
+            @include fieldwork-hum-font-stack();
+          }
+        }
+
+        background-color: $dark-green;
+
+        p {
+          color: $white;
+          font-size: 1.6rem;
+          font-weight: 300;
+          line-height: 1.4;
+          @include respond-to(desktop) {
+            font-size: 2rem;
+          }
+        }
+
+        .profile-listheading {
+          display: none;
+        }
+      }
+
+      @include respond-to(desktop) {
+        > div {
+          max-width: 100%;
+          flex: 0 0 100%;
+        }
+        .rich-profile {
+          .rich-profile-wrap {
+            .profile-image {
+              width: 55%;
+            }
+            .profile-content {
+              height: calc(100% - 20%);
+              right: 1px;
+              left: initial;
+              bottom: 5%;
+              z-index: 0;
+              width: 45%;
+              text-align: left;
+              padding: 3rem 2rem 2rem 2rem;
+              h2 {
+                margin: 0.5rem 0;
+                line-height: 20px;
+                width: 50%;
+                font-weight: 700;
+              }
+              > span {
+                position: relative;
+                &::after {
+                  content: url("../images/Learn_More_dk_green-120.png");
+                  background-size: contain;
+                  background-repeat: no-repeat;
+                  position: absolute;
+                  bottom: -7rem;
+                  left: 0;
+                }
+              }
+              &:hover {
+                > span {
+                  &::after {
+                    content: url("../images/Learn_More_lt_green-120.png");
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      @media screen and (max-width: 991px) {
+        .rich-profile {
+          .rich-profile-wrap {
+            min-height: 47rem;
+            .profile-image {
+              width: 75%;
+            }
+            .profile-content {
+              text-align: left;
+              padding: 26rem 3rem 3rem 3rem;
+              height: 90%;
+              top: 5%;
+              left: 1.5rem;
+              z-index: -1;
+              h2 {
+                word-spacing: 9999px;
+                margin: 0.5rem 0;
+                font-size: 2rem;
+                font-weight: 700;
+                line-height: 20px;
+              }
+              &::after {
+                content: url("../images/Learn_More_dk_green-120.png");
+                background-size: contain;
+                background-repeat: no-repeat;
+                position: absolute;
+                bottom: 2rem;
+                left: 3rem;
+              }
+              &:hover {
+                &::after {
+                  content: url("../images/Learn_More_lt_green-120.png");
+                }
+              }
+            }
+          }
+        }
+      }
+      @media screen and (min-width: 1170px) {
+        > div {
+          max-width: 50%;
+          flex: 0 0 50%;
+          &:nth-child(odd) {
+            padding-right: 5rem;
+          }
+          &:nth-child(even) {
+            padding-left: 5rem;
+          }
+        }
+      }
+    }
+  }
+}

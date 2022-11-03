@@ -1,0 +1,49 @@
+﻿---
+ID: "3b3f2e6f-8cb5-4ab6-b5a8-44b754693b1b"
+Parent: "899419da-87f9-479f-ac0c-53032595b4f7"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Page Content/Image CTA/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    {{ sc_placeholder "PH-video"  }}
+    {{selectedimages = sc_followmany i_page "CTAImage" }}
+    
+    {{if selectedimages != null && selectedimages != [] && selectedimages != [""]}}
+        {{for child in selectedimages}}
+            {{if child.Heading !="" && child.Image !=""}}
+                <h2>{{child.Heading}}</h2>
+                <a href = "{{child.Link.url}}"><img alt="" height="184" width="360" src="{{child.Image.media_url}}" style="height: 184px; width: 360px;" /></a>
+                {{ if (o_pagemode.is_experience_editor_editing) }}
+                    <br/>{{child.Link}}
+                {{ end }} 
+            {{end}}
+        {{end}}
+    {{end}} 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220519T080351Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3e549692-ef85-4eda-9b5e-2a400df509fa"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220606T072928Z

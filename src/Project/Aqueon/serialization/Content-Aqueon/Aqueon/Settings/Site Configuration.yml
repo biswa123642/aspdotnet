@@ -1,0 +1,81 @@
+﻿---
+ID: "ef2716fe-243c-47bd-9ba1-6270990b1542"
+Parent: "fe20811a-434d-4b11-93a0-8c8b5ba84235"
+Template: "77820909-82a2-4308-9e62-f54e15110ef3"
+Path: /sitecore/content/OneWeb/Aqueon/Settings/Site Configuration
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "2da26fe5-8b7b-4912-a2fc-f683e630d5bb"
+  Hint: ProductAttributeLocation
+  Value: "{D8E7B720-B0F9-4F28-BB26-B694D99704F8}"
+- ID: "7bea2506-c26d-4030-a5ef-e2bd2e8baa4c"
+  Hint: NoImage
+  Value: |
+    <image mediaid="{56B5AD4D-8604-4D4B-95A9-7364429C58A6}" />
+- ID: "e86000b0-2a64-4152-9178-6591115b5265"
+  Hint: BlogPostTopicAttributeLocation
+  Value: "{CC82DE3C-8F15-4B70-ACF8-1CEB7CD0FE3A}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{45DE997D-E6EF-4843-82B9-9DEA69672CFC}"
+- ID: "f885a9cc-d0c1-431b-8afe-85b73f80db86"
+  Hint: ArticleTypeAttributeLocation
+  Value: "{48342104-95AD-49D0-AB7F-EB158BD9F6B6}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0926e173-227e-40c2-9f60-0e5dbf4f45d8"
+      Hint: DisableExternalBrand
+      Value: 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220909T121816Z
+    - ID: "37cbf5a7-e02d-42f8-9cd1-7bbf37e23773"
+      Hint: GAIdGlobal
+      Value: "UA-145039385-1"
+    - ID: "3d8c2876-9123-4724-92b2-58e7a7db0452"
+      Hint: PriceSpiderCountry
+      Value: US
+    - ID: "4762f3c8-900d-44ff-ba2e-d44e57e8f5fb"
+      Hint: BrandName
+      Value: Aqueon
+    - ID: "51deedc1-0600-4d1d-85ec-db67cd6f2bad"
+      Hint: DisableCookiesBanner
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f77cde4b-1893-4e07-be27-7c286054d10b"
+    - ID: "9b7bb2ea-cc16-4ef0-862a-b5da3537a938"
+      Hint: PriceSpiderAccount
+      Value: 1747
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "be547b09-1b5f-4ed9-8772-2f79b5e64d83"
+      Hint: PriceSpiderConfig
+      Value: 5e41758d9819ed0013e8b15b
+    - ID: "c07be27b-fcb2-44eb-9162-a1e183ee79b9"
+      Hint: BrandLogo
+      Value: |
+        <image mediaid="{2DC56D91-4B5F-4490-A3AF-8B4B66544A56}" />
+    - ID: "d7d037d1-e378-40fe-a22d-7d9e73ba75a3"
+      Hint: GTMId
+      Value: "GTM-MWM7MS2"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220922T092712Z
+    - ID: "ec3719f3-58b4-4504-8545-df1af5aef83d"
+      Hint: EnableSeoSchema
+      Value: 1
+    - ID: "f6a9e708-acdf-411a-a685-9d9cbf9252c1"
+      Hint: SelectSeoSchema
+      Value: |
+        {61FE73DD-0B53-447B-8071-917CAF2B9161}
+        {E485C1AD-741F-40A7-847F-4278082FA82E}
+        {258F3385-A91A-4F85-91BE-23754F010FCB}
+        {31906487-4CE4-42A4-97E4-4AF3390A11C5}
+        {1E8390B0-6166-4E1E-81E2-FBEDE861C90F}
+        {5A6884B5-B433-458B-960F-A6959A28206E}

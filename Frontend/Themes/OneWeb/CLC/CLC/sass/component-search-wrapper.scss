@@ -1,0 +1,34 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+.search-wrapper {
+  .search-input-wrapper {
+    background: $white-color;
+
+    input {
+      border: 1px solid $black-color;
+      border-radius: 3px 4px;
+      width: 100%;
+      text-indent: 5px;
+      font-size: 1.68rem;
+      padding: 7px;
+      background: $white-color;
+    }
+  }
+}
+.copy-wrap {
+  .component {
+    &.rich-text {
+      h3 {
+        padding-left: 7px;
+      }
+    }
+  }
+  .search-box {
+    padding-left: 22px;
+  }
+  .sxa-btn {
+    a {
+      margin-left: 7px;
+    }
+  }
+}

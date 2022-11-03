@@ -1,0 +1,409 @@
+﻿---
+ID: "d293e5b6-bbef-4f05-acf9-6aa0ad2a8192"
+Parent: "1bff5064-e6f1-4e61-883f-81bd2e7b9a74"
+Template: "bc41b87d-2a9b-4689-9f51-80bb5b31a6e7"
+Path: "/sitecore/content/OneWeb/GardenTech/Home/products/sevin/sevin-ready-to-use"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{3235AE20-C2A2-413F-AECE-06BA12B00BA2}"
+- ID: "76fb6ffd-4487-4028-a1cf-705fbe360cba"
+  Hint: Priority
+  Value: 0.5
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: "{1220B776-A068-4C09-A85D-E81B2BE9ACF8}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{24A05E46-E0C5-41E1-A8F2-0B6D5A6BC973}"
+          p:before="*"
+          s:ds="local:/Data/video 1"
+          s:id="{3C84ED23-7591-45E0-8850-1AE96D1342B1}"
+          s:par="Reset Caching Options&amp;GridParameters={908E2BC6-C110-4ED7-AF39-7EEACBB31A34}&amp;Styles&amp;CacheClearingBehavior=Clear on publish&amp;RenderingIdentifier"
+          s:ph="/main/sxa-product-detail/container-1/column-1-21/PH-video" />
+        <r
+          uid="{C967F252-7597-4C87-B911-2478E791574F}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/video 1"
+          s:id="{3C84ED23-7591-45E0-8850-1AE96D1342B1}"
+          s:par="Reset Caching Options&amp;GridParameters={908E2BC6-C110-4ED7-AF39-7EEACBB31A34}&amp;Styles&amp;CacheClearingBehavior=Clear on publish&amp;RenderingIdentifier"
+          s:ph="/main/sxa-product-detail/container-1/row-2-20/row-1-25/column-1-26/PH-video" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02a41838-168c-4858-bafd-f0031b877ddc"
+      Hint: ProductAttributes
+      Value: "{C1B9C72F-14A6-4FF5-B2E6-E555C8677206}|{ECFD6A69-1D00-42EE-A37B-2E4B653D1E9A}|{92666C27-EBE0-4E99-9FA1-4E67EAC5A7C5}|{EC3B49A7-544D-49DA-B6DB-563F3801D233}|{2267F57C-B28D-40CC-B4B7-A603472195C3}|{8900F6A1-B9BF-487E-9066-603057593096}|{3EF18884-5708-48A9-A485-EC5BCAC54C31}|{FFF54241-4C62-480C-B375-96D09A8057F2}|{029907CE-9765-488B-AD9F-BC3AF44C788C}|{43062415-DF02-410B-805F-51C74370248B}|{6291A349-525C-4BF3-96A5-BCAC12694B2A}"
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{1E357B85-55EC-44C5-98A5-E7863E9682D2}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220616T170013Z
+    - ID: "30b0a514-dc94-432c-9655-8c01e474023f"
+      Hint: ExtendedContent
+      Value: |
+        <ul>
+            <li>Kills ants, spiders, whiteflies, and many more insects on contact</li>
+            <li>Ready-to-use outdoors around the home</li>
+            <li>Easy-to-apply power sprayer with batteries included</li>
+            <li>Protects camellias, roses, lettuce, tomatoes, and many other fruits and flowers</li>
+        </ul>
+        <h2>Focus on the garden. We've got the bugs.</h2>
+        <p>Insects may have found their way to your outdoor plants, but these intruders are killed on contact with Sevin Insect Killer Ready-to-Use. Shake the bottle, adjust the nozzle to the narrow fan spray setting, hold sprayer 1 foot from the plant, and spray to kill insects. This ready-to-use spray is specially formulated to protect lawns, vegetables, flowers, trees, shrubs, and other outdoor plants and surfaces, while killing over 130 listed insects. Find your affected area or specific garden crop on the label to get the most effective results. </p>
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Sevin® Ready-to-Use"
+    - ID: "50094021-6c44-4bb3-b384-f4e2bc0262ea"
+      Hint: RelatedArticlesAndProducts
+      Value: |
+        {4F67EB01-0D86-47C6-8F6C-D587E50AF869}
+        {37F13921-BA3C-4B7E-B2C7-C9E81D11AC09}
+        {FADBF65E-2F50-4527-BA2B-6617035FE8F7}
+        {D4281CA8-C92E-4A64-99AC-08413C00F96E}
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Kill over 100 insect types on your ornamentals, flowers, fruits, vegetables, shrubs, home perimeter and ornamental trees.
+    - ID: "543b1d82-a096-4893-90b3-35bbb2ab2b1a"
+      Hint: PageHeaderScripts
+      Value: |
+        <link rel="alternate" href="https://www.gardentech.com/products/sevin/sevin-ready-to-use" hreflang="en" />  <link rel="alternate" href="https://www.gardentech.com/es/products/sevin/sevin-ready-to-use" hreflang="es" />  <meta http-equiv="content-language" content="en-us">  <meta property="og:type"               content="product" />  <!-- Start of Survicate (www.survicate.com) code -->  <script type="text/javascript">    (function (w) {      var s = document.createElement('script');      s.src = 'https://survey.survicate.com/workspaces/0a4fb9fe21e1d4f1b90403e1e4156837/web_surveys.js';      s.async = true;      var e = document.getElementsByTagName('script')[0];      e.parentNode.insertBefore(s, e);    })(window);  </script>  <!-- End of Survicate code -->
+    - ID: "54a1450c-b9d8-42ce-b085-8c9109daaf37"
+      Hint: RelatedArticlesandProductsLabel
+      Value: "Recommended Products & Articles:"
+    - ID: "5e650555-c7f0-456a-8185-f69388169cbc"
+      Hint: MetaKeywords
+      Value: "{DC04688C-B165-44D6-9EC1-49259344F7FC}|{2025FB16-2FD3-4EDA-8367-516573DB4462}"
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: Kills and controls lawn and garden pests.
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Kill over 100 insect types on your ornamentals, flowers, fruits, vegetables, shrubs, home perimeter and ornamental trees.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Keep insects out of your garden - Sevin® Ready-to-Use | Sevin"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: "Sevin® Ready-to-Use"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d8819867-12ac-46fc-b583-e831fcdce5d5"
+    - ID: "ab818f97-8aa8-4d81-9e70-29c2d400c1fb"
+      Hint: RenderCanonicalTag
+      Value: 1
+    - ID: "b433c832-fadf-498e-b77b-e7933f19ba8e"
+      Hint: Accordion1Title
+      Value: How to Use
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tanviV
+    - ID: "c2f49f5c-ebe1-41ac-9f82-35f5baef9611"
+      Hint: Accordion4
+      Value: |
+        <div class="product">
+        <a href="-/media/714E7174E5804A07A1ABEBB8ED487648.ashx">Sevin&reg; Ready-To-Use Bug Killer 1 gal. Label</a>
+        <a href="-/media/0DFAC4C135864895B322E6467033B800.ashx">Sevin&reg; Ready-To-Use Bug Killer 32 oz. Label</a>
+        <a href="-/media/334DC6468CA8444EA547B6B5D712786D.ashx">GardenTech Sevin Insect Killer Ready to Use SDS</a>
+        <a href="-/media/8AAC8858BBE34B158AE2E3247788989E.ashx">Sevin Insect Killer Ready to Use 32oz Label</a>
+        <a href="-/media/B7596BEA1823493B917FFFC14E073387.ashx">Sevin Insect Killer Ready to Use 1 Gallon Label</a>
+        <a href="-/media/EFDC5D50331F447EA2EF235FA1841C1A.ashx">Sevin&reg; Ready-To-Use Bug Killer SDS</a></div>
+    - ID: "c95560b6-d1ef-47eb-b4bb-da582a84a444"
+      Hint: Accordion1
+      Value: |
+        <div class="how-to-use">
+        <ul>
+            <li>Apply on vegetables, fruits, flowers, shrubs, trees, and other outdoor plants and surfaces</li>
+            <li>Apply early or at first signs of insect damage</li>
+            <li>People and pets can return to treated area once spray dries</li>
+            <li>Shake bottle, adjust nozzle to narrow fan setting, hold sprayer 1 foot from plant, and spray evenly to kill insects</li>
+            <li>Apply on calm days when no rain is forecast for at least 24 hours</li>
+            <li>Once applied to lawn, wait at least 24 hours before watering</li>
+            <li>Avoid spraying open blooms to protect pollinating insects</li>
+            <li>Follow instructions on label for specific use areas to achieve best results </li>
+            <li>Read the product label for listed pests, and follow application instructions thoroughly.</li>
+        </ul>
+        </div>
+    - ID: "ca373527-0c18-4282-83b0-121b8a197598"
+      Hint: LongTitle
+      Value: "Sevin® Ready-to-Use"
+    - ID: "cbab27c6-0f5a-4c0e-a054-d6da8e5cf37d"
+      Hint: Accordion3Title
+      Value: Labels and SDSs
+    - ID: "d359f5e1-8d09-4717-9920-5687aecee004"
+      Hint: Accordion3
+      Value: |
+        <div class="label">
+        <a href="-/media/57E8C08CCFF943AFA68E8883E92606D0.ashx">Sevin Ready to Use - SDS</a>
+        <a href="-/media/D0DAA814C12D4416B02CBFF529D936E6.ashx">Sevin Insect Killer Ready to Use 1 Gallon Label</a>
+        <a href="-/media/497EB3ADFEE0499C88FCA1199739FCF2.ashx">Sevin Insect Killer Ready to Use 1.33 Gallon Label</a>
+        <a href="-/media/F308BC73A7B74AE28C61009C54C5DB56.ashx">Sevin Insect Killer Ready to Use 32 oz. Label</a>
+        </div>
+    - ID: "d603a982-51bb-4898-8aed-d25e3c6c416c"
+      Hint: Accordion2
+      Value: |
+        <div class="insects">
+        <ul>
+            <li><a href="~/link.aspx?_id=60BD52862B0D4EEEB33F3E9F58BC4AF8&amp;_z=z">Ants</a></li>
+            <li><a href="~/link.aspx?_id=DEF5BD597FFD4462A95E3119F1477820&amp;_z=z">Aphids</a></li>
+            <li><a href="~/link.aspx?_id=88502A5D4DB74BC0A890277E6BEFAA34&amp;_z=z">Armyworms</a></li>
+            <li><a href="~/link.aspx?_id=CE7D72B87DEA4777A021E545143BFA1B&amp;_z=z">Bagworms</a></li>
+            <li><a href="~/link.aspx?_id=FC4A8F31F4A140CA8BE1ED10590CA7DA&amp;_z=z">Boxelder Bugs</a></li>
+            <li><a href="~/link.aspx?_id=7F461C12BF2541A0ACAA122C40ED9904&amp;_z=z">Cabbageworms</a></li>
+            <li>Caterpillars</li>
+            <li><a href="~/link.aspx?_id=B48D3871E53F49CC96306AFA875ED666&amp;_z=z">Cockroaches</a></li>
+            <li><a href="~/link.aspx?_id=E2C9741239E04E109F956CF754465B29&amp;_z=z">Colorado Potato Beetles</a></li>
+            <li><a href="~/link.aspx?_id=CEAFD2B9E5784138BBFC6CE01DEF7205&amp;_z=z">Crickets</a></li>
+            <li><a href="~/link.aspx?_id=302B7F381A7B438FAD1D2C1F39D30AEE&amp;_z=z">Cutworms</a></li>
+            <li><a href="~/link.aspx?_id=98B7C126A8534F559EA76458DB7D8297&amp;_z=z">Earwigs</a></li>
+        </ul>
+        <ul>
+            <li><span><a href="~/link.aspx?_id=BCD34556FDA54C8D8AF159EAD6052E98&amp;_z=z">Flea Beetles&nbsp;</a></span></li>
+            <li><a href="~/link.aspx?_id=EAB7CF5105ED43998150464C5F1C93C8&amp;_z=z">Grasshoppers</a></li>
+            <li><a href="~/link.aspx?_id=2F3883BD830E43D78251C5579B51CDE3&amp;_z=z">Hornworms</a></li>
+            <li><a href="~/link.aspx?_id=F8296E37A6A2489E9992E125E5936BFC&amp;_z=z">Japanese Beetles</a></li>
+            <li><a href="~/link.aspx?_id=FE634DC8A4D1463E9CC0EAA2CB8A223A&amp;_z=z">Lace Bugs</a></li>
+            <li><a href="~/link.aspx?_id=8E0FB5BF3EBC46D1A413375DF812E293&amp;_z=z">Leafhoppers</a></li>
+            <li><a href="~/link.aspx?_id=C7876F38752E4BB097FE5F43A44F5581&amp;_z=z">Mealybugs</a></li>
+            <li><a href="~/link.aspx?_id=FB1327C382624E698CF7149F6C996EFF&amp;_z=z">Millipedes</a></li>
+            <li><a href="~/link.aspx?_id=557C8183DF7947548D93C67AA12763B3&amp;_z=z">Scale Insects</a></li>
+            <li><a href="~/link.aspx?_id=B2E99729DD504CB395C462BA31F7456B&amp;_z=z">Scarab Beetles</a></li>
+            <li><a href="~/link.aspx?_id=B721D434E64E4D3386BB6008568CF754&amp;_z=z">Silverfish</a></li>
+            <li><a href="~/link.aspx?_id=95C3681BCD74492D967C0A2DDDF68DDC&amp;_z=z">Spiders</a></li>
+        </ul>
+        <ul>
+            <li><a href="~/link.aspx?_id=F9EDE2DFF6A442AAAFCE10A6D87D948F&amp;_z=z">Spittlebugs</a></li>
+            <li><a href="~/link.aspx?_id=5ABF5E7CD93C4DF3B891A18F4CFFA936&amp;_z=z">Springtails</a></li>
+            <li><a href="~/link.aspx?_id=400F3C2C5C354A658CFC6C4A882BAFED&amp;_z=z">Squash Bugs</a></li>
+            <li><a href="~/link.aspx?_id=BFB302BCD89547FCB13B343CA55044B6&amp;_z=z">Stink Bugs</a></li>
+            <li><a href="~/link.aspx?_id=728376024DE041819FACC2309B1B58BC&amp;_z=z">Tent Caterpillars</a></li>
+            <li><a href="~/link.aspx?_id=53BB5737BCED46CFA09C8980617101BF&amp;_z=z">Thrips</a></li>
+            <li><a href="~/link.aspx?_id=E9A8D0A12E2E4555BF058643C799DB5B&amp;_z=z">Ticks</a></li>
+            <li>and many more listed on the label</li>
+        </ul>
+        </div>
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{778C1E67-CDFA-4F31-BF32-2088B525A322}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220728T121548Z
+    - ID: "ee6a4f12-e8eb-4b34-9d07-d477e8ad63d4"
+      Hint: Accordion2Title
+      Value: Insects Controlled
+    - ID: "f3da9db8-9022-4a34-94d5-c04516d7c05d"
+      Hint: Accordion4Title
+      Value: Previous Products
+- Language: es
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02a41838-168c-4858-bafd-f0031b877ddc"
+      Hint: ProductAttributes
+      Value: "{C1B9C72F-14A6-4FF5-B2E6-E555C8677206}|{ECFD6A69-1D00-42EE-A37B-2E4B653D1E9A}|{92666C27-EBE0-4E99-9FA1-4E67EAC5A7C5}|{EC3B49A7-544D-49DA-B6DB-563F3801D233}|{2267F57C-B28D-40CC-B4B7-A603472195C3}|{8900F6A1-B9BF-487E-9066-603057593096}|{3EF18884-5708-48A9-A485-EC5BCAC54C31}|{FFF54241-4C62-480C-B375-96D09A8057F2}|{029907CE-9765-488B-AD9F-BC3AF44C788C}|{43062415-DF02-410B-805F-51C74370248B}|{6291A349-525C-4BF3-96A5-BCAC12694B2A}"
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{1E357B85-55EC-44C5-98A5-E7863E9682D2}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220616T170447Z
+    - ID: "30b0a514-dc94-432c-9655-8c01e474023f"
+      Hint: ExtendedContent
+      Value: |
+        <ul>
+            <li>Elimina por contacto a las hormigas, ara&ntilde;as, moscas blancas y muchos insectos m&aacute;s</li>
+            <li>Listo para usar en exteriores alrededor de la casa</li>
+            <li>Roc&iacute;e las plantas de flores, frutas, vegetales y otras en exteriores</li>
+            <li>Protege a las camelias, rosas, lechugas, tomates y muchas plantas m&aacute;s de flores y frutas</li>
+        </ul>
+        <h2>Oc&uacute;pese de su jard&iacute;n que nosotros nos ocupamos de los insectos.</h2>
+        <p>Puede que los insectos se las hayan ingeniado para llegar a sus plantas exteriores, pero con el insecticida listo para usar Sevin, usted puede eliminar por contacto a estos intrusos. Agite la botella, ajuste la boquilla para regular el rociado, sostenga el rociador a 1 pie (30,48 cm) de la planta y roc&iacute;e para eliminar a los insectos. Este producto listo para usar est&aacute; formulado especialmente para proteger c&eacute;spedes, vegetales, flores, &aacute;rboles, arbustos y otras plantas y superficies exteriores al eliminar a m&aacute;s de 130 insectos mencionados en la etiqueta. Para lograr resultados m&aacute;s efectivos, busque en la etiqueta la informaci&oacute;n para el &aacute;rea afectada o el cultivo espec&iacute;fico del jard&iacute;n.</p>
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Insecticida Sevin® listo para usar
+    - ID: "50094021-6c44-4bb3-b384-f4e2bc0262ea"
+      Hint: RelatedArticlesAndProducts
+      Value: |
+        {4F67EB01-0D86-47C6-8F6C-D587E50AF869}
+        {37F13921-BA3C-4B7E-B2C7-C9E81D11AC09}
+        {FADBF65E-2F50-4527-BA2B-6617035FE8F7}
+        {8BBCA442-A365-4705-85C0-93B96CDBD7ED}
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Elimina m�s de 130 tipos de insectos en sus plantas ornamentales, plantas de flores, frutales, plantas de vegetales, arbustos, per�metros de casas y �rboles ornamentales.
+    - ID: "543b1d82-a096-4893-90b3-35bbb2ab2b1a"
+      Hint: PageHeaderScripts
+      Value: |
+        <link rel="alternate" href="https://www.gardentech.com/products/sevin/sevin-ready-to-use" hreflang="en" />  <link rel="alternate" href="https://www.gardentech.com/es/products/sevin/sevin-ready-to-use" hreflang="es" />  <meta http-equiv="content-language" content="es-us">  <meta property="og:type"               content="product" />  <script type="application/ld+json">  {   "@context": "http://schema.org",   "@type": "BreadcrumbList",   "itemListElement":   [    {     "@type": "ListItem",     "position": 1,     "item":     {      "@id": "https://www.gardentech.com/es",      "name": "GardenTech"      }    },    {     "@type": "ListItem",    "position": 2,    "item":     {       "@id": "https://www.gardentech.com/es/products",       "name": "Productos"  }     },    {     "@type": "ListItem",    "position": 3,    "item":     {       "@id": "https://www.gardentech.com/es/products/sevin",       "name": "Sevin"  }     },    {     "@type": "ListItem",    "position": 4,    "item":     {       "@id": "https://www.gardentech.com/es/products/sevin/sevin-ready-to-use",       "name": "Insecticida listo para usar Sevin"     }    }   ]  }  </script>  <script type="application/ld+json">  {    "@context" : "http://schema.org",    "@type" : "Product",    "id" : "613499010117",    "name" : "Insecticida Sevin� listo para usar 32 oz.",    "url" : "https://www.gardentech.com/es/products/sevin/sevin-ready-to-use",    "image" : "https://www.gardentech.com/-/media/images/gardentech-na/us/products/sevin-12-07-17/sevin-rtu-32oz.jpg",    "description" : "Elimina m�s de 500 tipos de insectos en sus plantas ornamentales, plantas de flores, frutales, plantas de vegetales, arbustos, per�metros de casas y �rboles ornamentales.",    "gtin13" : "0613499010117",    "sku": "100530114",    "brand" : {      "@type" : "Brand",      "name" : "GardenTech",      "logo" : "https://www.gardentech.com/-/media/images/gardentech-na/us/logo/garden_tech_logo_g.png"    }  }  </script>  <script type="application/ld+json">  {    "@context" : "http://schema.org",    "@type" : "Product",    "id" : "613499010124",    "name" : "Insecticida Sevin� listo para usar 1 gal�n",    "url" : "https://www.gardentech.com/es/products/sevin/sevin-ready-to-use",    "image" : "https://www.gardentech.com/-/media/images/gardentech-na/us/products/sevin-12-07-17/sevin-rtu-1gal.jpg",    "description" : "Elimina m�s de 500 tipos de insectos en sus plantas ornamentales, plantas de flores, frutales, plantas de vegetales, arbustos, per�metros de casas y �rboles ornamentales.",    "gtin13" : "0613499010124",    "sku": "100530116",    "brand" : {      "@type" : "Brand",      "name" : "GardenTech",      "logo" : "https://www.gardentech.com/-/media/images/gardentech-na/us/logo/garden_tech_logo_g.png"    }  }  </script>
+    - ID: "54a1450c-b9d8-42ce-b085-8c9109daaf37"
+      Hint: RelatedArticlesandProductsLabel
+      Value: "Artículos / productos recomendados:"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "5e650555-c7f0-456a-8185-f69388169cbc"
+      Hint: MetaKeywords
+      Value: "{DC04688C-B165-44D6-9EC1-49259344F7FC}|{2025FB16-2FD3-4EDA-8367-516573DB4462}"
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: Elimina y controla las plagas del csped y el jardin.
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Elimina más de 130 tipos de insectos en sus plantas ornamentales, plantas de flores, frutales, plantas de vegetales, arbustos, perímetros de casas y árboles ornamentales.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Impida la entrada de insectos a su jardín - Insecticida Sevin® listo para usar"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Sevin® Insecticida listo para usar
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1cfdf4a7-e53d-4f61-bda7-4fcc17ea6561"
+    - ID: "ab818f97-8aa8-4d81-9e70-29c2d400c1fb"
+      Hint: RenderCanonicalTag
+      Value: 1
+    - ID: "b433c832-fadf-498e-b77b-e7933f19ba8e"
+      Hint: Accordion1Title
+      Value: Cómo se usa
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tanviV
+    - ID: "c2f49f5c-ebe1-41ac-9f82-35f5baef9611"
+      Hint: Accordion4
+      Value: |
+        <div class="product"><a href="-/media/714E7174E5804A07A1ABEBB8ED487648.ashx">Insecticida listo para usar GardenTech Sevin 1 gal. etiqueta </a>
+        <a href="-/media/0DFAC4C135864895B322E6467033B800.ashx">Insecticida listo para usar GardenTech Sevin 32 oz. etiqueta </a>
+        <a href="-/media/1AFD5A533B9F4B0E9D970E48BE60BC11.ashx">Insecticida listo para usar GardenTech Sevin (Fichas de datos de seguridad)</a>
+        <a href="-/media/8AAC8858BBE34B158AE2E3247788989E.ashx">Insecticida listo para usar GardenTech Sevin 32oz etiqueta </a>
+        <a href="-/media/B7596BEA1823493B917FFFC14E073387.ashx">Insecticida listo para usar GardenTech Sevin 1gal etiqueta</a>
+        </div>
+    - ID: "c95560b6-d1ef-47eb-b4bb-da582a84a444"
+      Hint: Accordion1
+      Value: |
+        <div class="how-to-use">
+        <ul>
+            <li>Apl&iacute;quelo en plantas de vegetales, frutas, flores, arbustos, &aacute;rboles y otras plantas y superficies exteriores</li>
+            <li>Apl&iacute;quelo temprano o cuando vea las primeras se&ntilde;ales de da&ntilde;os causados por insectos</li>
+            <li>Las personas y mascotas pueden regresar al &aacute;rea tratada cuando se seque el producto rociado</li>
+            <li>Agite la botella y ajuste la boquilla para regular el rociado; sostenga el rociador a 1 pie (30,48 cm) de la planta y roc&iacute;e uniformemente para eliminar a los insectos</li>
+            <li>Apl&iacute;quelo en d&iacute;as de calma cuando no se pronostique lluvia por al menos 24 horas</li>
+            <li>Despu&eacute;s de aplicarlo en el c&eacute;sped, espere al menos 24 horas para regar</li>
+            <li>Evite rociarlo en flores abiertas para proteger a los insectos polinizadores</li>
+            <li>Siga las instrucciones de la etiqueta para el uso en &aacute;reas espec&iacute;ficas y lograr as&iacute; mejores resultados</li>
+        </ul>
+        </div>
+    - ID: "ca373527-0c18-4282-83b0-121b8a197598"
+      Hint: LongTitle
+      Value: Insecticida Sevin® listo para usar
+    - ID: "cbab27c6-0f5a-4c0e-a054-d6da8e5cf37d"
+      Hint: Accordion3Title
+      Value: Etiquetas y SDSs
+    - ID: "d359f5e1-8d09-4717-9920-5687aecee004"
+      Hint: Accordion3
+      Value: |
+        <div class="label">
+        <a href="-/media/731E00F3621249BEB1F9613F4686A628.ashx">Insecticida Sevin listo para usar - SDS </a>
+        <a href="-/media/D0DAA814C12D4416B02CBFF529D936E6.ashx">Sevin Insect Killer Ready to Use 1 Gallon Label </a>
+        <a href="-/media/497EB3ADFEE0499C88FCA1199739FCF2.ashx">Sevin Insect Killer Ready to Use 1.33 Gallon Label </a>
+        <a href="-/media/F308BC73A7B74AE28C61009C54C5DB56.ashx">Sevin Insect Killer Ready to Use 32 oz. Label </a>
+        </div>
+    - ID: "d603a982-51bb-4898-8aed-d25e3c6c416c"
+      Hint: Accordion2
+      Value: |
+        <div class="insects">
+        <div>
+        <div>
+        <ul>
+            <li><a href="~/link.aspx?_id=60BD52862B0D4EEEB33F3E9F58BC4AF8&amp;_z=z">Hormigas</a></li>
+            <li><a href="~/link.aspx?_id=DEF5BD597FFD4462A95E3119F1477820&amp;_z=z">&Aacute;fidos</a></li>
+            <li><a href="~/link.aspx?_id=88502A5D4DB74BC0A890277E6BEFAA34&amp;_z=z">Gusanos cogolleros</a></li>
+            <li><a href="~/link.aspx?_id=CE7D72B87DEA4777A021E545143BFA1B&amp;_z=z">Gusanos de bolsa</a></li>
+            <li><a href="~/link.aspx?_id=FC4A8F31F4A140CA8BE1ED10590CA7DA&amp;_z=z">Chinches del arce</a></li>
+            <li><a href="~/link.aspx?_id=7F461C12BF2541A0ACAA122C40ED9904&amp;_z=z">Gusanos de la col</a></li>
+            <li>Orugas</li>
+            <li><a href="~/link.aspx?_id=B48D3871E53F49CC96306AFA875ED666&amp;_z=z">Cucarachas</a></li>
+            <li><a href="~/link.aspx?_id=E2C9741239E04E109F956CF754465B29&amp;_z=z">Escarabajos de la papa de Colorado</a></li>
+            <li><a href="~/link.aspx?_id=CEAFD2B9E5784138BBFC6CE01DEF7205&amp;_z=z">Grillos</a></li>
+            <li><a href="~/link.aspx?_id=302B7F381A7B438FAD1D2C1F39D30AEE&amp;_z=z">Gusanos cortadores</a></li>
+            <li><a href="~/link.aspx?_id=98B7C126A8534F559EA76458DB7D8297&amp;_z=z">Tijeretas</a></li>
+            <li><a href="~/link.aspx?_id=BCD34556FDA54C8D8AF159EAD6052E98&amp;_z=z">Alticinos</a></li>
+        </ul>
+        </div>
+        </div>
+        <div>
+        <div>
+        <ul>
+            <li><a href="~/link.aspx?_id=EAB7CF5105ED43998150464C5F1C93C8&amp;_z=z">Saltamontes</a><br />
+            <a href="~/link.aspx?_id=2F3883BD830E43D78251C5579B51CDE3&amp;_z=z">Gusanos</a></li>
+            <li><a href="~/link.aspx?_id=F8296E37A6A2489E9992E125E5936BFC&amp;_z=z">Escarabajos japoneses</a></li>
+            <li><a href="~/link.aspx?_id=FE634DC8A4D1463E9CC0EAA2CB8A223A&amp;_z=z">Chinches de encaje</a></li>
+            <li><a href="~/link.aspx?_id=8E0FB5BF3EBC46D1A413375DF812E293&amp;_z=z">Saltahojas</a></li>
+            <li><a href="~/link.aspx?_id=C7876F38752E4BB097FE5F43A44F5581&amp;_z=z">Cochinillas</a></li>
+            <li><a href="~/link.aspx?_id=FB1327C382624E698CF7149F6C996EFF&amp;_z=z">Milpi&eacute;s</a></li>
+            <li><a href="~/link.aspx?_id=557C8183DF7947548D93C67AA12763B3&amp;_z=z">Cocoideos</a></li>
+            <li><a href="~/link.aspx?_id=B2E99729DD504CB395C462BA31F7456B&amp;_z=z">Escarabajos escarabeidos</a></li>
+            <li><a href="~/link.aspx?_id=B721D434E64E4D3386BB6008568CF754&amp;_z=z">Pececillos de plata</a></li>
+            <li><a href="~/link.aspx?_id=95C3681BCD74492D967C0A2DDDF68DDC&amp;_z=z">Ara&ntilde;as</a></li>
+            <li><a href="~/link.aspx?_id=F9EDE2DFF6A442AAAFCE10A6D87D948F&amp;_z=z">Cercopoldeos</a></li>
+        </ul>
+        </div>
+        </div>
+        <div>
+        <div>
+        <ul>
+            <li><a href="~/link.aspx?_id=5ABF5E7CD93C4DF3B891A18F4CFFA936&amp;_z=z">Col&eacute;mbolos</a></li>
+            <li><a href="~/link.aspx?_id=400F3C2C5C354A658CFC6C4A882BAFED&amp;_z=z">Insectos de la calabaza</a></li>
+            <li><a href="~/link.aspx?_id=BFB302BCD89547FCB13B343CA55044B6&amp;_z=z">Chinches hediondas</a></li>
+            <li><a href="~/link.aspx?_id=728376024DE041819FACC2309B1B58BC&amp;_z=z">Orugas tejecapullos</a></li>
+            <li><a href="~/link.aspx?_id=53BB5737BCED46CFA09C8980617101BF&amp;_z=z">Tisan&oacute;pteros o trips</a></li>
+            <li><a href="~/link.aspx?_id=E9A8D0A12E2E4555BF058643C799DB5B&amp;_z=z">Garrapatas</a>&nbsp;</li>
+            <li>y muchos m&aacute;s mencionadas en la etiqueta</li>
+        </ul>
+        </div>
+        </div>
+        </div>
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{64A375A3-1B10-48BE-843A-7A851C4ADB89}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220728T121556Z
+    - ID: "ee6a4f12-e8eb-4b34-9d07-d477e8ad63d4"
+      Hint: Accordion2Title
+      Value: Insectos que controla
+    - ID: "f3da9db8-9022-4a34-94d5-c04516d7c05d"
+      Hint: Accordion4Title
+      Value: Productos anteriores

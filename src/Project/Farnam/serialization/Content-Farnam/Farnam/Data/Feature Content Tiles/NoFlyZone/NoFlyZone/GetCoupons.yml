@@ -1,0 +1,48 @@
+﻿---
+ID: "59e5612a-eb0c-4cde-aa45-fc8577c596df"
+Parent: "25d89a4e-ef9b-4331-b2de-d72a9e93de69"
+Template: "a14d9266-1924-4e7f-87cc-760e2f8429ce"
+Path: /sitecore/content/OneWeb/Farnam/Data/Feature Content Tiles/NoFlyZone/NoFlyZone/GetCoupons
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Get Coupons
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1e4da860-d6cf-4956-8d76-66331aa43cd0"
+      Hint: SubText
+      Value: "The more you buy, the less they fly! Own your zone with these Farnam Fly Control savings."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220715T094223Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fa2e8121-4a87-4eb9-8c79-ed70e5661344"
+    - ID: "a037a33f-213e-412e-8d6c-71b2be082773"
+      Hint: MobileImage
+      Value: |
+        <image mediaid="{FFDABF8E-D6DD-42D7-A9F4-9366C69BFC6D}" ></image>
+    - ID: "ac0ef552-e2a9-4e8f-8942-4b8ab5061e4b"
+      Hint: CTA
+      Value: |
+        <link text="Get Started" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{FCD92320-15B3-4D12-9ABA-F26873976FAC}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d140070d-9058-400a-82ca-36aee31966d5"
+      Hint: Image
+      Value: |
+        <image mediaid="{7114C076-BE74-456A-81AD-1E467F918336}" ></image>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220801T102014Z
+    - ID: "f2995045-5047-4be3-be4a-dbe0a1530118"
+      Hint: Title
+      Value: GET COUPONS

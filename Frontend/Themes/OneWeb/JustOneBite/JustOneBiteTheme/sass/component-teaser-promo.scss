@@ -1,0 +1,189 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.teaser-promo {
+    &.variant-5 {
+      margin: 0;
+      .inner-wrap {
+        figure {
+          min-height: 30rem;
+          background-color: $black;
+          &.col-left {
+            .sxa-btn {
+              a {
+                background-color: $mobile-hamburger-bg;
+                border: none;
+                border-radius: 0px;
+                color: $white-color;
+                font-family: "Arial", sans-serif;
+                font-size: 1.83rem;
+                font-weight: bold;
+                text-decoration: none;
+                padding: 6px 40px 6px 0px;
+                background-image: url(../images/icon_caret.png);
+                background-position: 100% 44%;
+                background-repeat: no-repeat;
+              }
+            }
+            .body-copy {
+              padding: 2rem;
+              transform: translate(-5px, -14px);
+              h2 {
+                margin-bottom: 3rem;
+                color: $yellow;
+                font-family: "john-doe";
+                font-size: 5rem;
+                font-weight: bold;
+                text-decoration: inherit;
+                width: 40%;
+                padding: 3rem 0 0 0rem;
+              }
+              p {
+                width: 45%;
+                font-weight: normal;
+                padding-bottom: 1rem;
+                font-size: 1.66rem;
+              }
+              .teaser-img {
+                position: absolute;
+                top: 45%;
+                right: 0;
+                max-width: 50%;
+              }
+            }
+          }
+        }
+        .col-right {
+          background-position: 45% 100%;
+          background-size: cover;
+          background-repeat: no-repeat;
+          .body-copy {
+            text-align: left;
+            max-width: 19.5rem;
+            padding: 0;
+            margin-bottom: 2rem;
+            margin-left: 2rem;
+            p {
+              padding-bottom: 0;
+            }
+            .teaser-img {
+              position: absolute;
+              top: 10%;
+              right: 7%;
+              max-width: 30%;
+            }
+            h2 {
+              margin-bottom: 30px;
+              color: $black;
+              font-family: "john-doe";
+              font-size: 2.5rem;
+              font-weight: bold;
+              text-decoration: inherit;
+              padding: 2rem 0 0 0rem;
+            }
+            .sxa-btn {
+              a {
+                background-color: $yellow;
+                color: $black;
+                border: none;
+                border-radius: 0px;
+                box-shadow: 2px 2px 4px grey;
+                height: auto;
+                padding: 1.7rem;
+                font-family: "john-doe";
+                font-size: 1.5rem;
+                font-weight: bold;
+                text-decoration: none;
+                position: relative;
+                z-index: 10;
+              }
+            }
+          }
+        }
+      }
+
+      @include respond-to(tab) {
+        .inner-wrap {
+          figure {
+            &.col-left {
+              .sxa-btn {
+                a {
+                  min-width: 50%;
+                }
+              }
+              .body-copy {
+                transform: translate(-15px, -13px);
+                img {
+                  max-width: 388px;
+                }
+              }
+            }
+          }
+          .col-right {
+            background-position: 27% 100%;
+            .body-copy {
+              a {
+                min-width: 100%;
+              }
+            }
+          }
+        }
+      }
+
+      @include respond-to(desktop) {
+        .component-content {
+          .inner-wrap {
+            figure {
+              height: auto;
+              &.col-left {
+                .sxa-btn {
+                  a {
+                    min-width: auto;
+                  }
+                }
+                .body-copy {
+                  width: calc(100% - 5%);
+                  transform: translate(-10px, -18px);
+                  .teaser-img {
+                    max-width: 100%;
+                    height: auto;
+                    top: 15%;
+                  }
+                  p {
+                    width: 40%;
+                  }
+                }
+              }
+            }
+            .col-right {
+              background-position: 53% 100%;
+              .body-copy {
+                max-width: 22.5rem;
+                margin-left: 5rem;
+                margin-bottom: 1rem;
+                .teaser-img {
+                  max-width: 100%;
+                  right: 5%;
+                }
+                h2 {
+                  font-size: 5rem;
+                  padding: 3rem 0 0 0rem;
+                }
+                .sxa-btn {
+                  background-color: $yellow;
+                  a {
+                    height: 70px;
+                    padding: 17px;
+                    font-size: 2.5rem;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

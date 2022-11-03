@@ -1,0 +1,96 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+.component {
+  .store-locator {
+    max-width: 117rem;
+    margin: auto;
+    .store-locator-info {
+      .search-store-form {
+        button {
+          margin: auto;
+          margin-top: 12px;
+        }
+        #radius {
+          margin: auto;
+          option {
+            color: $secondary-color;
+            text-align: start;
+          }
+        }
+        #zipcode {
+          &::placeholder {
+            opacity: 0;
+          }
+        }
+        .btn-default {
+          background-image: -webkit-linear-gradient(
+            top,
+            #e21d37 0%,
+            #9e1426 100%
+          );
+          background-image: -o-linear-gradient(top, #e21d37 0%, #9e1426 100%);
+          background-image: linear-gradient(
+            to bottom,
+            #e21d37 0%,
+            #9e1426 100%
+          );
+          background-repeat: repeat-x;
+          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe21d37', endColorstr='#ff9e1426', GradientType=0);
+          color: $white-color;
+          font-weight: bold;
+          text-transform: uppercase;
+          padding: 6px 12px;
+          font-size: 14px;
+          line-height: 1.42857143;
+          border-radius: 4px;
+          margin-bottom: 30px;
+        }
+      }
+    }
+    .component-title {
+      h3 {
+        color: $secondary-color;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 28px;
+        margin-bottom: 30px;
+        border: none;
+        margin-top: 40px;
+        text-align: center;
+      }
+    }
+  }
+}
+.store-locator {
+  .store-locator-info {
+    min-height: 400px;
+    .no-locations-found {
+      display: none;
+    }
+    .zip-error {
+      color: $red-color;
+      margin-bottom: 30px;
+    }
+    #search-result-list {
+      .store-info {
+        .directionsText {
+          float: right;
+          color: $secondary-color;
+          @include Arial-font-stack();
+          font-weight: 700;
+          font-size: 1.4rem;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+            color: #ee7787;
+          }
+        }
+        h4 {
+          color: $secondary-color;
+          font-size: 1.8rem;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}

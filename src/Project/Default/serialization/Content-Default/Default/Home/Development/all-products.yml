@@ -1,0 +1,71 @@
+﻿---
+ID: "5440ae33-2218-4e25-95ad-f6bd7839795a"
+Parent: "45b039a4-d895-47c7-9a30-21ab882774e5"
+Template: "80ed8527-6794-4b69-8c25-035c6b33eeef"
+Path: "/sitecore/content/OneWeb/Default/Home/Development/all-products"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{3AF3EC16-97DF-41CE-A8C3-25636D628643}"
+              p:before="*"
+              s:ds=""
+              s:id="{B1240617-6282-47C4-B5E1-CF13EBFCCEC5}"
+              s:par="PageSize=2"
+              s:ph="main"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{2F8D97D4-783B-4E23-BA6C-2F489961A4AF}"
+              p:after="*[1=2]"
+              s:ds=""
+              s:id="{C0AF3E6F-ADD6-4910-B7F2-34061B225E3C}"
+              s:par="NumberOfScrolls=2&amp;SearchType=product"
+              s:ph="/main/pdp-loadmore"
+              s:ccb="Clear on publish" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220320T182426Z
+    - ID: "363cfc7c-aff0-4d45-8a1f-11c311fd36bc"
+      Hint: ShowTextWithOverlay
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: All Products
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: All Products
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f78de487-20d7-40b2-a83b-d57072e2af75"
+    - ID: "92f32441-cec4-42a7-ba44-83e8bb569c74"
+      Hint: FacetAttributes
+      Value: "{BC4A736C-727D-463C-AD1C-6A9D61774006}|{4BE67C63-A4AB-47A4-B186-555CB84797A1}|{EEF81F34-F3E6-4838-9863-AA75C078F677}"
+    - ID: "b0c26a8e-ed75-4fac-9729-461caba576a0"
+      Hint: ProductDetailsAttributes
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220509T101923Z

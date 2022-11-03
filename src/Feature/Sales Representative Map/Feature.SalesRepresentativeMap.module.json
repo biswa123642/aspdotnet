@@ -1,0 +1,20 @@
+{
+	"namespace": "Feature.SalesRepresentativeMap",
+	"references": [ "*Foundation.*" ],
+	"items": {
+		"includes": [
+			{
+				"name": "Renderings",
+				"path": "/sitecore/layout/Renderings/Feature/OneWeb/Sales Representative Map",
+				"allowedPushOperations": "createUpdateandDelete",
+				"scope": "itemAndDescendants"
+			},
+			{
+				"name": "SalesRepresentativeMapTemplates",
+				"path": "/sitecore/templates/Feature/OneWeb/Sales Representative Map",
+				"allowedPushOperations": "createUpdateandDelete",
+				"scope": "itemAndDescendants"
+			},
+		]
+	}
+}

@@ -1,0 +1,144 @@
+﻿---
+ID: "02de724f-797d-4395-99ee-12bf98a9f363"
+Parent: "70dc6ad1-c06e-4ce0-acb7-217259864699"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: /sitecore/content/OneWeb/CentralMosquitoControl/Home/rebates
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{8977A34F-4803-4F40-8CC1-C8DEE569C8F7}"
+          p:before="*"
+          s:ds="{B44D1C4D-0CA9-4AEB-BB03-2455414594B7}"
+          s:id="{8CECDF2B-DC7E-4E39-A959-94E68B752646}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BDD9ADF59-5E5F-4D26-8878-1606D0E19413%7D&amp;Styles&amp;GridClass=col-md-12&amp;TextAlign&amp;ImageAlign&amp;ShowOverlay&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
+          s:ph="/main/row-5-1/container-10"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{C67AD6C0-1991-4F9C-B760-0BF0B572AA8F}"
+          p:after="r[@uid='{8977A34F-4803-4F40-8CC1-C8DEE569C8F7}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/row-5-1" />
+        <r
+          uid="{75D9E73E-A9C4-4A37-8EF5-C9F4FEE5D724}"
+          p:after="r[@uid='{C67AD6C0-1991-4F9C-B760-0BF0B572AA8F}']"
+          s:ds="page:"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BFFF92AD1-B9FF-4ED0-9316-F18C1B5B5508%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/row-4-1/container-8"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{6E60E394-D27F-42AA-B3FB-831509A34B82}"
+          p:after="r[@uid='{75D9E73E-A9C4-4A37-8EF5-C9F4FEE5D724}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/row-4-1" />
+        <r
+          uid="{2934BC1D-5AA7-46FB-982F-C3D59477C90C}"
+          p:after="r[@uid='{6E60E394-D27F-42AA-B3FB-831509A34B82}']"
+          s:ds=""
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-3-1/container-6" />
+        <r
+          uid="{A22E3C97-52F7-4DC3-B110-3513E30A7876}"
+          p:after="r[@uid='{2934BC1D-5AA7-46FB-982F-C3D59477C90C}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-3-1" />
+        <r
+          uid="{ED2C12EB-D113-4E61-9FD6-DA5232B00522}"
+          p:after="r[@uid='{A22E3C97-52F7-4DC3-B110-3513E30A7876}']"
+          s:ds=""
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B28C76009-CBBF-4D05-8911-94F9A74652F7%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-2-1/container-4" />
+        <r
+          uid="{28451136-7C03-4939-8A2B-EBE985A671D9}"
+          p:after="r[@uid='{ED2C12EB-D113-4E61-9FD6-DA5232B00522}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{48EC0846-D782-4A0A-8B29-7AFC39162090}"
+          p:after="r[@uid='{28451136-7C03-4939-8A2B-EBE985A671D9}']"
+          s:ds=""
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%2F&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B34C68150-D3B2-463D-9B91-B2F7BCBD3727%7D&amp;Styles=%7BFAF28AF7-0575-40E0-9EE8-3C33FB91AC01%7D%7C%7BE951A28D-10FF-4D94-BDE6-BB1DDE779D5E%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3&amp;CacheClearingBehavior=Clear%20on%20publish"
+          s:ph="/main/row-1-1/container-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{3B06F3D2-E75D-49B4-9447-B3F5C32B2CFE}"
+          p:after="r[@uid='{48EC0846-D782-4A0A-8B29-7AFC39162090}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{0E71D0BC-1091-413F-9FC7-D7BFD161F7D3}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3%2C4%2C5&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220928T120643Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{D04CCB45-1628-4AF8-B87B-9F3AF7CA4C39}" ></image>
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Rebates
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: "Protect your community while also protecting your budget with big savings on select mosquito control products from Central Life Sciences!"
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        At Central Life Sciences, we pride ourselves on producing effective, environmentally conscious mosquito control. Our commitment towards reducing our environmental footprint is reflected in our product lineup of mosquito control solutions, including <a href="~/link.aspx?_id=D2C5D8FC78724EAEAECBFE55650B7B3D&amp;_z=z">Altosid<sup>®</sup>&nbsp;larvicides</a>, <a href="~/link.aspx?_id=DD6911F8D2C24FD6A6A265EE89F4D654&amp;_z=z">Zenivex<sup>®</sup>&nbsp;reduced-risk adulticides</a>,&nbsp;<a href="~/link.aspx?_id=9214AF12C66944B495BECE4D09CFCD7F&amp;_z=z">FourStar<sup>®</sup>&nbsp;microbial larvicides</a>, and <a href="~/link.aspx?_id=BDD96D03EBE24573A3D18755167DB968&amp;_z=z">Duplex™-G&nbsp;larvicide</a>. To build upon our goal of protecting public health with a commitment to environmental compatibility, we are proud to offer customers savings with these rebate programs.<br />
+        <br />
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "Save on select mosquito control products with 2020 rebates!"
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Central Mosquito Control Rebate Program
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Central Life Sciences Rebate Offers
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "13771e2c-f8dc-4b6c-b1ae-3a9151f547f2"
+    - ID: "ab818f97-8aa8-4d81-9e70-29c2d400c1fb"
+      Hint: RenderCanonicalTag
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221013T123111Z

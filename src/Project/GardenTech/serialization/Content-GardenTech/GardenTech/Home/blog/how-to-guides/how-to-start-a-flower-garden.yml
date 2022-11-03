@@ -1,0 +1,145 @@
+﻿---
+ID: "20234c72-8b13-43de-a885-19b22eac8572"
+Parent: "39d6b444-9342-4677-8bc9-c401112ffde6"
+Template: "057af325-c948-4918-a4e4-2c3f6cf04524"
+Path: "/sitecore/content/OneWeb/GardenTech/Home/blog/how-to-guides/how-to-start-a-flower-garden"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{7D0EDF20-9CC0-4E87-A6F5-DF673E1B758E}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{1DF0BA1A-12A6-41D3-90F1-BA3A5C997844}"
+          p:before="*"
+          s:ds="{4A0D34FB-E8D6-49BE-8FBD-6E9AB1BB15F2}"
+          s:id="{4646BD4F-05FF-4A19-9600-4D74F2F1548B}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BEB20AD82-2FED-4C04-94BE-5A65B9C31EA3%7D&amp;Styles&amp;TitleHeadingLevel=%7B6A44D9C6-61F0-4B69-8E1A-FDC27F96BA0F%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-articledetails/container-1/column-2-4/container-22" />
+        <r
+          uid="{543341BA-BCF1-462E-9C67-606B5F8D5248}"
+          p:after="*[1=2]"
+          s:ds="{2557E717-573D-40D9-ADE8-801E9F0D2538}"
+          s:id="{4646BD4F-05FF-4A19-9600-4D74F2F1548B}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BEB20AD82-2FED-4C04-94BE-5A65B9C31EA3%7D&amp;Styles&amp;TitleHeadingLevel=%7B6A44D9C6-61F0-4B69-8E1A-FDC27F96BA0F%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/sxa-articledetails/container-1/column-2-4/container-22" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "05aba5ee-29d7-483d-82db-02ac84db238f"
+      Hint: AuthorName
+      Value: Jolene Hansen
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{7DC5C5D6-672E-4448-9898-B35E0FF8C68A}" alt="header image" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220623T060128Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "36aa965e-f5ea-4871-a55b-53e090d5026e"
+      Hint: ArticleType
+      Value: "{D74C58AD-43ED-405A-BF7F-222F3DEF6FB9}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: How to Start a Flower Garden
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Even if you're new to gardening, you can start a flower garden from scratch and enjoy beautiful flowers right away.
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <p>Flower gardens fill your days with color, fragrance, beauty and bouquets waiting to be made. Even if you're new to gardening, you can start a flower garden from scratch and enjoy beautiful flowers right away. Just follow these flower garden basics, and you'll soon be enjoying the views and blooms your flower garden brings.</p>
+        <ul>
+            <li><a href="#Choose" style="color: #558f45;">How to Choose Your Garden Spot</a></li>
+            <li><a href="#Prepare" style="color: #558f45;">How to Prepare Flower Garden Soil</a></li>
+            <li><a href="#Plant" style="color: #558f45;">How to Plant a Flower Garden</a></li>
+            <li><a href="#Maintain" style="color: #558f45;">How to Maintain Your Flower Garden</a></li>
+        </ul>
+        <img alt="" src="~/media/2776DF2519A84DCEA5878B2972C0F5B9.ashx" />
+        <p style="text-align: center;"><em>Sunny, pollinator-friendly gardens attract butterflies, birds and bees.</em></p>
+        <h2 style="`'z-index:;"><a name="Choose"><span style="color: #558f45;">How to Choose Your Garden Spot</span></a></h2>
+        Choosing the best spot for your flower garden depends on the kind of flowers you want to grow. Be forewarned: Instead of one flower garden, you may want two. Some flowering shrubs, like <a href="~/link.aspx?_id=809CD833AF294E1FA8341BE084F81F1F&amp;_z=z" target="_blank">lush hydrangeas</a>, prefer sites with morning sun and afternoon shade. But <a href="~/link.aspx?_id=C0953536B02C440997F9416061285275&amp;_z=z" target="_blank">dazzling sunflowers</a>&nbsp;and <a href="~/link.aspx?_id=99771AC232534941B882AC75B8660625&amp;_z=z" target="_blank">drought-tolerant succulents</a>&nbsp;prefer full direct sun all day. If <a href="~/link.aspx?_id=96A26F1E15E449E88928BF1FA3E199AC&amp;_z=z" target="_blank">flowers for pollinators</a>&nbsp;are your goal, choose a warm sunny spot they'll find and enjoy.  You'll also want to consider your plans for the flowers you grow. If you plan to harvest flowers for fresh-cut and dried bouquets, you may want your flower garden placed farther away. Flowerless cut stems are less noticeable that way. If you're short on garden space, you can start a flower garden in containers, too. Whatever you choose, make sure a water faucet or nearby hose connection will keep watering simple and easy.<img alt="" src="~/media/D45D2B137CE544F4AE949348FC522ADE.ashx" />
+        <p style="text-align: center;"><em>Rich, fertile soil provides the foundation for healthy plants and beautiful blooms.</em></p>
+        <h2 style="`'z-index:;"><a name="Prepare"><span style="color: #558f45;">How to Prepare Flower Garden Soil</span></a></h2>
+        <p>Once you decide what flowers to grow, you can adjust your soil to fit their needs. Plants like <a href="~/link.aspx?_id=5925A157085B4041B65A0236BA3AA040&amp;_z=z" target="_blank">azaleas</a>&nbsp;and some hydrangeas prefer soil pH in the acidic range. If you want to grow <a href="~/link.aspx?_id=ECE736410CC244C496163A1D26541E25&amp;_z=z" target="_blank">coneflowers and other natives</a>, your natural soil may be what they need.</p>
+        <p>Most flowering plants do best with slightly acidic, near-neutral soil pH between 6.0 and 7.0. A simple<a href="~/link.aspx?_id=1B9244270BF24BB1A86C684A02845DC3&amp;_z=z" target="_blank"> soil test</a> confirms your starting point and recommends <a href="~/link.aspx?_id=113E1E75B92540AA911805EA6AB2B974&amp;_z=z" target="_blank">soil amendments</a>&nbsp;to meet flower garden needs.</p>
+        <p>Most flowers prefer rich, fertile soil. Improve your flower garden site with an all-purpose balanced fertilizer like<a href="~/link.aspx?_id=D222D474DC2F457EAF0F03EBE5BC7E82&amp;_z=z" target="_blank"> Pennington UltraGreen All Purpose Plant Food 10-10-10</a> and a layer of organic matter at planting time. Work it down into the soil's top 6 to 8 inches before you plant. That's where most flowers and flowering shrub roots grow.</p>
+        <p>Never work your soil when it's overly wet. Working wet soil harms soil structure and makes your garden less hospitable for the flowers you grow. If soil clumps together when squeezed, let it dry for a few days before you plant. When soil is ready, it falls easily through your open hand.</p>
+        <img alt="" src="~/media/8A7EA92BC5B641C9B6DF9BEDF971E30B.ashx" />
+        <p style="text-align: center;"><em>Plant shorter flowers along garden edges where taller plants won't block the view.</em></p>
+        <h2 style="`'z-index:;"><a name="Plant"><span style="color: #558f45;">How to Plant a Flower Garden</span></a> </h2>
+        <p>Most flower gardens combine annuals and perennials. Annual flowers last a single season, but they often bloom from spring to fall. <a href="~/link.aspx?_id=B860484F3ABE428C80F5A09062E2717C&amp;_z=z" target="_blank">Perennials come back year after year</a>, but they bloom for shorter time periods. Flower gardens can also include flowering bulbs, like tulips and daffodils. You can plant annual and perennial flowers from seeds, small plants called transplants, or larger container-grown plants.</p>
+        <p>Consider how you'll view your garden &mdash; this year and in future years. Plant shorter plants in front or along garden edges, so they aren't hidden as taller plants mature. Always keep mature size in mind. Annuals reach their full size in one season, even when they're grown from seed. Some perennials may take several years to reach full size. Even so, plan your spacing around how big they'll eventually be.</p>
+        <p>By learning about flowering times before you plant, you can place perennials so that staggered bloom times ensure your garden always has perennial blooms. Then let colorful annuals complete the look. As with other garden types, you can limit your flower garden to blooms only or allow a <a href="~/link.aspx?_id=92C380D1729846BAA1CEE1FCEC24DFCF&amp;_z=z" target="_blank">mix of flowers and edibles</a>&nbsp;into the landscape. Plant fragrant flowers where a breeze can carry their aroma through open windows into indoor rooms.</p>
+        <p>Before planting, consider your flowers' maintenance requirements. Plant flowers with similar needs together. Drought-tolerant plants go with other water-wise flowers. Moisture-loving plants go together, too.</p>
+        <p>Flower seed packets include information about size, planting time, planting depth and spacing. The plant tags that come with transplants and larger container flowers contain similar information to guide you. You may want to start a <a href="~/link.aspx?_id=05D6F4701C7448238D6748EF2F30A0E9&amp;_z=z" target="_blank">garden journal</a>&nbsp;to keep track of all you do.</p>
+        <img alt="" src="~/media/954108FC42BB4684B1133F86462DCB02.ashx" />
+        <p style="text-align: center;"><em>&nbsp;TLC and good flower garden care ensure flower vases are always full.</em></p>
+        <h2 style="`'z-index:;"><a name="Maintain"><span style="color: #558f45;">How to Maintain Your Flower Garden</span></a> </h2>
+        <p>Beautiful flowers depend on regular water, good nutrition and prompt pest control. Learn to match your maintenance to specific flower needs. Succulents do well in dry, poor soil. Hydrangeas need consistent moisture and nutrients. Whatever you grow, your flowers will look and grow their best when you cater to their needs.</p>
+        <p>Most flower gardens require at least 1 inch of water per week from rainfall or irrigation. That's enough to wet soil 6 to 8 inches deep. Water your flowers as needed to supplement weekly rain. Water early in the day so leaves dry well in midday sun and discourage leaf diseases.</p>
+        <p>Non-flowering plants, including vegetables like <a href="https://www.corrys.com/resources/how-to-grow-lettuce" target="_blank">lettuce</a>, need nutrients that fuel green, leafy growth. But flowers need nutrients that support bigger, better blooms. Feed your flower garden <a href="~/link.aspx?_id=EFF1A9DD1D834E4B936FD6509D4013FF&amp;_z=z" target="_blank">Pennington UltraGreen Color Blooms &amp; Bulbs 15-10-10</a>&nbsp;with added iron during the growing season to keep blooms beautiful and foliage green.</p>
+        <p>If insect pests threaten your flowers and foliage, don't wait. Protect your garden and kill listed pests on contact with <a href="~/link.aspx?_id=D293E5B6BBEF4F05ACF96AA0AD2A8192&amp;_z=z" target="_blank">Sevin Insect Killer Ready to Use<sub>2</sub></a>, perfect for small spaces and spot treatments. <a href="~/link.aspx?_id=37F13921BA3C4B7EB2C7C9E81D11AC09&amp;_z=z" target="_blank">Sevin Insect Killer Concentrate</a>&nbsp;and <a href="~/link.aspx?_id=087DB1D3C2BE4D6F82F965A8C96B8A25&amp;_z=z" target="_blank">Sevin Insect Killer Ready to Spray</a>&nbsp;kill more than 500 insects by contact and keep protecting your flower garden for up to three months.*</p>
+        <p>Prevention is critical with <a href="~/link.aspx?_id=A70CD253E8EE448AB5BAB574963DE585&amp;_z=z" target="_blank">leaf spot</a>, <a href="~/link.aspx?_id=EC3E98FDC2E24B96A802A1536EEC619D&amp;_z=z" target="_blank">leaf blight</a>&nbsp;and other fungal flower garden diseases. Spotty leaves detract from flowery blooms. Control, stop and prevent fungal diseases and their spread with <a href="~/link.aspx?_id=D3AD22F9E2F74615948FDC9B0A15B059&amp;_z=z" target="_blank">Daconil Fungicide Ready-to-Use</a>&nbsp;for small areas or <a href="~/link.aspx?_id=1698AA11155245489301F2605DF5F217&amp;_z=z" target="_blank">Daconil Concentrate </a>for larger garden areas.</p>
+        <p>Starting your first flower garden puts you on the path to flowers, fragrances and a future filled with rewarding garden views. Let the <a href="https://www.gardentech.com" target="_blank">GardenTech family</a>&nbsp;of brands come along for your journey. With quality products and timely tips, we're here for you.</p>
+        <p>* except fire ants and ticks</p>
+        <p><em>Always read product labels thoroughly and follow instructions, including guidelines for pre-harvest intervals (PHI) and application frequency.</em></p>
+        <p><strong><em>&rdquo;Always read product labels thoroughly&hellip;&rdquo; GardenTech is a registered trademark of Gulfstream Home &amp; Garden, Inc.</em></strong></p>
+        <p><em>Sevin is a registered trademark of Tessenderlo Kerley, Inc.</em></p>
+        <p><em>Pennington is a registered trademark of Pennington Seed, Inc.</em></p>
+        <p><em>UltraGreen is a registered trademark of Central Garden &amp; Pet Company.</em></p>
+    - ID: "6dd157fe-8ea8-496a-b595-0e6a18489836"
+      Hint: ThumbnailImage
+      Value: |
+        <image mediaid="{7DC5C5D6-672E-4448-9898-B35E0FF8C68A}" />
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Even if you're new to gardening, you can start a flower garden from scratch and enjoy beautiful flowers right away.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: How to Start a Flower Garden
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: How to Start a Flower Garden
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d28e4091-3af2-4334-a90d-fec9efa4fabf"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{7DC5C5D6-672E-4448-9898-B35E0FF8C68A}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220728T022506Z
+    - ID: "eaaa3bf1-4f5c-4f65-9f61-c6f234ffc31f"
+      Hint: BlogPostTopic
+      Value: "{35E8A3F7-0D39-42B6-ADA0-8D549F180D92}"
+    - ID: "f0d0a9d9-6b70-4a54-a04a-537c38d5b2e1"
+      Hint: RelatedArticlesLabel
+      Value: OTHER POSTS YOU MIGHT LIKE
+    - ID: "fb742e87-7bf7-4c72-97a9-987a40989ece"
+      Hint: RelatedArticles
+      Value: |
+        {20EB4802-939A-43EA-A712-41FA93E9988C}
+        {7F3B1181-4B5C-4FA0-884D-CDA843A195CC}
+        {4E056567-7A46-442A-AF48-BF8EA6DCCB6B}
+        {FADBF65E-2F50-4527-BA2B-6617035FE8F7}

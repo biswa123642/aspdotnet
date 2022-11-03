@@ -1,0 +1,41 @@
+﻿---
+ID: "975a40df-23cf-4a2f-9b7f-0b649f70246e"
+Parent: "fb51172b-2c78-426e-b546-892685dfa956"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: "/sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Teaser Promo/BannerWithLogo/Scriban/Col Right/inner-wrap/Scriban"
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    {{ if (i_item.CTAIconOne != "" || i_item.CTAIconTwo != "" || i_item.CTAIconThree != "" || i_item.CTAIconFour != "" || i_item.FirstCTA != "" || i_item.SecondCTA != "" || i_item.ThirdCTA != "" || i_item.FourthCTA != "" ) }}
+    {{sc_execute i_item "Bottom Link" }}
+    {{end}}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220830T084242Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8614e6b9-093d-4f58-9387-81b0220d26d7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220902T105901Z

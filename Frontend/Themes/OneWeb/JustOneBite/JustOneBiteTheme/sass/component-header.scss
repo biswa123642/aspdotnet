@@ -1,0 +1,183 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+header {
+  padding-bottom: 2rem;
+  background-color: #ededed;
+  .header-shell.variant-2 {
+    background-color: inherit;
+    .wrapper {
+      .inner-wrap {
+        background-color: $yellow;
+        .container{
+          >div.row{
+            align-items: initial;
+          }
+        }
+        .logo-container {
+          .file-type-icon-media-link {
+            .component-content {
+              width: 12.9rem;
+              a {
+                img {
+                  max-width: 100%;
+                }
+              }
+            }
+          }
+        }
+        .plain-html {
+          .component-content {
+            margin: 0 0 0 4.5rem;
+            .mobile-search-toggle {
+              margin: 2rem 0.5rem;
+              padding: 2rem 1.2rem;
+            }
+            .hamburger {
+              background-color: $black;
+              border-radius: 0.4rem;
+              margin: 2rem 0.5rem;
+              padding: 2rem 1.2rem;
+            }
+          }
+        }
+        .search-box {
+          background-color: $black;
+        }
+      }
+      .wrapper-nav {
+        background-color: $black;
+        .header-global-menu {
+          background-color: $black;
+          .items {
+            .item {
+              a {
+                color: $white-color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @include respond-to(tab) {
+    .header-shell.variant-2 {
+      .wrapper {
+        .inner-wrap {
+          .plain-html {
+            .component-content {
+              margin: 0 0 0 39.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  @include respond-to(desktop) {
+    padding-bottom: 5rem;
+    .header-shell.variant-2 {
+      .wrapper {
+        .inner-wrap {
+          background-color: $black;
+          height: 9rem;
+          .logo-container {
+            .file-type-icon-media-link {
+              .component-content {
+                width: 30.1rem;
+                margin-left: -8.5rem;
+              }
+            }
+          }
+          .utility-navigation {
+            display: contents;
+            .component-content {
+              div {
+                margin: 0 0 0 4.15rem;
+                .top-nav {
+                  .list-wrap {
+                    .list-item a {
+                      font-size: 2rem;
+                      line-height: 4.2;
+                      color: $white-color;
+                      padding-right: 5rem;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          .search-box {
+            .search-holder {
+              .search-input-wrapper {
+                input {
+                  display: block;
+                  border-radius: 2rem;
+                  min-width: 20rem;
+                  height: 4rem;
+                  padding: 0.4rem 0.8rem;
+                  margin-top: 0.5rem;
+                  text-align: center;
+                  font-size: 1.125rem;
+                }
+              }
+            }
+          }
+        }
+        .wrapper-nav {
+          background-color: $yellow;
+          clip-path: polygon(34.7% 0, 90% 0%, 90% 100%, 39% 100%);
+          .header-global-menu {
+            background-color: $yellow;
+            padding: 0 0 0 2rem;
+            .items {
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+              width: 70%;
+              float: right;
+              padding: 1.3rem 0 0 2.4rem;
+              .item {
+                width: max-content;
+                padding: 0.8rem 4rem 1.35rem;
+                .list-wrap {
+                  a {
+                    color: $black;
+                    font-size: 2rem;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (min-width: 1500px) {
+    .header-shell.variant-2 {
+      .wrapper {
+        .inner-wrap {
+          .logo-container {
+            .file-type-icon-media-link {
+              .component-content {
+                margin-left: 0;
+              }
+            }
+          }
+          .utility-navigation {
+            display: block;
+          }
+        }
+        .wrapper-nav {
+          .header-global-menu {
+            .items {
+              width: 75%;
+              padding: 1.3rem 13rem 0 13rem;
+              .item {
+                padding: 0.8rem 7rem 1.35rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

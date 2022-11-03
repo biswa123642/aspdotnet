@@ -1,0 +1,79 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  &.product-tab-accordion:not(.product-tab) {
+    padding: 0 2rem;
+    .tabs-accordion {
+      .card {
+        overflow: auto;
+        background: inherit;
+        position: relative;
+        padding: 0;
+        .card-header {
+          padding: 0;
+          border-bottom: none;
+          background-color: inherit;
+          h2 {
+            button {
+              color: $red-text;
+              font-family: "chainprinter";
+              font-size: 2.5rem;
+              font-weight: inherit;
+              text-decoration: none;
+              padding: 5px 0;
+              margin: 0;
+              display: inline-block;
+              width: 100%;
+              border-bottom: 1px solid #58595b;
+              &::before,
+              &::after {
+                background-color: $red-text;
+                height: 2px;
+                width: 1.3rem;
+              }
+              &::after {
+                top: 47%;
+              }
+            }
+          }
+        }
+        .collapse {
+          background-color: inherit;
+          padding-top: 0;
+          border: 0;
+          border-top: none;
+          border-bottom: none;
+        }
+        .show {
+          padding: 1rem 6rem;
+        }
+        
+        #collapse-instructions {
+          a {
+            display: inline-block;
+            border: 1px solid transparent;
+            padding: 6px 12px;
+            font-size: 16px;
+            line-height: 1.42857143;
+            border-radius: 4px;
+            color: #333333;
+            background-color: #ffffff;
+            border-color: #cccccc;
+            font-family: inherit;
+            margin: 0 -6rem;
+            &:hover {
+              text-decoration: none;
+              color: #333333;
+              background-color: #e6e6e6;
+              border-color: #adadad;
+            }
+          }
+        }
+      }
+    }
+    @include respond-to(desktop) {
+      padding: 0 0 14rem 0;
+    }
+  }
+}

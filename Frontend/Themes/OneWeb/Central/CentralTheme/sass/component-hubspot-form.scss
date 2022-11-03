@@ -1,0 +1,80 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  &.hubspot-form {   
+        
+    .submitted-message,.hubspot-form{
+      padding: 1rem 0 3rem 0;
+      color: inherit;
+    }
+    .hs-form {
+      .hbspt-form{
+        
+      }
+      .hs-error-msgs {
+        li {
+          label {
+            color: $text-red;
+            font-size: 1.6rem;
+          }
+        }
+      }
+      .input {
+        input,select,textarea{
+          background: $bg-light-gray;
+
+        }
+        input {
+          padding: 12px 0;
+        }
+        select {
+          padding: 22px 0;
+        }
+        
+      }  
+      
+      
+
+      .hs-submit {
+        input {
+          text-indent: -99999px;
+          border-radius: 0;
+          display: inline-block;
+        background-image: url(../images/Icons/Submit_btn.png);
+
+          background-repeat: no-repeat;
+          background-size: contain;
+          color: $bg-transparent;
+          border: none;
+          background-color: $bg-transparent;
+          margin: 0px;
+          padding: 0px;
+          &:hover {
+            &:not(.inactive) {
+              box-shadow: none;
+            }
+          }
+        }
+      }
+      input,
+      select {
+        background: $bg-light-gray;
+        width: 100% !important;// Override default 
+        outline: none;
+        padding: 12px 0;
+        border-radius: 5px;
+        border: 1px solid #77787b73; //One time color
+      }
+      label {
+        span {
+        @include fieldwork-hum-font-stack();
+          text-transform: capitalize;
+          color: $dark-green;
+          font-size: 1.6rem;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}

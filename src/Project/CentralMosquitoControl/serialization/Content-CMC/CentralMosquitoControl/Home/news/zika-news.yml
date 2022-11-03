@@ -1,0 +1,113 @@
+﻿---
+ID: "d6fef1e5-ff99-4165-bb2a-1f792e025579"
+Parent: "3643901e-06f6-45a2-bb17-2be0899722e4"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/CentralMosquitoControl/Home/news/zika-news"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{AEDF66C1-1AEB-428E-A236-4E8383070B18}"
+          p:before="*"
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-3-1/container-5" />
+        <r
+          uid="{61DAEDFD-4DF8-4A16-BF7A-7C3F2CF500D2}"
+          p:after="r[@uid='{AEDF66C1-1AEB-428E-A236-4E8383070B18}']"
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B28C76009-CBBF-4D05-8911-94F9A74652F7%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-2-1/container-4" />
+        <r
+          uid="{844AE5AD-E66C-452D-A54D-6AB83C6C81F3}"
+          p:after="r[@uid='{61DAEDFD-4DF8-4A16-BF7A-7C3F2CF500D2}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BE951A28D-10FF-4D94-BDE6-BB1DDE779D5E%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-3-1" />
+        <r
+          uid="{505D09A3-13F7-4CDF-9F90-51A536CC07A1}"
+          p:after="r[@uid='{844AE5AD-E66C-452D-A54D-6AB83C6C81F3}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{3100ADE4-A5A6-4B1F-8171-981B206EDB28}"
+          p:after="r[@uid='{505D09A3-13F7-4CDF-9F90-51A536CC07A1}']"
+          s:ds=""
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%2F&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B34C68150-D3B2-463D-9B91-B2F7BCBD3727%7D&amp;Styles=%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D%7C%7BE951A28D-10FF-4D94-BDE6-BB1DDE779D5E%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3&amp;CacheClearingBehavior=Clear%20on%20publish"
+          s:ph="/main/row-1-1/container-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{C422E6BE-EEEC-4882-AFCB-AFE708DAF8E5}"
+          p:after="r[@uid='{3100ADE4-A5A6-4B1F-8171-981B206EDB28}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{5E7DB50D-B55E-4DD1-826D-B9DB9877E7FF}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221003T111841Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Zika News
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <p>According to a recent <a rel="noopener noreferrer" href="http://www.reuters.com/article/us-health-zika-mosquitoes-idUSKCN1142CD" target="_blank"><span style="text-decoration: underline;">study</span></a>, Zika virus can be passed from mother mosquitoes on to their offspring. This phenomenon, known as vertical transmission, is also possible in other related mosquito-borne diseases such as West Nile virus, dengue, and yellow fever. Vertical transmission plays a big role in perpetuating a disease outbreak.</p>
+        <p><em>Aedes aegypti</em> mosquitoes, the species known to transmit Zika, lay eggs on the surface of stagnant water. In ideal conditions, eggs will hatch underwater into larvae and then pupate before finally emerging as an adult. If the standing water dries out after the eggs are laid, they will stay there and remain dormant. Their resistant shells will protect the eggs from hot and cold temperatures, potentially overwintering and carrying the disease through to the next season.</p>
+        <p>This new discovery further underscores the need for comprehensive mosquito control programs to eliminate both the breeding, biting adult mosquitoes and their eggs. Utilizing an adulticide in conjunction with a larvicide ensures an attack on current and future populations of these Zika vectors, at each stage of their life cycle. </p>
+        <p><img alt="" height="519" width="1366" src="-/media/8906E64992264BC983D387321B1C4169.ashx?h=519&amp;w=1366" /></p>
+        <p>Establishing an integrated mosquito management (IMM) approach is necessary for complete coverage and control. IMM includes four steps: <strong>1. Sampling</strong>, which includes the monitoring of breeding sites, <strong>2. Source Reduction</strong>, where standing water is removed to limit potential breeding sites, <strong>3. Biological Control</strong> through the use of naturally occurring mosquito predators and <strong>4. Product Application</strong> consisting of larvicides for prevention and adulticides to address the current population of disease-spreading mosquitoes.</p>
+        <p>Communities across the country need mosquito control they can count on to combat both the nuisance factor and the potential health risks. Central Life Sciences offers a variety of mosquito control solutions for all components of an IMM, featuring proven active ingredients in a range of formulations:</p>
+        <ul>
+            <li><a href="~/link.aspx?_id=D2C5D8FC78724EAEAECBFE55650B7B3D&amp;_z=z"><span style="text-decoration: underline;">Altosid&reg; Larvicides</span></a>: Unlike conventional pesticides, each Altosid&reg; Larvicide formulation contains (S)-methoprene, an insect growth regulator (IGR) that stops mosquitoes from becoming breeding, biting adults.</li>
+            <li><a href="~/link.aspx?_id=9214AF12C66944B495BECE4D09CFCD7F&amp;_z=z"><span style="text-decoration: underline;">FourStar&reg; Microbial Larvicides</span></a>: Kills mosquito larvae before they become adults by using the naturally occurring bacteria Bacillus sphaericus (Bsph) and Bacillus thuringiensis israelensis (Bti).</li>
+            <li><a href="~/link.aspx?_id=DD6911F8D2C24FD6A6A265EE89F4D654&amp;_z=z"><span style="text-decoration: underline;">Zenivex&reg; Adulticides</span></a>: Offered in three convenient formulations, Zenivex&reg; provides quick, permanent knockdown and reliable control of adult mosquito populations in any mosquito habitat. </li>
+        </ul>
+        <p>To learn more about mosquito control, contact Senior Field Technical Service Manager Mel Whitson at 321-480-0478 or <a href="mailto:mwhitson@central.com" style="text-decoration: underline;">mwhitson@central.com</a> or <a rel="noopener noreferrer" href="https://www.centralmosquitocontrol.com/contact-us" target="_blank"><span style="text-decoration: underline;">find your local sales representative</span></a>.</p>
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Zika News | Central Mosquito Control
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: New Study Shows Adult Mosquitoes Can Pass Zika Virus to Their Offspring
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "115c149b-ee39-4af2-aec2-4b6f9beb7499"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{8906E649-9226-4BC9-83D3-87321B1C4169}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221013T122202Z

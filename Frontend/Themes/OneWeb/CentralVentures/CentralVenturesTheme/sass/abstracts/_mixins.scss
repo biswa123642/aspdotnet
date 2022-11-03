@@ -1,0 +1,71 @@
+@import "vars";
+
+/* breakpoints */
+
+$break-desktop: 992px;
+$break-all-mobile: 991px;
+$break-mobile: 380px;
+$break-tab: 768px;
+$break-mobile-horizontal-down: 639px;
+$break-mobile-horizontal: 640px;
+$break-mobile-large: 786px;
+$break-tab-horizontal: 1024px;
+$large-desktop: 1300px;
+$extra-large-desktop:1600px;
+@mixin wrapper() {
+  max-width: 991px;
+  margin: 0 auto !important;
+}
+
+@mixin respond-to($media) {
+  @if $media==mobile {
+    @media only screen and (max-width: $break-mobile) {
+      @content;
+    }
+  } @else if $media==mobile-horizontal {
+    @media only screen and (max-width: $break-mobile-horizontal-down) {
+      @content;
+    }
+  } @else if $media==mobile-large {
+    @media only screen and (max-width: $break-mobile-large) {
+      @content;
+    }
+  } @else if $media==tablet {
+    @media only screen and (min-width: ($break-mobile + 1)) and (max-width: ($break-desktop - 1)) {
+      @content;
+    }
+  } @else if $media==all-mobile {
+    @media only screen and (max-width: $break-all-mobile) {
+      @content;
+    }
+  } @else if $media==tab {
+    @media only screen and (min-width: ($break-tab)) {
+      @content;
+    }
+  } @else if $media==desktop {
+    @media only screen and (min-width: $break-desktop) {
+      @content;
+    }
+  } @else if $media==large-desktop {
+    @media only screen and (min-width: $large-desktop) {
+      @content;
+    }
+  }@else if $media==extra-large-desktop {
+    @media only screen and (min-width: $extra-large-desktop) {
+      @content;
+    }
+  } @else if $media==below-tab {
+    @media only screen and (max-width: 1023px) {
+      @content;
+    }
+  } 
+}
+
+// font-family for  central.com
+@mixin fieldwork-hum-font-stack() {
+  font-family: "fieldwork-hum", sans-serif;
+}
+
+@mixin ff-ernestine-pro-font-stack() {
+  font-family: "ff-ernestine-pro", serif;
+}

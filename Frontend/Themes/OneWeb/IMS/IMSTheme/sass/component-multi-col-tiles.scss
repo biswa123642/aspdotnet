@@ -1,0 +1,125 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.multi-column-content-tiles {
+    &.variant-1 {
+      padding-bottom: 0;
+      .wrapper > .row > div {
+        padding: 0;
+        @include respond-to(tablet) {
+          width: 100%;
+          flex: 0 0 100%;
+          max-width: 100%;
+        }
+      }
+      .wrapper {
+        .inner-wrap {
+          padding-bottom: 0;
+          img {
+            @include respond-to(mobile-only) {
+              max-width: 150%;
+              margin-left: -25%;
+              margin-right: -25%;
+            }
+          }
+          .body-copy {
+            margin-top: -14.2rem;
+            width: auto;
+            h2 {
+              max-width: initial;
+              font-size: 4.8rem;
+              letter-spacing: 2px;
+              &.title-maroon {
+                color: $title_primary;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &.variant-2 {
+      background: none;
+      padding-top: 2rem;
+      padding-bottom: 0;
+
+      .wrapper {
+        h1 {
+          padding-bottom: 0;
+        }
+        .inner-wrap {
+          .copy-wrap {
+            a {
+              &:hover {
+                text-decoration: none;
+              }
+            }
+            .col-left {
+              padding-left: 0;
+              padding-right: 0;
+              .field-image {
+                padding: 0;
+                img {
+                  margin-bottom: -6px;
+                  min-height: auto;
+                  height: 38rem;
+                  width: 38rem;
+
+                  @include respond-to(larger-desktop) {
+                    height: 50rem;
+                    width: 46rem;
+                  }
+                }
+              }
+            }
+            .card-body > div {
+              @include respond-to(tablet) {
+                width: 100%;
+                flex: 0 0 100%;
+                max-width: 100%;
+              }
+            }
+            .card-body {
+              .col-right {
+                justify-content: space-around;
+                flex-direction: column;
+                display: flex;
+                padding: 4rem 3rem;
+                @include respond-to(desktop) {
+                  padding: 2rem 3rem;
+                }
+                &.bg-yellow {
+                  background-color: $bg-yellow;
+                }
+                &.bg-grey {
+                  background-color: $bg-grey;
+                }
+                &.bg-red {
+                  background-color: $bg-red;
+                }
+                &.bg-blue {
+                  background-color: $bg-blue;
+                }
+              }
+              .body-copy {
+                color: $white;
+
+                .field-title {
+                  font-size: 4.48rem;
+                  line-height: 1.1;
+                  @include Franlink-font-stack();
+                }
+                .field-subtext {
+                  font-size: 1.8rem;
+                  font-weight: 400;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

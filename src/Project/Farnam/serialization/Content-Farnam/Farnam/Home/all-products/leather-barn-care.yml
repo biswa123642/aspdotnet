@@ -1,0 +1,76 @@
+﻿---
+ID: "98a308a8-ee9a-4dc4-9c25-93499ed03440"
+Parent: "227ffd8c-0305-4f75-84df-8f32ce7ac255"
+Template: "7bdf7d45-c98f-4e4d-ac3a-ad8035780bbe"
+Path: "/sitecore/content/OneWeb/Farnam/Home/all-products/leather-barn-care"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{B408453D-EC91-42D1-926C-69A7A0E7EBEA}"
+- ID: "76fb6ffd-4487-4028-a1cf-705fbe360cba"
+  Hint: Priority
+  Value: "{19F3E919-4991-495F-9207-E1DADFD06F54}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "055a2c41-4d44-4441-b589-b86f39cc64e5"
+      Hint: HeroBannerContent
+      Value: <p>Caring for your barn and tack is about safety and comfort &ndash; for both you and your horse. Farnam offers a full complement of leather care products that help keep your tack supple and strong, plus solutions that keep your horse and barn looking great.</p>
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{D38B18A2-4FD7-413D-BB6A-30CDF5304D7B}" />
+    - ID: "1d9016e0-30b3-492f-b94a-f1ebdf628005"
+      Hint: MobileImage
+      Value: |
+        <image mediaid="{822C58D2-C525-478F-9774-967C9BEFE5BB}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220701T084029Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Leather & Barn Care
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: "Protect all your investments with Farnam leather and barn care products! Farnam leather care products help keep your horse tack supple and strong."
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "Protect all your investments with Farnam leather and barn care products! Farnam leather care products help keep your horse tack supple and strong."
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Horse Leather Care | Barn Care | Farnam
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: "leather-barn-care"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "38c421ae-3844-4069-8e24-973c1bae9a5e"
+    - ID: "92f32441-cec4-42a7-ba44-83e8bb569c74"
+      Hint: FacetAttributes
+      Value: "{686E179F-30D1-4F6C-9131-F97A7B5331BF}|{A80A2A51-2975-48E9-98DF-24D1488BBF41}|{D4569209-FDE4-4957-B5CE-796E3E80F0BF}"
+    - ID: "b0c26a8e-ed75-4fac-9729-461caba576a0"
+      Hint: ProductDetailsAttributes
+      Value: "{686E179F-30D1-4F6C-9131-F97A7B5331BF}|{A80A2A51-2975-48E9-98DF-24D1488BBF41}|{D4569209-FDE4-4957-B5CE-796E3E80F0BF}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: <h1>Leather &amp; Barn Care</h1>
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{F1D9E641-F8EF-47E7-8083-59B1D10068C4}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220808T122012Z

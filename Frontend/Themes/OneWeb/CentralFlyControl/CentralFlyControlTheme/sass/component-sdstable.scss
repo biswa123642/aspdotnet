@@ -1,0 +1,147 @@
+.page-labels {
+    .breadcrumb {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.component {
+    .sds-labels {
+        .inner-wrap {
+            .body-copy {
+                padding: 1.6rem;
+                margin-bottom: 3rem;
+                background-color: #f3f3f4;
+
+                @media screen and(min-width:992px) {
+                    padding: 8rem 8rem 3.6rem 8rem;
+
+                    .sds-title,
+                    .sds-description {
+                        width: 50%;
+                    }
+                }
+            }
+
+            .sds-title {
+                margin-bottom: 3rem;
+            }
+
+            .table-data {
+                padding: 0 1.6rem 1.6rem 1.6rem;
+
+                @media screen and(min-width:992px) {
+                    padding: 0 8rem 8rem 8rem;
+                }
+            }
+        }
+
+        table {
+            table-layout: fixed;
+
+            thead {
+                th {
+                    text-transform: uppercase;
+                    text-align: center;
+                    font-weight: 600;
+                    margin: 0;
+                    width: 100%;
+                    padding: 0px 10px;
+                    font-size: 1.8rem;
+                    line-height: 1.1;
+                    background: none;
+
+                    &:first-child {
+                        width: 200%;
+                    }
+
+                    @media screen and (min-width:992px) {
+                        padding-bottom: 8rem;
+                    }
+                }
+            }
+
+            tr {
+                border: none;
+                background: none;
+
+                td {
+                    font-size: 2rem;
+                    line-height: 3.2rem;
+                    padding: 2rem 0 2rem;
+
+                    &:first-child {
+                        padding: 2rem 0 2rem;
+                    }
+
+                    .pdf-icon {
+                        background: none;
+                        width: auto;
+                        height: auto;
+                        font-style: normal;
+
+                        &:before {
+                            display: block;
+                            font-family: FontAwesome;
+                            content: '\f019';
+                            color: #404041;
+                            font-size: 2.8rem;
+                        }
+                    }
+                }
+            }
+
+            @media screen and (max-width:1023px) {
+                thead {
+                    th {
+                        display: block;
+                        height: 5rem;
+
+                        &:first-child {
+                            display: none;
+                        }
+                    }
+
+                    td {
+                        display: block;
+                        text-align: center;
+                    }
+                }
+
+                tbody {
+                    tr {
+                        td {
+                            text-align: center !important;
+                            display: block;
+                            padding: 0;
+
+                            a {
+                                display: block;
+                                padding: 0.5rem 0;
+                                .pdf-icon~span{
+                                    display: block;
+                                    font-size: 2rem;
+                                    font-weight: 400;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            @media screen and (max-width:991px) {
+                thead {
+                    display: block;
+
+                    th {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}

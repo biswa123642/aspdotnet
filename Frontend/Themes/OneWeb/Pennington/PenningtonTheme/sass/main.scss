@@ -1,0 +1,218 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+@import "base/fonts/fonts";
+@import "base/fontawesome/font-awesome";
+
+html * {}
+
+body {
+  color: $body-color-default;
+  line-height: 1.428;
+  font-size: 1.4rem;
+  height: auto !important;
+  overflow-x: hidden;
+  background-color: $bg-basic-color;
+  margin: 0;
+  font-family: Raleway, sans-serif;  
+}
+
+h1 {
+  line-height: 1.1;
+  font-size: 3.7vw;
+  font-weight: 900;
+  color: $body-color-default;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  color: $text-black-light;
+}
+
+h3 {
+  font-size: 2.4rem;
+  font-weight: 900;
+  color: $text-black-light;
+}
+
+h4 {
+  font-size: 16px;
+  color: $text-black-light;
+  font-weight: 900;
+}
+
+p {
+  color: $body-color-default;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+a {
+  color: $list-default-color;
+}
+
+.sxa-btn {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: $accordian-text-color;
+}
+
+
+@include respond-to(tab) {
+  h1 {
+    font-size: 9vw;
+  }
+
+  h3 {
+    font-size: 2.4rem;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  a {
+    color: $list-default-color;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 1.6rem;
+
+    &:hover {
+      color: $anchor-hover-golden;
+    }
+  }
+}
+.content a, .rich-text a{
+  color: $anchor;
+  &:hover{
+    color: $anchor;
+  }
+}
+/* .component{
+ &.content{
+   margin-bottom: 2rem;
+   margin-left: 1.5rem;
+   margin-right: 1.5rem;
+ }
+} 
+ */
+/* .component{
+  padding-left: 0;
+    padding-right: 0;
+    &.container{
+      padding: 0 1.5rem;
+      &.col-12{
+        padding: 0;
+      }
+    }
+  
+} */
+div,p,a,ol,li,ul,span{
+  font-weight: 500;
+  color: $text-black;
+  font-size: 1.6rem;
+}
+.content li, .rich-text li{
+  font-size: 1.6rem;
+  >a{
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
+.rich-text ul li,.content ul li{
+  list-style: disc;
+  list-style-position: outside;
+  margin-left: 2.2rem;
+}
+.rich-text ol li,.content ol li{
+  list-style-position: outside;
+}
+.component{
+  &.content{
+    padding: 0 1.5rem;
+      &.col-12{
+          /* margin: 0; */
+          .field-content{
+            h2{
+              text-transform: uppercase;
+              font-weight: 900;
+              a{
+                font-weight: inherit;
+                text-decoration: none;
+              }
+            }
+          }
+          .field-heading{
+            span{
+              font-size: inherit;
+            }
+          }
+      }
+  }
+}
+.where-to-buy{
+  .ps-widget{
+    background: none !important;
+  }
+}
+.product-list{
+  .cgp-product{
+    .body-copy{
+      p{
+        color: $text-secondary;
+      }
+    }
+  }
+}
+.p-w-r .pr-media-carousel--light {
+  background-color: rgba(0,0,0,.7);
+}
+span{
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+}
+.component{
+  .scEmptyImage{
+    max-width: 6rem;
+  }
+}
+#wrapper{width:100%;max-width:100%;}
+.container>.component-content>.row{
+ margin-left: -15px;
+ margin-right: -15px;
+}
+.component.accordion .toggle-header .component .field-heading:after{
+  display: none;
+}
+// overriding bootstrap
+
+.component{
+  &.video{
+    padding: 1.5rem;
+    max-width: 100%;
+  }
+}
+iframe{
+  width: 100%; 
+  min-height: 250px; 
+   
+  @include respond-to(tab){
+    min-height: 400px;
+  }
+}
+.component{
+  &.addthis{
+    text-align: right;
+  }
+}
+.scroll-button-wrap .to-top{
+  left: 5rem !important;
+  right: initial;
+}
+#footer .field-link a{
+  color: $text-yellow-dark !important;
+}

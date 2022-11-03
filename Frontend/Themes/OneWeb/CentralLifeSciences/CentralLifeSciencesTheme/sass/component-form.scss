@@ -1,0 +1,24 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.sxa-btn {
+  &.sxa-btn-primary {
+    a {
+      margin: 2rem 0px;
+      padding: 0px 44px 0px 23px;
+      background-color: transparent;
+      color: $dark-green;
+      transition: all ease-in-out 300ms;
+      border: none;
+      background-repeat: no-repeat;
+      min-width: 235px;
+      text-align: center;
+      background-image: url("../images/cta-bg.svg");
+      background-size: 100% 100%;
+      &:hover {
+        background-image: url("../images/cta-bg-hover.svg");
+        color: $light-green;
+      }
+    }
+  }
+}

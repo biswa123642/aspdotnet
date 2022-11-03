@@ -1,0 +1,126 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.sxa-btn-primary {
+  a.clear-filter-btn {
+    color: #58595b;
+    font-family: "Arial", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    border: 0;
+    padding: 0;
+  }
+}
+#searchfilter {
+  width: 80%;
+  .facet-wrapper {
+    h3 {
+      color: $black;
+      font-size: 1.5rem;
+      font-weight: bold;
+      border: 0;
+      button {
+        &::before,
+        &::after {
+          background: $red-text !important;
+        }
+        &:hover {
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+.product-listing {
+  .product-wrap {
+    .result-count {
+      font-size: 1.6rem;
+    }
+    #product-wrapper {
+      .product-list {
+        .cgp-product {
+          text-align: center;
+          padding: 2rem 2.4rem;
+          .image-holder {
+            min-height: 10rem;
+            position: relative;
+            a {
+              display: block;
+              &::before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                border-radius: 100%;
+                border-width: 12px;
+                width: 80%;
+                padding-top: calc(80% - 20px);
+                border-style: solid;
+                z-index: -1;
+                border-color: #337ab7;
+              }
+            }
+          }
+          .body-copy {
+            padding: 1rem 2.5rem;
+            text-align: center;
+            h3 {
+              padding: 0 0 1rem 0;
+              a {
+                color: $black;
+                font-family: "antique-olive", sans-serif;
+                font-size: 2.17rem;
+                font-weight: bold;
+                text-decoration: none;
+                text-transform: uppercase;
+                &:hover {
+                  text-decoration: underline;
+                }
+              }
+            }
+            p {
+              color: #58595b;
+              font-size: 1.67rem;
+              font-weight: bold;
+            }
+          }
+          @include respond-to(desktop) {
+            margin-bottom: 4rem;
+            padding: 0;
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+
+  .facet-wrapper {
+    .form-check {
+      display: flex;
+      align-items: center;
+      input {
+        margin-right: 1rem;
+        align-self: flex-start;
+        &::before {
+          left: -0.3rem;
+        }
+      }
+      label {
+        left: 10px;
+        display: inline;
+        color: $black;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      input[checked] {
+        appearance: none;
+        background-color: $black;
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+﻿---
+ID: "f467ade1-56d2-4ce3-ab99-8498a1588971"
+Parent: "6192ffb0-16eb-4b99-aa0a-5aca7ae4c91d"
+Template: "b8f5894c-b493-4016-bf78-4090b0a2fd16"
+Path: /sitecore/content/OneWeb/Adams/Data/Texts/Page Not Found
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220620T090229Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3d1f457e-733e-42ec-91fd-4c67ba5a3d51"
+    - ID: "b3635965-6786-457c-9dee-28de73c0a331"
+      Hint: Text
+      Value: |
+        <div class="page-not-found">
+        <h1>404</h1>
+        <h2>The page you are looking for no longer exists. Perhaps you can return back to the site's homepage and see if you can find what you looking for.</h2>
+        <div class="back-to-home-btn"><a href="~/link.aspx?_id=C29BCE89BD91434CB2FA2CE130DE7C1E&amp;_z=z">BACK TO HOME</a></div>
+        </div>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220705T072900Z

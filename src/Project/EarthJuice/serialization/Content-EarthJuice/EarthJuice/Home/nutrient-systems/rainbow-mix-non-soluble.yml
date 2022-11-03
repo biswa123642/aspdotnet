@@ -1,0 +1,123 @@
+﻿---
+ID: "b73768f5-3bcb-4821-b8cf-23cde32e00e9"
+Parent: "e91229bb-1392-4a1a-a708-46fb19aed7bd"
+Template: "7bdf7d45-c98f-4e4d-ac3a-ad8035780bbe"
+Path: "/sitecore/content/OneWeb/EarthJuice/Home/nutrient-systems/rainbow-mix-non-soluble"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/32x32/text.png
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{5634646F-30C6-4A7B-BF8C-224F2394FBE6}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{FDAEC243-42CB-4034-B1CD-488DD9127F9B}"
+          s:ds=""
+          s:id="{86FBA02B-2E9C-4A00-9CCF-DE607B1FCDC7}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass=col-md-3&amp;HideImage&amp;IsMobileCarousel&amp;ShowDescription=1&amp;FieldNames=%7B3C2CCCE6-6DC8-4816-A20B-8551B44E446C%7D&amp;Styles=%7B29998DB5-6C20-4078-A13F-A2B7E9792059%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-nutrient-systems/container-1/row-1-4"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "055a2c41-4d44-4441-b589-b86f39cc64e5"
+      Hint: HeroBannerContent
+      Value: |
+        <p>Our most popular lines of granular-powder fertilizers 
+        designed specifically to make gardening easy, less time
+        consuming and rewarding.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220617T061634Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{C73567C7-EB4B-44F3-95AC-8F79876E309A}" />
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "rainbow-mix-non-soluble"
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Rainbow Mix Pro Blends consist of two all natural blends containing mycorrhizae, beneficial microbes and humic acid for high performance gardening.
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <p>Rainbow Mix Pro Blends consist of  two all natural blends containing mycorrhizae, beneficial microbes and humic acid for high performance gardening. Apply once to twice per growing season or whenever needed.</p>
+        <ul>
+            <li>Grow formulas are for use on all foliage plants for stem and leaf growth</li>
+            <li>Make an ideal all purpose fertilizer</li>
+            <li>Bloom formulas are the superior choice for all flowering and fruiting plants</li>
+            <li>Versatile uses include:
+            <ul>
+                <li>Adding and mixing directly into soils prior to planting</li>
+                <li>Application by broadcasting around plants</li>
+                <li>Making plant teas</li>
+            </ul>
+            </li>
+        </ul>
+        <p>User-Friendly • Non-Burning • No Excess Salt Residues</p>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Rainbow Mix Pro Blends consist of two all natural blends containing mycorrhizae, beneficial microbes and humic acid for high performance gardening.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Rainbow Mix Non-Soluble Nutrient System"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: "RAINBOW MIX NON-SOLUBLE NUTRIENT SYSTEMS"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9dbd34c5-09ea-4521-8e4d-874db1f0bb1e"
+    - ID: "95d893d1-43ae-4c07-bc1e-9839b5cffed5"
+      Hint: RelatedProducts
+      Value: |
+        {39B374E9-BDD7-422E-8479-80AAB6938380}
+        {39F7DD8C-DD95-46A6-A687-873334C9C8EB}
+    - ID: "a6772724-fc83-4e63-a2f6-a893b8329b9e"
+      Hint: HeroBannerAlignment
+      Value: "Left-Align"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c0dea859-79fd-453e-99da-f5b81bfa44da"
+      Hint: MobileBackgroundColor
+      Value: #C61D23
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: |
+        <h1>FOR HIGH
+        
+        PERFORMANCE
+        
+        GARDENING</h1>
+    - ID: "d09bc090-2bb2-462b-8f8d-ccde0f555fd3"
+      Hint: OverlayColorOpacity
+      Value: 00
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{0ACCBCAE-27AC-4D41-B6D9-50B61957BC09}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220721T073625Z
+    - ID: "f1115acb-7ba4-48e9-8262-cb95f1f52313"
+      Hint: OverlayColor
+      Value: #C61D23

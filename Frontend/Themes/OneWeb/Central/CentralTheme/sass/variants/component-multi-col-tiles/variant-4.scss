@@ -1,0 +1,170 @@
+&.variant-4 {
+  padding: 3rem 1.5rem;
+
+  .container {
+    padding: 0;
+    @include respond-to(extra-large-desktop){
+      max-width: 155.4rem;
+    }
+  }
+
+  .inner-wrap {
+    .col-left {
+
+      h2 {
+        font-size: 4.2rem;
+        line-height: 1.1;
+        @include fieldwork-hum-font-stack();
+        font-weight: 600;
+        padding: 0;
+        margin: 0;
+
+        strong {
+          font-weight: 600;
+        }
+      }
+    }
+
+    .col-right {
+      >.row{
+        border: none;
+        .body-copy{
+          border-bottom: 1px solid $light-green;
+        }
+        &:last-child{
+          .body-copy{
+            border: none;
+          }
+        }
+      }
+      .body-copy {
+        .content-right {
+          .copy-wrap {
+            padding: 2rem 0;
+
+            p {
+              font-size: 1.82rem;
+              font-weight: 400;
+              letter-spacing: 0.75px;
+              line-height: 1.2;
+              padding-bottom: .5rem;
+              width: initial;
+              vertical-align: top;
+
+              strong {
+                font-size: 2.548rem;
+
+                span {
+                  font: inherit;
+                }
+              }
+
+              ;
+            }
+          }
+        }
+      }
+
+      >.row {
+        &:last-child {
+          .body-copy {
+            .content-right {
+              .copy-wrap {
+                padding-bottom: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    @include respond-to(desktop) {
+      .col-left {
+        h2 {
+          font-size: 3vw;
+
+          &:first-child {
+            padding-top: 2rem;
+          }
+        }
+      }
+
+      .col-right {
+        .body-copy {
+          .content-right {
+            .copy-wrap {
+
+              p {
+                font-size: 1.68rem;
+                padding-right: 3rem;
+
+                strong {
+                  font-size: 2.016rem;
+                }
+
+              }
+            }
+          }
+        }
+      }
+    }
+
+    @include respond-to(extra-large-desktop) {
+      .col-right {
+        .body-copy {
+          .content-right {
+            .copy-wrap {
+
+              p {
+                font-size: 1.2vw;
+
+                strong {
+                  font-size: 2.8512rem;
+                }
+
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.white-bg {
+    * {
+      color: $dark-green  !important;
+    }
+  }
+
+  &.secondary {
+    .inner-wrap {
+      .col-right {
+        .body-copy {
+          border: none;
+          .content-right {
+            .copy-wrap {
+              padding: 1rem 0 .5rem 0;
+            }
+          }
+        }
+      }
+    }
+
+    @include respond-to(desktop) {
+      .inner-wrap {
+        .col-right {
+
+          .body-copy {
+            .content-right {
+              .copy-wrap {
+                p {
+                  width: 45%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

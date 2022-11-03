@@ -1,0 +1,187 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+    &.hero {
+        &:after {
+            content: "";
+            position: absolute;
+            bottom: -2rem;
+            ;
+            width: 100%;
+            height: 4rem;
+            background-image: url("../images/white-bottom");
+            left: 0;
+            z-index: 5
+        }
+
+        &.with-alignment {
+            .body-copy {
+                .hero-banner-title {
+                    h1 {
+                        @include Lilita-font-stack();
+                        color: $navbar-color;
+                        text-shadow: 0px 5px 10px #00000080;
+                        font-weight: 500;
+                        line-height: 1;
+                        font-size: 4.8rem;
+                        @media screen and (max-width:360px) {
+                            font-size: 3.8rem;
+                        }
+                        span {
+                            display: block;
+                            font-size: 80%;
+                        }
+                    }
+                    p{
+                        font-size: 1.92rem;
+                        font-weight:700; 
+                        color: $navbar-color; 
+                    }
+
+                    img {
+                        margin-bottom: 2rem;
+                    }
+                }
+            }
+
+            .banner-image {
+                position: relative;
+
+                img {
+                    width: 200vw;
+                    max-width: none !important;    ;
+                    transform: translateX(-50%);
+                    object-fit: cover;
+                    @include respond-to(desktop){
+                        min-height: 60rem;                                                
+                        width: 100%;
+                        transform: initial;
+                    }
+                }                
+
+            }
+
+            @include respond-to (desktop) {
+                .body-copy {
+                    .hero-banner-title {
+                        h1 {
+                            font-size: 7.2rem;
+                            max-width: 46rem;
+                        }
+
+                        img {
+                            margin-bottom: 0;
+                        }
+
+                        p {
+                            font-weight: bold;
+                            max-width: 46rem;
+                            color: $navbar-color;   
+                        }
+
+                        p.mobile-hide {
+                            max-width: 37rem;
+                        }
+
+                        >div>div {
+                            display: flex;
+                        }
+                        &.left-align{
+                            width: initial;
+                        }
+                    }
+                }
+
+
+
+                .banner-image {                    
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        bottom: 0;
+                        left: 0;
+                        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
+                        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
+                        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
+                        background-repeat: repeat-x;
+                    }
+                }
+            }
+        }
+
+        .sxa-btn {
+            margin: 5rem 0;
+
+            a {
+                border-radius: 2.5rem;
+                border-width: 2px;
+                border-style: solid;
+                text-transform: uppercase;
+                letter-spacing: .2em;
+                padding: .6rem 2rem;
+                display: inline-block;
+                color: $navbar-color;
+                background-color: inherit;
+                border-color: $navbar-color;
+                font-size: 13px !important;
+                text-decoration: none;
+                font-weight: 500;
+
+                &:hover {
+                    text-decoration: none;
+                    color: $light-black;
+                    background-color: $navbar-color;
+                    border-color: transparent;
+                    outline: none;
+                }
+            }
+        }
+    }
+
+    @include respond-to(tab) {
+
+        &.hero {
+            &:after {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                height: 4rem;
+                background-image: url("../images/white-bottom");
+                left: 0;
+                background-color: transparent;
+            }
+
+            &.with-alignment {
+                .hero-banner-title {
+                    background-color: transparent;
+                }
+
+            }
+
+        }
+
+    }
+}
+.component{
+    &.hero{
+        &.with-alignment{
+            @media screen and (max-width: 991px){ 
+                >.component-content{
+                    flex-direction: column-reverse;
+                    display: flex;
+                }  
+            }
+            @include respond-to(desktop){
+                .hero-banner-title{
+                    background-color: transparent !important;
+                }  
+            }
+        }
+    }
+}

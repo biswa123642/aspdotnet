@@ -1,0 +1,39 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.global-search-sugest {
+  &.ui-menu {
+    background-color: $white;
+    width: 100%!important; //due to inline css
+    @include respond-to(desktop) {
+      width: 316.5px;
+      background-color: $anchor-hover;
+    }
+    li {
+      .ui-menu-item-wrapper {
+        font-size: 1.92rem;
+        font-weight: 400;
+        @include Arial-font-stack();
+        color: $anchor-hover;
+        padding: 5px;
+        @include respond-to(desktop) {
+          color: $white;
+          text-align: end;
+        }
+      }
+    }
+  }
+}
+
+.ui-autocomplete {
+  &.global-search-sugest {
+    box-shadow: none;
+    max-width: 20rem;
+    top: 151px!important;//due to inline css
+    @include respond-to(mobile) {
+      top: 31rem !important;
+      left: 0px !important;
+      max-width: 100%;
+    }
+  }
+}

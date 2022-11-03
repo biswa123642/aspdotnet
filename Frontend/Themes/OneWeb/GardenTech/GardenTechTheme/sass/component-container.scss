@@ -1,0 +1,21 @@
+@import "styles/container/*";
+@import "abstracts/mixins";
+@import "abstracts/vars";
+
+#content > .row {
+  display: block;
+}
+.container {  
+  &:not(.col-12) {
+    @include respond-to(tab-horizontal){
+      max-width: 90%;
+      width:100%;
+    }
+    .container:not(.col-12){
+      max-width: initial;
+      width: 100%;
+
+    }
+  }
+}
+

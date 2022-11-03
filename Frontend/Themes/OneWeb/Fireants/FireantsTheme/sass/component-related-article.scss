@@ -1,0 +1,111 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+    &.related-articles-horizontal-view {
+        .copy-wrap {
+            .body-copy {
+                h3 {
+                    font-size: 25px;
+                    line-height: 36px;
+                    color: #a71d00;
+                    font-weight: 500;
+                    padding: 0 1.5rem ;
+                    
+                    a{
+                        color: inherit;
+                        font-size: inherit;
+                        font-weight: inherit;
+                        text-decoration: none;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.related-articles {
+        h3 {
+            font-size: 2rem;
+            @include georgia-font-stack();
+            font-weight: 700;
+
+            @include respond-to(desktop) {
+                font-size: 4rem;
+            }
+        }
+
+        a {
+            text-decoration: none;
+
+            .article-tag {
+                font-size: 1rem;
+                font-weight: 100;
+                color: $link-color;
+                text-transform: uppercase;
+                line-height: 16px;
+
+                @include respond-to(desktop) {
+                    font-size: 1.4rem;
+                }
+
+                @media only screen and (min-width: 1600px) {
+                    font-size: 2rem;
+                }
+            }
+
+
+            .caption {
+                font-size: 2rem;
+                @include georgia-font-stack();
+                font-weight: 500;
+                margin-bottom: 3rem;
+                line-height: 36px;
+
+                @include respond-to(desktop) {
+                    font-size: 3rem;
+                }
+
+                @media only screen and (min-width: 1600px) {
+                    font-size: 4rem;
+                }
+
+                &:hover {
+                    text-decoration: underline;
+                    text-decoration-color: $color-primary ;
+                }
+            }
+        }
+    }
+
+    &.related-article-variant-2 {
+        &.helps-title {
+            .content {
+                .field-content {
+                    margin-top: 0;
+
+                    p {
+                        text-align: left;
+                        margin-top: 0;
+
+                        a {
+                            font-size: 1.8rem;
+                            border: none;
+                            padding: 0;
+                            color: $color-primary;
+                            font-style: italic;
+
+                            &:hover {
+                                color: $color-primary;
+                                text-decoration-color: $color-primary;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

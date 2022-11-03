@@ -1,0 +1,189 @@
+﻿---
+ID: "589a9076-ba3e-48f3-95bc-07d35f0528b2"
+Parent: "02de724f-797d-4395-99ee-12bf98a9f363"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/CentralMosquitoControl/Home/rebates/all-clear-rebate-form"
+SharedFields:
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: 
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{0FCBFF69-1B12-481A-94CD-F6C4AE013B21}"
+          p:before="*"
+          s:ds="{9F85937E-7ECD-411A-A07C-6AD8B26E9105}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B12AC793F-ADEB-44D4-80E6-199CF9BDF022%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=13"
+          s:ph="/main/row-4-1/container-11/column-1-12" />
+        <r
+          uid="{F8306B28-DA46-4DB7-AB98-58606AA34D7B}"
+          p:after="r[@uid='{0FCBFF69-1B12-481A-94CD-F6C4AE013B21}']"
+          s:ds="{1605F499-F156-4D67-9938-0F119918D39B}"
+          s:id="{882F60C4-4A33-4995-AC39-C8FF97EE8F1D}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B0A165447-FFF3-44FB-8521-2AFCDFEA24E5%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=14"
+          s:ph="/main/row-4-1/container-11/column-1-12" />
+        <r
+          uid="{ED18B4DA-BDB1-44B3-8324-5492856A9BD1}"
+          p:after="r[@uid='{F8306B28-DA46-4DB7-AB98-58606AA34D7B}']"
+          s:ds="{7F6F3BC7-164A-4DF1-A40C-DB0EB3C0C622}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B12AC793F-ADEB-44D4-80E6-199CF9BDF022%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=15"
+          s:ph="/main/row-4-1/container-11/column-1-12" />
+        <r
+          uid="{89606DA2-4C88-4CB3-9F0E-A2AF9A0E913A}"
+          p:after="r[@uid='{ED18B4DA-BDB1-44B3-8324-5492856A9BD1}']"
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth2=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=12"
+          s:ph="/main/row-4-1/container-11" />
+        <r
+          uid="{FD915096-637A-441E-8932-87889CAEC62E}"
+          p:after="r[@uid='{89606DA2-4C88-4CB3-9F0E-A2AF9A0E913A}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BE951A28D-10FF-4D94-BDE6-BB1DDE779D5E%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
+          s:ph="/main/row-4-1" />
+        <r
+          uid="{01936F13-F8DF-430C-8640-0C555DA6576E}"
+          p:after="r[@uid='{FD915096-637A-441E-8932-87889CAEC62E}']"
+          s:ds="{8232B7FD-6975-4548-BEE7-48B0DB0DB339}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BE706B4E7-E4FA-48D0-BF3F-32833C47E434%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/row-3-1/container-7/column-2-8" />
+        <r
+          uid="{8024CF16-80C8-479E-918C-4AFB909446B1}"
+          p:after="r[@uid='{01936F13-F8DF-430C-8640-0C555DA6576E}']"
+          s:ds="{93A77090-B10A-44A0-B6D5-515428B45015}"
+          s:id="{F0DE3E5B-F5E0-4299-B3A2-59C234B985C3}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;RenderingIdentifier"
+          s:ph="/main/row-3-1/container-7/column-1-8"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{580D5B27-243F-47C1-BB56-BC19536D10E2}"
+          p:after="r[@uid='{8024CF16-80C8-479E-918C-4AFB909446B1}']"
+          s:ds="{96E1A630-94D4-4694-9B5C-F66854869AA5}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B12AC793F-ADEB-44D4-80E6-199CF9BDF022%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/row-3-1/container-7/column-1-8" />
+        <r
+          uid="{CCEEAFF8-A06D-4E37-AE53-252BE89BB0D0}"
+          p:after="r[@uid='{580D5B27-243F-47C1-BB56-BC19536D10E2}']"
+          s:ds=""
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth2=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=8"
+          s:ph="/main/row-3-1/container-7" />
+        <r
+          uid="{EF185DCA-E044-44D9-AD55-3F312086F194}"
+          p:after="r[@uid='{CCEEAFF8-A06D-4E37-AE53-252BE89BB0D0}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-3-1" />
+        <r
+          uid="{A3071BF6-063D-4EAA-A5EC-0556AC493B68}"
+          p:after="r[@uid='{EF185DCA-E044-44D9-AD55-3F312086F194}']"
+          s:ds=""
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B28C76009-CBBF-4D05-8911-94F9A74652F7%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-2-1/container-4" />
+        <r
+          uid="{8546429B-8D1C-451B-86A2-59EDBBEBD443}"
+          p:after="r[@uid='{A3071BF6-063D-4EAA-A5EC-0556AC493B68}']"
+          s:ds=""
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles=%7BFCA63CD5-CFCB-413B-872E-307FD9F3DD60%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-2-1/container-4" />
+        <r
+          uid="{1C779EED-18D0-4426-80DF-9F00034C5443}"
+          p:after="r[@uid='{8546429B-8D1C-451B-86A2-59EDBBEBD443}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{80ED1427-2F19-4F6F-8BB7-98D8E50AEED6}"
+          p:after="r[@uid='{1C779EED-18D0-4426-80DF-9F00034C5443}']"
+          s:ds=""
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%2F&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B34C68150-D3B2-463D-9B91-B2F7BCBD3727%7D&amp;Styles=%7BFAF28AF7-0575-40E0-9EE8-3C33FB91AC01%7D%7C%7BE951A28D-10FF-4D94-BDE6-BB1DDE779D5E%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-1-1/container-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{268D6FA2-D5B2-4354-B9D8-BBFBB74A331F}"
+          p:after="r[@uid='{80ED1427-2F19-4F6F-8BB7-98D8E50AEED6}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{93B2F338-A0A3-4A8B-BF51-4B20B8C2EF29}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3%2C4&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220928T121726Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: All Clear Rebate
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Central Life Sciences has this privacy policy statement to demonstrate its commitment to doing business with the highest ethical standard. 
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <p>Protect your community while also protecting your budget with savings on Central Life Sciences products! When you purchase <a href="~/link.aspx?_id=D2C5D8FC78724EAEAECBFE55650B7B3D&amp;_z=z">Altosid<sup>®</sup></a>, <a href="~/link.aspx?_id=9214AF12C66944B495BECE4D09CFCD7F&amp;_z=z">FourStar<sup>®</sup></a>, <a href="~/link.aspx?_id=DD6911F8D2C24FD6A6A265EE89F4D654&amp;_z=z">Zenivex<sup>®</sup></a>&nbsp;and <a href="~/link.aspx?_id=BDD96D03EBE24573A3D18755167DB968&amp;_z=z">Duplex™-G</a>&nbsp;products from Central Life Sciences, you can earn up to 7% cash back for controlling mosquitoes with the All Clear Rebate. &nbsp;</p>
+        <p>
+        </p>
+        <p><strong><strong>2022 Rebate valid on qualifying purchases made from January 1, 2022 to December 31, 2022.</strong></strong></p>
+        <p>
+        <strong>Must be postmarked by January 31, 2023 to be eligible.
+        </strong></p>
+        <p><strong>One rebate submission per customer.
+        </strong></p>
+        <p><strong>Allow 4-6 weeks for processing.
+        </strong></p>
+        <p><strong>Questions? Call 800-248-7763.</strong>
+        </p>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Central Life Sciences has this privacy policy statement to demonstrate its commitment to doing business with the highest ethical standard. 
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: All Clear Rebate Program
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: ALL Clear Rebate
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cf56b36c-0daa-4534-9e48-c41345aa35cd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{68C3FFDE-E2C9-410E-A453-D784E091AA4A}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221019T051911Z

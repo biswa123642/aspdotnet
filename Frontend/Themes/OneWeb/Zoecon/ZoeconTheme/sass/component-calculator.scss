@@ -1,0 +1,26 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.calculators {        
+        @import "variants/component-calculators/component-dilusion-calculator.scss";
+        @import "variants/component-calculators/component-rebate-calculator.scss";
+    }
+}
+.dr-calculators-listing{
+    .component{
+        &.linked-thumbnail{
+            &.quick-links {
+                .component-content{
+                    padding: 0;
+                }
+                ul{
+                    margin-left: 0;
+                }
+                li{
+                    list-style: none;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+@import "abstracts/mixins";
+@import "abstracts/vars";
+
+.component{
+    &.video{
+        margin-bottom: 3rem;
+        text-align: center;
+        @include respond-to(desktop){
+            max-width: 50rem;
+            margin: auto;
+        }
+    }
+}

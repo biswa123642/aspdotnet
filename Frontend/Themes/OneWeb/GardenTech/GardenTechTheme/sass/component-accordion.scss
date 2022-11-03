@@ -1,0 +1,77 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.accordion {
+    .items {
+      border-bottom: 4px solid $accordion-border;
+      .item {
+        border-bottom: 2px solid $accordion-border;
+        margin-left: 0;
+        @include respond-to(desktop) {
+          margin-left: 2.5rem;
+        }
+        &:last-child {
+          border-bottom: none;
+        }
+        &.active {
+          .toggle-header {
+            .field-heading {
+              color: $text-green;
+              font-weight: 900;
+              &::before {
+                transform: translateY(0.2rem) translateX(-0.25rem) rotate(90deg);
+                top: 1.7rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    .toggle-header {
+      .component {
+        .field-heading {
+          font-weight: normal;
+          color: $border-dark;
+          font-size: 1.8rem;
+          @include respond-to(desktop) {
+            font-size: 2.1rem;
+          }
+          &:before {
+            @include fa-icon();
+            display: block;
+            right: auto;
+            content: $fa-var-angle-right;
+            left: 0;
+            background-repeat: no-repeat;
+            right: 0;
+            width: 2.5rem;
+            height: 2.5rem;
+            display: inline-block;
+            top: 0.9rem;
+            font-size: 3rem;
+            -webkit-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+          }
+          &::after {
+            display: none;
+          }
+        }
+      }
+    }
+    .toggle-content {
+      .component {
+        .field-content {
+          color: $text-body;
+          a {
+            color: $anchor;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

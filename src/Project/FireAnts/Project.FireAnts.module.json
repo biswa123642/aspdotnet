@@ -1,0 +1,32 @@
+{
+  "namespace": "Project.FireAnts",
+  "references": [ "Feature.*" ],
+  "items": {
+    "includes": [
+      //{
+      //  "name": "Content-FireAnts",
+      //  "path": "/sitecore/content/OneWeb/FireAnts",
+      //  "scope": "ItemAndDescendants",
+      //  "allowedPushOperations": "createUpdateAndDelete"
+      //},
+      //{
+      //  "name": "MediaLibrary-FireAnts",
+      //  "path": "/sitecore/media library/Project/OneWeb/FireAnts",
+      //  "scope": "singleItem",
+      //  "allowedPushOperations": "createUpdateAndDelete"
+      //},
+      {
+        "name": "MediaLibrary-FireAnts-Themes",
+        "path": "/sitecore/media library/Themes/OneWeb/FireAnts",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      }
+      //{
+      //  "name": "Forms-FireAnts",
+      //  "path": "/sitecore/Forms/OneWeb/FireAnts",
+      //  "scope": "ItemAndDescendants",
+      //  "allowedPushOperations": "createUpdateAndDelete"
+      //}
+    ]
+  }
+}

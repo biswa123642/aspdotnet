@@ -1,0 +1,118 @@
+﻿---
+ID: "fcb41941-ad79-4b17-b1c4-21c755e8cc43"
+Parent: "abead696-206e-4799-b4c8-69ff8bac8939"
+Template: "0a163c67-999c-4139-b0a6-c437aa069ace"
+Path: /sitecore/content/OneWeb/GardenTech/Data/Store Locator/where to buy
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11abcf5c-fd4a-48a5-9863-82a557c78004"
+      Hint: APIUrl
+      Value: "https://api.central.com/2/wtb"
+    - ID: "15ceebd9-102e-4b4d-9582-628deae033d5"
+      Hint: ProductIdAPIRequestSetting
+      Value: GardenTech
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220614T141600Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "552b40a4-f9bb-411b-94dd-aa7dcc57b0c5"
+      Hint: NotValidZipcodeErrorMessage
+      Value: Please enter a valid ZIP code.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7e07adb5-f30e-47a6-a4a7-86eeac29b225"
+      Hint: MarkerImage
+      Value: |
+        <image mediaid="{44593F56-0FF7-4842-94BC-BE8BD53118A0}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "73c4e672-97d7-4aa1-a6a9-3f9b57b57fff"
+    - ID: "94c8f1d8-0cc3-4c75-9a66-da55f42d5f6e"
+      Hint: SearchButtonLabel
+      Value: FIND STORES
+    - ID: "974e29fe-ed65-4fef-8381-858dd6cb2c51"
+      Hint: ZipcodeLabel
+      Value: Enter Zip Code
+    - ID: "b29cf110-a393-4875-8f1f-4e872a6e5106"
+      Hint: DefaultSearchRadius
+      Value: "{BFA9AE5E-A7C1-4DE6-9620-CC03A35D78A0}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tanvi
+    - ID: "c0368fc3-3dff-4695-985b-0d56eb45141c"
+      Hint: NoLocationsFoundErrorMessage
+      Value: "Sorry! No results found. Please try your search again. Make sure to enter a valid ZIP code."
+    - ID: "cb16a368-d574-40be-8415-dd22fd00d31f"
+      Hint: StoreLocatorTitle
+      Value: Find a Store Where You Can Load Up On GardenTech® Products
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220728T104127Z
+    - ID: "eec16587-28b6-4a9d-ae9c-ab2d64257b67"
+      Hint: BrandAPIRequestSetting
+      Value: GardenTech
+- Language: es
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11abcf5c-fd4a-48a5-9863-82a557c78004"
+      Hint: APIUrl
+      Value: "https://api.central.com/2/wtb"
+    - ID: "15ceebd9-102e-4b4d-9582-628deae033d5"
+      Hint: ProductIdAPIRequestSetting
+      Value: Inicio
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220622T081641Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "552b40a4-f9bb-411b-94dd-aa7dcc57b0c5"
+      Hint: NotValidZipcodeErrorMessage
+      Value: Por favor, ingrese un código postal válido.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7e07adb5-f30e-47a6-a4a7-86eeac29b225"
+      Hint: MarkerImage
+      Value: |
+        <image mediaid="{44593F56-0FF7-4842-94BC-BE8BD53118A0}" alt="Marker image" height="" width="" hspace="" vspace="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1b74b236-4b07-4e25-aec5-27b336bbfd72"
+    - ID: "94c8f1d8-0cc3-4c75-9a66-da55f42d5f6e"
+      Hint: SearchButtonLabel
+      Value: Buscar tiendas
+    - ID: "974e29fe-ed65-4fef-8381-858dd6cb2c51"
+      Hint: ZipcodeLabel
+      Value: Ingrese el código postal
+    - ID: "b29cf110-a393-4875-8f1f-4e872a6e5106"
+      Hint: DefaultSearchRadius
+      Value: "{BFA9AE5E-A7C1-4DE6-9620-CC03A35D78A0}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\tanvi
+    - ID: "c0368fc3-3dff-4695-985b-0d56eb45141c"
+      Hint: NoLocationsFoundErrorMessage
+      Value: "¡Lo sentimos! No se encontraron resultados. Por favor, pruebe otra vez. Asegúrese de ingresar un código postal válido."
+    - ID: "cb16a368-d574-40be-8415-dd22fd00d31f"
+      Hint: StoreLocatorTitle
+      Value: Encuentre una tienda donde puede adquirir productos GardenTech®
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220728T104154Z
+    - ID: "eec16587-28b6-4a9d-ae9c-ab2d64257b67"
+      Hint: BrandAPIRequestSetting
+      Value: Inicio

@@ -1,0 +1,79 @@
+﻿---
+ID: "e6f47945-a3c6-4355-a47f-a6a6a81c1fed"
+Parent: "62f74b06-72b0-4adf-97c1-df39062abf76"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Product Documents List/Horizontal Listing with Image/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    {{ProductsDoc = sc_followmany i_item "ProductDocuments"}}
+    {{gridClass = sc_parameter "GridClass"}}
+    
+    {{if ProductsDoc | array.size >0}}
+        
+        <div class="vertical short-product-list">
+      
+        {{ if i_item.ProductDocumentsLabel != ''}}
+            <div class="row">
+                <div class="component-content">
+                    <h3>{{sc_field i_item "ProductDocumentsLabel"}}</h3>
+                </div>
+            </div>
+        {{end}}
+    
+            <div class="row mobile-carousel">
+                    {{for i_product in ProductsDoc }}
+                    {{if gridClass != null}}
+                    <div class="short-product-list-wrapper {{gridClass}}">
+                    {{else}}
+                    <div class="short-product-list-wrapper col-md-4 col-12">
+                    {{end}}
+                        <div class="product-item">
+                            {{if (i_product.Link.raw | string.contains 'linktype="media"')}}
+                            <a href="{{i_product.Link.media_url}}">
+                                {{i_product.Image}}
+                                <h4>{{i_product.Title}}</h4>
+                            </a>
+                            {{else}}
+                                {{sc_execute i_product "Section"}}
+                            {{end}}
+                        </div>
+                    </div>
+                    {{end}}
+            </div>
+            {{if i_item.AllDocuments!=''}}
+            <div class="btn-group">
+                <div class="col-12 position-center sxa-btn-primary">
+                    {{i_item.AllDocuments}}
+                </div>
+            </div>
+            {{end}}
+        </div>
+    {{end}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220530T075503Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "11af5cbe-08db-4d93-8d1c-603ee191c45d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220913T105231Z

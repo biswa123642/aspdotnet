@@ -1,0 +1,74 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.global-search-listing {
+    .product-wrap {
+      .result-count {
+        padding: 1.5rem;
+      }
+    }
+    .search-box {
+      padding: 1.5rem;
+      .search-wrapper {
+        .search-input-wrapper {
+          input[type="text"] {
+            border: 0.4rem solid $text-blue-primary;
+            box-shadow: none;
+            font-size: 2.4rem;
+            font-weight: 500;
+            color: $text-blue-primary;
+            @include din-14-stack();
+          }
+          .custom-search-box-button {
+            background-image: url("../images/search-icon.png");
+            background-color: $white;
+            height: 6.5rem;
+            top: 0.6rem;
+          }
+        }
+      }
+    }
+    .product-wrap {
+      .image-holder {
+        height: 22rem;
+        text-align: center;
+        img {
+          height: 100%;
+        }
+      }
+    }
+    #product-type,
+    #article-type,
+    #others-type {
+      h3 {
+        border-bottom: 0.1rem solid $para-gray;
+        .link-btn {
+          color: $text-red-primary;
+          font-size: 2.8rem;
+          font-weight: 800;
+          @include din-14-stack();
+          &::before,
+          &::after {
+            background-color: $text-red-primary;
+          }
+          .result-count {
+            color: $para-gray;
+          }
+        }
+      }
+
+      .product-list {
+        h3 {
+          border-bottom: none;
+          a {
+            color: $text-blue-primary;
+            font-size: 2rem;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,132 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  &.hero {
+    &.banner-with-content {
+      @media screen and (max-width:767px) {
+        .banner-image{
+          background-image: none !important;
+          min-height: initial !important;
+        }
+      }
+      .banner-image {
+        background-position: center top;
+        min-height: 371px;
+        max-height: 490px;
+        padding-top: 0;       
+      }
+      .banner-mobile-image {
+        img {
+          min-height: 310px;
+          max-height: 310px;
+        }
+      }
+      .inner-container {
+        max-width: 100%;
+      }
+      .banner-content-wrapper {
+        right: initial;
+        left: 100px;
+        transform: translate(0px, -50%);
+        @include respond-to(tab-horizontal-max) {
+          left: 0px;
+        }
+      }
+      .content-top {
+        background-color: $white-color;
+        max-width: 385px;
+        text-align: left;
+        padding: 0px 12px;
+        @include respond-to(tab-horizontal-max) {
+          max-width: 75%;
+          padding: 0 10px;
+          margin: auto 30px auto auto;
+        }
+      }
+      .hero-banner-title {
+        font-size: 2.9rem;
+        color: $dark-green-primary;
+        font-weight: 900;
+        padding: 15px;
+      }
+      .banner-cta-holder {
+        padding: 0 0 20px 0;
+        justify-content: flex-start;
+        .hero-banner-cta {
+          a {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.banner-mobile-image {
+  img {
+    min-height: 250px;
+    max-height: 250px;
+    object-fit: cover;
+  }
+}
+
+@include respond-to(tab-horizontal-max) {
+  .component {
+    &.hero {
+      &.banner-with-content {
+        .hero-banner-title {
+          text-align: center;
+        }
+        .banner-cta-holder {
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+.component {
+  &.hero {
+    &.banner-adjustable-height {
+      padding: 30px 30px 0 15px;
+      .inner-container,
+      .banner-content-wrapper {
+        position: static;
+        transform: translate(0);
+        text-align: center;
+        max-width: 100%;
+        @include respond-to(tab-horizontal-max) {
+          padding: 15px 15px;
+        }
+        .banner-image {
+          &.d-md-block {
+            display: none !important;
+          }
+        }
+      }
+      .hero-banner-title {
+        color: $dark-green-primary;
+        font-weight: 900;
+        margin-bottom: 30px;
+        line-height: 35px;
+        font-size: 3.3rem;
+      }
+      .hero-banner-description {
+        h3 {
+          color: $dark-green-primary;
+          font-size: 2.4rem;
+          font-weight: 700;
+        }
+        p {
+          font-weight: 600;
+        }
+      }
+      .inner-container {
+        &.d-none {
+          display: block !important;
+        }
+      }
+    }
+  }
+}

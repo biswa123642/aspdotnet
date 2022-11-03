@@ -1,0 +1,218 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "base/fontawesome/font-awesome";
+
+.component {
+  &.feature-content-tiles {
+    &.variant-5 {
+      &.with-image-cta {
+        p {
+          font-weight: 500;
+        }
+        .section-container {
+          .field-data {
+            h2 {
+              font-size: 1.5rem;
+              font-weight: 600;
+              line-height: 1.1;
+              margin-top: 0;
+              color: $text-heading-blue;
+
+              @include respond-to(desktop) {
+                font-size: 2rem;
+              }
+            }
+          }
+
+          .field-image {
+            > a {
+              display: block;
+              line-height: 0;
+            }
+          }
+        }
+      }
+
+      &.image-zoom {
+        background-color: $light-gray-bg;
+        padding: 4rem;
+        h2.field-heading {
+          font-weight: 600;
+          color: $text-heading-blue;
+          font-size: 3rem;
+        }
+
+        .section-container {
+          .field-image {
+            img {
+              &:hover {
+                transform: scale(1.1);
+                transition: all 0.2s ease-in-out;
+              }
+            }
+          }
+          .field-data{
+            display: none;
+          }
+        }
+      }
+
+      &.color-strip {
+        .field-data {
+          .sxa-btn {
+            background: $cat-products-caption;
+          }
+        }
+      }
+
+      padding-top: 0px;
+
+      h1 {
+        text-align: center;
+        font-size: 2.8rem;
+        line-height: 1.1;
+      }
+
+      .container {
+        font-size: 1.68rem;
+        text-align: center;
+        color: $text-small-heading-color;
+      }
+
+      .section-container {
+        margin-top: 10px;
+      }
+
+      .field-data {
+        .sxa-btn {
+          margin-top: -8px;
+          text-align: center;
+          width: 97%;
+          transition: all 0.2s ease-in-out;
+          background: $product-caption;
+          margin-right: auto;
+          margin-left: auto;
+          margin-bottom: 30px;
+
+          @include respond-to(desktop) {
+            width: 96%;
+          }
+
+          a {
+            color: $bg-blue-dark;
+            font-weight: 600;
+            font-size: 1.2rem;
+            line-height: 1.1;
+            border: none;
+            padding: 21px;
+            background: none;
+
+            &:hover {
+              transform: scale(1.05);
+            }
+          }
+        }
+      }
+
+      &.secondary {
+        .section-container {
+          .field-data {
+            h2 {
+              font-size: 1.8rem;
+              color: $text-basic;
+              font-weight: 500;
+              font-family: $paragraph-font;
+
+              @include respond-to(tab) {
+                font-size: 2.5rem;
+              }
+            }
+
+            .sxa-btn {
+              background-color: transparent;
+              a {
+                font-size: 1.5rem;
+                color: $text-basic;
+                font-weight: 500;
+                padding: 0;
+
+                &:hover,
+                &:active {
+                  color: $anchor-hover-pink;
+                }
+
+                @include respond-to(tab) {
+                  font-size: 1.8rem;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      @include respond-to(desktop) {
+        h1 {
+          font-size: 3rem;
+        }
+
+        .container {
+          font-size: 2.1rem;
+
+          p {
+            font-size: 2.1rem;
+            margin-bottom: 30px;
+          }
+        }
+      }
+    }
+
+    &.variant-2 {
+      .section-container {
+        .promo-tile {
+          .field-image {
+            line-height: 0;
+          }
+
+          .field-data {
+            text-align: center;
+
+            h2,
+            p,
+            h4 {
+              font-family: $paragraph-font;
+              color: $basic-text-color;
+              font-weight: 500;
+            }
+
+            h2 {
+              font-size: 1.8rem;
+            }
+
+            h4 {
+              font-size: 1.5rem;
+
+              a {
+                font-size: 1.5rem;
+                @include lora-font-stack();
+              }
+            }
+
+            @include respond-to(desktop) {
+              h2 {
+                font-size: 2.5rem;
+              }
+
+              h4 {
+                font-size: 1.8rem;
+
+                a {
+                  font-size: 1.6rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

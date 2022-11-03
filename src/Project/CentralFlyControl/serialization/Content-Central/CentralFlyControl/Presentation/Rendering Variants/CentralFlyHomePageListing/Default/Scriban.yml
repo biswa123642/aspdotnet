@@ -1,0 +1,101 @@
+﻿---
+ID: "46d3e032-44cf-4151-80ce-b6a1552ca7f5"
+Parent: "105fe357-320f-4d4c-a732-faf82933e811"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/CentralFlyControl/Presentation/Rendering Variants/CentralFlyHomePageListing/Default/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    {{ sc_field i_item 'Heading' }}
+    {{selectedPageList = sc_followmany i_item "PageList"}}
+    {{for pageitem in selectedPageList}}
+    {{if pageitem.InlineNavigationLight.raw == 1}}
+        {{if pageitem.PageId !=""}}
+            <div id="{{pageitem.PageId.raw}}" class="home-page-stripe background-img dark" style="background-image:url({{pageitem.BackgroundImage.media_url}});">
+        {{else}}
+            <div class="home-page-stripe background-img dark" style="background-image:url({{pageitem.BackgroundImage.media_url}});">
+        {{end}}
+    {{else}}
+        {{if pageitem.PageId !=""}}
+            <div id="{{pageitem.PageId.raw}}" class="home-page-stripe background-img light" style="background-image:url({{pageitem.BackgroundImage.media_url}});">
+        {{else}}
+            <div class="home-page-stripe background-img light" style="background-image:url({{pageitem.BackgroundImage.media_url}});">
+        {{end}}
+    {{end}}
+    	<div class="container">
+    		{{if pageitem.Title !=""}}
+    		<div class="score-document-header">{{sc_field pageitem "Title"}}</div>
+    		{{end}}
+    		{{if pageitem.SubText !=""}}
+    			<div class="score-content-spot">
+    				{{sc_field pageitem "SubText"}}
+    			</div>
+    		{{end}}
+    		{{if pageitem.Link.raw !=""}}
+    			<div class="link-wrap sxa-btn">
+    				{{sc_field pageitem "Link"}}
+    			</div>
+    		{{end}}
+    		<div class="slider">
+    			<div class="slides">
+    				{{selectedList = sc_followmany pageitem "ListItems"}}
+    				{{for listitem in selectedList}}
+    				<div class="slide">
+    					<div class="row">
+    						<div class="col-12 col-lg-6">
+    							{{if listitem.TitleMain !=""}}
+    								<div class="score-section-header"><h2>{{sc_field listitem "TitleMain"}}</h2></div>
+    							{{end}}
+    							<div class="score-content-spot">
+    								{{if listitem.SubText !=""}}
+    								{{sc_field listitem "SubText"}}
+    								{{end}}
+    								
+    								{{if listitem.Link.raw !=""}}
+    								<div class="link-wrap">{{sc_field listitem "Link"}}</div>
+    								{{end}}
+    							</div>
+    						</div>
+    						<div class="col-12 col-lg-6">
+    							{{if listitem.LinkImage.raw !=""}}
+    								{{sc_field listitem "ListImage"}}
+    							{{end}}
+    						</div>
+    					</div>
+    				</div>
+    				{{end}}
+    			</div>
+    			{{if pageitem.TitleSecondary !=""}}
+    				<div class="background-label">{{sc_field pageitem "TitleSecondary"}}</div>
+    			{{end}}
+    		</div>
+    	</div>
+    </div>
+    {{end}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221017T104052Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3d7a8881-1279-46be-add2-baa248775a76"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221019T154028Z

@@ -1,0 +1,119 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.hero {
+        padding-left: 15px;
+        padding-right: 15px;
+        &.full-width {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        &.banner-adjustable-height {
+            .container {
+                padding-left: 0;
+                padding-right: 0;
+            }
+            .banner-content-wrapper {
+                padding: 0;
+                background: #0000;
+            }
+            .inner-container {
+                max-width: 100%;
+            }
+            .hero-banner-title {
+                position: relative;
+                color: #008061;
+                font-size: 48px;
+                font-weight: 400;
+                line-height: 71px;
+                padding-left: 20px;
+                padding-right: 20px;
+                h1 {
+                    margin: 0;
+                    color: inherit;
+                    font-size: inherit;
+                    font-weight: inherit;
+                    line-height: inherit;
+                    display: inline-block;
+                    position: relative;
+                }
+            }
+            .hero-banner-description {
+                padding: 20px;
+                font-size: 24px;
+                font-weight: 400;
+                color: #333;
+                line-height: 1.42857143;
+                background-color: #fcfafad1;
+            }
+         
+        }
+    }
+}
+
+
+@include respond-to(desktop) {
+    .component {
+        &.hero {
+            &.banner-adjustable-height {
+                .banner-wrapper {
+                    padding-bottom: 7px;
+                }
+               
+                .banner-content-wrapper {
+                    &.left-align {
+                        left: 6.3%;
+                        right: auto;
+                    }
+                    &.right-align {
+                        left: auto;
+                        right: 6.3%;
+                    }
+                }
+               
+            }
+        }
+    }
+}
+
+@include respond-to(large-desktop) {
+    .component {
+        &.hero {
+            &.banner-adjustable-height {
+                .banner-content-wrapper {
+                    width: 31%;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}
+@include respond-to(below-tab) {
+    .component {
+        &.hero {
+            &.banner-adjustable-height {
+                .banner-wrapper {
+                    background-color: #0000 !important;
+                }
+
+                .inner-container {
+                    display: block !important;
+                    position: static;
+                    transform: none;
+                    max-width: 75rem;
+                    padding: 15px;
+                }
+                .banner-content-wrapper {
+                    &.left-align,
+                    &.right-align {
+                        transform: none;
+                        position: static;
+                        max-width: 100%;
+                    }
+                }
+              
+            }
+        }
+    }
+}

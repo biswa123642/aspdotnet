@@ -1,0 +1,38 @@
+﻿---
+ID: "e971db8f-929c-45c9-a5d9-5ebf958a55dc"
+Parent: "52a73733-caaf-41dd-a181-480adece4c21"
+Template: "20a8b875-b660-4893-91a7-b05f80e94666"
+Path: "/sitecore/content/OneWeb/FourPaws/Data/Linked Thumbnail List/where-to-buy/where-to-buy/Petco"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220604T063509Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "aa28a7bd-0291-4cea-82d1-a643a6ef2c52"
+    - ID: "8daa9cfe-2ab1-4f9a-86ac-b2092acc9fde"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="https://www.petco.com/shop/en/petcostore/brand/four-paws#facet:-100270111117114328097119115&amp;productBeginIndex:0&amp;orderBy:&amp;pageView:grid&amp;minPrice:&amp;maxPrice:&amp;pageSize:&amp;" anchor="" target="_blank" />
+    - ID: "9a5ce26a-e5f7-4528-b319-d23a1be1eede"
+      Hint: Description
+      Value: Petco
+    - ID: "b3524bdb-f8ec-4d85-a20b-ef5f2837d74f"
+      Hint: Image
+      Value: |
+        <image mediaid="{22A218A7-5DF7-49FF-A2E6-39C0982EAF25}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220707T054930Z

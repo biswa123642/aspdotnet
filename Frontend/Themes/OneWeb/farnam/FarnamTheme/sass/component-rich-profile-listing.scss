@@ -1,0 +1,123 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.richprofilelisting {
+        h1{
+            font-size: 3rem;
+            @include respond-to(desktop){
+                font-size: 5.2rem;
+            }
+        }
+        .profile-listing {
+            .rich-profile {
+                .rich-profile-wrap {
+                    &::before {
+                        background-color: $profile-listing-overlay-color;
+                    }
+
+                    .profile-content {
+                        h2 {
+                            color: $white-color;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+
+            .modal {
+                &.fade {
+                    &.richprofile-modal {
+                        .modal-content {
+                            background-color: $profile-listing-overlay-color;
+                            border-color: $profile-listing-overlay-color;
+                            color: $white-color;
+                            border-radius: 0;
+                        }
+
+                        .rich-profile-pop-up {
+                            .profile-content{
+                            .profile-heading {
+                                h2 {
+                                    font-size: 2rem;
+                                    line-height: 3rem;
+                                    font-weight: 700;
+                                    color: $white-color;
+                                    border-color: $light-orange;
+                                    padding-bottom: 1.2rem;
+                                }
+                            }
+                            p{
+                                font-size: 1.8rem;
+                                line-height: 2.5rem;
+                            }
+                              }
+
+                            .profile-listheading {
+                                margin-top: 1rem;
+                                h2 {
+                                    font-size: 2rem;
+                                    line-height: 3rem;
+                                    font-weight: 700;
+                                    color: $white-color;
+                                    padding-bottom: 0;
+
+                                    &::before {
+                                        background-color: $light-orange;
+                                        top: 50%;
+                                        left: 40%;
+                                        width: 60%;
+                                    }
+                                }
+                            }
+
+                            .profile-relatedlisting {
+                                .product-content {
+                                    h4 {
+                                        font-size: 1.6rem;
+                                        color: $white-color;
+                                        line-height: 3rem;
+                                        font-weight: 700;
+                                    }
+
+                                    p {
+                                        font-size: 1.6rem;
+                                        color: $white-color;
+                                        line-height: 2.5rem;
+                                        font-style: italic;
+                                    }
+                                }
+                            }
+                        }
+
+                        @include respond-to(mobile) {
+                            .modal-dialog {
+                                max-width: 100%;
+                                left: 50%;
+                                margin: 0;
+                            }
+
+                            .rich-profile-pop-up {
+                                padding: 3rem 7.5rem 1rem 5rem;
+                            }
+                        }
+
+                        .modal-dialog {
+                            top: 43%;
+                            @include respond-to(extra-largedesktop){
+                                top: 20%; 
+                            }
+                        }
+                    }
+                }
+
+                .close {
+                    text-shadow: none;
+                    font-size: 4rem;
+                    font-weight: 100;
+                    color: $white-color;
+                }
+            }
+        }
+    }
+}

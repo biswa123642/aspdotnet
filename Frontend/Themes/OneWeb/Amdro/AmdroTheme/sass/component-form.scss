@@ -1,0 +1,210 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+
+/*==================================================
+    Global input box
+====================================================*/
+main .search-box input[type=text],
+.component.hubspot-form .hs-form .form-columns-2 .hs-form-field .hs-input,
+.component.hubspot-form .hs-form .form-columns-1 .input .hs-input:not(input[type=checkbox]),
+.component.hubspot-form .hs-form .form-columns-1 .input input[type=email],
+.component.hubspot-form .hs-form .hs-input:not(input[type=checkbox]),
+.component.hubspot-form .hs-form input[type=email],
+.component.hubspot-form .hs-form input[type=tel],
+.component.hubspot-form .hs-form select,
+.component.hubspot-form .hs-form textarea {
+    padding: 0 1.5rem;
+    background: $input-background;
+    border: 2px solid $input-border;
+    width: 100% ;
+    max-width: 60rem;
+    box-shadow: none;
+    display: block;
+    height: 4.3rem;
+    min-height: auto;
+    color: $input-color;
+    @include Montserrat-font-stack();
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 3.3rem;
+    min-width: auto;
+    box-sizing: border-box;
+
+    &::-moz-placeholder {
+        color: $input-placeholder-color;
+        opacity: 1;
+    }
+
+    &:-ms-input-placeholder {
+        color: $input-placeholder-color;
+        opacity: 1;
+    }
+
+    &::-webkit-input-placeholder {
+        color: $input-placeholder-color;
+        opacity: 1;
+    }
+}
+
+/*==================================================
+    Global check box
+====================================================*/
+.component.hubspot-form .hs-form-booleancheckbox label input[type=checkbox],
+.component.hubspot-form .hs-form input[type="checkbox"] {
+    &:checked+span:before {
+        background: $checkbox-checked-bg;
+        border: 2px solid $checkbox-border;
+        cursor: pointer;
+    }
+
+    &:not(:checked)+span:before {
+        border: 2px solid $checkbox-border;
+        cursor: pointer;
+    }
+}
+
+/*==================================================
+    Global select option input
+====================================================*/
+.component.hubspot-form .hs-form .form-columns-2 .hs-form-field select.hs-input,
+.component.hubspot-form .hs-form select.hs-input,
+.component.hubspot-form .hs-form .input select.hs-input,
+.component.hubspot-form .hs-form select,
+.component.hubspot-form .hs-form .input select,
+form select {
+    background-color: $input-background;
+    background-image: url(../images/red-arrow-down.svg);
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    background-size: 1.7rem 1.8rem;
+    font-size: 1.8rem;
+    color: $input-color;
+    line-height: 3.3rem;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/*==================================================
+        Hubspot form
+====================================================*/
+
+
+.component {
+    &.hubspot-form {
+        .hs-submit {
+            >.actions {
+                padding-top: 0;
+                padding-bottom: 0;
+                margin-left: 0;
+
+            }
+        }
+
+        input[type=submit] {
+            border: none;
+            background: transparent;
+            padding: 0;
+            font-weight: 900;
+            @include Montserrat-font-stack();
+            box-shadow: none;
+            text-shadow: none;
+            cursor: pointer;
+
+            &:focus,
+            &:active,
+            &:hover {
+                @include Montserrat-font-stack();
+                background: transparent !important;
+                border: none !important;
+                box-shadow: none !important;
+            }
+        }
+        .hs-form-checkbox {
+            width: 100%;
+        }
+        .hs-form-booleancheckbox {
+            padding: 0;
+            margin: 0;
+            position: relative;
+            width: 100%;
+            label {
+
+                span {
+                    display: inline-block;
+                    font-weight: 500;
+                    color: $form-label-color;
+                    width: auto;
+
+                    &:before {
+                        top: 2px;
+                    }
+                }
+
+                &:not(.hs-error-msg) {
+                    @include Montserrat-font-stack();
+                    font-size: 1.8rem;
+                    line-height: 3.3rem;
+                    color: $form-label-color;
+                    font-weight: 500;
+                }
+            }
+        }
+
+        .hs-form {
+            font-size: 1.8rem;
+            font-weight: 500;
+            line-height: 1.8;
+
+            .hs-error-msgs li label {
+                color: $form-label-color;
+                font-weight: 500;
+                font-size: 1.8rem;
+            }
+
+            label {
+                font-size: 1.8rem;
+                font-weight: 500;
+            }
+
+            textarea {
+                height: auto !important;
+            }
+
+            .input {
+                margin: 0 !important;
+                padding-left: 0;
+
+                @include respond-to(tab) {
+                    padding-right: 0.8rem;
+                }
+
+            }
+
+            .hs-form-field {
+                margin-bottom: 2rem;
+
+                @include respond-to(mobile) {
+                    width: 100%;
+                }
+
+            }
+
+            .hs-fieldtype-select label,
+            .hs-fieldtype-text label,
+            .hs-fieldtype-textarea label {
+                display: none;
+            }
+        }
+
+
+
+        ul.inputs-list {
+            padding: 0 0 0 1.5rem;
+        }
+
+
+    }
+}

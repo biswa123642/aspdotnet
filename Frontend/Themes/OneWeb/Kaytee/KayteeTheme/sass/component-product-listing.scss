@@ -1,0 +1,62 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+#searchfilter {
+  .facet-wrapper {
+    h3 {
+      background: #ddd;
+      border-bottom: none;
+      .link-btn {
+        font-size: 1.6rem;
+        font-weight: 600;
+        @include Ubuntu-font-stack();
+
+        &::before,
+        &::after {
+          width: 1.2rem;
+        }
+      }
+    }
+    .form-check {
+      padding-bottom: initial;
+      label {
+        font-size: 1.6rem;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.component {
+  &.product-listing {
+    #product-type {
+      .product-list {
+        .cgp-product {
+          .image-holder {
+            height: 22rem;
+            text-align: center;
+            img {
+              height: 100%;
+            }
+          }
+          .body-copy {
+            h3 {
+              text-align: center;
+              a {
+                color: #565656;
+                font-size: 1.6rem;
+                font-weight: 600;
+                @include Ubuntu-font-stack();
+
+                &:hover {
+                  text-decoration: underline;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

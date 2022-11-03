@@ -1,0 +1,31 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.product-listing {
+    #product-type {
+      .product-list {
+        li {
+          padding: 1rem 0;
+          @include respond-to(tab) {
+            padding: 1rem;
+          }
+          .cgp-product {
+            text-align: center;
+            border: 1px solid $border-grey;
+            padding: 1rem;
+            h3 {
+              a {
+                font-size: 1.92rem;
+                &:hover {
+                  text-decoration: underline;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

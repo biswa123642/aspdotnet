@@ -1,0 +1,89 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.accordion {
+    &.variant-1 {
+      .item {
+        .toggle-header {
+          .field-heading::before {
+            transition: none;
+          }
+        }
+        &.active {
+          .toggle-header {
+            .field-heading::before {
+              transition: none;
+            }
+          }
+        }
+      }
+      .toggle-header {
+        .component {
+          .field-heading {
+            color: $orange;
+            font-size: 1.8rem;
+            padding: 1.5rem;
+            &:hover {
+              color: #c1520a;
+            }
+            &::before {
+              content: "";
+              background-image: url("/~/media/Project/OneWeb/Nylabone/Images/img/Right_Slider_Arrow_Faq");
+              background-size: 15px 25px;
+              width: 15px;
+              height: 25px;
+              left: auto;
+              right: 1rem;
+              top: 52%;
+              font-size: 4.5rem;
+              font-weight: 400;
+            }
+            &::after {
+              display: none;
+            }
+          }
+        }
+      }
+      .toggle-content {
+        .field-content {
+          font-size: 1.6rem;
+          color: $accordian-content;
+          a {
+            color: $orange;
+            text-decoration: none;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+      @include respond-to(tab) {
+        .toggle-header {
+          .component {
+            .field-heading {
+              &::before {
+                top: 36%;
+                right: 1rem;
+              }
+            }
+          }
+        }
+      }
+      @include respond-to(desktop) {
+        .toggle-header {
+          .component {
+            .field-heading {
+              &::before {
+                left: auto;
+                right: 2rem;
+                top: 24%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

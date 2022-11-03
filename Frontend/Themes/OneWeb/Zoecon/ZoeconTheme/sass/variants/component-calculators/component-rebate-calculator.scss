@@ -1,0 +1,66 @@
+.rebate-calculator-wrapper {
+    h2 {
+        color: $green;
+        margin-bottom: 2rem;
+    }
+
+    h4 {
+        margin: 1.1rem 0;
+
+        &~p {
+            margin-top: 2rem;
+        }
+    }
+
+    .rebate-content {
+        display: flex;
+        font-size: 20px;
+
+        .input-field-wrapper {
+            display: flex;
+            flex-direction: column;
+            max-width: 100%;
+            margin-bottom: 5px;
+            text-align: center;
+            font-weight: normal;
+            font-size: 12px;
+        }
+
+    }
+
+    .rebate-calculator__sign {
+        margin: 0px 0px 0px 22px;
+        line-height: 37px;
+        white-space: nowrap;
+    }
+
+    .rebate-calculator__output {
+        margin: 0px 0px 0px 22px;
+        line-height: 37px;
+    }
+
+    .rebate-calculator__input {
+        display: block;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 20px;
+        line-height: 33px;
+        color: $primary-color;
+
+        &::placeholder {
+            color: $primary-color;
+        }
+
+        &:focus-visible {
+            outline: -webkit-focus-ring-color auto 1px;
+        }
+    }
+}
+
+&~.rich-text {
+    padding: 1.5rem;
+
+    a {
+        font-weight: bold;
+    }
+}

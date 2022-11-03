@@ -1,0 +1,142 @@
+﻿---
+ID: "78be4421-bebb-43e9-9155-a7c94f69db99"
+Parent: "779cfee8-b743-4207-8616-f87a5f7c666d"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/CentralMosquitoControl/Home/latest-news/mosquito-borne-diseases"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1800
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{4732D5CD-D6BA-4926-BEC4-186550B6E750}"
+          p:before="*"
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles=%7B8D38663D-4028-4440-96C6-BCAA6062E23B%7D%7C%7BFAF28AF7-0575-40E0-9EE8-3C33FB91AC01%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-3-1/container-6" />
+        <r
+          uid="{A08564B3-1140-4A30-B5EA-623746D66E72}"
+          p:after="r[@uid='{4732D5CD-D6BA-4926-BEC4-186550B6E750}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-3-1" />
+        <r
+          uid="{CE7115CB-ECC2-4DA8-910B-2ED931FB4AC9}"
+          p:after="r[@uid='{A08564B3-1140-4A30-B5EA-623746D66E72}']"
+          s:ds="page:"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BEB97EC7C-7A08-4D35-835C-AA9365EE9319%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-2-1/container-4"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{BE423088-59F2-48AC-84E4-10445130A8D9}"
+          p:after="r[@uid='{CE7115CB-ECC2-4DA8-910B-2ED931FB4AC9}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{7D836F4B-0555-4688-8487-08DED4BEC3A1}"
+          p:after="r[@uid='{BE423088-59F2-48AC-84E4-10445130A8D9}']"
+          s:ds=""
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%2F&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B34C68150-D3B2-463D-9B91-B2F7BCBD3727%7D&amp;Styles=%7BFAF28AF7-0575-40E0-9EE8-3C33FB91AC01%7D%7C%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-1-1/container-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{D0AF2ECF-1DB5-4BFD-91D3-37D291FD4388}"
+          p:after="r[@uid='{7D836F4B-0555-4688-8487-08DED4BEC3A1}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{80DA3CC0-4D71-4770-AF00-00385B92EF69}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{9469E97E-8692-436B-9DE7-D9199BF4E6FE}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220927T100230Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "How to Stop the Spread: Mosquito-Borne Diseases "
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: "While Covid-19 is at the forefront of everyone’s minds, mosquitoes haven’t stopped spreading their own set of harmful viruses. "
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <h1>How to Stop the Spread: Mosquito-Borne Diseases</h1>
+        <p>While Covid-19 is at the forefront of everyone&rsquo;s minds, mosquitoes haven&rsquo;t stopped spreading their own set of harmful viruses. Now more than ever, we need to be diligent in protecting ourselves against mosquito borne viruses. While it has been determined that <a rel="noopener noreferrer" href="https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/how-covid-spreads.html" target="_blank">mosquitoes can&rsquo;t spread Covid</a>, &ldquo;Studies have shown that factors contributing to potentially serious or fatal outcomes attendant to COVID-19 infection involve underlying medical issues, such as neurologic conditions that weaken ability to cough or an already-stressed immune system due to concurrent infection by mosquito-borne viruses,&rdquo; <a rel="noopener noreferrer" href="https://mosquito-va.org/" target="_blank">says Joseph Conlon,</a> Former Technical Advisor to the American Mosquito Control Association.</p>
+        <a rel="noopener noreferrer" href="https://mosquito-va.org/" target="_blank">
+        </a>
+        <p><a rel="noopener noreferrer" href="https://mosquito-va.org/" target="_blank">Mosquito-borne diseases are a serious public health concern and according to the CDC, they are among the most complex of all infectious diseases to control. </a><a rel="noopener noreferrer" href="https://www.mosquito.org/page/diseases" target="_blank">The AMCA states</a> that &ldquo;Mosquitoes cause more human suffering than any other organism&mdash; over one million people worldwide die from mosquito-borne diseases every year.&rdquo; With the public health at the heart of everything MADs and PHOs do, it&rsquo;s important, especially now, to arm yourself with information about the specific illnesses spread by mosquitoes and how to reduce the risk of infection.
+        </p>
+        <h3><span style="font-weight: normal;"><strong>Integrated Mosquito Management</strong></span></h3>
+        <p>
+        Endorsed by the CDC, employing integrated mosquito management (IMM) methods is the only way to ensure that mosquito populations are effectively controlled, as well as the diseases they carry. Successful IMM programs are designed to attack mosquitoes at each stage of their life cycle.
+        </p>
+        <p>In addition to using the right professional products, there are also some important steps homeowners can take to help protect themselves and their families from mosquitoes and the diseases they carry. Mosquito prevention is all about source reduction. Remind homeowners how important it is to tip any standing water on their property to eliminate breeding sources. Teach homeowners to pay attention to the following common mosquito breeding hotspots that tend to collect water in backyards:
+        </p>
+        <ul>
+            <li>Pool covers
+            </li>
+            <li>Trash/recycling containers
+            </li>
+            <li>Watering cans
+            </li>
+            <li>Old tires or tire swings
+            </li>
+            <li>Children&rsquo;s toys
+            </li>
+        </ul>
+        <p>It&rsquo;s also important to change the water on a weekly basis in receptacles that need it, such as birdbaths or wading pools, fill in tree rot holes, hollow stumps and natural land depressions that hold shallow water, and clean clogged roof gutters.
+        </p>
+        <h3><span style="font-weight: normal;"><strong>Mosquito Control Made to Last</strong></span></h3>
+        <p>
+        </p>
+        <p>At Central Life Sciences, insect growth regulators have always played a key role in our highly successful and proven line of mosquito management products. Our founders discovered the molecule (S)-methoprene, the original IGR, and our commitment to innovation and environmental compatibility has never wavered. Mosquito Abatement Districts and Public Health Officials can turn to <a href="~/link.aspx?_id=D2C5D8FC78724EAEAECBFE55650B7B3D&amp;_z=z">Altosid<sup>&reg;</sup> larvicides</a>&nbsp;and <a href="~/link.aspx?_id=975C139965634FBEA802DC20AA931913&amp;_z=z">Duplex<sup>&trade;</sup>-G larvicide</a>&nbsp;each season to control mosquito larvae populations before they become breeding, biting adults.</p>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "While Covid-19 is at the forefront of everyone’s minds, mosquitoes haven’t stopped spreading their own set of harmful viruses. "
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "How to Stop the Spread: Mosquito-Borne Diseases "
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: "mosquito-borne-diseases"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e1ac846a-bb86-42e6-bcdc-108b2a5fa9fa"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221013T094626Z

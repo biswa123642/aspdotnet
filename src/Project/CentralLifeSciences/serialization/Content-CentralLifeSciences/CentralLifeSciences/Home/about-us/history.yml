@@ -1,0 +1,106 @@
+﻿---
+ID: "48c1d9ed-d9da-436a-afcb-8f51ffb87302"
+Parent: "e70df4d3-57c7-4f15-b8a6-98eb0ebf8470"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/CentralLifeSciences/Home/about-us/history"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{ADD2E0FF-91EF-44F6-8657-973C12B6C833}"
+          p:before="*"
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles=%7B69D209DD-5FA5-49C5-AE9D-D462BB26C34D%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{962A9161-6E57-436F-84EF-7E9A70C3A9A4}"
+          p:after="r[@uid='{ADD2E0FF-91EF-44F6-8657-973C12B6C833}']"
+          s:ds="{A24F1547-A828-4DA7-955A-8B90925EBD37}"
+          s:id="{8CECDF2B-DC7E-4E39-A959-94E68B752646}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B76B07833-F346-40B8-B151-4D46A7DBAB3A%7D&amp;Styles=%7B247DD32C-4A26-4D36-B4D8-A8FC94FC9944%7D&amp;GridClass&amp;TextAlign&amp;ImageAlign&amp;ShowOverlay&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-3-1" />
+        <r
+          uid="{9666D505-2671-4E48-8BE7-DEAFE110DF44}"
+          p:after="r[@uid='{962A9161-6E57-436F-84EF-7E9A70C3A9A4}']"
+          s:ds="{E67D38DC-A70C-4D1B-9246-04EACBC0C255}"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BAA673467-6127-43D2-8781-4608A0D6EE1C%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{3CFDBCA6-365E-4045-8872-25F3E42CDD9C}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220930T102510Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{6130B3AC-9069-46FC-A3F1-8457045B20C1}" ></image>
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "41b17cd3-d543-4c7c-9bfa-b21765882326"
+      Hint: HeroImageMobile
+      Value: |
+        <image mediaid="{6130B3AC-9069-46FC-A3F1-8457045B20C1}" ></image>
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: History
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Central Life Sciences was born out of a commitment to develop environmentally compatible insect control solutions more than 50 years ago.
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <div class="text-wrapper">
+        <p>Central Life Sciences was born out of a commitment to develop environmentally responsible insect control solutions more than 50 years ago. That dedication to protecting the environment while protecting animals, people, businesses and communities still guides us to this day. To truly understand the inventiveness at the heart of our organization, read through a detailed history of how our founders developed the first insect growth regulators from the active ingredient (S)-methoprene. Then read about the timeline of key events and advancements that have shaped our organization and industry-leading portfolio of solutions that deliver high efficacy and a low profile.</p></div>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Central Life Sciences was born out of a commitment to develop environmentally compatible insect control solutions more than 50 years ago.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Central Life Sciences | History
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Central Life Sciences | History
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "85538727-e1bf-473b-a32f-93068895ed30"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: History
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{D24DA814-B0AD-4289-8F7E-2BD24BAE12DF}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221017T103901Z

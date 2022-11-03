@@ -1,0 +1,48 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.sds-labels {
+        table {
+
+            th,
+            td {
+                text-transform: uppercase;
+            }
+
+            td {
+                font-weight: 300;
+            }
+
+            thead {
+                th {
+                    color: $white;
+                    background-color: $green;
+                }
+            }
+
+            tr {
+                border-color: $green;
+            }
+
+            .pdf-icon {
+
+                &~span {
+                    color: $green;
+                }
+            }
+
+            @include respond-to(desktop) {
+                .heading-fixed {
+                    &.active {
+                       position: fixed;
+                       top: 0;
+                       .table-heading{
+                        display: flex;
+                       }
+                    }
+                }
+            }
+        }
+    }
+}

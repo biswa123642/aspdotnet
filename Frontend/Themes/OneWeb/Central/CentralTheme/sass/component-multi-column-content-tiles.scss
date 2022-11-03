@@ -1,0 +1,10 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  &.multi-column-content-tiles {
+    @import "variants/component-multi-col-tiles/variant-1.scss";
+    @import "variants/component-multi-col-tiles/variant-4.scss";
+    @import "variants/component-multi-col-tiles/variant-flip-over-tiles.scss";
+  }
+}

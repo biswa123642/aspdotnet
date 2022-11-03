@@ -1,0 +1,57 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.feature-content-tiles {
+    &.variant-5 {
+      background: $bg-gray;
+      padding-top: 22rem;
+      margin-top: -18rem;
+
+      .section-container {
+        .field-image {
+          background-image: url("../images/highlight-gradient.png");
+          background-size: 100% 100%;
+          border: 2px solid $anchor-primary;
+          border-radius: 10px;
+          padding: 5px 5px 0 5px;
+        }
+        .field-data {
+          font-size: 2.2rem;
+          color: $anchor-primary;
+          text-align: center;
+          h2 {
+            font-size: 2.2rem;
+            color: $anchor-primary;
+            text-align: center;
+          }
+          a {
+            display: none;
+          }
+        }
+      }
+    }
+
+    @include respond-to(tab-only) {
+      &.variant-5 {
+        .section-container {
+          .row > div {
+            flex: 0 0 50%;
+            max-width: 50%;
+          }
+        }
+      }
+    }
+
+    @include respond-to(desktop) {
+      &.variant-5 {
+        .section-container {
+          .row > div {
+            padding: 0 2rem;
+          }
+        }
+      }
+    }
+  }
+}

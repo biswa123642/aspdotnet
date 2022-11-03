@@ -1,0 +1,91 @@
+﻿---
+ID: "f6692e4f-684c-4b9e-8db4-963aff64da15"
+Parent: "c109255f-df1a-4b00-b06b-3257f85dcd5f"
+Template: "3c7c79e8-554d-46d9-bf1a-63da22a4ee6f"
+Path: /sitecore/content/OneWeb/Corrys/Data/Hero Carousel/Homepage Carousel/Slide Item 2
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{0F1F8145-0F2D-425C-A054-B3C8E04B6059}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "007ef8df-edb2-4a64-a736-7a408093d2f5"
+      Hint: SlideImageMobile
+      Value: |
+        <image mediaid="{A6D37CB6-70C4-4722-BAE7-4A8B73EC429B}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220208T144401Z
+    - ID: "3bfd4b9e-3049-4c8d-a9b5-6bebb83f895d"
+      Hint: SlideImage
+      Value: |
+        <image mediaid="{A6D37CB6-70C4-4722-BAE7-4A8B73EC429B}" ></image>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6ca4947e-eea8-458c-99c2-3f443e471733"
+    - ID: "a8933445-15ca-4e23-b171-a33892eb0ef8"
+      Hint: SlideCardTitle
+      Value: 
+    - ID: "b34e88f9-8800-43b1-92b5-029fbfae12e9"
+      Hint: SlideCardLogo
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d691b058-6e52-4e4b-baae-a23aed9de6e0"
+      Hint: SlideCardSubText
+      Value: "Looking to learn more about pests? Look no further."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220913T091000Z
+    - ID: "e10d2e79-68cc-438a-a732-abf80f62be76"
+      Hint: SlideCardCTA
+      Value: |
+        <link text="Learn More" anchor="" linktype="internal" class="" title=""  querystring="" id="{D5981212-E51F-453D-A576-75C5CF979C1A}" />
+- Language: es
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "007ef8df-edb2-4a64-a736-7a408093d2f5"
+      Hint: SlideImageMobile
+      Value: |
+        <image mediaid="{A6D37CB6-70C4-4722-BAE7-4A8B73EC429B}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220908T081050Z
+    - ID: "3bfd4b9e-3049-4c8d-a9b5-6bebb83f895d"
+      Hint: SlideImage
+      Value: |
+        <image mediaid="{A6D37CB6-70C4-4722-BAE7-4A8B73EC429B}" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f472137c-1f53-45af-afe1-410c79fd9eb7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d691b058-6e52-4e4b-baae-a23aed9de6e0"
+      Hint: SlideCardSubText
+      Value: "¿Necesita más información sobre las plagas? No busque más. Vea los datos"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220913T090943Z
+    - ID: "e10d2e79-68cc-438a-a732-abf80f62be76"
+      Hint: SlideCardCTA
+      Value: |
+        <link text="Vea los datos" anchor="" linktype="internal" class="" title=""  querystring="" id="{D5981212-E51F-453D-A576-75C5CF979C1A}" />

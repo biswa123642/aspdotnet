@@ -1,0 +1,33 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.container:not(.col-12) {
+    max-width: 770px;  
+    @include respond-to(desktop){
+        max-width: 990px;
+        
+    }
+    @include respond-to(large-desktop){
+        max-width: 1190px;
+    }
+   
+}
+
+.component{
+    &.container{
+        &.full-width{
+            max-width: 140rem;
+            .container{
+                max-width: 140rem;
+            }
+        }
+        &.container-large{
+            max-width: 140rem;
+        }
+        &.container-small{
+            max-width: 102.4rem;
+        }
+    }
+    
+}

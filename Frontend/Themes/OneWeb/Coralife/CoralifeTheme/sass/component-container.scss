@@ -1,0 +1,17 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.container:not(.col-12) {
+  max-width: 100%;
+}
+
+#wrapper {
+  background-image: url("../images/CL_Background_Mobiletopcrop.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: auto !important;
+  background-size: cover;
+  @include respond-to(tab) {
+    background-image: url("../images/CL_Background.png");
+  }
+}

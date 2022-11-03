@@ -1,0 +1,40 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+
+.component {
+    &.feature-content-tiles {
+
+        //3 Column Grid & 4 Column Grid
+        &.variant-2 {
+
+            @import "variants/component-feature-content-tile/variant-2.scss";
+
+            @include respond-to(desktop) {
+                padding: 4rem 1.5rem;
+            }
+
+        }
+
+        .promo-tile {
+            .field-data {
+
+                .field-subtext,
+                p {
+                    font-weight: 500;
+
+                    @include respond-to(tab) {
+                        font-size: 1.166vw;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.on-page-editor {
+    .section-container>div {
+        max-width: initial;
+    }
+}

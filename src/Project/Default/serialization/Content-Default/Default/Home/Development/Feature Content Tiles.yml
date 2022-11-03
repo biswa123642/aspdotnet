@@ -1,0 +1,123 @@
+﻿---
+ID: "4263f801-98e2-4d20-a0e8-3b4b376ab70d"
+Parent: "45b039a4-d895-47c7-9a30-21ab882774e5"
+Template: "0bec8e55-1f86-4c69-94d3-8651e1a1d38a"
+Path: /sitecore/content/OneWeb/Default/Home/Development/Feature Content Tiles
+SharedFields:
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: "{F4AA3810-2CFC-4618-B24A-E82D0D3A7165}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{65CB844B-B9BD-479E-9581-EB42315A9C8F}"
+              p:before="*"
+              s:ds="local:/Data/2 column structures with an image in one column and 3 rows in another"
+              s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+              s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass&amp;FieldNames=%7B78B1B1E7-FDAB-4B2B-A673-EDF01FD4DEC5%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+              s:ph="/main/container-6/column-2-7" />
+            <r
+              uid="{5CF6CED0-25AD-4B72-82C2-4FD3658D99B2}"
+              p:after="r[@uid='{65CB844B-B9BD-479E-9581-EB42315A9C8F}']"
+              s:ds="local:/Data/Image 1"
+              s:id="{4A0D4E0B-BC20-4F2E-BD84-A4BD35834E86}"
+              s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+              s:ph="/main/container-6/column-1-7" />
+            <r
+              uid="{9E748773-8C84-41E7-95AA-E371D2CA826D}"
+              p:after="r[@uid='{5CF6CED0-25AD-4B72-82C2-4FD3658D99B2}']"
+              s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+              s:par="ColumnWidth1=%7B9AD9D6FB-28FC-43C5-8DA4-4A6A63CE802F%7D&amp;ColumnWidth2=%7B9AD9D6FB-28FC-43C5-8DA4-4A6A63CE802F%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=7"
+              s:ph="/main/container-6" />
+            <r
+              uid="{CE935D73-5164-4E73-9296-995B9156CDD2}"
+              p:after="r[@uid='{9E748773-8C84-41E7-95AA-E371D2CA826D}']"
+              s:ds="local:/Data/3 column x 2 row grid structure with images with or without CTA"
+              s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+              s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass=col-md-4&amp;FieldNames=%7B99EE7040-5ACF-434E-9637-3A9058AE4096%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+              s:ph="main"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{5ED447EA-7A8D-44AB-9738-7C6A5CCFF1F3}"
+              p:after="r[@uid='{CE935D73-5164-4E73-9296-995B9156CDD2}']"
+              s:ds="local:/Data/Grid view image with or without CTA"
+              s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+              s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass&amp;FieldNames=%7BDD2A67DD-2C78-484F-9B69-9E17B40C4BD1%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+              s:ph="main" />
+            <r
+              uid="{8561935A-5AB7-4A2D-97F9-EA72BCA015AF}"
+              p:after="r[@uid='{5ED447EA-7A8D-44AB-9738-7C6A5CCFF1F3}']"
+              s:ds="local:/Data/4 column layout with image CTA"
+              s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+              s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass=col-md-3&amp;FieldNames=%7B735BBE37-C514-466E-A123-80308FFEFE05%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+              s:ph="main"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{2FA85BB1-230A-4179-A0A8-07C4624C0B19}"
+              p:after="r[@uid='{8561935A-5AB7-4A2D-97F9-EA72BCA015AF}']"
+              s:ds="local:/Data/Multiple row structure with CTA images which upon click takes the user to an external website"
+              s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+              s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass=col-md-4&amp;FieldNames=%7B5B2CAF7D-FB05-49E6-9076-F63F1D6AAF5D%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+              s:ph="main"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{9F9DD88D-B253-42CB-BE41-6A91B31DF806}"
+              p:after="r[@uid='{2FA85BB1-230A-4179-A0A8-07C4624C0B19}']"
+              s:ds="local:/Data/2 column structures with an image in one column and 3 rows in another"
+              s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+              s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass&amp;FieldNames=%7B78B1B1E7-FDAB-4B2B-A673-EDF01FD4DEC5%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+              s:ph="main" />
+            <r
+              uid="{ACA7B0C5-485E-4456-8484-DD6B92DF8148}"
+              p:after="*[1=2]"
+              s:ds=""
+              s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+              s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+              s:ph="main"
+              s:ccb="Clear on publish" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220218T080251Z
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Feature Content Tiles
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Feature Content Tiles
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7876cf0c-f443-4c24-be18-2c044f0d712a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220509T113747Z

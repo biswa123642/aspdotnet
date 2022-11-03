@@ -1,0 +1,40 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  &.teaser-promo {
+    &.variant-2 {
+      figure {
+        height: 293px;
+        min-height: 293px;
+        background-position: center top;
+        &:before {
+          display: none;
+        }
+      }
+    }
+    max-width: 75%;
+    @include respond-to(desktop-max) {
+      max-width: 85%;
+    }
+    margin: 30px auto 0 auto;
+    &.variant-2 {
+      .field-description {
+        font-size: 2.9rem;
+        color: $dark-green-primary;
+        margin-bottom: 1.5rem;
+        font-weight: 800;
+      }
+      .content-right {
+        height: 293px;
+        min-height: 293px;
+        background-color: $yellow-primary;
+        .sxa-btn {
+          a {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}

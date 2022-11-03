@@ -1,0 +1,83 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  &.variant-4 {
+    &.product-details {
+      margin-bottom: 0;
+      padding: 1.5rem;
+      .product-wrapper {
+        .body-copy {
+          margin-bottom: 0;
+        }
+        h1 {
+          color: $black;
+          font-family: "john-doe";
+          font-size: 4.17rem;
+          font-weight: bold;
+          text-decoration: inherit;
+          text-transform: uppercase;
+          margin-bottom: 40px;
+        }
+        h2 {
+          color: $red-text;
+        }
+        em {
+          font-weight: bold;
+          color: $black;
+          font-size: 1.83rem;
+        }
+        ul {
+          margin-left: 2.5rem;
+          list-style-image: url(../images/Red_Bullets.png);
+          li {
+            color: $black;
+            font-size: 1.83rem;
+            font-weight: bold;
+            list-style: inherit;
+            margin-bottom: 1.83rem;
+          }
+        }
+      }
+    }
+  }
+
+  &.variant-1 {
+    padding: 2rem 4rem;
+    background: #fff;
+    .field-relatedproductslabel {
+      color: $black;
+      font-family: "chainprinter";
+      font-size: 3.33rem;
+      font-weight: normal;
+      text-decoration: inherit;
+      text-align: left;
+      margin-left: 25%;
+    }
+    .inner-wrap{
+      padding: 0;
+      .product-card {
+        max-width: auto;
+      }
+      .body-copy{
+        h3{
+          font-size: 2.17rem !important;
+        }
+      }
+    }
+  }
+  @include respond-to(desktop) {
+    &.variant-1 {
+      padding: 2rem 8rem;
+      .field-relatedproductslabel {
+        margin-left: 20%;
+      }
+      .inner-wrap{
+        padding: 3rem;
+        .product-card {
+          max-width: 30% !important;
+        }
+      }
+    }
+  }
+}

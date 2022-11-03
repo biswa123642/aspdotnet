@@ -1,0 +1,45 @@
+﻿---
+ID: "264dc3e1-ffe6-4980-9afc-100322340630"
+Parent: "e074340b-3498-4dff-8704-55b3481e5db2"
+Template: "d1070ed7-b4f7-4c03-b622-f9b5fb072dea"
+Path: /sitecore/content/OneWeb/Farnam/Data/Teaser Promo/HomePage/MeetFarnam
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Meet the Farnam
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220705T063352Z
+    - ID: "7cf24deb-783d-4e7a-be2d-1c5410b73c66"
+      Hint: FirstCTA
+      Value: |
+        <link text="Meet the Team" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{1067DA8F-E953-4886-AF0C-10B5013EB006}" />
+    - ID: "81651106-4b95-4713-84df-90a36c488b2f"
+      Hint: TeaserImage
+      Value: |
+        <image mediaid="{8719900B-0118-4C05-A919-2516268C2764}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3d7dc31c-8447-414b-92f2-64877b8fb875"
+    - ID: "9fd53b32-f6f3-484c-b662-d9a1b2013a0d"
+      Hint: Description
+      Value: |
+        <img alt="" src="-/media/9929F06D81F04F4F95B84603510CC9EC.ashx" />
+        <h2>Meet the Farnam Team</h2>
+        <p>As we mark our 75th anniversary, we&rsquo;re proud to be your continuing partner in horse care. We know how special you and your horse are to each other. That&rsquo;s why we&rsquo;re in the business...we&rsquo;re horse people too and love to share our equine partnerships with you.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "ce281eff-5b53-4327-b106-d567df721aab"
+      Hint: MobileTeaserImage
+      Value: |
+        <image mediaid="{37A047CF-52AD-4914-8C28-28FFCE83B1DA}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220803T065950Z

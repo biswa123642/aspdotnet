@@ -1,0 +1,147 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.hero {
+        &.banner-adjustable-height {            
+            padding-top: 2rem;            
+            .banner-wrapper {
+                padding: 0 1.5rem;
+                margin-bottom: 3rem;
+                >.banner-wrapper {
+                    position: relative;
+                    background: linear-gradient(to right, #008d5a 68%, #94c94e 100%);
+                    padding: 5rem 2rem;
+
+                    .banner-image {
+                        display: none;
+                        position: absolute;
+                        top: 50%;
+                        right: -3%;
+                        transform: translateY(-50%);
+
+                        img {
+                            width: 50rem;
+                        }
+                    }
+
+                    .inner-container {
+                        display: block !important;
+                        position: static;
+                        transform: translate(0, 0);
+
+                        .banner-content-wrapper {
+                            text-align: center;
+                            padding: 0;
+                            position: static;
+                            transform: translate(0, 0);
+                            max-width: initial;
+                        }
+
+                        * {
+                            color: $white;
+                        }
+
+                        .hero-banner-title {
+                            h1 {
+                                font-size: 4rem;
+                                font-weight: bold;
+                                text-transform: uppercase;
+                            }
+                        }
+                    }
+                }
+
+                @include respond-to(desktop) {
+                    margin-bottom: 6.5rem;
+                    >.banner-wrapper {
+                        display: flex;
+                        flex-direction: row-reverse;
+                        border-radius: 5rem;
+                        padding: 5rem 9.5rem;
+
+                        .banner-image {
+                            display: block;
+                        }
+
+                        .inner-container {
+                            .banner-content-wrapper {
+                                text-align: left;
+                                width: 58%;
+                            }
+                        }
+                    }
+                }
+            }
+
+            // secondary styling 
+            &.secondary {
+                .banner-wrapper {
+
+                    >.banner-wrapper {
+                        background: linear-gradient(to right, #94c94e 68%, #008d5a 100%);
+
+                        .inner-container {
+                            * {
+                                color: $primary-color;
+                            }
+
+                            .hero-banner-title {
+                                h2 {
+                                    font-size: 4rem;
+                                    margin-bottom: 1.1rem;
+                                }
+                            }
+
+                            p {
+                                line-height: 2.5rem;
+                            }
+                        }
+                    }
+
+                }
+
+                &.product-category-listing {
+                    .banner-wrapper {
+
+                        >.banner-wrapper {
+
+                            background: linear-gradient(to right, #94c94e 68%, #008d5a 100%);
+
+                            .inner-container {
+                                p {
+                                    font-weight: 300;
+                                    font-size: 2.4rem;
+
+                                    a {
+                                        text-decoration: none;
+
+                                        strong {
+                                            color: $blue;
+                                            font-weight: bold;
+                                            font-size: 2.4rem;
+                                        }
+
+                                        &:hover {
+                                            text-decoration: underline;
+                                            color: $anchor-hover-blue;
+
+                                            strong {
+                                                color: $anchor-hover-blue;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            @include respond-to(desktop) {
+                                padding: 5.5rem 9.5rem;
+                            }
+                        }
+
+                    }
+                }
+            }            
+        }
+    }
+}

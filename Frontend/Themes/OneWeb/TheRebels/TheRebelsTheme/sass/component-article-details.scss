@@ -1,0 +1,27 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+.component {
+  &.article-detail {
+    @include respond-to(desktop) {
+      margin-top: 2rem;
+      .column-splitter {
+        > div {
+          &:nth-child(1) {
+            padding-right: 30px;
+            &::after {
+              content: "";
+              position: absolute;
+              border-right: 1px solid $light-grey;
+              height: calc(100% - 85px);
+              top: 60px;
+              right: 0;
+            }
+          }
+          &:nth-child(2) {
+            padding-left: 20px;
+          }
+        }
+      }
+    }
+  }
+}

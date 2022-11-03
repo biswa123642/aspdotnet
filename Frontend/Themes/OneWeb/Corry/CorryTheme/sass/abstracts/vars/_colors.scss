@@ -1,0 +1,109 @@
+// Main colors
+$primary-color: #333333;
+$secondary-color: #d1331e;
+$black-color: #000;
+$white-color: #fff;
+$light-white-color: rgba(255, 255, 255, 0.9);
+$utility-color:rgb(15, 39, 63);
+$light-gray:#f2f2f2;
+$off-white:#F7F7F7;
+$anchor-hover:#23527c;
+$dark-gray:#47484a;
+$off-gray:#8f8f8f;
+$accordian-border:#dddddd;
+$link-gray:#757575;
+$text-shadow:5px 5px #ffffffbf;
+$banner-text:#e0402e;
+// Basic theme colors
+
+$text-basic: $primary-color;
+$link-color: $secondary-color;
+$link-color-hover: $anchor-hover;
+$heading-primary-color: $secondary-color;
+$heading-secondary-color: $secondary-color;
+$primary-button-color: $white-color;
+$global-button-bg-color: $secondary-color;
+$global-button-hover-color:$anchor-hover;
+
+// Background Colors
+
+/*================================
+    Headings and title
+==================================*/
+$page-title-color:$primary-color;
+$section-title-color: $secondary-color;
+$component-title-color:$secondary-color;
+$component-sitebar-title-color: $secondary-color;
+$sidebar-list-color:$primary-color;
+/*================================
+    Header variables
+==================================*/
+$header-bg:$white-color;
+$search-border: $white-color;
+$search-background:$off-white;
+$search-border-mobile:$secondary-color;
+$Search-input-color:#0F273F;
+$input-placeholder: $white-color;
+$Search-input-mobile-color: $black-color;
+$header-bottom:$secondary-color;
+$mobile-hamburger-icon-bar: #ab311b;
+$mobile-hamburger-bg: transparent;
+$mobile-search-button-bg: #fff;
+
+// Navigation label 1
+$navigation-level1-color: #c39838;
+
+
+// Component Footer 
+$footer-color: #b5b5b5;
+$footer-links-color: #b5b5b5;
+$footer-links-color-hover: #b5b5b5;
+// common colors 
+$link-list-color: #231f20;
+$slick-dots-border: #fff;
+$slick-active-color: #fff;
+$slick-arrow-color: $secondary-color;
+// sitemap colors
+$sitemap-link-color: #337ab7;
+$sitemap-link-hover-color: #23527c;
+$inline-link-color: #231f20;
+
+// accordian and breadcrumbs
+$accordian-heading-border-color: $black-color;
+$breadcrumb-color: $footer-color;
+$breadcrumb-color-hover: $footer-color;
+// linked-thumbnail
+$linked-thumbnail-color: $primary-color;
+$linked-thumbnail-hover-color:$secondary-color;
+// image gallery
+$image-gallery-title-color :$primary-color;
+$image-gallery-color: $primary-color;
+$image-gallery-color-hover: $secondary-color;
+
+/*================================
+    Header variables
+==================================*/
+// form input
+$input-color: $primary-color;
+$input-placeholder-color: $primary-color;
+$input-background: $white-color;
+// form checkbox
+$checkbox-checked-bg: $secondary-color;
+$checkbox-border: $black-color;
+// form label
+$form-label-color: #0F273F;
+$form-error-msg-color : #ff0000;
+
+/*================================
+    Product Card
+==================================*/
+$product-card-title-color: #a4b727;
+$product-card-description-color: #333;
+
+// faq 
+$faq-heading-color: $product-card-description-color;
+$faq-content-color: $primary-color;
+$faq-header-border:#ddd;
+
+//profile listing
+$profile-listing-overlay-color: $secondary-color;

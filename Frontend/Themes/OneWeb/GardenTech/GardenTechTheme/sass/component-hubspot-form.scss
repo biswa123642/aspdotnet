@@ -1,0 +1,192 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.row {
+    &.column-splitter {
+      > div {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+  }
+  &.hubspot-form {
+    ul {
+      li {
+        line-height: 2.5rem;
+      }
+    }
+    input[type="submit"] {
+      background-color: $primary;
+      border: none;
+      border-radius: 0;
+      text-transform: capitalize;
+      height: 3rem;
+      line-height: 3rem;
+      color: $white;
+      padding: 0;
+      font-weight: 700;
+      min-width: 7rem;
+      text-shadow: none;
+      font-family: inherit;
+      cursor: pointer;
+      &:hover {
+        background-color: $border-dark;
+        border: none;
+        box-shadow: none;
+        border: none;
+      }
+      &:focus {
+        box-shadow: none;
+        border: none;
+      }
+    }
+    .form-columns-1 {
+      .hs-richtext {
+        p {
+          font-size: 1.4rem;
+          font-weight: normal;
+          width: 50%;
+          @include respond-to(desktop) {
+            width: 100%;
+          }
+        }
+      }
+    }
+    .actions {
+      margin: 2rem 0;
+      padding: 0px 2rem 0px 0px;
+      @include respond-to(desktop) {
+        margin: 0;
+      }
+    }
+    .hs-form {
+      .input {
+        textarea {
+          resize: auto;
+          overflow: auto;
+          height: 5.7rem;
+        }
+      }
+      select {
+        text-transform: uppercase;
+        font-weight: normal !important;
+        font-size: 1.2rem !important;
+      }
+      .form-columns-1 {
+        .input {
+          .hs-input,
+          input[type="email"] {
+            max-width: 100%;
+            min-width: 100%;
+            box-shadow: none;
+          }
+        }
+      }
+      .hs-input,
+      input[type="email"],
+      input[type="tel"],
+      textarea {
+        -moz-appearance: auto;
+        -webkit-appearance: auto;
+        appearance: auto;
+        font-weight: 400;
+        line-height: 3rem;
+        height: 3rem;
+        box-sizing: border-box;
+      }
+      select {
+        -moz-appearance: auto;
+        -webkit-appearance: menulist !important;
+        appearance: auto;
+        font-weight: 400;
+        line-height: 3rem;
+        height: 3rem;
+        box-sizing: border-box;
+      }
+      .hs-error-msgs {
+        li {
+          label {
+            font-weight: normal;
+            color: $text-red;
+            margin-top: 0.5rem;
+            font-size: 1.4rem;
+            text-transform: uppercase;
+          }
+        }
+      }
+      label {
+        span {
+          text-transform: uppercase;
+          font-weight: normal;
+          font-size: 1.4rem;
+          margin-top: 0.5rem;
+          color: $text-body;
+        }
+      }
+      .form-columns-2 {
+        .hs-form-field {
+          .hs-input {
+            width: 100%;
+          }
+        }
+      }
+    }
+    padding: 2rem;
+    background-color: $hubform-bg;
+    .hs-form-booleancheckbox {
+      label {
+        span {
+          &::before {
+            width: 2.5rem;
+            height: 2.5rem;
+            top: -0.4rem;
+          }
+        }
+        input[type="checkbox"]:not(:checked) + span:before {
+          border: 1px solid $border-dark;
+          background: $white;
+          cursor: pointer;
+        }
+        &:hover input[type="checkbox"]:not(:checked) + span:before {
+          border-color: green;
+          border-width: 0.2rem;
+        }
+        input[type="checkbox"]:checked + span:before {
+          border: 1px solid $border-dark;
+          background: $white;
+          cursor: pointer;
+        }
+        input[type="checkbox"]:checked + span::after {
+          content: "\2714";
+          position: absolute;
+          top: -0.6rem;
+          left: -4.1rem;
+          font-size: 3rem;
+          color: $text-green;
+          transition: all 0.2s ease-in-out;
+        }
+      }
+    }
+    .hs-form-booleancheckbox-display {
+      [type="checkbox"]:not(:checked):hover:before {
+        border: 2px solid $text-green;
+      }
+    }
+    @-moz-document url-prefix() {
+      .hs-form {
+        .input {
+          select {
+            background-color: $option-color;
+            color: $text-body;
+            option {
+              background-color: $option-color;
+              color: $text-body;
+            }
+          }
+        }
+      }
+    }
+  }
+}

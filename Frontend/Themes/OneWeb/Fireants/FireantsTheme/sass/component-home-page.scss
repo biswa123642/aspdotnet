@@ -1,0 +1,82 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+    &.feature-product {
+        .image {
+            padding: 0;
+            a {
+                img {
+                    vertical-align: middle !important;
+                }
+            }
+        }
+        .white-bg {
+            .component-content {
+                padding-top: 2rem;
+                text-align: center;
+                @include respond-to(desktop) {
+                    padding-top: 6rem;
+                }
+                p {
+                    text-align:left; 
+                    padding-left:2rem;
+                    line-height:1; 
+                    &:nth-child(1) {
+                        a {
+                            font-size: 1.4rem;
+                            color: $link-color  !important;
+                            text-decoration: none;
+                            font-size:100;
+                            &:hover {
+                                text-decoration-color: $link-color ;
+                                text-decoration: underline;
+                            }
+                            @media only screen and (min-width: 1600px){
+                                font-size: 2rem;
+                                line-height: 37px;
+                            }
+                        }
+                    }
+                    &:nth-child(2) {
+                        a {
+                            color: $color-primary  !important;
+                            font-size: 2.8rem;
+                            font-weight: 500;
+                            @include georgia-font-stack();
+                            text-decoration: none;
+
+                            &:hover {
+                                text-decoration: underline;
+                                text-decoration-color: $color-primary;
+                            }
+                            sup{
+                                color: $color-primary  !important;
+                            }
+                            @media only screen and (min-width: 1600px){
+                                font-size: 4rem;
+                                line-height: 4.6rem;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+    &.page-title {
+        .field-content {
+            h3 {
+                text-align: left;
+                font-size: 2rem;
+                padding-bottom: 2rem;
+                font-weight: 700;
+                line-height:22px;
+                @include respond-to(desktop) {
+                    font-size: 4rem;
+                }
+            }
+        }
+    }
+}

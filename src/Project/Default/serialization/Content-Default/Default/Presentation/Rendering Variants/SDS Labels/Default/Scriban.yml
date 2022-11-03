@@ -1,0 +1,101 @@
+﻿---
+ID: "6dd435fe-035e-4d01-aa0d-5e76bd3d82e1"
+Parent: "82c8b02c-7535-4afa-863e-60194db56951"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/Default/Presentation/Rendering Variants/SDS Labels/Default/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    {{ Heading1 = sc_translate "Heading1"}}
+    {{ Heading2 = sc_translate "Heading2"}}
+    {{ Heading3 = sc_translate "Heading3"}}
+    {{ Heading4 = sc_translate "Heading4"}}
+    {{ Heading5 = sc_translate "Heading5"}}
+    {{Products = sc_followmany i_datasource "ProductToShow"}}
+    {{columnCount = 0}}
+    <div class="inner-wrap">
+        <div class="body-copy">
+            <h1 class="sds-title">
+                {{ sc_field i_item "Title"}}
+            </h1>
+            <p class="sds-description">
+                {{ sc_field i_item "Description"}}
+            </p>
+        </div>
+        <div class="table-data">
+            <table>
+                <thead class="heading-fixed">
+                    <tr class="table-heading">
+                        {{if (!(Heading1 | string.contains "Heading1"))}}
+                        <th>{{Heading1}}</th>
+                        {{end}}
+                        {{if (!(Heading2 | string.contains "Heading2"))}}
+                        <th>{{Heading2}}</th> {{columnCount = columnCount + 1}}
+                        {{end}}
+                        {{if (!(Heading3 | string.contains "Heading3"))}}
+                        <th>{{Heading3}}</th> {{columnCount = columnCount + 1}}
+                        {{end}}
+                        {{if (!(Heading4 | string.contains "Heading4"))}}
+                        <th>{{Heading4}}</th> {{columnCount = columnCount + 1}}
+                        {{end}}
+                        {{if (!(Heading5 | string.contains "Heading5"))}}
+                        <th>{{Heading5}}</th> {{columnCount = columnCount + 1}}
+                        {{end}}
+                    </tr>
+                </thead>
+                <tbody>
+                    {{for i_product in Products}}
+                    <tr>
+                        <td>{{i_product.Title.raw}}</td>
+                        {{ProductsDoc = sc_followmany i_product "PDFDocuments"}}
+                        {{for productdoc in ProductsDoc}}
+                        {{mediaurl = sc_follow productdoc 'Link' | sc_medialink }}
+                        {{if mediaurl != "#"}}
+                        <td>
+                            <a href="{{productdoc.Link.media_url}}"><i
+                                    class="pdf-icon"></i><span>{{productdoc.Title}}</span></a>
+                        </td>
+                        {{else}}
+                        <td></td>
+                        {{end}}
+                        {{end}}
+                        {{productDocSize = ProductsDoc | array.size}}
+                            {{if productDocSize < columnCount}}
+                                {{diff = columnCount - productDocSize}}
+                                {{for i in 1..diff}}
+                                <td></td>
+                                {{end}}
+                            {{end}}
+                    </tr>
+                    {{end}}
+                </tbody>
+            </table>
+        </div>
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220818T091300Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "82413bad-cc20-4a11-b905-80d305ef4c36"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220928T131430Z

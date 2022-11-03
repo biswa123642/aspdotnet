@@ -1,0 +1,71 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "base/fonts/fonts";
+
+.component {
+  &.product-details {
+    &.variant-1 {
+      .popular-products {
+        h3 {
+          &.field-relatedproductslabel {
+            font-size: 3.48rem;
+            color: $heading1_color;
+            font-weight: 800;
+            @include Montserrat-font-stack();
+          }
+        }
+            .inner-wrap {
+              .product-card {
+                margin-bottom: 5rem;
+                padding: 1rem 0px 1rem 0px;
+                .body-copy {
+                  h3 {
+                    a {
+                      font-size: 2.4rem;
+                      color: $heading1_color ; 
+                      font-weight: 700;
+                      @include Montserrat-font-stack();
+                      &:hover{
+                        color: $anchor-hover;
+                        text-decoration: underline;
+                      }
+                    }
+                  }
+            }
+          }
+        }
+      }
+    }
+    &.variant-4 {
+      @include respond-to(extra-largedesktop){
+        padding-right:20% ;
+      }
+      .product-wrapper {
+        .product-title {
+          h1 {
+            font-size: 3.6rem;
+            color: $secondary-color;
+            @include Montserrat-font-stack();
+            font-weight: 900;
+            text-transform: inherit;
+            @include respond-to(desktop){
+              font-size: 3.966rem;
+
+            }
+          }
+        }
+      }
+    }
+    padding: 0px 1.5rem;
+  }
+
+  .field-content {
+    color: $secondary-color;
+    font-weight: 500;
+    font-size: 1.8rem;
+    @include Montserrat-font-stack();
+    a {
+      font-weight: 500;
+    }
+  }
+}

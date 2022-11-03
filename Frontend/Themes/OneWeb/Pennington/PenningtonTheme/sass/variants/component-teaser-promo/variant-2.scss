@@ -1,0 +1,38 @@
+.field-description{
+  font-weight: initial;
+  font-size: 1.6rem;
+  p{
+    margin-bottom: 1.8rem;
+  }
+}
+.content-right{
+  background-color: $bg-green-primary;
+  .inner-wrap{
+    .field-description{
+      h2,p,a{
+        color: $white ;
+        border-color: inherit;
+      }
+    }
+  }
+}
+.content-right{
+  .inner-wrap{
+    .field-description {
+      h2{
+        font-size: 3.4rem;
+      text-transform: uppercase;
+      @include respond-to (tab){
+        font-size: 3.75vw;
+      }
+      }
+      p{
+        font-weight: 500;
+        font-size: 1.6rem;
+        @include respond-to(desktop){
+          font-size: 1.166vw;
+        }
+      }
+    }
+  } 
+} 

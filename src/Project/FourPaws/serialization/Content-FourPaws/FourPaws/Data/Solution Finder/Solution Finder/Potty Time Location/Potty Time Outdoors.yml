@@ -1,0 +1,44 @@
+﻿---
+ID: "c1efe449-88e5-4d1a-a775-a5eac73adad2"
+Parent: "0f4c150f-7948-4acb-924c-0051d1d52233"
+Template: "9874a4bd-a371-4049-85e6-0ed0ad713e54"
+Path: /sitecore/content/OneWeb/FourPaws/Data/Solution Finder/Solution Finder/Potty Time Location/Potty Time Outdoors
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03b55013-fdf9-40f2-9e5b-88d26865df7b"
+      Hint: Image
+      Value: |
+        <image mediaid="{503966BC-A95D-41B9-96B7-B842226EBBE1}" />
+    - ID: "0a9a0bf9-863c-4c36-8bc6-b576213cbad9"
+      Hint: Order
+      Value: 2
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220621T110358Z
+    - ID: "4d1593b6-8eac-4cd1-8383-16cbc881112e"
+      Hint: Title
+      Value: Outdoors
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "96ba4057-f478-4604-8b49-7d2db5a916a1"
+    - ID: "967543d6-dddb-4b55-b6ff-ab2ca3fbe30c"
+      Hint: RequiredAnswers
+      Value: |
+        {86B6D8E8-1F2C-4525-8EF3-8FB0DE3A28F4}
+        {7AB1D661-4C0C-46CB-B63C-58F7B52B897F}
+    - ID: "a2ef8ee8-c586-4a54-a846-55c4d69deb31"
+      Hint: OverrideNext
+      Value: "Got it! Tell us a bit more about what you're looking for?"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d53f6957-984b-4af6-a3c6-696f1ef8ec04"
+      Hint: Value
+      Value: outdoors
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220621T110358Z

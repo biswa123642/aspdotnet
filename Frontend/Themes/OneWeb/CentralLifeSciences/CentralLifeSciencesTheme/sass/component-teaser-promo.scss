@@ -1,0 +1,63 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+.component {
+  &.teaser-promo {
+    &.variant-2 {
+      figure {
+        order: 2;
+
+        &::before {
+          background: none;
+        }
+      }
+      .content-right {
+        background-color: $white;
+        .field-description {
+          h2 {
+            color: $dark-green;
+            @include ff-ernestine-pro-font-stack();
+            font-size: 3.52rem;
+            font-weight: 600;
+            margin-top: 20px;
+            margin-bottom: 10px;
+          }
+          p {
+            color: $offgrey-color;
+            font-size: 1.92rem;
+            font-weight: 400;
+            @include fieldwork-hum-font-stack();
+          }
+        }
+      }
+      @include respond-to(tab){
+        figure{
+          order: inherit;
+        }
+      }
+      @include respond-to(desktop) {
+        .content-right {
+          .field-description {
+            h2 {
+              font-size: 2.2vw;
+            }
+            p {
+              font-size: 1.5vw;
+            }
+          }
+        }
+      }
+      @include respond-to(extra-large-desktop) {
+        .content-right {
+          .field-description {
+            p {
+              font-size: 1.2vw;
+            }
+          }
+          .inner-wrap {
+            padding: 10rem 9.4rem 4rem 12.5rem;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.image-gallery {
+        .column-card {
+            .card-body {
+                padding: 0;
+                flex: initial;
+
+                p {
+                    font-style: normal;
+                    color: inherit;
+                    padding: 0 1rem;
+                    font-weight: normal;
+                    line-height: 1.428;
+                    strong{
+                        font-weight: bold;
+                    }
+                }
+
+                p.field-title {
+                    font-size: 3.4rem;
+                    margin: 2rem 0;
+                    font-weight: 500;
+                    color: $dark-gray;
+                }
+            }
+        }
+
+        @include respond-to(desktop) {
+            .container {
+                >.row {
+                    >div {
+                        flex: 0 0 20%;
+                        max-width: 20%;
+                    }
+                }
+            }
+            .row{
+                
+                >.column-card{
+                    padding: 0 .6rem 1rem .6rem;
+                }
+            }
+        }
+        &.border-0{
+            .card{
+                border: none;
+            }
+        }
+    }
+}

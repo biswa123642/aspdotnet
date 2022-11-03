@@ -1,0 +1,52 @@
+﻿---
+ID: "6d7af931-2fa5-41d8-890a-b677172526e8"
+Parent: "eff08337-7be1-4c80-96cb-bc10eaa2a6d6"
+Template: "116f3617-03e9-4be7-9cfb-b2cb5e08d001"
+Path: /sitecore/content/OneWeb/Farnam/Data/Rich Profile Listing/WhoWeAre/WhoWeAre/TinaAnderson
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Tina Anderson
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "03106243-1f19-4934-904f-966bb9d452f2"
+      Hint: ProfileImage
+      Value: |
+        <image mediaid="{C68BD10F-C2D3-4FC4-9CFE-8341F371954F}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220718T161239Z
+    - ID: "3de3b0c1-9b74-43f9-927b-6af32bb271d0"
+      Hint: RelatedProducts
+      Value: |
+        {ACD433D9-92F8-4A74-B8F1-DCBE3E4FD5FF}
+        {9C502C29-52D5-4A49-B9F1-77036867F631}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "411fb739-70c2-4046-a852-91dd54a15dd2"
+    - ID: "ae3a10af-37b7-47f7-9de6-2c3e946e47e6"
+      Hint: ProfileHeading
+      Value: "<p>What Tina keeps in stock at the barn:</p>"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220722T043020Z
+    - ID: "dbc7e3d3-a46b-4b2c-a60c-5d2361c2aeed"
+      Hint: ProfileTitle
+      Value: Tina Anderson
+    - ID: "e9b19b2d-8185-4f40-b0b0-b46bee945332"
+      Hint: ProfileDescription
+      Value: "<p>Tina is our Director of New Product Strategy and Development. A Colorado native, she obtained her PhD from Colorado State in Equine Orthopedics and was on faculty in the Equine Sciences Program for ten years. Upon moving to Texas, Tina worked for the American Paint Horse Association and Purina Animal Nutrition before joining the Farnam team. She brings extensive horse industry experience. Tina is an AQHA and NSBA horse show judge and has judged the All-American Quarter Horse Congress, European Championship Show and several AQHA World Shows. She is also a breeder of American Quarter Horses. When not innovating new products for Farnam, she can be found playing with her mares and babies or following her adult daughter around to horse shows!</p>"

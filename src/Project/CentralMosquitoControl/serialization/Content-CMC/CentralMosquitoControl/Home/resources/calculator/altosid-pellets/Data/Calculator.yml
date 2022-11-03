@@ -1,0 +1,77 @@
+﻿---
+ID: "5d6d9f6f-12d2-4903-87ca-aed634f218d8"
+Parent: "8c306063-7368-41e3-9d07-a365b640cde9"
+Template: "2ad23d55-aecd-43dd-ae0d-72d2ebcba60f"
+Path: "/sitecore/content/OneWeb/CentralMosquitoControl/Home/resources/calculator/altosid-pellets/Data/Calculator"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24cce27c-05db-4473-a1ed-e69b1725ff1c"
+      Hint: HtmlCode
+      Value: |
+        {
+        "fields": [
+        {
+        "label": "Enter price per lb ($):",
+        "id": "enter_price_per_lb",
+        "type": "input"
+        },
+        {
+        "label": "Enter per acre application rate:",
+        "id": "enter_per_acre_application_rate_1",
+        "type": "input"
+        },
+        {
+        "label": "Cost per day per acre:",
+        "id": "",
+        "type": "output",
+        "formula": "({enter_price_per_lb}*{enter_per_acre_application_rate_1})/30",
+        "format": "currency"
+        },
+        {
+        "label": "Enter case cost ($):",
+        "id": "enter_case_cost",
+        "type": "input"
+        },
+        {
+        "label": "Enter case weight (lbs.):",
+        "id": "enter_case_lbs",
+        "type": "input"
+        },
+        {
+        "label": "Enter per acre application rate:",
+        "id": "enter_per_acre_application_rate_2",
+        "type": "input"
+        },
+        {
+        "label": "Cost per day per acre:",
+        "id": "",
+        "type": "output",
+        "formula": "(({enter_case_cost}/{enter_case_lbs})*{enter_per_acre_application_rate_2})/30",
+        "format": "currency"
+        }
+        ]
+        }
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220930T065756Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "03ce5781-b3bc-4860-a0b4-e7b34b0227c3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220930T071014Z

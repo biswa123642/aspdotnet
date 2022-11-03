@@ -1,0 +1,32 @@
+{
+  "namespace": "Project.CLC",
+  "references": [ "Feature.*" ],
+  "items": {
+    "includes": [
+      {
+        "name": "Content-CLC",
+        "path": "/sitecore/content/OneWeb/CLC",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      },
+      {
+        "name": "MediaLibrary-CLC",
+        "path": "/sitecore/media library/Project/OneWeb/CLC",
+        "scope": "singleItem",
+        "allowedPushOperations": "createUpdateAndDelete"
+      },
+      {
+        "name": "MediaLibrary-CLC-Themes",
+        "path": "/sitecore/media library/Themes/OneWeb/CLC",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      },
+      {
+        "name": "Forms-CLC",
+        "path": "/sitecore/Forms/OneWeb/CLC",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      }
+    ]
+  }
+}

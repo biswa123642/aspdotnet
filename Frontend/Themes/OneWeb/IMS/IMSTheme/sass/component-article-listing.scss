@@ -1,0 +1,50 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.article-listing {
+    .product-wrap {
+      .result-count {
+        opacity: 0;
+      }
+    }
+    #article-type {
+      .product-list {
+        li {
+          padding: 1rem 0;
+          @include respond-to(tab) {
+            padding: 1rem;
+          }
+          .cgp-product {
+            background: $product-bg-secondary;
+            .body-copy {
+              padding: 0 1.6rem;
+              h3 {
+                padding-bottom: 1rem;
+                a {
+                  color: $black;
+                  font-size: 2.8rem;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #searchfilter {
+    h3 {
+      border-bottom: 2px solid $product-bg-secondary;
+      margin: 2rem 0;
+      .link-btn {
+        text-transform: uppercase;
+        padding: initial;
+      }
+    }
+  }
+}

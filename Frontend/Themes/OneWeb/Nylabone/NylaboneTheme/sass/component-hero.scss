@@ -1,0 +1,448 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.hero {
+    .inner-container {
+      &.d-none {
+        &.d-md-block {
+          display: block !important;
+        }
+      }
+
+      &.d-md-none {
+        display: none !important;
+      }
+    }
+
+    padding: inherit;
+
+    &.hero-banner-image {
+      img {
+        width: 100%;
+        display: block;
+      }
+    }
+
+    &.with-title-top {
+      text-align: center;
+
+      @include respond-to(tab) {
+        padding-left: 16px;
+        padding-right: 15px;
+      }
+
+      @include respond-to(desktop) {
+        text-align: left;
+      }
+
+      .hero-banner-title {
+        .club-nylabone-heading {
+          text-align: center;
+          box-shadow: 0 1rem 1rem 0 $border-white-gray;
+          margin: -1.5rem 0;
+          padding-bottom: 1rem;
+          padding-top: 1rem;
+
+          h2 {
+            font-size: 2.6rem;
+
+            @include respond-to(desktop) {
+              font-size: 4.8rem;
+            }
+          }
+
+          img {
+            height: 8rem;
+            width: auto;
+          }
+        }
+
+        h2 {
+          font-size: 1.7rem;
+          margin-bottom: 0;
+
+          @include respond-to(tab) {
+            font-size: 2.8rem;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+
+    &.banner-adjustable-height {
+
+      .banner-image {
+        img {
+          height: 20rem;
+          min-height: 20rem;
+          object-fit: cover;
+          object-position: 0 0;
+        }
+      }
+
+      @media (max-width:350px) {
+        .banner-image {
+          img {
+            object-position: -30px 0;
+          }
+        }
+      }
+
+      @include respond-to(tab) {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+
+        .banner-image {
+          img {
+            height: 30rem;
+            min-height: 30rem;
+          }
+        }
+      }
+
+      .inner-container {
+        @include respond-to(tab) {
+          height: 100%;
+        }
+
+        @include respond-to(bootstrap-mediumTablet) {
+          position: static;
+          transform: none;
+        }
+
+      }
+
+      @include respond-to(mobile-horizontal) {
+        .banner-image {
+          position: relative;
+          //padding-top: 50%;
+
+          // img {
+          //   position: absolute;
+          //   top: 0;
+          //   left: 0;
+          //   height: 100%;
+          //   width: 100%;
+          //   object-fit: cover;
+          //   object-position: 0 0;
+          // }
+        }
+      }
+
+      .hero-banner-logo {
+        max-width: 8rem;
+        float: left;
+        margin-right: 1rem;
+        margin-top: -2rem;
+        margin-left: -1rem;
+        margin-bottom: 0;
+      }
+
+      .hero-banner-title {
+        font-size: 2.6rem;
+        margin-bottom: 2rem;
+        margin-top:2rem;
+        font-weight: 700;
+      }
+
+      .hero-banner-description {
+        font-size: 1.4rem;
+        padding-bottom: 4rem;
+
+        p {
+          font-size: 1.4rem;
+        }
+
+        @include respond-to(desktop) {
+          padding-bottom: 0;
+          font-size: 1.6rem;
+
+          .hero-banner-title {
+            margin-top: 2rem;
+          }
+
+          p {
+            font-size: 1.6rem;
+          }
+        }
+      }
+
+      .banner-content-wrapper {
+        background-color: #000;
+        padding: 2rem;
+
+        &.right-align {
+          @include respond-to(tab) {
+            right: 0;
+            height: 100%;
+          }
+
+          @include respond-to(desktop) {
+            width: 32rem;
+          }
+
+          @include respond-to(bootstrap-mediumTablet) {
+            position: static;
+            width: 100%;
+            transform: none;
+            max-width: 100%;
+            background-color: #000;
+            padding: 2rem 4rem;
+          }
+        }
+
+        @include respond-to(tab) {
+          background-color: rgba(0, 0, 0, 0.7);
+        }
+      }
+
+      .banner-wrapper {
+        position: relative;
+
+        &.with-toggle-content {
+          @media (max-width:991px) {
+            margin-bottom: -4rem;
+          }
+
+          .inner-container {
+            background-color: #fff;
+
+            .banner-content-wrapper {
+              height: 45%;
+              width: 100%;
+              padding-left: 3.5rem;
+              padding-right: 3.5rem;
+              transform: none;
+              overflow: hidden;
+
+              .hero-banner-title {
+                font-size: 1.9rem;
+                min-height: 6rem;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+              }
+
+              .hero-banner-description {
+                font-size: 1.2rem;
+                height: 80px;
+                overflow: hidden;
+                padding: 0;
+                text-overflow: ellipsis;
+                -o-text-overflow: ellipsis;
+              }
+            }
+
+            .read-more {
+              background-image: url("../images/arrow-down-gray.png");
+              background-size: contain;
+              height: 20px;
+              width: 20px;
+              float: right;
+              -ms-transform: rotate(270deg);
+              -webkit-transform: rotate(270deg);
+              transform: rotate(270deg);
+            }
+
+            .hero-banner-description {
+              span {
+                display: none;
+              }
+            }
+
+            .call-to-action {
+              margin-top: -2%;
+              background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), #fff);
+              width: 150%;
+              max-width: 150%;
+              height: 43px;
+              position: absolute;
+              bottom: 0;
+              margin-left: -20px;
+              margin-bottom: 0;
+            }
+          }
+
+          @media (max-width:991px) {
+            .inner-container {
+              .banner-content-wrapper {
+                background: #fff !important;
+              }
+            }
+
+          }
+
+          @include respond-to(mob-horizontal) {
+            .inner-container {
+              .banner-content-wrapper {
+                position: relative;
+                width: 100%;
+                left: auto;
+                right: auto;
+                min-height: 30rem;
+
+                .hero-banner-title {
+                  font-size: 2.4rem;
+                  min-height: 6rem;
+                }
+
+                .hero-banner-description {
+                  font-size: 1.4rem;
+                }
+              }
+            }
+          }
+
+          @include respond-to(desktop) {
+            .inner-container {
+              background-color: transparent;
+
+              .banner-content-wrapper {
+                height: 28.9rem;
+                max-height: 70%;
+                min-height: initial;
+                right: 10%;
+                width: 48rem;
+                padding-left: 2rem;
+                padding-right: 2rem;
+                position: absolute;
+                top: auto;
+                bottom: 0;
+              }
+            }
+          }
+
+          @include respond-to(tab-horizontal) {
+            .inner-container {
+              .banner-content-wrapper {
+                height: 22rem;
+                right: 5%;
+                width: 44rem;
+              }
+            }
+          }
+
+          &.active {
+            .inner-container {
+              .read-more {
+                -ms-transform: rotate(90deg);
+                -webkit-transform: rotate(90deg);
+                transform: rotate(90deg);
+              }
+
+              .call-to-action {
+                background: transparent;
+              }
+
+              .banner-content-wrapper {
+                .hero-banner-description {
+                  height: auto;
+
+                  span {
+                    display: inline;
+                  }
+                }
+              }
+            }
+
+            @media (max-width:991px) {
+              .banner-image {
+                img {
+                  position: absolute;
+                }
+              }
+            }
+
+            @include respond-to(desktop) {
+              .inner-container {
+                .banner-content-wrapper {
+                  height: 100%;
+                  max-height: 100%;
+                  width: 540px;
+                  max-width: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+
+    &.with-carousel {
+      .hero-container {
+        h1 {
+          color: $white;
+          font-size: 2rem;
+          margin-bottom: 20px;
+          margin-left: 20px;
+
+          @include respond-to(tab) {
+            font-size: 3.6rem;
+            margin-bottom: 20px;
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+
+    &.banner-with-content {
+      .inner-container {
+        .banner-mobile-image {
+          img {
+            @include respond-to(tab) {
+              width: 100%;
+            }
+          }
+        }
+
+        .banner-content-wrapper {
+          .content-top {
+            .banner-cta-holder {
+              a {
+                background-color: $banner-title;
+                font-size: 1.2rem;
+                text-transform: capitalize;
+                border-radius: 1.2rem;
+
+                @include respond-to(tab) {
+                  font-size: 2.4rem;
+                  border-radius: 5rem;
+                }
+
+                &:hover {
+                  text-decoration: none;
+                  background-color: $orange;
+                }
+              }
+            }
+          }
+
+          .content-bottom {
+            bottom: 4rem;
+
+            .banner-conetent-image {
+              max-width: 20rem;
+
+              @include respond-to(desktop) {
+                max-width: 30.2rem;
+              }
+
+              img {
+                margin: auto;
+              }
+            }
+          }
+        }
+      }
+
+      &::after {
+        content: "";
+        background-color: $banner-title;
+        display: block;
+        height: 4rem;
+      }
+    }
+  }
+}

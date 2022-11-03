@@ -1,0 +1,94 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  &.global-search-listing {
+    padding-top: 2rem;
+
+    #article-type>h3,
+    #others-type>h3,
+    #product-type>h3,
+    #searchfilter>h3 {
+      border-bottom: 2px solid $bottom-corner;
+      a {
+        text-decoration: underline;
+      }
+    }
+    .product-wrap {
+	  .result-count {
+        p {
+          padding-left: 15px;
+        }
+      }
+      .component {
+        &.search-box {
+          margin: 0 1.5rem;
+         .search-wrapper {
+            &::before {
+              background: none;
+            }
+          }
+          .search-input-wrapper {
+            input {
+              padding: 1.3rem 4.4rem 1.3rem 2rem;
+              border: 3px solid #8e9091;
+              border-radius: 25px;
+            }
+            button {
+              font-size: 0;
+              position: absolute;
+              border: 0;
+              cursor: pointer;
+              width: 50px;
+              height: calc(100% - 9px);
+              right: 4px;
+              background-color: transparent;
+              background-position: center;
+              background-repeat: no-repeat;
+              border-radius: 31px;
+              top: 3px;
+            }
+          }
+		}
+      }
+      .product-result-tiles {
+        .custom-listing-wrapper {
+          .product-list {
+            .cgp-product {
+              .body-copy {
+                h3 {
+                  @include montserrat-font-stack();
+                  font-weight: bold;
+                  font-size: 1.5rem;
+                  color: $anchor !important;
+                  a {
+                    font-family: inherit;
+                    color: inherit;
+                    font-weight: 600;
+                    font-size: inherit;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+#article-type,#others-type,#product-type, #searchfilter{
+.card-body{
+  .product-list{
+    .cgp-product{
+      h3{
+        a{
+          &:hover{
+            color: #23527c;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+}

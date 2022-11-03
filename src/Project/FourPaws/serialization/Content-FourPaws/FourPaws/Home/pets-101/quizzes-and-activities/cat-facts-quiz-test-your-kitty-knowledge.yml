@@ -1,0 +1,65 @@
+﻿---
+ID: "2bb8618d-1e12-4152-96c3-6efd862f263c"
+Parent: "1789a060-fe06-44c0-ac6d-e5e1ddbfa9ea"
+Template: "057af325-c948-4918-a4e4-2c3f6cf04524"
+Path: "/sitecore/content/OneWeb/FourPaws/Home/pets-101/quizzes-and-activities/cat-facts-quiz-test-your-kitty-knowledge"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{E4320049-E071-4A5D-B318-395EF40F2788}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220606T195844Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Quiz: Test Your Cat Knowledge"
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: "Cats are one of the most popular pets and among the smartest animals on earth. Test your kitty expertise and learn fun feline trivia with our Cat Facts Quiz!"
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <br /><p><iframe class="embed_frame" src="https://a.pgtb.me/vhbM99?embed=1&vOffset=0&autoscroll_p=1" style="display: none" frameborder="0" allowfullscreen="" data-hj-allow-iframe=""></iframe></p>
+    - ID: "6dd157fe-8ea8-496a-b595-0e6a18489836"
+      Hint: ThumbnailImage
+      Value: |
+        <image mediaid="{C0AD7BF3-E1D4-4C42-A4FB-09E7F1F3C3F7}" />
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "Cats are one of the most popular pets and among the smartest animals on earth. Test your kitty expertise and learn fun feline trivia with our Cat Facts Quiz!"
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Cat Facts Quiz: Test Your Kitty Knowledge"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: "Cat Facts Quiz: Test Your Kitty Knowledge"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cf17c8ce-dacf-4d01-a67f-1c4f6cde20a3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{C0AD7BF3-E1D4-4C42-A4FB-09E7F1F3C3F7}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220720T115919Z
+    - ID: "f0d0a9d9-6b70-4a54-a04a-537c38d5b2e1"
+      Hint: RelatedArticlesLabel
+      Value: Related Articles
+    - ID: "fb742e87-7bf7-4c72-97a9-987a40989ece"
+      Hint: RelatedArticles
+      Value: |
+        {A0995CAF-95EA-4F33-B715-491579661EF4}
+        {D95D7789-6B1A-48B0-8286-A4ABD0BDD48A}

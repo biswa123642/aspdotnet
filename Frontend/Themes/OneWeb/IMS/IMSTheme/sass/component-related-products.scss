@@ -1,0 +1,68 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.product-details {
+    &.variant-1 {
+      &.related-products {
+        .popular-products {
+          background: $product-bg-secondary;
+          padding: 1.9rem;
+
+          h3 {
+            color: $body-color;
+            font-size: 2.88rem;
+            text-transform: none;
+          }
+
+          .inner-wrap {
+            .row {
+              .body-copy {
+                h3 {
+                  margin: 2px auto 3rem;
+                  a {
+                    text-transform: uppercase;
+                    font-size: 1.5rem;
+                  }
+                }
+              }
+              .image-holder {
+                a {
+                  img {
+                    max-width: 30rem;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      &.product-style-horizontal {
+        .popular-products {
+          background: $white;
+          padding: 0;
+          h3 {
+            background: $product-bg-secondary;
+            color: $link_title_primary;
+            padding: 6px 2rem;
+          }
+
+          .inner-wrap {
+            .row {
+              .body-copy {
+                h3 {
+                  background: none;
+                  a {
+                    color: $article-gray;
+                    font-size: 1.8rem;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

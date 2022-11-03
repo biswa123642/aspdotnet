@@ -1,0 +1,87 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component-solution-finder {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    .solution-finder {
+        .questionDiv {
+            background: #0000;
+            padding: 30px 0 30px 0;
+            font-size: 2.2rem;
+            line-height: 1.2;
+            @include Montserrat-font-stack();
+            font-weight: 500;
+            color: $sf-question-text-color;
+        }
+        .answersDiv {
+            padding-top: 0;
+                > h3{
+                    display: none;
+                    + div{
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: -webkit-flex;
+                        display: flex;
+                        -webkit-flex-wrap: wrap;
+                        -khtml-flex-wrap: wrap;
+                        -moz-flex-wrap: wrap;
+                        flex-wrap: wrap;
+                        -webkit-justify-content: space-around;
+                        -khtml-justify-content: space-around;
+                        -moz-justify-content: space-around;
+                        justify-content: space-around;
+                    }
+                }
+            .answer-div {
+                &[questionid=pest] {
+                    @include respond-to(tab-horizontal){
+                        width: 14.2857%;
+                        margin: 0;
+                    }
+                    
+                  }
+                  &[questionid=products] {
+                    @include respond-to(tab-horizontal){
+                        width: calc(33% - 60px);
+                    }
+                    .answer-title {
+                        font-size: 2.2rem;
+                        line-height: 1.2;
+                        @include Montserrat-font-stack();
+                        font-weight: 900;
+                      }
+                  }
+                  .answer-image {
+                    width: calc(100% - 56px);
+                    height: auto;
+                    max-height: none;
+                  }
+                .answer-title{
+                    color: $sf-answer-title;                 
+                    font-size: 1.8rem;
+                    line-height: 26px;
+                    @include Montserrat-font-stack();
+                    font-weight: 700;
+                    text-transform: capitalize;
+                    width: auto;
+                }
+            }
+        }
+        .breadcrumb-bg {
+            background-color: transparent;
+        }
+        .solution-finder-breadcrumb{
+            font-size: 1.4rem;
+            font-weight: 400;
+            display: block;
+            margin: 0;
+            padding: 0;
+            display: none;
+            @include respond-to(tab){
+                display: block;
+            }
+        }
+    }
+}

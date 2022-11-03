@@ -1,0 +1,218 @@
+﻿---
+ID: "1ad1add7-8633-4b74-887e-87ae80a1e243"
+Parent: "d22a79f6-2caf-4e24-93b7-eab6f7aa5ea3"
+Template: "3bc22e05-e1ff-45a6-b8c3-fcf4c8f84a43"
+Path: /sitecore/content/OneWeb/Farnam/Home
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+    {AA977B10-C924-4446-8B15-A7D26AA6C93F}
+    {574F54F5-6F3D-4CF6-AC3E-225FDD39E963}
+    {80ED8527-6794-4B69-8C25-035C6B33EEEF}
+    {16B1698F-44F1-4632-BD3C-7BFDB58D7FB9}
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{A76E29CE-8739-47B1-8120-D7ABE45FB697}"
+- ID: "b0f2f11d-f706-41da-81fe-88ebfacb3b53"
+  Hint: OpenGraphSiteName
+  Value: Farnam Horse | Equine Supplies & Horse Care
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{CA07FB7C-E73F-4DB6-BD88-C3131B6C2FEF}"
+          p:before="*"
+          s:ds="{E16284A9-9E6C-43CA-96ED-FA5F644B29EF}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B4FFFD41C-24F3-4E7F-9515-C6BA481861EB%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=13"
+          s:ph="/main/row-2-2/container-9/column-2-10"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{263517F1-6FDF-404A-8B14-84946ABDCBA6}"
+          p:after="r[@uid='{CA07FB7C-E73F-4DB6-BD88-C3131B6C2FEF}']"
+          s:ds="{A42FC16B-7CBF-46A7-92A5-07847C0E53AD}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B4FFFD41C-24F3-4E7F-9515-C6BA481861EB%7D&amp;Styles=%7B26C7610E-337D-4F2E-8659-A22C76F38526%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=12"
+          s:ph="/main/row-2-2/container-9/column-1-10"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{73BEB4A2-4959-42AB-A002-630FCE7153D3}"
+          p:after="r[@uid='{263517F1-6FDF-404A-8B14-84946ABDCBA6}']"
+          s:ds=""
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B48918248-0011-4F9C-81CD-49DD9A25C730%7D&amp;ColumnWidth2=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B878F0549-848F-4AF6-B18D-936AEF2590BE%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=10"
+          s:ph="/main/row-2-2/container-9" />
+        <r
+          uid="{3A6D878D-B8EA-4668-AC5F-9DC011CE49C4}"
+          p:after="r[@uid='{73BEB4A2-4959-42AB-A002-630FCE7153D3}']"
+          s:ds="{7867CE04-48F3-4C41-82FB-BAF2098DCA0C}"
+          s:id="{912A01D9-28E7-460C-A154-C4AB75B0A150}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BFC876CE8-3852-49B6-9320-6C7B01B48CE1%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=25"
+          s:ph="/main/row-2-2/container-9" />
+        <r
+          uid="{39CD34B5-C958-4762-9E34-FCCFE791FACA}"
+          p:after="r[@uid='{3A6D878D-B8EA-4668-AC5F-9DC011CE49C4}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BC8AE8DAF-E579-456F-8747-7D6B522A7587%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/row-2-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{06682ADF-2534-435D-80F8-98CC288983CB}"
+          p:after="r[@uid='{39CD34B5-C958-4762-9E34-FCCFE791FACA}']"
+          s:ds="{B3B44C6A-892C-405A-A3AE-3C862151F857}"
+          s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass=col-md-4&amp;FieldNames=%7BDD2A67DD-2C78-484F-9B69-9E17B40C4BD1%7D&amp;Styles=%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D%7C%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/row-1-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{A50BE72C-993E-4AC9-95F0-454F06BA9FDA}"
+          p:after="r[@uid='{06682ADF-2534-435D-80F8-98CC288983CB}']"
+          s:ds="{0C9A0E99-E5D5-4569-AA22-900F163E75C6}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B4FFFD41C-24F3-4E7F-9515-C6BA481861EB%7D&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D%7C%7BFAF28AF7-0575-40E0-9EE8-3C33FB91AC01%7D%7C%7B26C7610E-337D-4F2E-8659-A22C76F38526%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-8-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{4418936A-E1D0-42D0-B309-DFC78362B993}"
+          p:after="r[@uid='{A50BE72C-993E-4AC9-95F0-454F06BA9FDA}']"
+          s:ds="{264DC3E1-FFE6-4980-9AFC-100322340630}"
+          s:id="{28F481FC-631F-4BDF-9130-A2DA74164968}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BB97029D2-8173-494D-AB39-86CA14E36D6B%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=24"
+          s:ph="/main/row-7-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{568244F8-698B-4E54-A54F-B33FCD6560A1}"
+          p:after="r[@uid='{4418936A-E1D0-42D0-B309-DFC78362B993}']"
+          s:ds="{175AB701-F154-4006-864F-E64B21DD3681}"
+          s:id="{28F481FC-631F-4BDF-9130-A2DA74164968}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BB97029D2-8173-494D-AB39-86CA14E36D6B%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=23"
+          s:ph="/main/row-6-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{F2CB2C8E-EEAB-4B74-9D48-A73B61F1B157}"
+          p:after="r[@uid='{568244F8-698B-4E54-A54F-B33FCD6560A1}']"
+          s:ds="{001252CC-FA8A-4326-BC16-60771600A5FE}"
+          s:id="{28F481FC-631F-4BDF-9130-A2DA74164968}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BB97029D2-8173-494D-AB39-86CA14E36D6B%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=20"
+          s:ph="/main/row-5-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{490DE5C6-2511-4DDE-B1B9-AF56EE77519B}"
+          p:after="r[@uid='{F2CB2C8E-EEAB-4B74-9D48-A73B61F1B157}']"
+          s:ds="{48279684-8551-4479-88C1-F1264605E43E}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;FieldNames=%7B4FFFD41C-24F3-4E7F-9515-C6BA481861EB%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=17"
+          s:ph="/main/row-4-1/container-16" />
+        <r
+          uid="{21DDEEBF-CD92-4D77-942D-4F514FF4A3CE}"
+          p:after="r[@uid='{490DE5C6-2511-4DDE-B1B9-AF56EE77519B}']"
+          s:ds="{E8164C6D-7744-4D81-BDEC-3D794872833D}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;FieldNames=%7B46633A7B-05CD-4D19-AB9E-8164C9AD70BB%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=18"
+          s:ph="/main/row-4-1/container-16" />
+        <r
+          uid="{BB102A28-3D54-4290-9394-998610BB193E}"
+          p:after="r[@uid='{21DDEEBF-CD92-4D77-942D-4F514FF4A3CE}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7B8D38663D-4028-4440-96C6-BCAA6062E23B%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=16"
+          s:ph="/main/row-4-1" />
+        <r
+          uid="{8150B9C4-8D6E-46BE-ADC9-D041312F057D}"
+          p:after="r[@uid='{BB102A28-3D54-4290-9394-998610BB193E}']"
+          s:ds="{B9B6A08B-99F0-4FA8-B5C0-977E0AC8EB49}"
+          s:id="{4646BD4F-05FF-4A19-9600-4D74F2F1548B}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B21409643-0B35-42B4-91EF-852679AA9D1C%7D&amp;Styles=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D%7C%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D&amp;TitleHeadingLevel=%7B6A44D9C6-61F0-4B69-8E1A-FDC27F96BA0F%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=15"
+          s:ph="/main/row-2-1/container-14" />
+        <r
+          uid="{38B46C04-3EAA-4922-B5F5-2FEF411ABE8D}"
+          p:after="r[@uid='{8150B9C4-8D6E-46BE-ADC9-D041312F057D}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B5C29D83E-D218-432A-BC6C-F4719E2D9096%7D%7C%7BB9DDF622-0B36-46F6-9DC9-73C8462BC2C4%7D&amp;BackgroundImage&amp;Styles=%7BB7B604D0-7589-45DF-B7BA-D63B36E8DD25%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=14"
+          s:ph="/main/row-2-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{11210207-2CD2-44C9-BFA4-B525E40ACC3F}"
+          p:after="r[@uid='{38B46C04-3EAA-4922-B5F5-2FEF411ABE8D}']"
+          s:ds="{79827CC5-F151-4CB1-B6F2-B21AAD0C1BEE}"
+          s:id="{7561DEB5-5388-4A43-A4CB-353078D32352}"
+          s:par="Reset Caching Options&amp;Timeout=3000&amp;PauseOnHover=1&amp;Autoplay=1&amp;OverlayAlign=overlay-left&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BDD24582A-74CD-48C4-A6AF-E9B3DECF9586%7D&amp;Styles=%7BB15E97B6-A897-4977-A75C-67B9EA81F18F%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-1-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{CBDAAF0D-7879-425B-93ED-F770E5051E3C}"
+          p:after="r[@uid='{11210207-2CD2-44C9-BFA4-B525E40ACC3F}']"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C4%2C5%2C6%2C7%2C8&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4=%7B4763A991-FE16-47B5-9AED-E047A33F4EB1%7D&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+        <r
+          uid="{75F0046C-A99F-45A2-8CB8-2F87EDD76B15}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2=%7B56AC347A-BF04-4541-998C-224DF56E208C%7D%7C%7B8D39D18A-595E-492B-BF1C-A6B2188EB614%7D&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;DynamicPlaceholderId=2&amp;CacheClearingBehavior=Clear%20on%20publish"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{92EB9EFB-88D4-4089-82BE-AAD92D4FA24E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220630T085243Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Farnam Home
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Farnam simplifies horse care with essential equine supplies and helpful information so that you can make the most out of every moment together with your horse.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Farnam simplifies horse care with essential equine supplies and helpful information so that you can make the most out of every moment together with your horse.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Farnam Horse | Equine Supplies & Horse Care
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Farnam Horse | Equine Supplies & Horse Care
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "53a63e77-2f65-4051-8627-7b7a2fcc83be"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{23629102-2AC2-42DC-B8F3-773940834036}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220901T113637Z

@@ -1,0 +1,228 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.accordion {
+        .toggle-header {
+            border-top: 2px solid #7d716d;
+            .label {
+                padding: 0;
+            }
+            .component {
+                .field-heading {
+                    padding: 30px 0px 14px 62px;
+                    display: block;
+                    text-decoration: none;
+                    position: relative;
+                    font-size: 1.6rem;
+                    line-height: 1;
+                    font-weight: 500;
+                    color: $light-black-color;
+                    &:before {
+                        content: "Q";
+                        color: #7d716d;
+                        font-size: 4.9rem;
+                        position: absolute;
+                        line-height: 60px;
+                        left: 34px;
+                        top: 0px;
+                        transition: all ease-in-out 120ms;
+                        transform: none;
+                    }
+                    &:after {
+                        content: "";
+                        width: 0;
+                        height: 0;
+                        border-style: solid;
+                        border-width: 14px 12.5px 0 12.5px;
+                        border-color: #e24107 #0000 #0000 #0000;
+                        position: absolute;
+                        left: 0;
+                        transition: all ease-in-out 120ms;
+                        top: 50%;
+                        transform: rotate(-90deg);
+                    }
+                }
+            }
+        }
+        .item {
+            &.active {
+                .toggle-header {
+                    .component {
+                        .field-heading:after {
+                            top: calc(50% + 6px);
+                            transform: translateY(-50%);
+                        }
+                    }
+                }
+            }
+        }
+        .toggle-content {
+            padding: 15px;
+            .component {
+                .field-content {
+                    color: $primary-color;
+                    margin-bottom: 40px;
+                    padding: 0;
+                }
+            }
+            ul.three-column-list {
+                li {
+                    margin-bottom: 1rem;
+                    padding-bottom: 3rem;
+                    display: inline-block;
+                    width: 100%;
+                    vertical-align: top;
+                }
+            }
+        }
+
+        &.accordion-where-to-buy {
+            .toggle-header {
+                border: none;
+                .component {
+                    .field-heading {
+                        padding: 37px 0 15px 0;
+                        display: inline-block;
+                        color: $secondary-color;
+                        font-size: 2.8rem;
+                        text-transform: uppercase;
+                        padding-right: 60px;
+                        line-height: 1;
+                        &:before {
+                            display: none;
+                        }
+                        &:after {
+                            right: 0;
+                            left: auto;
+                        }
+                    }
+                }
+            }
+            .item{
+                .toggle-header {
+                    .component {
+                        .field-heading{
+                            &:after{
+                                top: calc(50% + 5px);
+                            }
+                        }
+                    }
+                }
+                &.active{
+                    .toggle-header {
+                        .component {
+                            .field-heading{
+                                &:after{
+                                    top: calc(50% + 12px);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &.accordion-product {
+            .toggle-header {
+                border: none;
+                .component {
+                    .field-heading {
+                        font-size: 2rem;
+                        font-weight: 700;
+                        line-height: 2;
+                        color: $secondary-color;
+                        background-color: #e0d8d6;
+                        padding: 0 10px;
+                        &:before {
+                            display: none;
+                        }
+                        &:after {
+                            left: auto;
+                            top: 50%;
+                            right: 18px;
+                            transform: translateX(50%) translateY(-50%) rotate(90deg);
+                            border-width: 12px 12px 0 12px;
+                            border-color: #e04326 #0000 #0000 #0000;
+                            background: #0000;
+                        }
+                    }
+                }
+            }
+            .item {
+                background-color: $white-color;
+                border: 1px solid #0000;
+                &:not(:first-child) {
+                    margin-top: 5px;
+                }
+                &.active .toggle-header .component .field-heading:after {
+                    right: 17px;
+                    top: calc(50% + 2px);
+                    transform: translateX(50%) translateY(-50%);
+                }
+            }
+            .toggle-content {
+                padding: 15px 0px;
+            }
+        }
+    }
+}
+.product-tab-accordion {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    .card {
+        padding: 0;
+        margin-top: 5px;
+        .card-header {
+            padding: 0;
+            border: none;
+            h2 {
+                button.btn-link {
+                    position: relative;
+                    background-color: #e0d8d6;
+                    color: $secondary-color;
+                    line-height: 40px;
+                    text-transform: uppercase;
+                    padding: 0 10px;
+                    font-size: 2rem;
+                    font-weight: 700;
+                    @include Barlow-Semi-Condensed();
+                    &:after {
+                        display: none;
+                    }
+                    &:before {
+                        border-style: solid;
+                        border-width: 12px 12px 0 12px;
+                        border-color: #e04326 #0000 #0000 #0000;
+                        z-index: 2;
+                        transition: all ease-in-out 150ms;                        
+                        background: transparent;
+                        right: 17px;
+                        top: calc(50% + 2px);
+                        transform: translateX(50%) translateY(-50%);
+                    }
+                    &[aria-expanded=false]:before {
+                        top: 50%;
+                        right: 18px;
+                        transform: translateX(50%) translateY(-50%) rotate(90deg);
+                    }
+                }
+            }
+        }
+    }
+    &:not(.product-tab) {
+        .collapse{
+            transition: none;
+            opacity: 1;
+            height: 100%;
+            padding: 1.5rem;
+            overflow: visible;           
+            &.show{
+                transition: none;
+                opacity: 1;
+                height: 100%;
+                display: block;
+            }
+           
+        }
+    }
+}

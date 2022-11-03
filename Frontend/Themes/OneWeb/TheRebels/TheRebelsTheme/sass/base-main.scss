@@ -1,0 +1,185 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+@import "base/fonts/fonts";
+
+body {
+  @include Helvetica-font-stack();
+  color: $primary-color;
+  font-size: 1.4rem;
+  -webkit-font-smoothing:auto;
+}
+main {
+  min-height: calc(100vh - 189px);
+}
+#content {
+  > .row {
+    display: block;
+  }
+}
+
+b,
+strong {
+  font-weight: 700;
+  margin: 0 6px;
+}
+p {
+  margin: 0 0 10px;
+}
+a {
+  line-height: 1.42857143;
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
+.content,
+.rich-text {
+  strong{
+    margin: 0px;
+  }
+  p {
+    font-size: 1.4rem;
+    line-height: 1.42857143;
+  }
+  ul {
+    padding: 0 0 0 15px;
+    li {
+      list-style: disc;
+      color: $primary-color;
+    }
+  }
+  a {
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}
+
+h2 {
+  color: $secondary-color;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.8rem;
+  @include Helvetica-font-stack();
+}
+
+.content,
+.rich-text {
+  color: $primary-color;
+  h1,
+  h2 {
+    color: $secondary-color;
+    line-height: 1.1;
+
+  }
+  h2{
+    a{
+      font-size: 2.8rem;
+      &:hover {
+        color: $dark-hover;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.indent-bottom {
+  margin-bottom: 3rem;
+  @include respond-to(desktop) {
+    margin-bottom: 3rem;
+  }
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.content,
+.rich-text {
+  p {
+    margin-bottom: 10px;
+  }
+  li {
+    font-size: 1.4rem;
+    line-height: 1.42857143;
+  }
+  ol {
+    padding-left: 1rem;
+    li {
+      list-style-position: outside;
+      a {
+        &:hover {
+          color: $dark-hover;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+.title {
+  .field-title,
+  h1 {
+    a {
+      color: $secondary-color;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 28px;
+      border: none;
+      cursor: auto;
+
+      text-align: center;
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+  }
+  h1 {
+    color: $secondary-color;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: start;
+    border: none;
+    cursor: auto;
+    margin-bottom: 0px;
+    padding: 0px;
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}
+.content,
+.rich-text {
+  a {
+    text-decoration: none;
+     font-size: 1.4rem;
+     &:hover{
+      text-decoration: underline;
+     }
+  }
+}
+
+.sxa-btn{
+a{
+  background-image: linear-gradient(to bottom, #e21d37 0%, #9e1426 100%);
+  background-repeat: repeat-x;
+  color: $white-color;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  margin-top: 10px;
+}
+}
+
+small,.small{
+  font-size: 85%;
+}
+sup{
+  font-size: 75%;
+}

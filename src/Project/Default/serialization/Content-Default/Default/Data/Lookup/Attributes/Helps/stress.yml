@@ -1,0 +1,37 @@
+﻿---
+ID: "06284679-e252-4fa3-82e5-327c99dab27e"
+Parent: "06e16591-c05f-4a40-a3d7-ffca0ec8d326"
+Template: "62e96c2c-0949-4eea-997a-d9408a414d7e"
+Path: /sitecore/content/OneWeb/Default/Data/Lookup/Attributes/Helps/stress
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220510T104052Z
+    - ID: "4973f6e9-3498-4979-a48b-ea9697c730dd"
+      Hint: Key
+      Value: stress
+    - ID: "713a5545-19de-407f-8a6e-21c54b858834"
+      Hint: Value
+      Value: stress
+    - ID: "722bd4a6-cbf6-487e-bf37-9b4395b6fba1"
+      Hint: Image
+      Value: |
+        <image mediaid="{A3E99AB7-0480-479C-B4BA-4E74B21D754F}" alt="Stress" height="" width="" hspace="" vspace="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3d6044ee-5af2-4ef8-910f-e9c3e73ea219"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220516T051203Z

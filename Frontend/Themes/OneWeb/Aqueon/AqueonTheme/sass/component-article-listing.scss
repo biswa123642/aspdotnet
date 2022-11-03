@@ -1,0 +1,154 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+#searchfilter {
+  h3 {
+    border-bottom: 2px solid $text-secondary;
+    .link-btn {
+      color: #545557;
+      font-size: 1.4rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding-right: 3rem;
+      @include Source-sans-pro-font();
+    }
+  }
+
+  .facet-wrapper {
+    .form-check {
+      label {
+        font-size: 1.4rem;
+        color: $text-primary;
+        @include Helvetica-neue-font();
+      }
+    }
+  }
+}
+
+.component {
+  &.article-listing {
+    #article-type {
+      .product-list {
+        li {
+          margin-bottom: 3rem;
+        }
+        h3 {
+          font-size: 2.2rem;
+          font-weight: 600;
+          padding: 1rem 0;
+          a:hover {
+            color: #000e21;
+            text-decoration: underline;
+          }
+        }
+        p {
+          font-size: 1.4rem;
+          @include Helvetica-neue-font();
+        }
+      }
+    }
+
+    &.care-guide-listing {
+      #article-type {
+        .product-list {
+          .body-copy {
+            text-align: center;
+            h3 {
+              a {
+                color: $text-secondary;
+                font-size: 3rem;
+                font-weight: 700;
+                &:hover {
+                  text-decoration: none;
+                }
+              }
+              &:hover {
+                opacity: 0.5;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &.video-listing {
+      #article-type {
+        .product-list {
+          .body-copy {
+            margin: auto;
+            h3 {
+              color: $text-primary;
+              font-size: 1.5rem;
+              font-weight: 700;
+              a:hover {
+                color: $text-primary;
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    @include respond-to(desktop) {
+      #article-type {
+        .image-holder {
+          max-width: 40%;
+        }
+        .body-copy {
+          margin: 0 2rem;
+          max-width: 60%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+        .product-list {
+          .cgp-product {
+            display: flex;
+          }
+          h3 {
+            font-size: 2.5rem;
+          }
+          p {
+            font-size: 1.3rem;
+          }
+        }
+      }
+
+      &.care-guide-listing,
+      &.video-listing {
+        #article-type {
+          .image-holder {
+            max-width: 100%;
+          }
+          .product-list {
+            .cgp-product {
+              display: block;
+            }
+            .body-copy {
+              max-width: 100%;
+            }
+          }
+        }
+      }
+
+      &.care-guide-listing {
+        #article-type {
+          .product-list {
+            h3 {
+              a {
+                color: $text-secondary;
+                font-size: 3rem;
+                font-weight: 700;
+              }
+              &:hover {
+                opacity: 0.5;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

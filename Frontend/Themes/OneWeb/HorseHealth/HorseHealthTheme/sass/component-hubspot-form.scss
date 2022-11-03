@@ -1,0 +1,152 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  .hubspot-form {
+    .hs-form-field {
+      margin: 2rem 0;
+    }
+
+    .hs-form {
+      .hs-input[type="radio"] {
+        appearance: auto;
+        min-width: auto;
+        width: auto;
+        box-shadow: none;
+      }
+
+      .hs-input:not([type="radio"]),
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"] {
+        border: none;
+        background-color: rgba(71, 72, 74, 0.1);
+        height: auto;
+        padding: 1rem;
+        line-height: $line-height;
+        font-size: 1.4rem;
+        color: $input-color;
+        border-radius: 4px;
+        box-shadow: none;
+        max-width: 100%;
+
+        &:focus {
+          border-color: $input-border;
+          outline: 0;
+          box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+          transition: border-color ease-in-out 0.15s,
+            box-shadow ease-in-out 0.15s;
+        }
+      }
+      input:not([type="image"]) {
+        box-sizing: inherit;
+      }
+
+      .hs-form-booleancheckbox {
+        margin-left: 0;
+        label {
+          input[type="checkbox"].hs-input {
+            visibility: visible;
+            min-width: auto;
+            height: 2rem;
+            margin: 0;
+            background: none;
+            border: 1px solid $body-color;
+            appearance: auto;
+            &:focus {
+              box-shadow: none;
+            }
+          }
+        }
+      }
+      .input {
+        select {
+          appearance: auto;
+        }
+      }
+
+      label {
+        margin-bottom: 5px;
+        span {
+          color: rgba(71, 72, 74, 0.65);
+          font-weight: 100;
+          font-size: 1.6rem;
+        }
+      }
+      .hs-error-msgs {
+        li {
+          label {
+            font-size: 1.6rem;
+            font-weight: 100;
+            color: $red;
+          }
+        }
+      }
+
+      .form-columns-1 {
+        .input {
+          .hs-input,
+          input[type="email"] {
+            max-width: 100%;
+          }
+        }
+      }
+
+      .form-columns-2 {
+        .input {
+          .hs-input {
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    input[type="submit"] {
+      color: $white;
+      background-color: $anchor-primary;
+      border-color: transparent;
+      background: linear-gradient($anchor-primary, $text-secondary);
+      box-shadow: none;
+      min-width: auto;
+      height: auto;
+      text-shadow: none;
+      font-size: 1.5rem;
+      text-transform: none;
+      padding: 1rem 4rem;
+      border-radius: 5px;
+      line-height: $line-height;
+      cursor: pointer;
+      &:hover,
+      &:active,
+      &:active:not(.inactive):not(.link) {
+        color: $white;
+        background-color: $anchor-primary;
+        border-color: transparent;
+        background: linear-gradient(
+          $anchor-primary,
+          $text-secondary
+        );
+        box-shadow: none;
+      }
+    }
+
+    @include respond-to(tab) {
+      width: 90%;
+    }
+
+    @include respond-to(desktop) {
+      width: 60%;
+      .hs-form {
+        .hs-form-booleancheckbox {
+          margin-left: 0;
+          label {
+            span {
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+}

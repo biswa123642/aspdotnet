@@ -1,0 +1,257 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.club-cadet-page,
+.about-us-page {
+  .component {
+    &.hero {
+      &.hero-banner-image {
+        img {
+          height: 22rem;
+          object-fit: cover;
+          object-position: center center;
+          @include respond-to(tab) {
+            height: 40rem;
+          }
+          @include respond-to(desktop) {
+            height: 54rem;
+          }
+          @include respond-to(larger-desktop) {
+            height: 60rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.where-to-buy-page {
+  .component {
+    &.hero {
+      &.hero-banner-image {
+        img {
+          height: 25rem;
+          object-fit: cover;
+          object-position: 61% 100%;
+          @include respond-to(tab) {
+            height: 50rem;
+          }
+          @include respond-to(desktop) {
+            height: 46rem;
+          }
+          @include respond-to(larger-desktop) {
+            height: 60rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.component {
+  &.hero {
+    &.hero-banner-image {
+      padding: 0 1.5rem;
+      &.indent-none {
+        padding: 0;
+      }
+    }
+    &.hero.with-alignment {
+      .banner-image {
+        img {
+          height: 54rem;
+          object-fit: cover;
+          object-position: center center;
+        }
+      }
+      .banner-mobile-image {
+        img {
+          height: 22rem;
+          object-fit: cover;
+          object-position: center center;
+        }
+      }
+      .body-copy {
+        .hero-banner-title {
+          font-size: 1.8rem;
+          font-weight: 700;
+          padding: 2rem;
+          @include respond-to(desktop) {
+            padding: 3rem 4rem;
+          }
+          &.right-align {
+            @include respond-to(desktop) {
+              transform: translate(10%, 90%);
+              background-color: rgba(0, 0, 0, 0.6) !important;
+              // to override inline styling
+              width: 35%;
+            }
+            @include respond-to(larger-desktop) {
+              transform: translate(40%, 90%);
+            }
+          }
+        }
+      }
+    }
+    &.banner-adjustable-height {
+      background: url("../images/PaperTexture.png");
+
+      .banner-wrapper {
+        @include respond-to(desktop) {
+          width: 66%;
+          height: 37rem;
+          padding: 3rem 0px;
+          margin: 0 7rem;
+        }
+
+        @include respond-to(larger-desktop) {
+          width: 56%;
+          margin: 0 15rem;
+        }
+
+        .banner-image {
+          margin: 3rem;
+
+          @include respond-to(tab) {
+            margin: 2rem 10rem;
+          }
+
+          @include respond-to(desktop) {
+            margin: auto;
+          }
+        }
+      }
+      .inner-container:not(.col-12) {
+        max-width: initial;
+      }
+      .inner-container {
+        box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.3);
+        height: 100%;
+        display: block !important; // to override default behaviour of d-none class
+        @include respond-to(tablet) {
+          position: static;
+          transform: none;
+        }
+
+        .banner-content-wrapper {
+          max-width: 45rem;
+          &.right-align {
+            height: 100%;
+            right: 0;
+            background: url("../images/PaperTexture.png");
+            padding: 4rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            &::before {
+              display: none;
+            }
+
+            @include respond-to(tablet) {
+              position: static;
+              width: 100%;
+              transform: none;
+              max-width: 100%;
+            }
+
+            @include respond-to(larger-desktop) {
+              max-width: 65rem;
+            }
+          }
+          .hero-banner-title {
+            h1 {
+              color: $white;
+            }
+          }
+          .hero-banner-description {
+            font-size: 2.2rem;
+            @include respond-to(desktop) {
+              font-size: 2.34rem;
+            }
+          }
+        }
+      }
+    }
+    &.banner-with-content {
+      @include respond-to(tablet) {
+        height: 75.4rem;
+        .banner-image {
+          height: 60rem;
+          background-position: 33% -9rem;
+        }
+      }
+
+      .banner-image {
+        @include respond-to(desktop) {
+          height: 58rem;
+        }
+      }
+      .inner-container {
+        position: relative;
+        transform: none;
+        height: 22.5rem;
+        left: auto;
+        background: $banner-bg;
+        @include respond-to(tab) {
+          height: 31.5rem;
+        }
+        @include respond-to(desktop) {
+          background: none;
+          position: absolute;
+          height: auto;
+          right: 14%;
+          top: 42%;
+        }
+      }
+      .banner-content-wrapper {
+        &.right-align {
+          @include respond-to(tablet) {
+            right: 11rem;
+          }
+        }
+        .content-top {
+          padding: 0;
+        }
+      }
+      .hero-banner-title {
+        h1 {
+          color: $white;
+          font-size: 5.76rem;
+          font-weight: 600;
+          @include respond-to(tab) {
+            font-size: 9rem;
+          }
+          @include respond-to(desktop) {
+            font-size: 7.2rem;
+          }
+        }
+      }
+      .banner-cta-holder {
+        padding-top: 0;
+        .hero-banner-cta {
+          a {
+            background-color: $product-bg-secondary;
+            border-color: transparent;
+            border-radius: 2rem;
+            padding: 5px 15px;
+            color: $title_primary;
+            -moz-box-shadow: inset 0 0 4px $black;
+            font-weight: 600;
+            letter-spacing: 0.2px;
+            box-shadow: inset 0 0 7px $shadow-cta;
+            border: $border-cta;
+            border-width: 0;
+            -webkit-box-shadow: inset 0 0 7px $shadow-cta;
+            font-size: 2.16rem;
+
+            @include respond-to(desktop) {
+              border-radius: 1.4rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

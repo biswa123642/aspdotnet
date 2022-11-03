@@ -1,0 +1,78 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+body {
+  font-size: 1.4rem;
+  line-height: 1.428;
+  color: $black-primary;
+  background-color: $white-color;
+  @include Montserrat-font-stack();
+  font-weight: 600;
+}
+
+h1,
+.content h1,
+.rich-text h1 {
+  font-size: 3.33rem;
+  font-weight: 900;
+  color: $dark-green-primary;
+  @include Montserrat-font-stack();
+  margin: 20px 0 40px 0;
+}
+
+h2,
+.content h2,
+.rich-text h2 {
+  font-size: 2.9;
+  font-weight: 800;
+  margin: 20px 0 40px 0;
+  color: $dark-green-primary;
+  @include Montserrat-font-stack();
+}
+
+.component {
+  h3,
+  .content h3,
+  .rich-text h3 {
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin: 20px 0 40px 0;
+    color: $dark-green-primary;
+    @include Montserrat-font-stack();
+  }
+}
+
+.content li,
+.rich-text li {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+p,
+.content p,
+.rich-text p,
+li,
+span {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: $black-primary;
+  span {
+    font: inherit;
+    line-height: inherit;
+    color: inherit;
+  }
+}
+
+a {
+  color: $green-color;
+  text-decoration: none;
+}
+
+.content,
+.rich-text {
+  a {
+    color: $dark-green-primary;
+    text-decoration: none;
+    font-weight: 600;
+  }
+}

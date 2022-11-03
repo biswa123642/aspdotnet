@@ -1,0 +1,135 @@
+﻿---
+ID: "c8f4929f-8a3d-4a72-91fc-16bce2a18190"
+Parent: "22fcfd76-1fe6-462d-9617-eda0da0473a1"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Rich Profile Listing/Default/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    <div class="container">
+    	<div class="row">
+    		{{flag = i_datasource.DisablePOPUP.raw | string.contains "1" }}
+    		{{ cssClass = sc_parameter 'RenderingClass' }}
+    		{{if cssClass == null || (cssClass != null && cssClass == "")}}
+    			{{cssClass = "col-lg-3"}}
+    		{{end}}
+    		<div class="col-12">
+    			{{ sc_field i_item "Heading"}}
+    		</div>
+    	</div>
+    	<div class="row profile-listing">	
+    		{{ for child in i_item.Children}}
+    		{{sc_editframe child 'Custom List'}}
+    			{{ related_items = sc_followmany child "RelatedProducts"}}
+    			{{if related_items | array.size <= 0 }}
+    				{{related_items = child.children}}
+    			{{end}}
+    			<div class="{{cssClass}} col-md-6 col-12">
+    				{{ if flag==true}}	
+    					<a class="rich-profile-cta" href={{child.CTA.url}}>	
+    						<div class="profile-image">
+    							{{ sc_field child "ProfileImage"}}
+    						</div>
+    						<div class="profile-content">
+    							<div class="profile-heading">
+    								<h2>{{ sc_field child "ProfileTitle"}}</h2>
+    								<span>{{ sc_field child "ShortDescription"}}</span>
+    							</div>	
+    						</div>
+    					</a>
+    					<p>{{ sc_field child "ProfileDescription"}}</p>
+    				{{else}}	
+    					<div class="rich-profile">
+    						<div class="rich-profile-wrap">
+    							<div class="profile-image">
+    								{{ sc_field child "ProfileImage"}}
+    							</div>
+    							<div class="profile-content">
+    								<h2>{{ sc_field child "ProfileTitle"}}</h2>
+    								<span>{{ sc_field child "ShortDescription"}}</span>
+    							</div>
+    						</div>
+    					</div>
+    					<div class="modal fade richprofile-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    						<div class="modal-dialog" role="document">
+    							<div class="modal-content">
+    								<div class="rich-profile-pop-up">
+    									<button type="button" class="close closepopup" data-dismiss="modal">&times;</button>									<div class="rich-profile">
+    										<div class="row">
+    											<div class="col-lg-4 col-12">
+    												<div class="profile-image">
+    													{{ sc_field child "ProfileImage"}}
+    												</div>
+    											</div>
+    											<div class="col-lg-8 col-12">
+    												<div class="profile-content">
+    													<div class="profile-heading">
+    														<h2>{{ sc_field child "ProfileTitle"}}</h2>
+    													</div>
+    													{{ sc_field child "ShortDescription"}}
+    													<p>{{ sc_field child "ProfileDescription"}}</p>	
+    												</div>
+    											</div>
+    										</div>
+    										<div class="row">
+    											<div class="col-12">
+    												<div class="profile-listheading">
+    													<h2>{{ sc_field child "ProfileHeading"}}<h2>
+    												</div>
+    											</div>
+    										</div>
+    										<div class="row">
+                                                {{ for subchild in related_items}}								
+                                                    {{sc_editframe subchild 'Custom List'}}
+                                                        <div class="col-lg-6 col-12">
+                                                            <a class="profile-relatedlisting" href={{subchild.ProductLink.url}}>
+                                                                <div class="product-image">
+                                                                    {{ sc_field subchild "ProductImage" }}
+                                                                </div>
+                                                                <div class="product-content">
+                                                                    <h4>{{ sc_field subchild "ProductTitle" }}</h4>
+                                                                    <p>{{ sc_field subchild "ProductDescription" }}</p>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    {{sc_endeditframe}}								
+                                                {{end}}
+    										</div>
+    									</div>	
+    								</div>	
+    							</div>
+    						</div>
+    					</div>
+    				{{end}}
+    			</div>
+    		{{sc_endeditframe}}
+    		{{end}}
+    	</div>
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220615T092128Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "39dc9dc4-2c05-4fa3-8780-378ce6695a47"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220804T070046Z

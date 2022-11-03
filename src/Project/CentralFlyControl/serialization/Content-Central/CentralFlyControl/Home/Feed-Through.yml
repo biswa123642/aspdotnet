@@ -1,0 +1,103 @@
+﻿---
+ID: "dba05266-598f-4eb2-9136-fa8585a68e50"
+Parent: "34d16262-323c-41f1-94ac-93fb925e4b52"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/CentralFlyControl/Home/feed-through"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{BCFC7537-EFF4-434C-96F5-BF4F55FD175B}">
+        <r
+          ds="{8F3C5A95-B483-4D5B-A13D-8FF9271F9531}"
+          id="{5A21C781-8E74-4DD0-8261-8CCDA1BF0454}"
+          par="Navigation=%7B525AD16D-7E59-44A3-8024-9422DC149C5F%7D&amp;Transition=%7BD4B706CC-7EEC-4DB9-A87D-123B29803490%7D&amp;Timeout&amp;PauseOnHover=1&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          ph="/main/sxa-content-page/row-2-1/container-1/column-2-2"
+          uid="{D6790026-1D90-48BF-B8EA-2D725FD594B4}"
+          ccb="Clear on publish" />
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          ph="/main/sxa-content-page/row-2-1/container-1/column-1-2"
+          uid="{18BEC670-C424-4FE6-93F2-E08162BD3084}" />
+        <r
+          ds=""
+          id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          par="ColumnWidth1=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth2=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=2"
+          ph="/main/sxa-content-page/row-2-1/container-1"
+          uid="{93BE8B41-5E58-4F38-984D-0B9CFF8B98DA}" />
+        <r
+          ds=""
+          id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          ph="/main/sxa-content-page/row-2-1"
+          uid="{F921FFC8-FB50-45EB-AF5F-1FF17B0B1274}" />
+      </d>
+      <d
+        id="{0B4A31C9-712D-4578-A396-2DDC0F34B63A}"
+        l="{72C595AD-68BB-44BC-B5CD-2A857039515F}" />
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220916T071434Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Feed Through Fly Control
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: "How does ClariFly® Larvicide work? This feed through fly control passes through livestock and into their manure, where an IGR ends the insect life cycle. "
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <h1>Feed-Through Fly Control</h1>
+        <p>Using ClariFly<sup>®</sup> Larvicide is simple. As a feed additive, it is simply incorporated into an animal’s feed, and that is all the work an employee has to do to help prevent flies. Leave it and forget it. The active ingredient takes care of the rest, as it passes through the digestive system of the animal, and then sits in fresh manure, where flies lay their eggs. The mode of action in the active ingredient prevents house flies, stable flies, face flies, and horn flies from developing into adults, interrupting the life cycle. </p>
+        <p>
+        </p>
+        <p>With ClariFly<sup>®</sup> Larvicide, you get cost-effective fly control that requires very minimal additional work and effort.</p>
+        <p>
+        </p>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "How does ClariFly® Larvicide work? This feed through fly control passes through livestock and into their manure, where an IGR ends the insect life cycle. "
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Feed Through Fly Control | ClariFly® Larvicide
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Feed Through Fly Control
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "940170b7-3185-474e-b60b-34e7781ca9ad"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{21B0CC26-BADB-4DDD-ADCA-DE6D1334ACC1}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221010T070723Z

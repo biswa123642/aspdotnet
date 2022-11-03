@@ -1,0 +1,92 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.newsletter-signup {
+  .component {
+    &.hubspot-form {
+      margin-top: 20px;
+      max-width: 50%;
+      margin: auto;
+      .hs-form-booleancheckbox {
+        label {
+          input[type="checkbox"]:not(:checked) + span:before {
+            background: url("../images/box-notchecked.png");
+            background-size: 30px 30px;
+          }
+          input[type="checkbox"]:checked + span:before {
+            content: "";
+            position: absolute;
+            margin-left: -45px;
+            top: -8px;
+            width: 30px;
+            height: 30px;
+            background: url("../images/box-checked.png");
+            background-size: 30px 30px;
+          }
+        }
+      }
+      input[type="submit"] {
+        height: 20px;
+        line-height: 20px;
+        box-shadow: none !important;
+      }
+      .hs-form {
+        .input {
+          input {
+            max-width: 97%;
+          }
+          select {
+            height: 44px;
+            max-width: 100%;
+            background-image: url("../images/down-arrow.png");
+            background-position: 99% 50%;
+            background-repeat: no-repeat;
+            text-align: center;
+            background-size: 25px 25px;
+          }
+          .inputs-list {
+            li {
+              margin-left: 0;
+              padding-bottom: 0;
+              label {
+                margin-bottom: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.newsletter-signup {
+  .rich-text {
+    text-align: center;
+  }
+  .container .component-content > .row {
+    justify-content: center;
+  }
+}
+
+@include respond-to(desktop-max) {
+  .newsletter-signup {
+    .component {
+      &.hubspot-form {
+        max-width: 100%;
+        padding: 0 15px;
+        .hs-form {
+          .input {
+            input {
+              max-width: 94%;
+            }
+          }
+        }
+      }
+    }
+    .newsletter-signup {
+      .rich-text {
+        padding: 0 15px;
+      }
+    }
+  }
+}

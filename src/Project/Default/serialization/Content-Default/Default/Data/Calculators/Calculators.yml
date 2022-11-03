@@ -1,0 +1,49 @@
+﻿---
+ID: "25445860-a83f-4695-9cb4-78e2146dc57b"
+Parent: "4191153d-e3d1-45af-985f-b8594709ccb0"
+Template: "67af955b-81ae-4138-938f-a8d50d725866"
+Path: /sitecore/content/OneWeb/Default/Data/Calculators/Calculators
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220823T072410Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5cb27a84-fe1c-481f-b501-9ccae026432f"
+      Hint: CalculatorDescription
+      Value: |
+        <p style="color: #434343; background-color: #ffffff; margin-right: 0px; margin-bottom: 11px; margin-left: 0px;">Receive 10% back on total invoiced price for the qualifying products only.</p>
+        <p style="color: #434343; background-color: #ffffff; margin: 0px 0px 11px;">10% of INVOICE = SAVINGS</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6b7449f9-8107-4e87-9c67-e31001bdb7f4"
+      Hint: RebateInputDefaultValue
+      Value: 5
+    - ID: "808b323a-fdc3-42ad-914f-972bae896dea"
+      Hint: DiscountPercentage
+      Value: 0.5
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e121d285-abd4-4611-9eb6-3c5d914120e3"
+    - ID: "b6f1ef72-4749-472a-a8c4-1ac2ac733706"
+      Hint: CalculatorShortDescription
+      Value: |
+        <span style="background-color: #ffffff; text-align: center; color: #434343;">Invoice Amount</span>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c74d6a1d-7bdc-4f91-817e-1eea41e5fb84"
+      Hint: InputFieldAsInvoiceAmount
+      Value: 1
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220824T071022Z

@@ -1,0 +1,27 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.container {
+    @include respond-to(desktop) {
+        &:not(.col-12) {
+            max-width: 100%;
+            padding: 16px 80px;
+        }
+    }
+}
+
+.component {
+    &.header-shell {
+        .container {
+            &:not(.col-12) {
+                @include respond-to(desktop) {
+                    padding: 0 2rem 0 0;
+                }
+
+                @include respond-to(extra-large-desktop) {
+                    padding: 0 65px;
+                }
+            }
+        }
+    }
+}

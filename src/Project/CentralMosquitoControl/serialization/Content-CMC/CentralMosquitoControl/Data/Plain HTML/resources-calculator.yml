@@ -1,0 +1,59 @@
+﻿---
+ID: "0c50339a-c387-451b-82f7-18d676f91a83"
+Parent: "b98608fc-997b-4a26-a28c-bfd9ee23caa2"
+Template: "2ad23d55-aecd-43dd-ae0d-72d2ebcba60f"
+Path: "/sitecore/content/OneWeb/CentralMosquitoControl/Data/Plain HTML/resources-calculator"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24cce27c-05db-4473-a1ed-e69b1725ff1c"
+      Hint: HtmlCode
+      Value: |
+        <div class="content-left">
+        	<div class="score-button-menu calculator-selector" >
+        	   <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        	   -- Select a Product --
+        	   <span class="caret"></span>
+        	   <span class="sr-only">Toggle</span>
+        	   </button>
+        	   <ul class="dropdown-menu" role="menu">
+        		  <li class="score-button-menu-item" ><a href="/resources/calculator/altosid-30-day-briquets">Altosid® 30-Day Briquets</a></li>
+        		  <li class="score-button-menu-item" ><a href="/resources/calculator/altosid-liquid-sr-20">Altosid® Liquid SR-20</a></li>
+        		  <li class="score-button-menu-item" ><a href="/resources/calculator/altosid-liquid-sr-5">Altosid® Liquid SR-5</a></li>
+        		  <li class="score-button-menu-item" ><a href="/resources/calculator/altosid-pellets">Altosid® Pellets</a></li>
+        		  <li class="score-button-menu-item" ><a href="/resources/calculator/altosid-pellets-wsp">Altosid® Pellets WSP</a></li>
+        		  <li class="score-button-menu-item" ><a href="/resources/calculator/altosid-sbg-ii">Altosid® SBG II</a></li>
+        		  <li class="score-button-menu-item" ><a href="/resources/calculator/altosid-xr-briquets">Altosid® XR-Briquets</a></li>
+        		  <li class="score-button-menu-item" ><a href="/resources/calculator/altosid-xr-g">Altosid® XR-G</a></li>
+        		  <li class="score-button-menu-item" ><a href="/resources/calculator/zenivex-e20">Zenivex® E20</a></li>
+        		  <li class="score-button-menu-item" ><a href="/resources/calculator/zenivex-e4-rtu">Zenivex® E4 RTU</a></li>
+        	   </ul>
+        	</div>
+        	<div class="calculator-container" >
+        	   <div class="score-center">
+        	   </div>
+        	</div>
+        </div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220930T083110Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4d8ee562-49b2-4ff7-83aa-b56142762dba"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\6gbwwTmtPx
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221004T114020Z

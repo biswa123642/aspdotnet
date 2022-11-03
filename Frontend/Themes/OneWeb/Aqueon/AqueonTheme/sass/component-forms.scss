@@ -1,0 +1,34 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.sxa-btn a,
+.sxa-btn.sxa-btn-primary a,
+.component.content a.score-button,
+.link:not(.header-wtb) a,
+.store-locator .store-locator-info .search-store-form .btn-default {
+  color: $white;
+  background: $text-secondary;
+  border-color: transparent;
+  border-radius: 0;
+  font-size: 1.5rem;
+  padding: 0.75rem 1.25rem;
+  font-weight: 600;
+  line-height: $line-height;
+  min-width: 35%;
+  @include Source-sans-pro-font();
+
+  &:hover {
+    text-decoration: none;
+    color: $white;
+    background: $cta-hover;
+  }
+}
+
+.sxa-btn.sxa-btn-primary a.clear-filter-btn {
+  background: $text-primary;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@import "styles/forms/*";

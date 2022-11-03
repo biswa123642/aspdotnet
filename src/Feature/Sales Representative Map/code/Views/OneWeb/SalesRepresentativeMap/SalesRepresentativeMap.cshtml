@@ -1,0 +1,89 @@
+﻿@model CGP.Feature.SalesRepresentativeMap.Models.SalesRepresentativeMapModel
+<div class="component salesmap col-12">
+    <div class="score-center">
+        <div class="score-style-box sales-representative-map" data-salesrepresentative="@Model.JSONData">
+            <div id="info-box"></div>
+            @foreach (var state in @Model.StateModelList)
+            {
+                <div class="score-style-box sales-representative-map-data">
+                    <div class="score-style-box sales-state">
+                        <div class="score-content-spot sales-state-data sales-state-name">
+                            @state.StateName
+                        </div>
+                        <div class="score-content-spot sales-state-data sales-state-code">
+                            @state.StateCode
+                        </div>
+                        @{int counter = 0;
+
+                            foreach (var salesrep in @state.SalesRepModelList)
+                            {
+                                counter++;
+                                <div class="score-style-box sales-representative sales-representative-@counter">
+                                    @if (!(string.IsNullOrEmpty(salesrep.ImageURL)))
+                                    {
+                                        <div class="representative-img-wrapper">
+                                            <img class="representative-img" src="@salesrep.ImageURL" alt="@salesrep.Name">
+                                        </div>
+                                    }
+                                    @if (!(string.IsNullOrEmpty(salesrep.Name)))
+                                    {
+                                        <div class="score-content-spot sales-representative-data sales-representative-name">
+                                            @salesrep.Name
+                                        </div>
+                                    }
+                                    @if (!(string.IsNullOrEmpty(salesrep.SalesRepTitle)))
+                                    {
+                                        <div class="representative-title">
+                                            @salesrep.SalesRepTitle
+                                        </div>
+                                    }
+                                    @if (!(string.IsNullOrEmpty(salesrep.Phone)))
+                                    {
+                                        <div class="score-content-spot sales-representative-data sales-representative-phone">
+                                            @salesrep.Phone
+                                        </div>
+                                    }
+                                    @if (!(string.IsNullOrEmpty(salesrep.Email)))
+                                    {
+                                        <div class="score-content-spot sales-representative-data sales-representative-email">
+                                            <a href="mailto:@salesrep.Email">@salesrep.Email</a>
+                                        </div>
+                                    }
+                                    @if (!(string.IsNullOrEmpty(salesrep.SalesRepDescription)))
+                                    {
+                                        <div class="representative-description">
+                                            @Html.Raw(salesrep.SalesRepDescription)
+                                        </div>
+                                    }
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+            }
+            <div class="score-content-spot vmap-wrapper">
+                <div id="vmap" style="width: 700px; height: 450px; position: relative; overflow: hidden;">
+                    <svg width="700" height="450">
+                        @Html.Raw(Model.Content)
+                    </svg>
+                </div>
+                <select id="select-state" data-bind="value: selectedStateCode, options: selectionOptions, optionsText: 'text', optionsValue: 'value', optionsCaption: 'Select a state', valueAllowUnset: true">
+                    <option value="">Select a state</option>
+                    @{var listofstates = (from l in @Model.StateModelList
+                                            select new { l.StateCode, l.StateName }).Distinct();
+
+                    }
+                    @foreach (var state in listofstates)
+                    {
+                        <option value="@state.StateCode">@state.StateName</option>
+
+                    }
+                </select>
+            </div>
+            <div class="score-content-spot representative-results-wrapper">
+                <h2 id="selected-state" class="score-content" data-bind="text: selectedState" style="z-index: 1;"></h2>
+                <div id="representative-results" class="row" data-bind="template: { name: 'representative-template', foreach: selectedRepresentatives }"></div>
+            </div>
+        </div>
+    </div>
+</div>

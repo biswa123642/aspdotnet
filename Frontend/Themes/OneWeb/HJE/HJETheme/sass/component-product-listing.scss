@@ -1,0 +1,203 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.product-listing {
+  padding: 2rem 2.5rem;
+  .product-wrap {
+    .copy-wrap {
+      margin: 1rem 0 3rem;
+      .sxa-btn-primary {
+        a.clear-filter-btn {
+          color: #58595b;
+          font-family: "Arial", sans-serif;
+          font-size: 1.6rem;
+          text-decoration: none;
+          float: right;
+          border: 0;
+          padding: 0.8rem 2rem;
+          margin: 1.6rem 0rem 2rem 0px;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    #searchfilter {
+      width: 100%;
+      padding: 0 2rem;
+      .facet-wrapper {
+        h3 {
+          color: $black;
+          font-size: 2rem;
+          border-bottom: 2px solid #58595b;
+          color: #333;
+          button {
+            text-transform: uppercase;
+            font-weight: 500;
+            &::before,
+            &::after {
+              top: 75% !important;
+              width: 15px !important;
+            }
+            &:hover {
+              text-decoration: underline;
+              cursor: pointer;
+            }
+          }
+        }
+        .form-check {
+          display: flex;
+          align-items: center;
+          input {
+            margin-right: 1rem;
+            align-self: flex-start;
+            &::before {
+              left: -0.3rem;
+            }
+          }
+          label {
+            color: #333;
+            font-size: 1.6rem;
+            font-weight: bold;
+            margin: 0 0 1rem 1rem;
+          }
+          input[checked] {
+            appearance: auto;
+            background-color: $black;
+          }
+        }
+      }
+    }
+    #product-type {
+      margin: 2rem 0 0 1rem;
+      .result-count {
+        font-size: 1.6rem;
+        padding: 0;
+      }
+      #product-wrapper {
+        .product-list {
+          .cgp-product {
+            text-align: center;
+            margin-bottom: 3rem;
+            .image-holder {
+              min-height: 10rem;
+              position: relative;
+              padding: 0;
+              a {
+                display: block;
+              }
+            }
+            .body-copy {
+              padding: 1rem 2.5rem;
+              text-align: center;
+              h3 {
+                padding: 0 0 1rem 0;
+                a {
+                  color: #58595b;
+                  font-size: 2rem;
+                  font-weight: bold;
+                  text-decoration: none;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                }
+              }
+              p {
+                color: #58595b;
+                font-size: 1.6rem;
+              }
+            }
+            @include respond-to(desktop) {
+              margin-bottom: 4rem;
+              padding: 0;
+              text-align: left;
+            }
+          }
+        }
+        .sxa-btn {
+          a {
+            font-size: 1.6rem;
+            padding: 10px 25px;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: inline-block;
+            margin: 0 auto;
+            border-radius: 10px;
+            border: none;
+            margin-top: 3rem;
+            color: #ffffff;
+            text-shadow: none;
+            text-decoration: none;
+            &:hover {
+              background-color: #000000;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  @include respond-to(desktop) {
+    padding: 1rem;
+    .product-wrap {
+      padding: 0;
+      #product-type {
+        margin: 2rem 0 0 0;
+        .result-count {
+          padding: 15px 0 0.5rem 3rem;
+        }
+        #product-wrapper {
+          .product-list {
+            padding: 1rem 4rem;
+            .cgp-product {
+              padding: 0 2rem;
+              .image-holder {
+                padding: 0 3rem;
+              }
+            }
+          }
+        }
+      }
+      #searchfilter {
+        padding: 0;
+      }
+      .copy-wrap {
+        .sxa-btn-primary {
+          a.clear-filter-btn {
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.sxa-bordered {
+  .product-listing {
+    @include respond-to(tab) {
+      .product-wrap {
+        #searchfilter {
+          padding: 0;
+        }
+      }
+    }
+    @include respond-to(desktop) {
+      padding: 2rem 0;
+      .product-wrap {
+        padding: 0;
+        #product-type {
+          #product-wrapper {
+            .product-list {
+              padding: 0;
+              .cgp-product {
+                padding: 0 2rem;
+                .image-holder {
+                  padding: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

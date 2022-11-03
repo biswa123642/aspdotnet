@@ -1,0 +1,74 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+.component {
+  &.accordion {
+    ul.items {
+      padding: 0;
+      margin-bottom: -2rem;
+      li.item {
+        box-shadow: 0.5rem 0.5rem 0.5rem #58595b;
+        padding: 2rem;
+        margin-top: 0.5rem;
+        margin-bottom: 2.5rem;
+        background-color: $white-color;
+        .toggle-header {
+          .label {
+            padding: 0;
+          }
+
+          .component {
+            .field-heading {
+              &:hover {
+                color: $red-text;
+              }
+              &::before {
+                right: 0;
+                background: $red-text;
+                width: 0.21rem;
+                height: 1rem;
+                top: 60%;
+              }
+              padding: 0.5rem 0;
+              font-size: 2.17rem;
+              color: $black;
+              line-height: 1.1;
+              h5,
+              h4 {
+                font-weight: bold;
+              }
+              &::after {
+                background: $red-text;
+                width: 0.23rem;
+                height: 1rem;
+                right: 0;
+                top: 60%;
+              }
+            }
+          }
+        }
+        .toggle-content {
+          .field-content {
+            color: $black;
+            font-size: 1.66rem;
+            font-weight: 400;
+            padding: 1.5rem 0 0 0;
+            border-top: 1px solid $black;
+          }
+        }
+      }
+    }
+  }
+}
+
+.faqs {
+  .component {
+    &.accordion {
+      ul.items {
+        padding: 0;
+        @include respond-to(desktop) {
+          padding: 0 7rem 0 0;
+        }
+      }
+    }
+  }
+}

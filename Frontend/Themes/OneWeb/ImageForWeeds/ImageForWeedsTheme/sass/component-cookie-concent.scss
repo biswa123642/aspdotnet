@@ -1,0 +1,25 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.privacy-warning {
+  max-width: 100%;
+  background-color: $gray-light;
+  color: $black-color;
+  bottom: 0;
+  padding: 30px 30px 15px 30px;
+  a {
+    color: $black-primary;
+  }
+  .submit {
+    a {
+      background-color: $lightest-green;
+      color: $white-color;
+      padding: 9px 20px;
+      top: 10px;
+      position: relative;
+      left: 15px;
+      border-radius: 3px;
+      border-color: $lightest-green;
+    }
+  }
+}

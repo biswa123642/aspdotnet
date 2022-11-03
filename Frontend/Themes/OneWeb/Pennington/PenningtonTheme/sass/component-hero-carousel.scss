@@ -1,0 +1,34 @@
+@import "abstracts/vars";
+
+.component {
+  &.hero-carousel {
+    &.with-image-left {
+      .body-copy {
+        color: $dark-color;
+
+        h2,
+        p {
+          color: inherit;
+        }
+
+      }
+
+      .slick-prev {
+        left: 0;
+
+        &:before {
+          content: url("../images/left-arrow.png");
+        }
+      }
+
+      .slick-next {
+        right: 0;
+
+        &:after {
+          content: url("../images/right-arrow.png");
+
+        }
+      }
+    }
+  }
+}

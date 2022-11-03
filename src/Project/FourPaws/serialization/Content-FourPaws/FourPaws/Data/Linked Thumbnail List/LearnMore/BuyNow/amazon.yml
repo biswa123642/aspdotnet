@@ -1,0 +1,45 @@
+﻿---
+ID: "2b1f57fc-911b-4718-909e-c5c7a4dee27d"
+Parent: "31a8cfbf-3858-4bc8-961f-62e1b8bd585e"
+Template: "20a8b875-b660-4893-91a7-b05f80e94666"
+Path: /sitecore/content/OneWeb/FourPaws/Data/Linked Thumbnail List/LearnMore/BuyNow/amazon
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{AFB42433-6D01-4420-8E8F-5AA238B9A5B7}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220615T092757Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "554f800f-8161-49b7-8a9f-2ec8c248d636"
+    - ID: "8daa9cfe-2ab1-4f9a-86ac-b2092acc9fde"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="https://www.amazon.com/Four-Paws-Training-Insta-Rise-50-Count/dp/B07X13DWKQ/ref=sr_1_3?dchild=1&amp;keywords=four+paws+insta+rise&amp;qid=1628704662&amp;rdc=1&amp;sr=8-3" anchor="" target="_blank" />
+    - ID: "b3524bdb-f8ec-4d85-a20b-ef5f2837d74f"
+      Hint: Image
+      Value: |
+        <image mediaid="{CC065515-9EBE-48A4-953F-B134926B0CA1}" ></image>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220719T125856Z

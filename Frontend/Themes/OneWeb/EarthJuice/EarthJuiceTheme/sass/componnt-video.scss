@@ -1,0 +1,62 @@
+@import "abstracts/mixins";
+@import "abstracts/vars";
+@import "base/fontawesome/font-awesome-mix-var.scss";
+
+.component {
+
+    &.rich-text{
+        h2{
+        &.video-heading
+        {
+            
+                font-size: 2.4rem;
+                color: $light-black;
+                @include Lilita-font-stack(); 
+                strong{
+                    font-weight: 300;
+                }
+               
+        }
+    }
+    }  
+    &.video {
+        iframe {
+            min-height: auto !important;
+        }
+    }
+}
+ .grey-border-left{
+        padding-left:0px;
+        position: relative;
+       
+        &:before{
+
+            content: "";
+            position: absolute;
+            width: calc(100% - 50px);
+            height: 1px;
+            background-color:$search-border;
+            top: 0;
+            left: 25px;
+        }
+    } 
+
+   
+
+@include respond-to(desktop) {
+    .grey-border-left{
+        padding-left:50px !important;
+            position:relative;
+            &:before{
+                
+            content: "";
+            position: absolute;
+            width: 1px;
+            height:13%;
+            background-color: $search-border;
+            top: 0px;
+            left: 0; 
+        
+            } 
+        }
+}

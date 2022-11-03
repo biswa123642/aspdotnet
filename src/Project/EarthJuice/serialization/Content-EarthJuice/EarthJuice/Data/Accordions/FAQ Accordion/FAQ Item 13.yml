@@ -1,0 +1,65 @@
+﻿---
+ID: "f0ab9eb7-31a3-4f21-8ce1-3acbbf0b94c5"
+Parent: "c9fdc973-2531-4206-ba43-124b461d9afd"
+Template: "a6ddac75-7d24-4bdb-b3f6-5f47fbb21379"
+Path: /sitecore/content/OneWeb/EarthJuice/Data/Accordions/FAQ Accordion/FAQ Item 13
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 2300
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{09BD444B-FABC-47EA-981D-2C8271655469}">
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B5423143A-760D-4F0E-BA4D-0B02E649A778%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-title"
+          uid="{1D6BF2F5-31CC-4293-9E88-D2A7D47F60BF}" />
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-content"
+          uid="{FDCD8229-8ED0-4C94-86E0-D7A3E2F52139}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220613T083509Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5a236869-e375-49c0-a92d-0c2f1db7788f"
+      Hint: Content
+      Value: |
+        <p>When using Sugar Peak, Hi-Brix Grow &amp; Bloom &amp; Sweet &amp; Heavy we recommend mixing the concentrate as per directions with Tap Water and then take an initial pH reading. Make sure to continuously aerate the solution and use the system as normal. After the first 24 hours, take a 2nd pH reading. At that time if you believe the pH of the solution needs to be raised, we recommend adjusting in small increments until you reach the desired pH.</p>
+        <p>After being mixed with Tap Water, many Earth Juice hydroponic products will begin on the acidic side. After 24-48 hours of aeration and use, the solution will generally exhibit an upward movement in pH.</p>
+        <p>We caution using pH-up adjusters during the initial 24-48 hour period. But if solution&rsquo;s pH does not exhibit upward movement, the next time you produce a fresh solution try initially adjusting to pH 4.5-4.8. If after 24-48 hours of aeration and use there is again no upward movement in the pH, adjust to the desired pH.  In cases were there is no signs of upward movement in the fresh solution&rsquo;s pH within first 24-48 hours of aeration and use, you may need to adjust the pH initially to the desired pH. Do not let the pH exceed 6.8. If the pH exceeds 6.8, lower the pH the desired pH.</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7240053b-9140-48ac-acea-abfccd7761a1"
+      Hint: Heading
+      Value: 13. I&rsquo;m using Sugar Peak and the pH of my reservoir solutions is low.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "178a53ef-8ebd-4890-8ffe-6cd79fd95849"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220613T111818Z

@@ -1,0 +1,176 @@
+﻿---
+ID: "29696942-09b7-4aca-b098-bde8f7f166f7"
+Parent: "dd2a01d4-5f65-4e10-af38-8e89b43b9130"
+Template: "057af325-c948-4918-a4e4-2c3f6cf04524"
+Path: "/sitecore/content/OneWeb/Amdro/Home/signs-of-pests/bites"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{7B5F2C3C-FD5B-4C2E-935F-14BBAC81B805}"
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: "{5D5D9105-F3AB-43D3-952A-634BC9D59AD1}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{9A5675F5-64AE-4CFB-B599-A9E590467C6D}"
+          p:before="*"
+          s:ds="local:/Data/Images/Image3"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/column-3-13" />
+        <r
+          uid="{B385AA28-036E-4056-93E7-FB2B9EE93822}"
+          p:after="r[@uid='{9A5675F5-64AE-4CFB-B599-A9E590467C6D}']"
+          s:ds="local:/Data/Rich Text/Rich text 5"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;FieldNames=%7BBFD3AC15-5752-4848-BAE0-975B2C024D7D%7D&amp;Styles=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D%7C%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/column-3-13" />
+        <r
+          uid="{F572153A-07FD-4890-8C13-14556AC6073E}"
+          p:after="r[@uid='{B385AA28-036E-4056-93E7-FB2B9EE93822}']"
+          s:ds="local:/Data/Images/Image2"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D%7C%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/column-2-13" />
+        <r
+          uid="{457A2AF0-0161-4701-B151-8FB7F206E76B}"
+          p:after="r[@uid='{F572153A-07FD-4890-8C13-14556AC6073E}']"
+          s:ds="local:/Data/Rich Text/Rich text 3"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;FieldNames=%7BBFD3AC15-5752-4848-BAE0-975B2C024D7D%7D&amp;Styles=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D%7C%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/column-2-13" />
+        <r
+          uid="{6BD352A4-EEF9-4C80-BEC8-5CD64ED5AB4A}"
+          p:after="r[@uid='{457A2AF0-0161-4701-B151-8FB7F206E76B}']"
+          s:ds="local:/Data/Images/Image1"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D%7C%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/column-1-13" />
+        <r
+          uid="{EA26973C-8996-4A34-80E9-AF44DDBEC4F0}"
+          p:after="r[@uid='{6BD352A4-EEF9-4C80-BEC8-5CD64ED5AB4A}']"
+          s:ds="local:/Data/Rich Text/Rich text 2"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;FieldNames=%7BBFD3AC15-5752-4848-BAE0-975B2C024D7D%7D&amp;Styles=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D%7C%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/column-1-13" />
+        <r
+          uid="{2300DE30-8B1F-47EF-B89A-017B2A805A48}"
+          p:after="r[@uid='{EA26973C-8996-4A34-80E9-AF44DDBEC4F0}']"
+          s:ds="local:/Data/Rich Text/Rich text 1"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;FieldNames=%7BBFD3AC15-5752-4848-BAE0-975B2C024D7D%7D&amp;Styles=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D%7C%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/sxa-content-page/container-1/row-3-2" />
+        <r
+          uid="{1067E2DC-9C8E-4BBD-B569-DA7F09B7EAD0}"
+          p:after="r[@uid='{2300DE30-8B1F-47EF-B89A-017B2A805A48}']"
+          s:ds=""
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B03EA3C58-9F87-41D5-95D6-4B899C88572E%7D&amp;ColumnWidth2=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B03EA3C58-9F87-41D5-95D6-4B899C88572E%7D&amp;ColumnWidth3=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B03EA3C58-9F87-41D5-95D6-4B899C88572E%7D&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3&amp;Styles1=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D&amp;Styles2=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=13"
+          s:ph="/main/sxa-content-page/container-1/row-3-2" />
+        <r
+          uid="{49C81323-3116-453B-A5ED-57E00B218E3B}"
+          p:after="r[@uid='{1067E2DC-9C8E-4BBD-B569-DA7F09B7EAD0}']"
+          s:ds="local:/Data/Rich Text/Rich text 6"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;FieldNames=%7BBFD3AC15-5752-4848-BAE0-975B2C024D7D%7D&amp;Styles=%7BFAF28AF7-0575-40E0-9EE8-3C33FB91AC01%7D%7C%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/sxa-content-page/container-1/row-3-2" />
+        <r
+          uid="{A7379539-5087-41BC-A132-9122A5A3D98F}"
+          p:after="r[@uid='{49C81323-3116-453B-A5ED-57E00B218E3B}']"
+          s:ds=""
+          s:id="{86FBA02B-2E9C-4A00-9CCF-DE607B1FCDC7}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;RenderingClass=col-lg-4&amp;HideImage&amp;FieldNames=%7B030A8961-CB9F-428C-9411-9B06FBAADCBC%7D&amp;Styles=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D%7C%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D%7C%7BD0931F67-1E8F-4C4C-A14A-77777C8F560D%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
+          s:ph="/main/sxa-content-page/container-1/row-3-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{6DDC9570-2139-467A-9243-08D1689A76B3}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{1A010EA9-87DB-4E9D-906D-2611AC4EE927}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220624T164509Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Bites
+    - ID: "50094021-6c44-4bb3-b384-f4e2bc0262ea"
+      Hint: RelatedArticlesAndProducts
+      Value: |
+        {99AE90BA-401B-45B2-90AF-97783E04BF92}
+        {E6FC4C8C-587B-4871-8BA0-96B10F6D0855}
+        {6B6FD5B3-6B9B-4A44-8CD1-526FDC60BB06}
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Learn how to identify what pest you are dealing with from a bite or sting.
+    - ID: "54a1450c-b9d8-42ce-b085-8c9109daaf37"
+      Hint: RelatedArticlesandProductsLabel
+      Value: Related Articles
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <br /><image src="~/media/D87E24B76876413C9F28E2027673D2C4.ashx" /><br /><h3><a href="~/link.aspx?_id=49442B08DA9C439BBDBD5AB134FD79FB&amp;_z=z">Ticks</a></h3> <p>Tick bites become more serious the longer the tick stays embedded in skin. Rashes that develop after bites can signal transmission of pathogens. Signs of tick bites include:</p> <ul>     <li>Small red bump at the site of a bite or tick removal</li>     <li>Rash starting three to 30 days after the bite of an infected tick</li>     <li>Expanding red rash that may feel warm to the touch</li>     <li>Target-like bull's-eye pattern associated with Lyme disease</li> </ul><br /><image src="~/media/47AC3A521C6A43B8A79A7EDEEA8585B0.ashx" /><br /><h3><a href="~/link.aspx?_id=BD2D76DF9D3E4FD8B522812259319A88&amp;_z=z">Fleas</a></h3> <p>Flea bites often occur on feet and lower legs within the flea's 12-inch jumping range. But bites can occur anywhere you contact fleas, especially if you hold a flea-infested pet. Signs of flea bites include:</p> <ul>     <li>Extreme itchiness at the bite site</li>     <li>Small, round, red bite marks</li>     <li>Swollen, merging bright red spots</li>     <li>Blisters or open wounds that develop</li> </ul><br /><image src="~/media/1A010EA987DB4E9D906D2611AC4EE927.ashx" /><br /><h3><a href="~/link.aspx?_id=2FB1BA1F5EEC4AD2B3035A189F824890&amp;_z=z">Fire Ants</a></h3> <p>Fire ants bite to secure their hold. Once they have a grip, they sting. Each fire ant can sting multiple times. Multiple ants seem to bite and sting in unison. Signs of fire ant bites and stings include:</p> <ul>     <li>Intense, but short-lived, burning pain</li>     <li>Multiple bite and sting sites in one centralized location</li>     <li>Itchy, white, pus-filled blisters that last a week or more</li>     <li>Pustules that open to small, crater-like wounds</li> </ul><br /><h2 style=`"z-index: 1;`"></h2><br />Many common pests bite humans or pets. Some leave no question about their identity, but others aren't so obvious. Learning to recognize the bite of a worrisome pest can help you understand the risks and make informed decisions about treatment.<br /><h2>HOW TO FIX DAMAGE FROM BITES</h2> <p>Physical reactions to pest bites can be severe. Seek a professional medical opinion to confirm the type of pest involved and determine if you need further treatment. Early intervention can help your doctor make an accurate diagnosis, especially when tick rash patterns are seen.</p>
+    - ID: "6dd157fe-8ea8-496a-b595-0e6a18489836"
+      Hint: ThumbnailImage
+      Value: |
+        <image mediaid="{1A010EA9-87DB-4E9D-906D-2611AC4EE927}" />
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Learn how to identify what pest you are dealing with from a bite or sting.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Signs of Pests: Bites and Stings"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Bites
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d57755cd-2498-41cf-9c25-840487d9ba23"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "caaa6c5b-798c-4d26-8919-fe66d620f798"
+      Hint: Page Attributes
+      Value: "{27193CAA-5DC3-4CA1-B81A-76BD3B875FF7}"
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{1A010EA9-87DB-4E9D-906D-2611AC4EE927}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220714T104057Z
+    - ID: "f0d0a9d9-6b70-4a54-a04a-537c38d5b2e1"
+      Hint: RelatedArticlesLabel
+      Value: Related Articles
+    - ID: "fb742e87-7bf7-4c72-97a9-987a40989ece"
+      Hint: RelatedArticles
+      Value: 

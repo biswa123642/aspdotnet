@@ -1,0 +1,405 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.header-shell {
+        box-shadow: none;
+        background-color: transparent;
+
+        &.variant-3 {
+            position: static;
+
+            .container {
+                width: 100%;
+                max-width: 100%;
+                padding: 0;
+
+                >.row {
+                    >div {
+                        position: static;
+                    }
+                }
+            }
+
+            .utility-navigation.social-links {
+                padding-right: 3rem;
+
+                .icon-container {
+                    border: none;
+                    a{
+                        text-decoration: none!important;
+                    }
+                    .fa {
+                        padding: 2.4rem 1rem;
+
+                        &::before {
+                            color: #363636;
+                            font-size: 2.6rem;
+                        }
+                    }
+                }
+            }
+
+            .component {
+                &.search-box {
+                    z-index: 3;
+                    width: 50px;
+                    min-height: 42px;
+                    padding: 1.7rem 0;
+                    right: 6rem;
+                    top: 0;
+
+                    .component-content {
+                        position: static;
+                        width: 100%;
+                        display: block;
+                    }
+
+                    .global-search-wrapper {
+                        .search-input-wrapper {
+                            .search-input {
+                                font-weight: 400;
+                                padding: 0.8rem 4rem 0.8rem 1.5rem;
+                                border: 2px solid #363636;
+                                position: absolute;
+                                min-width: 250px;
+                                right: 0;
+                                font-size: 16px;
+                                box-shadow: none;
+                                border-radius: 5px;
+                            }
+                        }
+
+                        .custom-search-box-button {
+                            height: 4.2rem;
+                            padding: 0;
+                            top: 0;
+                            background-image: url(../images/search-icon-inverted);
+                            background-size: 2.6rem 2.6rem;
+                        }
+                    }
+                }
+            }
+
+            &.active {
+                .component {
+                    &.plain-html {
+                        .hamburger {
+                            .icon-bar {
+                                &:first-child {
+                                    transform: rotateZ(45deg) translate(7px, 7px);
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+
+            .component {
+                &.plain-html {
+                    position: absolute;
+                    right: 3px;
+                    width: auto;
+                    top: 19px;
+
+                    .hamburger {
+                        margin: 0;
+                        padding: 0;
+                        position: relative;
+                        width: 35px;
+                        height: 24px;
+
+                        span {
+                            background-color: #206190;
+                            width: 35px;
+                            height: 4px;
+                        }
+                    }
+                }
+            }
+
+            .header-global-menu {
+                background-color: transparent;
+                padding-top: 0;
+                padding-bottom: 0;
+                position: static;
+                .utility-navigation {
+                    .fa {
+                        margin-right: 40px;
+
+                        &:last-child {
+                            margin: 0;
+                        }
+                    }
+                }
+
+                ul {
+                    padding: 0;
+
+                    &.items {
+                        float: none;
+                        justify-content: left;
+
+                        li {
+                            &.item {
+                                padding: 0;
+                                border: none;
+
+                                .list-wrap {
+                                    a {
+                                        color: #000;
+                                        font-size: 1.6rem;
+                                        font-weight: 400;
+                                        text-transform: capitalize;
+                                        padding: 1rem 2.6rem;
+                                        display: block;
+                                    }
+                                }
+
+                                .sub-menu-list {
+                                    padding: 0 0 0 5rem;
+                                    .sub-menu-item {
+                                        padding: 0;
+                                        a {
+                                            color: #000;
+                                            font-size: 1.6rem;
+                                            font-weight: normal;
+                                            text-transform: initial;
+                                            padding: 7px 0;
+
+                                            &:hover {
+                                                color: #2caae6;
+                                                font-weight: 700;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .has-sublist {
+
+                                    &::after,
+                                    &:before {
+                                        display: none
+                                    }
+                                }
+
+                                &.open {
+                                    .list-wrap {
+                                        a {
+                                            font-weight: 700;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .image {
+                padding: 0;
+                max-width: initial;
+
+                &.file-type-icon-media-link {
+                    img {
+                        padding: 19px;
+                        font-size: 0px;
+                        height: 74px;
+                        max-width: initial;
+                        width: auto;
+                    }
+                }
+            }
+
+            @include respond-to(tab) {
+                .component {
+                    &.search-box {
+                        right: 7.5rem;
+                    }
+                }
+            }
+
+            @include respond-to(desktop) {
+                background-color: transparent;
+                padding-left: 15px;
+                padding-right: 15px;
+                .image {
+                    margin: 0;
+                }
+
+                .container {
+                    >.row {
+                        >div {
+                            &:first-child {
+                                -ms-flex: 0 0 16.666667%;
+                                flex: 0 0 16.666667%;
+                                max-width: 16.666667%;
+                            }
+
+                            &:last-child {
+                                -ms-flex: 0 0 83.333333%;
+                                flex: 0 0 83.333333%;
+                                max-width: 83.333333%;
+                            }
+                        }
+                    }
+                }
+
+                .component-content {
+                    .row {
+                        flex-wrap: nowrap;
+                    }
+                }
+
+                .header-global-menu {
+                    ul {
+                        &.items {
+                            float: none;
+                            justify-content: center;
+                            position: static;
+
+                            li {
+                                &.item {
+                                    position: static;
+
+                                    .list-wrap {
+                                        a {
+                                            padding: 2.6rem 1rem;
+                                            font-size: 1.4rem;
+
+                                            &:hover {
+                                                font-weight: 700;
+                                            }
+                                        }
+                                    }
+
+                                    .sub-menu-list {
+                                        background-color: #fff;
+                                        width: 100%;
+                                        padding: 0;
+                                        text-align: center;
+
+                                        .sub-menu-item {
+                                            padding-top: unset;
+                                            padding-bottom: unset;
+                                            display: inline-block;
+
+                                            a {
+                                                font-weight: 500;
+                                                font-size: 1.4rem;
+                                                line-height: 50px;
+                                                padding: 0px 30px;
+                                            }
+                                        }
+                                    }
+
+                                    &.open {
+                                        .sub-menu-list {
+                                            display: block;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .component {
+                    &.search-box {
+                        right: 12rem;
+
+                        &.active {
+                            .global-search-wrapper {
+                                .search-wrapper {
+                                    .search-input-wrapper {
+                                        input.search-input {
+                                            display: block !important; // to override default css 
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .global-search-wrapper {
+                            .search-wrapper {
+                                &:before {
+                                    background-color: transparent;
+                                }
+
+                                .search-input-wrapper {
+                                    display: block;
+
+                                    input.search-input {
+                                        display: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            @include respond-to(large-desktop) {
+                .header-global-menu {
+                    ul {
+                        &.items {
+                            li {
+                                &.item {
+                                    .list-wrap {
+                                        a {
+                                            padding: 2.6rem 2.5rem;
+                                            font-size: 1.6rem;
+                                        }
+                                    }
+
+                                    ul.sub-menu-list {
+                                        li.sub-menu-item {
+                                            a {
+                                                font-size: 1.6rem;
+                                                line-height: 50px;
+                                                padding: 0px 50px;
+                                            }
+                                        }
+                                    }
+
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .component.search-box {
+                    .global-search-wrapper {
+                        .search-wrapper {
+                            .search-input-wrapper {
+                                .custom-search-box-button {
+                                    margin-left: 4rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.global-search-sugest.ui-menu {
+    max-width: 200px;
+
+    .ui-menu-item-wrapper {
+        color: $text-color-primary;
+        font-weight: 500;
+    }
+}
+
+.on-page-editor {
+    .component {
+        &.header-shell {
+            &.variant-3 {
+                background-color: $text-color-primary;
+            }
+        }
+    }
+}

@@ -1,0 +1,153 @@
+﻿---
+ID: "1c24df17-4fad-47de-a2b4-728a097e5e42"
+Parent: "3d30483b-c221-4834-b402-ec776d44eef0"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/Default/Presentation/Rendering Variants/Multi Column Content Tiles/Multiple Tiles with Image and Text Flip Over/Scriban
+SharedFields:
+- ID: "8a85a595-3298-4eb1-96dd-c882ee5802ae"
+  Hint: Tag
+  Value: 
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    {{ gridvalue = "col-lg-4" }}
+    {{ gridclass = sc_parameter "GridClass" }}
+    {{ if gridclass != null }}
+     {{ gridvalue = gridclass }}
+    {{ end }}
+    
+    {{flag= i_datasource.IsMobileCarousel | string.contains "1" }}
+    {{ if flag==true}}
+    <div class="section-container is-mobile-carousel d-lg-none">
+        {{ for child in i_item.Children}}
+        {{ if child.SecondaryImage != '' }}
+    	{{if child.SecondaryCTA != ""}}
+        {{ url_cta = child.SecondaryCTA.url }}
+    	{{else}}
+    	{{ url_cta = ""}}
+    	{{end}}
+        <div class="flip-over-image field-image">
+    	<a href={{url_cta}}>
+            {{ sc_field child "SecondaryImage" }}
+    	</a>
+        </div>
+        {{end}}
+        {{end}}
+    </div>
+    
+    {{else}}
+    {{ for child in i_item.Children}}
+    {{ if child.SecondaryImage != '' }}
+    <div class="flip-over-image field-image">
+        {{ sc_field child "SecondaryImage" }}
+    </div>
+    {{else}}
+    <div class="mobile-stack {{child.BGColor.raw}} d-lg-none">
+        {{ if child.Image != '' }}
+        <div class="field-image">
+            {{ sc_field child "Image" }}
+        </div>
+        {{end}}
+        {{ if child.SubText != '' }}
+        <div class="field-subtext">
+            <h2>{{ sc_field child "SubText" }}</h2>
+        </div>
+        {{end}}
+    
+        {{flag=child.IsCTAButton.raw | string.contains "1" }}
+        {{if flag==true}}
+        <div class="sxa-btn flip-card-btn">
+            {{sc_field child 'CTA'}}
+        </div>
+        {{else}}
+        <div class="sxa-btn flip-card-btn">
+            {{sc_field child 'CTA'}}
+        </div>
+        {{end}}
+    </div>
+    {{end}}
+    {{end}}
+    
+    {{end}}
+    <div class="section-container row d-none d-md-none d-lg-flex">
+        {{ for child in i_item.Children
+        sc_editframe child 'Custom List'}}
+       {{if (child.Image != '' || child.SecondarySubText != '' || child.Title != '' || child.SubText != '')}}
+        <div class="flip-over-card card-with-border {{child.BGColor.raw}} {{gridvalue}} col-sm-6">
+    	
+            <div class=" card-wrapper">
+                <div class="flip-boxes">
+                    <div class="flip-box">
+                        <div class="image-wrapper flip-front">
+                            {{ if child.Image != '' }}
+                            <div class="flip-over-image field-image">
+                                {{ sc_field child "Image" }}
+                            </div>
+                            {{end}}
+                            {{ if child.SecondarySubText != '' }}
+                            <div class="flip-over-eyebro field-secondarysubtext">
+                                {{ sc_field child "SecondarySubText"}}
+                            </div>
+                            {{end}}
+                        </div>
+                        <div class="flip-rollover flip-back">
+                            <div class="flip-over-content">
+                                {{ if child.Title != '' }}
+                                <div class="flip-over-secondarytitle field-title">
+                                    {{ sc_field child "Title" }}
+                                </div>
+                                {{end}}
+                                {{ if child.SubText != '' }}
+                                <div class="flip-over-subtitle field-subtext">
+                                    {{ sc_field child "SubText" }}
+                                </div>
+                                {{end}}
+                                {{flag=child.IsCTAButton.raw | string.contains "1" }}
+                                {{if flag==true}}
+                                <div class="sxa-btn flip-card-btn">
+                                    {{sc_field child 'CTA'}}
+                                </div>
+                                {{else}}
+                                <div class="sxa-btn flip-card-btn">
+                                    {{sc_field child 'CTA'}}
+                                </div>
+                            </div>
+                            {{end}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{end}}
+    	{{sc_endeditframe
+        end}}
+    </div>
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220505T074244Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "20636fab-c8c8-45bc-8a9e-38b168a3a873"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220929T154223Z

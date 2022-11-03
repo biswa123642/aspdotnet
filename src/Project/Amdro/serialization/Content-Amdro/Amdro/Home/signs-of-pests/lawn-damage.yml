@@ -1,0 +1,187 @@
+﻿---
+ID: "7663932d-9e5d-426d-a284-11d25809cda9"
+Parent: "dd2a01d4-5f65-4e10-af38-8e89b43b9130"
+Template: "057af325-c948-4918-a4e4-2c3f6cf04524"
+Path: "/sitecore/content/OneWeb/Amdro/Home/signs-of-pests/lawn-damage"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{7B5F2C3C-FD5B-4C2E-935F-14BBAC81B805}"
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: "{6F656E52-1F94-402C-93F5-A7653AD459EC}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{6CE0E326-E543-4182-A686-02765336EE82}"
+          p:before="*"
+          s:ds="local:/Data/Images/Image3"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/container-1/column-3-3" />
+        <r
+          uid="{F958F5B4-23DB-40BD-9545-190223A42F5E}"
+          p:after="r[@uid='{6CE0E326-E543-4182-A686-02765336EE82}']"
+          s:ds="local:/Data/Rich Text/Rich text 5"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BBFD3AC15-5752-4848-BAE0-975B2C024D7D%7D&amp;Styles=%7B8D38663D-4028-4440-96C6-BCAA6062E23B%7D%7C%7BFAF28AF7-0575-40E0-9EE8-3C33FB91AC01%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/container-1/column-3-3" />
+        <r
+          uid="{8CEDF4DC-567F-49FF-AB1F-19A98D3DB7F3}"
+          p:after="r[@uid='{F958F5B4-23DB-40BD-9545-190223A42F5E}']"
+          s:ds="local:/Data/Images/Image2"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/container-1/column-2-3" />
+        <r
+          uid="{B71366D7-E84A-40F2-AF8C-68754D8870DE}"
+          p:after="r[@uid='{8CEDF4DC-567F-49FF-AB1F-19A98D3DB7F3}']"
+          s:ds="local:/Data/Rich Text/Rich text 3"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BBFD3AC15-5752-4848-BAE0-975B2C024D7D%7D&amp;Styles=%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/container-1/column-2-3" />
+        <r
+          uid="{2D8675D0-DD4B-43EA-868C-7A5E1DAFC716}"
+          p:after="r[@uid='{B71366D7-E84A-40F2-AF8C-68754D8870DE}']"
+          s:ds="local:/Data/Rich Text/Rich text 7"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BBFD3AC15-5752-4848-BAE0-975B2C024D7D%7D&amp;Styles=%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/container-1/column-2-3" />
+        <r
+          uid="{C9EEDFAC-61AF-43C7-808C-95B5271E6FF9}"
+          p:after="r[@uid='{2D8675D0-DD4B-43EA-868C-7A5E1DAFC716}']"
+          s:ds="local:/Data/Images/Image1"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/container-1/column-1-3" />
+        <r
+          uid="{E901F2DB-7DF8-4450-9F87-204E0B3378A0}"
+          p:after="r[@uid='{C9EEDFAC-61AF-43C7-808C-95B5271E6FF9}']"
+          s:ds="local:/Data/Rich Text/Rich text 2"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BBFD3AC15-5752-4848-BAE0-975B2C024D7D%7D&amp;Styles=%7BA5295BCE-4126-4C17-9A00-FFB1D99A935D%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/container-1/column-1-3" />
+        <r
+          uid="{89E71CCE-3FD0-422B-BA8C-D09C263AB64D}"
+          p:after="r[@uid='{E901F2DB-7DF8-4450-9F87-204E0B3378A0}']"
+          s:ds="local:/Data/Rich Text/Rich text 4"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BBFD3AC15-5752-4848-BAE0-975B2C024D7D%7D&amp;Styles=%7B8D38663D-4028-4440-96C6-BCAA6062E23B%7D%7C%7BFAF28AF7-0575-40E0-9EE8-3C33FB91AC01%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/container-1/column-1-3" />
+        <r
+          uid="{8CEBDBE3-C7A2-464C-9762-25FE13674712}"
+          p:after="r[@uid='{89E71CCE-3FD0-422B-BA8C-D09C263AB64D}']"
+          s:ds="local:/Data/Rich Text/Rich text 1"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BBFD3AC15-5752-4848-BAE0-975B2C024D7D%7D&amp;Styles=%7B8D38663D-4028-4440-96C6-BCAA6062E23B%7D%7C%7BFAF28AF7-0575-40E0-9EE8-3C33FB91AC01%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/container-1" />
+        <r
+          uid="{4FECAC7D-42EC-4D6A-B501-CB7F81585D92}"
+          p:after="r[@uid='{8CEBDBE3-C7A2-464C-9762-25FE13674712}']"
+          s:ds=""
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth2=%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth3=%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=3"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/container-1" />
+        <r
+          uid="{BAFDCBD7-5D5B-4263-A172-BC0605AFEA4F}"
+          p:after="r[@uid='{4FECAC7D-42EC-4D6A-B501-CB7F81585D92}']"
+          s:ds="local:/Data/Rich Text/Rich text 6"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BBFD3AC15-5752-4848-BAE0-975B2C024D7D%7D&amp;Styles=%7B8D38663D-4028-4440-96C6-BCAA6062E23B%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=12"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/container-1" />
+        <r
+          uid="{87FC24F0-8320-4A11-BAB6-8162571B892B}"
+          p:after="r[@uid='{BAFDCBD7-5D5B-4263-A172-BC0605AFEA4F}']"
+          s:ds=""
+          s:id="{86FBA02B-2E9C-4A00-9CCF-DE607B1FCDC7}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass=col-lg-4&amp;HideImage&amp;FieldNames=%7B030A8961-CB9F-428C-9411-9B06FBAADCBC%7D&amp;Styles=%7BD0931F67-1E8F-4C4C-A14A-77777C8F560D%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=13"
+          s:ph="/main/sxa-content-page/container-1/row-3-2/container-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{7930D867-D1E5-448C-89A9-9688EBA4F84B}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BCD06B4FA-F016-4249-8F31-0BAD3390B40E%7D&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-content-page/container-1/row-3-2" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{F74CE027-D604-4ABC-8521-E886D37C60F9}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220624T164509Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Lawn Damage
+    - ID: "50094021-6c44-4bb3-b384-f4e2bc0262ea"
+      Hint: RelatedArticlesAndProducts
+      Value: "{64814517-EFFF-4695-9AA8-45CA29DEF2F4}"
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Learn how to identify what pest you are dealing with from the lawn damage they cause.
+    - ID: "54a1450c-b9d8-42ce-b085-8c9109daaf37"
+      Hint: RelatedArticlesandProductsLabel
+      Value: Related Articles
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <br /><image src="~/media/F74CE027D6044ABC8521E886D37C60F9.ashx" /><br /><h3><a href="~/link.aspx?_id=3EA35534511341308FA185783A63BE80&amp;_z=z">Grubs</a></h3> <p>Grubs are <a href="~/link.aspx?_id=E5CFB9EDA0AE4E0C8A3CECF3459FE318&amp;_z=z">beetle</a>&nbsp;larvae that typically damage sunny, well-irrigated lawns. These underground pests eat grass roots, severing turf from the soil beneath. Birds, raccoons, skunks and other grub eaters add to lawn damage. Signs of grub-related grass and lawn damage include:</p> <ul>     <li>Drought-like brown or wilted grass in irrigated areas</li>     <li>Turf feels soft and spongy underfoot</li>     <li>Turf easily lifts away from soil and rolls like a rug</li>     <li>Grub-seeking pests tear up lawn areas overnight</li> </ul><br /><image src="~/media/EF7EC505F17E4C73B0AAB3C1D38391DD.ashx" /><br /><h3><a href="~/link.aspx?_id=16CD2FD800A248029711C01AA6EB0765&amp;_z=z">Armyworms</a></h3> <p>Armyworms get their name from their battalion-like advances, which devastate lawns and crops. But minor damage starts long before these pests reach "army" level. Signs of armyworm grass and lawn damage include:</p> <ul>     <li>Jagged, chewed grass tips</li>     <li>Transparent, windowpane-like "holes" in grass leaves</li>     <li>Frosted appearance to lawn</li>     <li>Brown lawn patches or swaths of grass stubble</li> </ul><br /><p style="text-align: left;"><small><em>Photo credit: Susan Collins-Smith, Mississippi State University Extension Service (Available for use with proper credit)</em></small></p><br /><image src="~/media/C2C64DD816FC49F9BB6FED318E9EA5E4.ashx" /><br /><h3><a href="~/link.aspx?_id=C43748310D744905971E3E50A461CACA&amp;_z=z">Mites</a></h3> <p>Mites are very small pests that often go undetected until the results of their damage become visible. They flourish in hot, dry, drought-stressed lawns. Signs of mite-related grass or lawn damage include:</p> <ul>     <li>Fine, spider-like webbing on undersides of grass blades</li>     <li>Silvery sheen to grass blades</li>     <li>Tiny brown or yellow spots on upper leaf surfaces</li>     <li>Grass turns yellow or purple-brown</li> </ul><br /><p style="text-align: left;"><small><em>Photo credit: Whitney Cranshaw, Colorado State University, Bugwood.org (CC BY 3.0 US)</em></small></p><br /><h2 style=`"z-index: 1;`"></h2><br />Pests that damage grass or lawns work in several ways. Some injure grass blades and stems directly by feeding on lawns above ground. Others do their dirty work below the soil line, often attracting more lawn-damaging pests in the process. Learning to recognize signs of pest-related grass or lawn damage can help you keep your lawn lush and attractive.<br /><h2>HOW TO FIX GRASS OR LAWN DAMAGE</h2> <p>After effective pest treatment, some types of pest-related grass or lawn damage repair easily. Affected grasses benefit from improved cultural practices, including <a rel="noopener noreferrer" href="https://www.pennington.com/all-products/grass-seed/resources/manage-your-lawn-and-water-use-wisely" target="_blank">appropriate irrigation</a> and <a rel="noopener noreferrer" href="https://www.pennington.com/all-products/grass-seed/resources/why-aerate-your-lawn" target="_blank">aeration</a>, if needed. Heavily damaged lawns call for <a rel="noopener noreferrer" href="https://www.pennington.com/all-products/grass-seed/resources/overseeding-a-key-to-beautiful-lawns" target="_blank">overseeding with new grass seed</a> or bare lawn spot repairs with an <a rel="noopener noreferrer" href="https://www.pennington.com/all-products/grass-seed/resources/3-simple-steps-to-a-thicker-lusher-lawn" target="_blank">all-in-one lawn repair</a> product.</p>
+    - ID: "6dd157fe-8ea8-496a-b595-0e6a18489836"
+      Hint: ThumbnailImage
+      Value: |
+        <image mediaid="{F74CE027-D604-4ABC-8521-E886D37C60F9}" />
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Learn how to identify what pest you are dealing with from the lawn damage they cause.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Signs of Pests: Lawn Damage"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Lawn Damage
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cb8979fb-2916-4bcd-93e9-034097abecaf"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "caaa6c5b-798c-4d26-8919-fe66d620f798"
+      Hint: Page Attributes
+      Value: "{27193CAA-5DC3-4CA1-B81A-76BD3B875FF7}"
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{F74CE027-D604-4ABC-8521-E886D37C60F9}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220714T105509Z
+    - ID: "f0d0a9d9-6b70-4a54-a04a-537c38d5b2e1"
+      Hint: RelatedArticlesLabel
+      Value: Related Articles
+    - ID: "fb742e87-7bf7-4c72-97a9-987a40989ece"
+      Hint: RelatedArticles
+      Value: 

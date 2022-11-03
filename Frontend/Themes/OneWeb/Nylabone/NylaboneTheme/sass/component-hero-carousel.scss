@@ -1,0 +1,52 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+
+.component {
+  &.hero-carousel {
+    &.mulitple-bottom-links {
+      .bottom-links-list{
+        >div {
+          max-width: 12%;
+        }
+        .bottom-tile{
+          &:hover{
+            opacity: 1;
+          }
+        }
+      }
+
+      .slick-next:after,
+      .slick-prev:after {
+        content: "";
+      }
+
+      .slick-next,
+      .slick-prev {
+        width: 15%;
+        &:before,
+        &:before {
+          width: 25px;
+          height: 60px;
+          display: inline-block;
+          content: "";
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          margin: 0;
+        }
+      }
+
+      .slick-next:before {
+        background-image: url(../images/icons/slider-arrow-right.png);
+        right: 50%;
+      }
+
+      .slick-prev:before {
+        background-image: url(../images/icons/slider-arrow-left.png);
+        left: 50%;
+      }
+    }
+  }
+}

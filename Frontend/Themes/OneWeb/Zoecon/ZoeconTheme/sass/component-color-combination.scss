@@ -1,0 +1,369 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+//product group color combination
+
+.product-listing {
+    .product-wrap {
+        #product-wrapper {
+            .product-list {
+                .cgp-product {
+                    .image-holder {
+
+                        a[href^="/all-products/gentrol"] {
+                            &::before {
+                                border-color: #94c83d;
+                            }
+                        }
+
+                        a[href^="/all-products/precor"] {
+                            &::before {
+                                border-color: #f8d000;
+                            }
+                        }
+
+                        a[href^="/all-products/zenprox"] {
+                            &::before {
+                                border-color: #92c5eb;
+                            }
+                        }
+
+                        a[href^="/all-products/premise"] {
+                            &::before {
+                                border-color: #db6a2c;
+                            }
+                        }
+
+                        a[href^="/all-products/essentria"] {
+                            &::before {
+                                top: 27%;
+                                background-image: url("../images/leaf_bug.png");
+                                border-color: transparent;
+                                background-repeat: no-repeat;
+                                border-radius: 0px;
+                                background-size: cover;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+body[data-group="gentrol"] {
+    .component {
+        &.product-image-gallery {
+            .image-placeholder {
+                a.swipebox {
+                    &::before {
+                        border-color: $gentrol-green;
+                    }
+                }
+            }
+
+            .inner-wrap {
+                .field-image {
+                    img {
+                        border-color: $gentrol-green;
+                    }
+
+                    &:before {
+                        border-color: $gentrol-green;
+                    }
+                }
+            }
+        }
+
+        &.product-documents-list.pdf-documents-list {
+            .short-product-list {
+                .short-product-list-wrapper {
+                    .product-item {
+                        a {
+                            h4 {
+                                background-color: $gentrol-green;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+        &.product-variant {
+            .component-content {
+                select {
+                    background-image: url("../images/gentrol-arrow.png");
+                }
+            }
+        }
+    }
+
+}
+
+body[data-group="premise"] {
+    .component {
+        &.product-image-gallery {
+            .image-placeholder {
+                a.swipebox {
+                    &::before {
+                        border-color: $premise-color;
+                    }
+                }
+            }
+
+            .inner-wrap {
+                .field-image {
+                    img {
+                        border-color: $premise-color;
+                    }
+
+                    &:before {
+                        border-color: $premise-color;
+                    }
+                }
+            }
+        }
+
+        &.product-documents-list.pdf-documents-list {
+            .short-product-list {
+                .short-product-list-wrapper {
+                    .product-item {
+                        a {
+                            h4 {
+                                background-color: $premise-color;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+        &.product-variant {
+            .component-content {
+                select {
+                    background-image: url("../images/premise-arrow.png");
+                }
+            }
+        }
+    }
+}
+
+body[data-group="zenprox"] {
+    .component {
+        &.product-image-gallery {
+            .image-placeholder {
+                a.swipebox {
+                    &::before {
+                        border-color: $zenprox-color;
+                    }
+                }
+            }
+
+            .inner-wrap {
+                .field-image {
+                    img {
+                        border-color: $zenprox-color;
+                    }
+
+                    &:before {
+                        border-color: $zenprox-color;
+                    }
+                }
+            }
+        }
+
+        &.product-documents-list.pdf-documents-list {
+            .short-product-list {
+                .short-product-list-wrapper {
+                    .product-item {
+                        a {
+                            h4 {
+                                background-color: $zenprox-color;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+        &.product-variant {
+            .component-content {
+                select {
+                    background-image: url("../images/zenprox-arrow.png");
+                }
+            }
+        }
+    }
+}
+
+body[data-group="precor"] {
+    .component {
+        &.product-image-gallery {
+            .image-placeholder {
+                a.swipebox {
+                    &::before {
+                        border-color: $precor-color;
+                    }
+                }
+            }
+
+            .inner-wrap {
+                .field-image {
+                    img {
+                        border-color: $precor-color;
+                    }
+
+                    &:before {
+                        border-color: $precor-color;
+                    }
+                }
+            }
+        }
+
+        &.product-documents-list.pdf-documents-list {
+            .short-product-list {
+                .short-product-list-wrapper {
+                    .product-item {
+                        a {
+                            h4 {
+                                background-color: $precor-color;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+        &.product-variant {
+            .component-content {
+                select {
+                    background-image: url("../images/precor-arrow.png");
+                }
+            }
+        }
+    }
+}
+
+body[data-group="essentria"] {
+    .component {
+        &.product-image-gallery {
+            .image-placeholder {
+                a.swipebox {
+                    &::before {
+                        background-image: url("../images/leaf_bug.png");
+                        border-color: transparent;
+                        background-repeat: no-repeat;
+                        border-radius: 0px;
+                        background-size: cover;
+                        top: 0px;
+                        transform: translateX(-50%) translateY(0%);
+                    }
+                }
+            }
+
+            .inner-wrap {
+                .field-image {
+                    img {
+                        border-color: $essentria-color;
+                    }
+
+                    &:before {
+                        border-color: $essentria-color;
+                    }
+                }
+            }
+        }
+
+        &.product-documents-list.pdf-documents-list {
+            .short-product-list {
+                .short-product-list-wrapper {
+                    .product-item {
+                        a {
+                            h4 {
+                                background-color: $essentria-color;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+        &.product-variant {
+            .component-content {
+                select {
+                    background-image: url("../images/essentria-arrow.png");
+                }
+            }
+        }
+    }
+
+}
+
+.component {
+    &.accordion {
+        &.variant-2 {
+            ul.items {
+                li.item {
+                    &:nth-child(1) {
+                        background-color: $light-green;
+                    }
+
+                    &:nth-child(2) {
+                        background: linear-gradient(to right, #f8d000, #ecb630);
+                    }
+
+                    &:nth-child(3) {
+                        background: linear-gradient(to right, #92c5eb, #67b6e5);
+                    }
+
+                    &:nth-child(4) {
+                        background: linear-gradient(to right, #f5b335, #d9692b, #cc3829);
+                    }
+                }
+            }
+        }
+    }
+}
+
+body.resource-center {
+    .component {
+        &.accordion {
+            &.variant-2 {
+                ul.items {
+                    li.item {
+                        &:nth-child(1) {
+                            background-color: $light-green;
+                        }
+
+                        &:nth-child(2) {
+                            background: linear-gradient(to right, #f8d000, #ecb630);
+                        }
+
+                        &:nth-child(3) {
+                            background: linear-gradient(to right, #92c5eb, #67b6e5);
+                        }
+
+                        &:nth-child(4) {
+                            .toggle-header {
+                                background-color: $essentria-color-accordion;
+                            }
+
+                            .toggle-content {
+                                background-color: $white;
+                            }
+
+                        }
+
+                        &:nth-child(5) {
+                            background: linear-gradient(to right, #f5b335, #d9692b, #cc3829);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

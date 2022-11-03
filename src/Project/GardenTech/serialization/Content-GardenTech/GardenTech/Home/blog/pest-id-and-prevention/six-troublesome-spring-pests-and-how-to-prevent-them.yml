@@ -1,0 +1,289 @@
+﻿---
+ID: "a1522f41-4106-4a4e-9e30-aed07eb55822"
+Parent: "8598f86a-3218-456d-82b2-a40ed7191c95"
+Template: "057af325-c948-4918-a4e4-2c3f6cf04524"
+Path: "/sitecore/content/OneWeb/GardenTech/Home/blog/pest-id-and-prevention/six-troublesome-spring-pests-and-how-to-prevent-them"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{7D0EDF20-9CC0-4E87-A6F5-DF673E1B758E}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{1DF0BA1A-12A6-41D3-90F1-BA3A5C997844}"
+          p:before="*"
+          s:ds="{4A0D34FB-E8D6-49BE-8FBD-6E9AB1BB15F2}"
+          s:id="{4646BD4F-05FF-4A19-9600-4D74F2F1548B}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BEB20AD82-2FED-4C04-94BE-5A65B9C31EA3%7D&amp;Styles&amp;TitleHeadingLevel=%7B6A44D9C6-61F0-4B69-8E1A-FDC27F96BA0F%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-articledetails/container-1/column-2-4/container-22" />
+        <r
+          uid="{543341BA-BCF1-462E-9C67-606B5F8D5248}"
+          p:after="*[1=2]"
+          s:ds="{2557E717-573D-40D9-ADE8-801E9F0D2538}"
+          s:id="{4646BD4F-05FF-4A19-9600-4D74F2F1548B}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BEB20AD82-2FED-4C04-94BE-5A65B9C31EA3%7D&amp;Styles&amp;TitleHeadingLevel=%7B6A44D9C6-61F0-4B69-8E1A-FDC27F96BA0F%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/sxa-articledetails/container-1/column-2-4/container-22" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "05aba5ee-29d7-483d-82db-02ac84db238f"
+      Hint: AuthorName
+      Value: Annie Mueller
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{36D093AD-E15F-433C-88C2-13E0A2936925}" alt="header image" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220623T060131Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "36aa965e-f5ea-4871-a55b-53e090d5026e"
+      Hint: ArticleType
+      Value: "{D74C58AD-43ED-405A-BF7F-222F3DEF6FB9}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: How to Protect Your Garden From Spring Pests
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: "Prevent the threat of early-season pests like carpenter ants, mosquitoes, spiders, cockroaches, fleas and wasps this spring."
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <p>Spring brings plenty of sunshine, warm weather and blooming plants, but it also draws a host of irritating and destructive insects. By knowing what to look for and planning your line of defense, you can keep these common outdoor pests from invading your yard and home:</p>
+        <ul>
+            <li><a href="#CarpenterAnts" style="color: #558f45;">Carpenter Ants</a></li>
+            <li><a href="#Mosquitoes" style="color: #558f45;">Mosquitoes</a></li>
+            <li><a href="#Fleas" style="color: #558f45;">Fleas</a></li>
+            <li><a href="#Spiders" style="color: #558f45;">Spiders</a></li>
+            <li><a href="#Wasps" style="color: #558f45;">Wasps</a></li>
+            <li><a href="#Cockroaches" style="color: #558f45;">Cockroaches</a></li>
+            <li><a href="#Regional" style="color: #558f45;">Regional Timeline for Spring Pests</a></li>
+        </ul>
+        <h2 style="`'z-index:;"><a name="CarpenterAnts" style="color: #558f45;">Carpenter Ants</a> </h2>
+        <img alt="" src="~/media/49F3CB652D6748E1ADB88AEDCE330B27.ashx" />
+        <p>Carpenter ants are large, black ants that live in rotting or moisture-damaged wood. If you encounter a pile of sawdust-like shavings (debris from their tunneling), you're probably close to the nest entrance. But foraging carpenter ants can wander up to 100 yards from their homes, so always be on the lookout.<sup>1</sup></p>
+        <p>Carpenter ants are more than a nuisance: They can cause <a href="~/link.aspx?_id=69BC2A32D3B94070B14F6146E5DE2ABC&amp;_z=z" target="_blank">serious damage to wood structures</a>, including homes. Always store firewood well away from the house and eliminate dead wood, such as brush piles and tree stumps. Correct any gutter or drainage problems around buildings promptly, and never let plumbing drips go unchecked.</p>
+        <p>If carpenter ant problems arise, create a <a href="~/link.aspx?_id=2C691A788CFD4368ABCC1C973E5A40BC&amp;_z=z" target="_blank">perimeter of protection</a>&nbsp;around your home and its foundation. <a href="~/link.aspx?_id=087DB1D3C2BE4D6F82F965A8C96B8A25&amp;_z=z" target="_blank">Sevin Insect Killer Ready to Spray</a>&nbsp;or <a href="~/link.aspx?_id=37F13921BA3C4B7EB2C7C9E81D11AC09&amp;_z=z" target="_blank">Sevin Insect Killer Concentrate</a>&nbsp;kill existing black carpenter ants by contact and continue to protect treated areas against carpenter ant invasions for up to three months.</p>
+        <h2 style="`'z-index:;"><a name="Mosquitoes" style="color: #558f45;">Mosquitoes</a></h2>
+        <img alt="" src="~/media/6C3FF646C5E14D599A4DC773D9D23234.ashx" />
+        <p>Bloodthirsty mosquitoes can ruin your summer fun. Beginning in early spring, the mosquitoes move from larval stage to maturation quickly, with many generations in a single season. After mating, males search out a flower nectar meal. Female mosquitoes, however, prefer a hemoglobin-rich snack<sup>2</sup> &mdash; and you fit that bill.  To <a href="~/link.aspx?_id=A480C9FCCA514AD296835FF326FA9562&amp;_z=z" target="_blank">reduce the number of mosquitoes</a>&nbsp;in your yard, prevent them from reaching maturity. Eliminate the most viable environment for eggs and larva &mdash; standing water &mdash; and treat potential breeding grounds to stop new generations. GardenTech brand's sister brand Amdro offers a <a href="~/link.aspx?_id=DB67D4D09A574D0283E42CDEE86C0921&amp;_z=z" target="_blank">highly effective larvicide</a>&nbsp;that prevents mosquito larvae from becoming adults, before they start seeking human meals. It can also be used in areas with standing water you want to keep, such as bird baths or backyard ponds.<sup>3</sup>  For adult mosquitoes, turn to <a href="~/link.aspx?_id=D293E5B6BBEF4F05ACF96AA0AD2A8192&amp;_z=z" target="_blank">Sevin Insect Killer Ready to Use<sup>2</sup></a>&nbsp;to kill mosquitoes on contact in outdoor areas and on outdoor surfaces, including porches, patios, eaves, and window frames or screens. Infected mosquitoes are behind a number of serious health threats, including the Zika and West Nile viruses. They also may transmit parasites, including canine heartworms,<sup>4</sup> so control is essential.</p>
+        <h2 style="`'z-index:;"><a name="Fleas" style="color: #558f45;">Fleas</a></h2>
+        <img alt="" src="~/media/068938FC0FDA4D9AB88B5C58453FF03B.ashx" />
+        <p>Tiny jumping and biting insects, <a href="~/link.aspx?_id=16D34DA43D4A431583807B4CA5721BB6&amp;_z=z" target="_blank">fleas are ectoparasites</a>, meaning they live on and feed on the outside of their animal hosts. Fleas can affect dogs, cats, wildlife &mdash; and humans. Wildlife may bring them into your yard, and pets may bring them indoors.<sup>5</sup></p>
+        <p>Identifying fleas by sight is difficult because of their size. The only way you may know they're nearby is when you suffer a bite. Scratching pets are also signs of a flea problem. Use <a href="~/link.aspx?_id=CFA0E87445B84119ABC82043DF53C17C&amp;_z=z" target="_blank">Sevin Insect Killer Lawn Granules</a>&nbsp;on lawns, home perimeters and even <a href="~/link.aspx?_id=92C380D1729846BAA1CEE1FCEC24DFCF&amp;_z=z" target="_blank">edible and ornamental gardens</a>. The granules kill flea larvae and adults by contact and keep protecting treated areas against fleas for up to three months. However, never use any lawn and garden pesticide directly on your pets.</p>
+        <h2 style="`'z-index:;"><a name="Spiders" style="color: #558f45;">Spiders</a></h2>
+        <p>Most spiders aren't harmful to people; their sole focus is catching and eating insects. Of course, the few poisonous spider species that are common in the United States, such as black widow and brown recluse spiders, are harmful enough to give all spiders a bad reputation.<sup>6</sup></p>
+        <p>Glistening webs in and around your home are sure <a href="~/link.aspx?_id=95C3681BCD74492D967C0A2DDDF68DDC&amp;_z=z" target="_blank">signs that spiders are about</a>, but dusty webs signify spiders have moved on. If you notice fresh, active webs, take preventative steps: Seal cracks in your home's foundation and repair small openings around window panes and doors. Then use Sevin Insect Killer Concentrate to treat plantings and home foundations up to a height of 3 feet. Use Sevin Insect Killer Lawn Granules around your home's perimeter to keep spiders from coming inside.</p>
+        <h2 style="`'z-index:;"><a name="Wasps" style="color: #558f45;">Wasps</a></h2>
+        <img alt="" src="~/media/5788F0CF58BB4936AD0A4A4E1913848C.ashx" />
+        <p>Wasps help control other insect populations, but their painful stings make them unwelcome. An active wasp nest near an area where people congregate, work or relax is a huge danger. If you find a nest, use caution. <a href="~/link.aspx?_id=C7F00B70AB8D4CE287B38CB8FEAA01E6&amp;_z=z" target="_blank">Wasps are often aggressive</a>, especially when threatened, so consider hiring a professional to remove a large nest rather than removing it yourself.</p>
+        <p>Sevin Insect Killer Ready to Spray and Sevin Insect Killer Concentrate kill wasps by contact, but they won't harm plants, blooms or lawns. Then they keep on working to protect against wasps for up to three months and discourage nest building in fruit and vegetable gardens, ornamental and flower gardens, and around your home. You can even treat home foundations up to a height of 3 feet.</p>
+        <p>The wasp family includes hornets, mud daubers and <a href="~/link.aspx?_id=D80B89E7150E4E74BD5727784DE6EBCA&amp;_z=z" target="_blank">yellow jackets</a>, which are especially attracted to food and drink.<sup>7</sup> So always tightly close trash and recycling containers.</p>
+        <h2 style="`'z-index:;"><a name="Cockroaches" style="color: #558f45;">Cockroaches</a></h2>
+        <img alt="" src="~/media/70187752264949809EFBCF264CC5B3F1.ashx" />
+        <p>Cockroaches have earned their nasty reputation. They carry bacteria including salmonella, and, because they scavenge human food, <a href="~/link.aspx?_id=B48D3871E53F49CC96306AFA875ED666&amp;_z=z" target="_blank">cockroaches can contaminate</a>&nbsp;kitchen surfaces and utensils. Additionally, their frass, or droppings, and other litter can make already-painful allergy and asthma symptoms worse.<sup>8</sup></p>
+        <p>Cockroaches are constantly in search of food, water and a dry home. Your first defense is to protect your home's perimeter so that cockroaches never make it inside. Seal any cracks and crevices in foundations and around windows and doors, then use an effective pesticide. Sevin Insect Killer Ready to Use<sub>2</sub> kills cockroaches on contact. For longer-lasting protection or larger areas, turn to Sevin Insect Killer Concentrate or Ready to Spray to kill by contact and protect against cockroaches for up to three months.</p>
+        <h2 style="`'z-index:;"><a name="Regional" style="color: #558f45;">Regional Timeline for Spring Pests</a></h2>
+        <ul>
+            <li><strong>Northeast:</strong> Pest activity increases from April/May until September/October.</li>
+            <li><strong>Central:</strong> Pests appear in March/April and remain active until September/October.</li>
+            <li><strong>West:</strong> Insects emerge as early as February in parts of California, Arizona, and New Mexico. They emerge in March/April for the rest of the region and are active until September/October.</li>
+            <li><strong>South:</strong> Insect pests appear as early as February/March and are active until October/November.<sup>9</sup></li>
+        </ul>
+        <p>When spring pests strike, don't delay. Have your plan of action ready. Pursue both preventive and defensive measures to keep your yard and home pest-free. With the help of <a href="https://www.gardentech.com" target="_blank">GardenTech</a>&nbsp;and trusted <a href="~/link.aspx?_id=1BFF5064E6F14E61883F81BD2E7B9A74&amp;_z=z" target="_blank">Sevin brand garden insecticides</a>, you can greet spring prepared for whatever the season holds.</p>
+        <p><em>Always read product labels thoroughly and follow instructions, including guidelines for listed plants and pests, application frequency and pre-harvest intervals (PHI) for edible crops.</em></p>
+        <p><em>Sevin is a registered trademark of Tessenderlo Kerley, Inc.</em></p>
+        <p><em>GardenTech is a registered trademark of Gulfstream Home and Garden, Inc.</em></p>
+        <p><em>Amdro is a registered trademark of Central Garden &amp; Pet Company.</em></p>
+        <p><strong><span style="background-color: #ffffff; color: #333333;"></span><span style="background-color: #ffffff; color: #333333;">Sources:</span></strong></p>
+        <p style="color: #333333; background-color: #ffffff; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding: 0px;">1. Illinois Department of Public Health, "<a rel="noopener noreferrer" href="http://www.idph.state.il.us/envhealth/pccarpenterants.htm" target="_blank">Prevention and Control: Carpenter Ants</a>."</p>
+        <p style="color: #333333; background-color: #ffffff; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding: 0px;">2. The American Mosquito Control Association, "<a rel="noopener noreferrer" href="http://www.mosquito.org/page/biology" target="_blank">Biology</a>."</p>
+        <p style="color: #333333; background-color: #ffffff; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding: 0px;">3. United States Environmental Protection Agency, "Bti for Mosquito Control."</p>
+        <p style="color: #333333; background-color: #ffffff; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding: 0px;">4. The American Mosquito Control Association, "<a rel="noopener noreferrer" href="https://www.epa.gov/mosquitocontrol/bti-mosquito-control" target="_blank">Mosquito-Borne Diseases</a>."</p>
+        <p style="color: #333333; background-color: #ffffff; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding: 0px;">5. M.K. Rust, "<a rel="noopener noreferrer" href="http://ipm.ucanr.edu/PMG/PESTNOTES/pn7419.html" target="_blank">How to Manage Pests: Fleas</a>," University of California Statewide Integrated Pest Management Program, September 2010.</p>
+        <p style="color: #333333; background-color: #ffffff; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding: 0px;">6. J. Hahn, P. Pellitteri and D. Lewis, "<a rel="noopener noreferrer" href="https://www.extension.umn.edu/garden/insects/find/potentially-dangerous-spiders/" target="_blank">Potentially Dangerous Spiders</a>," University of Minnesota Extension.</p>
+        <p style="color: #333333; background-color: #ffffff; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding: 0px;">7. Illinois Department of Public Health, "<a rel="noopener noreferrer" href="http://www.idph.state.il.us/envhealth/pcbees.htm" target="_blank">Prevention and Control: Bees and Wasps.</a>"</p>
+        <p style="color: #333333; background-color: #ffffff; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding: 0px;">8. J. Hahn and M.E. Ascerno, "<a rel="noopener noreferrer" href="http://www.extension.umn.edu/garden/insects/find/cockroaches/" target="_blank">Cockroaches</a>," University of Minnesota Extension.</p>
+        <p style="color: #333333; background-color: #ffffff; margin-right: 0px; margin-bottom: 14px; margin-left: 0px; padding: 0px;">9. NOAA National Centers for Environmental Information, "<a rel="noopener noreferrer" href="https://www.ncdc.noaa.gov/news/when-expect-your-last-spring-freeze" target="_blank">When to Expect Your Last Spring Freeze</a>."</p>
+    - ID: "6dd157fe-8ea8-496a-b595-0e6a18489836"
+      Hint: ThumbnailImage
+      Value: |
+        <image mediaid="{36D093AD-E15F-433C-88C2-13E0A2936925}" />
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "Prevent the threat of early-season pests like carpenter ants, mosquitoes, spiders, cockroaches, fleas and wasps this spring."
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: How to Protect Your Garden From Spring Pests
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: How to Protect Your Garden From Spring Pests
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a511d009-65ae-4540-9f62-86b2ed971240"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{36D093AD-E15F-433C-88C2-13E0A2936925}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220728T022508Z
+    - ID: "eaaa3bf1-4f5c-4f65-9f61-c6f234ffc31f"
+      Hint: BlogPostTopic
+      Value: |
+        {DD6A0F31-3C33-47CC-BA7F-C1430E053D27}
+        {484CB1C9-5709-481F-9FC0-F1902D1523DA}
+    - ID: "f0d0a9d9-6b70-4a54-a04a-537c38d5b2e1"
+      Hint: RelatedArticlesLabel
+      Value: OTHER POSTS YOU MIGHT LIKE
+    - ID: "fb742e87-7bf7-4c72-97a9-987a40989ece"
+      Hint: RelatedArticles
+      Value: |
+        {6FE8B680-6CB1-4852-923C-EFC0F4ED3422}
+        {44093A28-7919-452B-A7BE-BCBCB56E3B76}
+        {E1CD4FBA-780E-4F6B-816B-7570BBF67744}
+        {D4281CA8-C92E-4A64-99AC-08413C00F96E}
+- Language: es
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "05aba5ee-29d7-483d-82db-02ac84db238f"
+      Hint: AuthorName
+      Value: Annie Mueller
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{36D093AD-E15F-433C-88C2-13E0A2936925}" alt="header image" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220623T060131Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "36aa965e-f5ea-4871-a55b-53e090d5026e"
+      Hint: ArticleType
+      Value: "{D74C58AD-43ED-405A-BF7F-222F3DEF6FB9}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Cómo proteger su jardín contra las plagas de la primavera
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Evite las plagas de comienzos de temporada como las hormigas carpinteras, mosquitos, arañas, cucarachas, pulgas y avispas esta primavera. 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        La primavera nos devuelve la luz del sol, el clima c&aacute;lido y las plantas floreciendo, pero tambi&eacute;n atrae muchos insectos fastidiosos y destructivos. Aprenda sobre qu&eacute; debe buscar y c&oacute;mo planificar su l&iacute;nea de defensa y evite que esas plagas invadan su patio y su hogar.
+        <h2 style="`'z-index:;">Hormigas carpinteras</h2>
+        <img alt="" src="~/media/49F3CB652D6748E1ADB88AEDCE330B27.ashx" />Las hormigas carpinteras son grandes y negras y viven en la madera podrida. Si encuentra un mont&oacute;n de virutas (los desechos que dejan cuando cavan t&uacute;neles), usted seguramente est&aacute; cerca de la entrada del nido. Pero cuando las hormigas carpinteras buscan comida, ellas pueden deambular hasta por 100 yardas (91,44 m) lejos de sus hogares, as&iacute; que est&eacute; siempre atento.<sup>1</sup>
+        <p>Aunque las hormigas carpinteras pocas veces son da&ntilde;inas, s&iacute; pueden ser un problema. Elimine la madera muerta, como los matorrales y los tocones de &aacute;rboles para evitar que se asienten. Mantenga la le&ntilde;a bien alejada de la casa y use el <a rel="noopener noreferrer" href="http://www.worryfreebrand.com/All-Products/worry-free-brand-ready-to-spray/overview" target="_blank">insecticida y acaricida listo para rociar de la marca Worry-Free&reg;</a> para destruir las hormigas que andan buscando comida.</p>
+        <h2 style="`'z-index:;">Mosquitos</h2>
+        <img alt="" src="~/media/6C3FF646C5E14D599A4DC773D9D23234.ashx" />Los mosquitos sedientos de sangre pueden arruinar su diversi&oacute;n en el verano. A principios de la primavera, los mosquitos pasan de la etapa larvaria a la madurez. Despu&eacute;s de aparearse, los machos buscan el n&eacute;ctar de las flores, pero los mosquitos hembras prefieren una comida rica en hemoglobina<sup>2</sup>, por lo que usted es perfecto para ellas.
+        <div>
+        <p>Para reducir el n&uacute;mero de mosquitos en su patio, elimine el ambiente m&aacute;s viable para los huevos y larvas: el agua estancada. Aplique un aerosol, como el&nbsp;<a href="~/link.aspx?_id=37F13921BA3C4B7EB2C7C9E81D11AC09&amp;_z=z">insecticida Sevin<sup>&reg;</sup> concentrado</a>, en el per&iacute;metro de su casa &mdash;especialmente bajo los arbustos y en las &aacute;reas sombreadas&mdash; para combatir la poblaci&oacute;n de mosquitos adultos. Si prefiere un producto natural a uno sint&eacute;tico, use el&nbsp;<a rel="noopener noreferrer" href="http://www.worryfreebrand.com/All-Products/worry-free-brand-ready-to-spray/overview" target="_blank">insecticida y acaricida listo para rociar de la marca Worry-Free<sup>&reg;</sup></a>.</p>
+        <p>Los mosquitos son portadores de virus que causan enfermedades como la malaria, el virus del Nilo occidental y la encefalitis, as&iacute; como par&aacute;sitos incluyendo el par&aacute;sito del coraz&oacute;n canino.<sup>3</sup> Debido a esto, es de suma importancia que usted los mantenga bajo control.</p>
+        </div>
+        <h2 style="`'z-index:;">Pulgas</h2>
+        <img alt="" src="~/media/068938FC0FDA4D9AB88B5C58453FF03B.ashx" />
+        <p>Las pulgas son peque&ntilde;os insectos saltarines que pican. Estos ectopar&aacute;sitos se alojan en perros, gatos y animales silvestres para alimentarse de ellos y usarlos como refugio.4 Sus mascotas pueden traer pulgas a su patio durante los climas c&aacute;lidos.</p>
+        <p>Es dif&iacute;cil identificar las pulgas a simple vista. La &uacute;nica manera en que usted puede saber si est&aacute;n cerca es si lo pican. Utilice el <a href="~/link.aspx?_id=CFA0E87445B84119ABC82043DF53C17C&amp;_z=z">insecticida en gr&aacute;nulos Sevin&reg; para c&eacute;sped</a> en toda su propiedad durante la primavera para evitar estas plagas y luego apl&iacute;quelo de nuevo durante el verano si las pulgas regresan.</p>
+        <h2 style="`'z-index:;">Avispas</h2>
+        <p>La mayor&iacute;a de las ara&ntilde;as no son da&ntilde;inas para las personas, ya que su &uacute;nica meta es atrapar y comer insectos. Por supuesto que existen unas cuantas especies venenosas que son comunes en Estados Unidos, como la viuda negra y las ara&ntilde;as reclusas, las cuales son lo suficientemente da&ntilde;inas como para darles su mala reputaci&oacute;n.<sup>5</sup></p>
+        <p>Las telara&ntilde;as brillantes en y alrededor de su hogar son signos comprobados de que hay ara&ntilde;as, pero las telara&ntilde;as empolvadas son las que han sido abandonadas. Si usted ve una telara&ntilde;a fresca, tome medidas preventivas: selle las grietas de los cimientos de su hogar y repare las aberturas peque&ntilde;as alrededor de las puertas y las hojas de las ventanas. Luego, aplique el <a href="~/link.aspx?_id=CFA0E87445B84119ABC82043DF53C17C&amp;_z=z">insecticida en gr&aacute;nulos Sevin&reg; para c&eacute;sped</a> afuera, en el per&iacute;metro de su hogar, para evitar que las ara&ntilde;as siquiera piensen en entrar.</p>
+        <h2 style="`'z-index:;">Wasps</h2>
+        <img alt="" src="~/media/5788F0CF58BB4936AD0A4A4E1913848C.ashx" />
+        <p>Las avispas ayudan a controlar otras poblaciones de insectos, pero sus picaduras son dolorosas, por lo que las personas no las quieren. Un nido de avispas activas cerca de un lugar donde las personas se congreguen, trabajen o relajen es extremadamente peligroso. Si usted encuentra un nido, tenga cuidado y considere contratar a un profesional para eliminarlo, en lugar de hacerlo usted mismo. Las avispas pueden ser muy agresivas, especialmente cuando se les amenaza.</p>
+        <p>La familia de las avispas tambi&eacute;n incluye los avispones, las avispas solitarias y las avispas americanas, las cuales son atra&iacute;das especialmente por la comida y las bebidas. As&iacute; que siempre cierre bien los botes de basura y reciclaje.<sup>6</sup></p>
+        <p>Al aplicar el&nbsp;<a href="~/link.aspx?_id=37F13921BA3C4B7EB2C7C9E81D11AC09&amp;_z=z">insecticida Sevin&reg; concentrado</a>, en el c&eacute;sped y el jard&iacute;n alrededor de su hogar, usted puede evitar que hagan nidos y ayudar a eliminarlas.</p>
+        <h2 style="`'z-index:;">Cucarachas</h2>
+        <img alt="" src="~/media/70187752264949809EFBCF264CC5B3F1.ashx" />
+        <p>Las cucarachas se han ganado su mala reputaci&oacute;n. Ellas son portadoras de bacterias, incluyendo la salmonela, y debido a que tambi&eacute;n se alimentan de la comida humana pueden contaminar las superficies y utensilios de cocina. Adem&aacute;s, sus excrementos y residuos pueden agravar una alergia que ya sea dolorosa o los s&iacute;ntomas del asma.<sup>7 </sup></p>
+        <p>Las cucarachas est&aacute;n constantemente en busca de comida, agua y un lugar seco para vivir. Su primera l&iacute;nea de defensa es proteger el per&iacute;metro de su hogar para que las cucarachas nunca entren. Selle las grietas y las fisuras en los cimientos y alrededor de las puertas y ventanas. Luego, utilice un insecticida eficaz, como el <a href="~/link.aspx?_id=CFA0E87445B84119ABC82043DF53C17C&amp;_z=z">insecticida en gr&aacute;nulos Sevin&reg; para c&eacute;sped</a>, en el per&iacute;metro de su hogar y en las &aacute;reas de c&eacute;spedes cerca de los senderos, porches, patios y en su garaje.</p>
+        <h2 style="`'z-index:;">Nunca se rinda</h2>
+        <p>Cuando usted se toma su tiempo para determinar cu&aacute;les plagas necesita eliminar y luego se enfoca en las medidas preventivas y defensivas, usted mantendr&aacute; su patio y su hogar libres de plagas.</p>
+        <p><em>Lea siempre la etiqueta del producto y siga las instrucciones con cuidado. </em></p>
+        <p><em>Sevin es una marca registrada de Tessenderlo Kerley, Inc</em></p>
+        <p>Worry Free es una marca registrada de Central Garden &amp; Pet Company.</p>
+        <p><strong><span>Cronograma regional para las plagas de la primavera8<sup>8 </sup></span></strong></p>
+        <p><span>En el noreste, los insectos son activos desde <strong>abril/mayo</strong> hasta <strong>septiembre/octubre</strong>.</span></p>
+        <p><span>En la regi&oacute;n central, estas plagas aparecen en <strong>marzo/abril</strong> y permanecen activas hasta <strong>septiembre/octubre.</strong></span></p>
+        <p><span>En el oeste, los insectos emergen desde <strong>febrero </strong>en varias partes de California, Arizona y Nuevo M&eacute;xico; en <strong>marzo/abril</strong> para el resto de la regi&oacute;n; y permanecen activos hasta <strong>septiembre/octubre</strong>.</span></p>
+        <p><span>En el sur, las plagas de insectos aparecen desde <strong>febrero/marzo</strong> y permanecen activas hasta <strong>octubre/noviembre.</strong></span></p>
+        <p><strong><em><span>Fuentes:</span></em></strong></p>
+        <ol>
+            <li><span>Departamento de Salud P&uacute;blica de Illinois, </span><a rel="noopener noreferrer" href="http://www.idph.state.il.us/envhealth/pccarpenterants.htm" target="_blank"><span>Carpenter Ants Prevention and Control</span></a><span>.</span></li>
+            <li><span>Insects.org, </span><a rel="noopener noreferrer" href="http://www.insects.org/entophiles/diptera/mosquitoes.html" target="_blank"><span>Mosquitoes</span></a><span>, 2011.</span></li>
+            <li><span>La Asociaci&oacute;n Americana para el Control de los Mosquitos, </span><a rel="noopener noreferrer" href="http://www.mosquito.org/mosquito-borne-diseases" target="_blank"><span>Mosquito-Borne Diseases</span></a><span>, 2014.</span></li>
+            <li><span>Recursos Agr&iacute;colas y Naturales de la Universidad de California, </span><a rel="noopener noreferrer" href="http://www.ipm.ucdavis.edu/PMG/PESTNOTES/pn7419.html" target="_blank"><span>How to Manage Pests: Fleas</span></a><span>, septiembre de 2010. </span></li>
+            <li><span>Jerry Schleicher, Grit.com, </span><a rel="noopener noreferrer" href="http://www.grit.com/animals/all-about-spiders.aspx" target="_blank"><span>All About Spiders in America</span></a><span>, marzo/abril de 2011.</span></li>
+            <li><span>Departamento de Salud P&uacute;blica de Illinois, </span><a rel="noopener noreferrer" href="http://www.idph.state.il.us/envhealth/pcbees.htm" target="_blank"><span>Bees and Wasps Prevention and Control</span></a><span>.</span></li>
+            <li><span>Mark E. Ascerno y Jeff Hahn, Extensi&oacute;n de la Universidad de Minnesota, </span><a rel="noopener noreferrer" href="http://www.extension.umn.edu/garden/insects/find/cockroaches/" target="_blank"><span>Cockroaches</span></a><span>, 2015. </span></li>
+            <li><span>Almanaque del granjero, </span><a rel="noopener noreferrer" href="http://farmersalmanac.com/average-frost-dates/" target="_blank"><span>Average Frost Dates</span></a><span>.</span></li>
+        </ol>
+    - ID: "6dd157fe-8ea8-496a-b595-0e6a18489836"
+      Hint: ThumbnailImage
+      Value: |
+        <image mediaid="{36D093AD-E15F-433C-88C2-13E0A2936925}" />
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Evite las plagas de comienzos de temporada como las hormigas carpinteras, mosquitos, arañas, cucarachas, pulgas y avispas esta primavera. 
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Cómo proteger su jardín contra las plagas de la primavera
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Cómo proteger su jardín contra las plagas de la primavera
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e54e7d89-23a6-4f57-ac33-144e771472d1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{36D093AD-E15F-433C-88C2-13E0A2936925}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220719T141724Z
+    - ID: "eaaa3bf1-4f5c-4f65-9f61-c6f234ffc31f"
+      Hint: BlogPostTopic
+      Value: |
+        {DD6A0F31-3C33-47CC-BA7F-C1430E053D27}
+        {484CB1C9-5709-481F-9FC0-F1902D1523DA}
+    - ID: "f0d0a9d9-6b70-4a54-a04a-537c38d5b2e1"
+      Hint: RelatedArticlesLabel
+      Value: OTRAS INFORMACIONES QUE PUDIERAN GUSTARLE
+    - ID: "fb742e87-7bf7-4c72-97a9-987a40989ece"
+      Hint: RelatedArticles
+      Value: |
+        {6FE8B680-6CB1-4852-923C-EFC0F4ED3422}
+        {44093A28-7919-452B-A7BE-BCBCB56E3B76}
+        {E1CD4FBA-780E-4F6B-816B-7570BBF67744}
+        {8BBCA442-A365-4705-85C0-93B96CDBD7ED}

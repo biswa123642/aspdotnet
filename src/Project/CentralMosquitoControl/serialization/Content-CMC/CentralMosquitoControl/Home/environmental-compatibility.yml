@@ -1,0 +1,106 @@
+﻿---
+ID: "51b98c46-750b-4fda-b1e1-fdd2477c28d6"
+Parent: "70dc6ad1-c06e-4ce0-acb7-217259864699"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/CentralMosquitoControl/Home/environmental-compatibility"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{C1564EBD-7FEC-4549-8A6D-5965200CC90E}"
+          p:before="*"
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-3-1/container-6" />
+        <r
+          uid="{4EAD8CFA-18DD-45A3-B11C-B62C0B8742C7}"
+          p:after="r[@uid='{C1564EBD-7FEC-4549-8A6D-5965200CC90E}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-3-1" />
+        <r
+          uid="{01DDCC16-3574-4299-BDF1-8AAC14B3E409}"
+          p:after="r[@uid='{4EAD8CFA-18DD-45A3-B11C-B62C0B8742C7}']"
+          s:ds=""
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%2F&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B34C68150-D3B2-463D-9B91-B2F7BCBD3727%7D&amp;Styles=%7B8D38663D-4028-4440-96C6-BCAA6062E23B%7D%7C%7BFAF28AF7-0575-40E0-9EE8-3C33FB91AC01%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-2-1/container-5"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{A4D26B80-8D27-4B06-8BE2-6352F4262655}"
+          p:after="r[@uid='{01DDCC16-3574-4299-BDF1-8AAC14B3E409}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{63F3909E-2596-4979-B4CF-5A8A09210F9C}"
+          p:after="r[@uid='{A4D26B80-8D27-4B06-8BE2-6352F4262655}']"
+          s:ds="{6AB06562-BD78-48AF-AFEA-9203605B89EF}"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BFFF92AD1-B9FF-4ED0-9316-F18C1B5B5508%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{0C20FD13-6FD2-489B-8401-DBF461117A68}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3&amp;Styles1&amp;Styles2&amp;Styles3=%7B4927F620-A3EE-4C13-804A-123DDFBD937E%7D&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T121758Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Environmental Compatibility
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Central Life Sciences has a commitment to environmental resonsibility that is driven by a long history. 
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <h1>Central Life Sciences: Carrying Forward a Commitment to Environmentally Responsible Mosquito Control</h1>
+        <p>At Central Life Sciences, we are not merely driven by our commitment to environmentally sound practices &ndash; we were borne out of it. Our history began with the founding of Zo&euml;con in the late 1960&rsquo;s, a time when public concern was growing over common pesticides, mosquitoes had begun developing resistance to some products and malaria was a leading cause of death worldwide. Reflecting on this pivotal time in his autobiography, Zo&euml;con Founder and co-discoverer of the human birth control pill Carl Djerassi states &ldquo;it seemed to us that the world was ready for a new mosquito control.&rdquo;</p>
+        <p>His mission was the driving force behind the invention of novel mosquito control products based on a group of compounds that had recently been discovered at the time called Insect Growth Regulators. The Altosid product line is built on the active ingredient methoprene, which works by breaking the mosquito life cycle. IGRs were so revolutionary for their time that researchers were astonished at the effectiveness against target pests while having extremely low toxicity to mammals and other non-target species. At the time Altosid was registered, the EPA was in its infancy, but methoprene still had to complete a battery of toxicological screenings, especially since it was novel chemistry. Being such a new and different mode of action and with the low toxicity profile, the EPA referred to IGRs as biorationals. First registered in 1975 by the EPA, Altosid&reg; IGR has been a mainstay in mosquito larvicidal control and remains an industry standard today. </p>
+        <p>The commitment to providing environmentally responsible mosquito control is as strong today as it was during our founding nearly 50 years ago. It&rsquo;s seen in our lineup that has grown to one of the industry&rsquo;s most comprehensive collections of reduced-risk solutions, including the Zenivex&reg; line of low-toxicity adulticides and the FourStar&reg; family of  larvicides powered by naturally occurring mosquito specific microbials. It&rsquo;s in our pledge to minimize our environmental footprint with options such as bulk packaging, including totes and drums for liquids and bulk bags and totes for granules. It&rsquo;s behind corporate responsibility initiatives, like our <a href="-/media/FCD79C9D4DCC4866A0903C955EE11BBF.ashx" target="_blank"><span style="text-decoration: underline;">free container return program</span></a> that ensures proper recycling and sustainable use of these different packaging options.</p>
+        <p>Our founders pioneered an entire class of mosquito control driven by a mission to provide effective solutions that protect public health with consideration for the environment. After almost 50 years, these principles still guide Central Life Sciences to this day.</p>
+        <p>&nbsp;</p>
+        <div class="position-center">
+        <a rel="noopener noreferrer" class="button" href="https://www.centralmosquitocontrol.com/-/media/Files/CentralMosquitoControl-NA/US/Resources-Lit%20Files/Free%20Container%20Return%20Program.pdf?la=en" target="_blank">Learn about free container pickup</a></div>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Central Life Sciences has a commitment to environmental resonsibility that is driven by a long history. 
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Environmental Compatibility
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: "environmental-compatibility"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a57d2194-696d-43ba-a898-401590f24de0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{30BBA0EE-DE69-47C6-8119-7AEAC5B91B3B}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221013T100117Z

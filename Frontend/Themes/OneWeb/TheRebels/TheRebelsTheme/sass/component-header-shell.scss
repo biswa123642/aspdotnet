@@ -1,0 +1,226 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+header {
+  &::before {
+    content: "";
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 18px;
+    border-bottom: 4px solid $light-grey;
+    background-color: $secondary-color;
+    z-index: 1;
+  }
+
+  .header-shell {
+    &.variant-2 {
+      .component-content {
+        .search-box {
+          padding: 0px 15px;
+          background-color: $white-color;
+
+          .search-holder {
+            padding: 5px 0px;
+            .search-wrapper {
+              &::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background: transparent;
+                opacity: 0.4;
+              }
+              .search-input-wrapper {
+                input {
+                  padding: 0;
+                  background-color: transparent;
+                  color: $white-color;
+                  text-shadow: #000 0 0 5px;
+                  font-weight: bold;
+                  padding-left: 12px;
+                  max-width: 150px;
+                  line-height: normal;
+                  vertical-align: bottom !important;
+                  font-size: 16px;
+                  padding-bottom: 1px;
+                  min-height: 30px;
+                  border-radius: 0px;
+                  min-width: 85%;
+                  box-shadow: none;
+
+                  &::placeholder {
+                    color: transparent;
+                    opacity: 0;
+                    text-shadow: none;
+                  }
+                  &:focus,&:active,&:hover{
+                    background: rgba(0, 0, 0, 0.15);
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .logo-container {
+        .image {
+          position: relative;
+        }
+      }
+      .mobile-search-toggle {
+        z-index: 1;
+        position: relative;
+        padding: 1.5rem 0rem;
+        &::before {
+          color: $white-color;
+        }
+      }
+      .component {
+        &.plain-html {
+          .hamburger {
+            position: relative;
+            background: transparent;
+            z-index: 1;
+            right: 0%;
+          }
+        }
+      }
+      .wrapper {
+        .wrapper-nav {
+          background-color: transparent;
+
+          .image {
+            .file-type-icon-media-link {
+              position: absolute;
+              top: -84px;
+              a {
+                .Background {
+                  img {
+                    z-index: 0;
+                    height: 84px;
+                    @include respond-to(tab) {
+                      height: 141px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .header-global-menu {
+        padding: 0rem;
+        background-color: #e7e7e7;
+        width: 100%;
+
+        ul {
+          &.items {
+            padding-top: 0;
+            @include respond-to(desktop){
+              padding-top: 5px;
+            }
+            li {
+              &.item {
+                padding: 1rem 1.5rem;
+                &:hover{
+                  background-color: $secondary-color;
+                  a{
+                    color: $white-color;
+                  }
+                }
+                @include respond-to(desktop){
+                padding: 10px 0px;
+
+                }
+
+                a {
+                  font-size: 1.4rem;
+                  color: $secondary-color;
+                  font-weight: bold;
+                }
+              }
+            }
+          }
+        }
+      }
+      @include respond-to(desktop) {
+        .header-global-menu {
+          padding: initial;
+          width: auto;
+          ul {
+            &.items {
+              li {
+                &.item {
+                  padding: 0 15px;
+                  a {
+                    z-index: 2;
+                    position: relative;
+                    font-size: 1.6rem;
+                    text-shadow: #000 0 1px 5px;
+                    color: $white-color;
+                    font-weight: bold;
+                    &:hover{
+                      text-decoration: underline;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        .wrapper {
+          .container {
+            max-width: 100%;
+            width: 100%;
+          }
+          .wrapper-nav {
+            padding: 0;
+            .col-12 {
+              .row {
+                justify-content: center;
+              }
+            }
+          }
+        }
+        .logo-container {
+          flex: 0 0 100%;
+          max-width: 100%;
+          justify-content: center;
+          .image {
+            max-width: 100%;
+            padding: 1.5rem;
+          }
+        }
+        .component-content {
+          .search-box {
+            padding: 0px;
+            background-color: transparent;
+            .search-holder {
+              .search-wrapper {
+                .search-input-wrapper {
+                  input {
+                    min-height: auto;
+                    border: 1px solid $white-color;
+                    border-radius: 10px;
+                    padding-top: 1px;
+                  }
+                  button {
+                    left: 14rem;
+                    background-size: contain;
+                    margin: 0;
+                    background-image: url(../images/search.png);
+                    height: 3rem;
+                    line-height: normal;
+                    top: -5px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

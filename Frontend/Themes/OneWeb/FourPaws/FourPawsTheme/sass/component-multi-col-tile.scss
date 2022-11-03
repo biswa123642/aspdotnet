@@ -1,0 +1,10 @@
+@import "abstracts/mixins";
+@import "abstracts/vars";
+
+.mobile-stack {
+  .flip-card-btn {
+    a {
+      background: none;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component{
+    &.error-404{
+        background-image: url('../images/404Image.png');
+        background-image: url('../images/404Image.png'), linear-gradient(to bottom, #4286f4, #373B44);
+        background-size: contain;
+        padding: 2.5rem 0;
+        color: $white;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        @include respond-to(desktop) {
+            background-position: center;
+            background-repeat: repeat;
+        }
+       // background-image: linear-gradient(to bottom, #4286f4, #373B44)
+       .score-stripe{
+        .score-content-spot{
+            h1{
+                font-size: 3.8rem;
+                font-weight: 600;
+                color: $white;
+                @include respond-to(desktop) {
+                    font-size:4.8rem
+                }
+            }
+            p{
+                font-size: 2.3rem;
+                font-weight: 400;
+                @include respond-to(desktop) {
+                    font-size:2.9rem
+                }
+            }
+        }
+       }
+    }
+}

@@ -1,0 +1,62 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+footer {
+  background-color: $primary-color;
+  #footer {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    .row-splitter {
+      padding: 0px;
+      @include respond-to(desktop) {
+        padding: 20px 0px;
+      }
+    }
+    .component {
+      &.rich-text {
+        .component-content {
+          color: $white-color;
+          line-height: 1.42857143;
+        }
+      }
+    }
+    .link-list {
+      &.inline-link {
+        ul {
+          justify-content: center;
+          li {
+            &.even {
+              .field-link {
+                padding: 0px 0px 0px 15px;
+              }
+              &::before {
+                background: $white-color;
+                height: 1.3rem;
+              }
+            }
+            &.odd {
+              .field-link {
+                padding: 0 1.5rem 0rem 0rem;
+              }
+            }
+            .field-link {
+              a {
+                color: $white-color;
+                font-size: 1.2rem;
+                font-weight: 700;
+                line-height: 1.42857143;
+                &:hover{
+                  color: $link-hover-color;
+                  border-bottom: 1px solid $link-hover-color;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

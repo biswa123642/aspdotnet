@@ -1,0 +1,115 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.multi-column-content-tiles {
+    padding-top: 2rem;
+    max-width: 114rem;
+    margin-left: auto;
+    margin-right: auto;
+    &.flip-over-tiles {
+      .flip-over-card {
+        .card-wrapper {
+          max-width: 375px;
+        }
+        .flip-boxes {
+          width: 375px;
+          height: 375px;
+        }
+        .field-image {
+          height: 100%;
+          img {
+            object-fit: cover;
+          }
+        }
+        &.flip-bg-red {
+          .flip-back {
+            background-color: $text-green;
+          }
+          .flip-over-content {
+            background-color: $text-green;
+          }
+          .image-wrapper {
+            &::after {
+              border: 1.5rem solid $text-green;
+              border-bottom-color: $bg-basic-color;
+              border-right-color: $bg-basic-color;
+            }
+          }
+          .flip-rollover {
+            &:after {
+              border: 1.5rem solid $text-green;
+              border-bottom-color: $bg-basic-color;
+              border-left-color: $bg-basic-color;
+            }
+          }
+          .flip-card-btn {
+            a {
+              background: transparent;
+            }
+          }
+        }
+      }
+      .mobile-stack {
+        position: relative;
+        margin-bottom: 2rem;
+        .field-subtext {
+          position: absolute;
+          top: 35%;
+          width: 100%;
+          padding: 0 2rem;
+          text-align: center;
+          margin-top: 0;
+        }
+        &.flip-bg-red {
+          .field-image{
+            &::before{
+              content:"";
+              display: block;
+              height: 97%;
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              background-color: $black-overlay;
+            }
+          }
+          h2 {
+            font-size: 2rem;
+            margin: 0;
+            text-shadow: $shadow-text;
+            color: $bg-basic-color;
+          }
+          .flip-card-btn {
+            background: $primary;
+            position: absolute;
+            bottom: 10%;
+            left: 0;
+            right: 0;
+            text-align: center;
+            border-radius: 0;
+            border: none;
+            font-weight: 700;
+            line-height: 1rem;
+            width: 10.6rem;  
+            &:hover{
+              background-color: $border-dark;
+              text-decoration: none;
+            }          
+          }
+          .sxa-btn{
+            a{
+              padding: 0.6rem 1.2rem;
+              font-size: 1.4rem;
+              &:hover{
+                background-color: $border-dark;
+                text-decoration: none;
+              }
+            }
+          } 
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+﻿---
+ID: "27075dad-e3ef-4e24-b20e-48783271a350"
+Parent: "78aa624f-d053-4744-94c7-50f69414b619"
+Template: "2ad23d55-aecd-43dd-ae0d-72d2ebcba60f"
+Path: "/sitecore/content/OneWeb/CentralMosquitoControl/Home/resources/calculator/altosid-liquid-sr-20/Data/Calculator"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24cce27c-05db-4473-a1ed-e69b1725ff1c"
+      Hint: HtmlCode
+      Value: |
+        {
+        "fields": [
+        {
+        "label": "Enter single ounce cost ($):",
+        "id": "enter_single_ounce_cost",
+        "type": "input"
+        },
+        {
+        "label": "Enter per acre application rate (ounces):",
+        "id": "enter_per_acre_application_rate_in_ounces_1",
+        "type": "input"
+        },
+        {
+        "label": "Cost per day per acre:",
+        "id": "",
+        "type": "output",
+        "formula": "({enter_single_ounce_cost}*{enter_per_acre_application_rate_in_ounces_1})/8",
+        "format": "currency"
+        },
+        {
+        "label": "Enter case cost ($):",
+        "id": "enter_case_cost",
+        "type": "input"
+        },
+        {
+        "label": "Enter ounces per case:",
+        "id": "enter_ounces_per_case",
+        "type": "input"
+        },
+        {
+        "label": "Enter per acre application rate (ounces):",
+        "id": "enter_per_acre_application_rate_in_ounces_2",
+        "type": "input"
+        },
+        {
+        "label": "Cost per day per acre:",
+        "id": "",
+        "type": "output",
+        "formula": "(({enter_case_cost}/{enter_ounces_per_case})*{enter_per_acre_application_rate_in_ounces_2})/8",
+        "format": "currency"
+        }
+        ]
+        }
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220930T065756Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6480fdd8-04c6-46f0-a4f0-876f10aa7bf6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220930T071700Z

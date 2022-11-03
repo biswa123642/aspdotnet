@@ -1,0 +1,36 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component-solution-finder {
+  .solution-finder {
+    min-height: 700px;
+    .solution-finder-breadcrumb{
+      
+    }
+    .breadcrumb-bg {
+      min-height: 40px;
+      padding-left: 20%;
+    }
+    .questionDiv {
+      h3 {
+        display: flex;
+        font-size: 2.4rem;
+        padding: 0 5px;
+      }
+    }
+  }
+}
+@include respond-to(desktop) {
+  .component-solution-finder {
+    .solution-finder {
+      .questionDiv {
+        h3 {
+          display: block;
+          font-size: 4.8rem;
+          padding: 0 5px;
+        }
+      }
+    }
+  }
+}

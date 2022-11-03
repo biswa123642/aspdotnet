@@ -1,0 +1,161 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+    &.hero {
+        &.banner-with-content {
+            margin: auto;
+
+            &::before {
+                content: "";
+                width: 100%;
+                height: 50%;
+                background-color: $dark-gray;
+                position: absolute;
+                z-index: -1;
+            }
+
+            .banner-image {
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                padding-top: 0;
+
+                &:before {
+                    content: "";
+                    height: 100%;
+                    width: 100%;
+                    background-color: $black;
+                    opacity: .3;
+                    position: absolute;
+                }
+            }
+
+            .inner-container,
+            .banner-content-wrapper {
+                position: static;
+                transform: translate(0, 0);
+                text-align: left;
+            }
+
+            .inner-container {
+                padding: 8.5rem 1.5rem 7rem 1.5rem;
+            }
+
+            .banner-content-wrapper {
+                .content-top {
+                    padding: 0;
+                }
+            }
+
+            .banner-cta-holder {
+                display: block;
+
+                .sxa-btn {
+                    margin: 0
+                }
+            }
+
+            h1 {
+                @include bebas-neue();
+                font-size: 4.2rem;
+                display: inline-block;
+                //padding-bottom: 1rem;
+                border-bottom: 10px $white solid;
+                line-height: 42px;
+                font-weight: 400;
+            }
+
+            h2 {
+                @include bebas-neue();
+                font-size: 3.2rem;
+                line-height: 42px;
+                font-weight: 400;
+                padding-top: 4rem;
+            }
+
+            p {
+                color: $white;
+                font-weight: 200;
+            }
+
+            @include respond-to(desktop) {                
+                >div.component-content{
+                    &::before,
+                        &:after {
+                            content: "";
+                            width: 10px;
+                            height: 50%;
+                            background-color: $white;
+                            position: absolute;
+                            left: 50%;
+                            bottom: 0;
+                            z-index: 1;
+                            transform: translatex(-50%);
+                            transition: all .5s ease-in-out;
+                        }
+                    
+                        &::before {
+                            top: 50.6%;
+                            height: 10px;
+                            bottom: initial;
+                            left: initial;  
+                            width: 50%;                          
+                            transform: translateY(-50%);
+                        }
+                }
+                h1 {
+                    font-size: 6.2rem;
+                    line-height: 62px;
+                    border-bottom: none;
+                }
+
+                h2 {
+                    font-size: 2.7083333333333333333333333333333vw;
+                    line-height: 3.2291666666666666666666666666667vw;
+                    padding-top: 2rem;
+                }
+
+                .banner-image {
+                    max-width: 92%;
+
+                    margin: auto;
+                    position: relative;
+                }
+
+                .banner-content-wrapper {
+                    max-width: 100%;
+                    width: 100%;
+
+                    .hero-banner-description,
+                    .banner-cta-holder {
+                        padding-left: 52.5%;
+                        padding-right: 17%;
+                    }
+
+                    .hero-banner-title {
+                        padding-left: 9%;
+                        padding-bottom: 1rem;
+                    }
+
+                }
+
+            }
+
+            @include respond-to(extra-large-desktop) {
+                .inner-container {
+                    padding: 14rem 1.5rem 10rem 1.5rem;
+                }
+            }
+        }
+        &.hero-banner-image{
+            padding: 0 1.5rem;
+            img{
+                width: 100%;
+            }
+        }
+        &.banner-adjustable-height{
+            padding: 0 15px;
+        }
+    }
+}

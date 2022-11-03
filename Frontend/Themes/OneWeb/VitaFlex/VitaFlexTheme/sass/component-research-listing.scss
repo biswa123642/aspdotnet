@@ -1,0 +1,56 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.article-title {
+  .product-title {
+    margin: 45px 0 30px 0;
+  }
+  h1 {
+    text-transform: uppercase;
+    @include Vita-din-2014-font-stack();
+  }
+}
+
+.article-content {
+  background-color: $blue-color;
+  padding: 5px 25px;
+  h2 {
+    text-align: center;
+    color: $white-color;
+  }
+}
+
+.article-listing {
+  .result-count {
+    display: none;
+  }
+  .product-list {
+    .full-width {
+      max-width: 100%;
+      flex: 0 0 100%;
+      .cgp-product {
+        .image-holder {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+#article-type {
+  .product-list {
+    h3 {
+      padding: 2rem 0 0 0;
+      text-decoration: underline;
+      color: $red-color;
+      &:hover {
+        color: inherit;
+      }
+      a {
+        color: $red-color;
+        font-weight: 500;
+      }
+    }
+  }
+}
+

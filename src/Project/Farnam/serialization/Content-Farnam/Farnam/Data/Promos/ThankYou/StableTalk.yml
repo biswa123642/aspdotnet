@@ -1,0 +1,48 @@
+﻿---
+ID: "d06e0d9d-1570-4dfe-bdad-cecf56cbbc95"
+Parent: "a959ca18-974f-4478-b883-e6e06c935a1f"
+Template: "324733cf-afec-4281-9a18-03b6cfc4e535"
+Path: /sitecore/content/OneWeb/Farnam/Data/Promos/ThankYou/StableTalk
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Stable Talk
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "14023dd5-30e7-4e3c-bf31-d835f3a87410"
+      Hint: PromoText
+      Value: |
+        <h6 class="stable-talk">STABLE TALK</h6>
+        <p>For a horse owner, the <strong>wealth of information</strong> available can be overwhelming. <strong>Stable Talk</strong> breaks it down for you with articles, tips and tools and videos.</p>
+    - ID: "18f9beb8-0116-40fd-b47e-fd0a2327d7e0"
+      Hint: PromoIcon
+      Value: |
+        <image mediaid="{1517B222-4E9B-49B3-893F-3B8670A4437C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220804T073101Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6eae1933-d7ec-44ba-91aa-0d4e07903243"
+    - ID: "b8c1a9d2-de76-4519-aff4-1442525f32b0"
+      Hint: PromoLink
+      Value: |
+        <link text="LEARN MORE" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{08E3EC53-E98D-4147-885D-D6C26FD34C49}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220812T103424Z

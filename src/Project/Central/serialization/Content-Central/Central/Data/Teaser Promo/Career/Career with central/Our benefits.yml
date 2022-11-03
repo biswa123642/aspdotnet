@@ -1,0 +1,48 @@
+﻿---
+ID: "247ff605-f284-456e-9ce6-54e16dd84451"
+Parent: "98d4bfbb-2083-472a-a18c-fc91bf1d9337"
+Template: "d1070ed7-b4f7-4c03-b622-f9b5fb072dea"
+Path: /sitecore/content/OneWeb/Central/Data/Teaser Promo/Career/Career with central/Our benefits
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220804T075525Z
+    - ID: "68a9ed16-a3b4-4b4f-b9e8-7b5585772a62"
+      Hint: SecondCTA
+      Value: |
+        <link linktype="internal" text="VIEW LOCATIONS" querystring="" target="" id="{33240B48-9E28-4BA5-9460-B5A9945631E7}" />
+    - ID: "7cf24deb-783d-4e7a-be2d-1c5410b73c66"
+      Hint: FirstCTA
+      Value: |
+        <link linktype="internal" text="LEARN MORE" querystring="" target="" id="{6CB9835B-C48E-4D62-927F-CBB2DD5B4DC6}" />
+    - ID: "81651106-4b95-4713-84df-90a36c488b2f"
+      Hint: TeaserImage
+      Value: |
+        <image mediaid="{F8FCBD77-3EDF-4199-BCE7-7C3456A3576D}" alt="man dog" height="" width="" hspace="" vspace="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "057f8f6e-c9f5-4238-a067-6f91473bcb98"
+    - ID: "93e6482d-fb03-46b2-8e90-1bc13a59230d"
+      Hint: SecondaryTitle
+      Value: |
+        Career<br />
+        Locations
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "ca6a3070-03e0-47cf-ba54-c58f83c49cfa"
+      Hint: Title
+      Value: |
+        Our<br />
+        Benefits
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220902T094224Z

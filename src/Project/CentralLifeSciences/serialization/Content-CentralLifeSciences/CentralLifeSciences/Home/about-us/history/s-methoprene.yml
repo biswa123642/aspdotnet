@@ -1,0 +1,117 @@
+﻿---
+ID: "ad32bd67-3983-420c-824a-9d153550c607"
+Parent: "48c1d9ed-d9da-436a-afcb-8f51ffb87302"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/CentralLifeSciences/Home/about-us/history/s-methoprene"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 10
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{1D84E8A3-A18C-4F3B-A109-40CFAB21286E}"
+          p:before="*"
+          s:ds=""
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles=%7B1E33BCA0-B5B0-4AB1-BD1C-8045B349E383%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4&amp;CacheClearingBehavior=Clear%20on%20publish"
+          s:ph="/main/row-2-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{C62C378B-B265-42A9-93A1-5D173F5C2DD8}"
+          p:after="r[@uid='{1D84E8A3-A18C-4F3B-A109-40CFAB21286E}']"
+          s:ds="{FBF8CE3C-6D76-423B-B40E-DD9222CB279E}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7B1E33BCA0-B5B0-4AB1-BD1C-8045B349E383%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-3-1/container-5"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{F992DF13-3703-480E-AAAF-D940A874F149}"
+          p:after="r[@uid='{C62C378B-B265-42A9-93A1-5D173F5C2DD8}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-3-1" />
+        <r
+          uid="{70847B97-5274-4716-BB8B-7CF530C1A945}"
+          p:after="r[@uid='{F992DF13-3703-480E-AAAF-D940A874F149}']"
+          s:ds="{94E593C0-24FA-4373-BE15-8237EDBD0C6B}"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BAA673467-6127-43D2-8781-4608A0D6EE1C%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{85AF236F-0CEB-4997-B34B-E042DE7C6E83}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220930T105355Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{922779F4-3A4E-4021-98C5-D08EDC4F65A1}" ></image>
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "41b17cd3-d543-4c7c-9bfa-b21765882326"
+      Hint: HeroImageMobile
+      Value: |
+        <image mediaid="{922779F4-3A4E-4021-98C5-D08EDC4F65A1}" ></image>
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "History of (S)-Methoprene"
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Zoëcon was founded with the goal of finding “a more environmentally sensitive way of stopping insects from spreading disease and causing economic damage.”
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <div class="text-wrapper"><p>Our history began more than 50 years ago as public interest increased over the safety of common pesticides. A group of researchers founded Zoëcon (Greek for “life control”) in the late 1960’s with a goal of discovering “a more environmentally sensitive way of stopping insects from spreading disease and causing economic damage. What they developed would revolutionize insect control forever, and would establish the foundation for a comprehensive line of IGR technology that includes methoprene, hydroprene and kinoprene.</p></div>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Zoëcon was founded with the goal of finding “a more environmentally sensitive way of stopping insects from spreading disease and causing economic damage.”
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Central Life Sciences | History of (S)-Methoprene"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: "s-methoprene"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "654b0985-6ae6-45ed-90f4-117e7fee4d9d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: "History of (S)-Methoprene"
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{6C4689E1-89C3-4B13-BAC4-CEC3B1F3C033}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221018T065211Z

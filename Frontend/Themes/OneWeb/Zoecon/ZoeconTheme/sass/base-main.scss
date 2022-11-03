@@ -1,0 +1,346 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+@import "base/fonts/fonts";
+
+html {
+    height: 100%
+}
+
+body {
+    @include robota-sans-serif();
+    line-height: 1.4;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: $primary-color;
+    height: 100%;
+
+    @include respond-to(desktop) {
+        padding-top: 12.6rem;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+div,
+a {
+    color: $primary-color;
+}
+
+.content,
+.rich-text {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    span,
+    div,
+    li {
+        color: $primary-color;
+
+        a,
+        span,
+        em {
+            color: $primary-color;
+            font-size: inherit;
+            font-weight: inherit;
+        }
+    }
+
+    a {
+        color: inherit;
+
+        &:hover {
+            color: inherit;
+        }
+    }
+
+    ul {
+        margin-left: 3.5rem;
+
+        li {
+
+            font-size: 1.6rem;
+            list-style: disc;
+        }
+    }
+
+    h4 {
+        font-size: 2rem;
+
+        a {
+            font-weight: bold;
+        }
+
+        // font-weight: 500;
+        // line-height: 1.1;
+    }
+
+}
+
+.rich-text {
+    h2.secondary {
+        font-size: 3.4rem;
+        font-weight: 500;
+        margin-bottom: 2rem;
+    }
+}
+
+p,
+li,
+.content li {
+    color: $primary-color;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+a {
+    &:hover {
+        color: $primary-color;
+    }
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    color: $primary-color;
+}
+
+h1,
+.content h1 {
+    font-size: 4rem;
+    color: $green;
+    text-transform: uppercase;
+}
+
+.content h2 {
+    color: $green;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+sup {
+    font-size: 75%;
+}
+
+.border-top {
+    >div {
+        border-top: 1px solid $green;
+        padding: 2.5rem 0;
+    }
+}
+
+.border-bottom {
+    >div {
+        border-bottom: 1px solid $green;
+    }
+}
+
+
+.component {
+    &.link {
+        padding: 1.5rem;
+
+        .field-link {
+            a {
+                padding: 1rem 2rem;
+                background-color: $green;
+                font-size: 2rem;
+                font-weight: 700;
+                color: $white;
+                border-radius: 2.4rem;
+                display: inline-block;
+
+                &:hover {
+                    background-color: $button-hover;
+                }
+
+                &:focus {
+                    color: $dark-gray;
+                }
+            }
+        }
+
+        &.calculator {
+            a {
+                font-size: 18px;
+                border: 1px solid #B7B7B7;
+                border-radius: 9px;
+                padding: 10px;
+                background-color: transparent;
+                color: #434343;
+                font-weight: normal;
+                text-transform: uppercase;
+                &:hover,&:active,&:focus,&:visited{
+                    background-color: transparent;
+                }
+
+                &::after {
+                    content: url("../images/external-link.png");
+                    width: 29px;
+                    height: 29px;
+                    display: inline-block;
+                    margin-left: 10px;
+                    vertical-align: text-bottom;
+                }
+            }
+        }
+    }
+}
+
+.btn-wrap {
+    margin-bottom: 2rem;
+
+    a {
+        padding: 1rem 2rem;
+        background-color: $green;
+        font-size: 2rem;
+        font-weight: 700;
+        color: $white;
+        border-radius: 2.4rem;
+        display: inline-block;
+
+        &:hover {
+            background-color: $button-hover;
+        }
+    }
+}
+
+@include respond-to(desktop) {
+    .border-left {
+        border-left: 2px solid $green;
+    }
+
+    h1 {
+        font-size: 4rem;
+        color: $green;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        color: $green;
+    }
+
+    .component {
+        &.content {
+            h1 {
+                color: $green;
+            }
+
+        }
+    }
+
+    .col {
+        &.secondary {
+            padding-left: 7rem !important;
+        }
+    }
+}
+
+.where-to-buy {
+    display: none !important;
+}
+
+.indent-top-sm {
+    padding-top: 1rem;
+}
+
+button {
+    @include robota-sans-serif();
+}
+
+.search-wrapper::before {
+    background-color: transparent;
+}
+
+.slick-prev,
+.slick-next {
+
+    &:after,
+    &:before {
+        color: $black;
+        display: inline-block;
+        font-size: 1.8rem;
+        font-weight: normal;
+
+    }
+}
+
+@include respond-to(tab) {
+    .indent-top {
+        padding-top: 4rem;
+    }
+}
+
+body:not(.on-page-editor) {
+    iframe {
+        width: 100%;
+        min-height: 15rem;
+
+        @include respond-to(desktop) {
+            min-height: 35rem;
+        }
+    }
+}
+
+main {
+    @include respond-to(desktop) {
+        min-height: 30rem;
+    }
+
+    @include respond-to(extra-large-desktop) {
+        min-height: 66rem;
+    }
+}
+
+.template--zoecon2-na-interactive-van {
+    main {
+        @include respond-to(desktop) {
+            min-height: 40rem;
+        }
+
+        @include respond-to(extra-large-desktop) {
+            min-height: 79rem;
+        }
+    }
+}
+
+.scroll-button-wrap {
+    .to-top {
+        padding: .5rem;
+
+        @include respond-to (tab) {
+            padding: 1rem;
+            width: 7rem;
+        }
+    }
+}

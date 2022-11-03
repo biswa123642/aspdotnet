@@ -1,0 +1,22 @@
+.component{
+    &.utility-navigation{
+        &.image-brand-listing{
+            margin: auto;
+            max-width: 940px;
+            .listing-wrapper{
+                flex-wrap: nowrap;
+            }
+            .brand-img-holder{     
+                padding: 1.5rem 3rem;
+                img{
+                    text-align: center;
+                    max-width: 9rem;
+                    margin: auto;
+                }
+            }
+            .component-content>div{
+                justify-content: center;
+            }
+        }
+    }
+}

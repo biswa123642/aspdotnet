@@ -1,0 +1,68 @@
+.join-club{
+    .join-club-icons{
+        a{
+            &.club-icon-facebook{
+                background-image: url("../images/social-icons.png");
+                display: inline-block;
+                width: 49px;
+                height: 49px;
+                background-position: 0 0;
+            }
+            &.club-icon-instagram{
+                background-image: url("../images/social-icons.png");
+                display: inline-block;
+                width: 49px;
+                height: 49px;
+                background-position: -57px 0;
+
+            }
+            &.club-icon-twitter{
+                background-image: url("../images/social-icons.png");
+                display: inline-block;
+                width: 49px;
+                height: 49px;
+                background-position: -114px 0;
+
+            }
+            &.club-icon-youtube{
+                background-image: url("../images/social-icons.png");
+                display: inline-block;
+                width: 49px;
+                height: 49px;
+                background-position: -171px 0;
+
+            }
+            &.club-icon-pinterest{
+                background-image: url("../images/social-icons.png");
+                display: inline-block;
+                width: 49px;
+                height: 49px;
+                background-position: -284px 0;
+
+            }
+        }
+    }
+}
+
+.club-button{
+    a{
+        color: white;
+    text-decoration: none;
+    width: 100%;
+    max-width: 32.8rem;
+    height: 7.7rem;
+    font-size: 4rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    border-radius: 2rem;
+    min-width: 100px;
+    padding: 0px 25px;
+    border-color: #f47523;
+    background-color: #f47523;
+    display: inline-block;
+    border-bottom-right-radius: inherit;
+    border-bottom-left-radius: inherit;
+    text-align: center;
+    margin-bottom: 1px;
+    }
+}

@@ -1,0 +1,151 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.teaser-promo {
+    &.variant-1 {
+      figure {
+        min-height: 55rem;
+        order: 1;
+        background-position: center;
+        background-size: cover;
+        max-width: 92%;
+        margin: 1rem auto;
+
+        .inner-wrap {
+          padding: 2rem 0;
+          display: flex;
+          justify-content: center;
+          .field-description {
+            text-align: center;
+            h2 {
+              font-size: 3.2rem;
+              font-weight: 700;
+              color: $yellow-heading !important; //to override default
+              text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.85);
+            }
+            p {
+              font-size: 3.2rem;
+              font-weight: 700;
+              text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.85);
+              @include Arvo-font-stack();
+            }
+          }
+
+          .bottom-link {
+            position: absolute;
+            bottom: 8%;
+            .sxa-btn {
+              margin-right: auto;
+              a {
+                font-size: 2rem;
+                font-weight: 700;
+                color: $black !important; //to override default
+                text-transform: uppercase;
+                background-color: $btn-yellow-primary;
+                border-color: transparent !important; //to override default
+                background: linear-gradient(
+                  $btn-yellow-primary,
+                  $btn-yellow-secondary
+                );
+                border-radius: 4px;
+                padding: 1rem 3rem;
+                @include Arial-font-stack();
+              }
+            }
+          }
+        }
+      }
+      .content-right {
+        background-color: $gray-bg;
+        height: 80rem;
+        order: 2;
+        max-width: 92%;
+        margin: 1rem auto;
+
+        .inner-wrap {
+          position: relative;
+          top: auto;
+          left: auto;
+          transform: none;
+          padding: 2rem;
+          h1 {
+            font-size: 3.6rem;
+            font-weight: 500;
+            color: $text-title-primary;
+          }
+          p {
+            max-width: 38rem;
+            margin: auto;
+          }
+          h3 {
+            a {
+              font-size: 2.4rem;
+              @include Yanone-font-stack();
+            }
+          }
+          ul {
+            li {
+              font-size: 1.6rem;
+              list-style-type: disc;
+              margin-left: 4rem;
+              color: $para-color;
+            }
+          }
+        }
+      }
+    }
+
+    @include respond-to(tab) {
+      &.variant-1 {
+        figure {
+          min-height: 90rem;
+
+          .inner-wrap {
+            .field-description {
+              h2 {
+                font-size: 4rem;
+              }
+              p {
+                font-size: 4rem;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    @include respond-to(desktop) {
+      &.variant-1 {
+        figure {
+          min-height: 80rem;
+          max-width: 49%;
+          margin-right: 1rem;
+          order: 2;
+
+          .inner-wrap {
+            .field-description {
+              h2 {
+                font-size: 6rem;
+              }
+            }
+
+            .bottom-link {
+              .sxa-btn {
+                a {
+                  padding: 1rem 6rem;
+                }
+              }
+            }
+          }
+        }
+        .content-right {
+          max-width: 49%;
+          margin-left: 1rem;
+          order: 1;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,341 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.header-shell {
+    &.variant-2 {
+      background: linear-gradient($header-bg, $anchor-primary);
+
+      .wrapper {
+        .wrapper-nav {
+          background-color: transparent;
+          padding: 0;
+        }
+      }
+
+      .image {
+        img {
+          position: absolute;
+          max-width: 9rem;
+          z-index: 1;
+          top: 0;
+        }
+      }
+
+      .search-box {
+        &.active {
+          display: none;
+        }
+      }
+
+      .component {
+        &.plain-html {
+          .hamburger {
+            padding: 1rem;
+            background: transparent;
+
+            .icon-bar {
+              height: 3px;
+              width: 2.5rem;
+              margin: 5px 0;
+            }
+          }
+        }
+      }
+
+      &.active {
+        .component {
+          &.plain-html {
+            .hamburger {
+              .icon-bar {
+                &:first-child {
+                  transform: rotateZ(45deg) translate(6px, 6px);
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .header-global-menu {
+        padding: 3rem 0;
+        ul {
+          &.items {
+            padding: 0;
+            margin-bottom: 0;
+            li {
+              &.item {
+                padding: 1.6rem 2rem;
+                background: linear-gradient(
+                  $anchor-primary,
+                  $text-secondary
+                );
+                &:hover {
+                  ul {
+                    &.sub-menu-list {
+                      li {
+                        &.sub-menu-item {
+                          a {
+                            font-size: 1.4rem;
+                            font-weight: 700;
+                            color: $white;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                div {
+                  &.has-sublist {
+                    &:before {
+                      color: $white;
+                    }
+                  }
+                }
+                a {
+                  color: $white;
+                  font-size: 1.6rem;
+                  text-transform: uppercase;
+                  padding-right: 62%;
+                }
+              }
+            }
+          }
+        }
+
+        .top-nav-clone {
+          .list-wrap {
+            justify-content: flex-start;
+            padding: 1.6rem 2rem;
+            background: linear-gradient(
+              $anchor-primary,
+              $text-secondary
+            );
+            .list-item {
+              a {
+                padding: 0;
+                font-size: 1.6rem;
+                font-weight: 700;
+                color: $white;
+                text-transform: uppercase;
+                padding-right: 14rem;
+              }
+            }
+          }
+        }
+
+        .component {
+          &.search-box {
+            display: block;
+            position: relative;
+            top: 0;
+            background: linear-gradient(
+              $anchor-primary,
+              $text-secondary
+            );
+
+            .search-wrapper {
+              &::before {
+                background: none;
+              }
+              .search-input-wrapper {
+                input {
+                  width: 90%;
+                  border-radius: 5px;
+                }
+                .custom-search-box-button {
+                  right: -1rem;
+                  filter: invert(1);
+                }
+              }
+            }
+          }
+        }
+      }
+
+      @include respond-to(tab) {
+        .header-global-menu {
+          .component {
+            &.search-box {
+              .search-wrapper {
+                .search-input-wrapper {
+                  input {
+                    width: 94%;
+                  }
+                }
+              }
+            }
+          }
+
+          .top-nav-clone {
+            .list-wrap {
+              .list-item {
+                a {
+                  padding-right: 50rem;
+                }
+              }
+            }
+          }
+
+          ul {
+            &.items {
+              li {
+                &.item {
+                  a {
+                    padding-right: 80%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      @include respond-to(tab-only) {
+        .wrapper {
+          .wrapper-nav > div {
+            max-width: initial;
+          }
+        }
+      }
+
+      @include respond-to(desktop) {
+        background: none;
+        .image {
+          img {
+            max-width: 16rem;
+            top: -1rem;
+          }
+        }
+
+        .utility-navigation {
+          padding: 1rem 0;
+          .component-content > div {
+            justify-content: flex-end;
+          }
+          .top-nav {
+            .list-wrap {
+              .list-item {
+                a {
+                  color: $anchor-primary;
+                  font-size: 1.6rem;
+                  font-weight: 700;
+                  text-transform: none;
+                }
+              }
+            }
+          }
+        }
+
+        .wrapper-nav {
+          background: linear-gradient($header-bg, $anchor-primary);
+        }
+
+        .header-global-menu {
+          padding: 0 2rem;
+          ul {
+            &.items {
+              justify-content: flex-end;
+              padding: 0 3rem;
+              li {
+                &.item {
+                  padding: 2.4rem 3rem;
+                  border-right: 1px solid $white;
+                  background: none;
+                  &:hover {
+                    background-color: rgba(255, 255, 255, 0.3);
+                    ul {
+                      &.sub-menu-list {
+                        display: block;
+                        top: 7.2rem;
+                        background-color: rgba(255, 255, 255, 0.9);
+                        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.18);
+                        padding: 0;
+                        border: none;
+
+                        li {
+                          &.sub-menu-item {
+                            padding: 0 3rem;
+                            a {
+                              color: $text-secondary;
+                              font-size: 1.4rem;
+                              font-weight: 700;
+                            }
+                            &:hover {
+                              background: $anchor-primary;
+                              a {
+                                color: $white;
+                                text-decoration: none;
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+
+                  div {
+                    &.has-sublist {
+                      line-height: $line-height;
+                      &:before {
+                        display: none;
+                      }
+                    }
+                  }
+                  a {
+                    font-size: 1.6rem;
+                    font-weight: 400;
+                    text-transform: none;
+                    padding-right: 0;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .component {
+          &.search-box {
+            .search-holder {
+              .search-input-wrapper {
+                min-height: 2rem;
+                input {
+                  display: none;
+                }
+                .custom-search-box-button {
+                  filter: invert(1);
+                  top: 4px;
+                  height: 3rem;
+                }
+              }
+            }
+            &.active {
+              display: block;
+              .search-input-wrapper {
+                input {
+                  display: block;
+                  position: absolute;
+                  top: 5.8rem;
+                  right: 0;
+                  width: 20rem;
+                  background: $white;
+                  color: $para-color;
+                  font-size: 1.4rem;
+                  border-width: 0.5rem 1.6rem;
+                  border-color: $header-bg;
+                  border-radius: 5px;
+                  padding: 5px;
+
+                  &::placeholder {
+                    opacity: 0;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

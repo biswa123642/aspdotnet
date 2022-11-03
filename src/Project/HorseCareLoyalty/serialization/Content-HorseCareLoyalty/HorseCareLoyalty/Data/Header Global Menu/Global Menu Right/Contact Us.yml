@@ -1,0 +1,54 @@
+﻿---
+ID: "a5cfe8af-0623-464f-b839-9fab1b478c55"
+Parent: "67a70edb-7d99-4cfc-bdf4-cbbcf51e8f38"
+Template: "e229ce6c-561d-41d9-b521-efbf47d00b6c"
+Path: /sitecore/content/OneWeb/HorseCareLoyalty/Data/Header Global Menu/Global Menu Right/Contact Us
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F75C8541-EAE2-45C8-873D-ABE4A09CCD3A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220222T121231Z
+    - ID: "2d366fb9-cb2f-48ab-bafa-c29c581934c5"
+      Hint: Link
+      Value: |
+        <link text="Contact Us" linktype="external" url="https://horsecareloyalty.pmcprograms.com/loyalty/contact-inquiries/add" anchor="" target="" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5d4cbb2b-01a0-487c-818a-91c02f8d36eb"
+      Hint: SocialMedia
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d980ba8f-26d9-4cd6-a6fc-5287b04008af"
+    - ID: "b6784c02-1bfd-4ff8-951e-8fef2cdf0739"
+      Hint: HasSubMenu
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220913T112446Z
+    - ID: "da4a38f8-b6a8-4d5b-bd9a-558a390c7907"
+      Hint: SubMenuSize
+      Value: "submenu-small"
+    - ID: "ee777b39-bab4-4c63-94b2-4f49ba9456f2"
+      Hint: WhereToBuyLink
+      Value: 

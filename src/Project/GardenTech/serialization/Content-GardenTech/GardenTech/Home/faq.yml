@@ -1,0 +1,225 @@
+﻿---
+ID: "f518def9-e8f9-4876-8d5a-4e34c212da4b"
+Parent: "54d6fc8d-a828-4540-84dc-b293453dbdcf"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: /sitecore/content/OneWeb/GardenTech/Home/faq
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{1124B4F9-ECA1-47F4-95D1-0ABA7A373E9F}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 225
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{180FA805-5E3C-465E-B2B8-A63EB417FC0D}"
+          p:before="*"
+          s:ds="page:"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BFFF92AD1-B9FF-4ED0-9316-F18C1B5B5508%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=30"
+          s:ph="/main/container-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{0B35A8DA-A19E-459E-909B-C92519266868}"
+          p:after="r[@uid='{180FA805-5E3C-465E-B2B8-A63EB417FC0D}']"
+          s:ds=""
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%3E&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BB4997E04-77C7-4A6A-AC1B-0560D1972001%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=31"
+          s:ph="/main/container-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{56BBFB82-0142-4DF6-ADAF-2B8409241832}"
+          p:after="r[@uid='{0B35A8DA-A19E-459E-909B-C92519266868}']"
+          s:ds="{84EF53B7-CDBE-4D06-B492-1223421A6093}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B5CD82222-7F28-4A81-BA92-878AB2B8D251%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
+          s:ph="/main/container-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{E4431042-0F06-4215-9CCC-7C67D3693991}"
+          p:after="r[@uid='{56BBFB82-0142-4DF6-ADAF-2B8409241832}']"
+          s:ds="{81BA8834-2E00-4D80-A68E-97F9818F364B}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B5CD82222-7F28-4A81-BA92-878AB2B8D251%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=12"
+          s:ph="/main/container-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{6B42BFA8-DE7B-4EC0-8BA3-0B583300D4AE}"
+          p:after="r[@uid='{E4431042-0F06-4215-9CCC-7C67D3693991}']"
+          s:ds="{1703B112-1FC0-498F-853E-A7C48421B6E2}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B5CD82222-7F28-4A81-BA92-878AB2B8D251%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=14"
+          s:ph="/main/container-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{5E8C08D3-4B11-4A8A-9789-20D03A55B007}"
+          p:after="r[@uid='{6B42BFA8-DE7B-4EC0-8BA3-0B583300D4AE}']"
+          s:ds="{E573E339-CA32-4588-9474-3215A3BF20C3}"
+          s:id="{DEE8DDA7-AF00-48F6-9C60-19AB73EBA80D}"
+          s:par="EasingFunction=Swing&amp;Speed=500&amp;CanOpenMultiple&amp;CanToggle=1&amp;ExpandedByDefault=1&amp;ExpandOnHover&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=26"
+          s:ph="/main/container-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{2E97BF0E-BEC3-4AD2-BEA5-FD850240EE8A}"
+          p:after="r[@uid='{5E8C08D3-4B11-4A8A-9789-20D03A55B007}']"
+          s:ds="{591EF21E-E29E-4A03-B659-772342F86629}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B5CD82222-7F28-4A81-BA92-878AB2B8D251%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=16"
+          s:ph="/main/container-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{E204BDCA-7E93-43F5-A671-6BA67B806DA1}"
+          p:after="r[@uid='{2E97BF0E-BEC3-4AD2-BEA5-FD850240EE8A}']"
+          s:ds="{343AE93F-D279-412B-ACF6-4E6EBF0B118C}"
+          s:id="{DEE8DDA7-AF00-48F6-9C60-19AB73EBA80D}"
+          s:par="EasingFunction=Swing&amp;Speed=500&amp;CanOpenMultiple&amp;CanToggle=1&amp;ExpandedByDefault=1&amp;ExpandOnHover&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=27"
+          s:ph="/main/container-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{52C4D44F-71F6-4479-A6F3-76A682411102}"
+          p:after="r[@uid='{E204BDCA-7E93-43F5-A671-6BA67B806DA1}']"
+          s:ds="{A2A1896D-FFA3-4FC0-B380-FD596800B302}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B5CD82222-7F28-4A81-BA92-878AB2B8D251%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=18"
+          s:ph="/main/container-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{3E5C1516-1E8F-41C6-B562-A966AA18FA34}"
+          p:after="r[@uid='{52C4D44F-71F6-4479-A6F3-76A682411102}']"
+          s:ds="{5D66BCFC-0721-44FD-B830-882D856FE93C}"
+          s:id="{DEE8DDA7-AF00-48F6-9C60-19AB73EBA80D}"
+          s:par="EasingFunction=Swing&amp;Speed=500&amp;CanOpenMultiple&amp;CanToggle=1&amp;ExpandedByDefault=1&amp;ExpandOnHover&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=28"
+          s:ph="/main/container-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{37F6460F-D4D1-476C-A5DC-0DB877D8BABB}"
+          p:after="r[@uid='{3E5C1516-1E8F-41C6-B562-A966AA18FA34}']"
+          s:ds="{469A525A-3EDE-4212-AE85-0967BA9FE6D6}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B5CD82222-7F28-4A81-BA92-878AB2B8D251%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=20"
+          s:ph="/main/container-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{2DD4C973-19D9-4889-A8DF-52CFB7C30465}"
+          p:after="r[@uid='{37F6460F-D4D1-476C-A5DC-0DB877D8BABB}']"
+          s:ds="{6DD7DECB-B897-4829-BE4B-640B7476F90E}"
+          s:id="{DEE8DDA7-AF00-48F6-9C60-19AB73EBA80D}"
+          s:par="EasingFunction=Swing&amp;Speed=500&amp;CanOpenMultiple&amp;CanToggle=1&amp;ExpandedByDefault=1&amp;ExpandOnHover&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=29"
+          s:ph="/main/container-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{1D01F2DA-72DD-49F4-BA70-51F3793F6B74}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220505T093924Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{2F1A875D-FECB-4608-8E5A-AC24E39A7FEB}" alt="FAQ header" height="" width="" hspace="" vspace="" />
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "363cfc7c-aff0-4d45-8a1f-11c311fd36bc"
+      Hint: ShowTextWithOverlay
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Frequently Asked Questions
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "Answers to frequently asked questions about Sevin, Over'n Out! Advanced, Daconil, and RootBoost."
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Frequently Asked Questions | GardenTech®
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Frequently Asked Questions | GardenTech®
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9eb744ad-be20-4c62-89cf-6aa46cc68e4e"
+    - ID: "9bf7a7f6-34f8-4c38-a3d7-2fd0470518b1"
+      Hint: HideInSearchResults
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220728T125019Z
+- Language: es
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220622T082133Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{2F1A875D-FECB-4608-8E5A-AC24E39A7FEB}" alt="FAQ header" height="" width="" hspace="" vspace="" />
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Preguntas frecuentes
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "Respuestas a las preguntas frecuentes acerca de Sevin, Over'n Out! Advanced, Daconil y RootBoost."
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Preguntas frecuentes
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Preguntas frecuentes
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6396d3e0-ef35-4186-bcb6-30f6f2e7025c"
+    - ID: "9bf7a7f6-34f8-4c38-a3d7-2fd0470518b1"
+      Hint: HideInSearchResults
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220728T125030Z

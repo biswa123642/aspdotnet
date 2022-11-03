@@ -1,0 +1,128 @@
+﻿---
+ID: "92b0b295-22b1-41b4-89df-31cf4cc6e21d"
+Parent: "feca9eff-bf0e-45fc-8c52-72069df4ed20"
+Template: "bc41b87d-2a9b-4689-9f51-80bb5b31a6e7"
+Path: "/sitecore/content/OneWeb/CentralLifeSciences/Home/all-products/canada"
+SharedFields:
+- ID: "76fb6ffd-4487-4028-a1cf-705fbe360cba"
+  Hint: Priority
+  Value: "{19F3E919-4991-495F-9207-E1DADFD06F54}"
+- ID: "d4952280-2d7d-4bf4-a99a-ea36dad0f0a7"
+  Hint: Body Css Class
+  Value: "product-detail"
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: "{B974F164-293C-4F50-AA86-73ACFA32CD73}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        p:after="*[1=2]">
+        <r
+          uid="{D1868508-426C-44DE-B78B-0E2FE709EC11}"
+          p:before="*"
+          s:ds="local:/Data/MCCT Row 1"
+          s:id="{8CECDF2B-DC7E-4E39-A959-94E68B752646}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B76B07833-F346-40B8-B151-4D46A7DBAB3A%7D&amp;Styles=%7BA04A3138-7802-4D3E-BDBA-5686466D1AEA%7D%7C%7B247DD32C-4A26-4D36-B4D8-A8FC94FC9944%7D&amp;GridClass&amp;TextAlign&amp;ImageAlign&amp;ShowOverlay&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-3-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{0E4D89F7-88A9-427F-A399-1851F73A0936}"
+          p:after="r[@uid='{D1868508-426C-44DE-B78B-0E2FE709EC11}']"
+          s:ds=""
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles=%7B69D209DD-5FA5-49C5-AE9D-D462BB26C34D%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-2-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{1F3BD298-D11E-4010-B5A2-3D11F84D3013}"
+          p:after="r[@uid='{0E4D89F7-88A9-427F-A399-1851F73A0936}']"
+          s:ds="local:/Data/Hero Banner"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BAA673467-6127-43D2-8781-4608A0D6EE1C%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-1-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{CE850DAF-84E3-4377-99E0-0BD511C5D324}"
+          p:after="r[@uid='{1F3BD298-D11E-4010-B5A2-3D11F84D3013}']"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+        <r
+          uid="{CFC08DF9-3D12-4FA7-9553-BF54B2929C28}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/MCCT Row 2"
+          s:id="{8CECDF2B-DC7E-4E39-A959-94E68B752646}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B76B07833-F346-40B8-B151-4D46A7DBAB3A%7D&amp;Styles=%7BA04A3138-7802-4D3E-BDBA-5686466D1AEA%7D%7C%7B74365068-8850-47B6-9F0E-C9C486614147%7D%7C%7B3763784D-ED52-416E-8BCF-532C3D136FD5%7D&amp;GridClass&amp;TextAlign&amp;ImageAlign&amp;ShowOverlay&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/row-3-1"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02a41838-168c-4858-bafd-f0031b877ddc"
+      Hint: ProductAttributes
+      Value: "{77126BCF-0AA4-41C7-B752-338636A8BD8C}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220926T073809Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Canada Products
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Protect your home from flea and tick infestations with our proven lineup of insect control solutions for cat, dog and home insect control.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <div class="text-wrapper"><p>Central Life Sciences/Canadian Division manufactures and markets some of the most recognized professional and consumer brands in the pet specialty, veterinary, specialty pest control and public health/vector control markets for over 40 years.</p></div>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Protect your home from flea and tick infestations with our proven lineup of insect control solutions for cat, dog and home insect control.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Central Life Sciences | Canada
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Canada Products
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "171a23aa-179b-48b8-8a41-74021be6d72a"
+    - ID: "ab818f97-8aa8-4d81-9e70-29c2d400c1fb"
+      Hint: RenderCanonicalTag
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "ca373527-0c18-4282-83b0-121b8a197598"
+      Hint: LongTitle
+      Value: Canada Products
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221020T082018Z

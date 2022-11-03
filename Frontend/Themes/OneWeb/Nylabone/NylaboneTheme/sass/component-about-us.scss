@@ -1,0 +1,20 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+@import "base/fonts/fonts";
+@import "base/fontawesome/font-awesome";
+
+.component {
+  @import "variants/component-about-us/variant-1.scss";
+  @import "variants/component-about-us/variant-2.scss";
+  &.rich-text {
+    .about-us {
+      @import "variants/component-about-us/variant-3.scss";
+      @import "variants/component-about-us/variant-4.scss";
+      @import "variants/component-about-us/variant-5.scss";
+      @import "variants/component-about-us/variant-6.scss";
+      @import "variants/component-about-us/variant-7.scss";
+      @import "variants/component-about-us/variant-8.scss";
+    }
+  }
+}

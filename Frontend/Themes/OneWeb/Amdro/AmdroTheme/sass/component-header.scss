@@ -1,0 +1,790 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+
+
+#header {
+    padding-top: 9.2rem;
+    @include respond-to(tab) {
+        padding-top: 10.1rem;
+    }
+    @include respond-to(desktop) {
+        padding-top: 11.6rem;
+    }
+}
+
+.component {
+    &.header-shell {
+
+        &.variant-2 {
+            background-color: $header-bg;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 999;
+            min-height: 9.2rem;
+
+            @include respond-to(desktop) {
+                min-height: auto;
+            }
+
+            
+            .inner-wrap {
+                padding: 0 1.5rem;
+
+            }
+            .wrapper{
+                .wrapper-nav{
+                    background-color: transparent;
+                }
+            }
+
+            /*========================================
+                    Header Logo
+            ==========================================*/
+            .logo-container {
+                
+                .file-type-icon-media-link {
+                    a {
+                        width: 12.5rem;
+                        margin: 24px 0 0 12px;
+                        height: 6.6rem;
+                        position: relative;
+                        z-index: 99;
+                        @include respond-to(desktop) {
+                            width: 16.5rem;
+                            margin: 7px 0 0 5px;
+                        }
+
+                        img {
+                            max-width: 100%;
+                            padding: 0;
+
+                        }
+                    }
+                }
+
+                +div {
+                    @include respond-to(mobile) {
+                        position: static;
+                    }
+
+                }
+            }
+
+            /*========================================
+                    Search Box
+            ==========================================*/
+
+            .search-box {
+                width: 100%;
+                max-width: 55.5rem;
+                padding: 0;
+                display: block !important;
+                padding-left: 1.5rem;
+                padding-right: 1.5rem;
+                
+                transition: ease-in-out 150ms;
+                position: static;
+                background-color: transparent;
+
+                @include respond-to(tab) {
+                    min-height: 3.7rem;
+                    margin-top: 7px !important; 
+                    margin-left: -3rem;                   
+                }
+
+                @include respond-to(desktop) {
+                    margin-top: 2.2rem !important;
+                    margin-left: -5.5rem;
+                }
+
+                @include respond-to(below-tab) {
+                    max-width: 100%;
+                }
+                @include respond-to(mobile) {                   
+                    margin-top: 0px !important;
+                }
+                .component-content {
+                    display: block;
+
+                }
+
+                .global-search-wrapper {
+                    @include respond-to(tab){
+                        display: block !important;
+                    }
+                    @include respond-to(mobile) {
+                        position: absolute;
+                        top: 100%;
+                        width: calc(100% - 30px);
+                        left: 0;
+                        right: 0;
+                        margin: 0 auto;
+                        background: #fff;
+                        box-shadow: 0px 3px 6px #b19c9c29;
+                        padding: 8px 15px; 
+                        display: none;                      
+                    }
+                }
+                &.active{
+                    .global-search-wrapper{
+                        display: block;
+                    }
+                }
+
+                .search-wrapper {
+                    padding: 0 6px;
+                    border: 2px solid $search-border-mobile;
+                    max-width: 53rem;
+                    margin: auto;
+
+                    @include respond-to(tab) {
+                        border: 2px solid $search-border;
+                        max-width: 100%;
+
+                    }
+
+                    &:before {
+                        display: none;
+                    }
+                    .ui-autocomplete.global-search-sugest {
+                        max-width: 80%;
+                        font-size: 14px;
+                        background-color: #fff;
+                        border: 1px solid #ccc;
+                        border: 1px solid #00000026;
+                        border-radius: 4px;
+                        -webkit-box-shadow: 0 6px 12px #0000002d;
+                        box-shadow: 0 6px 12px #0000002d;
+                        overflow-y: auto;
+                        max-height: 65vh;
+                        li.ui-menu-item:hover,
+                        .ui-state-active,
+                        li.ui-menu-item {   
+                            text-align: left;     
+                            font-family: 'Montserrat', sans-serif;
+                            font-weight: 500 ;      
+                            font-size: 14px;
+                            color: #333;
+                        }
+                    }
+                }
+
+                .search-input-wrapper {
+                    &:before {
+                        content: '';
+                        width: 0.2rem;
+                        height: 2.2rem;
+                        position: absolute;
+                        background-color: $search-border-mobile;
+                        top: 50%;
+                        right: 3.1rem;
+                        -webkit-transform: translateY(-50%);
+                        -khtml-transform: translateY(-50%);
+                        -moz-transform: translateY(-50%);
+                        transform: translateY(-50%);
+                        z-index: 5;
+
+                        @include respond-to(tab) {
+                            background-color: $search-border;
+                        }
+                    }
+
+                    input {
+                        display: block;
+                        background: 0 0;
+                        border: none;
+                        line-height: 3.1rem;
+                        padding: 1px 4rem 1px 2px;
+                        color: $Search-input-mobile-color;
+                        @include Montserrat-font-stack();
+                        font-weight: 500;
+                        font-size: 1.4rem;
+                        box-shadow: none;
+                        @include respond-to(tab){
+                            color: $Search-input-color;
+                        }
+
+                        &::-moz-placeholder {
+                            color: $input-placeholder;
+                            opacity: 1;
+                        }
+
+                        &:-ms-input-placeholder {
+                            color: $input-placeholder;
+                        }
+
+                        &::-webkit-input-placeholder {
+                            color: $input-placeholder;
+                        }
+                    }
+
+                    .custom-search-box-button {
+                        background-image: url(../images/search-icon.png);
+                        background-size: 1.8rem 1.9rem;
+                        opacity: 1;
+                        position: absolute;
+                        margin: 0;
+                        width: 3.3rem;
+                        height: 3.3rem;
+                        right: -0.3rem;
+                        top: 0;
+
+                        @include respond-to(mobile) {
+                            filter: brightness(0);
+                            top: 0;
+                        }
+                    }
+
+                }
+            }
+
+            /*========================================
+                    Header Utility Contact link
+            ==========================================*/
+            .utility-navigation {
+                margin-top: 2.2rem;
+                padding-left: 1.5rem;
+
+                .top-nav {
+                    .list-wrap {
+                        .list-item {
+                            a {
+                                font-size: 1.6rem;
+                                @include Montserrat-font-stack();
+                                font-weight: 900;
+                                line-height: 3.7rem;
+                                text-transform: uppercase;
+                                color: $Utility-contact-color;
+                                padding: 0 37px;
+                                position: relative;
+                                transition: filter ease-in-out 150ms;
+                                display: block;
+
+                                &:before {
+                                    content: '\f086';
+                                    font-weight: 400;
+                                    font-family: 'Font Awesome 5 Free';
+                                    margin-right: 0.9rem;
+                                    color: $Utility-contact-icon;
+                                    font-size: 2.1rem;
+                                    vertical-align: middle;
+                                    display: block;
+                                    height: 100%;
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 4.5rem;
+                                    text-align: center;
+
+                                }
+
+                                &:hover {
+                                    color: $Utility-contact-hover-color;
+                                    text-decoration: none;
+                                    -webkit-filter: grayscale(100%);
+                                    -khtml-filter: grayscale(100%);
+                                    -moz-filter: grayscale(100%);
+                                    filter: grayscale(100%);
+                                    color: $Utility-contact-color-hover;
+                                }
+
+
+                            }
+                        }
+                    }
+                }
+            }
+
+            /*========================================
+                    Header Navigation
+            ==========================================*/
+            .component {
+                &.page-list {                    
+
+                    @include respond-to(desktop) {
+                        display: block !important;
+                    }
+
+                    &.variant-1 {
+                        padding-right: 1.5rem;
+                        padding-left: 1.5rem;
+                        margin-top: 0;
+
+                        @include respond-to(below-tab) {
+                            max-width: 237px;
+                            position: absolute;
+                            right: 0;
+                            top: 100%;
+                            z-index: 10;
+                            max-height: calc(100vh - 92px);
+                            overflow-y: scroll;
+                            -ms-overflow-style: none;
+                            padding: 0;
+                        }
+
+                        @include respond-to(desktop) {
+                            margin-left: -55px;
+                        }
+
+                        >.component-content {
+                            @include respond-to(below-tab) {
+                                display: flex;
+                                justify-content: flex-end;
+                            }
+
+                        }
+
+                        ul.items {
+                            justify-content: flex-start;
+                            float: none;
+                            min-width: auto;
+                            margin-bottom: -1px;
+                            position: relative;
+                            @include respond-to(below-tab) {
+                                background-color: $white-color;
+                                padding: 8px 6px 50px 0;   
+                                border-top: 1px solid #e7e7e7;                             
+                            }
+
+                            >.item {
+                                display: block;                                
+                                @include respond-to(desktop) {
+                                    display: inline-block;
+                                }
+                                @include respond-to(below-tab) {
+                                    padding: 0;
+                                    border: none;
+                                    text-align: right;
+                                }
+
+                                >a {
+                                    font-size: 1.6rem;
+                                    color: $navigation-level1-mobile-color;
+                                    @include Montserrat-font-stack();
+                                    text-transform: uppercase;
+                                    font-weight: 600;
+                                    line-height: 2.25;
+                                    padding: 0 2rem;
+                                    display: inline-block;
+                                    border-bottom: none;
+
+                                    @include respond-to(desktop) {
+                                        color: $navigation-level1-color;
+                                        padding: 0px 1.3rem;
+                                        line-height: 3.5;
+                                        font-weight: 900;
+                                    }
+                                }
+                                &.has-submenu-list{  
+                                    &::before{
+                                        content: url("../images/red-arrow.svg");
+                                        display: none;
+                                        top: 45%; 
+                                        right: 8px;
+                                    }                                                                     
+                                    >a{
+                                        @include respond-to(below-tab){
+                                            padding: 0;
+                                        }                                        
+                                    }
+                                    &::after{
+                                        content: url("../images/red-arrow.svg");
+                                        padding: 0 2rem 0 1rem;              
+                                    }
+                                    
+                                    &.open{                                       
+                                        
+                                        &::after{
+                                            transform: rotate(-180deg);
+                                            position: absolute;
+                                            top: 1rem;
+                                            right: 1rem;
+                                            filter: grayscale(100%) brightness(0);
+                                        }
+                                        .submenu-utility-linklist{
+                                            display: block;
+                                        }
+                                        >a {
+                                            @include respond-to(below-tab) {
+                                            font-weight: 900;
+                                            padding-right: 4rem;
+                                            }
+                                        }
+                                    }
+                                    @include respond-to(desktop){
+                                        overflow: initial;
+                                        padding-right: 1rem;
+                                        &::after{
+                                            display: none;
+                                        }
+                                        &:before{
+                                            display: block;
+                                        }
+                                        &:hover{
+                                            &::before{
+                                                display: block;
+                                                transform: rotate(-180deg);                                            
+                                                filter: grayscale(100%) brightness(0);
+                                                top: 40%;                                                
+                                            }
+                                            .submenu-utility-linklist{
+                                                display: block;
+                                            }
+                                        }
+                                    }
+                                }
+                               
+                                // .dropdown-toggle {
+                                //     display: inline-block;
+                                //     padding-left: 1px;
+                                //     padding-right: 1.4rem;
+                                //     line-height: 5.6rem;
+                                //     cursor: pointer;
+                                //     @include respond-to(below-tab) {
+                                //         line-height: 2;
+                                //         padding-right: 2rem;
+                                //     }
+
+                                //     &:before {
+                                //         display: inline-block;
+                                //         content: "";
+                                //         background-image: url(../images/red-arrow.svg);
+                                //         width: 1.2rem;
+                                //         height: 0.8rem;
+                                //         -webkit-transform: rotate(180deg);
+                                //         -khtml-transform: rotate(180deg);
+                                //         -moz-transform: rotate(180deg);
+                                //         transform: rotate(180deg);
+                                //         transition: transform ease-in-out 200ms;
+                                //         ;
+                                //         ;
+                                //     }
+                                // }
+
+                                &:hover {
+                                    background-color: $navigation-level1-hover-bg;
+
+
+                                    >a {
+                                        color: $navigation-level1-hover-color;
+
+                                    }
+
+                                    .submenu-utility-linklist {
+                                        @include respond-to(desktop){
+                                            display: block;
+                                        }
+                                        
+                                    }
+                                    
+                                }
+
+                            }
+
+                            .submenu-utility-linklist {
+
+                                box-shadow: 0px 3px 6px #b19c9c29;
+                                padding: 1.5rem 2.0rem 0 2.0rem;
+                                background-color: $submenu-bg;
+                                left: 0px;
+                                @include respond-to(desktop) {
+                                    width: 65rem;
+                                    padding: 1.5rem 2.0rem;
+                                }
+                                .link-list {
+                                    @include respond-to(desktop) {
+                                        border-left:1px solid #000 ;
+                                    }
+                                   
+                                    &:first-child{
+                                        border-left: none;
+                                    }
+                                    ul {
+                                        padding: 0;
+                                    }
+    
+                                    &.nav-column-2 {
+                                        ul {
+                                            @include respond-to(desktop){
+                                                columns: 2;
+                                            }
+                                        }
+                                    }
+    
+                                    &.nav-column-3 {
+                                        ul {
+                                            @include respond-to(desktop){
+                                                columns: 3;
+                                            }
+                                        }
+                                    }
+    
+                                  
+                                    h3 {
+                                        @include Montserrat-font-stack();
+                                        font-size: 1.6rem;
+                                        line-height: 2.2rem;
+                                        font-weight: 600;
+                                        color: $submenu-title-color;
+                                        margin: 0;                                        
+                                        border-bottom: 1px solid  transparent;
+                                        @include respond-to(desktop){
+                                            border-bottom: 1px solid  $submenu-title-bolor;
+                                        }
+    
+                                    }
+    
+                                    a {
+                                        color: $submenu-label1-color;
+                                        @include Montserrat-font-stack();
+                                        font-size: 1.6rem;
+                                        line-height: 2.2rem;
+                                        font-weight: 400;
+                                        border: none;
+                                        padding: 0;
+    
+                                        &:hover {
+                                            color: $submenu-label1-hover-color;
+                                        }
+                                    }
+    
+                                    .last {
+                                        @include respond-to(below-tab) {
+                                        margin-bottom: 15px;
+                                        }
+                                        a {
+                                            @include Montserrat-font-stack();
+                                            color: $submenu-see-more-color;
+                                            font-size: 1.6rem;
+                                            line-height: 1.9rem;
+                                            font-weight: 900;
+                                            text-transform: uppercase;
+                                            display: inline-block;
+    
+                                            &:hover {
+                                                color: $submenu-see-more-hover-color;
+                                            }
+    
+                                            &:after {
+                                                content: '>';
+                                                margin-left: 1rem;
+                                                display: inline-block;
+    
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                          
+
+
+                        }
+                    }
+                }
+
+                &.plain-html {
+                    display: flex;
+                    position: relative;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    position: absolute;
+                    height: 100%;
+                    top: 0;
+                    right: 0;
+                    @include respond-to(desktop){
+                        display: none;
+                    }
+                    .component-content{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-end;
+                    }
+                    .mobile-search-button {
+                        background-color: $mobile-search-button-bg;                        
+                        background-image: url(../images/search-icon.png);
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        background-size: 16.5px 18px;
+                        width: 16px;
+                        height: 16px;
+                        padding: 14px;
+                        margin-right: 8px;
+                        margin-top: 7px;                        
+                        display: inline-block;
+                        @include respond-to(tab){
+                            display: none;
+                        }
+                    }
+                    .hamburger {
+                     
+                        background-color: $mobile-hamburger-bg;
+                        color: $mobile-hamburger-icon-color;
+                        line-height: 4rem;
+                        padding: 0 20px 0 80px;
+                        height: 40px;
+                        position: relative;
+                        margin-top: 1.7rem;
+                        margin-right: -13px;
+                        cursor: pointer;
+                        @include respond-to(tab){
+                            margin-top: 52px;
+                        }
+
+                        .icon-bar {
+                            background-color: $mobile-hamburger-icon-bar;
+                            width: 13px;
+                            height: 2px;
+                            border-radius: 1px;
+                            margin-top: 2px;
+                            &:first-child {
+                                margin-top: 0;
+                            }
+                        }
+
+                        &:before {
+                            content: "Menu";
+                            font-size: 1.6rem;
+                            line-height: 1.9rem;
+                            text-transform: uppercase;
+                            @include Montserrat-font-stack();
+                            font-weight: 900;
+                            position: absolute;
+                            top: 50%;
+                            left: 20px;
+                            -webkit-transform: translateY(-50%);
+                            -khtml-transform: translateY(-50%);
+                            -moz-transform: translateY(-50%);
+                            transform: translateY(-50%);
+                        }
+                    }
+
+                }
+            }
+
+        }
+        &.active{
+            .component{
+                &.plain-html{
+                    .hamburger{
+                        .icon-bar{
+                            transform: rotateZ(0deg);
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+.mobile-open{
+    .component{
+        &.header-shell.variant-2 {
+            .component.plain-html {
+                .hamburger {
+                    background-color: $white-color;
+                    color: $secondary-color;
+                    .icon-bar {
+                        background-color: $black-color;
+                    }
+                }
+            }
+        }
+    }
+    .scroll-button-wrap{
+        display: none;
+    }
+}
+
+
+/*=================================================
+    On header fix
+===================================================*/
+@include respond-to(tab-horizontal) {
+    .header-fix {
+        .component {
+            &.header-shell {
+                &.variant-2 {
+
+                    // Header Search
+                    .search-box {
+                        transition: ease-in-out 150ms;
+                        min-height: auto;
+                        margin-top: 0 !important;
+
+                        .search-wrapper {
+                            position: absolute;
+                            right: 3rem;
+                            max-width: 17rem;
+                            height: auto;
+                            top: 50%;
+                            left: auto;
+                            margin: 0;
+                            -webkit-transform: translateY(-50%);
+                            -khtml-transform: translateY(-50%);
+                            -moz-transform: translateY(-50%);
+                            transform: translateY(-50%);
+                        }
+                    }
+
+                    // Header Utility
+                    .component.utility-navigation {
+                        display: none;
+                    }
+
+                    // Header Logo
+                    .logo-container .file-type-icon-media-link a {
+                        width: 7.9rem;
+                        height: auto;
+                        transition: ease-in-out 150ms;
+
+
+                    }
+
+                    // Header Navigation
+
+                    .component.page-list {
+                        &.variant-1 {
+                            margin-left: -145px;
+
+                            ul.items {
+                                >.item {
+                                    >a {
+                                        line-height: 4.6rem;
+                                    }
+
+                                    .dropdown-toggle {
+                                        line-height: 4.6rem;
+                                    }
+                                }
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    .header-fix {
+        .component.header-shell.variant-2 {
+            .search-box {
+           
+                .search-wrapper {
+                    right: 2rem;
+                }
+            }
+
+            .component.page-list.variant-1 {
+                margin-left: -15.4rem;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,64 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.product-tab-accordion {
+    padding: 0 3.5rem;
+    margin-bottom: 3rem;
+    .tabs-accordion {
+      padding: 0 1rem;
+      .card {
+        padding: 0;
+        .card-header {
+          background-color: #8c99ae;
+          border-radius: 7px;
+          padding: 0;
+          margin: 0.5rem 0 0;
+          .mb-0 {
+            .btn-block {
+              padding: 10px 45px 10px 20px;
+              color: #fff;
+              font-size: 1.6rem;
+              font-family: "Montserrat", sans-serif;
+              font-weight: 600;
+              &::after,
+              &::before {
+                background: #fff;
+                width: 1.5rem;
+                height: 2px;
+              }
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+        .collapse.show {
+          font-size: 1.6rem;
+          margin-bottom: 1.8rem;
+          display: flex;
+          flex-direction: row;
+          color: #2b2d42;
+          p {
+            width: 50%;
+            a {
+              font-size: 1.6;
+              text-decoration: underline;
+              &:hover {
+                font-weight: bold;
+                color: $black;
+              }
+            }
+            img {
+              float: right;
+            }
+          }
+        }
+      }
+      @include respond-to(desktop) {
+        padding: 0;
+      }
+    }
+  }
+}

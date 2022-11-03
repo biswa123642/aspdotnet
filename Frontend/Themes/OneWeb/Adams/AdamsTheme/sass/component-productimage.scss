@@ -1,0 +1,41 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.productimage {
+    &.product-image-gallery {
+      .image-placeholder {
+        iframe {
+          min-height: 44rem;
+        }
+      }
+      .inner-wrap {
+        max-width: 30rem;
+        @include respond-to(desktop) {
+          max-width: 40rem;
+        }
+      }
+      .slick-next,
+      .slick-prev {
+        background-repeat: no-repeat;
+        top: 60%;
+        @include respond-to(desktop) {
+          top: 50%;
+        }
+        &::before,
+        &::after {
+          font-size: 5rem;
+        }
+      }
+      .slick-prev {
+        left: -4rem;
+        background-image: url("../images/icon_arrow_left.png");
+      }
+      .slick-next {
+        right: -3.4rem;
+        background-image: url("../images/icon_arrow_right.png");
+      }
+    }
+  }
+}

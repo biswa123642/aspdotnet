@@ -1,0 +1,11 @@
+.article-bg,.component-solution-finder,.background-molecule {
+    background-image: url("../images/molecule-tile.png");
+}
+.wave-bg{
+    background-image: url("../images/wave-bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+    &.with-position{
+        background-position-y: 30rem;
+    } 
+}

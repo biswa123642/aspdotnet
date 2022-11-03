@@ -1,0 +1,55 @@
+﻿---
+ID: "e4b5c0c0-ae28-423d-9411-d7d769ac4b08"
+Parent: "79827cc5-f151-4cb1-b6f2-b21aad0c1bee"
+Template: "3c7c79e8-554d-46d9-bf1a-63da22a4ee6f"
+Path: /sitecore/content/OneWeb/Farnam/Data/Hero Carousel/HomePage/HomeCarousel/SlideItem3
+SharedFields:
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Value: 1
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Slide Item 3
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "007ef8df-edb2-4a64-a736-7a408093d2f5"
+      Hint: SlideImageMobile
+      Value: |
+        <image mediaid="{01377EBD-B141-4805-AAEF-4EB8B6795303}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220623T083338Z
+    - ID: "3bfd4b9e-3049-4c8d-a9b5-6bebb83f895d"
+      Hint: SlideImage
+      Value: |
+        <image mediaid="{FA8F3AD1-9144-4121-9F80-078083F92E7A}" ></image>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6e1677e7-20de-4c7c-a2e2-bc1ba72904ee"
+    - ID: "a8933445-15ca-4e23-b171-a33892eb0ef8"
+      Hint: SlideCardTitle
+      Value: "<p>FenCare Safe-Guard (fenbendazole) 1.96% TYPE B Medicated Feed</p>"
+    - ID: "b34e88f9-8800-43b1-92b5-029fbfae12e9"
+      Hint: SlideCardLogo
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d691b058-6e52-4e4b-baae-a23aed9de6e0"
+      Hint: SlideCardSubText
+      Value: "Simple single-dose, apple-flavored pelleted feed product that is mixed with a horse's regular feed ration. Each pre-measured 5 oz. packet treats up to 1250 lbs."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220718T092039Z
+    - ID: "e10d2e79-68cc-438a-a732-abf80f62be76"
+      Hint: SlideCardCTA
+      Value: |
+        <link text="Learn More" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{CDC9C0B5-91BD-46AC-90D3-405184ADEE31}" />

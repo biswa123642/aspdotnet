@@ -1,0 +1,92 @@
+@import "vars";
+
+/* breakpoints */
+
+$break-tab: 768px;
+$break-desktop: 992px;
+$break-large-desktop: 1401px;
+$bootstrap-large-desktop: 1300px;
+$extra-large-desktop: 1600px;
+
+@mixin respond-to($media) {
+  @if $media==tab {
+    @media only screen and (min-width: $break-tab) {
+      @content;
+    }
+  }
+
+  @else if $media==desktop {
+    @media only screen and (min-width: $break-desktop) {
+      @content;
+    }
+  }
+
+  @else if $media==large-desktop {
+    @media only screen and (min-width: $break-large-desktop) {
+      @content;
+    }
+  }
+
+  @else if $media==bootstrap-large-desktop {
+    @media only screen and (min-width: $bootstrap-large-desktop) {
+      @content;
+    }
+  }
+  @else if $media==extra-large-desktop {
+    @media only screen and (min-width: $extra-large-desktop) {
+      @content;
+    }
+  }@else if $media==below-tab {
+    @media only screen and (max-width: 991px) {
+      @content;
+    }
+  }
+}
+
+@mixin index {
+  @for $i from 1 through 10 {
+    &:nth-child(#{$i}) {
+      z-index: 10 - $i;
+      bottom: (8*($i - 1))+px;
+    }
+  }
+}
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin linear-gradient($direction, $color-stops...) {
+
+  // Direction has been omitted and happens to be a color-stop
+  @if is-direction($direction)==false {
+    $color-stops: $direction,
+    $color-stops;
+    $direction: 180deg;
+  }
+
+  background: nth(nth($color-stops, 1), 1);
+  background: -webkit-linear-gradient(legacy-direction($direction),
+    $color-stops );
+  background: linear-gradient($direction, $color-stops);
+}
+
+@mixin robota-sans-serif() {
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+@mixin transform($transform) {
+  -webkit-transform: $transform;
+  -khtml-transform: $transform;
+  -moz-transform: $transform;
+  transform: $transform;
+}
+
+@mixin Helvetica-font-stack() {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

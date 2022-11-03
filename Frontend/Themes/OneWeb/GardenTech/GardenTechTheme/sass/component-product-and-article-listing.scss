@@ -1,0 +1,100 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.product-listing,
+  &.article-listing {
+    #product-type {
+      .product-list {
+        h3 {
+          text-align: center;
+          font-weight: normal;
+          a {
+            font-size: 1.6rem;
+            color: $border-dark;
+            line-height: 1.1;
+            text-transform: uppercase;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+    #article-type {
+      .product-list {
+        h3 {
+          a {
+            font-size: 2.4rem;
+            color: $text-green;
+            line-height: 1.1;
+            font-weight: 500;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+        p{
+          font-size: 1.8rem;
+        }
+      }
+    }
+    .copy-wrap {
+      > .row {
+        margin: 0;
+      }
+      .sxa-btn-primary {
+        padding-top: 2rem;
+      }
+    }
+    #searchfilter {
+      .facet-wrapper {
+        h3 {
+          border-color: $text-body;
+          .link-btn[aria-expanded] {
+            &::before {
+              background-color: $text-green;
+            }
+            &::after {
+              background-color: $text-green;
+            }
+            color: $text-green;
+            font-size: 2.1rem;
+            font-weight: 900;
+            text-transform: uppercase;
+          }
+        }
+        .form-check {
+          text-transform: uppercase;
+          font-size: 1.6rem;
+          display: flex;
+          align-items: baseline;
+        }
+      }
+    }
+    #article-type{
+      .product-list{
+        h3{
+          padding: 1rem 0 1rem 0;
+          @include respond-to(desktop){
+            padding: 2rem 0 2rem 0;
+          }
+        }
+      }
+    }
+    .cgp-product{
+      padding-bottom: 2.5rem;
+      @include respond-to(desktop){
+        padding-bottom: 0;
+      }
+    }
+    .product-wrap{
+      .sxa-btn{
+        a{
+          line-height: 1.5;
+        }
+      }
+    }
+  }
+}

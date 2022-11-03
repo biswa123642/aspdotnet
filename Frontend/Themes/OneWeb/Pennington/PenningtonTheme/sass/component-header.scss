@@ -1,0 +1,21 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+@import "base/fonts/fonts";
+@import "base/fontawesome/font-awesome";
+
+.header-shell {
+
+        @import "variants/component-header/variant-4.scss";
+}
+
+
+.on-page-editor,
+.preview {
+        .header-shell {
+                &.varient-3 {
+                        position: static;
+                        background-color: $white;
+                }
+        }
+}

@@ -1,0 +1,83 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+#footer {
+  background-color: $background-grey;
+
+  .component {
+    &.rich-text {
+      p {
+        font-size: 1.6rem;
+        margin: auto;
+        padding: 0 15px;
+        margin-top: 2rem;
+      }
+    }
+    &.utility-navigation {
+      &.brand-listing {
+        .inner-wrapper {
+          img {
+            max-height: 4.5rem;
+          }
+        }
+        .field-image {
+          padding: 0 1rem;
+        }
+        .field-heading {
+          font-weight: bold;
+          color: $breadcrumb-link;
+        }
+      }
+    }
+    &.link-list {
+      &.inline-link {
+        margin-bottom: -1rem;
+        ul {
+          flex-direction: column;
+          margin: 2rem;
+          li {
+            justify-content: center;
+            &::before {
+              display: none;
+            }
+            .field-link {
+              a {
+                font-size: 1.2rem;
+                color: $breadcrumb-link !important;
+                font-weight: 400;
+                &:hover {
+                  border-bottom: none;
+                  text-decoration: underline;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    @include respond-to(tab) {
+      &.link-list {
+        &.inline-link {
+          ul {
+            margin: 0;
+            flex-direction: row;
+            li {
+              .field-link {
+                margin: 2.4rem 0 2rem 0;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    @include respond-to(desktop) {
+      &.rich-text {
+        p {
+          margin: 2rem 8.95rem 0 8.95rem;
+        }
+      }
+    }
+  }
+}

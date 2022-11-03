@@ -1,0 +1,107 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+#footer {
+    padding: 2rem 1.5rem;
+    margin-top: 3rem;
+    border-top: 5px solid $dark-green;
+
+    .component {
+        &.image {
+            padding: 1rem 3rem;
+            text-align: center;
+
+            img {
+                max-width: 190px;
+                padding: 0;
+            }
+
+            @include respond-to(desktop) {
+                text-align: left;
+                padding: 1rem 0 .5rem 0;
+
+                img {
+                    width: 377px;
+                    max-width: 377px;
+                }
+            }
+        }
+
+        &.rich-text {
+            padding: 0 1.5rem;
+
+            p {
+                font-size: 1.6rem;
+                font-weight: 300;
+                line-height: 1.5;
+            }
+
+            @include respond-to(desktop) {
+                padding: 0;
+            }
+        }
+    }
+
+    .link-list.inline-link {
+        ul {
+            justify-content: space-evenly;
+
+            li {
+                .field-link {
+                    a {
+                        font-size: 1.6rem;
+                        font-weight: bold;
+                        color: $text-basic;
+
+                        &:hover,
+                        &:active,
+                        &:focus {
+                            text-decoration: underline;
+                            border-bottom: none;
+                            color: $text-basic;
+                        }
+                    }
+                }
+
+                &:nth-child(even) {
+                    &::before {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    @include respond-to(desktop) {
+        padding: 0 1.5rem;
+
+        .link-list.inline-link {
+            padding: 0;
+
+            ul {
+                justify-content: flex-start;
+
+                li {
+                    padding-right: 5rem;
+
+                    .field-link {
+                        a {
+                            font-size: 1.6rem;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+
+        .container:not(.col-12) {
+            padding-bottom: 0;
+            padding-top: 0;
+        }
+
+        .footer-copyright-rte {
+            padding-bottom: 1rem;
+        }
+    }
+}
+

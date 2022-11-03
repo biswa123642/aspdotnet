@@ -1,0 +1,48 @@
+﻿---
+ID: "175ab701-f154-4006-864f-e64b21dd3681"
+Parent: "e074340b-3498-4dff-8704-55b3481e5db2"
+Template: "d1070ed7-b4f7-4c03-b622-f9b5fb072dea"
+Path: /sitecore/content/OneWeb/Farnam/Data/Teaser Promo/HomePage/Offers
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220705T063409Z
+    - ID: "7cf24deb-783d-4e7a-be2d-1c5410b73c66"
+      Hint: FirstCTA
+      Value: |
+        <link text="Learn More" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{FCD92320-15B3-4D12-9ABA-F26873976FAC}" />
+    - ID: "81651106-4b95-4713-84df-90a36c488b2f"
+      Hint: TeaserImage
+      Value: |
+        <image mediaid="{ADF6A8A1-8143-4E6E-A721-3E666A836F1A}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4c4bc6e2-998b-4f45-8d0d-f67113bb1994"
+    - ID: "9fd53b32-f6f3-484c-b662-d9a1b2013a0d"
+      Hint: Description
+      Value: |
+        <img alt="" src="-/media/7C658E0E219940248A6EDA989ED6CFCB.ashx" />
+        <h2>Offers</h2>
+        <p>Your source for valuable Farnam product savings. Search for coupons on the products you need.</p>
+    - ID: "a9c3d58d-0ada-44ae-8ac2-a6ac6989ce0a"
+      Hint: ImageOnRight
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "ce281eff-5b53-4327-b106-d567df721aab"
+      Hint: MobileTeaserImage
+      Value: |
+        <image mediaid="{AF8B76AB-2560-465E-855C-950DA577A24A}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220803T065901Z

@@ -1,0 +1,21 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.video {
+    .mobile-youtube,
+    .sxa-video-wrapper {
+      height: 30rem;
+      iframe {
+        height: 100%;
+        width: 100%;
+      }
+      @include respond-to(desktop) {
+        height: 38rem;
+        width: 50%;
+        margin: auto;
+      }
+    }
+  }
+}

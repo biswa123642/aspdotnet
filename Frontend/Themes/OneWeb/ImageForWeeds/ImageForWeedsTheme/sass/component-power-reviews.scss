@@ -1,0 +1,27 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.p-w-r {
+  .pr-snippet-stars-reco-inline {
+    &.pr-snippet-compact {
+      .pr-snippet-read-and-write {
+        a {
+          &.pr-snippet-write-review-link {
+            background-color: $dark-green-primary;
+            padding: 6px 15px;
+            color: $white-color;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-weight: 700;
+            &:hover {
+              background-color: $green-tertiary;
+            }
+          }
+        }
+      }
+    }
+  }
+  .pr-media-carousel--light {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+}

@@ -1,0 +1,68 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+
+.component {
+
+    &.accordion {
+        padding: 0 1.5rem 1.5rem;
+
+        ul.items {
+            padding: 0;
+        }
+
+        li.item {            
+
+            .toggle-header {
+                position: relative;
+
+                .label {
+                    padding: 0 0 0 0;
+                }
+
+                .component {
+                    .field-heading {
+                        padding: 1rem 3.5rem 1rem 1.5rem;
+                        font-size: 1.8rem;
+                        line-height: 1.98rem;
+                        font-weight: 700;
+                        border-bottom: 1px solid $accordian-border;
+                        @include Roboto-font-stack();
+                        color: $primary-color;
+                        margin-top: 1.6rem;
+
+                        &:before,
+                        &:after {
+                            display: block;
+                            right: 1.6rem;
+                            background-color: $breadcrumb-color-hover;
+
+                            @include respond-to(desktop) {
+                                right: 1.6rem;
+                            }
+                        }
+                    }
+
+                }
+                &.show{
+                    .component{
+                        .field-heading{                            
+                         color: $anchor-hover;
+                        }
+                    } 
+                }
+            }
+
+            .toggle-content {
+                .field-content {
+                    font-size: 1.6rem;
+                    line-height: 2.28rem;
+                    padding: 1.5rem 1.5rem 3.5rem 1.5rem;
+                    color: $primary-color;
+                    border-bottom: 1px solid $faq-header-border;
+                }
+            }
+
+        }
+    }
+}

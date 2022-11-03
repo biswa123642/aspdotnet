@@ -1,0 +1,34 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  &.feature-content-tiles {
+    &.variant-5 {
+      background: $gray-bg;
+      padding-top: 1rem;
+
+      h2 {
+        font-size: 4.48rem;
+        color: $title_primary;
+        text-align: center;
+      }
+
+      .section-container {
+        .field-image {
+          a {
+            img {
+              transition: all 0.2s ease-in-out;
+              &:hover {
+                transform: scale(1.1);
+              }
+            }
+          }
+        }
+        .field-data {
+          display: none;
+        }
+      }
+    }
+  }
+}

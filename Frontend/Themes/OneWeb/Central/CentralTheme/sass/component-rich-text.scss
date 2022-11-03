@@ -1,0 +1,380 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+
+.component {
+  &.rich-text {
+    //padding: 3rem 1.5rem;
+    div {
+      &.subtitle {
+        padding-top: 2.45rem;
+        font-size: 1.8rem;
+      }
+    }
+
+    .rich-text-wrap {
+      padding-top: 20px;
+
+      @include respond-to(desktop) {
+        width: 65%;
+        margin: auto;
+
+        h2 {
+          font-size: 4.2rem;
+        }
+
+        p {
+          font-size: 2.1rem;
+        }
+      }
+
+      h2 {
+        @include respond-to(extra-large-desktop) {
+          font-size: 5.94rem;
+        }
+      }
+
+      p {
+        @include respond-to(extra-large-desktop) {
+          font-size: 2.97rem;
+        }
+      }
+    }
+
+    .map-text-wrap {
+      width: 65%;
+      margin: auto;
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+
+    .text-wrap {
+      margin: 30px 0;
+
+      h1 {
+        color: $dark-green;
+        font-size: 3.2rem;
+        @include ff-ernestine-pro-font-stack();
+        text-align: center;
+        font-weight: 600;
+      }
+    }
+
+    .contact-body {
+      .body-copy {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 50px 40px 30px;
+
+        h2 {
+          color: $dark-green;
+          font-size: 3.52rem;
+          @include ff-ernestine-pro-font-stack();
+          text-align: left;
+          font-weight: 600;
+        }
+
+        .subtitle {
+          color: $border-primary;
+          @include fieldwork-hum-font-stack();
+          font-weight: 300;
+          font-size: 1.76rem;
+        }
+      }
+    }
+
+    .body-copy {
+      .content-wrapper {
+        @include respond-to(tablet) {
+          max-width: 300px;
+          margin: auto;
+        }
+      }
+
+      margin: 0 -15px;
+
+      @include respond-to(desktop) {
+        padding: 30px 0;
+      }
+
+      .body-title {
+        color: $white;
+        @include ff-ernestine-pro-font-stack();
+        text-align: center;
+        font-weight: 600;
+        margin: 40px 0 50px 0;
+
+        h2 {
+          font-size: 3.52rem;
+        }
+      }
+
+      .body-wrap {
+        width: 83%;
+        margin: auto;
+        margin-bottom: 100px;
+
+        .body-content {
+          padding: 0px;
+        }
+
+        .caption {
+          margin-top: -48px;
+          padding: 14px 9px;
+          line-height: 1.42;
+
+          h2 {
+            color: $white;
+            @include ff-ernestine-pro-font-stack();
+            font-weight: 700;
+            font-size: 2.25rem;
+
+            @include respond-to(bootstrap-onlyTablet) {
+              font-size: 4.6rem;
+            }
+          }
+
+          .subtitle {
+            color: $light-green  !important; //override default
+            font-size: 1.4rem;
+            @include fieldwork-hum-font-stack();
+          }
+        }
+      }
+    }
+
+    .text-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 0;
+      padding-bottom: 0px;
+
+      @include respond-to(bootstrap-onlyTablet) {
+        flex-direction: row;
+      }
+
+      .left-wrap {
+        align-content: center;
+        text-align: center;
+        padding: 9px;
+        margin-bottom: 30px;
+
+        @include respond-to(bootstrap-onlyTablet) {
+          margin-bottom: 100px;
+          padding: 15px;
+        }
+
+        ul {
+          li {
+            list-style-type: none;
+
+            @include respond-to(bootstrap-onlyTablet) {
+              list-style-type: disc;
+              text-align: start;
+            }
+
+            @include respond-to(extra-large-desktop) {
+              font-size: 2.4rem !important; // override media queries
+            }
+          }
+        }
+      }
+
+      .right-wrap {
+        width: 50%;
+
+        @include respond-to(bootstrap-onlyTablet) {
+          width: 50%;
+          position: absolute;
+          bottom: -5px;
+          right: 5%;
+        }
+      }
+    }
+
+    @include respond-to(desktop) {
+      .text-wrap {
+        margin: 30px 0;
+
+        h1 {
+          color: $dark-green;
+          font-size: 4rem;
+          @include ff-ernestine-pro-font-stack();
+          text-align: left;
+          font-weight: 600;
+        }
+      }
+
+      .contact-body {
+        .body-copy {
+          display: flex;
+          align-items: center;
+          flex-direction: row;
+          margin: 40px 0 20px;
+          margin-bottom: 30px;
+            width: 70%;
+            margin: auto;
+            padding-left: 0px;
+            justify-content: flex-start;
+          .title {
+            width: 50%;
+
+          }
+
+          h2 {
+            color: $dark-green;
+            font-size: 4rem;
+            @include ff-ernestine-pro-font-stack();
+
+            text-align: left;
+            font-weight: 600;
+          }
+
+          .subtitle {
+            color: #898a8d;
+            @include fieldwork-hum-font-stack();
+            font-weight: 300;
+            font-size: 1.76rem;
+            text-align: left;
+          }
+        }
+      }
+
+      .body-copy {
+        padding: 30px 0;
+        padding-bottom: 100px;
+
+        .body-title {
+          margin: 40px 0 50px 0;
+
+          h2 {
+            font-size: 4.09rem;
+
+            @include respond-to(extra-large-desktop) {
+              font-size: 5.94rem;
+            }
+          }
+        }
+
+        .body-wrap {
+          display: flex;
+          flex-wrap: wrap;
+          width: 83%;
+          margin: auto;
+
+          .body-content {
+            padding: 4px;
+
+            &:first-child {
+              .caption {
+                width: 50%;
+
+                @include respond-to(extra-large-desktop) {
+                  width: 100%;
+                }
+              }
+            }
+          }
+
+          .caption {
+            margin-top: -48px;
+            padding: 15px;
+
+            h2 {
+              font-weight: 700;
+              font-size: 4.09rem;
+
+              @include respond-to(extra-large-desktop) {
+                font-size: 5.94rem;
+              }
+            }
+
+            k .subtitle {
+              font-size: 1.4rem;
+            }
+          }
+        }
+      }
+
+      .text-wrapper {
+       
+        padding: 20px 40px;
+        flex-direction: row;
+
+        .left-wrap {
+          margin-bottom: 0px;
+          padding: 20px 10px 0px 39px;
+          pointer-events: none;
+          text-align: initial;
+
+          h2 {
+            margin: 20px 0px 10px 0px;
+            font-size: 3.52rem;
+
+            @include respond-to(desktop) {
+              font-size: 2.4rem;
+            }
+
+            @include respond-to(extra-large-desktop) {
+              font-size: 3.2rem;
+            }
+
+          }
+
+          ul {
+            li {
+              font-size: 1.6rem;
+              line-height: 35px;
+              list-style-type: disc;
+
+              @include respond-to(desktop) {
+                margin-left: 10px;
+              }
+
+              @include respond-to(extra-large-desktop) {
+                font-size: 2.4rem;
+                line-height: 45px;
+              }
+            }
+          }
+        }
+
+        .right-wrap {
+          img {
+            margin-top: 13.9rem;
+          }
+        }
+      }
+    }
+
+    &.secondary {
+      h3{
+        font-size: 3.2rem;
+        margin-top: 0;
+      }
+      p{
+        font-size: 1.92rem;
+      }
+      @include respond-to(tab){
+        h3{
+          font-size: 4rem;
+        }
+      }
+      @include respond-to(desktop) {
+        >.component-content{
+          width: 80%;
+        margin: auto;
+        }
+        h3{
+          font-size: 3vw;
+        }
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      
+    }
+  }
+}

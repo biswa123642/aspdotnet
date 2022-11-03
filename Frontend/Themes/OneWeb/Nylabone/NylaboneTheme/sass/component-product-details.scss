@@ -1,0 +1,141 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+
+.component {
+  &.product-variant {
+    h4 {
+      font-size: 1.6rem;
+    }
+
+    .where-to-buy {
+      margin: 0;
+    }
+
+    select {
+      appearance: none;
+      width: 100%;
+      background-image: url("/~/media/Project/OneWeb/Nylabone/Images/img/icon_caret_orange");
+      background-position: 95% 50%;
+      background-repeat: no-repeat;
+      min-height: 32px;
+      background-color: $white;
+      border: 1px solid $border-gray;
+      color: $orange;
+      padding-left: 20px;
+      text-align: center;
+      min-width: 170px;
+      height: 60px;
+      padding-right: 40px;
+      font-size: 1.6rem;
+      max-width: 333px;
+    }
+  }
+
+  .product-description-accordion {
+    .panel-heading {
+      background-color: #f47523;
+      padding: 0px;
+      border-radius: 0px;
+
+      a {
+        color: #fff;
+        font-weight: bold;
+        padding: 10px 10px 10px 30px;
+        line-height: 40px;
+        width: 100%;
+        display: inline-block;
+        font-size: 1.8rem;
+        position: relative;
+
+        &:after {
+          content: "+";
+          position: absolute;
+          right: 18px;
+          font-size: 3rem;
+        }
+
+        &.collapsed {
+          &::after {
+            content: "";
+          }
+
+          &:before {
+            display: block;
+            content: "_";
+            position: absolute;
+            right: 18px;
+            bottom: 24px;
+            font-size: 3rem;
+
+          }
+        }
+      }
+    }
+
+    .panel {
+      margin-bottom: 20px;
+
+      .panel-body {
+        padding: 5px 15px;
+      }
+
+      .panel-title {
+        margin: 0;
+      }
+    }
+  }
+
+  .variant-description {
+    ul {
+      list-style: disc;
+      padding-left: 20px;
+      margin-bottom: 20px;
+
+      li {
+        list-style: disc;
+        font-size: inherit;
+      }
+    }
+  }
+
+
+  &.productimage {
+    .image-placeholder {
+
+      .slick-slide {
+        &.slick-current>div {
+          display: flex;
+          width: 100%;
+
+          >a {
+            display: flex;
+          }
+        }
+      }
+
+      .slick-slide {
+        display: flex;
+      }
+
+      .slick-track {
+        display: flex;
+      }
+
+      .slick-list {
+        display: flex;
+      }
+
+      iframe,
+      video {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .inner-wrap .image-container div {
+      cursor: pointer;
+    }
+  }
+}

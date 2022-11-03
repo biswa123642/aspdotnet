@@ -1,0 +1,48 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.inner-container:not(.col-12){
+    @include respond-to(all-mobile){
+        max-width: 64rem;        
+    }
+    @include respond-to(desktop){
+        max-width: 100%;
+    }
+}
+.container:not(.col-12){
+    padding: 0 1.5rem;
+    @include respond-to(all-mobile){
+        max-width: 64rem;        
+    }
+    @include respond-to(desktop){
+        max-width: 1024px;
+    }
+    @include respond-to(extra-large-desktop){
+        max-width: 1440px;
+    }
+}
+.header-shell{
+    .container:not(.col-12){
+        padding: 0 1.5rem;
+        @include respond-to(all-mobile){
+            max-width: 100%;
+            
+        }
+        @include respond-to(desktop){
+            max-width: 100%;
+        }
+    }
+}
+.container{
+    &.col-12{
+        @include respond-to(all-mobile){
+            max-width: 64rem;
+        }
+        @include respond-to(desktop){
+            padding: 0 7rem;
+        }
+        @include respond-to(extra-large-desktop){
+            padding: 0 8rem;
+        }
+    }
+}

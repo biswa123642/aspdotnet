@@ -1,0 +1,117 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+
+     
+    .earthjuice-content {
+
+
+        .image-title {
+
+            display: flex;
+
+            align-items: center;
+            margin-bottom: 4rem;
+
+            img {
+                max-width: 50%;
+            }
+
+            h2 {
+                font-weight: 500;
+                font-size: 4.8rem;
+                color: $light-black;
+                margin-left: -4rem;
+                @include Lilita-font-stack();
+                text-transform:uppercase
+            }
+        }
+
+        p {
+            font-size: 1.6rem;
+            color: $light-black;
+            margin-bottom: 1.1rem;
+            @include raleway-font-stack();
+           
+
+
+
+
+        }
+
+    }
+
+    .rich-text {
+        .component-content {
+            h2 {
+                font-weight: 500;
+                color: $light-black;
+                font-size:4.8rem;
+                @include Lilita-font-stack(); 
+
+            } 
+        }
+    }
+
+    a {
+        color: $link-error;
+        text-decoration: none;
+        font-size: 1.6rem ;// to overide default 
+        font-weight: 400; //to overide default 
+
+        &:hover {
+            text-decoration: underline;
+            color: $error-page-link;
+        } 
+    }
+    
+
+}
+
+
+.component {
+    &.utility-navigation {
+        &.image-brand-listing {
+
+
+
+            .listing-wrapper {
+                display: block;
+            }
+
+            .brand-img-holder {
+                transition: 200ms;
+                transition-timing-function: ease-out;
+                padding-left: 1.5rem;
+
+                img {
+                    max-width: 16.0rem;
+                    border: 1px solid $border-gray;
+                    border-radius: .2rem;
+                    display: block;
+                    position: relative;
+                    
+
+
+                    &:hover {
+
+                        top: -5px;
+                    }
+
+
+                }
+            }
+
+            @include respond-to(desktop) {
+
+                .listing-wrapper {
+                    display: flex;
+                    justify-content: flex-start;
+                }
+
+            }
+        }
+    }
+}

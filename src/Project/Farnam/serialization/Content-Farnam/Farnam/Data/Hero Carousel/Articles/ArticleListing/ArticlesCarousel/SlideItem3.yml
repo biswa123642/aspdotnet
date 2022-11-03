@@ -1,0 +1,48 @@
+﻿---
+ID: "4397a5d6-94ec-43cd-bb8d-448699c46ae1"
+Parent: "58ac5e74-ec5f-4ce7-92c3-8401d55a0752"
+Template: "3c7c79e8-554d-46d9-bf1a-63da22a4ee6f"
+Path: /sitecore/content/OneWeb/Farnam/Data/Hero Carousel/Articles/ArticleListing/ArticlesCarousel/SlideItem3
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Slide Item 3
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "007ef8df-edb2-4a64-a736-7a408093d2f5"
+      Hint: SlideImageMobile
+      Value: |
+        <image mediaid="{C3461B26-D73A-48E8-8853-2A36E955B96E}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220704T114014Z
+    - ID: "3bfd4b9e-3049-4c8d-a9b5-6bebb83f895d"
+      Hint: SlideImage
+      Value: |
+        <image mediaid="{C3461B26-D73A-48E8-8853-2A36E955B96E}" ></image>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "312fe4f3-f20b-4ccd-a1d1-8f0088b2aacf"
+    - ID: "a8933445-15ca-4e23-b171-a33892eb0ef8"
+      Hint: SlideCardTitle
+      Value: "Chill Out! Does Your Horse Need a Calming Supplement?"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d691b058-6e52-4e4b-baae-a23aed9de6e0"
+      Hint: SlideCardSubText
+      Value: "Some horses are just naturally more high-strung than others. They tend to fret and act nervous in situations that might not phase a more laid-back horse. If you have a nervous horse, you’ve probably wondered if there was a way to “take the edge off” without resorting to drugs."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220805T100128Z
+    - ID: "e10d2e79-68cc-438a-a732-abf80f62be76"
+      Hint: SlideCardCTA
+      Value: |
+        <link text="Read More" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{05E04AAA-1234-45F1-B251-A550CA63FBB0}" />

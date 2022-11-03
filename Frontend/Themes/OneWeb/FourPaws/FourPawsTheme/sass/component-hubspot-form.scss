@@ -1,0 +1,270 @@
+@import "abstracts/mixins";
+@import "abstracts/vars";
+
+.component {
+  &.hubspot-form {
+    .hubspot-form {
+      margin-bottom: 30px;
+      padding: 10px 40px 0 40px;
+      max-width: 100%;
+      background-color: $cat-products-caption;
+      min-height: 59rem;
+      border-radius: 10px;
+      .form-columns-2{
+        max-width:98%;
+      }
+      .hs-form-booleancheckbox,.hs-form-checkbox {
+        label {
+          input[type="checkbox"] {
+            &:checked + span {
+              &:before {
+                background: url("/~/media/Project/OneWeb/FourPaws/Images/Icons/box-checked1.png");
+                background-size: 30px 30px;
+              }
+            }
+            &:not(:checked) + span {
+              &:before {
+                background: url("/~/media/Project/OneWeb/FourPaws/Images/Icons/box-notchecked1.png");
+                background-size: 30px 30px;
+              }
+            }
+          }
+        }
+      }
+      @include respond-to(all-mobile) {
+        min-height: 88rem;
+      }
+      .hs-form-booleancheckbox,.hs-form-checkbox {
+        width: auto;
+      }
+    }
+    .hs-form {
+      .hs-error-msg {
+        font-weight: 800;
+        color: $error-red;
+        margin-top: 5px;
+        margin-left: 5px;
+      }
+      .input {
+        select {
+          background-image: url("/~/media/Project/OneWeb/FourPaws/Images/Icons/gray-down-arrow2.png");
+          color: $border-dark;
+          background-color: $white;
+          background-position: 95% 50%;
+          background-size: 10px;
+        }
+      }
+      .hs-form-field {
+        padding: 10px 0px 10px 0px;
+      }
+      .hs-richtext {
+        max-width: 500px;
+        @include montserrat-font-stack();
+        font-size: 1.3rem;
+        color: $text-heading-blue;
+        font-weight: 600;
+      }
+      .hs-error-msgs {
+        li {
+          label {
+            font-weight: 800;
+            color: $error-red;
+            margin-top: 5px;
+            margin-left: 5px;
+          }
+        }
+      }
+      ul {
+        .hs-error- li {
+          span {
+            color: $border-dark;
+          }
+        }
+      }
+      label {
+        color: $text-small-heading-color;
+        font-weight: 500;
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+        @include lora-font-stack();
+        span {
+          @include lora-font-stack();
+          color: $text-small-heading-color;
+          font-weight: 500;
+          font-size: 1.2rem;
+        }
+      }
+      .hs-input {
+        text-align: start;
+        border: none;
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 3rem;
+        padding: 5px 3px;
+      }
+      input[type="email"] {
+        line-height: 3rem;
+      }
+      input[type="tel"] {
+        height: 4rem;
+      }
+      input[type="submit"] {
+        @include montserrat-font-stack();
+        background: $bottom-corner;
+        border: none;
+        font-size: 1.2rem;
+        margin-top: 20px;
+        border-radius: 0;
+        text-transform: uppercase;
+        font-weight: 500;
+        &:hover {
+          background-color: $anchor-hover-light-blue;
+          cursor: pointer;
+        }
+      }
+    }
+    &.contact-form {
+      background-color: $cloud-white;
+      width: 100%;
+      height: auto;
+      .hubspot-form {
+        padding: 10px 40px 0 40px;
+        max-width: 100%;
+        min-height: auto;
+        border-radius: 10px;
+        width: 1140px;
+        margin: auto;
+        background-color: $cloud-white;
+        .hs-form {
+          .hs-error-msgs,
+          .hs-error-msg {
+            li {
+              label {
+                font-weight: 800;
+                color: $error-red;
+                margin-top: 5px;
+                margin-left: 5px;
+              }
+            }
+          }
+          label {
+            @include montserrat-font-stack();
+            font-size: 1.3rem;
+            color: $text-heading-blue;
+            font-weight: 600;
+            span {
+              @include montserrat-font-stack();
+              font-size: 1.3rem;
+              color: $text-heading-blue;
+              font-weight: 600;
+            }
+          }
+        }
+        .hs-form-booleancheckbox,.hs-form-checkbox {
+          position: relative;
+          width: 500px;
+          display: inline;
+          margin-left: 26px;
+          max-width: 100%;
+          color: $border-dark;
+          font-weight: 400;
+          vertical-align: text-bottom;
+        }
+      }
+    }
+    &.tell-us-more-form {
+      .hs-form {
+        .hs-form-checkbox {
+          label {
+            margin-left: 13px;
+            input[type="checkbox"] {
+              visibility: hidden;
+              height: 28px;
+              display: inline;
+              position: absolute;
+              span {
+                position: relative;
+                width: 500px;
+                display: inline;
+                margin-left: 26px;
+                max-width: 100%;
+                white-space: nowrap;
+                padding-left: 13px;
+              }
+
+              &:checked + span {
+                &:before {
+                  background: url("/~/media/Project/OneWeb/FourPaws/Images/Icons/box-checked1.png");
+                  background-size: 30px 30px;
+                  content: "";
+                  position: absolute;
+                  margin-left: -45px;
+                  width: 30px;
+                  height: 30px;
+                  top: 5px;
+                }
+              }
+              &:not(:checked) + span {
+                &:before {
+                  background: url("/~/media/Project/OneWeb/FourPaws/Images/Icons/box-notchecked1.png");
+                  background-size: 30px 30px;
+                  content: "";
+                  position: absolute;
+                  margin-left: -45px;
+                  width: 30px;
+                  height: 30px;
+                  top: 5px;
+                }
+              }
+            }
+          }
+        }
+      }
+      max-width: 75%;
+      margin: auto;
+      padding: 0px;
+      @include respond-to(all-mobile) {
+        max-width: 100%;
+      }
+
+      .hubspot-form {
+        padding: 0px;
+        margin-right: 20px;
+        margin-left: 20px;
+        border-radius: 0px;
+
+        form {
+          margin: auto;
+          max-width: 80%;
+          padding: 20px 40px;
+          @include respond-to(all-mobile) {
+            padding: 20px 5%;
+            max-width: 100%;
+          }
+          .hs-fieldtype-checkbox {
+            @include respond-to(all-mobile) {
+              max-width: 300px;
+            }
+          }
+          fieldset {
+            max-width: 100%;
+            .hs-input {
+              max-width: 100% !important; //override other forms
+            }
+            .hs-form-field {
+              padding: 10px 0px 10px 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#hubspot-75ac2b3c-8c3f-4b12-b7b9-d5578767ab34{
+  @media screen and (min-width:1024px){
+    margin: auto;
+    max-width: 80%;
+    padding-top: 20px;
+  }
+}

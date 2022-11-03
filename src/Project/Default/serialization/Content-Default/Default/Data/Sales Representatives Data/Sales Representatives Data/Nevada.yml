@@ -1,0 +1,38 @@
+﻿---
+ID: "9852d42b-d6f1-495b-9ddf-9e41e0d61cfb"
+Parent: "f330c68f-a96e-4bfd-b061-effc1ae6a058"
+Template: "6e7840e3-5d65-44e8-b1dd-f418b11653d8"
+Path: /sitecore/content/OneWeb/Default/Data/Sales Representatives Data/Sales Representatives Data/Nevada
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 2700
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220429T043001Z
+    - ID: "89588acd-1d0d-4092-90c9-8831be0f26f0"
+      Hint: StateName
+      Value: Nevada
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f903ceee-6276-40d9-9a4b-1219c77e574d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220927T074717Z
+    - ID: "e4c426fe-7336-4e80-8c2d-f89f02659a76"
+      Hint: SalesRepList
+      Value: |
+        {8F8AD595-1100-4E49-ABBB-CCF7242B1881}
+        {3970D2F4-40B9-4063-B57A-5AEDE21A2592}
+    - ID: "fe92cf46-537c-4e47-8d4a-e418794d9780"
+      Hint: StateCode
+      Value: NV

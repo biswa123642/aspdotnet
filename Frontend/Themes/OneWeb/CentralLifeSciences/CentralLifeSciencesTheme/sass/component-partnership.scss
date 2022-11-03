@@ -1,0 +1,41 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.component {
+  .content {
+    .partnership {
+      p {
+        font-size: 1.6rem;
+        color: $text-basic;
+        @include respond-to(desktop) {
+          font-size: 2rem;
+        }
+      }
+      ul {
+        li {
+          margin-bottom: 2.6rem;
+          position: relative;
+          padding: 0px 0px 0px 36px;
+          font-size: 1.6rem;
+          color: $text-basic;
+          font-weight: 400;
+          @include fieldwork-hum-font-stack();
+          @include respond-to(desktop) {
+            font-size: 2rem;
+          }
+          &::before {
+            position: absolute;
+            content: "";
+            left: 0;
+            top: 0.5rem;
+            width: 1.6rem;
+            height: 1.6rem;
+            border-radius: 0.5rem;
+            background-color: $light-green;
+          }
+        }
+      }
+    }
+  }
+}
+

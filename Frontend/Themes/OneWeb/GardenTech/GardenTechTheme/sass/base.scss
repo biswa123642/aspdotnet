@@ -1,0 +1,57 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+@import "base/fonts/fonts";
+
+
+
+body {
+  @include myriad-font-stack();
+  font-size: 1.8rem;
+  color: $text-body;
+  line-height: 1.42857143;
+}
+.content, .rich-text{
+  // @include Helvetica-font-stack();
+  font-size: 1.6rem;
+  color: $body-color;
+  line-height: 1.5;
+}
+a {
+  color: $text-green;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $text-green;
+  font-weight: 900;
+}
+
+h1 {
+  line-height: 1.1;
+}
+
+h4 {
+  font-size: 2.2rem;
+}
+
+@include respond-to(tab) {
+  h1 {
+    font-size: 3.2rem;
+    @include myriad-font-stack();
+  }
+}
+.content h3, .content h4, .content p, .rich-text h3, .rich-text h4, .rich-text p {
+  margin: 0 0 1.5rem 0;
+  @include respond-to(desktop){
+   margin: 1rem 0;
+  }
+}

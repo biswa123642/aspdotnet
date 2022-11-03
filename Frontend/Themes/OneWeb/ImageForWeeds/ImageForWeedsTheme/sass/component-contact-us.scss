@@ -1,0 +1,47 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+.contact-us {
+  #content {
+    .container {
+      &:not(.col-12) {
+        &.component {
+          max-width: 50%;
+          margin: 40px auto;
+        }
+      }
+    }
+  }
+  .hubspot-form {
+    padding: 0;
+    margin-top: 30px;
+  }
+  .rich-text {
+    text-align: center;
+    .contactLine {
+      margin: 10px 0;
+    }
+  }
+  .container .component-content > .row {
+    justify-content: center;
+  }
+}
+
+.submitted-message {
+  text-align: center;
+}
+
+@include respond-to(tab-horizontal-max) {
+  .contact-us {
+    #content {
+      .container {
+        &:not(.col-12) {
+          &.component {
+            max-width: 90%;
+            margin: 40px auto;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,143 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+.component {
+  .hubspot-form {
+    .submitted-message {
+      color: $body-color;
+      font-size: 1.8rem;
+    }
+    .hs-form-field {
+      margin: 2rem 0;
+
+      input {
+        &:focus-visible {
+          border: 2px solid $black;
+        }
+        &.invalid {
+          border: 2px solid $title_primary;
+        }
+      }
+    }
+
+    .hs-form {
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"] {
+        height: 4.5rem;
+        color: $black;
+      }
+      input:not([type="image"]) {
+        box-sizing: inherit;
+      }
+      textarea {
+        @include Arial-font-stack();
+      }
+      .hs-form-booleancheckbox {
+        width: auto;
+        margin-left: 0.5rem;
+        label {
+          input[type="checkbox"].hs-input {
+            visibility: visible;
+            min-width: 6%;
+            margin: -5px;
+            padding: 0;
+
+            @include respond-to(tablet) {
+              min-width: 4%;
+            }
+
+            @include respond-to(desktop) {
+              min-width: 2%;
+            }
+          }
+          input[type="checkbox"]:checked + span::before {
+            left: 10px;
+            top: -1px;
+            width: 8px;
+            height: 14px;
+            border: solid $black;
+            border-width: 0 3px 3px 0;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+          }
+        }
+      }
+      .input {
+        select {
+          background-image: url("../images/dropdown.PNG");
+          background-size: contain;
+          background-position: 100% 100%;
+          height: 4.5rem;
+          font-size: 1.8rem;
+          line-height: $line-height;
+        }
+        .hs-input {
+          padding: 0 1.2rem;
+        }
+      }
+
+      .hs-input {
+        border: 1px solid $input-border;
+        color: $black;
+        border-radius: 3px;
+      }
+      label {
+        span {
+          font-size: 1.8rem;
+          font-weight: 700;
+          color: $body-color;
+          line-height: 2.5rem;
+        }
+      }
+      .hs-error-msgs {
+        li {
+          label {
+            color: $title_primary;
+            font-size: 1.8rem;
+            font-weight: 700;
+          }
+        }
+      }
+
+      .form-columns-1 {
+        .input {
+          .hs-input,
+          input[type="email"] {
+            max-width: 100%;
+          }
+        }
+      }
+
+      .form-columns-2 {
+        .input {
+          .hs-input {
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    input[type="submit"] {
+      color: $white;
+      background-color: $title_primary;
+      border-color: transparent;
+      font-size: 1.6rem;
+      font-weight: 400;
+      letter-spacing: 0.32rem;
+      line-height: $line-height;
+      padding: 0.6rem 3.2rem;
+      border-radius: 0;
+      @include Franlink-font-stack();
+      &:hover {
+        color: $title_primary;
+        background-color: $white;
+        border-color: $white;
+        text-decoration: none;
+        outline: none;
+      }
+    }
+  }
+}

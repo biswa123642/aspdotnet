@@ -1,0 +1,105 @@
+@import "abstracts/vars";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+@import "base/fonts/fonts";
+@import "base/fontawesome/font-awesome";
+.component {
+  &.teaser-promo {
+    &.variant-5 {
+        margin: 0px;
+        margin-bottom: 30px;
+      .inner-wrap {
+        figure {
+          width: 50%;
+          float: left;
+          background-position: 45% 10%;
+          background-size: cover;
+          min-height: 18em;
+          .body-copy {
+            float: right;
+          }
+        }
+        .col-right {
+          width: 50%;
+          float: left;
+          background-position: 45% 10%;
+          background-size: cover;
+          .body-copy {
+            float: left;
+          }
+          .sxa-btn {
+            a {
+              &:hover {
+                color: $white;
+                background: $light-blue-hover;
+              }
+            }
+          }
+        }
+        .col-left {
+          .sxa-btn {
+            a {
+              &:hover {
+                color: $white;
+                background: $light-pink-hover;
+              }
+            }
+          }
+        }
+        .body-copy {
+          padding: 1.7em 3em;
+          width: auto;
+          h2 {
+            padding-bottom: 0em;
+            color: $white;
+            font-size: 1.5em;
+            font-family: montserrat, sans-serif;
+            font-weight: 400;
+          }
+          .sxa-btn {
+            a {
+              background: transparent;
+              border: 1px solid $border-white;
+              border-radius: 4px;
+              font-weight: 700;
+            }
+          }
+        }
+        @include respond-to(mobile-mid) {
+          figure {
+            .body-copy {
+              float: initial;
+              text-align: center;
+            }
+          }
+          .col-right {
+            .body-copy {
+              float: initial;
+              text-align: center;
+            }
+          }
+        
+        }
+        @include respond-to(mobile-large){
+          div{
+            min-height: 372px;
+            float: none;
+          }
+          figure{
+            min-height: 372px;
+            float: none;
+            .body-copy{
+              text-align: center;
+              float: none;
+              h2{
+                font-weight: 600;
+                font-size: 2.8rem;
+  
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

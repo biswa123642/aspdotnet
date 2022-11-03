@@ -1,0 +1,52 @@
+﻿---
+ID: "29dfce5b-7851-4491-829f-da2574fdba48"
+Parent: "eff08337-7be1-4c80-96cb-bc10eaa2a6d6"
+Template: "116f3617-03e9-4be7-9cfb-b2cb5e08d001"
+Path: /sitecore/content/OneWeb/Farnam/Data/Rich Profile Listing/WhoWeAre/WhoWeAre/ReneeCourtney
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Renee Courtney
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "03106243-1f19-4934-904f-966bb9d452f2"
+      Hint: ProfileImage
+      Value: |
+        <image mediaid="{D35628C7-1CBC-4738-BA80-C372FEBBCE52}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220718T161436Z
+    - ID: "3de3b0c1-9b74-43f9-927b-6af32bb271d0"
+      Hint: RelatedProducts
+      Value: |
+        {C49E6D68-9EFA-4428-89F4-B556A1749EA4}
+        {BBDD2274-07DE-44EC-BCC8-0B58CC03BA35}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5bb249e7-30d8-455f-beb2-466dd47ceb8b"
+    - ID: "ae3a10af-37b7-47f7-9de6-2c3e946e47e6"
+      Hint: ProfileHeading
+      Value: "<p>What Renee keeps in stock at the barn:</p>"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220722T043020Z
+    - ID: "dbc7e3d3-a46b-4b2c-a60c-5d2361c2aeed"
+      Hint: ProfileTitle
+      Value: Renee Courtney
+    - ID: "e9b19b2d-8185-4f40-b0b0-b46bee945332"
+      Hint: ProfileDescription
+      Value: "<p>Renee has been fortunate to call Farnam her work family since 1997. And those years go by fast when you believe in the products you make, love the company you work for and the people you work with. Renee&rsquo;s current children include Bug, a 9-year-old Cocker Spaniel, Zoey, a 9-year-old Terrier and the baby of the family, a 3 year-old Golden named Daisy.</p>"
