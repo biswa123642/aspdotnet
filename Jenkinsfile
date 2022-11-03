@@ -26,7 +26,7 @@ pipeline {
 	    steps {
 	    print "Restoring Nuget Packages on sln"
 	    powershell '''
-		C:\\nuget\\nuget.exe restore .\\CernerComSitecore.sln -PackagesDirectory  .\\packages  
+		C:\\nuget\\nuget.exe restore .\\CGP.sln 
 		'''
 	    }
 	}
@@ -35,10 +35,9 @@ pipeline {
             steps {
 		print "Building Solution"
                 powershell '''
-                        if (Test-Path "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\MSBuild\\15.0\\Bin\\MSBuild.exe") {
-                            Set-Alias msbuild ${env:msBuildPath}\\MSBuild.exe -Scope Script
+                        if (Test-Path "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\amd64\MSBuild.exe") {
                         } else {
-                            Write-Error "Cannot find VS 2017 MSBuild"
+                            Write-Error "Cannot find VS 2019 MSBuild"
                         }
 			msbuild $ENV:WORKSPACE\\CernerComSitecore.sln `
 			/p:DeployOnBuild=true `
