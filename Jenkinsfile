@@ -39,7 +39,7 @@ pipeline {
                         } else {
                             Write-Error "Cannot find VS 2019 MSBuild"
                         }
-			msbuild $ENV:WORKSPACE\\CernerComSitecore.sln `
+			msbuild $ENV:WORKSPACE\\CGP.sln `
 			/p:DeployOnBuild=true `
 			/p:Configuration=Release `
 			/p:WebPublishMethod=FileSystem `
