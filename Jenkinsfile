@@ -44,23 +44,18 @@ pipeline {
 			/p:Configuration=Release `
 			/p:WebPublishMethod=FileSystem `
 			/p:SkipInvalidConfigurations=true `
-			/p:TransformOnBuild=false `
 			/p:PublishUrl=$ENV:WORKSPACE\\Build_Artifacts_Jenkins `
-			/p:DeployDefaultTarget=WebPublish `
-			/p:BuildProjectReferences=true `
-			/p:AllowedReferenceRelatedFileExtensions=.pdb
+			/p:DeployDefaultTarget=WebPublish 
                     '''
             }
         }
 	    
-	stage('Removing') {
+	stage('Removing_PDB_Files') {
             steps {
 	    print "Removed .Pdb Files"
             powershell '''
 		Get-ChildItem $ENV:WORKSPACE\\Build_Artifacts_Jenkins *.pdb -Recurse | foreach { Remove-Item -Path $_.FullName -Force }
                 Remove-Item -Path $ENV:WORKSPACE\\Build_Artifacts_Jenkins\\bin\\roslyn -Recurse -Force
-                md -path $ENV:WORKSPACE\\Build_Package
-                Copy-Item -Path $ENV:WORKSPACE\\Build_Artifacts_Jenkins -Destination $ENV:WORKSPACE\\Build_Package -Recurse
 		'''
 	    }
 	}
@@ -68,7 +63,7 @@ pipeline {
     	stage('Archive_Artifacts') {
             steps {
             powershell '''
-		Compress-Archive -Path $ENV:WORKSPACE\\Build_Package `
+		Compress-Archive -Path $ENV:WORKSPACE\\Build_Artifacts_Jenkins `
 		-DestinationPath $ENV:WORKSPACE\\Build_Package\\$ENV:BUILD_NUMBER.zip
 		'''
 	    }
