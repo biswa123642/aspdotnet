@@ -1,0 +1,90 @@
+﻿---
+ID: "c0dfe391-e61d-4d16-a28b-ef2538b330e7"
+Parent: "45e33a67-cc1e-4a3b-ad9c-42de8d4f4453"
+Template: "a6ddac75-7d24-4bdb-b3f6-5f47fbb21379"
+Path: /sitecore/content/OneWeb/Zilla/Data/Accordions/BeyondTheGlass/BeyondTheGlass/Season1Episode12
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{09BD444B-FABC-47EA-981D-2C8271655469}">
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B5423143A-760D-4F0E-BA4D-0B02E649A778%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-title"
+          uid="{86599FD1-34A8-4097-ABD5-10FA84A037AF}" />
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-content"
+          uid="{9CB08EDD-17F6-4A9D-A949-D73F70B6739F}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Season 1 Episode 12
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220827T054049Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5a236869-e375-49c0-a92d-0c2f1db7788f"
+      Hint: Content
+      Value: |
+        <p>The season one finale of Beyond the Glass is here! Our final adventure in Indonesia takes Myke and the crew out to find the elusive Mangrove Snake.</p>
+        <p>The adventure begins with the team embarking out on a boat through a river, searching the overhanging branches for sleeping snakes.</p>
+        <p>While reptiles were the No. 1 target, the crew spotted an interesting species hanging out among the trees &ndash; an orangutan. This animal is critically endangered, with less than 100,000 of them left in the world. Unfortunately, the rain would end the crew&rsquo;s river quest soon after.</p>
+        <p>On a tip from a local farmer, the team headed inland into a rubber farm plantation. The first discovery would be a Keeled Slug-Eating Snake. They eat exactly what one might suspect &ndash; slugs. One of the main characteristic traits of this species is their large head.</p>
+        <p>After an unfortunate tumble resulted in camera damage, the crew would have to wrap up their rubber plantation excursion and head to Java to continue the adventure.</p>
+        <p>That&rsquo;s where the main target was encountered &ndash; the Mangrove Snake. This is a gorgeous animal with its black body and yellow stripes. More and more people are captive breeding this species, as it&rsquo;s an arboreal colubrid that resembles a lot of arboreal vipers &ndash; except less dangerous.</p>
+        <p>In captivity, the Mangrove Snake requires a lot of room for climbing. Once they have a lot of sticks to maneuver around, they&rsquo;re easy to please. While an amazing animal, they are rear-fanged and restricted in some cities and states, so make sure to check local regulations before purchasing them.</p>
+        <p>And with that, season one of Beyond the Glass has concluded. However, season two is on the horizon, this time with Myke and the crew heading out to West Africa. Stay tuned to Zilla for more exciting adventures and reptile/amphibian knowledge.</p>
+        <div class="takeaways">
+        <h3>Habitat Takeaways:</h3>
+        <p><strong>Ambient Temperature:</strong> 89.6&deg; (82&deg;F - 92&deg;F Range)</p>
+        <p><strong>Humidity Percentage:</strong> 82.2% (72 - 97% Range)</p>
+        <p><strong>Night Temperature:</strong> 76.3&deg; (74&deg;F - 80&deg;F Range)</p>
+        </div>
+        <h3>Species spotted:</h3>
+        <p>Bornean Orangutan (<em>Pongo Pygmaeus</em>)</p>
+        <p>Keeled Slug-Eating Snake (<em>Pareas Carinatus</em>)</p>
+        <p>Mangrove Snake (<em>Boiga Dendrophila Dendrophilia</em>)</p>
+        <a href="#btg-video" data-slide="12" class="score-button">Watch Now</a>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7240053b-9140-48ac-acea-abfccd7761a1"
+      Hint: Heading
+      Value: |
+        <h4>Season 1, Episode 12: Mangrove Snake</h4>
+        <h5>May 22, 2019</h5>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cd156851-b048-4a08-aca7-8637b651eab1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220909T104159Z

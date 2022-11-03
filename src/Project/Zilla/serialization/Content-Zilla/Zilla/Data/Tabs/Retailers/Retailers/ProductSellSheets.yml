@@ -1,0 +1,87 @@
+﻿---
+ID: "f67df187-4d33-4ea3-8d3a-3e52f34cc596"
+Parent: "bee32c39-11ce-45b5-9b7e-6e9be581d2cf"
+Template: "b27059e6-1190-4273-92a0-d22af3c440b4"
+Path: /sitecore/content/OneWeb/Zilla/Data/Tabs/Retailers/Retailers/ProductSellSheets
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{1292FC57-9F1D-48E4-943B-8B4A6EA865A1}">
+          <p:d />
+        </r>
+        <r
+          uid="{8D78A6A9-1A4A-438F-9951-03896182E1D1}">
+          <p:d />
+        </r>
+        <r
+          uid="{3A6959E6-87AE-49A0-82DC-EA719DB65EA3}"
+          p:before="*"
+          s:ds="{F7CFEDC1-7D31-4B4D-B384-B6EA11BE825E}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B7AF5C340-8A60-4D59-A7A1-5DBAB391292C%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=13"
+          s:ph="section-content"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{CED844CA-5E9C-4AC1-B3A5-37E26D95683C}"
+          p:after="r[@uid='{3A6959E6-87AE-49A0-82DC-EA719DB65EA3}']"
+          s:ds="{F779E44D-3264-4B16-9104-19C1C2F69BB4}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B7AF5C340-8A60-4D59-A7A1-5DBAB391292C%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=14"
+          s:ph="section-content"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{BCB1C167-7E60-46B8-8E2F-FB84E70C8019}"
+          p:after="r[@uid='{CED844CA-5E9C-4AC1-B3A5-37E26D95683C}']"
+          s:ds="{4128A57B-07BB-4D68-87A4-605C5DB90F59}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B7AF5C340-8A60-4D59-A7A1-5DBAB391292C%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=15"
+          s:ph="section-content"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{7F55CB16-939B-49A7-BB95-F0D2A129DB40}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="FieldNames=%7B5423143A-760D-4F0E-BA4D-0B02E649A778%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          s:ph="section-title" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Product Sell Sheets
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220825T065444Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "70181515-2aab-4710-91f4-52a08151693e"
+      Hint: Heading
+      Value: Product Sell Sheets
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fd407843-f006-4775-b7dc-fd1e9fcafb14"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220914T063845Z

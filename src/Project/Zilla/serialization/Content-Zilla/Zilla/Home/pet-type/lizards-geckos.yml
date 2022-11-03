@@ -1,0 +1,236 @@
+﻿---
+ID: "bf37e89b-7412-4c15-b326-1808e4477ec0"
+Parent: "94e86e47-ff9a-4157-b09b-d23b7ebb9a7f"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/Zilla/Home/pet-type/lizards-geckos"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{CD79EA9A-C7D7-49BF-B9AF-ED27F4A09F43}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        p:after="*[1=2]">
+        <r
+          uid="{4001076F-4BBB-4215-9474-5C8B7CBD7BD8}"
+          p:before="*"
+          s:ds="{48FBB269-3492-40AA-8DFA-63B42568A774}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D%7C%7B3D78E0A5-3BD6-48B6-9799-E9DB52C3195E%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=15"
+          s:ph="/main/row-7-1/container-12"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{D5C470B0-0EE4-4603-A753-2EEC815E54CC}"
+          p:after="r[@uid='{4001076F-4BBB-4215-9474-5C8B7CBD7BD8}']"
+          s:ds="{AF5764D3-06BA-4640-BC31-9C730C0F2656}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=16"
+          s:ph="/main/row-7-1/container-12"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{21750BA1-270F-4F3C-8E13-7B28FC8D8C23}"
+          p:after="r[@uid='{D5C470B0-0EE4-4603-A753-2EEC815E54CC}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BC8AE8DAF-E579-456F-8747-7D6B522A7587%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=12"
+          s:ph="/main/row-7-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{A3985CB0-0AE8-44A9-97A6-4D92A9A9427C}"
+          p:after="r[@uid='{21750BA1-270F-4F3C-8E13-7B28FC8D8C23}']"
+          s:ds="{FF6716E6-5986-43B4-AE01-F5661E35279D}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7BC9E52308-1FCC-4B49-B678-CB1B6E17371A%7D%7C%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D%7C%7B8780BED3-5B0C-4254-8529-3D6342EC4BEF%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=14"
+          s:ph="/main/row-6-1/container-11"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{4AC69AD3-6273-4F01-891F-0B739158E3FB}"
+          p:after="r[@uid='{A3985CB0-0AE8-44A9-97A6-4D92A9A9427C}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
+          s:ph="/main/row-6-1" />
+        <r
+          uid="{4305AE2C-5FB7-4C7B-9A4C-117F61424AE1}"
+          p:after="r[@uid='{4AC69AD3-6273-4F01-891F-0B739158E3FB}']"
+          s:ds="{93925E8C-B11E-46B5-846D-DE990E5F3E58}"
+          s:id="{3972C278-7E7A-4C2B-A293-66AF860F5C3A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B39C41CFB-A250-4C5E-98D6-52E06E9BC6B8%7D&amp;Styles=%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D%7C%7B2C60D71B-1FBA-4231-B7AB-7718DE752C27%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=13"
+          s:ph="/main/row-5-1/container-10"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{4DD9A173-A834-496F-B344-E898773B8535}"
+          p:after="r[@uid='{4305AE2C-5FB7-4C7B-9A4C-117F61424AE1}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/row-5-1" />
+        <r
+          uid="{3EF72304-7AC9-49D8-BEAB-F94FF432B8C0}"
+          p:after="r[@uid='{4DD9A173-A834-496F-B344-E898773B8535}']"
+          s:ds=""
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles=%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/row-4-1/container-8"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{468D7FE0-BD79-43E1-806A-E7F408CE9D84}"
+          p:after="r[@uid='{3EF72304-7AC9-49D8-BEAB-F94FF432B8C0}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/row-4-1" />
+        <r
+          uid="{39F992B7-D009-44C8-A036-09781FCC7752}"
+          p:after="r[@uid='{468D7FE0-BD79-43E1-806A-E7F408CE9D84}']"
+          s:ds=""
+          s:id="{99A633FC-B9A9-44A0-B78A-BCBB08DD02C9}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BE1ED351B-D573-4FE5-997C-4589A3D1361F%7D&amp;Styles=%7B8D38663D-4028-4440-96C6-BCAA6062E23B%7D%7C%7BFAF28AF7-0575-40E0-9EE8-3C33FB91AC01%7D%7C%7B483AF548-57D7-4735-A003-5710259189CC%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-3-1/container-6"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{363FE04E-A72F-48FB-A750-FD41D309D7CB}"
+          p:after="r[@uid='{39F992B7-D009-44C8-A036-09781FCC7752}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-3-1" />
+        <r
+          uid="{59D5BD73-88F0-4BFF-8E08-CBC01F6C91FC}"
+          p:after="r[@uid='{363FE04E-A72F-48FB-A750-FD41D309D7CB}']"
+          s:ds=""
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BEB97EC7C-7A08-4D35-835C-AA9365EE9319%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-2-1/container-4"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{0C78481E-AAB7-41DB-BEFE-C9CE526B8B87}"
+          p:after="r[@uid='{59D5BD73-88F0-4BFF-8E08-CBC01F6C91FC}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{F7A434A1-386B-4105-8AD8-6B7E62AC2C12}"
+          p:after="r[@uid='{0C78481E-AAB7-41DB-BEFE-C9CE526B8B87}']"
+          s:ds=""
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%3E&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B1D790729-2C96-41CB-AB54-EFCE42474F1E%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-1-1/container-2" />
+        <r
+          uid="{B8D72641-9481-472A-83BF-2C0C608F3006}"
+          p:after="r[@uid='{F7A434A1-386B-4105-8AD8-6B7E62AC2C12}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{6E40463E-72D5-4854-A8DF-81516578D3D8}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3%2C4%2C5%2C6%2C7&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{1837FFBE-FF56-4BAB-A1B7-DC275AB628FC}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220810T105157Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Lizards & Geckos
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: "Lizards and geckos are often considered the same but each have their own individual qualities! Learn about types of lizards and geckos and what makes them unique."
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        Lizards are a highly diverse group of animals and are found in a wide variety of environments on every continent except Antarctica. Many lizards and geckos have a unique ability to detach their tails when attacked by a predator. Once detached, the tail wiggles on the ground attracting the predator, while the lizard or gecko runs away. In the weeks following their escape, the wound heals, and they begin to grow a new tail. When keeping these animals in captivity it is important not to pick them up by their tail or pull on it, as it may detach.
+        Lizards and geckos are four-legged animals covered in scales that have external ears. Lizards are cold blooded vertebrates of the class Reptilia, order Squamata, and suborders Lacertilia (Lizards) and Amphisbaenia (Worm Lizards). Geckos are categorized as suborder Lacertilia and infraorder Gekkota.
+        <h2>Gecko vs Lizard - Is a Gecko a Lizard?</h2>
+        <div>
+        Yes, geckos are lizards! What differentiates geckos from the group of lizards is that they lay eggs in pairs instead of large clutches, and they have the ability to vocalize with chirps and barking noises. Most geckos also lack eyelids and have sticky toes that enable them to climb walls. There are roughly 6,000 species of lizards, 1,500 of those being geckos.
+        </div>
+        <h2>Getting Started With Your Domestic Lizard</h2>
+        <p>
+        Many lizards main food source are bugs and many of them prefer live, just like in the wild, with that said owners will have to be comfortable and regularly keep up on acquiring their food source. They also need their bedding in their cages changed out every 2-3 months so they stay their healthiest. Depending on the type, many require a humid or bathing for shedding. It's important to research the type of lizard you are planning to get <em>before</em> you get them.
+        </p>
+        <h3>Housing and Habitat</h3>
+        With any pet you should always do your research. When it comes to lizards you will be creating their habitat and therefore it&rsquo;s very important for you to learn as much about their natural habitat as possible. <a href="~/link.aspx?_id=18AC5681D5CA41E9B349CB7DA6130987&amp;_z=z"><span style="text-decoration: underline; color: #c00000;">The Zilla Critter Cages</span></a> come in various size and can comfortably house many types of lizards. Reference our <a href="~/link.aspx?_id=69319664A358494A89C1552642203434&amp;_z=z"><span style="text-decoration: underline; color: #c00000;">environment guides</span></a> to help build the best home for your pet.
+        <h4><span style="text-decoration: underline;">Lizards &amp; geckos require:</span></h4>
+        <ul>
+            <li>
+            <a href="~/link.aspx?_id=57937894798449E785355C89E9890B88&amp;_z=z"><span style="text-decoration: underline; color: #c00000;">Heat source</span></a> to stay warm as well as cool areas in their tanks so the animals can self-regulate their temperatures.</li>
+            <li>
+            A <a href="~/link.aspx?_id=F94B55923E734338BB47A2EAD4E0C742&amp;_z=z"><span style="text-decoration: underline; color: #c00000;">temperature gradient</span></a>, meaning a cool area and a warm area, is important necessity for any animal&rsquo;s living space and will help keep them healthy.</li>
+            <li>
+            <a href="~/link.aspx?_id=82DFF8E91CC446FCB8F6E0FACD4E4422&amp;_z=z"><span style="text-decoration: underline; color: #c00000;">UVA/UVB lighting</span></a> which are essential to maintaining proper healthy scales and bones.</li>
+            <li>
+            <a href="~/link.aspx?_id=BD0D38A029124E27B4276E5B4BEBB85F&amp;_z=z"><span style="text-decoration: underline; color: #c00000;">Decorations</span></a> that mimic their natural habitats and provide cover for hiding and help with shedding. Snakes will not thrive without proper and adequate d&eacute;cor.</li>
+        </ul>
+        <h3>What Do Lizards &amp; Geckos Eat?</h3>
+        <p>For the most part lizards and geckos are insectivorous and omnivorous. Crickets, mealworms, fruit and vegetable matter and the occasional pinky mouse can find their way into a standard lizard diet. <a href="~/link.aspx?_id=E75CB5008F9F41BBA3BC3A3330176D4E&amp;_z=z"><span style="text-decoration: underline; color: #c00000;">Calcium</span></a> and <a href="~/link.aspx?_id=6BBB6E4075484EF0BC0BD018BBEBDAB2&amp;_z=z"><span style="text-decoration: underline; color: #c00000;">vitamin</span></a> D3 supplements should also be added for a healthy meal.</p>
+        <p>
+        <em><strong>Always wash your hands after handling any reptile!</strong></em>
+        </p>
+        <h3>How To Safely Handle Your Young Pet Lizard or Gecko</h3>
+        <p>Nearly all lizards and Geckos will be nervous when you first get them. They may bark or show and aggressive pose, or they may try to run away from you. Both of these actions are because they are stressed and scared. It is best not to handle them for 5 days after you bring your new pet home. Make sure to handle them gently and don&rsquo;t hold them too tight. Allow them to move over your hands slowly and hold them closely over a surface in case they fall, to avoid injury. Over time, they will become more accepting of handling and can be amazing animals to hold and interact with.</p>
+        <h2>Should I Get a Lizard or Gecko as a Pet?</h2>
+        <p>Lizards are one of the most diverse groups of reptiles. They can live in trees in the rainforests or underground in the desert. Some eat rodents, some eat insects, and some eat fruit. Many of them have specific needs for heating and UVB lighting and with incorrect husbandry can become sick and die. It is incredibly important to research each species of lizard you are considering keeping as a pet before purchasing one. Make sure the habitat is the ideal size for the lizard, whether it&rsquo;s a baby or adult, and remember it will grow and may be much larger as an adult. Lizards are intelligent and interactive pets that can bring you and your family a lot of joy, as long as you&rsquo;re ready to care for them properly.</p>
+        <h3>Types of Lizards That Make Great Pets</h3>
+        <p>Bearded Dragon<br />
+        Blue Tongued Skink<br />
+        Fire Skink<br />
+        Jackson&rsquo;s Chameleon<br />
+        Jeweled Lacerta<br />
+        Mali Uromastyx<br />
+        Panther Chameleon<br />
+        Steppe Runner<br />
+        Veiled Chameleon</p>
+        <h3>Types of Geckos That Make Great Pets</h3>
+        <p>Crested Gecko<br />
+        Day Geckos<br />
+        Fat-Tailed Gecko<br />
+        Gargoyle Gecko<br />
+        Leopard Gecko<br />
+        Pictus Gecko</p>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "Lizards and geckos are often considered the same but each have their own individual qualities! Learn about types of lizards and geckos and what makes them unique."
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Lizards & Geckos
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Lizard & Gecko Facts
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cf042ce1-af22-42ea-8726-34247b3f4503"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{1837FFBE-FF56-4BAB-A1B7-DC275AB628FC}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220915T105248Z

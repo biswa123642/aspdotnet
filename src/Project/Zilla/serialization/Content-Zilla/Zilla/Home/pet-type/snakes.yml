@@ -1,0 +1,212 @@
+﻿---
+ID: "79dbbe36-f446-4cd9-a737-f2197b0732a0"
+Parent: "94e86e47-ff9a-4157-b09b-d23b7ebb9a7f"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/Zilla/Home/pet-type/snakes"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{CD79EA9A-C7D7-49BF-B9AF-ED27F4A09F43}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        p:after="*[1=2]">
+        <r
+          uid="{A3985CB0-0AE8-44A9-97A6-4D92A9A9427C}"
+          p:before="*"
+          s:ds="{113B7326-01FD-4AA6-A1DB-8BBE1EDFCDB4}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7BC9E52308-1FCC-4B49-B678-CB1B6E17371A%7D%7C%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D%7C%7B8780BED3-5B0C-4254-8529-3D6342EC4BEF%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=14"
+          s:ph="/main/row-6-1/container-11"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{4AC69AD3-6273-4F01-891F-0B739158E3FB}"
+          p:after="r[@uid='{A3985CB0-0AE8-44A9-97A6-4D92A9A9427C}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
+          s:ph="/main/row-6-1" />
+        <r
+          uid="{4305AE2C-5FB7-4C7B-9A4C-117F61424AE1}"
+          p:after="r[@uid='{4AC69AD3-6273-4F01-891F-0B739158E3FB}']"
+          s:ds="{FF9FAFAB-39FF-4305-A2DE-DF4FBFC75AEC}"
+          s:id="{3972C278-7E7A-4C2B-A293-66AF860F5C3A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B39C41CFB-A250-4C5E-98D6-52E06E9BC6B8%7D&amp;Styles=%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D%7C%7B2C60D71B-1FBA-4231-B7AB-7718DE752C27%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=13"
+          s:ph="/main/row-5-1/container-10"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{4DD9A173-A834-496F-B344-E898773B8535}"
+          p:after="r[@uid='{4305AE2C-5FB7-4C7B-9A4C-117F61424AE1}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/row-5-1" />
+        <r
+          uid="{3EF72304-7AC9-49D8-BEAB-F94FF432B8C0}"
+          p:after="r[@uid='{4DD9A173-A834-496F-B344-E898773B8535}']"
+          s:ds=""
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles=%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/row-4-1/container-8"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{468D7FE0-BD79-43E1-806A-E7F408CE9D84}"
+          p:after="r[@uid='{3EF72304-7AC9-49D8-BEAB-F94FF432B8C0}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/row-4-1" />
+        <r
+          uid="{39F992B7-D009-44C8-A036-09781FCC7752}"
+          p:after="r[@uid='{468D7FE0-BD79-43E1-806A-E7F408CE9D84}']"
+          s:ds=""
+          s:id="{99A633FC-B9A9-44A0-B78A-BCBB08DD02C9}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BE1ED351B-D573-4FE5-997C-4589A3D1361F%7D&amp;Styles=%7B8D38663D-4028-4440-96C6-BCAA6062E23B%7D%7C%7BFAF28AF7-0575-40E0-9EE8-3C33FB91AC01%7D%7C%7B483AF548-57D7-4735-A003-5710259189CC%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-3-1/container-6"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{363FE04E-A72F-48FB-A750-FD41D309D7CB}"
+          p:after="r[@uid='{39F992B7-D009-44C8-A036-09781FCC7752}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-3-1" />
+        <r
+          uid="{59D5BD73-88F0-4BFF-8E08-CBC01F6C91FC}"
+          p:after="r[@uid='{363FE04E-A72F-48FB-A750-FD41D309D7CB}']"
+          s:ds=""
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BEB97EC7C-7A08-4D35-835C-AA9365EE9319%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-2-1/container-4"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{0C78481E-AAB7-41DB-BEFE-C9CE526B8B87}"
+          p:after="r[@uid='{59D5BD73-88F0-4BFF-8E08-CBC01F6C91FC}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{F7A434A1-386B-4105-8AD8-6B7E62AC2C12}"
+          p:after="r[@uid='{0C78481E-AAB7-41DB-BEFE-C9CE526B8B87}']"
+          s:ds=""
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%3E&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B1D790729-2C96-41CB-AB54-EFCE42474F1E%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-1-1/container-2" />
+        <r
+          uid="{B8D72641-9481-472A-83BF-2C0C608F3006}"
+          p:after="r[@uid='{F7A434A1-386B-4105-8AD8-6B7E62AC2C12}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{6E40463E-72D5-4854-A8DF-81516578D3D8}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3%2C4%2C5%2C6&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{70588BB3-4644-487D-A503-43AE7A93DB5A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220810T105357Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Snakes
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Learn about various types of snakes and how to properly take care of them.
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <p>So many snakes! Snakes are found in a wide variety of environments on every continent except Antarctica. There are over 3,400 species of snakes, and 18 families, but most can be separated into 5 main groups:</p>
+        <p>
+        1. Boas<br />
+        2. Pythons<br />
+        3. Colubrids<br />
+        4. Vipers<br />
+        5. Elapids</p>
+        <p>Snakes are cold blooded vertebrates of the class Reptilia, order Squamata, and suborder Serpentes. These legless carnivores are covered in protective scales and have the ability to consume their prey whole.</p>
+        <h2>Getting Started With a Pet Snake</h2>
+        It’s important to know that snakes have an incredible sense of smell and detect prey by flicking their tongue and catching scent particles in the air. When they bring their tongue into their mouth, they run it across their Jacobson’s Organ, which sends a signal to their brain to identify what they smell. Snakes are known for being a bit nervous and defensive. If they are handled often and carefully they should warm up to you and look forward to see you!
+        <h3>Housing and Habitat</h3>
+        It is important with snakes to research their natural habitat and try your best to mimic it. Some snakes live in trees in the rainforest, while others burrow in the sands of the desert. Duplicating that environment is important for your snake to live a long happy life in your home. Snakes, like all reptiles, need a terrarium with a <a href="~/link.aspx?_id=F94B55923E734338BB47A2EAD4E0C742&amp;_z=z"><span style="text-decoration: underline; color: #c00000;">day and night cycle</span></a> with proper <a href="-/media/83569C74FF784C729DF839B6CEE4B838.ashx"><span style="text-decoration: underline; color: #c00000;">lighting</span></a>.<br />
+        A good starter kit is our <a href="~/link.aspx?_id=9B9ED017E6E243BAA2DB6400A1597A2F&amp;_z=z"><span style="text-decoration: underline; color: #c00000;">Deluxe Snake Kit</span></a>, which comes with everything a first time snake owner would need. Otherwise if you would rather build your own terrarium from scratch our <a href="~/link.aspx?_id=530782C8A5CE461181D9621BC5A0CB0C&amp;_z=z"><span style="text-decoration: underline; color: #c00000;">glass terrariums, cages and tanks page</span></a> is a great place to start!<br />
+        <h4><span style="text-decoration: underline;">Snakes require:</span></h4>
+        <ul>
+            <li><a href="~/link.aspx?_id=57937894798449E785355C89E9890B88&amp;_z=z"><span style="text-decoration: underline; color: #c00000;">Heat source</span></a> to stay warm as well as cool areas in their tanks so the animals can self-regulate their temperatures.</li>
+            <li>A <a href="~/link.aspx?_id=F94B55923E734338BB47A2EAD4E0C742&amp;_z=z"><span style="text-decoration: underline; color: #c00000;">temperature gradient</span></a>, meaning a cool area and a warm area, is important necessity for any animal’s living space and will help keep them healthy.</li>
+            <li><a href="~/link.aspx?_id=82DFF8E91CC446FCB8F6E0FACD4E4422&amp;_z=z"><span style="text-decoration: underline; color: #c00000;">UVA/UVB lighting</span></a> which are essential to maintaining proper healthy scales and bones.</li>
+            <li><a href="~/link.aspx?_id=BD0D38A029124E27B4276E5B4BEBB85F&amp;_z=z"><span style="text-decoration: underline; color: #c00000;">Decorations</span></a> that mimic their natural habitats and provide cover for hiding and help with shedding. Snakes will not thrive without proper and adequate décor.</li>
+        </ul>
+        <h3>What do Snakes Eat?</h3>
+        <p>In the wild snakes would eat rodents, small mammals, small birds, bird eggs and sometimes frogs, small lizards, or smaller snakes. In captivity as pets, snakes can mainly thrive off of rodents, such as mice and rats, that are properly sized for the snake.</p>
+        <br />
+        <h2>How To Safely Handle Your Young Pet Snake</h2>
+        <p>With nearly all snakes, hatchlings and younger snakes, in general, may be more nervous when you first get them. Many times this will cause them to be squirmy or want to hide, other times they may get defensive and may try to bite. This is their only way to defend themselves and in their eyes, you are a big scary predator. Make sure to handle them gently and don’t hold them too tight. Allow them to move over your hands slowly and hold them closely over a surface in case they fall, to avoid injury. Over time, they will become more accepting of handling and can be amazing animals to hold and interact with.</p>
+        <p><em><strong>Always wash your hands after handling any reptile!</strong></em><br />
+        <br />
+        </p>
+        <h2>Should I Get a Snake as a Pet?</h2>
+        <p>Snakes do make great pets for the right owners with the right breeds. But you must do your research about behaviors, size, and lifespans. Research the species you have in mind before purchasing to make sure you are prepared for its needs throughout its life. Also, check local and state regulations where you live.</p>
+        <h3>Types of Snakes Make Great Pets</h3>
+        African House Snake<br />
+        Brazilian Rainbow Boa<br />
+        Carpet Python<br />
+        Children’s and Spotted Python<br />
+        Common Kingsnake<br />
+        Corn Snake<br />
+        Dumeril’s Boa<br />
+        Garter Snake<br />
+        Gopher, Bull, and Pine Snake<br />
+        Grey-Banded and Variable Kingsnake<br />
+        Kenyan Sand Boa<br />
+        Milk Snake<br />
+        North American Rat Snake<br />
+        Prairie and Mole Kingsnake<br />
+        Western Hognose<br />
+        Woma Python
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Learn about various types of snakes and how to properly take care of them.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Snakes | Reptile Pet Types | Zilla
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Snake Facts
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4f79b9c4-4410-4003-832a-02590c516492"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{70588BB3-4644-487D-A503-43AE7A93DB5A}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220915T105304Z

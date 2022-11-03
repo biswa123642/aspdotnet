@@ -1,0 +1,307 @@
+﻿---
+ID: "780cc5f0-010b-4ea8-897c-6f0a31c7d2b2"
+Parent: "e64dba76-87ac-4576-8b0e-715d24c883a9"
+Template: "8fcd3cfe-8b3b-423e-8176-6a7c72cb43fc"
+Path: /sitecore/content/OneWeb/Zoecon/Presentation/Rendering Variants/Page Content/PMPVan Product Snippet/Scriban
+SharedFields:
+- ID: "936e68b4-5346-4adb-9b77-79771d0b40dc"
+  Hint: Template
+  Value: |
+    <div class="page-wrapper">
+      <div class="container-fluid">
+    	<div class="row">
+    	<div class="pmp-truck__layout row">
+    	  <div class="col-12 col-xl-8 score-left">
+    		<div class="score-column1 pmp-truck__form pmp-truck__page">
+    		  <div class="score-center">
+    			<a id="sales-rep-form" class="score-anchorpoint" name="sales-rep-form" title=""></a>
+    			<div class="score-section-header">
+    			  <h2> Connect with Sales Rep </h2>
+    			</div>
+    			<div class="score-content-spot"> Our team is committed to providing pest control professionals with the answers and solutions they need to get the job done. Please fill out the form below and your local Zoëcon representative will be in touch as soon as possible. </div>
+    			<!--if lte IE 8><script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+    										<!endif-->
+    			<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+    			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    			<div id="hubspot-form-3566c785-ee0a-48b4-85d9-2ced39948f4c"></div>
+    			<script>
+    			  setTimeout(function() {
+    				if (typeof hbspt !== 'undefined') {
+    				  hbspt.forms.create({
+    					css: '',
+    					portalId: '454126',
+    					formId: 'cad2ced7-5371-4bbf-b26d-760cf552c3ab',
+    					target: '#' + 'hubspot-form-3566c785-ee0a-48b4-85d9-2ced39948f4c',
+    					redirectUrl: '',
+    					onFormReady: function($form) {
+    					  $('input[name="address"]').attr('maxlength', '255').change();
+    					  $('input[name="address_2"]').attr('maxlength', '255').change();
+    					  $('input[name="city"]').attr('maxlength', '40').change();
+    					  $('input[name="firstname"]').attr('maxlength', '40').change();
+    					  $('input[name="lastname"]').attr('maxlength', '40').change();
+    					  $('input[name="phone"]').attr('maxlength', '40').change();
+    					  $('input[name="zip"]').attr('maxlength', '10').change();
+    					}
+    				  });
+    				}
+    			  }, 500);
+    			</script>
+    		  </div>
+    		</div>
+    		<div class="score-column1 pmp-truck__page">
+    		  <div class="score-center">
+    			<a id="loyalty-program-form" class="score-anchorpoint" name="loyalty-program-form"></a>
+    			<div class="score-section-header">
+    			  <h2> Learn More About Our Loyalty Program </h2>
+    			</div>
+    			<div class="score-content-spot"> Fill out the form below and we’ll connect you with your Zoëcon sales rep to learn more about our loyalty program and the savings that come with it. </div>
+    			<!--if lte IE 8><script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+    										<!endif-->
+    			<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+    			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    			<div id="hubspot-form-a6a360ee-6f4d-4477-9120-99fd3e4b02f3" class="" style=""></div>
+    			<script>
+    			  setTimeout(function() {
+    				if (typeof hbspt !== 'undefined') {
+    				  hbspt.forms.create({
+    					css: '',
+    					portalId: '454126',
+    					formId: '1ae9221a-f08b-445d-b402-00a1c79fa747',
+    					target: '#' + 'hubspot-form-a6a360ee-6f4d-4477-9120-99fd3e4b02f3',
+    					redirectUrl: '',
+    					onFormReady: function($form) {
+    					  $('input[name="address"]').attr('maxlength', '255').change();
+    					  $('input[name="address_2"]').attr('maxlength', '255').change();
+    					  $('input[name="city"]').attr('maxlength', '40').change();
+    					  $('input[name="firstname"]').attr('maxlength', '40').change();
+    					  $('input[name="lastname"]').attr('maxlength', '40').change();
+    					  $('input[name="phone"]').attr('maxlength', '40').change();
+    					  $('input[name="zip"]').attr('maxlength', '10').change();
+    					}
+    				  });
+    				}
+    			  }, 500);
+    			</script>
+    		  </div>
+    		</div>
+    		<div class="score-column1 pmp-truck__open-truck pmp-truck__page">
+    		  <div class="score-center">
+    			<a id="open-van" class="score-anchorpoint" name="open-van"></a>
+    			<div class="score-column1">
+    			  <div class="score-center">
+    				<img src="-/media/44ADB292B2EB404ABF4F42403932BE2E.ashx" class="score-image img-responsive" alt="" />
+    				<a class="score-image-button x11-2 y11-5" href="https://www.youtube.com/user/ZoeconCentralLS" target="_blank">
+    				  <img src="-/media/D0C3337C986941FEA0B2A198F92309B6.ashx" class="img-responsive" alt="" />
+    				</a>
+    				<a class="score-image-button x7-7 y23-4" href="#insect-posters">
+    				  <img src="-/media/A34A0FD3DE5E4EA796CCE41866920925.ashx" class="img-responsive" alt="" />
+    				</a>
+    				<a class="score-image-button x6 y37" href="#literature">
+    				  <img src="-/media/67EDA68D236A4D07834627AA687C956B.ashx" class="img-responsive" alt="" />
+    				</a>
+    				<a class="score-image-button x4 y51-5" href="#premise-control">
+    				  <img src="-/media/666AF0DF49184E9F9CDB64FAB387FEF7.ashx" class="img-responsive" alt="" />
+    				</a>
+    				<a class="score-image-button x29-5 y13-5" href="#gentrol-igrs">
+    				  <img src="-/media/AE48A0ADD4EF4B079A2C4DAE15B08BCA.ashx" class="img-responsive" alt="" />
+    				</a>
+    				<a class="score-image-button x29 y34" href="#insecticides">
+    				  <img src="-/media/D9343102A63C4B6F9334E6438E5C0A18.ashx" class="img-responsive" alt="" />
+    				</a>
+    				<a class="score-image-button x29 y53" href="#fire-ant-control">
+    				  <img src="-/media/AF09F56AFF2648109E2D9A01343494DA.ashx" class="img-responsive" alt="" />
+    				</a>
+    				<a class="score-image-button x51 y14" href="#precor-igrs">
+    				  <img src="-/media/B699F7FC5D6549D4852028BEE9E3BCBC.ashx" class="img-responsive" alt="" />
+    				</a>
+    				<a class="score-image-button x51-7 y34-2" href="#essentria-botanicals">
+    				  <img src="-/media/9FFD610302CF410B9B28F094F56D443A.ashx" class="img-responsive" alt="" />
+    				</a>
+    				<a class="score-image-button x51-7 y58-5" href="#mosquito-control">
+    				  <img src="-/media/8D939394D04342C383E0C3E2C8C524E9.ashx" class="img-responsive" alt="" />
+    				</a>
+    				<a class="score-image-button x77-7 y28-5" href="/zoecon-beta-tester">
+    				  <img src="-/media/D1A3CD503F1045B9BD6A1C70DF52C728.ashx" class="img-responsive" alt="" />
+    				</a>
+    				<a class="score-image-button x74-6 y49-4" href="#fly-control">
+    				  <img src="-/media/C9B7DBB917ED4BBB9675A0983F5A8767.ashx" class="img-responsive" alt="" />
+    				</a>
+    			  </div>
+    			</div>
+    		  </div>
+    		</div>
+    		<div class="score-column1 pmp-truck__closed-truck pmp-truck__page">
+    		  <div class="score-center">
+    			<a id="closed-van" class="score-anchorpoint" name="closed-van" title=""></a>
+    			<div class="score-column1 pmp-truck__copy">
+    			  <div class="score-center">
+    				<div class="score-document-header">
+    				  <h1> Welcome to Your Pest Control Resource on Wheels </h1>
+    				</div>
+    				<div class="score-content-spot">
+    				  <p>Behind these doors are enduring and effective insect control solutions that reduce and eliminate callbacks. From the development of our groundbreaking IGR technologies for long-lasting control to hard hitting insecticides and eco-friendly alternatives, this experience makes finding what you need a smooth and stress-free ride. Inside you’ll also discover great opportunities to learn and earn with our loyalty program. So, go ahead, pop the doors and see what all the buzz is about. </p>
+    				</div>
+    			  </div>
+    			</div>
+    			<div class="score-column1 ">
+    			  <div class="score-center">
+    				<img src="-/media/CE94C04629654C68BB54365D2FBFEF52.ashx" class="score-image img-responsive" alt="" />
+    				<a class="score-image-button x42 y45 w15.8" href="#open-van">
+    				  <img src="-/media/CC55D8B5E9134F82A020605C904A2A2D.ashx" class=" img-responsive" alt="" />
+    				</a>
+    				<a class="score-image-button hidden-xs hidden-sm hidden-md hidden-lg x44 y48 w12" href="#open-van">
+    				  <img src="-/media/5AE08C29C030492AB07879E2496FD192.ashx" class="img-responsive" alt="" />
+    				</a>
+    			  </div>
+    			</div>
+    		  </div>
+    		</div>
+    		<div class="score-column1 pmp-truck__products">
+    		<!-- HTML snippet starts here -->
+    			<div class="score-center">
+    				{{ category = i_datasource.children}}
+    				{{ for cat in category}}
+    					{{prodClass = sc_field cat "ProductClass"}}
+    					<div class="score-column1 {{prodClass}}">
+    						<div class="score-center">
+    							<a id="{{cat.name}}" class="score-anchorpoint" name="{{cat.name}}" title=""></a>
+    							<div class="score-column2 wide-right">
+    								<div class="score-left">
+    									{{sc_field cat "DesktopImage"}}
+    								</div>
+    								<div class="score-right">
+    									<div class="score-document-header">
+    									<h1>{{sc_raw cat "Title"}}</h1>
+    									</div>
+    									{{sc_raw cat "Content"}}		
+    								</div>
+    							</div>
+    							<div class="score-section-header">
+    								<h2>{{sc_field cat "RelatedProductsLabel"}}</h2>
+    							</div>
+    							<div class="score-column1 ">
+    								<div class="score-center">
+    									{{ related_items = sc_followmany cat "RelatedProducts"}}
+    									{{ for relatedChild in related_items}}
+    										{{ if relatedChild != null}}
+    											<div class="score-highlight cockroach">
+    												{{sc_field relatedChild "DesktopImage"}}
+    												<div class="caption">
+    													<h2>{{sc_raw relatedChild "Title"}}</h2>
+    													<div class="score-call-to-action">
+    														<a class="score-button" href="#{{relatedChild.name}}">#{{relatedChild.name}}</a>
+    													</div>
+    												</div>
+    											</div>
+    										{{end}}
+    									{{end}}
+    								</div>
+    							</div>
+    						</div>
+    					</div>
+    					{{ childCategoryItem = cat.children}}
+    					{{ for childCat in childCategoryItem}}
+    						{{prodCatChildClass = sc_field childCat "ProductClass"}}
+    						<div class="score-column1 {{prodCatChildClass}}">
+    							<div class="score-center">
+    								<a id="{{childCat.name}}" class="score-anchorpoint" name="{{childCat.name}}" title=""></a>
+    								<div class="score-column2 wide-right">
+    								<div class="score-left">
+    									{{sc_field childCat "DesktopImage"}}
+    								</div>
+    								<div class="score-right">
+    									<div class="score-document-header">
+    									<h1>{{sc_raw childCat "Title"}}</h1>
+    									</div>
+    									{{sc_raw childCat "Content"}}		
+    								</div>
+    								</div>
+    								<div class="score-section-header">
+    								<h2>{{sc_field childCat "RelatedProductsLabel"}}</h2>
+    								</div>
+    								<div class="score-column1 ">
+    									<div class="score-center">
+    										{{ related_chidcat_items = sc_followmany childCat "RelatedProducts"}}
+    										{{ for relatedChildCat in related_chidcat_items}}
+    											{{ if relatedChildCat != null}}
+    												<div class="score-highlight cockroach">
+    													{{sc_field relatedChildCat "DesktopImage"}}
+    													<div class="caption">
+    														<h2>{{sc_raw relatedChildCat "Title"}}</h2>
+    														<div class="score-call-to-action">
+    															<a class="score-button" href="#{{relatedChildCat.name}}">#{{relatedChildCat.name}}</a>
+    														</div>
+    													</div>
+    												</div>
+    											{{end}}
+    										{{end}}
+    									</div>
+    								</div>
+    							</div>
+    						</div>
+    					{{end}}
+    				{{end}}
+    				</div>
+    		<!-- HTML snippet ends here -->
+    		</div>
+    		<div class="score-column1 pmp-truck__background">
+    		  <div class="score-center">
+    			<img src="-/media/723EA59A52EC43B0B38F224D5E9559D9.ashx" class="score-image img-responsive" alt="" />
+    		  </div>
+    		</div>
+    	  </div>
+    	  <div class="col-12 col-xl-4 score-right">
+    		<div class="score-column2 wide-right">
+    		  <div class="score-left"></div>
+    		  <div class="score-right"></div>
+    		</div>
+    		<div class="score-content-spot">
+    		  <h2>My List</h2>
+    		  <a href="#print" class="button--print">Print My List</a>
+    		  <a href="#sales-rep-form" class="button--share">Share With Sales Rep</a>
+    		  <div class="pmp-truck__my-list-message">Select a product from the truck on the left and click "Add to My List" to add to your list.</div>
+    		</div>
+    		<div class="score-column1 pmp-truck__list">
+    		  <div class="score-center">
+    			<div class="score-content-spot">
+    			  <div class="pmp-truck__list-item">
+    				<div class="pmp-truck__list-item-star">&nbsp;</div>
+    				<div class="pmp-truck__list-item-label">Gentrol&reg; Complete Aerosol</div>
+    				<div class="pmp-truck__list-item-image">
+    				  <img alt="" height="555" width="732" src="-/media/BEF899567DDF45A8A177C0DD4428459C.ashx" />
+    				</div>
+    			  </div>
+    			</div>
+    		  </div>
+    		</div>
+    	  </div>
+    	</div>
+    	</div>
+      </div>
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220919T090450Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6e20312b-a75e-434f-9536-85a7fdbebfa9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220923T091143Z

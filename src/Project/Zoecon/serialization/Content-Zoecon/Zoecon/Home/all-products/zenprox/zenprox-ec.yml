@@ -1,0 +1,148 @@
+﻿---
+ID: "2b798613-db39-41a2-a0dc-38eaca1d4afc"
+Parent: "5e99ce44-4e80-4aad-822d-702a689a42bf"
+Template: "bc41b87d-2a9b-4689-9f51-80bb5b31a6e7"
+Path: "/sitecore/content/OneWeb/Zoecon/Home/all-products/zenprox/zenprox-ec"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{5F768B05-DC6D-4E65-B884-FC60D213555D}"
+- ID: "76fb6ffd-4487-4028-a1cf-705fbe360cba"
+  Hint: Priority
+  Value: "{19F3E919-4991-495F-9207-E1DADFD06F54}"
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: "{9132DE1A-A8BA-490D-B509-B8B5F10385FD}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{ECEB4990-EA09-4027-A465-DB14DC51A28F}"
+          p:before="*"
+          s:ds="local:/Data/Youtube Video 1"
+          s:id="{3C84ED23-7591-45E0-8850-1AE96D1342B1}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;RenderingIdentifier"
+          s:ph="/main/sxa-pdp-with-calc/row-2-1/container-4/column-1-5/column-3-6"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{78D0B894-5E18-4E72-A0F1-B9049468B1BB}"
+          p:after="*[1=2]"
+          s:ds="{C57E8048-68B4-4EDE-ADF8-EA356660B4A0}"
+          s:id="{3972C278-7E7A-4C2B-A293-66AF860F5C3A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B39C41CFB-A250-4C5E-98D6-52E06E9BC6B8%7D&amp;Styles=%7B74713217-276E-473E-99CD-0E25926DD628%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-pdp-with-calc/row-2-1/container-4/column-2-5/column-7-8"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02a41838-168c-4858-bafd-f0031b877ddc"
+      Hint: ProductAttributes
+      Value: "{FAB82F0B-AA98-448D-BAF7-336A5BE9CB46}|{75F85283-D32D-4A80-B630-26FEFB80DE6C}|{F7236CD1-FCA1-42D1-B1E7-79AC411D0301}|{F0C8B02A-A399-4791-817E-376A1F218A9F}|{9D77E333-691D-4B33-9237-66572A244D01}|{9FF06412-F124-419D-9EC4-507ACE5AC3EA}|{B299312D-B5D8-49D6-A9FF-B0ABA3D5554F}|{DC1FDFF0-0006-41C7-BDAB-0957F57C7AC1}|{B929ED99-7712-4AE1-B35C-9DD327045FFA}|{C53AFF3A-4EBA-4BE9-85B6-C4531CD3459A}|{1CF09685-E5F1-4805-B6EF-4858B525674F}|{10672686-BF55-4A63-83E9-0DC50F7161FF}|{13FF8263-6BF6-4121-9F3E-4BE4B0C5A921}|{A4F95AE2-1398-4B7C-A45D-F72699C952F8}"
+    - ID: "0318fbe2-2d38-434f-9381-8b0c7500e19a"
+      Hint: ProductDocuments
+      Value: |
+        {AFDB7EA5-720C-4E70-B040-840FFD9F919E}
+        {0D05B884-3FB1-4B5C-ADC0-39EF618F204A}
+        {DF0A9414-5CF1-4ED4-8C4A-2E6550339CB6}
+        {A12081B3-AD0E-4D1E-8838-A9D2FEB37D25}
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{6F6462B6-001F-4EFD-86B9-508A6B29BFDD}" alt="" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220802T110834Z
+    - ID: "27aae902-36ee-42d6-a409-540b226404b0"
+      Hint: PDFDocuments
+      Value: |
+        {13C4CFDC-544B-49DC-8A65-574996F3C2AC}
+        {EF18C844-122D-464F-AA6D-A9624118B3E6}
+        {AD11DA0D-C9FB-4693-83DC-0266ABF7CEAD}
+    - ID: "2a99ffc2-2811-4c06-8960-b56f3669dd33"
+      Hint: ProductRanking
+      Value: 5
+    - ID: "30b0a514-dc94-432c-9655-8c01e474023f"
+      Hint: ExtendedContent
+      Value: "<em>Active Ingredients: 16.2% Etofenprox 64.8% Piperonyl butoxide<br /> EPA Reg. #2724-804</em><br /> <br /> <p>Controlling over 25 different insects, Zenprox® EC combines quick knockdown power with extended residual control. The effective broad spectrum pest control solution is effective in suppressing egg hatch of bed bugs with the non-repellent active ingredient, etofenprox.</p> <ul> <li>Effective flea control</li> <li>Flexible label</li> <li>Non-repellent insecticide</li> </ul>"
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Zenprox® EC
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: "A broad-spectrum insecticide for quick knockdown and lasting residual control. Effective control for fleas, bed bugs, and other listed pests."
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: "Non-repellent insecticide Zenprox® EC has etofenprox and piperonyl butoxide for broad spectrum pest control. Get Zenprox® bed bug control and flea control."
+    - ID: "665c0084-5a1e-484b-a888-4b00b920fda5"
+      Hint: ProductDocumentsLabel
+      Value: DOWNLOADS
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "A broad-spectrum insecticide for quick knockdown and lasting residual control. Effective control for fleas, bed bugs, and other listed pests."
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Trusted Home Pest Repellent | Zenprox® EC
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Zenprox® EC
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ee0cc702-aadf-4fa7-93fa-23c264a07f5f"
+    - ID: "95d893d1-43ae-4c07-bc1e-9839b5cffed5"
+      Hint: RelatedProducts
+      Value: |
+        {DEFA8F14-C79C-4356-B7C4-546ED242F6B7}
+        {74275AA8-4BBA-4610-BF13-4390A3BE3BEA}
+    - ID: "ab818f97-8aa8-4d81-9e70-29c2d400c1fb"
+      Hint: RenderCanonicalTag
+      Value: 1
+    - ID: "b433c832-fadf-498e-b77b-e7933f19ba8e"
+      Hint: Accordion1Title
+      Value: PESTS CONTROLLED
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "be107673-5a64-4a47-9472-c91e8312cb3d"
+      Hint: RelatedProductsLabel
+      Value: PROFESSIONALS ALSO TRIED…
+    - ID: "c95560b6-d1ef-47eb-b4bb-da582a84a444"
+      Hint: Accordion1
+      Value: Ants, bed bugs, cockroaches, centipedes, crickets, flies, fleas, fruit flies, gnats, mosquitoes, moths, scorpions, silverfish, spiders (brown recluse, black widow, others), ticks, wasps and other listed insect pests.
+    - ID: "ca373527-0c18-4282-83b0-121b8a197598"
+      Hint: LongTitle
+      Value: Zenprox® EC
+    - ID: "cbab27c6-0f5a-4c0e-a054-d6da8e5cf37d"
+      Hint: Accordion3Title
+      Value: APPLICATION INSTRUCTIONS
+    - ID: "d359f5e1-8d09-4717-9920-5687aecee004"
+      Hint: Accordion3
+      Value: |
+        Mixing easily with water, Zenprox&reg; EC Insecticide can be applied with most application equipment. Use as a crack-and-crevice treatment in homes, apartments, offices, hotels and any non-food/feed areas. To prevent reinfestations and eliminate insect populations, use as a tank-mix partner with <a href="~/link.aspx?_id=74275AA84BBA4610BF134390A3BE3BEA&amp;_z=z">Gentrol&reg; IGR</a>&nbsp;or <a href="~/link.aspx?_id=DEFA8F14C79C4356B7C4546ED242F6B7&amp;_z=z">Precor&reg; IGR</a>.
+    - ID: "d603a982-51bb-4898-8aed-d25e3c6c416c"
+      Hint: Accordion2
+      Value: Homes, apartments, hotels, schools, nursing homes, hospitals, office buildings, warehouses, commercial and industrial buildings, and other listed buildings and structures.
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{6F6462B6-001F-4EFD-86B9-508A6B29BFDD}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220915T114502Z
+    - ID: "ee6a4f12-e8eb-4b34-9d07-d477e8ad63d4"
+      Hint: Accordion2Title
+      Value: TREATMENT AREAS

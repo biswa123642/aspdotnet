@@ -1,0 +1,134 @@
+﻿---
+ID: "47d7e935-ddee-4704-b271-1cb856190656"
+Parent: "16616263-0db9-4643-990e-e1e404ac2e9d"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/Zoecon/Home/kitchen-protocol-guide"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{9B3CC2FF-105E-4A99-8446-ADCBAA37C3CA}"
+          p:before="*"
+          s:ds="{DBB51F8A-B2C4-4E41-8331-A1B833685DE8}"
+          s:id="{3C84ED23-7591-45E0-8850-1AE96D1342B1}"
+          s:par="Reset Caching Options&amp;GridParameters={908E2BC6-C110-4ED7-AF39-7EEACBB31A34}&amp;Styles&amp;CacheClearingBehavior=Clear on publish&amp;RenderingIdentifier"
+          s:ph="/main/sxa-content-page/container-1/row-2-2/row-2-1/column-2-6" />
+        <r
+          uid="{2B68E702-0402-4733-848A-1A9619FC97A6}"
+          p:after="r[@uid='{9B3CC2FF-105E-4A99-8446-ADCBAA37C3CA}']"
+          s:ds="{6133CED1-D1FC-49B1-9752-DA6C4ADE788F}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7B08F8CA6B-DAEB-4CCA-9D61-FDBBE0C5A71B%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7&amp;CacheClearingBehavior=Clear%20on%20publish"
+          s:ph="/main/sxa-content-page/container-1/row-2-2/row-2-1/column-1-6"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{96AF72D6-EF59-4123-AA34-3989AD6EAB7C}"
+          p:after="r[@uid='{2B68E702-0402-4733-848A-1A9619FC97A6}']"
+          s:ds="{09F47679-B98C-4C81-AE57-F61F6F70AC67}"
+          s:id="{3972C278-7E7A-4C2B-A293-66AF860F5C3A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B39C41CFB-A250-4C5E-98D6-52E06E9BC6B8%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/sxa-content-page/container-1/row-2-2/row-2-1/column-1-6"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{066C5918-DF97-41C8-AE61-B200C43CC447}"
+          p:after="r[@uid='{96AF72D6-EF59-4123-AA34-3989AD6EAB7C}']"
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D%7C%7B0EAC9805-FD77-48B9-9702-2FAF84028008%7D&amp;ColumnWidth2=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D%7C%7B0EAC9805-FD77-48B9-9702-2FAF84028008%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=6"
+          s:ph="/main/sxa-content-page/container-1/row-2-2/row-2-1" />
+        <r
+          uid="{D700BED4-68BE-497D-AA6E-A209D32184AD}"
+          p:after="r[@uid='{066C5918-DF97-41C8-AE61-B200C43CC447}']"
+          s:ds="{A842506D-386F-4FA9-9093-A22F2915F09E}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA714C249-EA1F-4339-BC16-8B0804ED2ADC%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/sxa-content-page/container-1/row-2-2/row-1-1/column-2-2" />
+        <r
+          uid="{389BEEF2-6242-4835-84C0-63F1782739A1}"
+          p:after="r[@uid='{D700BED4-68BE-497D-AA6E-A209D32184AD}']"
+          s:ds=""
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles=%7B61F2FEC8-5C64-4BC8-B992-DFFA31EB499C%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/sxa-content-page/container-1/row-2-2/row-1-1/column-1-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{5E9F6E82-F96C-45F4-AD4C-67377D13AD70}"
+          p:after="r[@uid='{389BEEF2-6242-4835-84C0-63F1782739A1}']"
+          s:ds="{87C017CB-20B5-4EC8-BDCD-3CBED3BAD76E}"
+          s:id="{3972C278-7E7A-4C2B-A293-66AF860F5C3A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B39C41CFB-A250-4C5E-98D6-52E06E9BC6B8%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/sxa-content-page/container-1/row-2-2/row-1-1/column-1-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{89E8F72C-A0C0-47D9-9B0D-522618E31817}"
+          p:after="r[@uid='{5E9F6E82-F96C-45F4-AD4C-67377D13AD70}']"
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B19EFEA92-650D-4786-96E4-5EC96CA47A57%7D%7C%7BE974E610-84AC-4A5E-8658-AD9D7F14B83F%7D&amp;ColumnWidth2=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B7AF5C340-8A60-4D59-A7A1-5DBAB391292C%7D%7C%7BFA0DF184-71D5-4B37-BAB6-20C936E84FFA%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=2"
+          s:ph="/main/sxa-content-page/container-1/row-2-2/row-1-1" />
+        <r
+          uid="{9CC137BC-E24A-43DC-9ED2-F1210E2A3975}"
+          p:after="*[1=2]"
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2=%7B29998DB5-6C20-4078-A13F-A2B7E9792059%7D&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-content-page/container-1/row-2-2" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220802T075605Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Zoëcon’s Kitchen Protocol Guide
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: From client tips to treatment hacks, download our protocol guide below to boost control power and reduce callbacks at kitchen accounts. 
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        
+        <h1>ZOËCON’S KITCHEN PROTOCOL GUIDE</h1>
+        
+        
+        <p>Kitchen infestations present a number of challenges for PMPs and their customers. German cockroaches, drain and fruit flies, stored product pests, and other kitchen insects are difficult to control, and they tend to hide in the many nooks and crannies. For effective control of kitchen insects, learn where to look so you can knock them out at the source:</p>
+        <ul>
+            <li>For ants, examine the edges of counters, seams, baseboards, and other elements of construction.</li>
+            <li>For cockroaches, look in cracks and crevices that are close to water and food sources.</li>
+            <li>Small flies breed in drains, rotten vegetable matter, and disposal lines. Note that they can also emerge from sewer areas through drain traps and improperly sealed toilets.</li>
+            <li>Check for stored product pests in packaged and spilled food items and organic debris.</li>
+        </ul>
+        <p>From client tips to treatment hacks, download our protocol guide below to boost control power and reduce callbacks at kitchen accounts.</p>
+        
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: From client tips to treatment hacks, download our protocol guide below to boost control power and reduce callbacks at kitchen accounts. 
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Zoëcon’s Kitchen Protocol Guide
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Zoëcon’s Kitchen Protocol Guide
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "75cba4c6-0b78-4865-9c7c-646df8cb0078"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220915T060140Z

@@ -1,0 +1,120 @@
+﻿---
+ID: "c6851a1d-6cbd-4212-8e47-404d74d65691"
+Parent: "7c76cc36-b8a0-4f77-a45a-f9a327cea973"
+Template: "a6ddac75-7d24-4bdb-b3f6-5f47fbb21379"
+Path: /sitecore/content/OneWeb/Zoecon/Data/Accordions/Resource Center/Essentria
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{09BD444B-FABC-47EA-981D-2C8271655469}">
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B5423143A-760D-4F0E-BA4D-0B02E649A778%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-title"
+          uid="{B62BD8A3-B5DD-441B-A618-FBFF22F421F9}" />
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-content"
+          uid="{1BAA1287-71CD-466D-932D-B47480FD513C}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220817T085906Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5a236869-e375-49c0-a92d-0c2f1db7788f"
+      Hint: Content
+      Value: |
+        <div class="row">
+        <div class="col-md-6">
+        <div class="accordion-heading">
+        <h1>Essentria</h1>
+        </div>
+        <div class="row">
+        <div class=" col-md-6">
+        <div class="accordion-right">
+        <h4>FACT SHEETS</h4>
+        <a href="-/media/D86B8A49099041E790C33DD487681D79.ashx" target="_blank">Essentria<sup>&reg;</sup> All
+        Purpose Insecticide</a>
+        <a href="-/media/79AE05455322494DB5F8453666422F65.ashx">Essentria<sup>&reg;</sup> Contact
+        Spray</a>
+        <a href="-/media/1F9B90AF38924551A47508D6BF734E15.ashx" target="_blank">Essentria<sup>&reg;</sup> G
+        Granule Insecticide</a>
+        <a href="-/media/33865DF9A6AE4F24910C5125432ABEDC.ashx" target="_blank">Essentria<sup>&reg;</sup> IC-3
+        Insect Concentrate</a>
+        <a href="-/media/08F7DA91F65C4B06BA71861A7418388F.ashx" target="_blank">Essentria<sup>&reg;</sup> Wasp
+        &amp; Hornet Spray</a>
+        <a href="-/media/3D9F0B69CCBA460A86BDA785FBA9E409.ashx" target="_blank">Essentria<sup>&reg;</sup>
+        Product Family Fact Sheet</a>
+        <h4>POSTERS</h4>
+        <a href="~/link.aspx?_id=3A982B85946149DC9CFCC5FE47B51B72&amp;_z=z">Mosquitoes</a>
+        </div>
+        </div>
+        <div class=" col-md-6">
+        <div class="accordion-center">
+        <h4>BROCHURES</h4>
+        <a href="-/media/BDF68A69DD884E829F715A9B99D487CB.ashx" target="_blank">Essentria<sup>&reg;</sup> Family
+        Brochure</a>
+        <h4>TESTIMONIALS</h4>
+        <a href="-/media/1ECCE5915C7A44F0942949485BD2707F.ashx" target="_blank">Essentria<sup>&reg;</sup> IC-3
+        Botanical Testimonial</a>
+        <h4>State of...</h4>
+        <a href="-/media/D0EF7A4AAE0C429CA513B0E4E724FBD6.ashx">2022 State of the Naturals Market
+        </a><a href="-/media/68664953F34944C8A46BF50437A70781.ashx">2021 State of the Naturals
+        Market</a>
+        <a href="-/media/4302F259FFA943CCBC0FD6D868FCBACD.ashx">2020 State of the Naturals
+        Market</a>
+        <a href="-/media/E542224B8ED44AFDA1F8B2840B0F4A99.ashx">2021 State of the Tick Control
+        Market</a>
+        <a href="-/media/D3980040F49F4BC3B12753E80AAADD13.ashx">2020 State of the Tick Control
+        Market</a>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="col-md-6">
+        <div class="accordion-right">
+        <div class="accordion-image">
+        <img height="600" alt="Zoecon Essentria family menu" width="600" src="-/media/18D0E56894BD48598FA86426041A69D7.ashx" />&nbsp;
+        </div>
+        </div>
+        </div>
+        </div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7240053b-9140-48ac-acea-abfccd7761a1"
+      Hint: Heading
+      Value: ESSENTRIA<sup>&reg;&nbsp;</sup>RESOURCES
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "37343ff1-2345-45bb-8667-aa82d7107e0e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220826T121131Z

@@ -1,0 +1,138 @@
+﻿---
+ID: "1341f7d9-9809-42db-8f30-e69c88f8e9ba"
+Parent: "3b44a5d5-d74d-49c7-b75e-f818ffed58b2"
+Template: "bc41b87d-2a9b-4689-9f51-80bb5b31a6e7"
+Path: "/sitecore/content/OneWeb/Zoecon/Home/all-products/premise/starbar-ez-trap"
+SharedFields:
+- ID: "76fb6ffd-4487-4028-a1cf-705fbe360cba"
+  Hint: Priority
+  Value: "{19F3E919-4991-495F-9207-E1DADFD06F54}"
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: "{5C5190DE-BB87-4D18-AF6F-A1125F7DE2DF}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{7818220E-6B45-4B35-91E4-4B8082390886}"
+          p:before="*"
+          s:ds="local:/Data/Youtube Video 1"
+          s:id="{3C84ED23-7591-45E0-8850-1AE96D1342B1}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;RenderingIdentifier"
+          s:ph="/main/sxa-pdp/row-2-1/container-4/column-1-5/column-3-6"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{3F6246AF-AA47-4EFA-8680-4938E9D7263C}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Youtube Video 2"
+          s:id="{3C84ED23-7591-45E0-8850-1AE96D1342B1}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;RenderingIdentifier"
+          s:ph="/main/sxa-pdp/row-2-1/container-4/column-1-5/column-3-6"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02a41838-168c-4858-bafd-f0031b877ddc"
+      Hint: ProductAttributes
+      Value: "{8FEBE2C3-0C87-4415-8668-EA90943007D6}|{9FF06412-F124-419D-9EC4-507ACE5AC3EA}"
+    - ID: "0318fbe2-2d38-434f-9381-8b0c7500e19a"
+      Hint: ProductDocuments
+      Value: |
+        {6D4D85A1-8F60-4ADF-909B-DB953A9B1984}
+        {E6CFF8FC-4C21-491A-A043-1D37CB93DA93}
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{3B411592-508B-424D-BF72-5B1CD636DBFE}" alt="" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220802T110833Z
+    - ID: "27aae902-36ee-42d6-a409-540b226404b0"
+      Hint: PDFDocuments
+      Value: "{43FBB3E1-56AA-41C6-B347-3E6D4EA18C2E}"
+    - ID: "2a99ffc2-2811-4c06-8960-b56f3669dd33"
+      Hint: ProductRanking
+      Value: 39
+    - ID: "30b0a514-dc94-432c-9655-8c01e474023f"
+      Hint: ExtendedContent
+      Value: "<p>With the ability to trap more than three times the amount of flies than traditional sticky fly traps because of its large trapping surface and compact design, the Starbar® EZ Trap® Fly Trap is a mess-free and odor-free fly control solution. </p> <ul> <li>Traps more flies with no trap odor</li> <li>Ideal for gardens, patios, backyards and picnic areas</li> <li>100% insecticide free</li> </ul>"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Starbar EZ® Trap
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: "An insecticide-free solution that contains no harmful chemicals and traps more than three times the amount of flies than traditional sticky fly traps."
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: "Starbar® EZ Trap® is an insecticide-free fly trap from Zoëcon. Use this disposable fly trap indoors and outdoors for odor-free fly control."
+    - ID: "665c0084-5a1e-484b-a888-4b00b920fda5"
+      Hint: ProductDocumentsLabel
+      Value: DOWNLOADS
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "An insecticide-free solution that contains no harmful chemicals and traps more than three times the amount of flies than traditional sticky fly traps."
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Insecticide-free Fly Trap | Starbar® EZ Trap®"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Starbar EZ® Trap
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "004aebf7-4046-40fe-9483-b0d852959e1a"
+    - ID: "95d893d1-43ae-4c07-bc1e-9839b5cffed5"
+      Hint: RelatedProducts
+      Value: |
+        {7CA72A5A-D697-444D-8F36-63DC053B227B}
+        {50F19945-99B6-4122-89C9-94CBC3F0FDA1}
+        {73849168-EEF1-4528-8477-CEFEC70178F4}
+        {71D89B30-0C0C-4BA3-823E-2957B6EFC27C}
+    - ID: "ab818f97-8aa8-4d81-9e70-29c2d400c1fb"
+      Hint: RenderCanonicalTag
+      Value: 1
+    - ID: "b433c832-fadf-498e-b77b-e7933f19ba8e"
+      Hint: Accordion1Title
+      Value: PESTS CONTROLLED
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "be107673-5a64-4a47-9472-c91e8312cb3d"
+      Hint: RelatedProductsLabel
+      Value: PROFESSIONALS ALSO TRIED…
+    - ID: "c95560b6-d1ef-47eb-b4bb-da582a84a444"
+      Hint: Accordion1
+      Value: Flies and other listed pests.
+    - ID: "ca373527-0c18-4282-83b0-121b8a197598"
+      Hint: LongTitle
+      Value: Starbar EZ® Trap
+    - ID: "cbab27c6-0f5a-4c0e-a054-d6da8e5cf37d"
+      Hint: Accordion3Title
+      Value: APPLICATION INSTRUCTIONS
+    - ID: "d359f5e1-8d09-4717-9920-5687aecee004"
+      Hint: Accordion3
+      Value: "Just hang up or place the Starbar? EZ Trap? Fly Trap wherever flies are the most active."
+    - ID: "d603a982-51bb-4898-8aed-d25e3c6c416c"
+      Hint: Accordion2
+      Value: "Containing no harmful chemicals, the insecticide-free fly trap is great for both indoor and outdoor use. Its special long-lasting rain-proof adhesive makes it an ideal choice around stables, kennels, gardens, and homes."
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{3B411592-508B-424D-BF72-5B1CD636DBFE}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220915T114502Z
+    - ID: "ee6a4f12-e8eb-4b34-9d07-d477e8ad63d4"
+      Hint: Accordion2Title
+      Value: TREATMENT AREAS

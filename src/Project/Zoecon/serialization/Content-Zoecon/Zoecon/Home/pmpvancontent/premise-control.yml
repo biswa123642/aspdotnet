@@ -1,0 +1,57 @@
+﻿---
+ID: "bccf8a3f-d998-474c-a1ff-cd112dbeb8b3"
+Parent: "f1438794-c76e-4316-a395-5bf9a44b0b3e"
+Template: "0f7cdd23-0988-42cf-a06f-15d8735314fb"
+Path: "/sitecore/content/OneWeb/Zoecon/Home/pmpvancontent/premise-control"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{2ED748BA-E7E4-4E06-9A57-28F1E93F5B99}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{FCD156E4-BF98-42C6-AE6D-70E217F9B7D7}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T065636Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "premise-control"
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <div class="score-content-spot">
+            <p style="z-index: 1;">For additional comfort in the great outdoors, professionals look to our premise product line. Designed for both commercial and residential accounts, this broad spectrum of solutions controls a broad spectrum of insects that includes mosquitoes, fire ants, cockroaches, crickets, ticks, flies, and other occasional invaders.
+        </p>
+        </div>
+        <div class="score-content-spot pmp-truck__links">
+            <p style="z-index: 1;"><a href="/~/media/Project/OneWeb/Zoecon/Files/resources/Brochures/Zoecon%20Premise%20Products%20Brochure.pdf?la=en&amp;hash=7712E2A471F76AB9A16FF8AFD832FD9A0B648E55">Download Premise Control Brochure</a></p>
+        </div>
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: PREMISE CONTROL
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7dff612d-3681-4fa1-a063-63ef3a8ff500"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220926T105917Z
+    - ID: "e30bd79a-3fdc-42b1-b08b-23724b266690"
+      Hint: RelatedProducts
+      Value: |
+        {98A4A0B6-7EBD-4EBB-B0B6-2B0563716106}
+        {9C659EBC-4A33-4A2F-8A12-958D209CE4F6}
+        {CBB1D7C7-8653-473E-8DD2-9901F36FEE22}
+        {FC9256F7-C491-4F0A-A444-B603A9547632}
+    - ID: "e9889363-bcac-4971-8069-6d13f499574c"
+      Hint: RelatedProductsLabel
+      Value: The Premise Control Family

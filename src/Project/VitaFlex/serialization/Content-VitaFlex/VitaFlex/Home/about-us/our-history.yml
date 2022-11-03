@@ -1,0 +1,128 @@
+﻿---
+ID: "c0e38996-9c93-48ec-beec-61531dbf115f"
+Parent: "b7c76345-29c3-4c23-adee-59669e70cbc2"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/VitaFlex/Home/about-us/our-history"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: 
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{29AC7661-4CB4-4345-8494-1FD9CC93416D}"
+          p:before="*"
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-3-1/container-6" />
+        <r
+          uid="{355E2390-4839-4DCC-ADB1-195DE8C389E5}"
+          p:after="r[@uid='{29AC7661-4CB4-4345-8494-1FD9CC93416D}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-3-1" />
+        <r
+          uid="{B0209634-9A9F-43A4-8196-0F4441892A14}"
+          p:after="r[@uid='{355E2390-4839-4DCC-ADB1-195DE8C389E5}']"
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%3E&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B785F771A-7012-4425-B344-108D6E546C3D%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-2-1/container-4" />
+        <r
+          uid="{026A3073-AAE7-4939-A08A-3BCECD3F7F4D}"
+          p:after="r[@uid='{B0209634-9A9F-43A4-8196-0F4441892A14}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{4193E05D-DBF9-4B3E-A575-E01294F87336}"
+          p:after="r[@uid='{026A3073-AAE7-4939-A08A-3BCECD3F7F4D}']"
+          s:ds="page:"
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BEB97EC7C-7A08-4D35-835C-AA9365EE9319%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-1-1/container-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{2C433894-B102-422D-8ECC-F350CB078F27}"
+          p:after="r[@uid='{4193E05D-DBF9-4B3E-A575-E01294F87336}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{0E526C6D-622C-4008-AADE-0E3EB8259B94}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3%2C4&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{F6467842-8A55-4372-ACC5-312577D0427B}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220729T055145Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{F6467842-8A55-4372-ACC5-312577D0427B}" />
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Our History
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Our History
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <h1> Vita Flex History</h1>
+        <br />
+        <div class="score-content-spot">
+            <h1>The Fine Line Between Good &amp; Great</h1>
+        <p>Welcome to Vita Flex, where performance is everything. When Vita Flex was first introduced in 1990, our goal was to provide innovative equine products formulated specifically for the extreme requirements of high-caliber equine athletes.</p>
+        <p>That hasn't changed. </p>
+        <p>Over the last 25-plus years, Vita Flex has become a leading supplier of advanced performance products designed to satisfy the demands of horses competing at the highest levels. </p>
+        <p>In competition, the lines between good, better and best are forever shifting. Winning can come down to inches or the merest fractions of a second. A performance that's good enough to win this week might not be enough to even place next time out. </p>
+        <p>To gain the winning edge, you do your part in feeding, training and fine-tuning your horse. When it comes to nutritional supplements and health products, you trust Vita Flex. Not only do we source the finest ingredients, we test and retest our products in the lab and — more importantly — under real-life working conditions.</p>
+        <p>Trainers, owners and top riders rely on Vita Flex products for one reason: they deliver results. That's also the reason respected veterinarians recommend our animal health supplements, vitamins and minerals, antioxidants, electrolytes, joint supplements, and topicals.</p>
+        <p>Professional horsemen demand the best — of themselves, their horses, and the products they use on a daily basis. With that in mind, we're proud to introduce Vita Flex Pro, a line of products representing our most advanced formulations. </p>
+        <p>When you reach for the Vita Flex Pro brand, you can feel confident you're using the most up-to-date, science-supported products. Every single one is backed by extensive research and testing and formulated to help you achieve the ultimate in performance. Every ride, every time.</p>
+        <p>Vita Flex is a registered trademark of Farnam Companies, Inc.</p>
+        </div>
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Our History
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Vita Flex History
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "034841cd-c445-4cab-97f3-47dddc986fae"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{9DF327DF-426A-4293-887E-2B943D2FFE82}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220807T042339Z

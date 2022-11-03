@@ -1,0 +1,52 @@
+﻿---
+ID: "28a8d0e1-4f31-4716-8038-bf1a1449767f"
+Parent: "e928401d-5b24-42f7-bcba-87b49b9e187c"
+Template: "3c7c79e8-554d-46d9-bf1a-63da22a4ee6f"
+Path: /sitecore/content/OneWeb/Zilla/Data/Hero Carousel/HomePage/HomePage/Slide3
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Slide 3
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "007ef8df-edb2-4a64-a736-7a408093d2f5"
+      Hint: SlideImageMobile
+      Value: |
+        <image mediaid="{B33EB247-E19A-4763-AD42-12CE0D79EF20}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220812T080218Z
+    - ID: "3bfd4b9e-3049-4c8d-a9b5-6bebb83f895d"
+      Hint: SlideImage
+      Value: |
+        <image mediaid="{B33EB247-E19A-4763-AD42-12CE0D79EF20}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b4d0e1b5-1043-49fd-b3a5-6de6d7bfb472"
+    - ID: "a8933445-15ca-4e23-b171-a33892eb0ef8"
+      Hint: SlideCardTitle
+      Value: Gecko Gold
+    - ID: "b34e88f9-8800-43b1-92b5-029fbfae12e9"
+      Hint: SlideCardLogo
+      Value: |
+        <image mediaid="{8F3B43AC-167A-4BA3-A36E-97624345C975}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "bdb04894-83ee-4bf2-b582-f1a7bac2118c"
+      Hint: OverrideOverlayAlign
+      Value: "overlay-left"
+    - ID: "d691b058-6e52-4e4b-baae-a23aed9de6e0"
+      Hint: SlideCardSubText
+      Value: Powdered Diet
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220912T081230Z
+    - ID: "e10d2e79-68cc-438a-a732-abf80f62be76"
+      Hint: SlideCardCTA
+      Value: |
+        <link id="{5F2944A3-5D1C-4326-A201-D4056556AE1F}" querystring="" linktype="internal" text="Learn More" anchor="" url="/OneWeb/Zilla/Home/all-products/food/gecko-gold-diet" title="" class="" target="" />

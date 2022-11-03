@@ -1,0 +1,141 @@
+﻿---
+ID: "2156059a-5247-4a76-ae9e-9ed581e63132"
+Parent: "8c9b1701-c32b-4ecd-ab58-e3828b1bd56a"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/VitaFlex/Home/victory-team/al-dunning"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: 
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{D51B8927-A7D4-48A0-B043-82E3A8DC8655}"
+          p:before="*"
+          s:ds="{4AA73900-BC91-4E69-8337-344A24FEC597}"
+          s:id="{86FBA02B-2E9C-4A00-9CCF-DE607B1FCDC7}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass=col-md-12&amp;HideImage&amp;IsMobileCarousel&amp;ShowDescription&amp;FieldNames=%7B3C2CCCE6-6DC8-4816-A20B-8551B44E446C%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/row-2-1/container-3/column-2-4"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{E00B33C6-5D89-4C92-A275-B56DDE964019}"
+          p:after="r[@uid='{D51B8927-A7D4-48A0-B043-82E3A8DC8655}']"
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%3E&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B785F771A-7012-4425-B344-108D6E546C3D%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/row-1-1/container-2" />
+        <r
+          uid="{7E8986E1-F47F-47C7-8874-FB485367FCEE}"
+          p:after="r[@uid='{E00B33C6-5D89-4C92-A275-B56DDE964019}']"
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-2-1/container-3/column-1-4" />
+        <r
+          uid="{762A0032-C9BD-45C3-AB3E-A89E0940EA60}"
+          p:after="r[@uid='{7E8986E1-F47F-47C7-8874-FB485367FCEE}']"
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B19EFEA92-650D-4786-96E4-5EC96CA47A57%7D&amp;ColumnWidth2=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B7AF5C340-8A60-4D59-A7A1-5DBAB391292C%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-2-1/container-3" />
+        <r
+          uid="{1549D9B1-97D2-4724-92E7-2B0DE36AB83B}"
+          p:after="r[@uid='{762A0032-C9BD-45C3-AB3E-A89E0940EA60}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{B89EAA7E-24AE-4147-8CE7-C81D7EDDA191}"
+          p:after="r[@uid='{1549D9B1-97D2-4724-92E7-2B0DE36AB83B}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{C7E042DB-553F-474F-A726-31C7143057D3}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3&amp;Styles1&amp;Styles2=%7B451E9F1C-30EE-462F-98C6-22427455BBE1%7D&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220729T094716Z
+    - ID: "2ca620f3-0aa3-4b6a-83e0-946b831ce296"
+      Hint: CTAImage
+      Value: 
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Al Dunning
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Learn more about Al Dunning.
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <h2><img alt="Vita Flex Victory Team Rider Al Dunning and Horse" src="-/media/381E1A422FAD40C5BFC38FE09646EC3E.ashx?h=502&amp;w=795" style="height: 502px; width: 795px;" /></h2>
+        <h2>Al Dunning</h2>
+        <h3>Been There Dun That</h3>
+        <p>
+        <br />
+        <a href="https://www.aldunning.com/" target="_blank">www.aldunning.com</a></p>
+        <p><a href="https://www.aldunning.com/"></a>
+        </p>
+        <p>When it comes to reining and cutting, author, trainer, competitor, judge, and Hall of Famer Al Dunning has ‘dun’ it all. When Al talks about his journey from riding horses in the suburbs of Chicago to being named Western Magazine’s 2017 Horseman of the Year his passion for horses, dedication to the sport, and family are crystal clear.</p>
+        <p>Al enjoys spending time with family and friends at Almosta Ranch in Scottsdale Arizona as well as hitting the road to show and teach clinics worldwide.</p>
+        <p>“Helping people learn how to ride and take care of their horses has always been a big deal to me. Watching somebody’s improvement, even if it’s a small step in the right direction, keeps me pumped up. Wherever I go it is an exciting challenge that is always gratifying.”</p>
+        <p>“Every day I get up, and I get to do something I love. Every day is a reward because of the good horses and people I get to be around. I truly feel blessed for the vocation I picked and the success I’ve had. It all starts from the heart.”</p>
+        <p>Al Dunning’s Favorite Vita Flex Products</p>
+        <p>“It seems like Vita Flex has always been part of our program,” Al explains. “Because of our extensive training program, <a href="~/link.aspx?_id=7EE718ED47C14EBFAC4CD803AEF84415&amp;_z=z">Vita Flex AccuLytes™</a>&nbsp;is a must to maintain the proper electrolyte balance. Arizona is a dry climate, which is hard on horse’s hooves. <a href="~/link.aspx?_id=3974F1E708404D9D8D46EB64B7751D03&amp;_z=z">Vita-Hoof® Conditioner</a>&nbsp;keeps our horses’ hooves healthy and not brittle. We use <a href="~/link.aspx?_id=9311D7DD5AAD423CAB62BB3998997D50&amp;_z=z">Thermaflex® Liniment Gel</a>&nbsp;after intensive workouts with our equine athletes. It feels good on our hands, and we find our horses’ tendons and ligaments are maintained better by using it. Our Arizona weather is also hot and cutting, reining and working cow horse are strenuous events and muscle recovery is very important so we use <a href="~/link.aspx?_id=F92F42CDFAFE443F9BCD6A9576D3671E&amp;_z=z">Lactanase</a>&nbsp;to help the recovery process. </p>
+        <p>Vita Flex is a trusted brand and their product quality and research is significant to me.</p>
+        <p>&nbsp;</p>
+        <h4 class="site-header">Al Dunning Career Highlights</h4>
+        <ul class="highlights">
+            <li>Western Horseman’s Magazine Western Horseman Award 2017</li>
+            <li>2017 Arizona Sun Circuit’s Senior Cutting Champion</li>
+            <li>Inducted into the Arizona Quarter Horse Association’s Hall of Fame</li>
+            <li>NCHA Zane Schulte Trainer of the Year Award 2003</li>
+            <li>Awarded Monte Roberts Equitarian Award 2004</li>
+            <li>AQHA Professional 1996 Horseman of the Year</li>
+            <li>Chairman of the American Quarter Horse (AQHA) Judges Committee</li>
+        </ul>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Learn more about Al Dunning.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Al Dunning - Equine Professional - Victory Team | Vita Flex"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: "Al Dunning - Equine Professional - Victory Team | Vita Flex"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "47ec0160-ca0c-4c75-9023-2d0868d40642"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{381E1A42-2FAD-40C5-BFC3-8FE09646EC3E}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220830T062624Z

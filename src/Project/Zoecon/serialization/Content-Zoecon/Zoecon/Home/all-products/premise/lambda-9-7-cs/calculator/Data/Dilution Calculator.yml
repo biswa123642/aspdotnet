@@ -1,0 +1,87 @@
+﻿---
+ID: "60017734-5e40-4bcc-8d09-9f7f070f80ca"
+Parent: "ef6328a0-467e-4310-ba29-f3d851b52033"
+Template: "29a719ae-ade2-43d2-8c86-10d5bc235f11"
+Path: "/sitecore/content/OneWeb/Zoecon/Home/all-products/premise/lambda-9-7-cs/calculator/Data/Dilution Calculator"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220905T042759Z
+    - ID: "2c240cd8-f4fb-44e0-9f7f-d9eaaa2f51ff"
+      Hint: CalculateButtonLabel
+      Value: Calculate
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "31d22031-1456-4d5b-8d83-b3474591082f"
+    - ID: "97eb56c5-66f0-42e0-b66b-70a5de4c7302"
+      Hint: ResultJSON
+      Value: |
+        {
+           "fields":[
+              {
+                 "label":"Volume:",
+                 "id":"gallons",
+                 "type":"input"
+              },
+              {
+                 "label": "LO Rate (0.20 oz / 1 gal):",
+                 "id": "lo-rate",
+                 "type": "output",
+                 "formula": "{gallons} * 0.20",
+                 "units": "oz"
+              },
+              {
+                 "label": "HI Rate (0.80 oz / 1 gal):",
+                 "id": "hi-rate",
+                 "type": "output",
+                 "formula": "{gallons} * 0.80",
+                 "units": "oz"
+              }
+           ]
+        }
+    - ID: "a0b59bb3-d861-486c-9fd3-f45c9046e871"
+      Hint: Heading
+      Value: |
+        <h2 style="z-index: 1;">
+        DILUTION RATE CALCULATOR
+        </h2>
+        <h1 style="z-index: 1;">
+        Lambda 9.7 CS Calculator</h1>
+        <h2>Available Product Sizes</h2>
+        <ul>
+            <li>1 qt bottle</li>
+        </ul>
+        <p style="z-index: 1;">Input the square footage of your treatment area below to find the appropriate dilution rate for Lambda 9.7 CS.  Note that this product can be mixed with PBO-8<sup>&reg; </sup>Synergist to combat resistance issues and allow for lower use rates of Lambda 9.7 CS while maintaining efficacy. Refer to product labels to learn more about these tank mixes. </p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "bfd25f9c-a36c-4039-9b4b-27cc99ec4384"
+      Hint: ResultHeading
+      Value: "RESULTS:"
+    - ID: "c5462c77-ce57-419d-b72f-a0f3acf671ca"
+      Hint: ResetButtonLabel
+      Value: Reset
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220913T062959Z
+    - ID: "ede6f2bd-882b-4b17-b3af-59f1b47cb5a1"
+      Hint: InputFieldUnit
+      Value: sqft
+    - ID: "f3020656-ada1-43ee-9db8-a4f7a9f2a5b6"
+      Hint: InputDescription
+      Value: |
+        <label for="calculator-main-input">Treatment area<br />
+        <small>Note: treatment area will round to the nearest 100 sq ft</small></label>

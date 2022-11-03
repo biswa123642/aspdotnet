@@ -1,0 +1,32 @@
+{
+  "namespace": "Project.Zoecon",
+  "references": [ "*Feature.*" ],
+  "items": {
+    "includes": [
+      //{
+      //  "name": "Content-Zoecon",
+      //  "path": "/sitecore/content/OneWeb/Zoecon",
+      //  "scope": "ItemAndDescendants",
+      //  "allowedPushOperations": "createUpdateAndDelete",
+      //  "rules": [
+      //    {
+      //      "path": "/Home/QA",
+      //      "scope": "ignored"
+      //    }
+      //  ]
+      //},
+      {
+       "name": "MediaLibrary-Themes",
+       "path": "/sitecore/media library/Themes/OneWeb/Zoecon",
+       "scope": "ItemAndDescendants",
+       "allowedPushOperations": "createUpdateAndDelete"
+      }
+      //{
+      //  "name": "Zoecon-Forms",
+      //  "path": "/sitecore/Forms/OneWeb/Zoecon",
+      //  "scope": "ItemAndDescendants",
+      //  "allowedPushOperations": "createUpdateAndDelete"
+      //}
+    ]
+  }
+}

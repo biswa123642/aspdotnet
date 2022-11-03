@@ -1,0 +1,181 @@
+﻿---
+ID: "94e86e47-ff9a-4157-b09b-d23b7ebb9a7f"
+Parent: "e8ee0bb3-0f21-445d-a2b1-2d267aae08ba"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/Zilla/Home/pet-type"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{CD79EA9A-C7D7-49BF-B9AF-ED27F4A09F43}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{9EB55350-BA31-4270-BF14-F2616AD7C7E6}"
+          p:before="*"
+          s:ds="{C1728CB0-BBF0-486E-A8F7-C6281F34096D}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=14"
+          s:ph="/main/row-5-1/container-6"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{B6D7B2BF-7B56-4546-812B-C4228DB82EEA}"
+          p:after="r[@uid='{9EB55350-BA31-4270-BF14-F2616AD7C7E6}']"
+          s:ds="{F8920EBF-28FD-4402-9D58-C3FDD2C62F5D}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BA9EFD7A8-E0D0-4504-B7D1-427D54A24631%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7B26C7610E-337D-4F2E-8659-A22C76F38526%7D%7C%7B64DF0821-592F-4A67-9E0B-3A6B832DD5BA%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=15"
+          s:ph="/main/row-5-1/container-6"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{896BD187-5947-4D9A-B551-3170C42CE487}"
+          p:after="r[@uid='{B6D7B2BF-7B56-4546-812B-C4228DB82EEA}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BACD20779-DA41-41C0-AEFB-44C727843289%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-5-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{A620BF16-E5B1-4812-878F-4D0ECE8B2636}"
+          p:after="r[@uid='{896BD187-5947-4D9A-B551-3170C42CE487}']"
+          s:ds="{552081AB-24D5-4A7A-A47B-FB008AD412EF}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=12"
+          s:ph="/main/row-4-1/container-5"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{8A6C8F0F-DC9C-4C30-A5F0-F5AD14333329}"
+          p:after="r[@uid='{A620BF16-E5B1-4812-878F-4D0ECE8B2636}']"
+          s:ds="{5AE9A54F-2B65-4565-9979-C15F8760130F}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7B26C7610E-337D-4F2E-8659-A22C76F38526%7D%7C%7B64DF0821-592F-4A67-9E0B-3A6B832DD5BA%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=13"
+          s:ph="/main/row-4-1/container-5"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{0CA24B86-3DEF-4709-AE9E-3239A77E9D18}"
+          p:after="r[@uid='{8A6C8F0F-DC9C-4C30-A5F0-F5AD14333329}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BACD20779-DA41-41C0-AEFB-44C727843289%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-4-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{E034873F-0E1F-4209-B53B-281F7B06566C}"
+          p:after="r[@uid='{0CA24B86-3DEF-4709-AE9E-3239A77E9D18}']"
+          s:ds="{D40BE1A1-FC72-4FB9-BA53-6866565AFB09}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/row-3-1/container-4"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{D002F3CC-1650-429B-8BFA-2B2C47F0A2CB}"
+          p:after="r[@uid='{E034873F-0E1F-4209-B53B-281F7B06566C}']"
+          s:ds="{46F6F0DD-FF29-466E-8DD2-F0823B539DFE}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BA9EFD7A8-E0D0-4504-B7D1-427D54A24631%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7B26C7610E-337D-4F2E-8659-A22C76F38526%7D%7C%7B64DF0821-592F-4A67-9E0B-3A6B832DD5BA%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
+          s:ph="/main/row-3-1/container-4"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{CD607D09-2066-4057-8B04-30AC99587792}"
+          p:after="r[@uid='{D002F3CC-1650-429B-8BFA-2B2C47F0A2CB}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BACD20779-DA41-41C0-AEFB-44C727843289%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-3-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{59622B75-56C7-4C5B-8FCA-00A7C7D2B4BC}"
+          p:after="r[@uid='{CD607D09-2066-4057-8B04-30AC99587792}']"
+          s:ds="{225F73FF-779B-4B2A-901F-C571CCF08FBC}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/row-2-1/container-3"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{0453EBB9-C62B-49B6-B62E-B23C3FD8BB1F}"
+          p:after="r[@uid='{59622B75-56C7-4C5B-8FCA-00A7C7D2B4BC}']"
+          s:ds="{E7DF37EA-27E9-4513-9FBE-58ECB92F0524}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7B26C7610E-337D-4F2E-8659-A22C76F38526%7D%7C%7B64DF0821-592F-4A67-9E0B-3A6B832DD5BA%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/row-2-1/container-3"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{E046E71A-EA80-4477-AA08-944480A01401}"
+          p:after="r[@uid='{0453EBB9-C62B-49B6-B62E-B23C3FD8BB1F}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BACD20779-DA41-41C0-AEFB-44C727843289%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-2-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{4F80C5FD-DD74-4DF1-8E9B-FA1B8DE03273}"
+          p:after="r[@uid='{E046E71A-EA80-4477-AA08-944480A01401}']"
+          s:ds="{517A6564-ACD1-41F9-A56B-91EF49475D3C}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7B8D38663D-4028-4440-96C6-BCAA6062E23B%7D%7C%7BFAF28AF7-0575-40E0-9EE8-3C33FB91AC01%7D%7C%7B483AF548-57D7-4735-A003-5710259189CC%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-1-1/container-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{F3AC1873-E89C-434D-99AC-52EF6E67C457}"
+          p:after="r[@uid='{4F80C5FD-DD74-4DF1-8E9B-FA1B8DE03273}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BACD20779-DA41-41C0-AEFB-44C727843289%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{6CEC8A80-3D0B-48C1-BEF7-B1D5CD1BEC45}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3%2C4%2C5&amp;Styles1&amp;Styles2=%7BEF919F54-C06B-4F61-A677-14796623FDD2%7D%7C%7B7EBFC6FE-EA8A-4278-92FE-2D59ABD9B53E%7D%7C%7B95B27FDE-BD24-4195-BDBA-10D83D535DE7%7D&amp;Styles3=%7BD8579DB3-4436-4D6B-B0C6-91C40069FE17%7D%7C%7BEF919F54-C06B-4F61-A677-14796623FDD2%7D%7C%7B7EBFC6FE-EA8A-4278-92FE-2D59ABD9B53E%7D%7C%7B95B27FDE-BD24-4195-BDBA-10D83D535DE7%7D&amp;Styles4=%7BEF919F54-C06B-4F61-A677-14796623FDD2%7D%7C%7B7EBFC6FE-EA8A-4278-92FE-2D59ABD9B53E%7D%7C%7B95B27FDE-BD24-4195-BDBA-10D83D535DE7%7D&amp;Styles5=%7BD8579DB3-4436-4D6B-B0C6-91C40069FE17%7D%7C%7BEF919F54-C06B-4F61-A677-14796623FDD2%7D%7C%7B7EBFC6FE-EA8A-4278-92FE-2D59ABD9B53E%7D%7C%7B95B27FDE-BD24-4195-BDBA-10D83D535DE7%7D&amp;Styles6&amp;Styles7&amp;Styles8&amp;DynamicPlaceholderId=1"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220810T104832Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Pet Type
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: "Thinking of buying a pet reptile? Zilla will go through all the pet types & explain the amount of care habitat, feeding/nutrition needed, lighting & more."
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "Thinking of buying a pet reptile? Zilla will go through all the pet types & explain the amount of care habitat, feeding/nutrition needed, lighting & more."
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Reptile Types: Snakes, Frogs, Turtles & Lizards | Zilla"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: "Reptile Types: Snakes, Frogs, Turtles & Lizards | Zilla"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4e9cbbdc-e75c-44fd-908d-03ecfec723be"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{9E7232D5-A28C-4BBB-9885-C07EC787722D}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220922T111640Z

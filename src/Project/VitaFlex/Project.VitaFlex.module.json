@@ -1,0 +1,32 @@
+{
+  "namespace": "Project.VitaFlex",
+  "references": [ "Feature.*" ],
+  "items": {
+    "includes": [
+      //{
+      //  "name": "Content-VitaFlex",
+      //  "path": "/sitecore/content/OneWeb/VitaFlex",
+      //  "scope": "ItemAndDescendants",
+      //  "allowedPushOperations": "createUpdateAndDelete"
+      //},
+      //{
+      //  "name": "MediaLibrary-VitaFlex",
+      //  "path": "/sitecore/media library/Project/OneWeb/VitaFlex",
+      //  "scope": "singleItem",
+      //  "allowedPushOperations": "createUpdateAndDelete"
+      //},
+      {
+      "name": "MediaLibrary-VitaFlex-Themes",
+      "path": "/sitecore/media library/Themes/OneWeb/VitaFlex",
+      "scope": "ItemAndDescendants",
+      "allowedPushOperations": "createUpdateAndDelete"
+      }
+      //{
+      //  "name": "Forms-VitaFlex",
+      //  "path": "/sitecore/Forms/OneWeb/VitaFlex",
+      //  "scope": "ItemAndDescendants",
+      //  "allowedPushOperations": "createUpdateAndDelete"
+      //}
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+﻿---
+ID: "fa6f130d-68c8-4912-b234-3cd93555e4af"
+Parent: "16616263-0db9-4643-990e-e1e404ac2e9d"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/Zoecon/Home/contact-us"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{B5D67D40-9A16-4F81-815A-142A11C9483C}"
+          p:before="*"
+          s:ds="{7D09D7E9-43C8-4E32-BAD9-D7EFA011BCE9}"
+          s:id="{882F60C4-4A33-4995-AC39-C8FF97EE8F1D}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D%7C%7B0EAC9805-FD77-48B9-9702-2FAF84028008%7D&amp;FieldNames=%7B0A165447-FFF3-44FB-8521-2AFCDFEA24E5%7D&amp;Styles=%7B25290419-C49F-4475-9214-3776DB4D8741%7D%7C%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/sxa-content-page/container-1/row-2-2/row-2-3" />
+        <r
+          uid="{8974554F-F9DD-4D6B-8B4F-06EDDB3E47C1}"
+          p:after="r[@uid='{B5D67D40-9A16-4F81-815A-142A11C9483C}']"
+          s:ds=""
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles=%7B61F2FEC8-5C64-4BC8-B992-DFFA31EB499C%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-content-page/container-1/row-2-2/row-1-3"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{0FFF796F-83B4-4B77-9485-1382A0D8D57A}"
+          p:after="*[1=2]"
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2=%7BAB459683-D11B-4BCB-8E21-E985EF4A2F15%7D&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=3"
+          s:ph="/main/sxa-content-page/container-1/row-2-2" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220802T072104Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Contact Us
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Contact our Zoecon professionals to answer your specific questions or submit a request regarding our pest control products.
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <h1 style="color:#008d5a; font-size:4rem;">CONTACT US</h1>
+        <p>Zoëcon is committed to providing pest control professionals with the answers and solutions they need to get the job done. If you have any questions, or comments, we’d love to hear from you.</p>
+        <p>Wellmark<span style="line-height: 0;">®</span>&nbsp;Branded Products<br />
+        c/o Central Life Sciences<br />
+        Telephone: 1-800-248-7763</p>
+        <p>Please fill out the form below and a Zoëcon representative will be in touch as soon as possible.</p>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Contact our Zoecon professionals to answer your specific questions or submit a request regarding our pest control products.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Zoëcon | Contact Us
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Contact Us
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c9c8fd83-6d93-4ee6-8d2b-429a224febab"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220920T120301Z

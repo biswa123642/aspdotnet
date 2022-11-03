@@ -1,0 +1,89 @@
+﻿---
+ID: "cc43903f-6d59-4fd9-986f-a50687366ad0"
+Parent: "45e33a67-cc1e-4a3b-ad9c-42de8d4f4453"
+Template: "a6ddac75-7d24-4bdb-b3f6-5f47fbb21379"
+Path: /sitecore/content/OneWeb/Zilla/Data/Accordions/BeyondTheGlass/BeyondTheGlass/Season2Episode1
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{09BD444B-FABC-47EA-981D-2C8271655469}">
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B5423143A-760D-4F0E-BA4D-0B02E649A778%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-title"
+          uid="{5101B923-3B61-46B3-86DB-0BB7EA83FDDF}" />
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-content"
+          uid="{DFB1D2E8-06C1-4912-8CFB-43E46D464D4F}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Season 2 Episode 1
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220827T054016Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5a236869-e375-49c0-a92d-0c2f1db7788f"
+      Hint: Content
+      Value: |
+        <p>Welcome to Season 2 of Zilla&rsquo;s Beyond the Glass! This season, Myke and the crew venture out to west Africa to explore the habitats of reptiles native to this breathtaking area of the continent.</p>
+        <p>In the first episode, the team starts out at a quintessential African biome &ndash; the savanna. These grasslands provide plenty of basking spots for animals that require loads of sunlight.</p>
+        <p>Right off the bat, Myke finds the first animal of the season &ndash; an Elegant Sand Snake (<em>Psammophis elegans</em>). This species comes in a vast array of colors. An interesting fact about these guys is that they feature a gland on their nose and they rub their bodies down, potentially to retain moisture. When kept in captivity, always offer a basking spot with solid heat and UV. They also require a lot of room, as they love to climb around.</p>
+        <p>Following their encounter with the Elegant Sand Snake, the team would then travel to the largest voodoo market in west Africa. This featured all the different dried animals used for religious and healing purposes. While the scenes at this market are difficult to see, it showcases the importance of education and conservation in the native habitats of many species and how cultural beliefs create huge obstacles to that progress.</p>
+        <p>After their trip to the market, Myke and the crew embarked out to find what they were looking for &ndash; the Savannah Monitor (<em>Varanus exanthematicus</em>). An exceptionally unique reptile is known for its intelligence and calm demeanor.  One defining trait of this species is their dinosaur-like head.</p>
+        <p>Savannah Monitors&rsquo; growth rate is dependent on their food, but a hatchling can easily reach adult size in less than three years, so have a large enclosure prepared!</p>
+        <p>They have very specific care requirements so make sure to do your research, but they are full or personality, which makes them great pets to keep at home and interact with.</p>
+        <div class="takeaways">
+        <h3>Habitat Takeaways:</h3>
+        <p>Basking Temperature: 107.6&deg;F</p>
+        <p>Ambient Temperature: 81.3&deg;F</p>
+        <p>UVI: 2.8</p>
+        <p>Humidity: 48.5%</p>
+        </div>
+        <h3>Species Spotted:</h3>
+        <p>Elegant Sand Snake (<em>Psammophis elegans</em>)</p>
+        <p>Savannah Monitor (<em>Varanus exanthematicus</em>)</p>
+        <a href="#btg-video" data-slide="13" class="score-button">Watch Now</a>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7240053b-9140-48ac-acea-abfccd7761a1"
+      Hint: Heading
+      Value: |
+        <h4>Season 2, Episode 1: Savannah Monitor</h4>
+        <h5>July 26, 2019</h5>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9d0f2349-ccfd-496a-ad48-26360e08e659"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220909T104210Z

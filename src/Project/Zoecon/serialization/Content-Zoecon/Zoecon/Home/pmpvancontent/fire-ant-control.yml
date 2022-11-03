@@ -1,0 +1,63 @@
+﻿---
+ID: "16f34ee4-aceb-4593-866e-7f83df2667b9"
+Parent: "f1438794-c76e-4316-a395-5bf9a44b0b3e"
+Template: "0f7cdd23-0988-42cf-a06f-15d8735314fb"
+Path: "/sitecore/content/OneWeb/Zoecon/Home/pmpvancontent/fire-ant-control"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{2ED748BA-E7E4-4E06-9A57-28F1E93F5B99}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{406AD04A-ADDF-4931-9DE9-60C7CBC15827}" ></image>
+    - ID: "15dae900-182f-49ff-b080-7b85dfd25519"
+      Hint: ProductClass
+      Value: "pmp-truck__product pmp-truck__page"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220915T071914Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "fire-ant-control"
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <div class="score-content-spot">
+            <p style="z-index: 1;">Extinguish® products make fire ant control easy with solutions featuring the active ingredients Hydramethylnon, an insecticide, and (S)-methoprene, the original IGR. These easy-to-use baits are approved for both commercial and residential use and provide results when they're needed most.
+        </p>
+        <p style="z-index: 1;"><a href="/rebates" target="_blank">2021 Fire Ant Rebate</a></p>
+        </div>
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: FIRE ANT CONTROL
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c800789b-a1e4-4e6e-b12f-ec7523c05337"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220920T064611Z
+    - ID: "e30bd79a-3fdc-42b1-b08b-23724b266690"
+      Hint: RelatedProducts
+      Value: |
+        {AF44F54C-6C39-468F-8EB3-99640DE61F1D}
+        {8756E3EF-6388-42DC-844E-7512C8B84C3B}
+        {0258F90E-5171-44E6-8CD3-D2A516BC239A}
+    - ID: "e9889363-bcac-4971-8069-6d13f499574c"
+      Hint: RelatedProductsLabel
+      Value: The Fire Ant Control Family

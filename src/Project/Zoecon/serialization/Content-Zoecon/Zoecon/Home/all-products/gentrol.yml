@@ -1,0 +1,120 @@
+﻿---
+ID: "e43d88ec-c018-48cf-9d08-a7a35ed45ad2"
+Parent: "7f3a6ee7-2765-4019-a972-b3445dae4e61"
+Template: "7bdf7d45-c98f-4e4d-ac3a-ad8035780bbe"
+Path: "/sitecore/content/OneWeb/Zoecon/Home/all-products/gentrol"
+SharedFields:
+- ID: "76fb6ffd-4487-4028-a1cf-705fbe360cba"
+  Hint: Priority
+  Value: "{19F3E919-4991-495F-9207-E1DADFD06F54}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{287C0734-C9BB-4887-9482-7E9AE6FED665}"
+          p:before="*"
+          s:ds="{652A4E5E-90C0-4F55-AB97-819C2B4A252F}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/sxa-partial-category-page/row-4-1/container-1/column-3-2" />
+        <r
+          uid="{CC422C38-17D0-4D7A-82FF-7FD69D5B095E}"
+          p:after="r[@uid='{287C0734-C9BB-4887-9482-7E9AE6FED665}']"
+          s:ds="{C9C36ABE-77AD-470D-ABDE-2A0CAFBD2E03}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/sxa-partial-category-page/row-4-1/container-1/column-2-2" />
+        <r
+          uid="{A8D366DD-BEC0-4CAB-9FD4-E75A1B27FF3E}"
+          p:after="r[@uid='{CC422C38-17D0-4D7A-82FF-7FD69D5B095E}']"
+          s:ds="{6AFF96C8-8B87-429D-8C8A-BBD5913649D4}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/sxa-partial-category-page/row-4-1/container-1/column-1-2" />
+        <r
+          uid="{9E22028A-D91D-46B0-86FB-98BB1E649737}"
+          p:after="r[@uid='{A8D366DD-BEC0-4CAB-9FD4-E75A1B27FF3E}']"
+          s:ds=""
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B03EA3C58-9F87-41D5-95D6-4B899C88572E%7D%7C%7B7AF5C340-8A60-4D59-A7A1-5DBAB391292C%7D&amp;ColumnWidth2=%7B03EA3C58-9F87-41D5-95D6-4B899C88572E%7D%7C%7B7AF5C340-8A60-4D59-A7A1-5DBAB391292C%7D&amp;ColumnWidth3=%7B03EA3C58-9F87-41D5-95D6-4B899C88572E%7D%7C%7B7AF5C340-8A60-4D59-A7A1-5DBAB391292C%7D&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=2"
+          s:ph="/main/sxa-partial-category-page/row-4-1/container-1" />
+        <r
+          uid="{96C0CF0B-9000-4F20-9474-FED3D31DD225}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-partial-category-page/row-4-1" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "055a2c41-4d44-4441-b589-b86f39cc64e5"
+      Hint: HeroBannerContent
+      Value: |
+        <p>
+        Featuring IGR (S)-hydroprene, the Gentrol&reg; product line has delivered responsible solutions in food handling establishments since 1984.  Professionals who use Gentrol&reg; products see them as indispensable in protocol strategies. Using IGR technology with a translocating active ingredient, Gentrol&reg; products are an insurance policy to prevent future reinfestations and callbacks for cockroaches, drain and fruit flies, stored product pests, and more.
+        </p>
+        <p>
+        <a href="-/media/7C99C87DDAC9480CA685455D9EC1F2A7.ashx" target="_blank"><strong>DOWNLOAD FAMILY BROCHURE</strong></a>&nbsp;</p>
+        <p><strong><a href="~/link.aspx?_id=AEB69CC899BB42E29B0A32E8AC5B8DEC&amp;_z=z"><strong>WATCH (S)-HYDROPRENE IN ACTION</strong>&nbsp;</a></strong></p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220802T110216Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{BEF89956-7DDF-45A8-A177-C0DD4428459C}" />
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Gentrol Products
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Kill callbacks by preventing future generations of insects with Gentrol® products, which can be used in food handling sites and other sensitive areas.
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Kill callbacks by preventing future generations of insects with Gentrol® products, which can be used in food handling sites and other sensitive areas.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Zoëcon | Products | Gentrol
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: gentrol
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9f24b911-8141-403e-b6f4-523a0558dfd8"
+    - ID: "92f32441-cec4-42a7-ba44-83e8bb569c74"
+      Hint: FacetAttributes
+      Value: "{25570BE4-017D-4F91-BCDA-6A8F9B6FACD3}|{B6D5FEF0-2990-4415-AACA-EF961A493F5E}|{64498A74-9E9A-4636-A2DA-64DFB496953F}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: |
+        <h2>THE GENTROL<span style="line-height: 0;">&reg;&nbsp;</span>FAMILY</h2>
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{B118D949-5C48-45E4-99CE-BEC8FF05CF39}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220907T110728Z

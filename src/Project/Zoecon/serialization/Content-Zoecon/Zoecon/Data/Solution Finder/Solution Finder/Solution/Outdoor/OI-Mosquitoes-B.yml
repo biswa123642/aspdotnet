@@ -1,0 +1,38 @@
+﻿---
+ID: "800f6af2-5acb-48bf-926b-0b934119d398"
+Parent: "ceda0d69-8068-4476-a240-3523fb247e72"
+Template: "8455b301-b57b-43ad-a4f4-4e83ffb31905"
+Path: "/sitecore/content/OneWeb/Zoecon/Data/Solution Finder/Solution Finder/Solution/Outdoor/OI-Mosquitoes-B"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220824T071605Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f81404b3-b921-46a9-b425-4c238d408a12"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "cbb746c0-f90e-4acc-8bee-98084234b389"
+      Hint: SolutionProducts
+      Value: |
+        {52A422C7-120A-442D-9449-364DAB363287}
+        {E879D264-5AE8-4EA7-ADA4-C5F62ED0FC74}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220824T071704Z
+    - ID: "ecff41e9-ad3e-4503-9b0c-0f5d2965c749"
+      Hint: RequiredAnswers
+      Value: |
+        {A762695C-57F6-4DBD-8A14-B95BB65FBE8C}
+        {D4C79556-E0A5-424C-8E71-F41494D0345F}
+        {AD78CDEF-4093-4A64-A5E5-E0DA25487D42}

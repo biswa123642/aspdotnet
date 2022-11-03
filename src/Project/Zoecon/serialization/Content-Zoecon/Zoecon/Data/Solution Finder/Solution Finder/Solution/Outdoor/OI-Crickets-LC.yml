@@ -1,0 +1,38 @@
+﻿---
+ID: "d71d85aa-02b9-4085-8217-5b131ef2b683"
+Parent: "ceda0d69-8068-4476-a240-3523fb247e72"
+Template: "8455b301-b57b-43ad-a4f4-4e83ffb31905"
+Path: "/sitecore/content/OneWeb/Zoecon/Data/Solution Finder/Solution Finder/Solution/Outdoor/OI-Crickets-LC"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 2100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220824T080744Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2f586d37-b409-4670-a95f-49291c35c3f6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "cbb746c0-f90e-4acc-8bee-98084234b389"
+      Hint: SolutionProducts
+      Value: |
+        {43672E29-7FC4-436D-9F27-E42D5A1171DD}
+        {56CBC5C5-583D-4A3F-9157-EBAD45457785}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220824T080827Z
+    - ID: "ecff41e9-ad3e-4503-9b0c-0f5d2965c749"
+      Hint: RequiredAnswers
+      Value: |
+        {A762695C-57F6-4DBD-8A14-B95BB65FBE8C}
+        {5E577FDF-9E33-419D-A9C6-3E55A0CF7870}
+        {01B4DB3F-38D9-4C5B-B577-D85646AF3708}

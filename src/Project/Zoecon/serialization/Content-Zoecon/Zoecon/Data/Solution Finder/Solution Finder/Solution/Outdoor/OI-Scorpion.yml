@@ -1,0 +1,38 @@
+﻿---
+ID: "f0b5b1db-f5d7-488b-a199-c3cff37f1522"
+Parent: "ceda0d69-8068-4476-a240-3523fb247e72"
+Template: "8455b301-b57b-43ad-a4f4-4e83ffb31905"
+Path: "/sitecore/content/OneWeb/Zoecon/Data/Solution Finder/Solution Finder/Solution/Outdoor/OI-Scorpion"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220824T074332Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "25b20c2e-b176-4cfa-8d36-98006d0cfb0e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "cbb746c0-f90e-4acc-8bee-98084234b389"
+      Hint: SolutionProducts
+      Value: |
+        {43672E29-7FC4-436D-9F27-E42D5A1171DD}
+        {13BD0B2F-EA31-42A9-B6D5-A8DF033EC21F}
+        {62CEDA52-536A-4BCE-A928-8F5E94CF4FB2}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220824T074447Z
+    - ID: "ecff41e9-ad3e-4503-9b0c-0f5d2965c749"
+      Hint: RequiredAnswers
+      Value: |
+        {A762695C-57F6-4DBD-8A14-B95BB65FBE8C}
+        {41259103-7F9A-4589-B452-94CD0349D976}

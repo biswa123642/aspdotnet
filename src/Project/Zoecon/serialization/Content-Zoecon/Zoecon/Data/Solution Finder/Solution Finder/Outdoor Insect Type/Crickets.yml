@@ -1,0 +1,49 @@
+﻿---
+ID: "5e577fdf-9e33-419d-a9c6-3e55a0cf7870"
+Parent: "929306a6-361d-471c-89a6-d2f259130231"
+Template: "9874a4bd-a371-4049-85e6-0ed0ad713e54"
+Path: /sitecore/content/OneWeb/Zoecon/Data/Solution Finder/Solution Finder/Outdoor Insect Type/Crickets
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03b55013-fdf9-40f2-9e5b-88d26865df7b"
+      Hint: Image
+      Value: |
+        <image mediaid="{50374C6C-15E1-4088-B39C-DD302FEB5645}" />
+    - ID: "096443cb-b8dd-4635-af3e-a4435f9612f1"
+      Hint: BreadcrumbTitle
+      Value: Crickets
+    - ID: "0a9a0bf9-863c-4c36-8bc6-b576213cbad9"
+      Hint: Order
+      Value: 11
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220823T074525Z
+    - ID: "4d1593b6-8eac-4cd1-8383-16cbc881112e"
+      Hint: Title
+      Value: CRICKETS
+    - ID: "51a7792c-e5b0-4f4e-b6ac-b1bbac2daa48"
+      Hint: NextQuestion
+      Value: "{04ABEA69-3540-4ADB-B5FA-2D826F2B1FCB}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f53370cd-8487-4083-bfb8-e536b8fb7902"
+    - ID: "967543d6-dddb-4b55-b6ff-ab2ca3fbe30c"
+      Hint: RequiredAnswers
+      Value: "{A762695C-57F6-4DBD-8A14-B95BB65FBE8C}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d53f6957-984b-4af6-a3c6-696f1ef8ec04"
+      Hint: Value
+      Value: crickets
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220823T092350Z

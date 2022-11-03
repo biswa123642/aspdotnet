@@ -1,0 +1,39 @@
+﻿---
+ID: "f3ae73fb-7c05-4922-a13a-7b53ec346a81"
+Parent: "fb594bb4-33e5-4fee-89bb-3c4df558717d"
+Template: "8455b301-b57b-43ad-a4f4-4e83ffb31905"
+Path: "/sitecore/content/OneWeb/Zoecon/Data/Solution Finder/Solution Finder/Solution/Indoor/II-FruitFlies-A"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220823T105614Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b4193e5f-85f6-41ce-b0d9-003435a596d4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "cbb746c0-f90e-4acc-8bee-98084234b389"
+      Hint: SolutionProducts
+      Value: |
+        {067D20CE-3FFF-4CDF-9827-497FA4C0C0F3}
+        {729F0A23-C2BA-4AE2-AA39-932653343F53}
+        {CEBB7D56-73BA-42E2-A427-D7662005DDD8}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220823T123816Z
+    - ID: "ecff41e9-ad3e-4503-9b0c-0f5d2965c749"
+      Hint: RequiredAnswers
+      Value: |
+        {662AF90C-7FD9-4A11-9AFF-29E29A9C6710}
+        {90BA2F25-3BD5-4208-A94B-2EBE0C65F7BA}
+        {9D5B7D13-C88F-4271-A322-99FC2C4DE856}

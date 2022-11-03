@@ -1,0 +1,234 @@
+﻿---
+ID: "024c3ea7-5bf1-42a1-acc2-9773be42b410"
+Parent: "94e86e47-ff9a-4157-b09b-d23b7ebb9a7f"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/Zilla/Home/pet-type/frogs-amphibians"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{CD79EA9A-C7D7-49BF-B9AF-ED27F4A09F43}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{4001076F-4BBB-4215-9474-5C8B7CBD7BD8}"
+          p:before="*"
+          s:ds="{9403ADA2-F2EE-48F1-8CE3-804913343170}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D%7C%7B3D78E0A5-3BD6-48B6-9799-E9DB52C3195E%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=15"
+          s:ph="/main/row-7-1/container-12"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{D5C470B0-0EE4-4603-A753-2EEC815E54CC}"
+          p:after="r[@uid='{4001076F-4BBB-4215-9474-5C8B7CBD7BD8}']"
+          s:ds="{EC90401F-420A-4179-BE1F-F337579452CE}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=16"
+          s:ph="/main/row-7-1/container-12" />
+        <r
+          uid="{21750BA1-270F-4F3C-8E13-7B28FC8D8C23}"
+          p:after="r[@uid='{D5C470B0-0EE4-4603-A753-2EEC815E54CC}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BC8AE8DAF-E579-456F-8747-7D6B522A7587%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=12"
+          s:ph="/main/row-7-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{A3985CB0-0AE8-44A9-97A6-4D92A9A9427C}"
+          p:after="r[@uid='{21750BA1-270F-4F3C-8E13-7B28FC8D8C23}']"
+          s:ds="{E8E7920B-5D34-4F95-BEEE-233C7A5EFC05}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7BC9E52308-1FCC-4B49-B678-CB1B6E17371A%7D%7C%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D%7C%7B8780BED3-5B0C-4254-8529-3D6342EC4BEF%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=14"
+          s:ph="/main/row-6-1/container-11"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{4AC69AD3-6273-4F01-891F-0B739158E3FB}"
+          p:after="r[@uid='{A3985CB0-0AE8-44A9-97A6-4D92A9A9427C}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
+          s:ph="/main/row-6-1" />
+        <r
+          uid="{4305AE2C-5FB7-4C7B-9A4C-117F61424AE1}"
+          p:after="r[@uid='{4AC69AD3-6273-4F01-891F-0B739158E3FB}']"
+          s:ds="{82D62589-5FE2-4764-86BF-60F5525821DD}"
+          s:id="{3972C278-7E7A-4C2B-A293-66AF860F5C3A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B39C41CFB-A250-4C5E-98D6-52E06E9BC6B8%7D&amp;Styles=%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D%7C%7B2C60D71B-1FBA-4231-B7AB-7718DE752C27%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=13"
+          s:ph="/main/row-5-1/container-10"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{4DD9A173-A834-496F-B344-E898773B8535}"
+          p:after="r[@uid='{4305AE2C-5FB7-4C7B-9A4C-117F61424AE1}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/row-5-1" />
+        <r
+          uid="{3EF72304-7AC9-49D8-BEAB-F94FF432B8C0}"
+          p:after="r[@uid='{4DD9A173-A834-496F-B344-E898773B8535}']"
+          s:ds=""
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles=%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/row-4-1/container-8"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{468D7FE0-BD79-43E1-806A-E7F408CE9D84}"
+          p:after="r[@uid='{3EF72304-7AC9-49D8-BEAB-F94FF432B8C0}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/row-4-1" />
+        <r
+          uid="{39F992B7-D009-44C8-A036-09781FCC7752}"
+          p:after="r[@uid='{468D7FE0-BD79-43E1-806A-E7F408CE9D84}']"
+          s:ds=""
+          s:id="{99A633FC-B9A9-44A0-B78A-BCBB08DD02C9}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BE1ED351B-D573-4FE5-997C-4589A3D1361F%7D&amp;Styles=%7B8D38663D-4028-4440-96C6-BCAA6062E23B%7D%7C%7BFAF28AF7-0575-40E0-9EE8-3C33FB91AC01%7D%7C%7B483AF548-57D7-4735-A003-5710259189CC%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-3-1/container-6"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{363FE04E-A72F-48FB-A750-FD41D309D7CB}"
+          p:after="r[@uid='{39F992B7-D009-44C8-A036-09781FCC7752}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-3-1" />
+        <r
+          uid="{59D5BD73-88F0-4BFF-8E08-CBC01F6C91FC}"
+          p:after="r[@uid='{363FE04E-A72F-48FB-A750-FD41D309D7CB}']"
+          s:ds=""
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BEB97EC7C-7A08-4D35-835C-AA9365EE9319%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-2-1/container-4"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{0C78481E-AAB7-41DB-BEFE-C9CE526B8B87}"
+          p:after="r[@uid='{59D5BD73-88F0-4BFF-8E08-CBC01F6C91FC}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{F7A434A1-386B-4105-8AD8-6B7E62AC2C12}"
+          p:after="r[@uid='{0C78481E-AAB7-41DB-BEFE-C9CE526B8B87}']"
+          s:ds=""
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%3E&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B1D790729-2C96-41CB-AB54-EFCE42474F1E%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-1-1/container-2" />
+        <r
+          uid="{B8D72641-9481-472A-83BF-2C0C608F3006}"
+          p:after="r[@uid='{F7A434A1-386B-4105-8AD8-6B7E62AC2C12}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{6E40463E-72D5-4854-A8DF-81516578D3D8}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3%2C4%2C5%2C6%2C7&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{4B573A94-C2FB-4F68-A5A4-DDA00479B1E0}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220810T104934Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Frogs & Amphibians
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: "Thinking about getting frog or amphibian pets? Get all the frog and amphibian facts you need to figure out if they are the right fit for you!"
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <p>Amphibians are cold blooded vertebrates of the class Amphibia. The class Amphibia is comprised of three orders, containing five types of amphibians.<br />
+        <br />
+        <strong>Anura - </strong>consists of frogs and toads<br />
+        <strong>Caudata - </strong>consists of salamanders and newts<br />
+        <strong>Gymnophiona - </strong>comprises the caecilians.<br />
+        <br />
+        Amphibian means living in both land and water. Nearly all amphibians start their life in a larval aquatic stage after hatching from an egg. From there they grow limbs and morph into their adult or terrestrial stage.<br />
+        <br />
+        </p>
+        <h2><strong>Getting Started With Pet Frogs and Amphibians</strong></h2>
+        <p>Many amphibians breathe through their skin and must stay moist in order to do that. Their habitat must be able to hold 65-95% humidity, while still having some air flow. They can also be secretive, so plenty of areas to hide are important for them to feel safe.<br />
+        <br />
+        Zilla Terrarium Moss is excellent for natural moisture retention and is ideal for building a comfortable amphibian terrarium. Other fitting substrates to use that will retain moisture and humidity are Zilla Jungle Mix or Zilla Coconut Husk Brick. You can begin building your terrarium by visiting our glass terrariums, tanks, and cages page.<br />
+        <br />
+        Due to their permeable skin in is important to wash your hands thoroughly, a surplus of oils or lotions could pass through their skin and do them harm.</p>
+        <h3><strong>Housing and Habitat</strong></h3>
+        <p>As with all pets, it is important to research the natural habitat of the frog or amphibian you wish to care for and try to mimic it in captivity. Most frogs and amphibians come from tropical environments. Some live near ponds and bodies of water, some live on the rainforest floor, and others live up in trees. Creating a habitat that best reflects their natural environment is important to your frog or amphibians health and happiness. It is important to note that humidity is especially imperative to amphibians and their health, and adding moss to a terrarium can help to raise and maintain higher humidity. Starting with the proper enclosure is important and it should be tall for arboreal species or have a large water area for pond dwelling species. Water quality is important, so a high quality filter is necessary in any large water areas in a terrarium. The substrate should be non-toxic and be able to hold humidity. Consult the <span style="text-decoration: underline;"><a href="~/link.aspx?_id=69319664A358494A89C1552642203434&amp;_z=z">Zilla Bedding Guide</a></span> for the best substrate choice for your pet frog oramphibian.</p>
+        <h4><span style="text-decoration: underline;"><strong>Frogs Require:</strong></span></h4>
+        <ul>
+            <li>Heat and light source to stay warm as well as cool areas in their tanks so they can self-regulate their temperatures. Be careful when choosing a heat light, as many amphibians may not need it.</li>
+            <li>High humidity and access to clean water. This is important for the health of their skin.</li>
+            <li>Decorations that mimic their natural habitats and provide cover.</li>
+        </ul>
+        <h3><strong>What Do Frogs Eat?</strong></h3>
+        <div>Depending on where your frog is from and what their natural lifestyle is like their diet may vary from frog to frog. Frogs eat a wide range of foods from insects and other invertebrates, small mammals, small fish, smaller reptiles and pelleted fish foods. Be careful not to feed them too much as obesity can become a real problem for them.</div>
+        <h3><strong>How To Safely Handle Your Pet Frog or Amphibian</strong></h3>
+        <p><span style="font-weight: lighter;">All amphibians lack scales and have permeable skin that allows them to absorb moisture and oxygen. Make sure to only handle them with clean moist hands, as they can absorb chemicals from your hands right into their body, and keep handling to a minimum to keep them from becoming stressed.</span></p>
+        <h4><em><strong>Always wash your hands after handling any reptile!</strong></em></h4>
+        <h3><strong>Should I Get a Frog or Amphibian as a Pet?</strong></h3>
+        <p>Frogs and other amphibians make interesting and beautiful pets, but doing your research before hand is essential. Many species of frogs don’t tolerate handling and it can also cause them health issues so if you want a pet you can "play" with consider that before getting your pet. Frogs and amphibians also need higher humidity than most animals, so daily misting and tracking of moisture is important and pet owners have to maintain this regimen. These animals do very well in planted and live vivariums which can be incredible to watch and enjoy!</p>
+        <h3><strong>Types of Frogs That Make Great Pets</strong></h3>
+        African Clawed Frog
+        African Dwarf Frog
+        Amazon Milk Frog<br />
+        American Green Treefrog<br />
+        Budgett’s Frog<br />
+        Cuban Treefrog<br />
+        Dart Frog<br />
+        Horned Frog<br />
+        Painted Frog<br />
+        Pixie Frog<br />
+        Red Eyed Treefrog<br />
+        Tomato Frog<br />
+        Mantella Frog<br />
+        <br />
+        <h3><strong>Types of Amphibians That Make Great Pets</strong></h3>
+        Axolotl<br />
+        Ribbed Newt<br />
+        Tiger Salamander
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "Thinking about getting frog or amphibian pets? Get all the frog and amphibian facts you need to figure out if they are the right fit for you!"
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Frogs & Amphibians | Reptile Pet Types | Zilla
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Frog & Amphibian Facts
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "498fbde6-9e66-4fb0-adef-5d33038632cd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{4B573A94-C2FB-4F68-A5A4-DDA00479B1E0}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220915T105232Z

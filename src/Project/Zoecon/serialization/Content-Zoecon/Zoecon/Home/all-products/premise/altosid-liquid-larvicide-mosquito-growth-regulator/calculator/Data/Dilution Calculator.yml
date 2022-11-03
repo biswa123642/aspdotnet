@@ -1,0 +1,86 @@
+﻿---
+ID: "e0d7beed-b97c-47f5-b553-dcdfa137f66f"
+Parent: "1fb3109c-3ada-49df-901b-92e8051a8c76"
+Template: "29a719ae-ade2-43d2-8c86-10d5bc235f11"
+Path: "/sitecore/content/OneWeb/Zoecon/Home/all-products/premise/altosid-liquid-larvicide-mosquito-growth-regulator/calculator/Data/Dilution Calculator"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220901T060608Z
+    - ID: "2c240cd8-f4fb-44e0-9f7f-d9eaaa2f51ff"
+      Hint: CalculateButtonLabel
+      Value: Calculate
+    - ID: "30b858ef-1660-422c-90ae-78c4e26e016c"
+      Hint: Accordion1Content
+      Value: |
+        <span style="background-color: #ffffff; color: #434343;">Tank mix Altosid</span><span style="background-color: #ffffff; line-height: 0; color: #434343;">&reg;&nbsp;</span><span style="background-color: #ffffff; color: #434343;">Liquid Larvicide with Mavrik</span><span style="background-color: #ffffff; line-height: 0; color: #434343;">&reg;&nbsp;</span><span style="background-color: #ffffff; color: #434343;">Perimeter to provide a barrier treatment against adult mosquitoes.</span>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ed155717-c1c8-4e0c-8b6b-ae664de068f2"
+    - ID: "97eb56c5-66f0-42e0-b66b-70a5de4c7302"
+      Hint: ResultJSON
+      Value: |
+        {"fields":[ { "label": "Treatment Area:", "id": "treatment-area", "type": "input" }, { "label":"Low Rate (88.7206 mL / acre):", "id":"lo-rate", "type":"output", "formula":"(88.7206/43560) * {treatment-area}", "units":"ml/sqft" }, { "label":"High Rate ( 118.294 mL / per acre):", "id":"hi-rate", "type":"output", "formula":"(118.294/43560) * {treatment-area}", "units":"ml/sqft" } ] }
+    - ID: "a0b59bb3-d861-486c-9fd3-f45c9046e871"
+      Hint: Heading
+      Value: |
+        <h2>DILUTION RATE CALCULATOR</h2>
+        <div class="component copy-wrap">
+        <h1>ALTOSID&reg; LIQUID LARVICIDE MOSQUITO GROWTH REGULATOR CALCULATOR</h1>
+        <h2>Available Product Sizes:</h2>
+        <ul>
+            <li>16 oz bottle</li>
+        </ul>
+        <p>Input the square footage of your barrier treatment area below to find the appropriate dilution
+        rate for Altosid&reg; Liquid Larvicide Mosquito Growth Regulator.</p>
+        </div>
+    - ID: "a2578af9-25a6-4a8f-8308-10b4a78cc5a2"
+      Hint: Accordion2Heading
+      Value: Lambda 9.7 CS
+    - ID: "acbc63e1-9a08-4b79-8426-c1e18f10e07f"
+      Hint: AccordionTitle
+      Value: "MIX PARTNER:"
+    - ID: "b44094ae-d7e3-4f90-9292-0728c12a6c0e"
+      Hint: Accordion2Content
+      Value: |
+        <span style="background-color: #ffffff; color: #434343;">Tank mix Altosid</span><span style="background-color: #ffffff; line-height: 0; color: #434343;">&reg;&nbsp;</span><span style="background-color: #ffffff; color: #434343;">Liquid Larvicide with Lambda 9.7 CS to provide immediate relief and knockdown of adult mosquitoes.</span>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "bfd25f9c-a36c-4039-9b4b-27cc99ec4384"
+      Hint: ResultHeading
+      Value: "RESULTS:"
+    - ID: "c36169a4-14bf-41af-b153-c8d73ac11e83"
+      Hint: Accordion1Heading
+      Value: Mavrik&reg; Perimeter
+    - ID: "c5462c77-ce57-419d-b72f-a0f3acf671ca"
+      Hint: ResetButtonLabel
+      Value: Reset
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220912T103753Z
+    - ID: "ede6f2bd-882b-4b17-b3af-59f1b47cb5a1"
+      Hint: InputFieldUnit
+      Value: sqft
+    - ID: "f1ed0994-bf88-4360-b65d-b43117751f39"
+      Hint: Accordion2JSON
+      Value: |
+        {"fields":[ { "label":"Mix Rate (.5oz/gal/1,000 sqft):", "id":"lo-rate", "type":"output", "formula":"{lo-rate} * 0.25", "units":"oz" }] }
+    - ID: "f3020656-ada1-43ee-9db8-a4f7a9f2a5b6"
+      Hint: InputDescription
+      Value: |
+        <label><strong>Input square foot treatment area</strong><br />
+                                    <small>Note: treatment area will round to the nearest 100 sq ft</small></label>

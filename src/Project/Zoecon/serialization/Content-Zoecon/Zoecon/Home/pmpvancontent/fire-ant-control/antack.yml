@@ -1,0 +1,72 @@
+﻿---
+ID: "af44f54c-6c39-468f-8eb3-99640de61f1d"
+Parent: "16f34ee4-aceb-4593-866e-7f83df2667b9"
+Template: "0f7cdd23-0988-42cf-a06f-15d8735314fb"
+Path: "/sitecore/content/OneWeb/Zoecon/Home/pmpvancontent/fire-ant-control/antack"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{2ED748BA-E7E4-4E06-9A57-28F1E93F5B99}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{4086AC60-C4B9-4C8B-BBF2-92958D9DE7FE}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220915T104751Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: antack
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <div class="score-content-spot">
+            <p style="z-index: 1;">Antack™ Liquid Ant Bait is a highly effective product PMPs can turn to for control of ant infestations and reduced callbacks. It targets an ant’s nervous system, leading to death of the colony and queen. </p>
+        <p style="z-index: 1;"><a href="/all-products/premise/antack-liquid-ant-bait">Learn More</a></p>
+        </div>
+        <div class="attachment-list " style="">
+                <h3 style="z-index: 1;"></h3>
+                
+        
+                <a href="/~/media/Project/OneWeb/Zoecon/Files/Product%20Labels/SDS/Antack%20Liquid%20Ant%20Bait%20SDS.pdf" title="" class="link-icon link-pdf" target="_blank">SDS </a>
+        
+        
+                <a href="/~/media/Project/OneWeb/Zoecon/Files/Product%20Labels/Specimen/Antack%20Liquid%20Ant%20Bait%20Specimen%20Label.pdf" title="" class="link-icon link-pdf" target="_blank">Specimen Label </a>
+        
+        
+                <a href="/~/media/Project/OneWeb/Zoecon/Files/resources/Fact-Sheets/Antack%20Liquid%20Ant%20Bait%20Fact%20Sheet.pdf" title="" class="link-icon link-pdf" target="_blank">Fact Sheet </a>
+        
+            </div>
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: ANTACK™ LIQUID ANT BAIT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "53fe51b8-3510-4f30-95c6-15c5b9dbfb30"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220923T065257Z
+    - ID: "e30bd79a-3fdc-42b1-b08b-23724b266690"
+      Hint: RelatedProducts
+      Value: |
+        {16F34EE4-ACEB-4593-866E-7F83DF2667B9}
+        {8756E3EF-6388-42DC-844E-7512C8B84C3B}
+        {0258F90E-5171-44E6-8CD3-D2A516BC239A}
+    - ID: "e9889363-bcac-4971-8069-6d13f499574c"
+      Hint: RelatedProductsLabel
+      Value: The Fire Ant Control Family

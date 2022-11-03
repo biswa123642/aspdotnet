@@ -1,0 +1,56 @@
+﻿---
+ID: "904b75d4-33d4-4536-aac6-8616b3994709"
+Parent: "71e093ca-dd6c-4f5c-aa80-1564f25411e0"
+Template: "6659b02d-bd4b-4821-b452-77fca1da6b43"
+Path: "/sitecore/content/OneWeb/Zilla/Home/all-products/decor/herp-hotels/Variant Grouping/herp-hotel-large"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 20
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17cdad4b-b760-4682-b72d-fda00dd2e27d"
+      Hint: VariantDescription
+      Value: |
+        <div class="z-points"><a href="/z-points" title="z-points 10"><img src="-/media/978030040D784273A7C4147A3EAF3124.ashx?la=en&amp;hash=8D7F14CA1DDF9DFEDEE4FB68746D2958FA6CB58D" class="img-responsive" alt="Z-Points 10"></a></div>
+        <br>
+        <p>
+        <strong>Product Dimensions:</strong><br>13.5 x 7 x 4.75"
+        </p>
+        <p>
+        <strong>Color:</strong><br>
+        Gray</p>
+    - ID: "22cafc35-3f72-476d-aaed-34fbf9f40df6"
+      Hint: PrimaryVariationValue
+      Value: Large
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220812T090715Z
+    - ID: "69ad85ef-73f1-44cf-9914-11f9bd56e901"
+      Hint: MediaList
+      Value: "{CC6047BB-5BBA-493B-AF36-99F12CF0E290}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e3f18e7a-9113-4f65-aac0-b6b092847c0c"
+    - ID: "915344f6-4f20-4302-9772-bef16cc60be7"
+      Hint: VariantSKU
+      Value: 100111741
+    - ID: "ab6b066d-6827-43a6-a71f-8c00b52d5046"
+      Hint: VariantTitle
+      Value: Herp Hotel, Large
+    - ID: "b21616dc-9e40-44ea-8d25-46375182cdef"
+      Hint: VariantPrice
+      Value: 0
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c6a670f2-49c5-46e4-8241-c9e21eced0db"
+      Hint: VariantUPC
+      Value: 096316117419
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220812T141748Z

@@ -1,0 +1,83 @@
+﻿---
+ID: "a04096bd-15d3-4f45-8584-84c977e31bec"
+Parent: "0c3c700d-f20f-4cf3-8f30-eb511a5de59a"
+Template: "29a719ae-ade2-43d2-8c86-10d5bc235f11"
+Path: "/sitecore/content/OneWeb/Zoecon/Home/all-products/premise/altosid-pro-g/calculator/Data/Dilution Calculator"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220902T115724Z
+    - ID: "2c240cd8-f4fb-44e0-9f7f-d9eaaa2f51ff"
+      Hint: CalculateButtonLabel
+      Value: Calculate
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "170c6d6d-18dc-4abf-81ba-64fcb34360c7"
+    - ID: "97eb56c5-66f0-42e0-b66b-70a5de4c7302"
+      Hint: ResultJSON
+      Value: |
+        {
+           "fields":[
+              {
+              "label": "Treatment Area:",
+              "id": "treatment-area",
+              "type": "input"
+              },
+              {
+                 "label": "Weight (2.5 lb / 5000 sq ft):",
+                 "id": "weight",
+                 "type": "output",
+                 "formula": "{treatment-area} / 5000 * 2.5",
+                 "units": "lbs"
+              }
+           ]
+        }
+    - ID: "a0b59bb3-d861-486c-9fd3-f45c9046e871"
+      Hint: Heading
+      Value: |
+        <div class="score-section-header site-h2" style="color: #434343; background-color: #ffffff; margin-bottom: 30px;">
+        <h2 style="color: inherit; margin-top: 22px; margin-bottom: 11px; line-height: 1.1;">DILUTION RATE CALCULATOR</h2>
+        </div>
+        <div class="score-document-header site-h1 font-green" style="color: #008d5a; background-color: #ffffff; margin: 0px; border: none;">
+        <h1 style="color: inherit; margin: 22px 0px 11px; line-height: 1.1;">ALTOSID&reg; PRO-G CALCULATOR</h1>
+        </div>
+        <div class="score-content-spot" style="color: #434343; background-color: #ffffff; margin-bottom: 30px; line-height: 22px;">
+        <h3 style="color: inherit; margin-top: 22px; margin-bottom: 11px; line-height: 1.1;">Available Product Sizes</h3>
+        <ul style="margin-top: 0px; margin-bottom: 11px;">
+            <li>2.5 lb bottle</li>
+        </ul>
+        <p style="margin: 0px 0px 11px;">Input the square footage of your treatment area below to find the appropriate dilution rate for Altosid<span style="line-height: 0;">&reg;&nbsp;</span>Pro-G.</p>
+        </div>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "bfd25f9c-a36c-4039-9b4b-27cc99ec4384"
+      Hint: ResultHeading
+      Value: "RESULTS:"
+    - ID: "c5462c77-ce57-419d-b72f-a0f3acf671ca"
+      Hint: ResetButtonLabel
+      Value: Reset
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220907T060647Z
+    - ID: "ede6f2bd-882b-4b17-b3af-59f1b47cb5a1"
+      Hint: InputFieldUnit
+      Value: sq ft
+    - ID: "f3020656-ada1-43ee-9db8-a4f7a9f2a5b6"
+      Hint: InputDescription
+      Value: |
+        <span style="background-color: #ffffff; color: #434343;">Treatment area</span><br style="color: #434343; background-color: #ffffff;" />
+        <small style="color: #434343; background-color: #ffffff;">Note: treatment area will round to the nearest 100 sq ft</small>

@@ -1,0 +1,59 @@
+﻿---
+ID: "32030133-f6fc-45e5-ab78-64acc8d2b840"
+Parent: "9ecc1d12-1b95-4251-8f6f-c3e6236b4677"
+Template: "0f7cdd23-0988-42cf-a06f-15d8735314fb"
+Path: "/sitecore/content/OneWeb/Zoecon/Home/pmpvancontent/fly-control/musca-stik"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{2ED748BA-E7E4-4E06-9A57-28F1E93F5B99}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{A1CF1A47-73E2-4467-890D-F4056C002A1C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T065950Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "musca-stik"
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <div class="score-content-spot">
+            <p style="z-index: 1;">This insecticide-free fly control solution attracts flies with Muscalure, a fly sex pheromone that doubles the attraction power. Musca-Stik™ is discreet, odor free and can be thrown away after use.</p>
+        <p style="z-index: 1;"><a href="/all-products/premise/musca-stik-musca-stik-jr">Learn More</a></p>
+        </div>
+        <div class="score-content-spot pmp-truck__links">
+            <p style="z-index: 1;"><a href="/~/media/Project/OneWeb/Zoecon/Files/resources/Brochures/Zoecon%20Premise%20Products%20Brochure.pdf?la=en&amp;hash=7712E2A471F76AB9A16FF8AFD832FD9A0B648E55">Download Premise Control Brochure</a></p>
+        <p style="z-index: 1;"><a href="/~/media/Project/OneWeb/Zoecon/Files/resources/Posters/Fly%20Poster.pdf?la=en&amp;hash=8EFE73AB9996ADFF27DEFB53347C66927AB64AD4">Download Fly Poster</a></p>
+        </div>
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: "MUSCA-STIK™"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "04918ee6-3920-4b18-b706-68c232638727"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220923T071742Z
+    - ID: "e30bd79a-3fdc-42b1-b08b-23724b266690"
+      Hint: RelatedProducts
+      Value: |
+        {9ECC1D12-1B95-4251-8F6F-C3E6236B4677}
+        {296C9B78-6954-4C76-BE10-2C205CBC3240}
+        {7AE3FA34-DBF3-4BD5-9C0F-F6405B749B60}
+        {A65FCF51-D469-45CB-8794-EBC05005E280}
+        {0B0BE239-6866-4872-9733-D9E8D1DA54A4}
+    - ID: "e9889363-bcac-4971-8069-6d13f499574c"
+      Hint: RelatedProductsLabel
+      Value: The Fly Control Family

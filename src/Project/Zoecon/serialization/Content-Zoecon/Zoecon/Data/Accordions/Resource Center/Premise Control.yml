@@ -1,0 +1,125 @@
+﻿---
+ID: "897b0d63-39bf-429e-9d74-b4613b1fa9d6"
+Parent: "7c76cc36-b8a0-4f77-a45a-f9a327cea973"
+Template: "a6ddac75-7d24-4bdb-b3f6-5f47fbb21379"
+Path: /sitecore/content/OneWeb/Zoecon/Data/Accordions/Resource Center/Premise Control
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{09BD444B-FABC-47EA-981D-2C8271655469}">
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B5423143A-760D-4F0E-BA4D-0B02E649A778%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-title"
+          uid="{798965B5-F83D-419C-BD70-5BCEFB59A5B1}" />
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-content"
+          uid="{58C992AC-17DF-47BB-86CE-8748136AACDD}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220817T085924Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5a236869-e375-49c0-a92d-0c2f1db7788f"
+      Hint: Content
+      Value: |
+        <div class="row">
+        <div class="col-md-6">
+        <div class="accordion-heading">
+        <h1>Premise Control</h1>
+        </div>
+        <div class="row">
+        <div class=" col-md-6">
+        <div class="accordion-right">
+        <h4>FACT SHEETS</h4>
+        <a href="-/media/4DEE34EA9E0246B487BAB61D19E6C79C.ashx" target="_blank">Altosid and Culex
+        Control</a>
+        <a href="-/media/099DC19F1CD648508A172E6444E27B89.ashx" target="_blank">EcoPCO<sup>&reg;</sup>
+        ACU
+        Contact Insecticide</a>
+        <a href="-/media/18BFF4BC38B14C5CB1CD7AA29EFCE496.ashx" target="_blank">EcoPCO<sup>&reg;</sup>
+        AR-X
+        Multi Purpose Insecticide</a>
+        <a href="-/media/5AA0C4480C99427EB6D460A565C1CD6E.ashx" target="_blank">ExciteR&trade;</a>
+        <a href="-/media/394D92184FB447D784A825B2B9590E40.ashx">ExciteR&trade; 55 Aerosol</a>
+        <a href="-/media/E98757FEEA1F49EAA7B88622D6FE7736.ashx" target="_blank">Fly Traps</a>
+        <a href="-/media/8EA84D7903924DBD8127764A19B9A54F.ashx">Lava-Lor<sup>&reg;&nbsp;</sup>Granular
+        Bait</a>
+        <a href="-/media/4CC3B05B48FB4768B90750443AE020E2.ashx">Lambda 9.7 CS</a>
+        <a href="-/media/13807C66C49F4C19804ED1615CE7CB81.ashx" target="_blank">Mavrik<sup>&reg;</sup>&nbsp;Perimeter</a>
+        <a href="-/media/A1ECFC7AF4C0452FAC25A26DFDAF668D.ashx" target="_blank">Musca-Cide<sup>&reg;</sup>&nbsp;Fly Bait Spray</a>
+        <a href="-/media/FC2D8023FD2D43F0AB123393DA93DBCF.ashx" target="_blank">PBO-8<sup>&reg;</sup>
+        Synergist</a>
+        <a href="-/media/08E23F7848AE42579789166E61081F18.ashx" target="_blank">Pyronyl<sup>&trade;</sup> Crop
+        Spray</a>
+        <a href="-/media/49B63CDDE2C9411C9B9BF427C2F8269E.ashx" target="_blank">Pyronyl<sup>&trade;</sup>
+        Fogging PF Insecticide</a>
+        <a href="-/media/5B183D8154D24F8C818FBB154EE18071.ashx" target="_blank">Pyronyl<sup>&trade;</sup>
+        Mosquito Control</a>
+        </div>
+        </div>
+        <div class=" col-md-6">
+        <div class="accordion-center">
+        <h4>BROCHURES</h4>
+        <a href="-/media/3504080658CE479F80F716A3B423A343.ashx" target="_blank">QuikStrike<sup>&reg;</sup>
+        Golden Malrin<sup>&reg;</sup> Rotation Brochure</a>
+        <h4>TESTIMONIALS</h4>
+        <a href="-/media/5A578635FA7E48BFA570923A2F0FEF8A.ashx" target="_blank">Extinguish<sup>&reg;</sup> Plus
+        Fire Ant Testimonial</a>
+        <h4>State of...</h4>
+        <a href="-/media/E542224B8ED44AFDA1F8B2840B0F4A99.ashx">2021 State of the Tick Control
+        Market</a>
+        <a href="-/media/D3980040F49F4BC3B12753E80AAADD13.ashx">2020 State of the Tick Control
+        Market</a>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="col-md-6">
+        <div class="accordion-right">
+        <div class="accordion-image">
+        <img height="600" alt="Zoecon Premise family menu" width="600" src="-/media/E53FFF755FF443AA8B084C5C1D8C4C71.ashx" />&nbsp;
+        </div>
+        </div>
+        </div>
+        </div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7240053b-9140-48ac-acea-abfccd7761a1"
+      Hint: Heading
+      Value: PREMISE CONTROL RESOURCES
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "290177b9-785a-4dde-9d66-8b033809a658"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220824T054029Z

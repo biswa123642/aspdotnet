@@ -1,0 +1,73 @@
+﻿---
+ID: "20e2a0c1-323e-43fe-9f04-2a2ed5487a16"
+Parent: "5c4ac4c9-bfe1-47ad-8629-6e280533e8c2"
+Template: "0a163c67-999c-4139-b0a6-c437aa069ace"
+Path: /sitecore/content/OneWeb/Zilla/Data/Store Locator/WhereToBuy
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Where To Buy
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "11abcf5c-fd4a-48a5-9863-82a557c78004"
+      Hint: APIUrl
+      Value: "https://api.central.com/2/wtb"
+    - ID: "1236d4fb-089e-4f65-b639-1aa79964479f"
+      Hint: ZipcodePlaceholderText
+      Value: 
+    - ID: "15ceebd9-102e-4b4d-9582-628deae033d5"
+      Hint: ProductIdAPIRequestSetting
+      Value: ZILLA
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220513T083608Z
+    - ID: "552b40a4-f9bb-411b-94dd-aa7dcc57b0c5"
+      Hint: NotValidZipcodeErrorMessage
+      Value: Please enter a valid zip code.
+    - ID: "7e07adb5-f30e-47a6-a4a7-86eeac29b225"
+      Hint: MarkerImage
+      Value: |
+        <image mediaid="{194C9169-D59C-4760-9F3E-B9723D5D5F45}" ></image>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0436fec4-718e-4f53-b034-91ad6a062ded"
+    - ID: "94c8f1d8-0cc3-4c75-9a66-da55f42d5f6e"
+      Hint: SearchButtonLabel
+      Value: Find
+    - ID: "974e29fe-ed65-4fef-8381-858dd6cb2c51"
+      Hint: ZipcodeLabel
+      Value: "Zip code:"
+    - ID: "b29cf110-a393-4875-8f1f-4e872a6e5106"
+      Hint: DefaultSearchRadius
+      Value: "{801BD68A-0BEC-448C-8ABB-0E4FFFA5BCCB}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c0368fc3-3dff-4695-985b-0d56eb45141c"
+      Hint: NoLocationsFoundErrorMessage
+      Value: "Sorry! No results found. Please try your search again."
+    - ID: "caf50276-2b3c-4215-917b-a9b164b3c763"
+      Hint: GetDirectionsLinkText
+      Value: Get Directions
+    - ID: "cb16a368-d574-40be-8415-dd22fd00d31f"
+      Hint: StoreLocatorTitle
+      Value: Store Finder
+    - ID: "d623a86a-347b-45c5-8c1f-a7ab0d9a2a0c"
+      Hint: StoreListRadiusLabel
+      Value: "Within:"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220909T142135Z
+    - ID: "daf4dfd2-efa3-47d9-84c1-4ee608910acb"
+      Hint: StoreListRadiusDefaultText
+      Value: Radius
+    - ID: "eec16587-28b6-4a9d-ae9c-ab2d64257b67"
+      Hint: BrandAPIRequestSetting
+      Value: ZILLA

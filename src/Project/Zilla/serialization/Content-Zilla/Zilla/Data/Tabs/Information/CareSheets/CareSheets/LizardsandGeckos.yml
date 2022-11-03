@@ -1,0 +1,92 @@
+﻿---
+ID: "08ebc5f7-af13-4c95-bbb6-1d3b4903886e"
+Parent: "2dafaf7a-7fe1-443b-bedf-8150a299f6e5"
+Template: "b27059e6-1190-4273-92a0-d22af3c440b4"
+Path: /sitecore/content/OneWeb/Zilla/Data/Tabs/Information/CareSheets/CareSheets/LizardsandGeckos
+BranchID: "a306f3b4-98f5-4973-9ae8-e3693bcb3252"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{1292FC57-9F1D-48E4-943B-8B4A6EA865A1}">
+          <p:d />
+        </r>
+        <r
+          uid="{8D78A6A9-1A4A-438F-9951-03896182E1D1}">
+          <p:d />
+        </r>
+        <r
+          uid="{5AE269C3-4BE9-4283-92E1-97D7A25D77F6}"
+          p:before="*"
+          s:ds="/sitecore/content/OneWeb/Zilla/Data/Feature Content Tiles/Information/CareSheets/LizardsandGeckosRow1"
+          s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass=col-md-3&amp;FieldNames=%7B735BBE37-C514-466E-A123-80308FFEFE05%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="section-content"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{825F3562-C3CA-4AA6-A3F2-1F7B1B29EDC4}"
+          p:after="r[@uid='{5AE269C3-4BE9-4283-92E1-97D7A25D77F6}']"
+          s:ds="/sitecore/content/OneWeb/Zilla/Data/Feature Content Tiles/Information/CareSheets/LizardsandGeckosRow2"
+          s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass=col-md-3&amp;FieldNames=%7B735BBE37-C514-466E-A123-80308FFEFE05%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="section-content"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{9622D655-8CAE-4092-91FC-90D11A083031}"
+          p:after="r[@uid='{825F3562-C3CA-4AA6-A3F2-1F7B1B29EDC4}']"
+          s:ds="/sitecore/content/OneWeb/Zilla/Data/Feature Content Tiles/Information/CareSheets/LizardsandGeckosRow3"
+          s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass=col-md-3&amp;FieldNames=%7B735BBE37-C514-466E-A123-80308FFEFE05%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="section-content"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{59CCAEBE-9F29-4AAC-88AD-B032CADF0C28}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B5423143A-760D-4F0E-BA4D-0B02E649A778%7D&amp;Styles&amp;RenderingIdentifier=d57d577b-1a6f-4482-923f-3342baa378d2&amp;DynamicPlaceholderId=10"
+          s:ph="section-title"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{FCDCDFB4-DF26-4B34-8752-234CD99CB709}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Lizards and Geckos
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220823T052000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "70181515-2aab-4710-91f4-52a08151693e"
+      Hint: Heading
+      Value: Lizards and Geckos
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d224c105-2bee-4d8b-9a0b-2151693c5956"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220922T122235Z

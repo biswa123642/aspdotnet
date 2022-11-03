@@ -1,0 +1,113 @@
+﻿---
+ID: "6fb25ab3-da16-431c-99b5-d7f1dd8489ea"
+Parent: "16616263-0db9-4643-990e-e1e404ac2e9d"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/Zoecon/Home/resource-center"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{C198DFAB-D76B-4944-82CC-DC2E8718AABF}"
+- ID: "d4952280-2d7d-4bf4-a99a-ea36dad0f0a7"
+  Hint: Body Css Class
+  Value: "resource-center"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{BCFC7537-EFF4-434C-96F5-BF4F55FD175B}">
+        <r
+          uid="{F9B0E74E-658D-4B03-90A5-52C6BA7FACD7}"
+          ds="{7C76CC36-B8A0-4F77-A45A-F9A327CEA973}"
+          id="{DEE8DDA7-AF00-48F6-9C60-19AB73EBA80D}"
+          par="EasingFunction=Swing&amp;Speed=500&amp;CanOpenMultiple&amp;CanToggle=1&amp;ExpandedByDefault&amp;ExpandOnHover&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles=%7BE3F0ECE2-503B-48ED-B9DA-6B1EE99E774A%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          ph="/main/row-3-1/container-6"
+          ccb="Clear on publish" />
+        <r
+          uid="{932DCB9F-7D92-4E4F-92DE-9EC16CFE3AE7}"
+          ds=""
+          id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          ph="/main/row-3-1" />
+        <r
+          uid="{855AF405-56F4-49CB-8ADB-780B577723DC}"
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles=%7B61F2FEC8-5C64-4BC8-B992-DFFA31EB499C%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          ph="/main/row-2-1/container-4"
+          ccb="Clear on publish" />
+        <r
+          uid="{98FBD961-BC00-42F4-B141-09F14AC2938D}"
+          ds=""
+          id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          ph="/main/row-2-1" />
+        <r
+          uid="{5FF26861-0197-4EE9-8362-DF3B672FA15F}"
+          ds=""
+          id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          par="BreadcrumbRoot&amp;Separator=%2F&amp;IsNavigation&amp;Filter=%7BE0A2A027-0932-4878-A7D6-0416D5263EFB%7D&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B1D790729-2C96-41CB-AB54-EFCE42474F1E%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          ph="/main/row-1-1/container-2"
+          ccb="Clear on publish" />
+        <r
+          uid="{2272ABBB-61BA-4D82-949A-C891CC40845B}"
+          ds=""
+          id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          ph="/main/row-1-1" />
+        <r
+          uid="{3FB67125-3CBE-41E1-8F49-603A4811B34E}"
+          ds=""
+          id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3%2C4&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          ph="main" />
+      </d>
+      <d
+        id="{0B4A31C9-712D-4578-A396-2DDC0F34B63A}"
+        l="{72C595AD-68BB-44BC-B5CD-2A857039515F}" />
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220805T113742Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Resource Center
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Download literature about Zoecon Products' high level of fly and insect control. From catalogs to brochures to white papers you can learn more here.
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <h1>RESOURCE CENTER</h1>
+        <p>Get the most out of your Zoëcon experience with everything from technical white papers, in-depth catalogs, PMP treatment guides and product rebates.</p>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Download literature about Zoecon Products' high level of fly and insect control. From catalogs to brochures to white papers you can learn more here.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Zoëcon | Resource Center
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Resource Center
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "90b9d950-25ff-409c-981b-b6d4ba09a9dd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220826T121131Z

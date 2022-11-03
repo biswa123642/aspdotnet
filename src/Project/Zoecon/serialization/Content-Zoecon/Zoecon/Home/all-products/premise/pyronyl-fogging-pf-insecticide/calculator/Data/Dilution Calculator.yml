@@ -1,0 +1,102 @@
+﻿---
+ID: "7dade754-63b6-4f88-aacd-f77728a70978"
+Parent: "e0ad3cc1-bfc0-47db-a9bd-3a7a42403a45"
+Template: "29a719ae-ade2-43d2-8c86-10d5bc235f11"
+Path: "/sitecore/content/OneWeb/Zoecon/Home/all-products/premise/pyronyl-fogging-pf-insecticide/calculator/Data/Dilution Calculator"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220905T042725Z
+    - ID: "2c240cd8-f4fb-44e0-9f7f-d9eaaa2f51ff"
+      Hint: CalculateButtonLabel
+      Value: Calculate
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bdbdc628-0c51-4f07-a448-22426c27dc2a"
+    - ID: "97eb56c5-66f0-42e0-b66b-70a5de4c7302"
+      Hint: ResultJSON
+      Value: |
+        {
+           "fields":[
+              {
+                 "label": "Treatment Area:",
+                 "id": "treatment-area",
+                 "type": "input"
+              },
+              {
+                 "label": "LO Rate (1 oz / 1000 sq ft):",
+                 "id": "lo-rate",
+                 "type": "output",
+                 "formula": "{treatment-area} / 1000",
+                 "units": "oz"
+              },
+              {
+                 "label": "HI Rate (1.83 oz / 1000 sq ft):",
+                 "id": "hi-rate",
+                 "type": "output",
+                 "formula": "{treatment-area} / 1000 * 1.83",
+                 "units": "oz"
+              }
+           ]
+        }
+    - ID: "a0b59bb3-d861-486c-9fd3-f45c9046e871"
+      Hint: Heading
+      Value: |
+        <div class="score-center">
+                <div class="score-section-header site-h2">
+        
+                <h2 style="z-index: 1;">
+                    DILUTION RATE CALCULATOR
+        
+                </h2>
+        
+        </div><div class="score-document-header site-h1 font-green">
+        
+                <h1 style="z-index: 1;">
+                    Pyronyl™ Fogging PF Insecticide Calculator
+        
+                </h1>
+        
+        </div><div class="score-content-spot">
+            <h3 style="z-index: 1;">Available Product Sizes</h3>
+        <ul>
+            <li style="z-index: 1;">1 gal bottle</li>
+            <li style="z-index: 1;">5 gal bottle</li>
+            <li style="z-index: 1;">55 gal drum</li>
+        </ul>
+        <p style="z-index: 1;">Input the square footage of your treatment area below to find the appropriate dilution rate for Pyronyl™ Fogging PF Insecticide. Note that this product can be mixed with PBO-8<sup>® </sup>Synergist to prevent insect resistance and Precor<sup>® </sup>IGR Concentrate to extend the residual control of the product. Refer to product labels to learn more about these tank mixes.</p>
+        </div><div class="score-content-spot">
+            <div class="form-group"></div></div></div>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "bfd25f9c-a36c-4039-9b4b-27cc99ec4384"
+      Hint: ResultHeading
+      Value: "RESULTS:"
+    - ID: "c5462c77-ce57-419d-b72f-a0f3acf671ca"
+      Hint: ResetButtonLabel
+      Value: Reset
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220907T060601Z
+    - ID: "ede6f2bd-882b-4b17-b3af-59f1b47cb5a1"
+      Hint: InputFieldUnit
+      Value: sq ft
+    - ID: "f3020656-ada1-43ee-9db8-a4f7a9f2a5b6"
+      Hint: InputDescription
+      Value: |
+        <label for="calculator-main-input">Treatment area<br />
+        <small>Note: treatment area will round to the nearest 100 sq ft</small></label>

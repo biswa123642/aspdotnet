@@ -1,0 +1,62 @@
+﻿---
+ID: "34fbbb66-b5fd-4c08-bba5-6017b18dca8e"
+Parent: "5524da63-a04d-44ac-b7ce-05861f4cc83a"
+Template: "6659b02d-bd4b-4821-b452-77fca1da6b43"
+Path: "/sitecore/content/OneWeb/Zilla/Home/all-products/food/turtle-chasers/Variant Grouping/turtle-chasers-clam"
+SharedFields:
+- ID: "9135200a-5626-4dd8-ab9d-d665b8c11748"
+  Hint: __Never publish
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17cdad4b-b760-4682-b72d-fda00dd2e27d"
+      Hint: VariantDescription
+      Value: |
+        <div class="z-points"><a href="/z-points" title="z-points 5"><img src="-/media/61E21313BA624E8C8AC99F39F3A1B8B6.ashx?la=en" class="img-responsive" alt="Z-Points 5"></a></div><br><ul>
+            <li>A fun and interactive floating treat that turtles love! </li>
+            <li>Tasty clam will have aquatic turtles chasing them around the habitat</li>
+            <li>Treat time becomes playtime, watch as turtles hunt down and nibble off bits until the entire morsel is devoured</li>
+            <li>Made with real clam!</li>
+        </ul>
+        <p><strong>Size:</strong><br>
+        2oz</p>
+        <p><strong>Dimensions:</strong><br>
+        5.125 x 1.75 x 6.5</p>
+        <p><strong>Style:</strong><br>
+        Freeze Dried</p>
+    - ID: "22cafc35-3f72-476d-aaed-34fbf9f40df6"
+      Hint: PrimaryVariationValue
+      Value: Clam
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220812T090726Z
+    - ID: "69ad85ef-73f1-44cf-9914-11f9bd56e901"
+      Hint: MediaList
+      Value: |
+        {0B79B3BB-9F00-4A23-BB3D-D49FCBE28BBD}
+        {8E215D67-FEC3-46D3-884D-707A674CB744}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9d7f5af6-ad76-4470-b3bb-ab214abedf10"
+    - ID: "915344f6-4f20-4302-9772-bef16cc60be7"
+      Hint: VariantSKU
+      Value: 100109607
+    - ID: "ab6b066d-6827-43a6-a71f-8c00b52d5046"
+      Hint: VariantTitle
+      Value: Turtle Chasers Clam
+    - ID: "b21616dc-9e40-44ea-8d25-46375182cdef"
+      Hint: VariantPrice
+      Value: 0
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c6a670f2-49c5-46e4-8241-c9e21eced0db"
+      Hint: VariantUPC
+      Value: 096316096073
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220907T065154Z

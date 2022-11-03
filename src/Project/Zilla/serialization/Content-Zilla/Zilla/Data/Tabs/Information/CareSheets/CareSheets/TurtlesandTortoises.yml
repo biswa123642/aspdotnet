@@ -1,0 +1,72 @@
+﻿---
+ID: "6bc189ac-45c1-4e8b-ad24-69eeed3c519c"
+Parent: "2dafaf7a-7fe1-443b-bedf-8150a299f6e5"
+Template: "b27059e6-1190-4273-92a0-d22af3c440b4"
+Path: /sitecore/content/OneWeb/Zilla/Data/Tabs/Information/CareSheets/CareSheets/TurtlesandTortoises
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{1292FC57-9F1D-48E4-943B-8B4A6EA865A1}">
+          <p:d />
+        </r>
+        <r
+          uid="{8D78A6A9-1A4A-438F-9951-03896182E1D1}">
+          <p:d />
+        </r>
+        <r
+          uid="{79248CBA-3998-46BD-98BA-FC0E88AB8004}"
+          p:before="*"
+          s:ds="/sitecore/content/OneWeb/Zilla/Data/Feature Content Tiles/Information/CareSheets/TurtlesandTortoises"
+          s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass=col-md-3&amp;FieldNames=%7B735BBE37-C514-466E-A123-80308FFEFE05%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=12"
+          s:ph="section-content"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{809E252A-A643-4529-9636-3ECFDBCACB13}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B5423143A-760D-4F0E-BA4D-0B02E649A778%7D&amp;Styles&amp;RenderingIdentifier=370445c9-3762-4384-8a99-636235a39c2a&amp;DynamicPlaceholderId=13"
+          s:ph="section-title"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Turtles and Tortoises
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220823T052510Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "70181515-2aab-4710-91f4-52a08151693e"
+      Hint: Heading
+      Value: Turtles and Tortoises
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6682e341-9eea-45a9-bc29-0e5da579d4d9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220922T122434Z

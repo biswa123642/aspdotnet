@@ -1,0 +1,38 @@
+﻿---
+ID: "c0352592-c24b-4d93-89f5-52b6f3912b76"
+Parent: "fb594bb4-33e5-4fee-89bb-3c4df558717d"
+Template: "8455b301-b57b-43ad-a4f4-4e83ffb31905"
+Path: "/sitecore/content/OneWeb/Zoecon/Data/Solution Finder/Solution Finder/Solution/Indoor/II-FireBrats-LC"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1600
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220823T110334Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c52614ca-b36a-4ea1-9c2f-dc22a970402f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "cbb746c0-f90e-4acc-8bee-98084234b389"
+      Hint: SolutionProducts
+      Value: |
+        {62CEDA52-536A-4BCE-A928-8F5E94CF4FB2}
+        {4BDDB394-AC35-45F9-9E7C-78AD483D8A32}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220823T110432Z
+    - ID: "ecff41e9-ad3e-4503-9b0c-0f5d2965c749"
+      Hint: RequiredAnswers
+      Value: |
+        {662AF90C-7FD9-4A11-9AFF-29E29A9C6710}
+        {137FCD61-1208-42FD-9CEF-A471FD740450}
+        {11533AAB-0EF7-48FE-B31E-7DEBE112F85B}

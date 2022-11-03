@@ -1,0 +1,46 @@
+﻿---
+ID: "dc9a6461-cde7-42af-8c44-e8774f23b843"
+Parent: "31c72444-3a34-43ae-ad93-fa1ff461fe0d"
+Template: "9874a4bd-a371-4049-85e6-0ed0ad713e54"
+Path: /sitecore/content/OneWeb/Zoecon/Data/Solution Finder/Solution Finder/Indoor Insect Type/Stink Bugs
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03b55013-fdf9-40f2-9e5b-88d26865df7b"
+      Hint: Image
+      Value: |
+        <image mediaid="{3969C16A-198B-4CB5-84D0-119BC1E71DFB}" />
+    - ID: "096443cb-b8dd-4635-af3e-a4435f9612f1"
+      Hint: BreadcrumbTitle
+      Value: Stink Bugs
+    - ID: "0a9a0bf9-863c-4c36-8bc6-b576213cbad9"
+      Hint: Order
+      Value: 9
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220823T073214Z
+    - ID: "4d1593b6-8eac-4cd1-8383-16cbc881112e"
+      Hint: Title
+      Value: STINK BUGS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ff29f962-bdef-4712-8750-744f5fd9e893"
+    - ID: "967543d6-dddb-4b55-b6ff-ab2ca3fbe30c"
+      Hint: RequiredAnswers
+      Value: "{662AF90C-7FD9-4A11-9AFF-29E29A9C6710}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d53f6957-984b-4af6-a3c6-696f1ef8ec04"
+      Hint: Value
+      Value: "stink-bugs"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220823T092122Z

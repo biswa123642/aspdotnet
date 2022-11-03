@@ -1,0 +1,144 @@
+﻿---
+ID: "83f267eb-db89-4fab-a3de-a7ac5e29f9d2"
+Parent: "1174475b-bd35-40b4-82d5-3eee416f58f1"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/TFH/Home/sell-tfh-magazine"
+SharedFields:
+- ID: "961cadd8-8f7d-4b12-b0da-7af04b54b22d"
+  Hint: OpenGraphType
+  Value: Home | TFH Magazine
+- ID: "b0f2f11d-f706-41da-81fe-88ebfacb3b53"
+  Hint: OpenGraphSiteName
+  Value: Home | TFH Magazine
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{2B8C21D4-E788-4B5A-927B-DE44C033868E}"
+          p:before="*"
+          s:ds=""
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth2=%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1=%7BD7859CA0-B185-4964-AE8A-D0A023E7DB78%7D%7C%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;Styles2=%7B0F0D2736-6C00-4E8A-B13D-1E977C09E280%7D%7C%7B48194A28-1F87-4086-AADC-E2B09B8EA318%7D&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;DynamicPlaceholderId=5&amp;CacheClearingBehavior=Clear%20on%20publish"
+          s:ph="/main/row-2-1/container-10"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{3C98198B-A823-458E-98B9-366EFE512651}"
+          p:after="r[@uid='{2B8C21D4-E788-4B5A-927B-DE44C033868E}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/row-2-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{EDA40EFA-F060-4061-8257-59987A34B683}"
+          p:after="r[@uid='{3C98198B-A823-458E-98B9-366EFE512651}']"
+          s:ds=""
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth2=%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1=%7B48194A28-1F87-4086-AADC-E2B09B8EA318%7D%7C%7BADDFB720-BE49-4750-BD0A-48FCBFDA5647%7D&amp;Styles2=%7B48194A28-1F87-4086-AADC-E2B09B8EA318%7D%7C%7BADDFB720-BE49-4750-BD0A-48FCBFDA5647%7D&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1/container-9"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{447701D3-2FB7-4759-998B-66EE963709F6}"
+          p:after="r[@uid='{EDA40EFA-F060-4061-8257-59987A34B683}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/row-1-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{F450DAA9-D33C-43B9-A592-32E1BE453598}"
+          p:after="r[@uid='{447701D3-2FB7-4759-998B-66EE963709F6}']"
+          s:ds="{2BC4AE56-7EF5-4F04-BFC5-A99066049795}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B6F10B5A7-BBDE-484D-9E7C-7D7A99D71800%7D&amp;Styles=%7BD7859CA0-B185-4964-AE8A-D0A023E7DB78%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/row-2-1/container-10/column-1-5"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{73A39BDA-F882-435F-8035-F175A5B1B3EE}"
+          p:after="r[@uid='{F450DAA9-D33C-43B9-A592-32E1BE453598}']"
+          s:ds="{42DB2CE8-728E-439E-9B55-7BF81C7A78B7}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B51654F08-E84E-438F-8540-34746EFEDAB3%7D&amp;Styles=%7B765A0CFF-9FE9-4539-8735-21E54CB98B8D%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-2-1/container-10/column-2-5" />
+        <r
+          uid="{75FB3A86-B150-4724-A085-AF55220597AE}"
+          p:after="r[@uid='{73A39BDA-F882-435F-8035-F175A5B1B3EE}']"
+          s:ds="{46DD878F-A8BF-485A-B0E7-B295C22CD0B0}"
+          s:id="{882F60C4-4A33-4995-AC39-C8FF97EE8F1D}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B0A165447-FFF3-44FB-8521-2AFCDFEA24E5%7D&amp;Styles=%7BADDFB720-BE49-4750-BD0A-48FCBFDA5647%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-2-1/container-10/column-1-5"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{9B3545E2-9848-4FF4-81DB-6B7E78575EBC}"
+          p:after="r[@uid='{75FB3A86-B150-4724-A085-AF55220597AE}']"
+          s:ds="{B5B8EEDF-FB02-4C9F-A86E-BDC31D089F96}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B6F10B5A7-BBDE-484D-9E7C-7D7A99D71800%7D&amp;Styles=%7BFE9B475E-EB96-4580-85AD-ADC330F7949F%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-1-1/container-9/column-2-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{291EE253-9F45-4C8A-BBEB-83D54B12F3E4}"
+          p:after="r[@uid='{9B3545E2-9848-4FF4-81DB-6B7E78575EBC}']"
+          s:ds="{A18840E2-12B6-4F62-95DC-D9B1BC77B924}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B6F10B5A7-BBDE-484D-9E7C-7D7A99D71800%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-1-1/container-9/column-1-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{832CC5BB-1DA1-4CEF-967C-E1725F6AE3B0}"
+          p:after="*[1=2]"
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2=%7BB83683BC-69A8-44F7-BFF7-80BF6887AA96%7D&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220721T135816Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "back-issues"
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Fill out the form to order a back issue of Tropical Fish Hobbyist magazine, the world’s most trusted source of information about the world of fishkeeping.
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: 
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Fill out the form to order a back issue of Tropical Fish Hobbyist magazine, the world’s most trusted source of information about the world of fishkeeping.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Order a Back Issue | Tropical Fish Hobbyist Magazine
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Sell TFH Magazine
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0c3cd9d9-db9c-4cc4-a724-5202d511e24c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{E38940AF-6800-45BE-9163-02E1088032A7}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220818T120734Z

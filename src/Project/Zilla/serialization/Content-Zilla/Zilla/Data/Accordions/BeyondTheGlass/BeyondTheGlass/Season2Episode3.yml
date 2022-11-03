@@ -1,0 +1,88 @@
+﻿---
+ID: "e03c8b04-1b44-4540-b9f0-6e891a612cc8"
+Parent: "45e33a67-cc1e-4a3b-ad9c-42de8d4f4453"
+Template: "a6ddac75-7d24-4bdb-b3f6-5f47fbb21379"
+Path: /sitecore/content/OneWeb/Zilla/Data/Accordions/BeyondTheGlass/BeyondTheGlass/Season2Episode3
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{09BD444B-FABC-47EA-981D-2C8271655469}">
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B5423143A-760D-4F0E-BA4D-0B02E649A778%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-title"
+          uid="{B71AAE99-EE59-4C98-A90A-D638201B936E}" />
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-content"
+          uid="{1F9ACB99-D5F9-4593-A6E2-CE4A5C8B4A88}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Season 2 Episode 3
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220827T054049Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5a236869-e375-49c0-a92d-0c2f1db7788f"
+      Hint: Content
+      Value: |
+        <p>Tonight, we head into the savanna after dark, where Myke and the team are on the lookout for Fat-Tailed Geckos.</p>
+        <p>The night begins in one of the most serene environments possible -- a sunset in the savanna. As the temperature drops and sun sets, Fat-Tailed Geckos start to come out. During this time of night, they will be foraging for termites and other insects to feast upon.</p>
+        <p>The first animal that the team comes across is a Dung Beetle (<em>Scarabaeinae Sp.</em>). Even though these guys are best known from Africa, they can be discovered in the deserts of Arizona, and even parts of Florida. Dung beetles are fecal matter specialists. They will gather the droppings of animals into a ball, which the female then puts its eggs in and buries.</p>
+        <p>An excited Myke rushes into the darkness after a snake.  Thankfully, it&rsquo;s not the highly venomous Boomslang and is instead a Bush Snake (<em>Philothamnus Irregularis</em>) hiding in a tree. There are several species of Bush Snakes. Some are spotted and some are slightly patterned. Their scales allow them to climb up trees and anything they want, making them the Spider-Man of snakes. If they are going to be kept as pets, they need to reside in an arboreal habitat, such as the Zilla Vertical Tropical Kit. They will also need a basking light.</p>
+        <p>Shortly after letting the Bush Snake get back to the trees, they finally find what they were looking for &ndash; a Fat-Tailed Gecko (<em>Hemitheconyx Caudicinctus</em>). With a chubby tail and dark eyes, this is one fascinating reptile. When this species doesn&rsquo;t get enough food, they will store it in their tail &ndash; similar to how a camel stores fat. These geckos do not need UV light to survive, but do benefit from it.  They do need calcium and vitamin supplementation like all reptiles kept in captivity in order to thrive. All in all, the Fat-Tailed Gecko makes a great beginner reptile!</p>
+        <div class="takeaways">
+        <h3>Habitat Takeaways:</h3>
+        <p>Basking Temperature: 89.6&deg;F (88-92&deg;F)</p>
+        <p>Ambient Temperature: 78.1&deg;F (76-84&deg;F)</p>
+        <p>UVI: 0.0</p>
+        <p>Humidity: 43.8% (40-60%) but also provide a humid hide for concentrated humidity to help with shedding.</p>
+        </div>
+        <h3>Species Spotted:</h3>
+        <p>Dung Beetle (<em>Scarabaeinae Sp.</em>)</p>
+        <p>Bush Snake (<em>Philothamnus Irregularis</em>)</p>
+        <p>Fat-Tailed Gecko (<em>Hemitheconyx Caudicinctus</em>)</p>
+        <a href="#btg-video" data-slide="15" class="score-button">Watch Now</a>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7240053b-9140-48ac-acea-abfccd7761a1"
+      Hint: Heading
+      Value: |
+        <h4>Season 2, Episode 3: Fat-Tailed Gecko</h4>
+        <h5>October 25, 2019</h5>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e5a6981a-dfd5-4356-91bd-2fe7110d53bb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220909T104239Z

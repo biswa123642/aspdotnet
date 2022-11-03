@@ -1,0 +1,153 @@
+﻿---
+ID: "00457b73-34e6-47e0-9018-36668f9ad716"
+Parent: "2da222c2-12ed-40cf-a365-840400c864fb"
+Template: "29a719ae-ade2-43d2-8c86-10d5bc235f11"
+Path: "/sitecore/content/OneWeb/Zoecon/Home/all-products/gentrol/gentrol-igr-concentrate/calculator-fog/Data/Dilution Calculator"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220902T075251Z
+    - ID: "2c240cd8-f4fb-44e0-9f7f-d9eaaa2f51ff"
+      Hint: CalculateButtonLabel
+      Value: Calculate
+    - ID: "2c484c86-2c7f-4783-9225-0f0ab21b9f61"
+      Hint: Accordion1JSON
+      Value: |
+        {
+        "fields":[
+        {
+        "label":"Treatment Area:",
+        "id":"treatment-area",
+        "type":"input"
+        },
+        {
+        "label":"LO Rate (0.20 oz / 1 gal):",
+        "id":"lo-rate",
+        "type":"output",
+        "formula":"({treatment-area} / 12000) * 0.2",
+        "units":"oz"
+        },
+        {
+        "label":"HI Rate (0.80 oz / 1 gal):",
+        "id":"hi-rate",
+        "type":"output",
+        "formula":"({treatment-area} / 12000) * 0.8",
+        "units":"oz"
+        }
+        ]
+        }
+    - ID: "30b858ef-1660-422c-90ae-78c4e26e016c"
+      Hint: Accordion1Content
+      Value: |
+        <span style="background-color: #ffffff; color: #434343;">Tank mix with Gentrol</span><span style="background-color: #ffffff; line-height: 0; color: #434343;">&reg;&nbsp;</span><span style="background-color: #ffffff; color: #434343;">IGR Concentrate to increase residual control.</span>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3696bc1f-ad2e-4e3b-a6b4-4b5c9d9f7023"
+    - ID: "97eb56c5-66f0-42e0-b66b-70a5de4c7302"
+      Hint: ResultJSON
+      Value: |
+        {
+        "fields": [
+        {
+        "label": "Treatment Area:",
+        "id": "treatment-area",
+        "type": "input"
+        },
+        {
+        "label": "Volume (1 oz / 1 gal / 12000 cubic ft):",
+        "id": "fog-treatment",
+        "type": "output",
+        "formula": "({treatment-area} / 12000)",
+        "units": "oz"
+        }
+        ]
+        }
+    - ID: "a0b59bb3-d861-486c-9fd3-f45c9046e871"
+      Hint: Heading
+      Value: |
+        <div class="score-section-header site-h2" style="color: #434343; background-color: #ffffff; margin-bottom: 30px;">
+        <h2 style="color: inherit; margin-top: 22px; margin-bottom: 11px; line-height: 1.1;">DILUTION RATE CALCULATOR</h2>
+        </div>
+        <div class="score-document-header site-h1 font-green" style="color: #008d5a; background-color: #ffffff; margin: 0px; border: none;">
+        <h1 style="color: inherit; margin: 22px 0px 11px; line-height: 1.1;">GENTROL&reg; IGR CONCENTRATE&nbsp;FOG TREATMENT CALCULATOR</h1>
+        </div>
+        <div class="score-content-spot" style="color: #434343; background-color: #ffffff; margin-bottom: 30px; line-height: 22px;">
+        <h3 style="color: inherit; margin-top: 22px; margin-bottom: 11px; line-height: 1.1;">Available Product Sizes</h3>
+        <ul style="margin-top: 0px; margin-bottom: 11px;">
+            <li>10 x1 oz control pack</li>
+            <li>16 oz bottle</li>
+        </ul>
+        <p style="margin: 0px 0px 11px;">Input the cubic footage of your treatment area below to find the appropriate dilution rate for Gentrol<span style="line-height: 0;">&reg;&nbsp;</span>IGR Concentrate and its compatible tank mix partners.</p>
+        </div>
+    - ID: "a2578af9-25a6-4a8f-8308-10b4a78cc5a2"
+      Hint: Accordion2Heading
+      Value: ExciteR&trade;
+    - ID: "acbc63e1-9a08-4b79-8426-c1e18f10e07f"
+      Hint: AccordionTitle
+      Value: "MIX PARTNER:"
+    - ID: "b44094ae-d7e3-4f90-9292-0728c12a6c0e"
+      Hint: Accordion2Content
+      Value: |
+        <span style="background-color: #ffffff; color: #434343;">Tank mix with Gentrol</span><span style="background-color: #ffffff; line-height: 0; color: #434343;">&reg;&nbsp;</span><span style="background-color: #ffffff; color: #434343;">IGR Concentrate to flush out any exposed pests for efficient elimination.</span>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "bfd25f9c-a36c-4039-9b4b-27cc99ec4384"
+      Hint: ResultHeading
+      Value: "RESULTS:"
+    - ID: "c36169a4-14bf-41af-b153-c8d73ac11e83"
+      Hint: Accordion1Heading
+      Value: Lambda 9.7 CS
+    - ID: "c5462c77-ce57-419d-b72f-a0f3acf671ca"
+      Hint: ResetButtonLabel
+      Value: Reset
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220905T043206Z
+    - ID: "ede6f2bd-882b-4b17-b3af-59f1b47cb5a1"
+      Hint: InputFieldUnit
+      Value: ft3
+    - ID: "f1ed0994-bf88-4360-b65d-b43117751f39"
+      Hint: Accordion2JSON
+      Value: |
+        {
+           "fields":[
+              {
+                 "label":"Treatment Area:",
+                 "id":"treatment-area",
+                 "type":"input"
+              },
+              {
+                 "label":"LO Rate (0.25 oz / 1 gal):",
+                 "id":"lo-rate",
+                 "type":"output",
+                 "formula":"({treatment-area} / 12000) * 0.25",
+                 "units":"oz"
+              },
+              {
+                 "label":"HI Rate (4.25 oz / 1 gal):",
+                 "id":"hi-rate",
+                 "type":"output",
+                 "formula":"({treatment-area} / 12000) * 4.25",
+                 "units":"oz"
+              }
+           ]
+        }
+    - ID: "f3020656-ada1-43ee-9db8-a4f7a9f2a5b6"
+      Hint: InputDescription
+      Value: |
+        <span style="background-color: #ffffff; color: #434343;">Treatment area</span><br style="color: #434343; background-color: #ffffff;" />
+        <small style="color: #434343; background-color: #ffffff;">Note: treatment area will round to the nearest 100 cubic ft</small>

@@ -1,0 +1,49 @@
+﻿---
+ID: "53b7da9b-35af-4ead-9128-723f57b58a72"
+Parent: "9324878a-c17b-4059-90ac-2e525ea29bcd"
+Template: "67af955b-81ae-4138-938f-a8d50d725866"
+Path: /sitecore/content/OneWeb/Zoecon/Data/Calculators/Gentrol Concentrate
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220829T070131Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5cb27a84-fe1c-481f-b501-9ccae026432f"
+      Hint: CalculatorDescription
+      Value: |
+        <div class="content-wrapper"> 
+        <h2>Follow these 3 Steps:</h2>
+        <h4>1. Calculate Your Potential Return</h4>
+        </div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6b7449f9-8107-4e87-9c67-e31001bdb7f4"
+      Hint: RebateInputDefaultValue
+      Value: 10
+    - ID: "808b323a-fdc3-42ad-914f-972bae896dea"
+      Hint: DiscountPercentage
+      Value: 6.00
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "49acc264-c592-4cc7-bb7b-2334798355c8"
+    - ID: "b6f1ef72-4749-472a-a8c4-1ac2ac733706"
+      Hint: CalculatorShortDescription
+      Value: |
+        Number of Bottles<br />
+        Purchased
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220923T064037Z

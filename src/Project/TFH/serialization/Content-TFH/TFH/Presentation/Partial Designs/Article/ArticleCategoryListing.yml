@@ -1,0 +1,94 @@
+﻿---
+ID: "5944afa3-3610-4013-a12b-1be4791e10e5"
+Parent: "438da0d1-97fd-45e6-835e-2f60d872564f"
+Template: "d68e3c5a-253d-4765-be54-b7b18c350cb1"
+Path: /sitecore/content/OneWeb/TFH/Presentation/Partial Designs/Article/ArticleCategoryListing
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: "article-category-listing"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{02D0C455-E46C-42C7-9B4A-5F108A266D52}"
+          p:before="*"
+          s:ds=""
+          s:id="{0346C989-2CC7-4346-8920-F5F99F243EDB}"
+          s:par="ArticleCategoryView=ImageLeftwithAlternateView&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B49C72842-04E7-410E-81E1-7AA246084563%7D&amp;Styles=%7BB5B904C4-82DA-4ACD-B825-200744FF9575%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/container-6"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{395222EB-8076-4E3D-BC09-3DF12C6684B9}"
+          p:after="r[@uid='{02D0C455-E46C-42C7-9B4A-5F108A266D52}']"
+          s:ds="{457B8308-0138-4C68-998A-3D50852E317F}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B51654F08-E84E-438F-8540-34746EFEDAB3%7D&amp;Styles=%7BB11AAAD5-4209-48A5-A88B-999930A4054F%7D%7C%7B765A0CFF-9FE9-4539-8735-21E54CB98B8D%7D%7C%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D%7C%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/container-4"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{B98311F0-A7C3-4ADF-B4AE-32C57690C3E7}"
+          p:after="r[@uid='{395222EB-8076-4E3D-BC09-3DF12C6684B9}']"
+          s:ds="{48E5A5E0-2446-4F80-82D1-3D2D4D7A1E55}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B51654F08-E84E-438F-8540-34746EFEDAB3%7D&amp;Styles=%7BB11AAAD5-4209-48A5-A88B-999930A4054F%7D%7C%7B765A0CFF-9FE9-4539-8735-21E54CB98B8D%7D%7C%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D%7C%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/container-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{C6D5B90D-74C6-46E4-AE3C-517FD1E7566B}"
+          p:after="r[@uid='{B98311F0-A7C3-4ADF-B4AE-32C57690C3E7}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+        <r
+          uid="{5B031849-5BFD-43C1-80F2-9C978FA1CD4A}"
+          p:after="r[@uid='{C6D5B90D-74C6-46E4-AE3C-517FD1E7566B}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{8C3B1C8F-FF21-4EB0-8496-C57131F37398}"
+          p:after="*[1=2]"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Article Category Listing
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220718T103224Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "81b98074-b6b8-4e46-8dd5-7890d7a9bc2a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220822T075125Z

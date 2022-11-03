@@ -1,0 +1,38 @@
+﻿---
+ID: "62e44162-a659-4cf7-a303-e98c4c541b6f"
+Parent: "ceda0d69-8068-4476-a240-3523fb247e72"
+Template: "8455b301-b57b-43ad-a4f4-4e83ffb31905"
+Path: "/sitecore/content/OneWeb/Zoecon/Data/Solution Finder/Solution Finder/Solution/Outdoor/OI-Roaches-LC"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220824T072606Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "056eba56-85f1-4806-88f5-e8159d08f8f0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "cbb746c0-f90e-4acc-8bee-98084234b389"
+      Hint: SolutionProducts
+      Value: |
+        {B8891218-86B8-4842-A7DC-CB1F2978DE4D}
+        {62CEDA52-536A-4BCE-A928-8F5E94CF4FB2}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220824T073244Z
+    - ID: "ecff41e9-ad3e-4503-9b0c-0f5d2965c749"
+      Hint: RequiredAnswers
+      Value: |
+        {A762695C-57F6-4DBD-8A14-B95BB65FBE8C}
+        {18B29BCB-D3F1-4821-9A7B-762910ECBA43}
+        {6274B4B7-7DC4-4B3D-895E-737788A9EABD}

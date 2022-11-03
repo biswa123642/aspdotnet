@@ -1,0 +1,158 @@
+﻿---
+ID: "74275aa8-4bba-4610-bf13-4390a3be3bea"
+Parent: "e43d88ec-c018-48cf-9d08-a7a35ed45ad2"
+Template: "bc41b87d-2a9b-4689-9f51-80bb5b31a6e7"
+Path: "/sitecore/content/OneWeb/Zoecon/Home/all-products/gentrol/gentrol-igr-concentrate"
+SharedFields:
+- ID: "76fb6ffd-4487-4028-a1cf-705fbe360cba"
+  Hint: Priority
+  Value: "{19F3E919-4991-495F-9207-E1DADFD06F54}"
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: "{72741CB5-0FAD-472F-A291-D129AF4B3D83}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{618856B3-0AE0-4573-814F-7D27AFEEE70B}"
+          p:before="*"
+          s:ds="local:/Data/Youtube Video 1"
+          s:id="{3C84ED23-7591-45E0-8850-1AE96D1342B1}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;RenderingIdentifier"
+          s:ph="/main/sxa-pdp/row-2-1/container-4/column-1-5/column-3-6"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{5B9B96D0-E2C4-4C54-B108-405F89C54B81}"
+          p:after="r[@uid='{618856B3-0AE0-4573-814F-7D27AFEEE70B}']"
+          s:ds="local:/Data/Youtube Video 2"
+          s:id="{3C84ED23-7591-45E0-8850-1AE96D1342B1}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;RenderingIdentifier"
+          s:ph="/main/sxa-pdp/row-2-1/container-4/column-1-5/column-3-6"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{D75FC410-B768-49E5-8921-032560A73AB2}"
+          p:after="r[@uid='{5B9B96D0-E2C4-4C54-B108-405F89C54B81}']"
+          s:ds="{E5BF7CDD-CB13-4740-8C19-46A60E7B35D5}"
+          s:id="{3972C278-7E7A-4C2B-A293-66AF860F5C3A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B39C41CFB-A250-4C5E-98D6-52E06E9BC6B8%7D&amp;Styles=%7B74713217-276E-473E-99CD-0E25926DD628%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-pdp/row-2-1/container-4/column-2-5/column-7-8"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{4D1A0C16-B633-437A-9572-C9DEBB2AAEB7}"
+          p:after="*[1=2]"
+          s:ds="{19833B03-31EA-4B48-A214-C971FCFC6746}"
+          s:id="{3972C278-7E7A-4C2B-A293-66AF860F5C3A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B39C41CFB-A250-4C5E-98D6-52E06E9BC6B8%7D&amp;Styles=%7B74713217-276E-473E-99CD-0E25926DD628%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/sxa-pdp/row-2-1/container-4/column-2-5/column-7-8"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02a41838-168c-4858-bafd-f0031b877ddc"
+      Hint: ProductAttributes
+      Value: "{56530CE2-7396-4B96-AB9A-272E5FE7F9EB}|{75F85283-D32D-4A80-B630-26FEFB80DE6C}|{B299312D-B5D8-49D6-A9FF-B0ABA3D5554F}|{9FF06412-F124-419D-9EC4-507ACE5AC3EA}|{C53AFF3A-4EBA-4BE9-85B6-C4531CD3459A}"
+    - ID: "0318fbe2-2d38-434f-9381-8b0c7500e19a"
+      Hint: ProductDocuments
+      Value: |
+        {4067A959-81B5-411B-B0D2-567C12F0E166}
+        {E6CFF8FC-4C21-491A-A043-1D37CB93DA93}
+        {058E6679-D397-4A4E-9196-5EE607A8644C}
+        {078A1252-16FE-40EB-8AE0-361D3DE85BCB}
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{26038DE1-B9E8-48C6-A0B7-FA1CD1C741B9}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220802T110830Z
+    - ID: "27aae902-36ee-42d6-a409-540b226404b0"
+      Hint: PDFDocuments
+      Value: |
+        {3B8948D0-B74E-4002-AE73-A99CF5C4B093}
+        {31AA4121-F762-49AA-ABFD-866833EF48A9}
+    - ID: "2a99ffc2-2811-4c06-8960-b56f3669dd33"
+      Hint: ProductRanking
+      Value: 3
+    - ID: "30b0a514-dc94-432c-9655-8c01e474023f"
+      Hint: ExtendedContent
+      Value: "<p><em>Active Ingredients: 9% (S)-Hydroprene </em></p> <p><em>EPA Reg. #2724-351</em> </p> <p>&nbsp;</p> <h2>Professional Roach Control </h2> <p>Featuring a translocating active ingredient to reach hard-to-treat areas, Gentrol<sup>&reg;</sup> IGR Concentrate is an ideal choice for residential roach control as well as controlling cockroaches in restaurants. The Gentrol<sup>&reg;</sup> insect growth regulator, (S)-hydroprene, effectively breaks the insects&rsquo; life cycles and offers 120 days of control. Gentrol<sup>&reg;</sup> IGR Concentrate provides professionals the flexibility required for uniform applications across multiple sites for the control of fruit and drain flies, roach infestations, bed bugs, and more.</p> <ul>     <li>Juvenile hormone mimic prevents normal development, breaking the insects&rsquo; life cycles     </li>     <li>Gentrol<sup>&reg;</sup> IGR translocates deep into wall cavities, cracks and crevices     </li>     <li>Approved for use in restaurant pest control, and treatments in other food handling establishments</li> </ul>"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Gentrol® IGR Concentrate
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: "Gentrol® IGR Concentrate features the insect growth regulator (S)-hydroprene. Gentrol® translocates for ultimate bed bug pest control and is ideal for commercial kitchen pest control."
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: "Gentrol<sup>&reg;</sup> IGR Concentrate features the insect growth regulator (S)-hydroprene. Gentrol<sup>&reg;</sup> translocates for ultimate bed bug pest control and is ideal for commercial kitchen pest control."
+    - ID: "665c0084-5a1e-484b-a888-4b00b920fda5"
+      Hint: ProductDocumentsLabel
+      Value: DOWNLOADS
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Gentrol® IGR Concentrate provides professionals with flexibility when treating roach infestations, drain and fruit flies, stored product pests and bed bugs. 
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Gentrol® IGR Concentrate
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Gentrol® IGR Concentrate
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ad207835-9a2e-4cf5-9248-ba06e121f923"
+    - ID: "95d893d1-43ae-4c07-bc1e-9839b5cffed5"
+      Hint: RelatedProducts
+      Value: |
+        {FFE6DC51-93DE-4835-B904-4086E8B7426B}
+        {B70F8FC8-92EE-44D5-B896-555CFEB4977B}
+        {1F66A0BD-4FDB-41DC-A22A-3ADF9A2AFF57}
+        {2B798613-DB39-41A2-A0DC-38EACA1D4AFC}
+    - ID: "ab818f97-8aa8-4d81-9e70-29c2d400c1fb"
+      Hint: RenderCanonicalTag
+      Value: 1
+    - ID: "b433c832-fadf-498e-b77b-e7933f19ba8e"
+      Hint: Accordion1Title
+      Value: PESTS CONTROLLED
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "be107673-5a64-4a47-9472-c91e8312cb3d"
+      Hint: RelatedProductsLabel
+      Value: PROFESSIONALS ALSO TRIED…
+    - ID: "c95560b6-d1ef-47eb-b4bb-da582a84a444"
+      Hint: Accordion1
+      Value: Cockroaches, drain flies, fruit flies, fleas, bedbugs, and stored product pests (examples of these pests include Indian meal moths, rice moths, tobacco moths, red flour beetles, confused flour beetles, lesser grain borers, merchant grain beetles, sawtooth grain beetles, warehouse beetles, cigarette beetles, and Dermestid beetles).
+    - ID: "ca373527-0c18-4282-83b0-121b8a197598"
+      Hint: LongTitle
+      Value: Gentrol® IGR Concentrate
+    - ID: "cbab27c6-0f5a-4c0e-a054-d6da8e5cf37d"
+      Hint: Accordion3Title
+      Value: APPLICATION INSTRUCTIONS
+    - ID: "d359f5e1-8d09-4717-9920-5687aecee004"
+      Hint: Accordion3
+      Value: "Use GENTROL? as a general surface spray, fogging, spot, or crack and crevice application."
+    - ID: "d603a982-51bb-4898-8aed-d25e3c6c416c"
+      Hint: Accordion2
+      Value: Apartment buildings, bakeries, bottling facilities, breweries, boiler rooms, cafeterias, candy plants, grocery stores, day care centers, hospitals, residential homes, hotels/motels, office buildings, kitchens, laboratories, cereal processing facilities, manufacturing plants, mausoleums, meat and produce canneries, nursing homes, restaurants, schools, locker rooms, stores, taverns, warehouses, as well as various modes of transportation such as aircraft, buses, trucks, trailers, rail cars, and marine vessels.
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{7A6A96FA-AAC6-4C7F-8D96-5961EFA1D5EB}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220915T114501Z
+    - ID: "ee6a4f12-e8eb-4b34-9d07-d477e8ad63d4"
+      Hint: Accordion2Title
+      Value: TREATMENT AREAS

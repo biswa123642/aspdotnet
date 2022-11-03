@@ -1,0 +1,53 @@
+﻿---
+ID: "63c72c35-c6fa-4a14-807e-83b74a1e8965"
+Parent: "f1438794-c76e-4316-a395-5bf9a44b0b3e"
+Template: "0f7cdd23-0988-42cf-a06f-15d8735314fb"
+Path: /sitecore/content/OneWeb/Zoecon/Home/pmpvancontent/literature
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{2ED748BA-E7E4-4E06-9A57-28F1E93F5B99}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{78B6E10F-EFB5-41F4-8509-95BCC1DADE67}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T065401Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: literature
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <div class="score-content-spot">
+            <p style="z-index: 1;">Learn more about Zoëcon product offerings with these in-depth product family brochures that cover everything from insects controlled to application sites and more.
+        </p>
+        </div>
+        <div class="score-content-spot pmp-truck__links">
+            <p style="z-index: 1;"><a href="/~/media/Project/OneWeb/Zoecon/Files/resources/Brochures/Gentrol%20Family%20Brochure.pdf?la=en&amp;hash=651B153B8B5E2AE39E600CE929731D3D2AA69AC7">Download Gentrol<sup>®</sup> Family Brochure</a></p>
+        <p style="z-index: 1;"><a href="/~/media/Project/OneWeb/Zoecon/Files/resources/Brochures/Essentria_Brochure.pdf?la=en&amp;hash=0978A5FE05EC77152CFE29459079DE1682279B33">Download Essentria<sup>®</sup> Family Brochure</a></p>
+        <p style="z-index: 1;"><a href="/~/media/Project/OneWeb/Zoecon/Files/resources/Brochures/Precor%20Family%20Brochure.pdf?la=en&amp;hash=D3B79102B23179545B090CAB153FD328E9747C4D">Download Precor<sup>®</sup> Family Brochure</a></p>
+        <p style="z-index: 1;"><a href="/~/media/Project/OneWeb/Zoecon/Files/resources/Brochures/Zenprox%20Family%20Brochure.pdf?la=en&amp;hash=F192DEF1A745CB908B6CAEEDEA836BB209DE19EF">Download Zenprox<sup>®</sup> Family Brochure<br />
+        <br />
+        </a></p>
+        <p style="z-index: 1;"><a href="/resource-center">Click here for additional resources.</a> </p>
+        </div>
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: LITERATURE
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f3476f24-601d-465e-930e-d280a418dce8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220923T073332Z

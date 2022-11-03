@@ -1,0 +1,32 @@
+{
+  "namespace": "Project.TheRebels",
+  "references": [ "Feature.*" ],
+  "items": {
+    "includes": [
+      //{
+      //  "name": "Content-TheRebels",
+      //  "path": "/sitecore/content/OneWeb/TheRebels",
+      //  "scope": "ItemAndDescendants",
+      //  "allowedPushOperations": "createUpdateAndDelete"
+      //},
+      //{
+      //  "name": "MediaLibrary-TheRebels",
+      //  "path": "/sitecore/media library/Project/OneWeb/TheRebels",
+      //  "scope": "singleItem",
+      //  "allowedPushOperations": "createUpdateAndDelete"
+      //},
+      {
+       "name": "MediaLibrary-TheRebels-Themes",
+       "path": "/sitecore/media library/Themes/OneWeb/TheRebels",
+       "scope": "ItemAndDescendants",
+       "allowedPushOperations": "createUpdateAndDelete"
+      }
+      //{
+      //  "name": "Forms-TheRebels",
+      //  "path": "/sitecore/Forms/OneWeb/TheRebels",
+      //  "scope": "ItemAndDescendants",
+      //  "allowedPushOperations": "createUpdateAndDelete"
+      //}
+    ]
+  }
+}

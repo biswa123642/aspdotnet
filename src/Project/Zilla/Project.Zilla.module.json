@@ -1,0 +1,32 @@
+{
+	"namespace": "Project.Zilla",
+	"references": [ "Feature.*" ],
+	"items": {
+		"includes": [
+			//{
+			//	"name": "Content-Zilla",
+			//	"path": "/sitecore/content/OneWeb/Zilla",
+			//	"scope": "ItemAndDescendants",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//},
+			//{
+			//	"name": "MediaLibrary-Zilla",
+			//	"path": "/sitecore/media library/Project/OneWeb/Zilla",
+			//	"scope": "singleItem",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//},
+			{
+				"name": "MediaLibrary-Zilla-Themes",
+				"path": "/sitecore/media library/Themes/OneWeb/Zilla",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			}
+			//{
+			//	"name": "Forms-Zilla",
+			//	"path": "/sitecore/Forms/OneWeb/Zilla",
+			//	"scope": "ItemAndDescendants",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//}
+		]
+	}
+}

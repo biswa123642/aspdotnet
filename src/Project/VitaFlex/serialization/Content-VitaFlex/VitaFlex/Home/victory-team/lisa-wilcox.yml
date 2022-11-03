@@ -1,0 +1,140 @@
+﻿---
+ID: "e368f907-74fa-417b-8cc2-374c6f0a25e2"
+Parent: "8c9b1701-c32b-4ecd-ab58-e3828b1bd56a"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/VitaFlex/Home/victory-team/lisa-wilcox"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: 
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{2695C573-E0F2-4EFC-BF6E-49F029127679}"
+          p:before="*"
+          s:ds="{D24CB167-E9CD-4EB5-A87B-32C3A378D8FC}"
+          s:id="{86FBA02B-2E9C-4A00-9CCF-DE607B1FCDC7}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass=col-md-12&amp;HideImage&amp;IsMobileCarousel&amp;ShowDescription&amp;FieldNames=%7B3C2CCCE6-6DC8-4816-A20B-8551B44E446C%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-2-1/container-4/column-2-5"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{1807CDD3-2F7D-447D-A3AF-87616A17C4F2}"
+          p:after="r[@uid='{2695C573-E0F2-4EFC-BF6E-49F029127679}']"
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-2-1/container-4/column-1-5" />
+        <r
+          uid="{5D48E94B-1E6D-4EE6-B3E2-F7DBD4148B71}"
+          p:after="r[@uid='{1807CDD3-2F7D-447D-A3AF-87616A17C4F2}']"
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B19EFEA92-650D-4786-96E4-5EC96CA47A57%7D&amp;ColumnWidth2=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B7AF5C340-8A60-4D59-A7A1-5DBAB391292C%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-2-1/container-4" />
+        <r
+          uid="{0518259F-14CE-4AD5-81A0-CEE888721586}"
+          p:after="r[@uid='{5D48E94B-1E6D-4EE6-B3E2-F7DBD4148B71}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{5389F43A-0579-42CC-88C0-C9A446859CD5}"
+          p:after="r[@uid='{0518259F-14CE-4AD5-81A0-CEE888721586}']"
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%3E&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B785F771A-7012-4425-B344-108D6E546C3D%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-1-1/container-2" />
+        <r
+          uid="{9713A2DC-B765-4901-8CC7-2BE287CF7519}"
+          p:after="r[@uid='{5389F43A-0579-42CC-88C0-C9A446859CD5}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{7E47F237-B034-4BAC-982D-A90F786F095D}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3&amp;Styles1&amp;Styles2=%7B451E9F1C-30EE-462F-98C6-22427455BBE1%7D&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220729T094754Z
+    - ID: "2ca620f3-0aa3-4b6a-83e0-946b831ce296"
+      Hint: CTAImage
+      Value: 
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Lisa Wilcox
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Learn more about Lisa Wilcox.
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <h2>&nbsp;</h2>
+        <h2><img height="502" alt="Vita Flex Victory Team Rider Lisa Wilcox and Horse" width="795" src="-/media/DA475060F36B4B009A2FC5BD00CAA555.ashx?h=502&amp;w=795" style="height: 502px; width: 795px;" />Lisa Wilcox</h2>
+        <h3>More Than Meets The Eye</h3>
+        <br />
+        <a href="http://lisa-wilcox.com/" target="_blank">www.lisa-wilcox.com</a>
+        <p>More than just a pretty face, Lisa Wilcox has got what it takes to be a serious contender in the dressage ring. She grew up on a cattle ranch with her six brothers and sisters, where they all worked with the cattle, broke young horses and trained them to cut and drive cattle.</p>
+        <p>“For me it was clear relatively early that horses would play a central role in my life. While studying equine science I rode a friend’s horse in eventing tests up to medium level. My German husband at the time, Jan Ebeling awakened my interest and love for dressage. I thought it was great fun to ride “curly-cues” in the ring while he was teaching dressage clinics. After moving to California I learned the complete Grand Prix program from an Oldenberg gelding named “Funny Boy.”</p>
+        <p>Lisa Wilcox Favorite Vita Flex Products</p>
+        <p>Her go-to supplements include <a href="~/link.aspx?_id=E83A023BF6B343669784B29D44C14E1E&amp;_z=z">Accel® Health &amp; Wellness</a>&nbsp;supplement for overall health, <a href="~/link.aspx?_id=7EE718ED47C14EBFAC4CD803AEF84415&amp;_z=z">AccuLytes™ electrolytes</a>, <a href="~/link.aspx?_id=F92F42CDFAFE443F9BCD6A9576D3671E&amp;_z=z">Lactanase®</a>&nbsp;for normal muscle function and metabolism, and <a href="~/link.aspx?_id=45B25BD5A1484A60B9C88734B8A16DC8&amp;_z=z">Master’s Hoof Blend™</a>&nbsp;formula for hoof health.</p>
+        <p>“The <a href="~/link.aspx?_id=F92F42CDFAFE443F9BCD6A9576D3671E&amp;_z=z">Lactanase® supplement</a>&nbsp;supports the horses and the hard work they are doing as I am working and training this summer and preparing for the shows in the fall,” she explained. “It also helps with muscle recovery throughout the training program.” </p>
+        <p>Wilcox also knows that hoof health is vital to any horse. “I love the <a href="~/link.aspx?_id=45B25BD5A1484A60B9C88734B8A16DC8&amp;_z=z">Master’s Hoof Blend™ formulation</a>. It’s fabulous. Our horses have exceptionally good looking feet and I’m very, very happy with the quality of the hoof they’re growing.”</p>
+        <p>&nbsp;</p>
+        <h4 class="site-header">Lisa Wilcox Career Highlights</h4>
+        <ul class="highlights">
+            <li>Individual Silver medalist at the Open European Championship at Hickstead, Great Britain on Relevant</li>
+            <li>Team bronze at the 2004 Olympic Games in Athens, Greece on Relevant</li>
+            <li>Winner 2017 Florida Gold Cup Freestyle Global Dressage Festival on Galant</li>
+            <li>1st Place 2017 FEI Grand Prix Adequan Global Dressage Festival CDI-W riding Galant</li>
+            <li>1st Place 2015 Palm Beach Derby National USEF Developing Horse on Galant Reflection</li>
+            <li>2011 USEF Developing Horse National Championship</li>
+            <li>1st place Global Dressage Festival National Show</li>
+            <li>Third place 2017 CDI Grand Prix Special</li>
+            <li>2009 Reserve Champion Region 3 Open Grand Prix Championship</li>
+            <li>2nd Place CDI3 Grand Prix Adequan Global Dressage Festival on Denzello</li>
+        </ul>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Learn more about Lisa Wilcox.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Lisa Wilcox - Equine Professional - Victory Team | Vita Flex"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: "Lisa Wilcox - Equine Professional - Victory Team | Vita Flex"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5cf99243-39ff-49f2-97c6-25df8d1becc2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{DA475060-F36B-4B00-9A2F-C5BD00CAA555}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220830T062624Z

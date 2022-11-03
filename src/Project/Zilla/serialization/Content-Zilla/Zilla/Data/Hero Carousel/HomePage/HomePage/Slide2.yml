@@ -1,0 +1,54 @@
+﻿---
+ID: "0c1bb407-bbd0-44f8-82b9-6c68aa984356"
+Parent: "e928401d-5b24-42f7-bcba-87b49b9e187c"
+Template: "3c7c79e8-554d-46d9-bf1a-63da22a4ee6f"
+Path: /sitecore/content/OneWeb/Zilla/Data/Hero Carousel/HomePage/HomePage/Slide2
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Slide 2
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "007ef8df-edb2-4a64-a736-7a408093d2f5"
+      Hint: SlideImageMobile
+      Value: |
+        <image mediaid="{AB374C7E-1261-4AD6-95AF-F2469A4D6943}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220812T080218Z
+    - ID: "3bfd4b9e-3049-4c8d-a9b5-6bebb83f895d"
+      Hint: SlideImage
+      Value: |
+        <image mediaid="{AB374C7E-1261-4AD6-95AF-F2469A4D6943}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3fc9e4eb-87de-409c-b910-f0bf8a2cf521"
+    - ID: "a8933445-15ca-4e23-b171-a33892eb0ef8"
+      Hint: SlideCardTitle
+      Value: Zilla Heat Projectors
+    - ID: "b34e88f9-8800-43b1-92b5-029fbfae12e9"
+      Hint: SlideCardLogo
+      Value: |
+        <image mediaid="{376632DC-A1BF-4E33-988C-A76824DB4257}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "bdb04894-83ee-4bf2-b582-f1a7bac2118c"
+      Hint: OverrideOverlayAlign
+      Value: "overlay-left"
+    - ID: "d691b058-6e52-4e4b-baae-a23aed9de6e0"
+      Hint: SlideCardSubText
+      Value: |
+        Provide 24/7 heat without disturbing reptiles
+        while they sleep!
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220914T141755Z
+    - ID: "e10d2e79-68cc-438a-a732-abf80f62be76"
+      Hint: SlideCardCTA
+      Value: |
+        <link text="Learn More" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{34BC7D2C-4A0B-4F66-B2B8-752B8D27A8BE}" />

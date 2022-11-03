@@ -1,0 +1,72 @@
+﻿---
+ID: "cbb1d7c7-8653-473e-8dd2-9901f36fee22"
+Parent: "bccf8a3f-d998-474c-a1ff-cd112dbeb8b3"
+Template: "0f7cdd23-0988-42cf-a06f-15d8735314fb"
+Path: "/sitecore/content/OneWeb/Zoecon/Home/pmpvancontent/premise-control/mavrik-perimeter"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{2ED748BA-E7E4-4E06-9A57-28F1E93F5B99}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{0CE0AC1B-1D99-4A7F-817B-60EAC47AECF7}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T071726Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "mavrik-perimeter"
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <div class="score-content-spot">
+            <p style="z-index: 1;">Perfect for backyard mosquito and tick control, Mavrik® Perimeter stops insect infestations on building perimeters, and flowering plants feauturing dried residues that are non-toxic to foraging bees.  </p>
+        <p style="z-index: 1;"><a href="/all-products/premise/mavrik-perimeter">Learn More</a></p>
+        </div>
+        <div class="attachment-list " style="">
+                <h3 style="z-index: 1;"></h3>
+                
+        
+                <a href="/~/media/Project/OneWeb/Zoecon/Files/Product%20Labels/SDS/Mavrik%20Perimeter%20SDS.pdf" title="" class="link-icon link-pdf" target="_blank">SDS </a>
+        
+        
+                <a href="/~/media/Project/OneWeb/Zoecon/Files/Product%20Labels/Specimen/Mavrik%20Perimeter%20Specimen%20Label.pdf" title="" class="link-icon link-pdf" target="_blank">Specimen Label </a>
+        
+        
+                <a href="/all-products/premise/mavrik-perimeter/calculator" title="" class="link-icon link-pdf" target="_blank">Dilution Rate Calculator </a>
+        
+            </div>
+        <div class="score-content-spot pmp-truck__links">
+            <p style="z-index: 1;"><a href="/~/media/Project/OneWeb/Zoecon/Files/resources/Fact-Sheets/Mavrik%20Perimeter%20Fact%20Sheet.pdf?la=en&amp;hash=2D7B2E55E0F9311949D02E1261A648AD5D111C14">Download Fact Sheet</a></p>
+        <p style="z-index: 1;"><a href="/~/media/Project/OneWeb/Zoecon/Files/resources/Brochures/Zoecon%20Premise%20Products%20Brochure.pdf?la=en&amp;hash=7712E2A471F76AB9A16FF8AFD832FD9A0B648E55">Download Premise Control Brochure</a></p>
+        <p style="z-index: 1;"><a href="/~/media/Project/OneWeb/Zoecon/Files/resources/Brochures/Reclaim%20The%20Outdoors%20Mosquito%20Trifold%20pdf.pdf?la=en&amp;hash=4D8A2EE11B82BFEE370FB29DAD0C657777BB073E">Download Reclaim the Outdoors</a></p>
+        </div>
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: MAVRIK® PERIMETER
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dd97aa1d-1491-469b-90f5-e96b98000683"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220926T110204Z
+    - ID: "e30bd79a-3fdc-42b1-b08b-23724b266690"
+      Hint: RelatedProducts
+      Value: |
+        {BCCF8A3F-D998-474C-A1FF-CD112DBEB8B3}
+        {98A4A0B6-7EBD-4EBB-B0B6-2B0563716106}
+        {9C659EBC-4A33-4A2F-8A12-958D209CE4F6}
+        {FC9256F7-C491-4F0A-A444-B603A9547632}
+    - ID: "e9889363-bcac-4971-8069-6d13f499574c"
+      Hint: RelatedProductsLabel
+      Value: The Premise Control Family

@@ -1,0 +1,36 @@
+﻿---
+ID: "0424ec4b-6f3a-4ef3-bf37-3cda999d6079"
+Parent: "ceda0d69-8068-4476-a240-3523fb247e72"
+Template: "8455b301-b57b-43ad-a4f4-4e83ffb31905"
+Path: "/sitecore/content/OneWeb/Zoecon/Data/Solution Finder/Solution Finder/Solution/Outdoor/OI-Wasps-LC"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1900
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220824T080357Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "318df57a-fff6-4025-bc22-d0fca0eecb32"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "cbb746c0-f90e-4acc-8bee-98084234b389"
+      Hint: SolutionProducts
+      Value: "{56CBC5C5-583D-4A3F-9157-EBAD45457785}"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220824T080433Z
+    - ID: "ecff41e9-ad3e-4503-9b0c-0f5d2965c749"
+      Hint: RequiredAnswers
+      Value: |
+        {A762695C-57F6-4DBD-8A14-B95BB65FBE8C}
+        {C727A692-116C-4C66-9BC8-24BB9270B7A8}
+        {F55EB439-17EF-4410-A511-A7FDCD75CAB7}

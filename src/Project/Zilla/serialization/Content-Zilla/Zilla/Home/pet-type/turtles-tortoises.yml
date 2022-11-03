@@ -1,0 +1,213 @@
+﻿---
+ID: "57573c3f-8673-49a5-9ee1-5ce1f562aa21"
+Parent: "94e86e47-ff9a-4157-b09b-d23b7ebb9a7f"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/Zilla/Home/pet-type/turtles-tortoises"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{CD79EA9A-C7D7-49BF-B9AF-ED27F4A09F43}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        p:after="*[1=2]">
+        <r
+          uid="{A3985CB0-0AE8-44A9-97A6-4D92A9A9427C}"
+          p:before="*"
+          s:ds="{21BD315E-0407-4C45-8745-EA70DC72AC9E}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles=%7BC9E52308-1FCC-4B49-B678-CB1B6E17371A%7D%7C%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D%7C%7B8780BED3-5B0C-4254-8529-3D6342EC4BEF%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=14"
+          s:ph="/main/row-6-1/container-11"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{4AC69AD3-6273-4F01-891F-0B739158E3FB}"
+          p:after="r[@uid='{A3985CB0-0AE8-44A9-97A6-4D92A9A9427C}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
+          s:ph="/main/row-6-1" />
+        <r
+          uid="{4305AE2C-5FB7-4C7B-9A4C-117F61424AE1}"
+          p:after="r[@uid='{4AC69AD3-6273-4F01-891F-0B739158E3FB}']"
+          s:ds="{53D5C1B2-F9FA-439E-82ED-5F4184E695B0}"
+          s:id="{3972C278-7E7A-4C2B-A293-66AF860F5C3A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B39C41CFB-A250-4C5E-98D6-52E06E9BC6B8%7D&amp;Styles=%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D%7C%7B2C60D71B-1FBA-4231-B7AB-7718DE752C27%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=13"
+          s:ph="/main/row-5-1/container-10"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{4DD9A173-A834-496F-B344-E898773B8535}"
+          p:after="r[@uid='{4305AE2C-5FB7-4C7B-9A4C-117F61424AE1}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/row-5-1" />
+        <r
+          uid="{3EF72304-7AC9-49D8-BEAB-F94FF432B8C0}"
+          p:after="r[@uid='{4DD9A173-A834-496F-B344-E898773B8535}']"
+          s:ds=""
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles=%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/row-4-1/container-8"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{468D7FE0-BD79-43E1-806A-E7F408CE9D84}"
+          p:after="r[@uid='{3EF72304-7AC9-49D8-BEAB-F94FF432B8C0}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/row-4-1" />
+        <r
+          uid="{39F992B7-D009-44C8-A036-09781FCC7752}"
+          p:after="r[@uid='{468D7FE0-BD79-43E1-806A-E7F408CE9D84}']"
+          s:ds=""
+          s:id="{99A633FC-B9A9-44A0-B78A-BCBB08DD02C9}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BE1ED351B-D573-4FE5-997C-4589A3D1361F%7D&amp;Styles=%7B8D38663D-4028-4440-96C6-BCAA6062E23B%7D%7C%7BFAF28AF7-0575-40E0-9EE8-3C33FB91AC01%7D%7C%7B483AF548-57D7-4735-A003-5710259189CC%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-3-1/container-6"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{363FE04E-A72F-48FB-A750-FD41D309D7CB}"
+          p:after="r[@uid='{39F992B7-D009-44C8-A036-09781FCC7752}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-3-1" />
+        <r
+          uid="{59D5BD73-88F0-4BFF-8E08-CBC01F6C91FC}"
+          p:after="r[@uid='{363FE04E-A72F-48FB-A750-FD41D309D7CB}']"
+          s:ds=""
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BEB97EC7C-7A08-4D35-835C-AA9365EE9319%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-2-1/container-4"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{0C78481E-AAB7-41DB-BEFE-C9CE526B8B87}"
+          p:after="r[@uid='{59D5BD73-88F0-4BFF-8E08-CBC01F6C91FC}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{F7A434A1-386B-4105-8AD8-6B7E62AC2C12}"
+          p:after="r[@uid='{0C78481E-AAB7-41DB-BEFE-C9CE526B8B87}']"
+          s:ds=""
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%3E&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B1D790729-2C96-41CB-AB54-EFCE42474F1E%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-1-1/container-2" />
+        <r
+          uid="{B8D72641-9481-472A-83BF-2C0C608F3006}"
+          p:after="r[@uid='{F7A434A1-386B-4105-8AD8-6B7E62AC2C12}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{6E40463E-72D5-4854-A8DF-81516578D3D8}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3%2C4%2C5%2C6&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{165A9F1F-0B88-434D-BC63-D10056D4FE1D}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220810T105505Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Turtles & Tortoises
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: "Learn all about the many types of turtles and tortoises and how to take care of them!"
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <p>There are 461 turtle and tortoise species and they come in all sizes, from giant Leatherback Sea Turtles that can get over 7 feet long and weigh over 1,500 lbs, to the speckled tortoise that only gets 4 inches long and weighs up to 5.8 oz. Certain species of both turtles and tortoises make great pets. Tortoises are very smart and can actually learn their name. Turtles will also recognize their keepers, but mostly because they are excited you&rsquo;re bringing them food.</p>
+        <p>Turtles and tortoises are cold blooded vertebrates of the class Reptilia, order Testudines, and suborders Cryptodira (most turtles and tortoises &ndash; classified for their ability to retract their neck straight into their shell) and Pleurodira (side-neck turtles).</p>
+        <h2><strong>Turtle vs Tortoise - What&rsquo;s the Difference?</strong></h2>
+        <p>Both Turtles and Tortoises have hard shells that protect them from predators and beaked mouths to help cut up veggies or prey. While they have many similarities, they also have many differences. Tortoises are mainly vegetarian and live their lives solely on land, while Turtles are omnivorous and spend majority of their time in water. Box turtles are terrestrial turtles that live mostly on land but have the same webbed feet as their aquatic cousins, while tortoises&rsquo; feet are much more similar to an elephant foot.</p>
+        <h2><strong>Getting Started With Pet Turtles and Tortoises</strong></h2>
+        <p>Before committing to a turtle or tortoise pet, it&rsquo;s important to keep in mind that they can live for many decades which means owning one is a big commitment. In the case of tortoises especially, it&rsquo;s quite possible they&rsquo;ll outlive you! Certain tortoise species also grow to be quite large and will need appropriately sized enclosures. Being intelligent and tame animals makes turtles and tortoises popular choices as pets!</p>
+        <h3><strong>Housing and Habitat</strong></h3>
+        <p>Turtles need a sturdy, escape proof enclosure with plenty of room to swim and grow. Your turtle&rsquo;s habitat should provide the equivalent of at least 10 gallons of space per inch of shell length so they lots of room to swim and a place to bask. Turtles can be messy, so a high capacity <a href="~/link.aspx?_id=0BD799C517BD49A4AF2FB71D9AFF0AF3&amp;_z=z"><span style="text-decoration: underline; color: #c00000;">filter</span></a>&nbsp;and regular water changes using <a href="~/link.aspx?_id=DF440E8E5517498C89159DE735664825&amp;_z=z"><span style="text-decoration: underline; color: #c00000;">water conditioner</span></a>&nbsp;are essential to maintaining proper water quality. Ideally, the filter should be rated for 2 to 3 times the amount of water your turtle will be kept in. Turtles also need a <a href="~/link.aspx?_id=BD0D38A029124E27B4276E5B4BEBB85F&amp;_z=z"><span style="text-decoration-line: underline; color: #c00000;">basking platform</span></a>&nbsp;above the water.</p>
+        <p>Tortoises and box turtles need a sturdy, escape proof enclosure with plenty of room to move around and grow. Some tortoises grow to be quite large, requiring custom-built habitats or outdoor enclosures. Substrate should be non-toxic and allow your pet to burrow. Consult the <a href="~/link.aspx?_id=69319664A358494A89C1552642203434&amp;_z=z"><span style="text-decoration: underline; color: #c00000;">Zilla Bedding Guide</span></a>&nbsp;for the best substrate choice for your pet tortoise or box turtle.</p>
+        <h4><span style="text-decoration: underline;"><strong>Both turtles and tortoises require:</strong></span> </h4>
+        <ul>
+            <li><a href="~/link.aspx?_id=57937894798449E785355C89E9890B88&amp;_z=z"><span style="text-decoration: underline; color: #c00000;">Heat source</span></a> to maintain the correct air and/or water temperature for the species (aquatic turtle <a href="~/link.aspx?_id=1C25902C0D0C4188981582F8BC1AD776&amp;_z=z"><span style="text-decoration: underline; color: #c00000;">aquarium heaters</span></a>&nbsp;should have a protective guard so they don't nibble on the wire) as well as cool areas in their tanks so the animals can self-regulate their temperatures.</li>
+            <li><a href="~/link.aspx?_id=82DFF8E91CC446FCB8F6E0FACD4E4422&amp;_z=z"><span style="text-decoration: underline; color: #c00000;">UVA/UVB lighting</span></a> which are essential to maintaining proper healthy shells, scales, and bones.</li>
+            <li>Rocks, driftwood and other <a href="~/link.aspx?_id=BD0D38A029124E27B4276E5B4BEBB85F&amp;_z=z"><span style="text-decoration: underline; color: #c00000;">decorations</span></a>&nbsp;to create additional basking, hiding and feeding places. Tortoises, especially, like it warm, so use a heat lamp to maintain the correct temperature for the species you keep, and provide a temperature gradient, meaning a cool area and a warm area for your tortoise or box turtle.</li>
+        </ul>
+        <h3><strong>What Do Turtles and Tortoises Eat?</strong></h3>
+        <p>Turtles are typically omnivorous to carnivorous. They spend a lot of time in the water and their diet reflects that, they enjoy small fish, frogs, crustaceans and insects. They also enjoy turtle pellets, leafy greens, bananas, berries and other various fruits and veggies.<br />
+        <br />
+        Tortoises are largely herbivorous and enjoy a variety of grasses, veggies, fruit flowers, and other plant matter. Avoid iceberg lettuce as it lacks in nutrition and always make sure all food is clean, and pesticide free so that your pet doesn't get sick.</p>
+        <p>Calcium and Vitamin D3 should be provided on a regular basis to both species using <a href="~/link.aspx?_id=621A9A2475B84AB29FA0131594796712&amp;_z=z"><span style="text-decoration: underline; color: #c00000;">vitamin and calcium supplements</span></a>&nbsp;to ensure their bones stay healthy and do not weaken. How often you feed your turtle or tortoise will vary according to its age, size and health.</p>
+        <h3><strong>How To Safely Handle Your Pet Turtle or Tortoise</strong></h3>
+        <p>Turtles, especially captive bred individuals, can become quite tame and most species can be handled on a regular basis. Wild turtles, especially older individuals may take a little time and patience to get used to being handled. Hold your turtle firmly but gently, close to the ground at first, to avoid injury if you lose your grip. Avoid stressing newly acquired turtles by over handling them when you first bring them home.</p>
+        <p>Most small to medium-sized tortoises and box turtles quickly get used to being picked up and handled. Avoid over handling shy or aggressive individuals so as not to stress them unnecessarily. Larger tortoises may become too heavy to be picked up or handled safely by children or smaller adults. Always wash your hands after handling any reptile.</p>
+        <p><em><strong>Always wash your hands after handling any reptile!</strong></em></p>
+        <h3></h3>
+        <h2>Should I Get a Turtle or Tortoise as a Pet?</h2>
+        <p>Turtles and tortoises do make great pets, but you must do your research and plan for their lifespans. some turtles and tortoises can live for 20, 30, 50, or 100 years! Research the species you have in mind before purchasing to make sure you are prepared for its needs throughout its life. Also, check local and state regulations where you live.</p>
+        <h3><strong>Types of Turtles That Make Great Pets</strong></h3>
+        <p>African Side-neck Turtle<br />
+        Asian Box Turtle<br />
+        Common Box Turtle<br />
+        Diamondback Terrapin<br />
+        Map Turtle<br />
+        Mud Turtle<br />
+        Musk Turtle<br />
+        Painted Turtle<br />
+        Reeve&rsquo;s Turtle<br />
+        Softshell Turtle<br />
+        Spotted Turtle</p>
+        <h3><strong>Types of Tortoises That Make Great Pets</strong></h3>
+        <p>Greek Tortoise<br />
+        Russian Tortoise<br />
+        Marginated Tortoise<br />
+        Hermann&rsquo;s Tortoise<br />
+        Leopard Tortoise<br />
+        Pancake Tortoise<br />
+        Red-foot Tortoise<br />
+        Star Tortoise</p>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "Learn all about the many types of turtles and tortoises and how to take care of them!"
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Turtles & Tortoises | Reptile Pet Types | Zilla
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Turtle & Tortoise Facts
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "35b25eba-e127-4eca-baa2-ec73e3eeb6c9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{165A9F1F-0B88-434D-BC63-D10056D4FE1D}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220915T105319Z

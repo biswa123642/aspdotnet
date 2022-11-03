@@ -1,0 +1,160 @@
+﻿---
+ID: "9ec90287-018c-4dc9-8a8d-91543494f60c"
+Parent: "b909025d-759f-46d1-8831-35e52f20a347"
+Template: "3bc22e05-e1ff-45a6-b8c3-fcf4c8f84a43"
+Path: /sitecore/content/OneWeb/VitaFlex/Home
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{DA891C93-696B-46A0-93C0-32A1164E297D}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{AF6D273B-4CC8-4E9E-A933-EEC882BAEFB9}"
+          p:before="*"
+          s:ds="{A5B0B370-5432-458F-AF8A-073CECC4073D}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B0C275F94-6A8A-4DD9-B6DF-CDDB8C39D15E%7D&amp;Styles=%7B26C7610E-337D-4F2E-8659-A22C76F38526%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=13"
+          s:ph="/main/row-5-1/container-12" />
+        <r
+          uid="{FFF813EB-A34C-4721-AF0E-D63B35EF4296}"
+          p:after="r[@uid='{AF6D273B-4CC8-4E9E-A933-EEC882BAEFB9}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=12"
+          s:ph="/main/row-5-1" />
+        <r
+          uid="{8428AB64-2DE6-400B-8CA7-13C3038BEE34}"
+          p:after="r[@uid='{FFF813EB-A34C-4721-AF0E-D63B35EF4296}']"
+          s:ds="{8C8DF797-DEA9-4BD9-AF62-33FAB7D4F9AF}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B0C275F94-6A8A-4DD9-B6DF-CDDB8C39D15E%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-2-1/container-11"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{922F54D6-4CB9-4B53-B632-3B716F6ACD0A}"
+          p:after="r[@uid='{8428AB64-2DE6-400B-8CA7-13C3038BEE34}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{D9F035C9-71F4-48F5-AFC1-796E37537CF2}"
+          p:after="r[@uid='{922F54D6-4CB9-4B53-B632-3B716F6ACD0A}']"
+          s:ds="{87408F2B-5860-4371-A2C2-0F0DD3443777}"
+          s:id="{28F481FC-631F-4BDF-9130-A2DA74164968}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B24093BF7-32EA-43B2-89A2-548BB2AFFEF8%7D&amp;Styles&amp;ColLeftGrid=col-lg-8&amp;ColRightGrid=col-lg-4&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/row-4-1/container-9"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{923A852D-1244-42AC-AE98-5C059EFB3B20}"
+          p:after="r[@uid='{D9F035C9-71F4-48F5-AFC1-796E37537CF2}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/row-4-1" />
+        <r
+          uid="{F83400F3-DBF8-4C3A-A749-EEF6A6041F19}"
+          p:after="r[@uid='{923A852D-1244-42AC-AE98-5C059EFB3B20}']"
+          s:ds="{B5F54A36-5F5F-47BD-9F57-1E13366A939D}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B0C275F94-6A8A-4DD9-B6DF-CDDB8C39D15E%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-3-1/container-5/column-1-6" />
+        <r
+          uid="{8C5EE5AD-2BE3-475A-8F94-FF0CA7ACFADB}"
+          p:after="r[@uid='{F83400F3-DBF8-4C3A-A749-EEF6A6041F19}']"
+          s:ds=""
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BAE06D20A-0EEF-4F47-9BBA-819C768AFF45%7D%7C%7BA9EFD7A8-E0D0-4504-B7D1-427D54A24631%7D&amp;ColumnWidth2=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D%7C%7B829E9759-5946-45DF-A06D-3CB37AE9D613%7D%7C%7BBADFB0CB-8D31-4438-90C4-FA7BE8C18C49%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-3-1/container-5" />
+        <r
+          uid="{8964265E-3C6A-4399-AE70-661B4BE33787}"
+          p:after="r[@uid='{8C5EE5AD-2BE3-475A-8F94-FF0CA7ACFADB}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-3-1" />
+        <r
+          uid="{2D21F3B0-64C8-4F32-AF4E-BF32FEB4B8E9}"
+          p:after="r[@uid='{8964265E-3C6A-4399-AE70-661B4BE33787}']"
+          s:ds="{EBE6798D-9E38-46D9-BC29-31E50A5915AD}"
+          s:id="{7561DEB5-5388-4A43-A4CB-353078D32352}"
+          s:par="Reset Caching Options&amp;Timeout&amp;PauseOnHover&amp;Autoplay&amp;OverlayAlign&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BDD24582A-74CD-48C4-A6AF-E9B3DECF9586%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-1-1/container-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{6F00C444-1D59-49AD-8E8B-5FA7D7DD38DC}"
+          p:after="r[@uid='{2D21F3B0-64C8-4F32-AF4E-BF32FEB4B8E9}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{506E8C19-E590-4362-8927-7EACE268DAB9}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3%2C5%2C4&amp;Styles1&amp;Styles2&amp;Styles3=%7BFE6535EF-0421-4C73-A071-871539616340%7D&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D"
+          s:ph="main" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{92EB9EFB-88D4-4089-82BE-AAD92D4FA24E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220728T184109Z
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Home
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Vita Flex Pro has the best equine supplement line for your horse’s optimal performance each step of the way. Trust our products before, during, and after training and competitions. 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Vita Flex Pro has the best equine supplement line for your horse’s optimal performance each step of the way. Trust our products before, during, and after training and competitions. 
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Vita Flex Pro | Premium Equine Performance - Supplements for Horses"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: VitaFlex
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b6da1af8-c856-479a-acdc-039369540dc7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{D54263A8-B962-4852-9E17-ADA326CFB83D}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220901T101130Z

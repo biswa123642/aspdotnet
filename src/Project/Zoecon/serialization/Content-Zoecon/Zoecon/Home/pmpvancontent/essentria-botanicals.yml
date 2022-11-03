@@ -1,0 +1,64 @@
+﻿---
+ID: "38eaac91-df57-44ed-9be7-a814bf64a5d9"
+Parent: "f1438794-c76e-4316-a395-5bf9a44b0b3e"
+Template: "0f7cdd23-0988-42cf-a06f-15d8735314fb"
+Path: "/sitecore/content/OneWeb/Zoecon/Home/pmpvancontent/essentria-botanicals"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{2ED748BA-E7E4-4E06-9A57-28F1E93F5B99}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 110
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{B68EEFD1-1B71-401B-8F1D-B69806D34C32}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T065700Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "essentria-botanicals"
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <div class="score-content-spot">
+            <p style="z-index: 1;">Featuring botanical active ingredients derived from the essential oils of plants, these minimum risk insecticides offer knockdown, repellency, and even larvicidal control for a natural approach to pest control for the environmentally conscious consumer. The Essentria® family of products boasts broad application opportunities, including in sensitive accounts and uses around children, pets, and in food-handling areas. </p>
+        </div>
+        <div class="score-content-spot pmp-truck__links" caching="0|0|0|0|0|0|0|0">
+            <p style="z-index: 1;"><a href="/~/media/Project/OneWeb/Zoecon/Files/resources/Brochures/Essentria_Brochure.pdf?la=en&amp;hash=0978A5FE05EC77152CFE29459079DE1682279B33">Download Essentria<sup>®</sup>  Family Brochure&nbsp;</a></p>
+        <p style="z-index: 1;"><a href="/~/media/Project/OneWeb/Zoecon/Files/resources/Posters/Mosquito%20Poster.pdf?la=en&amp;hash=E7F9F9FBD802AA00B790EAE9B6E5982544A972F2">Download Mosquito Poster</a></p>
+        <div id="gtx-trans" style="position: absolute; left: -8px; top: 6.32812px;">
+        <div class="gtx-trans-icon">&nbsp;</div>
+        </div>
+        </div>
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: ESSENTRIA® BOTANICALS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dd2b920a-cc88-4252-bfff-3c0f6546cc43"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220923T074044Z
+    - ID: "e30bd79a-3fdc-42b1-b08b-23724b266690"
+      Hint: RelatedProducts
+      Value: |
+        {D5A694AE-BB2F-4AF7-A26C-B1A80296EE4A}
+        {BF412F74-9EEA-4246-9107-6F1097C4F9F5}
+        {DED5423C-181E-45AB-971C-9F07805F1950}
+        {B5EAD928-6D42-4C5C-B062-A1822265A5D4}
+        {D49D35EE-C8A1-4691-90CD-A3BE7321F374}
+    - ID: "e9889363-bcac-4971-8069-6d13f499574c"
+      Hint: RelatedProductsLabel
+      Value: The Essentria® Family

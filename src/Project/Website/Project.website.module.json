@@ -1,0 +1,32 @@
+{
+	"namespace": "Project.Website",
+	"references": [ "*Feature.*"],
+	"items": {
+		"includes": [
+			{
+				"name": "MediaLibrary-Project-OneWeb-shared",
+				"path": "/sitecore/media library/Project/OneWeb/shared",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			{
+				"name": "Branch-Templates-Scaffolding-Settings-SiteConfiguration",
+				"path": "/sitecore/templates/Branches/Foundation/Experience Accelerator/Scaffolding/Site/$name/Settings/Site Configuration",
+				"scope": "singleItem",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			{
+				"name": "Branch-Templates-Scaffolding-Data-LookUp",
+				"path": "/sitecore/templates/Branches/Foundation/Experience Accelerator/Scaffolding/Site/$name/Data/LookUp",
+				"scope": "singleItem",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			{
+				"name": "Layouts-mvc-BasicMVCLayout",
+				"path": "/sitecore/layout/Layouts/Foundation/Experience Accelerator/MVC/Basic MVC Layout",
+				"scope": "singleItem",
+				"allowedPushOperations": "createUpdateAndDelete"
+			}
+		]
+	}
+}

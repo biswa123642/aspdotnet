@@ -1,0 +1,52 @@
+﻿---
+ID: "6a57bf20-8ae6-4b83-9dff-549320f78154"
+Parent: "e928401d-5b24-42f7-bcba-87b49b9e187c"
+Template: "3c7c79e8-554d-46d9-bf1a-63da22a4ee6f"
+Path: /sitecore/content/OneWeb/Zilla/Data/Hero Carousel/HomePage/HomePage/Slide1
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Slide 1
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "007ef8df-edb2-4a64-a736-7a408093d2f5"
+      Hint: SlideImageMobile
+      Value: |
+        <image mediaid="{86BB43FC-4253-4D50-9912-D82D9EE9A653}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220812T080218Z
+    - ID: "3bfd4b9e-3049-4c8d-a9b5-6bebb83f895d"
+      Hint: SlideImage
+      Value: |
+        <image mediaid="{86BB43FC-4253-4D50-9912-D82D9EE9A653}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b19b08af-9305-4182-a721-9dad1ec24e8c"
+    - ID: "a8933445-15ca-4e23-b171-a33892eb0ef8"
+      Hint: SlideCardTitle
+      Value: ALL NEW VIDEO SERIES WITH MYKE CLARKSON
+    - ID: "b34e88f9-8800-43b1-92b5-029fbfae12e9"
+      Hint: SlideCardLogo
+      Value: |
+        <image mediaid="{1E135103-1A84-4972-ADBC-29E60C0E1240}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "bdb04894-83ee-4bf2-b582-f1a7bac2118c"
+      Hint: OverrideOverlayAlign
+      Value: "overlay-right"
+    - ID: "d691b058-6e52-4e4b-baae-a23aed9de6e0"
+      Hint: SlideCardSubText
+      Value: "Bring Their Natural Habitat, Home. Replicating the natural habitat of reptiles and amphibians has largely been done sight unseen...until now. In the first-ever herp care adventure series, explore the natural habitat of your pets."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220912T082712Z
+    - ID: "e10d2e79-68cc-438a-a732-abf80f62be76"
+      Hint: SlideCardCTA
+      Value: |
+        <link text="Watch Now" anchor="" linktype="internal" class="" title=""  querystring="" id="{CE2A9619-0202-436E-989A-B266C70FDFF4}" />

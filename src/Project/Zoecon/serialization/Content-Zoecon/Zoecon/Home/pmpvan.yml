@@ -1,0 +1,129 @@
+﻿---
+ID: "530714d3-c669-47c4-a12b-1a77c55e18e4"
+Parent: "16616263-0db9-4643-990e-e1e404ac2e9d"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: /sitecore/content/OneWeb/Zoecon/Home/pmpvan
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{F2C8CAA5-ACBE-4748-95B8-3E02A7656667}"
+- ID: "b0f2f11d-f706-41da-81fe-88ebfacb3b53"
+  Hint: OpenGraphSiteName
+  Value: Zo&#235;con | Professional Pest Control | Home
+- ID: "d4952280-2d7d-4bf4-a99a-ea36dad0f0a7"
+  Hint: Body Css Class
+  Value: "template--zoecon2-na-interactive-van"
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: 
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{D0EF35F0-E980-4806-89A7-ED7AFAD236F3}"
+          p:before="*"
+          s:ds="{55DF4512-8011-45EC-B498-036FAC1920E7}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;FieldNames&amp;DynamicPlaceholderId=1&amp;CacheClearingBehavior=Clear+on+publish&amp;Reset Caching Options"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{CDF2271C-9315-4A45-A506-F635C28A453D}"
+          p:after="*[1=2]"
+          s:ds="{639FAAD9-A378-4B3E-9EDA-7D39CADCF1C4}"
+          s:id="{F0DE3E5B-F5E0-4299-B3A2-59C234B985C3}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;RenderingIdentifier"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220810T060754Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Zoëcon PMP Van: Your Pest Control Resource on Virtual Wheels"
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: From long lasting IGRs to hard hitting insecticides, this interactive experience helps PMPs find what they need to reduce and eliminate callbacks.
+    - ID: "543b1d82-a096-4893-90b3-35bbb2ab2b1a"
+      Hint: PageHeaderScripts
+      Value: |
+        <script type="text/javascript">
+        var items = document.querySelectorAll(".pmp-truck__products img");
+        window.initHubspotForms = function() {
+        setTimeout(function () {
+                        if (typeof hbspt !== 'undefined') {
+                            hbspt.forms.create(
+                                {
+                                    css: '',
+                                    portalId: '454126',
+                                    formId: 'cad2ced7-5371-4bbf-b26d-760cf552c3ab',
+                                    target: '#' + 'hubspot-form-3566c785-ee0a-48b4-85d9-2ced39948f4c',
+                                    redirectUrl: ''
+                                });
+                        }
+                    }, 500);
+        
+                    setTimeout(function () {
+                        if (typeof hbspt !== 'undefined') {
+                            hbspt.forms.create(
+                                {
+                                    css: '',
+                                    portalId: '454126',
+                                    formId: '1ae9221a-f08b-445d-b402-00a1c79fa747',
+                                    target: '#' + 'hubspot-form-a6a360ee-6f4d-4477-9120-99fd3e4b02f3',
+                                    redirectUrl: ''
+                                });
+                        }
+                    }, 500);
+        }
+        
+        items.forEach(function(item) {
+            var src = item.getAttribute('src');
+            item.setAttribute('data-src', src);
+            item.setAttribute('src', '');
+        });
+        
+        
+        
+        window.pmpAudioSources = [{
+           'url': '/-/media/Project/OneWeb/Zoecon/Files/pmp-van/van-audio',
+           'type': 'audio/mpeg'
+        }];
+        
+        </script>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: From long lasting IGRs to hard hitting insecticides, this interactive experience helps PMPs find what they need to reduce and eliminate callbacks.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Zoëcon PMP Van: Your Pest Control Resource on Virtual Wheels"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: "Zoëcon PMP Van: Your Pest Control Resource on Virtual Wheels"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dc53b4cf-3bda-48b4-b2a5-1724c9c6e43e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220926T100346Z

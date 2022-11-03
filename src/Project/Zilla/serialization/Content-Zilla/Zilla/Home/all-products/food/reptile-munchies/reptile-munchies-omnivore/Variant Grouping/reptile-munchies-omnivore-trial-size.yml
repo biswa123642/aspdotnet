@@ -1,0 +1,65 @@
+﻿---
+ID: "01b2bc9b-a4da-427b-b606-543b27ac559c"
+Parent: "bd2847d0-ffc0-48ac-a7c8-ae8fe10718cd"
+Template: "6659b02d-bd4b-4821-b452-77fca1da6b43"
+Path: "/sitecore/content/OneWeb/Zilla/Home/all-products/food/reptile-munchies/reptile-munchies-omnivore/Variant Grouping/reptile-munchies-omnivore-trial-size"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 20
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17cdad4b-b760-4682-b72d-fda00dd2e27d"
+      Hint: VariantDescription
+      Value: |
+        <ul>
+            <li>Trial Size nutritious, dehydrated ingredients that are quick and convenient</li>
+            <li>Easy to prepare by simply rehydrating in water</li>
+            <li>No refrigeration required</li>
+            <li>Provides nutrition from a variety of natural ingredients</li>
+            <li>Ideal for bearded dragons, water dragons, tegus and box turtles</li>
+        </ul>
+        <p><strong>Size:</strong><br>
+        .7oz Trial Size</p>
+        <p><strong>Dimensions:</strong><br>
+        4 x .5 x 5.5</p>
+        <p><strong>Style:</strong><br>
+        Freeze Dried</p>
+    - ID: "22cafc35-3f72-476d-aaed-34fbf9f40df6"
+      Hint: PrimaryVariationValue
+      Value: 0.7 ounce Trial Size
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220812T090724Z
+    - ID: "69ad85ef-73f1-44cf-9914-11f9bd56e901"
+      Hint: MediaList
+      Value: |
+        {CE9374F7-92F2-43F1-BC35-AD6FEF9D1ED5}
+        {F64532CC-C3FF-4F84-BF17-066A30FADF6A}
+        {43DBD787-C25C-40A6-B35F-A3926489001F}
+        {47029AA0-C192-4B90-91EF-6F47CA822285}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e451526f-eace-4eb9-a1dd-fc3d23aeac79"
+    - ID: "915344f6-4f20-4302-9772-bef16cc60be7"
+      Hint: VariantSKU
+      Value: 100109954
+    - ID: "ab6b066d-6827-43a6-a71f-8c00b52d5046"
+      Hint: VariantTitle
+      Value: Reptile Munchies Omnivore Mix, Trial Size
+    - ID: "b21616dc-9e40-44ea-8d25-46375182cdef"
+      Hint: VariantPrice
+      Value: 0
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c6a670f2-49c5-46e4-8241-c9e21eced0db"
+      Hint: VariantUPC
+      Value: 096316099548
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220907T065805Z

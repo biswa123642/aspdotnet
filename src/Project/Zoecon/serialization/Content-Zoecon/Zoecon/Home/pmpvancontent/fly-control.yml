@@ -1,0 +1,59 @@
+﻿---
+ID: "9ecc1d12-1b95-4251-8f6f-c3e6236b4677"
+Parent: "f1438794-c76e-4316-a395-5bf9a44b0b3e"
+Template: "0f7cdd23-0988-42cf-a06f-15d8735314fb"
+Path: "/sitecore/content/OneWeb/Zoecon/Home/pmpvancontent/fly-control"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{2ED748BA-E7E4-4E06-9A57-28F1E93F5B99}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{832423D9-5292-4CF7-A4CB-B4C7C0C6DD75}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T065247Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "fly-control"
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <div class="score-content-spot">
+            <p style="z-index: 1;">Take back control over the three most common types of pest flies (fruit flies, drain flies, house flies) with this lineup of highly effective solutions. These proven products utilize active ingredients and applications that ensure quick knockdown and lasting control that can prevent future infestations from occurring.
+        </p>
+        </div>
+        <div class="score-content-spot pmp-truck__links">
+            <p style="z-index: 1;"><a href="/~/media/Project/OneWeb/Zoecon/Files/resources/Posters/Fly%20Poster.pdf?la=en&amp;hash=8EFE73AB9996ADFF27DEFB53347C66927AB64AD4">Download Fly Poster</a></p>
+        <p style="z-index: 1;"><a href="/~/media/Project/OneWeb/Zoecon/Files/resources/Brochures/Zoecon%20Premise%20Control%20Brochure.pdf?la=en&amp;hash=486AAC1A2E825C3DE9F37E476D4C999F5051BD46">Download Premise Brochure</a></p>
+        </div>
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: FLY CONTROL
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "da10d177-5699-4344-88a4-458df49e19bd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220923T065929Z
+    - ID: "e30bd79a-3fdc-42b1-b08b-23724b266690"
+      Hint: RelatedProducts
+      Value: |
+        {296C9B78-6954-4C76-BE10-2C205CBC3240}
+        {7AE3FA34-DBF3-4BD5-9C0F-F6405B749B60}
+        {A65FCF51-D469-45CB-8794-EBC05005E280}
+        {32030133-F6FC-45E5-AB78-64ACC8D2B840}
+        {0B0BE239-6866-4872-9733-D9E8D1DA54A4}
+    - ID: "e9889363-bcac-4971-8069-6d13f499574c"
+      Hint: RelatedProductsLabel
+      Value: The Fly Control Family

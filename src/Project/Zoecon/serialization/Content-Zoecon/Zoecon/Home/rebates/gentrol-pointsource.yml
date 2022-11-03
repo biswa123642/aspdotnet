@@ -1,0 +1,144 @@
+﻿---
+ID: "42d3f2d5-df8f-4947-af11-79bef3a2e866"
+Parent: "11e68b53-5842-490b-8e93-e7ecd0bc5c0e"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/Zoecon/Home/rebates/gentrol-pointsource"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{C43150A0-548F-4F99-9B13-F750CAAF30C4}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{F27CD833-BB63-408B-9AC7-0DDEE40CE3C1}"
+          p:before="*"
+          s:ds="{CA1B196F-F2F8-435A-A96B-9311FFA2784D}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
+          s:ph="/main/sxa-content-page-with-banner/container-4/row-1-7/row-4-1/container-10" />
+        <r
+          uid="{A27A30E7-68F7-4E9C-BFF7-122DE6CF1B0A}"
+          p:after="r[@uid='{F27CD833-BB63-408B-9AC7-0DDEE40CE3C1}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/sxa-content-page-with-banner/container-4/row-1-7/row-4-1" />
+        <r
+          uid="{B9091553-E093-4244-B7CD-81C5C05FD66C}"
+          p:after="r[@uid='{A27A30E7-68F7-4E9C-BFF7-122DE6CF1B0A}']"
+          s:ds="{3DEB2BA6-48C1-4276-8CBC-753D7CF39C6B}"
+          s:id="{3972C278-7E7A-4C2B-A293-66AF860F5C3A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B39C41CFB-A250-4C5E-98D6-52E06E9BC6B8%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/sxa-content-page-with-banner/container-4/row-1-7/row-5-1/container-8" />
+        <r
+          uid="{B8EC6C4D-CB27-4E1E-B747-3A616F65D27A}"
+          p:after="r[@uid='{B9091553-E093-4244-B7CD-81C5C05FD66C}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/sxa-content-page-with-banner/container-4/row-1-7/row-5-1" />
+        <r
+          uid="{AEB38DE5-830E-4289-8546-9F65FAA28243}"
+          p:after="r[@uid='{B8EC6C4D-CB27-4E1E-B747-3A616F65D27A}']"
+          s:ds="{A34FD7F2-1BF7-4248-A54D-4EA3C107D212}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/sxa-content-page-with-banner/container-4/row-1-7/row-3-1/container-6" />
+        <r
+          uid="{80306D2B-1B3C-446C-94A5-1FB019582682}"
+          p:after="r[@uid='{AEB38DE5-830E-4289-8546-9F65FAA28243}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/sxa-content-page-with-banner/container-4/row-1-7/row-3-1" />
+        <r
+          uid="{0BC8DDF3-C110-4BFD-814F-28F3622AA65B}"
+          p:after="r[@uid='{80306D2B-1B3C-446C-94A5-1FB019582682}']"
+          s:ds="{F0240C05-C025-4F74-B092-D13576039339}"
+          s:id="{61922C55-AA1A-4FE9-AF0D-0BF2C665D300}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B149777B4-30BF-4ACB-88AD-FB0489AD82D3%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/sxa-content-page-with-banner/container-4/row-1-7/row-1-1/container-4" />
+        <r
+          uid="{9EF017B3-DCE7-41BE-8885-527DFDDD3E1F}"
+          p:after="r[@uid='{0BC8DDF3-C110-4BFD-814F-28F3622AA65B}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/sxa-content-page-with-banner/container-4/row-1-7/row-1-1" />
+        <r
+          uid="{0D344F36-EEDB-4770-A5B9-6B0AEA402D27}"
+          p:after="r[@uid='{9EF017B3-DCE7-41BE-8885-527DFDDD3E1F}']"
+          s:ds="{C98C707C-F8BC-4AED-AFD7-D3B14CBB64B7}"
+          s:id="{882F60C4-4A33-4995-AC39-C8FF97EE8F1D}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;FieldNames=%7B0A165447-FFF3-44FB-8521-2AFCDFEA24E5%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/sxa-content-page-with-banner/container-4/row-1-7/row-2-1" />
+        <r
+          uid="{C496AF13-C4DF-48BE-AD36-90557D8A741E}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C3%2C5%2C4%2C2&amp;Styles1&amp;Styles2=%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D%7C%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-content-page-with-banner/container-4/row-1-7" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "055a2c41-4d44-4441-b589-b86f39cc64e5"
+      Hint: HeroBannerContent
+      Value: |
+        <p>Save face and money with August savings on <a href="~/link.aspx?_id=1F66A0BD4FDB41DCA22A3ADF9A2AFF57&amp;_z=z">Gentrol<sup>&reg;</sup> Point Source</a>. Save $3 per box on <a href="~/link.aspx?_id=1F66A0BD4FDB41DCA22A3ADF9A2AFF57&amp;_z=z">Gentrol<sup>&reg;</sup> Point Source</a>&nbsp;and get broad-spectrum control over cockroaches, bed bugs, drain flies and fruit flies. <strong>NOW CLOSED</strong></p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220804T093951Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{4F53AC24-73AB-4CF2-A69A-BD61BBA1081B}" />
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Gentrol® Point Source August Rebate
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Save $3 per can on Gentrol® Complete and Gentrol® Aerosols this April and enjoy control over pests including roaches, stored product insects, drain flies, fruit flies, bed bugs and more. 
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: 
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Save $3 per can on Gentrol® Complete and Gentrol® Aerosols this April and enjoy control over pests including roaches, stored product insects, drain flies, fruit flies, bed bugs and more. 
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Zoëcon | Gentrol® Point Source August Rebate
+    - ID: "825c4c66-091d-44cb-8ead-baae058f164d"
+      Hint: HeroBannerTextColor
+      Value: #434343
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Gentrol® Point Source August Rebate
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bc914b97-f184-4c61-8226-6f3745686e0a"
+    - ID: "a6772724-fc83-4e63-a2f6-a893b8329b9e"
+      Hint: HeroBannerAlignment
+      Value: "Left-Align"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: |
+        <h2>GENTROL<span style="line-height: 0;">&reg;&nbsp;</span>POINT SOURCE AUGUST REBATE</h2>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220906T073344Z

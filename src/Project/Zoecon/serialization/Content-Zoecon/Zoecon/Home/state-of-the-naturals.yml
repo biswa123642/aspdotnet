@@ -1,0 +1,111 @@
+﻿---
+ID: "749aea21-65f5-4d61-b8a5-a68ddeb8a160"
+Parent: "16616263-0db9-4643-990e-e1e404ac2e9d"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/Zoecon/Home/state-of-the-naturals"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{C198DFAB-D76B-4944-82CC-DC2E8718AABF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 175
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{00654638-D90E-467A-936E-F3AEC3E4F15F}"
+          p:before="*"
+          s:ds="{447B0FBF-CFA8-40B5-9041-CCC4BA096DFF}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA714C249-EA1F-4339-BC16-8B0804ED2ADC%7D&amp;Styles=%7B879C8AF1-AB9B-416E-A7C3-5DCFA88F1AED%7D%7C%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/container-1/column-2-2" />
+        <r
+          uid="{6D14AEC1-DCED-4770-A3B6-8CF506577E9B}"
+          p:after="r[@uid='{00654638-D90E-467A-936E-F3AEC3E4F15F}']"
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/container-1/column-1-2" />
+        <r
+          uid="{B0840C9C-1A38-4F99-A0CC-D5553206CF0D}"
+          p:after="r[@uid='{6D14AEC1-DCED-4770-A3B6-8CF506577E9B}']"
+          s:ds="{344DF4CC-F277-426B-BFA0-AF8D8A8B7F4D}"
+          s:id="{3972C278-7E7A-4C2B-A293-66AF860F5C3A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B39C41CFB-A250-4C5E-98D6-52E06E9BC6B8%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/container-1/column-1-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{7E0E9290-3056-4A43-BB9B-BEA0D1BAFB63}"
+          p:after="r[@uid='{B0840C9C-1A38-4F99-A0CC-D5553206CF0D}']"
+          s:ds="{352F3EAF-DC9B-444C-ACA7-B68B07EBCE7A}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;FieldNames=%7BA714C249-EA1F-4339-BC16-8B0804ED2ADC%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/container-1/column-1-2" />
+        <r
+          uid="{C292D3D5-5A66-43CD-B6AB-40686389BC23}"
+          p:after="r[@uid='{7E0E9290-3056-4A43-BB9B-BEA0D1BAFB63}']"
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B19EFEA92-650D-4786-96E4-5EC96CA47A57%7D&amp;ColumnWidth2=%7B7AF5C340-8A60-4D59-A7A1-5DBAB391292C%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1=%7B25290419-C49F-4475-9214-3776DB4D8741%7D%7C%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;Styles2=%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D%7C%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=2"
+          s:ph="/main/container-1" />
+        <r
+          uid="{75C2AC6A-E327-4D71-A184-D8C027A0CEBB}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220803T111946Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: State of the Naturals Market
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: To learn more about the green market, download this exclusive market report. 
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <h1>STATE OF THE NATURALS MARKET</h1>
+        <p>In this year’s PCT State of the Naturals Market survey, 87 percent of the surveyed PMPs reported that they are operating in markets where customers are very or somewhat environmentally conscious. PMPs across the nation say that demand for green pest management products and services continues to grow as customers are becoming more concerned about the environment and the health of themselves, their families and their neighbors.
+        </p>
+        <p>To learn more about the green market, download this exclusive market report.
+        </p>
+        <p><a href="~/link.aspx?_id=179A435AE106491EAB6582DA68AC62FB&amp;_z=z">Click here</a> to learn more about the environmentally-conscious Essentria<sup>®</sup> product line from Zoëcon.
+        </p>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: To learn more about the green market, download this exclusive market report. 
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Zoëcon | State of the Naturals Market
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: State of the Naturals Market
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3cc34dca-e7d2-464d-9330-df07288277b2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220914T170235Z
