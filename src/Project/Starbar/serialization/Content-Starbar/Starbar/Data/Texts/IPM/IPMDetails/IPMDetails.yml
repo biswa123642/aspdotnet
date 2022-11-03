@@ -1,0 +1,58 @@
+﻿---
+ID: "84dc03f9-9b56-42de-aaaf-38ec7dd8f157"
+Parent: "efc8d25e-737b-44b9-a8f2-449acd086f0a"
+Template: "b8f5894c-b493-4016-bf78-4090b0a2fd16"
+Path: /sitecore/content/OneWeb/Starbar/Data/Texts/IPM/IPMDetails/IPMDetails
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: IPM Details
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220929T112329Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9c24cf16-e049-4919-a57f-7600b7d80c55"
+    - ID: "b3635965-6786-457c-9dee-28de73c0a331"
+      Hint: Text
+      Value: |
+        <p class="ipm-score-lead">A comprehensive IPM program consists of three phases:</p>
+        <h2>STEP 1:</h2>
+        <h3>PLANNING</h3>
+        <ul>
+            <li>Helps operators understand the extent of their insect problems</li>
+            <li>Charts a course to address issues proactively instead of being reactive</li>
+        </ul>
+        <h2>STEP 2:</h2>
+        <h3>IMPLEMENTATION</h3>
+        <ul>
+            <li>Implement insect control tactics to reduce infestations on your property</li>
+            <li>Execute a multi-method approach to insect control</li>
+        </ul>
+        <h2>STEP 3:</h2>
+        <h3>EVALUATION</h3>
+        <ul>
+            <li>Follow up on program effectiveness</li>
+            <li>Checking and monitoring on a regular basis</li>
+            <li>Reviewing/adapting a program as needed</li>
+        </ul>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221005T105850Z

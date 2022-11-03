@@ -1,0 +1,45 @@
+﻿---
+ID: "0e6a558f-3601-4d8f-b21f-43b453c66ac1"
+Parent: "c47ea053-b16d-4fb5-aab8-07286af6f344"
+Template: "a14d9266-1924-4e7f-87cc-760e2f8429ce"
+Path: "/sitecore/content/OneWeb/Starbar/Data/Feature Content Tiles/Literature/Literature/Pbo-8SynergistFactSheet"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 28
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Pbo-8 Synergist Fact Sheet"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220914T111901Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "899dc2b8-0d05-4e00-9e2b-4a9d50ffb26e"
+    - ID: "ac0ef552-e2a9-4e8f-8942-4b8ab5061e4b"
+      Hint: CTA
+      Value: |
+        <link linktype="media" target="_blank" id="{6F817E4D-064E-4FFB-AB33-B39ADCCFB8B5}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d140070d-9058-400a-82ca-36aee31966d5"
+      Hint: Image
+      Value: |
+        <image mediaid="{3506FDCC-2E36-4CB9-913A-DBDF9BEB032F}" ></image>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220914T154607Z
+    - ID: "f2995045-5047-4be3-be4a-dbe0a1530118"
+      Hint: Title
+      Value: "PBO-8® SYNERGIST FACT SHEET"

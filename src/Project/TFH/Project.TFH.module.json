@@ -1,0 +1,32 @@
+{
+	"namespace": "Project.TFH",
+	"references": [ "*Feature.*" ],
+	"items": {
+		"includes": [
+			//{
+			//	"name": "Content-TFH",
+			//	"path": "/sitecore/content/OneWeb/TFH",
+			//	"scope": "ItemAndDescendants",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//},
+			//{
+			//	"name": "MediaLibrary-TFH",
+			//	"path": "/sitecore/media library/Project/OneWeb/TFH",
+			//	"scope": "singleItem",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//},
+			{
+				"name": "MediaLibrary-Themes",
+				"path": "/sitecore/media library/Themes/OneWeb/TFH",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			//{
+			//	"name": "TFH-Forms",
+			//	"path": "/sitecore/Forms/OneWeb/TFH",
+			//	"scope": "ItemAndDescendants",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//}
+		]
+	}
+}

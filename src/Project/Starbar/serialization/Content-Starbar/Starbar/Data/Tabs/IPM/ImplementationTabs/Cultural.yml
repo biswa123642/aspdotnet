@@ -1,0 +1,73 @@
+﻿---
+ID: "c519ded6-e711-40be-bb26-51572bac53bb"
+Parent: "05890881-d657-4603-b0d2-74fd837f3e74"
+Template: "b27059e6-1190-4273-92a0-d22af3c440b4"
+Path: /sitecore/content/OneWeb/Starbar/Data/Tabs/IPM/ImplementationTabs/Cultural
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{4A6F3558-D2AD-4183-B232-A426B4681E72}">
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B5423143A-760D-4F0E-BA4D-0B02E649A778%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-title"
+          uid="{2059AAA0-313A-44A3-ACF2-DB0BF93CDDE8}" />
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-content"
+          uid="{4450885D-FC7F-4FE0-8923-90D225446BC4}" />
+        <r
+          ds="/sitecore/content/OneWeb/Starbar/Data/Multi Column Content Tiles/IPM/ImplementationTabs/Cultural"
+          id="{8CECDF2B-DC7E-4E39-A959-94E68B752646}"
+          par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B3D30483B-C221-4834-B402-EC776D44EEF0%7D&amp;Styles&amp;GridClass=col-md-3&amp;TextAlign&amp;ImageAlign&amp;ShowOverlay&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          ph="section-content"
+          uid="{EAF8C182-B229-49F7-97B2-7609C6C52F21}"
+          ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220929T141747Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "70181515-2aab-4710-91f4-52a08151693e"
+      Hint: Heading
+      Value: Cultural
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a83da356-1567-4556-8a76-dbdc0876a864"
+    - ID: "99f62656-1f3e-4f98-9eac-a596fb174ba0"
+      Hint: Content
+      Value: |
+        <h2>SANITATION IS KEY</h2>
+        <p>Comprehensive insect control begins in the Cultural phase where daily habits are established and best sanitation practices are implemented around the facility.</p>
+        <p>&nbsp;</p>
+        <p><strong>Hover over images to learn more.</strong></p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220930T140940Z

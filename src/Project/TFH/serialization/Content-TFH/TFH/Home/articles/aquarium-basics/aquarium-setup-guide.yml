@@ -1,0 +1,75 @@
+﻿---
+ID: "6326cb48-3868-4e87-b9b2-b08e6a831076"
+Parent: "47074bf9-90e7-4636-9bb0-d069b14df125"
+Template: "057af325-c948-4918-a4e4-2c3f6cf04524"
+Path: "/sitecore/content/OneWeb/TFH/Home/articles/aquarium-basics/aquarium-setup-guide"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{B5D1CE6B-12A5-44EE-A1FC-E222107FAE48}"
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: "{05864325-E97D-48FE-8E56-9755CDFA109A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "05aba5ee-29d7-483d-82db-02ac84db238f"
+      Hint: AuthorName
+      Value: 
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{00D9583D-BD8E-49B9-A1C1-D80790631C30}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220720T061847Z
+    - ID: "36aa965e-f5ea-4871-a55b-53e090d5026e"
+      Hint: ArticleType
+      Value: "{6957ECB9-030C-4D51-97F8-172B8692F545}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Aquarium Setup Guide
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: "Aquarium setup requires time and commitment. Here are the basics for making your tank thrive!"
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <h1>Aquarium Setup Guide</h1><br><p>With the seemingly infinite number of combinations of fish, plants, and invertebrates that can be put together in an aquarium, it might be difficult to determine which ones will work best. Generally, putting plants and animals that come from the same type of habitat works well because they all have similar requirements.</p><table>     <thead>         <tr>             <th><br />             </th>             <th>pH</th>             <th>Hardness</th>             <th>Temperature</th>             <th>Salt</th>             <th>Aquascaping</th>         </tr>     </thead>     <tbody>         <tr>             <td data-column="Name"><strong>Rainforest Fishes</strong><br />             (South American and West African cichlids;             bettas and gouramis; tetras, barbs, danios, rasboras; etc.)</td>             <td data-column="pH">6.0 to 7.0</td>             <td data-column="Hardness">soft to moderate</td>             <td data-column="Temperature">76&deg; to 82&deg;F</td>             <td data-column="Salt">no salt needed</td>             <td data-column="Aquascaping">plants; driftwood; inert rocks (quartz, slate, granite, onyx, etc.), gravel, and sand</td>         </tr>         <tr>             <td data-column="Name"><strong>African Rift Lake Fishes</strong><br />             (cichlids and other fishes from the rift Lakes)</td>             <td data-column="pH">7.5 to 8.5</td>             <td data-column="Hardness">hard to very hard</td>             <td data-column="Temperature">74&deg; to 8&deg;F</td>             <td data-column="Salt">Rift Lake salts (if needed to increase hardness and pH)</td>             <td data-column="Aquascaping">soluble rocks, gravel, and sand (dolomite, limestone, coral rock, lace rock, tufa rock)</td>         </tr>         <tr>             <td data-column="Name"><strong>Central American Fishes</strong><br />             (cichlids and other fishes from the rift Lakes)</td>             <td data-column="pH">7.0 to 8.0</td>             <td data-column="Hardness">moderate to hard/td&gt;             </td>             <td data-column="Temperature">74&deg; to 82&deg;F</td>             <td data-column="Salt">many species are salt-tolerant</td>             <td data-column="Aquascaping">plants; driftwood; all rocks, gravel, and sand (soluble and non-soluble)</td>         </tr>         <tr>             <td data-column="Name"><strong>Brackish Fishes</strong><br />             (monos, scats, some puffers, mollies, gobies, etc.)</td>             <td data-column="pH">7.8 to 8.0</td>             <td data-column="Hardness">moderate to hard</td>             <td data-column="Temperature">74&deg; to 82&deg;F</td>             <td data-column="Salt">specific gravity 1.001 to 1.012</td>             <td data-column="Aquascaping">salt tolerant plants (anubias, Java fern, mangrove); driftwood; all rocks, gravel, and sand</td>         </tr>         <tr>             <td data-column="Name"><strong>Marine Fishes</strong><br />             (all coral reef fishes)</td>             <td data-column="pH">8.3</td>             <td data-column="Hardness">moderately hard</td>             <td data-column="Temperature">76&deg; to 84&deg;F</td>             <td data-column="Salt">specific gravity 1.025</td>             <td data-column="Aquascaping">live rock; macroalgae; soluble rocks, gravel, and sand</td>         </tr>     </tbody> </table> <p>All parameters and values are suggested approximate preferences only; wide variability and adaptability exist among species and individuals within each category.</p>
+    - ID: "6dd157fe-8ea8-496a-b595-0e6a18489836"
+      Hint: ThumbnailImage
+      Value: |
+        <image mediaid="{00D9583D-BD8E-49B9-A1C1-D80790631C30}" />
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "Aquarium setup requires time and commitment. Here are the basics for making your tank thrive!"
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Aquarium Setup Guide | Tropical Fish Hobbyist Magazine
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Aquarium Setup Guide
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8f5c1431-ef6b-4cb6-a737-a405a489b46d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{00D9583D-BD8E-49B9-A1C1-D80790631C30}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220901T091147Z
+    - ID: "eaaa3bf1-4f5c-4f65-9f61-c6f234ffc31f"
+      Hint: BlogPostTopic
+      Value: "{E76A2365-28C3-4D15-A16E-2F54FA81109B}"
+    - ID: "fb742e87-7bf7-4c72-97a9-987a40989ece"
+      Hint: RelatedArticles
+      Value: |
+        {5A6B48DE-9AF9-4658-A204-318607492403}
+        {DC7BA426-FD2D-4733-B89A-A6CE81C86D26}

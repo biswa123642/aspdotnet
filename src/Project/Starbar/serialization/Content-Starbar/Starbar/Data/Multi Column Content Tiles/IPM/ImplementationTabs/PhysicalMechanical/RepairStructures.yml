@@ -1,0 +1,47 @@
+﻿---
+ID: "1d5b14ef-b7c0-40fc-9319-1b14f2799af4"
+Parent: "aaa26dd1-fbc1-4e08-9683-3426d155bee7"
+Template: "2f7bfe05-bdd4-47ad-844f-3e3997eda6b4"
+Path: /sitecore/content/OneWeb/Starbar/Data/Multi Column Content Tiles/IPM/ImplementationTabs/PhysicalMechanical/RepairStructures
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Repair Structures
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00eccf92-e5bd-4b05-81e9-7b7d3073f484"
+      Hint: Image
+      Value: |
+        <image mediaid="{CED1CEA9-7320-4D69-9D72-816F3E3B96D3}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220930T052541Z
+    - ID: "27abc734-c594-491e-861d-fc2f17c04907"
+      Hint: BGColor
+      Value: "flip-bg-red"
+    - ID: "3e9b4d48-d3be-48a0-a917-cd07b2be2d54"
+      Hint: Title
+      Value: Repair Structures
+    - ID: "73df3983-409b-43ad-9d12-486aceb886ad"
+      Hint: SecondarySubText
+      Value: Repair Structures
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d971f6d3-898f-4ab9-b839-674fbffe265f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220930T071141Z
+    - ID: "dc6fb3d9-f446-4657-84aa-7445c6ce5d9d"
+      Hint: SubText
+      Value: "Patch or seal any cracks or crevices in structures, and secure fine-mesh screens over any windows."

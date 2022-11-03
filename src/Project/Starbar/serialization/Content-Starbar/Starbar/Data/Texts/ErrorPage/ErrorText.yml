@@ -1,0 +1,69 @@
+﻿---
+ID: "61facd4b-1559-4e76-a806-19a890cde288"
+Parent: "5b2e850c-ec23-4542-a076-3a9f0d6c0187"
+Template: "b8f5894c-b493-4016-bf78-4090b0a2fd16"
+Path: /sitecore/content/OneWeb/Starbar/Data/Texts/ErrorPage/ErrorText
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Error Text
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220915T122201Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6de8e7f5-71ac-460f-a172-7edb58f4eb38"
+    - ID: "b3635965-6786-457c-9dee-28de73c0a331"
+      Hint: Text
+      Value: |
+        <h1 class="error-404">404 Error</h1>
+        <h1 class="youre-trapped">You're Trapped!</h1>
+        <p class="site-paragraph-large" style="line-height: 27px;">The page you were looking for no longer exists.</p>
+        <p>&nbsp;</p>
+        <style>
+            .error-404 {
+            font-size: 75px;
+            font-weight: 700;
+            color: #FCFAFA;
+            background: #7D716D;
+            display: block;
+            padding: 0px 20px;
+            }
+            .youre-trapped {
+            color: #ef3e33;
+            z-index: 1;
+            font-size: 49px;
+            font-weight: 400;
+            text-transform: uppercase;
+            }
+            @media only screen and (min-width: 1024px) {
+            .error-404 {
+            font-size: 119px;
+            font-weight: 700;
+            display: inline-block;
+            }
+            .youre-trapped {
+            font-size: 83px;
+            }
+            }
+        </style>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220915T122236Z

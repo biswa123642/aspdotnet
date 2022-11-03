@@ -1,0 +1,104 @@
+﻿---
+ID: "893c43db-9e8f-4dc6-8384-d80a10fa04a9"
+Parent: "05890881-d657-4603-b0d2-74fd837f3e74"
+Template: "b27059e6-1190-4273-92a0-d22af3c440b4"
+Path: /sitecore/content/OneWeb/Starbar/Data/Tabs/IPM/ImplementationTabs/ChemicalBiorational
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{4A6F3558-D2AD-4183-B232-A426B4681E72}">
+        <r
+          ds="/sitecore/content/OneWeb/Starbar/Data/Texts/IPM/ImplementationTabs/ChemicalBiorational/BreakFlyLifeCycle"
+          id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          ph="/section-content/column-2-4"
+          uid="{3D21610D-F474-4441-8504-0203847489D4}" />
+        <r
+          ds="/sitecore/content/OneWeb/Starbar/Data/Images/IPM/ImplementationTabs/ChemicalBiorational/BreakFlyLifeCycle"
+          id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          ph="/section-content/column-2-4"
+          uid="{26D5DADA-1420-40E5-B49A-CEA817DEF089}" />
+        <r
+          ds="/sitecore/content/OneWeb/Starbar/Data/Texts/IPM/ImplementationTabs/ChemicalBiorational/RecommendedProducts"
+          id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BA145DA85-01E3-4EDD-8788-4C57C25BDD30%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          ph="/section-content/column-1-4"
+          uid="{AF9A5A20-7C01-49F9-A51D-B7B33D12FDB8}" />
+        <r
+          ds="/sitecore/content/OneWeb/Starbar/Data/Linked Thumbnail List/IPM/RecommendedProducts"
+          id="{189D0B61-1B80-4180-8F7A-25BCD63692BB}"
+          par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B320616F7-C01D-4619-99D4-F2F3F03BB84D%7D&amp;Styles&amp;TitleHeadingLevel=%7B6A44D9C6-61F0-4B69-8E1A-FDC27F96BA0F%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          ph="/section-content/column-1-4"
+          uid="{3119622E-C76C-4F36-BBEA-1E331FB25D69}"
+          ccb="Clear on publish" />
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B5423143A-760D-4F0E-BA4D-0B02E649A778%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-title"
+          uid="{6E2BAC51-898B-484A-8126-650E0E8F84CE}" />
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-content"
+          uid="{EBBAAC1E-FA63-44AE-A28D-A8C7C249C3D8}" />
+        <r
+          ds=""
+          id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          par="ColumnWidth1=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth2=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1=%7BDC1543CA-D912-40C9-9896-3EF89762E87E%7D%7C%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D&amp;Styles2=%7BDC1543CA-D912-40C9-9896-3EF89762E87E%7D%7C%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;DynamicPlaceholderId=4&amp;CacheClearingBehavior=Clear%20on%20publish"
+          ph="section-content"
+          uid="{9E811DF0-3DF0-42ED-B5A7-C5FBE28C2C5F}"
+          ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Chemical Biorational
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220929T141859Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "70181515-2aab-4710-91f4-52a08151693e"
+      Hint: Heading
+      Value: "Chemical-Biorational"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "02ee0120-2b91-4072-be01-061d05cf6cd4"
+    - ID: "99f62656-1f3e-4f98-9eac-a596fb174ba0"
+      Hint: Content
+      Value: |
+        <h2>FEED-THROUGH FLY CONTROL</h2>
+        <p>Use feed-through fly control, such as <a rel="noopener noreferrer" href="http://centralflycontrol.com/" target="_blank">ClariFly<sup>®</sup> Larvicide</a>. Once ingested, it passes through the livestock and into the animal’s manure, where flies lay eggs. Here, the active ingredient interferes with the life cycle, preventing the adult flies from emerging from the manure by stopping them in the larval stage.</p>
+        <p><strong>Click on the logos to learn more.</strong></p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221007T111621Z

@@ -1,0 +1,80 @@
+﻿---
+ID: "d417586f-d1f3-4fe3-9fa5-b225bf6088e5"
+Parent: "652d13de-617b-426c-92df-07944848c489"
+Template: "77820909-82a2-4308-9e62-f54e15110ef3"
+Path: /sitecore/content/OneWeb/Starbar/Settings/Site Configuration
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "2da26fe5-8b7b-4912-a2fc-f683e630d5bb"
+  Hint: ProductAttributeLocation
+  Value: "{FB030C59-4DB6-4E0F-923E-493E35F05CD2}"
+- ID: "75e1ab85-58fa-4e28-9d2a-c7d8836b8ffa"
+  Hint: PageAttributeLocation
+  Value: "{09C9BFC2-1129-429A-8DB5-0AD4948CF5AA}"
+- ID: "e86000b0-2a64-4152-9178-6591115b5265"
+  Hint: BlogPostTopicAttributeLocation
+  Value: "{497D66DD-D9BC-4010-B293-923261B86F88}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{45DE997D-E6EF-4843-82B9-9DEA69672CFC}"
+- ID: "f885a9cc-d0c1-431b-8afe-85b73f80db86"
+  Hint: ArticleTypeAttributeLocation
+  Value: "{692D1CD0-4D87-49B0-B250-A8A4EB7B8F6A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0926e173-227e-40c2-9f60-0e5dbf4f45d8"
+      Hint: DisableExternalBrand
+      Value: 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220908T052027Z
+    - ID: "37cbf5a7-e02d-42f8-9cd1-7bbf37e23773"
+      Hint: GAIdGlobal
+      Value: "UA-145039385-1"
+    - ID: "3d8c2876-9123-4724-92b2-58e7a7db0452"
+      Hint: PriceSpiderCountry
+      Value: US
+    - ID: "4762f3c8-900d-44ff-ba2e-d44e57e8f5fb"
+      Hint: BrandName
+      Value: Levels of Fly Control | Starbar Products
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e85813ba-0f2d-4674-82df-7cd966fd5abc"
+    - ID: "9b7bb2ea-cc16-4ef0-862a-b5da3537a938"
+      Hint: PriceSpiderAccount
+      Value: 1747
+    - ID: "9d9e1e41-2e26-496b-936e-dfcf5fc5dd80"
+      Hint: Select Password Only Authentication User
+      Value: "5501fd42-0cb7-43cc-91c0-9764010bc1af"
+    - ID: "b3a292cb-7334-4a12-a807-10d38b8df488"
+      Hint: Password Only Authentication
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "be547b09-1b5f-4ed9-8772-2f79b5e64d83"
+      Hint: PriceSpiderConfig
+      Value: 625dc76e8eb6be0038042d94
+    - ID: "c07be27b-fcb2-44eb-9162-a1e183ee79b9"
+      Hint: BrandLogo
+      Value: |
+        <image mediaid="{BA9E398D-0EC7-4540-A2FB-F458428A8F7F}" />
+    - ID: "d5ffc3a1-1d5e-41b2-b824-3143a122b4e9"
+      Hint: Enable User Login
+      Value: 1
+    - ID: "d7d037d1-e378-40fe-a22d-7d9e73ba75a3"
+      Hint: GTMId
+      Value: "GTM-MGV4WWQ"
+    - ID: "d8692e4f-d312-490e-881b-84059310d731"
+      Hint: OneTrustCookiesID
+      Value: "572b722a-0c79-45b5-b872-e422df3bcd26"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221027T071731Z
+    - ID: "f65570f1-60bb-4355-841a-90653e2160de"
+      Hint: DisableGoogleAds
+      Value: 1

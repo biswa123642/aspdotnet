@@ -1,0 +1,32 @@
+{
+  "namespace": "Project.Sulfodene",
+  "references": [ "Feature.*" ],
+  "items": {
+    "includes": [
+      {
+        "name": "Content-Sulfodene",
+        "path": "/sitecore/content/OneWeb/Sulfodene",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      },
+      {
+        "name": "MediaLibrary-Sulfodene",
+        "path": "/sitecore/media library/Project/OneWeb/Sulfodene",
+        "scope": "singleItem",
+        "allowedPushOperations": "createUpdateAndDelete"
+      },
+      {
+        "name": "MediaLibrary-Sulfodene-Themes",
+        "path": "/sitecore/media library/Themes/OneWeb/Sulfodene",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      },
+      {
+        "name": "Forms-Sulfodene",
+        "path": "/sitecore/Forms/OneWeb/Sulfodene",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      }
+    ]
+  }
+}

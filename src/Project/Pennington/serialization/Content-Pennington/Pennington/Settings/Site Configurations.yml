@@ -1,0 +1,106 @@
+﻿---
+ID: "7f602828-9a53-481d-b043-188f07224fa5"
+Parent: "3c4803b8-eed9-42da-801a-54e2dc545897"
+Template: "77820909-82a2-4308-9e62-f54e15110ef3"
+Path: /sitecore/content/OneWeb/Pennington/Settings/Site Configurations
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220331T103855Z
+    - ID: "2da26fe5-8b7b-4912-a2fc-f683e630d5bb"
+      Hint: ProductAttributeLocation
+      Value: "{825180E9-4847-46DD-AFCD-4B60A051D45A}"
+    - ID: "41c147d8-4a0a-4627-a517-54fad45d5229"
+      Hint: EnableSurveyPolls
+      Value: 1
+    - ID: "4762f3c8-900d-44ff-ba2e-d44e57e8f5fb"
+      Hint: BrandName
+      Value: Pennington Lawn and Garden
+    - ID: "47df2dbd-41e2-41f7-9257-d512ae9b772d"
+      Hint: ArticleListingFacetType
+      Value: "Page-Attributes"
+    - ID: "668b8710-8e39-4b7b-87b5-3d7b68a13f5b"
+      Hint: Pagesize
+      Value: 8
+    - ID: "75e1ab85-58fa-4e28-9d2a-c7d8836b8ffa"
+      Hint: PageAttributeLocation
+      Value: "{F5BDD873-FA7C-4FEB-AB86-4E64B247611F}"
+    - ID: "7be09131-f96b-4f0e-acb8-2d50aa27c6e2"
+      Hint: PowerReviewsAPIKey
+      Value: "53f4a894-a149-4709-ba13-fa1b6235b335"
+    - ID: "7bea2506-c26d-4030-a5ef-e2bd2e8baa4c"
+      Hint: NoImage
+      Value: |
+        <image mediaid="{56B5AD4D-8604-4D4B-95A9-7364429C58A6}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "65ca9fd8-da54-464c-92a5-66be4d1af252"
+    - ID: "8f0f4b7c-759c-4871-91ae-d6166bf319ea"
+      Hint: PowerReviewsMerchantID
+      Value: 660759
+    - ID: "9b7bb2ea-cc16-4ef0-862a-b5da3537a938"
+      Hint: PriceSpiderAccount
+      Value: 1747
+    - ID: "9e24eada-2dbd-4c64-964d-da5d755fa5ad"
+      Hint: GAId
+      Value: "UA-145039385-1"
+    - ID: "afcfbb0d-d8af-4442-9083-d0f0712ed0a2"
+      Hint: PowerReviewsLocale
+      Value: en_US
+    - ID: "b40ebd0e-ff54-4ee7-8d12-e95a86743552"
+      Hint: ReviewMapperURL
+      Value: "{C0925571-31AC-4826-A2E9-D74398F91A71}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "be547b09-1b5f-4ed9-8772-2f79b5e64d83"
+      Hint: PriceSpiderConfig
+      Value: 5834d0d106232d734d340188
+    - ID: "bf6b073f-2c03-4d90-bda3-fd070fe69665"
+      Hint: DisablePriceSpider
+      Value: 
+    - ID: "c07be27b-fcb2-44eb-9162-a1e183ee79b9"
+      Hint: BrandLogo
+      Value: |
+        <image mediaid="{B276359B-9BF5-4E38-9435-7074797B4AF9}" />
+    - ID: "c9095aa3-af8f-436c-b8f1-26bc20c245c6"
+      Hint: SurvicateWorkspaceId
+      Value: 0a4fb9fe21e1d4f1b90403e1e4156837
+    - ID: "d30967e5-f8c5-4ee6-a5a0-559a6cf5d639"
+      Hint: PowerReviewsMerchantGroupID
+      Value: 79086
+    - ID: "d7d037d1-e378-40fe-a22d-7d9e73ba75a3"
+      Hint: GTMId
+      Value: "GTM-KBFWTM"
+    - ID: "d8692e4f-d312-490e-881b-84059310d731"
+      Hint: OneTrustCookiesID
+      Value: "33c2052b-3ad9-41f5-a5bb-ab04c809dc6a"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220527T075617Z
+    - ID: "df838412-cd35-4dab-92ac-82a5d203caa4"
+      Hint: FoodPlotGoogleMapsAPIKey
+      Value: AIzaSyC4KSlL24ERwRKSgUnKMmbihBlfIdIoAvM
+    - ID: "e4acfb78-8493-4948-af51-35da5b417a4d"
+      Hint: NumberOfScrolls
+      Value: 2
+    - ID: "ec3719f3-58b4-4504-8545-df1af5aef83d"
+      Hint: EnableSeoSchema
+      Value: 1
+    - ID: "ed38d73e-a875-424c-8f31-8e0b0c0d197e"
+      Hint: EnablePowerReviews
+      Value: 1
+    - ID: "f6a9e708-acdf-411a-a685-9d9cbf9252c1"
+      Hint: SelectSeoSchema
+      Value: |
+        {31906487-4CE4-42A4-97E4-4AF3390A11C5}
+        {258F3385-A91A-4F85-91BE-23754F010FCB}
+        {1E8390B0-6166-4E1E-81E2-FBEDE861C90F}
+        {5A6884B5-B433-458B-960F-A6959A28206E}
+        {61FE73DD-0B53-447B-8071-917CAF2B9161}
+        {E485C1AD-741F-40A7-847F-4278082FA82E}

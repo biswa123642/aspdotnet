@@ -1,0 +1,78 @@
+﻿---
+ID: "ed9a3878-8b48-48a2-8a40-8a57ed5437e6"
+Parent: "029815c4-43ea-479f-b1d4-8e91e2208c9a"
+Template: "a6ddac75-7d24-4bdb-b3f6-5f47fbb21379"
+Path: /sitecore/content/OneWeb/Starbar/Data/Accordions/WhereToBuy/WhereToBuy/Distributors
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{09BD444B-FABC-47EA-981D-2C8271655469}">
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B5423143A-760D-4F0E-BA4D-0B02E649A778%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-title"
+          uid="{B599FFA3-D1DC-4A63-B39B-2A2C0CF8FBC9}" />
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-content"
+          uid="{57EF9C7F-F60A-4B73-AD3C-01BE8271D1D9}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220920T052921Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5a236869-e375-49c0-a92d-0c2f1db7788f"
+      Hint: Content
+      Value: |
+        <ul class="three-column-list">
+            <li><a rel="noopener noreferrer" href="https://www.animalhealthinternational.com" target="_blank">AHI</a></li>
+            <li><a rel="noopener noreferrer" href="https://www.bwicompanies.com/" target="_blank">BWI</a></li>
+            <li><a rel="noopener noreferrer" href="http://www.fullersupplyco.com" target="_blank">Fuller Supply Company</a></li>
+            <li><a rel="noopener noreferrer" href="https://www.mwiah.com" target="_blank">MWI</a></li>
+            <li><a rel="noopener noreferrer" href="https://www.rjmatthews.com/" target="_blank">RJ Mathews</a></li>
+            <li><a rel="noopener noreferrer" href="https://www.vetpoultry.com/" target="_blank">Vet&amp;Poultry</a></li>
+            <li><a rel="noopener noreferrer" href="https://www.bradleycaldwell.com" target="_blank">Bradley Caldwell</a></li>
+            <li><a rel="noopener noreferrer" href="https://www.chemtac.com/" target="_blank">Chem Tac, Inc.</a></li>
+            <li><a rel="noopener noreferrer" href="http://www.kkvet.com" target="_blank">K&amp;K</a></li>
+            <li><a rel="noopener noreferrer" href="https://www.nelsonwholesale.com" target="_blank">Nelson Wholesale</a></li>
+            <li><a rel="noopener noreferrer" href="http://www.simplot.com/livestock_products/locations" target="_blank">Simplot Western Stockmen's</a></li>
+            <li><a rel="noopener noreferrer" href="http://www.vsi.cc/" target="_blank">VSI</a></li>
+            <li><a rel="noopener noreferrer" href="https://www.bestvetsolutions.com/" target="_blank">BVS</a></li>
+            <li><a rel="noopener noreferrer" href="https://www.coastalag.com/" target="_blank">Coastal Agricultural Supply, Inc.</a></li>
+            <li><a rel="noopener noreferrer" href="https://mfa-inc.com/" target="_blank">MFA Incorporated</a></li>
+            <li><a rel="noopener noreferrer" href="https://www.nitro-phos.com/" target="_blank">Nitro-Phos</a></li>
+            <li><a rel="noopener noreferrer" href="https://slscompanyinc.com/" target="_blank">SLS</a></li>
+        </ul>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7240053b-9140-48ac-acea-abfccd7761a1"
+      Hint: Heading
+      Value: DISTRIBUTORS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7049245f-3c0c-4990-8065-f40acc787747"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220921T151504Z

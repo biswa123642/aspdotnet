@@ -1,0 +1,45 @@
+﻿---
+ID: "5378abcd-910a-44e2-a3db-f5c565d0a9d4"
+Parent: "db597d05-7941-4483-910b-e37638f004b9"
+Template: "a14d9266-1924-4e7f-87cc-760e2f8429ce"
+Path: /sitecore/content/OneWeb/Starbar/Data/Feature Content Tiles/MeetQuikStrikeFamily/MeetQuikStrikeFamily/QuikStrikeAbatementStrip
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: QuikStrike Abatement Strip
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1e4da860-d6cf-4956-8d76-66331aa43cd0"
+      Hint: SubText
+      Value: QuikStrike<sup>&reg;</sup> Abatement Strip
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220919T061930Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "92686738-e81c-464e-919c-c1e3eadc1fcc"
+    - ID: "ac0ef552-e2a9-4e8f-8942-4b8ab5061e4b"
+      Hint: CTA
+      Value: |
+        <link text="LEARN MORE" anchor="" linktype="internal" class="" title=""  querystring="" id="{E0B48BE2-5E97-477F-9178-90CCE3C76F75}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d140070d-9058-400a-82ca-36aee31966d5"
+      Hint: Image
+      Value: |
+        <image mediaid="{8A09091B-9F9D-452B-A228-EC596D08B0C3}" ></image>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220919T063213Z

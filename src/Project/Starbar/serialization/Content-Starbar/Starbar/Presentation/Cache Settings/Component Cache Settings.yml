@@ -1,0 +1,73 @@
+﻿---
+ID: "da0be3d4-30ee-459c-9297-af1b28a14fb4"
+Parent: "25104b9f-1f4c-45c0-8581-532949075a78"
+Template: "e24de305-c60f-47d1-97c0-de121d6831d0"
+Path: /sitecore/content/OneWeb/Starbar/Presentation/Cache Settings/Component Cache Settings
+SharedFields:
+- ID: "1084d3d2-0457-456a-abbc-eb4cc0966072"
+  Hint: VaryByQueryString
+  Value: 1
+- ID: "3ad2506a-dc39-4b1e-959f-9d524addbf50"
+  Hint: VaryByParm
+  Value: 1
+- ID: "3d08db46-2267-41b0-bc52-be69fd618633"
+  Hint: Cacheable
+  Value: 1
+- ID: "8b6d532b-6128-4486-a044-ca06d90948ba"
+  Hint: VaryByData
+  Value: 1
+- ID: "e4451eaf-dbfd-4d31-a525-6b42f236289d"
+  Hint: Rendering
+  Value: |
+    {8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}
+    {DCEE78E1-1843-4456-A13A-F10A12191630}
+    {BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}
+    {3972C278-7E7A-4C2B-A293-66AF860F5C3A}
+    {86FBA02B-2E9C-4A00-9CCF-DE607B1FCDC7}
+    {0346C989-2CC7-4346-8920-F5F99F243EDB}
+    {4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}
+    {99520D64-FF14-4878-9D58-A61D64CAB722}
+    {4A0D4E0B-BC20-4F2E-BD84-A4BD35834E86}
+    {4646BD4F-05FF-4A19-9600-4D74F2F1548B}
+    {6DDA07A9-18D3-47A0-AB74-DF54956DD5F1}
+    {DEE8DDA7-AF00-48F6-9C60-19AB73EBA80D}
+    {87182F78-4399-4896-8D59-9D6A45282F8A}
+    {69D0A00E-FF06-4B17-BE59-BED330577680}
+    {13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}
+    {7561DEB5-5388-4A43-A4CB-353078D32352}
+    {28F481FC-631F-4BDF-9130-A2DA74164968}
+    {3C84ED23-7591-45E0-8850-1AE96D1342B1}
+    {0CFDA4AE-936C-4C05-890A-6A96058D566E}
+    {DC2C0FF6-C4B9-4D63-A6EC-7C3483C4D0DA}
+    {70BB3A1F-7525-4D7D-8618-79D865332364}
+    {D5455F55-05DD-4E43-B390-B3864B6FF737}
+    {088A5951-06DD-4E27-B748-903B3FFBDE1A}
+- ID: "f3e7e552-d7c8-469b-a150-69e4e14ab35c"
+  Hint: ClearOnIndexUpdate
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220621T190143Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "88713721-03d5-4de0-abf3-175e3a58631c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220630T064553Z

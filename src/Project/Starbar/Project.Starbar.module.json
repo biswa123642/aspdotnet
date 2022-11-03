@@ -1,0 +1,32 @@
+{
+	"namespace": "Project.Starbar",
+	"references": [ "Feature.*" ],
+	"items": {
+		"includes": [
+			//{
+			//	"name": "Content-Starbar",
+			//	"path": "/sitecore/content/OneWeb/Starbar",
+			//	"scope": "ItemAndDescendants",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//},
+			//{
+			//	"name": "MediaLibrary-Starbar",
+			//	"path": "/sitecore/media library/Project/OneWeb/Starbar",
+			//	"scope": "singleItem",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//},
+			{
+				"name": "MediaLibrary-Starbar-Themes",
+				"path": "/sitecore/media library/Themes/OneWeb/Starbar",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			},
+			//{
+			//	"name": "Forms-Starbar",
+			//	"path": "/sitecore/Forms/OneWeb/Starbar",
+			//	"scope": "ItemAndDescendants",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//}
+		]
+	}
+}
