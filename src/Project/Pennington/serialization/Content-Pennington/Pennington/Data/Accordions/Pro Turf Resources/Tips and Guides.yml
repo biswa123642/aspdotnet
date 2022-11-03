@@ -1,0 +1,72 @@
+﻿---
+ID: "956e4f68-8844-44cc-aff6-fbeac3f7ba59"
+Parent: "7ea68dd2-62fe-4f32-b7d1-45cf50e3e090"
+Template: "a6ddac75-7d24-4bdb-b3f6-5f47fbb21379"
+Path: /sitecore/content/OneWeb/Pennington/Data/Accordions/Pro Turf Resources/Tips and Guides
+BranchID: "bab1fb9b-58a3-4df8-9f05-204b25ddb8e0"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 25
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{09BD444B-FABC-47EA-981D-2C8271655469}">
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B5423143A-760D-4F0E-BA4D-0B02E649A778%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-title"
+          uid="{765E6B04-97DD-4164-81FB-42728CB82326}" />
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-content"
+          uid="{B2B781BE-A852-4CF4-AD1E-52F6F804030F}" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{A9A2844A-F548-402E-B58B-7EB1FC2908BD}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220516T102058Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5a236869-e375-49c0-a92d-0c2f1db7788f"
+      Hint: Content
+      Value: |
+        <a href="~/link.aspx?_id=EABB7EEA24DF4F419A4B0443D7F42E21&amp;_z=z" target="_blank">Pro Turf Seasonal Tips</a>&nbsp;<br />
+        <a href="~/link.aspx?_id=7944DF595D974D9CBFFE0BA96FCC3582&amp;_z=z" target="_blank">Seed Count Guide</a><br />
+        <a href="-/media/F7755A7AC3EF4057A7D91C1FA742C82A.ashx" target="_blank">Princess 77 Bermuda</a><br />
+        <a href="-/media/DFC0CDD2F0324CB4A0972F88063C45DC.ashx" target="_blank">Professional Seed Guide</a><br />
+        <a href="-/media/D5B2A680967649AEA4B8860624FB351D.ashx" target="_blank">Selecting a Turfgrass</a><br />
+        <a href="-/media/E5559BFBE2944DEBA04C6640F12797DD.ashx" target="_blank">Guide to Professional Turfgrasses</a>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7240053b-9140-48ac-acea-abfccd7761a1"
+      Hint: Heading
+      Value: <h3>Tips &amp; Guides</h3>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2d846701-5b5a-43e7-a03e-099b75d089e8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220520T112904Z

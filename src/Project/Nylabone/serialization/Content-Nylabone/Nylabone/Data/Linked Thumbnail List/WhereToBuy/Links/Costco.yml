@@ -1,0 +1,38 @@
+﻿---
+ID: "297b4b4c-b8de-486d-9cad-583c3ad36a46"
+Parent: "a580e8c0-e9ad-470e-b36f-02e75b8ef2af"
+Template: "20a8b875-b660-4893-91a7-b05f80e94666"
+Path: /sitecore/content/OneWeb/Nylabone/Data/Linked Thumbnail List/WhereToBuy/Links/Costco
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220521T043116Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7f307226-06ff-4960-87c0-c70530335bca"
+    - ID: "8daa9cfe-2ab1-4f9a-86ac-b2092acc9fde"
+      Hint: Link
+      Value: |
+        <link text="Costco" linktype="external" url="https://www.costco.com/CatalogSearch?dept=All&amp;keyword=nylabone" anchor="" target="_blank" />
+    - ID: "9a5ce26a-e5f7-4528-b319-d23a1be1eede"
+      Hint: Description
+      Value: Costco
+    - ID: "b3524bdb-f8ec-4d85-a20b-ef5f2837d74f"
+      Hint: Image
+      Value: |
+        <image mediaid="{3C4BB56F-4187-4C39-B099-00AC2CC38DAB}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220620T093558Z

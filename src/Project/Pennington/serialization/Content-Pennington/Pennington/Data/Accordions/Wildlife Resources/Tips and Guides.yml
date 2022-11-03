@@ -1,0 +1,80 @@
+﻿---
+ID: "d9a816b5-78fa-4374-8f71-2f11935afaad"
+Parent: "31987135-5de7-4a4c-8330-82419cf1e48a"
+Template: "a6ddac75-7d24-4bdb-b3f6-5f47fbb21379"
+Path: /sitecore/content/OneWeb/Pennington/Data/Accordions/Wildlife Resources/Tips and Guides
+BranchID: "bab1fb9b-58a3-4df8-9f05-204b25ddb8e0"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{09BD444B-FABC-47EA-981D-2C8271655469}">
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B5423143A-760D-4F0E-BA4D-0B02E649A778%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-title"
+          uid="{FE83626A-20CF-47DA-A85E-97B3270615BE}" />
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-content"
+          uid="{3CC48DC4-B728-4AAD-A748-544761C284E8}" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{A9A2844A-F548-402E-B58B-7EB1FC2908BD}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220516T100756Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5a236869-e375-49c0-a92d-0c2f1db7788f"
+      Hint: Content
+      Value: |
+        <a href="~/link.aspx?_id=E9E33B8BA6E74782974C8A4A5BDF7EC9&amp;_z=z" target="_blank">Benefits of Pennington Rackmaster Durana Clover</a><br />
+        <a href="~/link.aspx?_id=CDE5C029694E480085992F7FBDF59A11&amp;_z=z" target="_blank">Soil Sampling - Know your pH for the Best Food Plots</a><br />
+        <a href="~/link.aspx?_id=43F2218D619345A18A5DDCEA5DA5305C&amp;_z=z" target="_blank">Creating a Firm Seed Bed for your Food Plots</a><br />
+        <a href="~/link.aspx?_id=E93FF2A97A6C4D4EA4B58240C8D86F5D&amp;_z=z" target="_blank">Rackmaster Feeding Frenzy</a><br />
+        <a href="~/link.aspx?_id=A80C9E3465A44A5EA41416C579369748&amp;_z=z" target="_blank">Rackmaster Annual Food Plot Products</a><br />
+        <a href="~/link.aspx?_id=1393041B26BC4CD5BEAA9F29E990E3B9&amp;_z=z" target="_blank">Rackmaster Perennial Food Plot Products</a><br />
+        <a href="~/link.aspx?_id=D6F3809777814BB18D47D24012420529&amp;_z=z" target="_blank">Planting Food Plots in the Spring</a><br />
+        <a href="~/link.aspx?_id=50437130BA42440CBFC8AA7D1E8010DF&amp;_z=z" target="_blank">Guide to Growing Successful Game Plots</a><br />
+        <a href="~/link.aspx?_id=A2714D848D8C41B19A40FAB30A110832&amp;_z=z" target="_blank">Guide to Interpreting Soil Tests</a><br />
+        <a href="~/link.aspx?_id=0C90EF2BB9FE41EEB977C10A4A40DA40&amp;_z=z" target="_blank">Soil Testing Guide</a>
+        <a href="-/media/F4C8D03F42984792A04EF8ED9F604E20.ashx" target="_blank">Pocket Planner</a><br />
+        <a href="-/media/315459948BAF472FAD8FFEE9225178F7.ashx" target="_blank">Seed Planting Guide</a><br />
+        <a href="-/media/DFD8FD36F6E842F59BBC24CA147867FA.ashx" target="_blank">Tips to Maximize Durana White Clover Performance in Food Plots</a><br />
+        <a href="-/media/0F4DCFD0AD39432EA9DEB0350239B0A2.ashx" target="_blank">Wildlife Catalog</a>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7240053b-9140-48ac-acea-abfccd7761a1"
+      Hint: Heading
+      Value: <h3>Tips &amp; Guides </h3>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d7077ff7-b983-4303-82cf-ae51aadb1402"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220516T101539Z

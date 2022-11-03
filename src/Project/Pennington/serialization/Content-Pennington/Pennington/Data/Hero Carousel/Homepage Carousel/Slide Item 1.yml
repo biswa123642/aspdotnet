@@ -1,0 +1,48 @@
+﻿---
+ID: "8b950325-efc1-4f46-acc4-4f60fd29e624"
+Parent: "91f94d51-2d4b-4073-947e-7968f0bee479"
+Template: "3c7c79e8-554d-46d9-bf1a-63da22a4ee6f"
+Path: /sitecore/content/OneWeb/Pennington/Data/Hero Carousel/Homepage Carousel/Slide Item 1
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{0F1F8145-0F2D-425C-A054-B3C8E04B6059}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220208T144401Z
+    - ID: "3bfd4b9e-3049-4c8d-a9b5-6bebb83f895d"
+      Hint: SlideImage
+      Value: |
+        <image mediaid="{60DA2EC4-BCFF-484A-AE2C-B6D0B6BA8095}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ed02b1c7-f673-4573-b637-b135a87b0c9d"
+    - ID: "a8933445-15ca-4e23-b171-a33892eb0ef8"
+      Hint: SlideCardTitle
+      Value: THE BIRD FOOD PEOPLE.
+    - ID: "b34e88f9-8800-43b1-92b5-029fbfae12e9"
+      Hint: SlideCardLogo
+      Value: |
+        <image mediaid="{595619DB-6207-4A16-812B-B3847656FCDD}" ></image>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d691b058-6e52-4e4b-baae-a23aed9de6e0"
+      Hint: SlideCardSubText
+      Value: "Pennington is dedicated to creating the best wild bird food available - by birders, for birders."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220509T102937Z
+    - ID: "e10d2e79-68cc-438a-a732-abf80f62be76"
+      Hint: SlideCardCTA
+      Value: |
+        <link linktype="internal" text="MORE INFO" querystring="" target="" id="{9C306493-33D7-4306-8905-46A03D214E3C}" />

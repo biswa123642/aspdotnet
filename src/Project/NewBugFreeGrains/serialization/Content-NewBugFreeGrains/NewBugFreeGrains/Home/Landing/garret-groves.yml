@@ -1,0 +1,85 @@
+﻿---
+ID: "cbb1fd14-8b57-4d50-ba2e-b14f3ae34c4c"
+Parent: "3a936bff-ce41-414a-ac69-55abd6be48ba"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/NewBugFreeGrains/Home/Landing/garret-groves"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{0341F4E0-66C3-4AE0-BFFE-4C856FC2B4EB}"
+          p:before="*"
+          s:ds="{092B55F7-2F53-46D8-9455-A897EA9E5D63}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B45B01501-C549-43CA-A9C3-96BA64B7920B%7D&amp;Styles=%7B483AF548-57D7-4735-A003-5710259189CC%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-1-1/container-2" />
+        <r
+          uid="{A370C4BB-6CFA-490B-AB8F-AF9A87A6EB0F}"
+          p:after="r[@uid='{0341F4E0-66C3-4AE0-BFFE-4C856FC2B4EB}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{1788229D-6F31-413A-ABA4-3848EDB2D8E0}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1&amp;Styles1=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T110652Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: garret groves
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Central Life Sciences welcomes Garret Groves to the Specialty Agriculture sales team for its Agricultural Products division. 
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Central Life Sciences welcomes Garret Groves to the Specialty Agriculture sales team for its Agricultural Products division. 
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Garret Groves | Bug Free Grains
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Garret Groves | Bug Free Grains
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b13eb838-4a25-4ceb-8ca9-dc4e1b978b26"
+    - ID: "9bf7a7f6-34f8-4c38-a3d7-2fd0470518b1"
+      Hint: HideInSearchResults
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{54A870A2-A065-445E-BA5A-41C2B9DCD47A}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221003T061352Z

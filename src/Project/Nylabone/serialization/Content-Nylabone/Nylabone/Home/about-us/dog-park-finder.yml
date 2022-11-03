@@ -1,0 +1,131 @@
+﻿---
+ID: "3dedb3bd-e939-4f10-ac4e-51566f3d73b8"
+Parent: "abaa70ba-e506-452b-9c84-af898f327555"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/Nylabone/Home/about-us/dog-park-finder"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{BE0725D0-6671-4CB1-BB57-9403BDDE6DFE}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{74A95AC4-9909-4FEC-B876-31EF1B2E7BC0}"
+          p:before="*"
+          s:ds="{06C3E1BF-E2B0-48C9-8781-F730DB8CDBBA}"
+          s:id="{064D8EB1-51D4-41AA-90DD-166CA0D5F899}"
+          s:par="CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=9&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames&amp;Styles"
+          s:ph="/main/container-1/row-3-2" />
+        <r
+          uid="{C1DA2CE8-BC3C-455A-A991-7E8B7A5EA3F0}"
+          p:after="r[@uid='{74A95AC4-9909-4FEC-B876-31EF1B2E7BC0}']"
+          s:ds="{0E4D08E4-6DD7-4C2D-8249-041394BC9A17}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BBC768634-7E98-408D-AB1F-FE0747580F69%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/container-1/row-4-2" />
+        <r
+          uid="{CD13F2AE-6F03-499B-87C4-6C4FC3809B44}"
+          p:after="r[@uid='{C1DA2CE8-BC3C-455A-A991-7E8B7A5EA3F0}']"
+          s:ds="{2829F0B4-D2D0-4869-884F-DD070A34E11D}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;FieldNames=%7BBC768634-7E98-408D-AB1F-FE0747580F69%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/container-1/row-2-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{C38C4828-FD1B-4E55-8AE5-710C4A9C8A99}"
+          p:after="r[@uid='{CD13F2AE-6F03-499B-87C4-6C4FC3809B44}']"
+          s:ds="{4E5A1E95-B789-4219-A5DD-63E63EA13A89}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/container-1/row-2-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{16DCDD80-8665-4554-88EF-7F77E3AE246E}"
+          p:after="r[@uid='{C38C4828-FD1B-4E55-8AE5-710C4A9C8A99}']"
+          s:ds=""
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%2F&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B4AD3C106-FA3E-45B9-A41D-48603132FD0E%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/container-1/row-1-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{8EDC3758-AB66-42A9-AFFA-E541341F1FC2}"
+          p:after="r[@uid='{16DCDD80-8665-4554-88EF-7F77E3AE246E}']"
+          s:ds="{8D81BDD1-B6A0-457F-9FA3-958A6E04AC8B}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BBC768634-7E98-408D-AB1F-FE0747580F69%7D&amp;Styles=%7B79EF931B-D638-46F0-813E-1C48D7796873%7D%7C%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D%7C%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D%7C%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/container-3"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{85D3D257-CB53-4407-8C2F-581523D20B46}"
+          p:after="r[@uid='{8EDC3758-AB66-42A9-AFFA-E541341F1FC2}']"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3%2C4&amp;Styles1&amp;Styles2=%7B2C38BB71-3B7D-4FA1-8A14-FBE99618FD79%7D%7C%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=2"
+          s:ph="/main/container-1" />
+        <r
+          uid="{7B896E46-672A-4DF8-8926-91BA2698EA43}"
+          p:after="r[@uid='{85D3D257-CB53-4407-8C2F-581523D20B46}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{7B2FB75F-8DFE-4EEB-8222-1A2B1D97705E}"
+          p:after="*[1=2]"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220504T092558Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "363cfc7c-aff0-4d45-8a1f-11c311fd36bc"
+      Hint: ShowTextWithOverlay
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: dog park finder
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Find the nearest dog park to your location. Our dog park locator shows you where the closest local dog parks can be found.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Dog Park Locator | Find A Dog Park Near You | Nylabone
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Dog Park Locator | Find A Dog Park Near You | Nylabone
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "084e249d-34ff-487d-b696-f74dcf45baae"
+    - ID: "9bf7a7f6-34f8-4c38-a3d7-2fd0470518b1"
+      Hint: HideInSearchResults
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220627T072502Z

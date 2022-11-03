@@ -1,0 +1,100 @@
+﻿---
+ID: "57ee0ef9-9ff1-4046-ae41-5b231e7c0c15"
+Parent: "31fe5a46-fcf5-4b21-b473-0e9684b7b254"
+Template: "7bdf7d45-c98f-4e4d-ac3a-ad8035780bbe"
+Path: "/sitecore/content/OneWeb/Pennington/Home/all-products/fertilizer/plant-fertilizer"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{43E6189D-5757-4927-9ECE-59E0C4A4DB14}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 650
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "237274d5-0911-4d4e-a9eb-48c2a8483ca1"
+      Hint: FeaturedChildList
+      Value: |
+        {7D29FF17-ADC9-46EC-B163-C55DE6FBB43F}
+        {652C4491-FD97-4B2A-AFA7-005ED29EA0ED}
+        {F4F8D76D-03D3-4326-AF91-8F6E7BDEF164}
+        {87086DA8-077E-4D9C-9FB6-A24F35F4F292}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220507T164400Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{A6707444-FF23-43AB-8400-31B5BA056130}" />
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "363cfc7c-aff0-4d45-8a1f-11c311fd36bc"
+      Hint: ShowTextWithOverlay
+      Value: 1
+    - ID: "41b17cd3-d543-4c7c-9bfa-b21765882326"
+      Hint: HeroImageMobile
+      Value: |
+        <image mediaid="{2BAFB982-3A05-4472-BAEB-13CE4DF5DA8B}" />
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Plant Fertilizer
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: See our Pennington, Lilly Miller, Ironite, and Alaska fertilizer products.
+    - ID: "54a1450c-b9d8-42ce-b085-8c9109daaf37"
+      Hint: RelatedArticlesandProductsLabel
+      Value: 
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: <p>Our premium plant fertilizer products help you grow healthy, beautiful plants indoors and out. From rich, deep green leaves to nutritious fruit and luxuriant hydrangea blossoms, Pennington plant fertilizers provide your plants with ideal blends of nutrients and minerals to achieve the results you've been dreaming of.</p>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: See our Pennington, Lilly Miller, Ironite, and Alaska fertilizer products.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Plant Fertilizer | Pennington
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Plant Fertilizers
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "56940672-8508-45a3-88bc-92e268ca83bd"
+    - ID: "92f32441-cec4-42a7-ba44-83e8bb569c74"
+      Hint: FacetAttributes
+      Value: "{4BE67C63-A4AB-47A4-B186-555CB84797A1}|{B399FE7C-A986-482A-804B-9FA5D5DCC3A9}|{C246FA14-7070-4F7E-B529-092F3196C540}|{4B1E2B98-9F70-4A34-8B19-B9C15C1A4566}|{ACF703F8-E8CF-45E6-9B5B-A259914718F4}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d19528d9-1e15-4e1e-94f1-c1bba2804fbb"
+      Hint: FeaturedTitle
+      Value: Plant Fertilizer
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{A6707444-FF23-43AB-8400-31B5BA056130}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220527T083706Z
+    - ID: "f0d0a9d9-6b70-4a54-a04a-537c38d5b2e1"
+      Hint: RelatedArticlesLabel
+      Value: RELATED ARTICLES
+    - ID: "fb5870bf-03a2-4ae3-9d9a-c993e5a18e3b"
+      Hint: FeaturedImage
+      Value: |
+        <image mediaid="{CE8035CB-BE7D-4C6B-864E-6471048BCCDA}" />
+    - ID: "fb742e87-7bf7-4c72-97a9-987a40989ece"
+      Hint: RelatedArticles
+      Value: |
+        {CAD0DAE2-AA14-4AB6-AEF7-343844963CAB}
+        {BC802B28-7C3F-4413-8EA4-DA4F210096E1}
+        {197C54CC-CCE4-4201-B7C0-59C1B9EA84E6}
+        {815C81B7-CE7E-4E87-A9B2-47A4AF9A3DC5}

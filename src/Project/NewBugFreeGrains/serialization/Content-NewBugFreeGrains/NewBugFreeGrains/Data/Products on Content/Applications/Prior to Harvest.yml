@@ -1,0 +1,46 @@
+﻿---
+ID: "9f850862-779f-4847-bd1b-056f95ae7558"
+Parent: "4a21e919-dde3-46d9-83ea-122d643c9883"
+Template: "5b78968d-5913-4eb0-a978-0b706603291c"
+Path: /sitecore/content/OneWeb/NewBugFreeGrains/Data/Products on Content/Applications/Prior to Harvest
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220930T040956Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "576cb3b5-6a5f-49f7-a3af-04694c3ad955"
+    - ID: "95d893d1-43ae-4c07-bc1e-9839b5cffed5"
+      Hint: RelatedProducts
+      Value: |
+        {AF002163-4852-455C-8020-76CEBE7F7F7C}
+        {0D740F47-84D1-45B0-B551-527197E8E102}
+        {C75C1524-5B4E-46A1-91A8-7B6F252EB1CD}
+        {E187C744-5D1E-46A1-B80D-DF73A434E91B}
+        {0555AA5A-5AF1-4B8B-B84E-CCC4016A5E2A}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "be107673-5a64-4a47-9472-c91e8312cb3d"
+      Hint: RelatedProductsLabel
+      Value: Recommended Products
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220930T041115Z

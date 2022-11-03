@@ -1,0 +1,38 @@
+﻿---
+ID: "bf8ebc8d-03a2-44bd-a2c8-d154be2d25e7"
+Parent: "29480c9f-53f3-4f3a-98b5-d46b4bb10980"
+Template: "0c9bae31-9786-43ca-93fd-de3ef38a85d4"
+Path: /sitecore/content/OneWeb/Nylabone/Data/Hero Carousel/HomePage/CarouselData/SlideItem5/CarouselItem
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Hero Carousel CTA Item
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "08376f75-ec67-4014-9916-44c83984ca8c"
+      Hint: HeroImage
+      Value: |
+        <image mediaid="{908E17DD-5151-46B4-BB58-5EDA9E847F41}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220208T084455Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b45f95f8-597d-4d70-b166-55b5b5ff27d0"
+    - ID: "8f33dbfa-cb0e-45d5-a7aa-5256ce6d1175"
+      Hint: ListItemCTA
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{7D3E30E3-6802-4EAE-B094-700555AF3C14}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220524T155814Z

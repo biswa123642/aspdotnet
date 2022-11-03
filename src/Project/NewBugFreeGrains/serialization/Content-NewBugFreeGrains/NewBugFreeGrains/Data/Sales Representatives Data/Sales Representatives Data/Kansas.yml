@@ -1,0 +1,36 @@
+﻿---
+ID: "efe8d650-dcb9-4271-bdf8-2b30126c33c6"
+Parent: "df4d8390-c24f-4f3b-876e-0a52147463be"
+Template: "6e7840e3-5d65-44e8-b1dd-f418b11653d8"
+Path: /sitecore/content/OneWeb/NewBugFreeGrains/Data/Sales Representatives Data/Sales Representatives Data/Kansas
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220429T044049Z
+    - ID: "89588acd-1d0d-4092-90c9-8831be0f26f0"
+      Hint: StateName
+      Value: Kansas
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "01ecba4e-3e03-48a0-9916-8b92318ff633"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220929T133528Z
+    - ID: "e4c426fe-7336-4e80-8c2d-f89f02659a76"
+      Hint: SalesRepList
+      Value: "{AAB62C19-5080-45FA-8AE9-6F3D8C78D481}"
+    - ID: "fe92cf46-537c-4e47-8d4a-e418794d9780"
+      Hint: StateCode
+      Value: KS

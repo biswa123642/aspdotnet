@@ -1,0 +1,45 @@
+﻿---
+ID: "b9553959-a27b-4922-a06b-50d6ed86b636"
+Parent: "99c96d7c-da20-4c83-a81d-21d6038491f5"
+Template: "a14d9266-1924-4e7f-87cc-760e2f8429ce"
+Path: /sitecore/content/OneWeb/Nylabone/Data/Feature Content Tiles/AboutUs/WhyNylabone/FeatureTiles/ContentItem1
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Content Tile 1
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220429T005950Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8da54cb0-429a-4e30-9879-0af77fe5b382"
+    - ID: "ac0ef552-e2a9-4e8f-8942-4b8ab5061e4b"
+      Hint: CTA
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{D80F3744-250C-4B51-A714-93B576A85400}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "bb396280-be23-4d8a-94e9-b4c5dcc562ed"
+      Hint: TitleClass
+      Value: 
+    - ID: "d140070d-9058-400a-82ca-36aee31966d5"
+      Hint: Image
+      Value: |
+        <image mediaid="{0A07F005-6700-4921-8C77-347478A725BD}" ></image>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220525T043815Z

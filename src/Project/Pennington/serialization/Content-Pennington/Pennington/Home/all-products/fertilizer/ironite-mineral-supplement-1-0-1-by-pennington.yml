@@ -1,0 +1,147 @@
+﻿---
+ID: "e0d60fd7-9814-429a-92b4-eeda28c459dd"
+Parent: "31fe5a46-fcf5-4b21-b473-0e9684b7b254"
+Template: "bc41b87d-2a9b-4689-9f51-80bb5b31a6e7"
+Path: "/sitecore/content/OneWeb/Pennington/Home/all-products/fertilizer/ironite-mineral-supplement-1-0-1-by-pennington"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{772D99D8-DEC9-4A2C-A5D1-4F84B9914BA3}"
+- ID: "961cadd8-8f7d-4b12-b0da-7af04b54b22d"
+  Hint: OpenGraphType
+  Value: Product
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1300
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: "{A9B08EE5-2A25-4D78-B3C6-A58634811BC9}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{C7A8C02A-E5F0-4DF0-9009-9C169D525F94}"
+          p:before="*"
+          s:ds="local:/Data/Youtube Video"
+          s:id="{3C84ED23-7591-45E0-8850-1AE96D1342B1}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier"
+          s:ph="/main/sxa-product-detail/container-1/row-1-4/row-1-14" />
+        <r
+          uid="{D3FDE813-1922-4D3C-914A-F5EFCC459846}"
+          p:after="r[@uid='{C7A8C02A-E5F0-4DF0-9009-9C169D525F94}']"
+          s:ds="local:/Data/dark-green-lawn"
+          s:id="{4A0D4E0B-BC20-4F2E-BD84-A4BD35834E86}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5&amp;CacheClearingBehavior=Clear%20on%20publish"
+          s:ph="/main/sxa-product-detail/container-1/row-1-4/row-1-14"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{D7993BE0-DB55-4C5B-B03D-F33E4BB00C49}"
+          p:after="r[@uid='{D3FDE813-1922-4D3C-914A-F5EFCC459846}']"
+          s:ds="{19749DB5-2B46-4BCF-8C05-22B6F3FFA048}"
+          s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass&amp;FieldNames=%7BAA195DA4-4915-4462-A262-115A97F7AA23%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/sxa-product-detail/container-1/row-1-4/row-1-14/row-2-1" />
+        <r
+          uid="{05B32C1E-3C13-495A-83BE-479F6FF3F920}"
+          p:after="r[@uid='{D7993BE0-DB55-4C5B-B03D-F33E4BB00C49}']"
+          s:ds="{F13A0B37-4FE4-49D2-AC13-895AD77161F4}"
+          s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass=col-md-3&amp;FieldNames=%7B735BBE37-C514-466E-A123-80308FFEFE05%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/sxa-product-detail/container-1/row-1-4/row-1-14/row-1-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{CB759EA0-2ED1-416A-B3A7-53A392EA0666}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-product-detail/container-1/row-1-4/row-1-14" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02a41838-168c-4858-bafd-f0031b877ddc"
+      Hint: ProductAttributes
+      Value: "{BF9F03CE-BC15-44DA-B794-9426B6BCE80D}|{D81E4ADB-1366-4E86-8F28-644EC9A67AB1}|{226C4D8E-363C-4AEB-AE4C-3EB97A71E4A1}|{1D64BE1B-DC99-4348-9B51-4890A316FB51}|{FEFB3517-0CCD-4BC8-8FC1-430136FC4380}|{17532AFF-148C-4784-97E3-B5144EDD997D}|{3915EC8C-4761-4358-A844-35BD32E33C35}|{F326370F-AD56-4305-9D48-BC21BB417857}|{85A1C477-BFFF-45A2-829F-86D839D9801E}|{CF9A5FD0-27CB-4142-8138-CC523387BABA}|{679F21BC-4EC6-42D0-A153-E2FD42581CA4}|{D939E4AD-76D2-4D87-9A4D-4717AED25F84}|{FCC6BAD9-D471-4573-A948-FAF1A3592908}|{FB941B12-2296-4493-804A-17B99DD00CC1}"
+    - ID: "1e2f8b03-c529-4fee-8663-5ec9f6b6a701"
+      Hint: SecondaryCategories
+      Value: "{31FE5A46-FCF5-4B21-B473-0E9684B7B254}|{7D29FF17-ADC9-46EC-B163-C55DE6FBB43F}|{E7247749-803C-4EA3-88D0-3BE4B8E39FF6}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220507T164401Z
+    - ID: "30b0a514-dc94-432c-9655-8c01e474023f"
+      Hint: ExtendedContent
+      Value: |
+        <ul>
+            <li>Safely use all through summer to maintain a deep green lawn </li>
+            <li>Creates a deep green lawn with REDUCED MOWING+<br />
+            +versus regular lawn fertilizers that promote growth&nbsp;</li>
+            <li>Non-staining and non-burning<br />
+            *when used as directed at the label application rate of 3 lbs / 1,000 sq. ft. will not burn or damage plants, shrubs, or grass</li>
+            <li>Boost regular spring and fall fertilizer routine </li>
+            <li>Use on lawns, flowers, shrubs, vegetables and trees </li>
+            <li>NPK 1-0-0 </li>
+        </ul>
+        <h3>About This Product</h3>
+        <p>Vibrant, deep green foliage is a sign of a vigorous plant. Pale green or yellow foliage can be caused by nutrient deficiencies which can be corrected by the Iron, Sulfur and other minerals found in Ironite Mineral Supplement. Use this product to green up your lawn and garden.</p>
+        <p><strong>How To Use</strong></p>
+        <p>For best results on lawns, use 4 times per year as a supplement to your regular fertilizer program.</p>
+        <p>Apply according to rates provided on the product package, not to exceed 10 lawn applications per year.</p>
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Ironite Mineral Supplement 1-0-0 from the makers of Pennington"
+    - ID: "50094021-6c44-4bb3-b384-f4e2bc0262ea"
+      Hint: RelatedArticlesAndProducts
+      Value: |
+        {805AD861-4306-462C-A480-034ABA21481E}
+        {E0D60FD7-9814-429A-92B4-EEDA28C459DD}
+        {65FD75CF-CA39-44B5-BF52-EC27178C342E}
+        {A8CDFCDC-E669-4405-A454-02A8DF8CA480}
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Ironite granules are a mineral supplement and contain soluble iron, giving your plants a quick greening.
+    - ID: "54a1450c-b9d8-42ce-b085-8c9109daaf37"
+      Hint: RelatedArticlesandProductsLabel
+      Value: RELATED ARTICLES & PRODUCTS
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: <p>Ironite granules are a mineral supplement and contain soluble iron, giving your plants a quick greening.</p>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Ironite granules are a mineral supplement and contain soluble iron, giving your plants a quick greening.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Ironite Mineral Supplement 1-0-0 from the makers of Pennington | Pennington"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: "Ironite Mineral Supplement 1-0-0 from the makers of Pennington"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "06b2259a-6c6c-4dac-bda0-e45666db949c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "ca373527-0c18-4282-83b0-121b8a197598"
+      Hint: LongTitle
+      Value: "Ironite Mineral Supplement 1-0-0&nbsp;from the makers of Pennington"
+    - ID: "caaa6c5b-798c-4d26-8919-fe66d620f798"
+      Hint: Page Attributes
+      Value: "{4D1303DF-A072-42E5-AFCD-FF9BC4EB25FB}|{54D58871-6FDB-4113-A7A3-F9D93CDB751F}|{2019214E-5E19-4AAC-91D2-B84A4AE6629B}|{2D4EDA96-A4DA-4863-BEEF-A2A8C2701FCE}|{3D75F954-FFDD-40F1-AE94-077EE82C0B34}|{29756A66-1C8C-4DD9-B10B-FE048E0B2406}|{F4ACC74E-B4B3-4721-AD32-CC1AF750ADA6}|{A175ACD3-18CD-478B-B258-4CA5577092B0}"
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{1E22F550-D2EC-4222-BE47-1D2A13564E50}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220610T103946Z

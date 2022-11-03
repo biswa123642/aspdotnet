@@ -1,0 +1,42 @@
+﻿---
+ID: "5b917dab-b4ec-4cd1-88e1-fe5a21c37830"
+Parent: "1e5c6880-46ad-48fe-9009-f2dbcb62622b"
+Template: "9ce871ef-0a1e-497d-ba48-6245acd12eb1"
+Path: /sitecore/content/OneWeb/NewBugFreeGrains/Home/resources
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{9CE871EF-0A1E-497D-BA48-6245ACD12EB1}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "22753447-be25-4035-a3c9-7f875afe8e57"
+      Hint: RedirectUrl
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{31F99D71-FBBF-4410-80D7-7D935B12629E}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220921T050111Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Resources
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1351edcc-bdd8-4b94-bd2b-da23a510e393"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221007T113142Z

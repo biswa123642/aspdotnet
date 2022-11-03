@@ -1,0 +1,116 @@
+﻿---
+ID: "23a08d74-3488-4980-ac83-7215bb6dc59b"
+Parent: "a1a06add-8681-402c-920f-bccb609596bf"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: /sitecore/content/OneWeb/Nylabone/Home/faq
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{BE0725D0-6671-4CB1-BB57-9403BDDE6DFE}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 225
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{BCFC7537-EFF4-434C-96F5-BF4F55FD175B}">
+        <r
+          ds="{5D201D6F-A35A-4A31-A58B-63E9D944CE2F}"
+          id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BBC768634-7E98-408D-AB1F-FE0747580F69%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          ph="/main/container-1/row-3-2"
+          uid="{CE6BA590-9558-49EA-98E4-A67C13866F55}" />
+        <r
+          ds="{E6BD7847-409F-4C85-8F2A-E3CD80257201}"
+          id="{DEE8DDA7-AF00-48F6-9C60-19AB73EBA80D}"
+          par="EasingFunction=Swing&amp;Speed=500&amp;CanOpenMultiple&amp;CanToggle=1&amp;ExpandedByDefault&amp;ExpandOnHover&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles=%7B6B6DCF31-18A6-4538-BA2F-27787379D4E0%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6&amp;CacheClearingBehavior=Clear%20on%20publish"
+          ph="/main/container-1/row-2-2"
+          uid="{0D0F2938-3432-437D-8CB9-DEA8CDE4515E}"
+          ccb="Clear on publish" />
+        <r
+          ds=""
+          id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          par="Filter&amp;RenderingIdentifier&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Separator=%2F&amp;CacheClearingBehavior=Clear%20on%20publish&amp;FieldNames=%7B4AD3C106-FA3E-45B9-A41D-48603132FD0E%7D&amp;BreadcrumbRoot&amp;DynamicPlaceholderId=5&amp;IsNavigation&amp;Reset Caching Options"
+          ph="/main/container-1/row-1-2"
+          uid="{C18707B1-BAC7-4751-8978-AD0C3C8BBFF7}"
+          ccb="Clear on publish" />
+        <r
+          ds="{8D81BDD1-B6A0-457F-9FA3-958A6E04AC8B}"
+          id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          par="RenderingIdentifier&amp;Styles=%7B79EF931B-D638-46F0-813E-1C48D7796873%7D%7C%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D%7C%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D%7C%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BBC768634-7E98-408D-AB1F-FE0747580F69%7D&amp;DynamicPlaceholderId=4&amp;CacheClearingBehavior=Clear%20on%20publish&amp;Reset Caching Options"
+          ph="/main/container-3"
+          uid="{AE893F16-B79E-4C31-BE8B-BD0776C7DDC1}"
+          ccb="Clear on publish" />
+        <r
+          ds=""
+          id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          par="Styles6&amp;DynamicPlaceholderId=2&amp;Styles8&amp;Styles4&amp;Styles7&amp;Reset Caching Options&amp;CacheClearingBehavior=Clear%20on%20publish&amp;EnabledPlaceholders=1%2C3%2C2&amp;Styles2&amp;Styles1&amp;Styles5&amp;SplitterSize=2&amp;Styles3"
+          ph="/main/container-1"
+          uid="{1903C56A-45F7-4EBE-9229-48D07DD565F1}" />
+        <r
+          ds=""
+          id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;DynamicPlaceholderId=1&amp;BackgroundImage&amp;CacheClearingBehavior=Clear%20on%20publish&amp;Reset Caching Options"
+          ph="main"
+          uid="{7D41DB84-3C63-45FE-B2A6-F6AF0DF20A0B}"
+          ccb="Clear on publish" />
+        <r
+          ds=""
+          id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;DynamicPlaceholderId=3&amp;BackgroundImage&amp;CacheClearingBehavior=Clear%20on%20publish&amp;Reset Caching Options"
+          ph="main"
+          uid="{4359810D-99A0-4E42-AE06-93FA0336C3B8}" />
+      </d>
+      <d
+        id="{0B4A31C9-712D-4578-A396-2DDC0F34B63A}"
+        l="{72C595AD-68BB-44BC-B5CD-2A857039515F}" />
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220505T093924Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "363cfc7c-aff0-4d45-8a1f-11c311fd36bc"
+      Hint: ShowTextWithOverlay
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Frequently Asked Questions
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Read about frequently asked questions on Nylabone products. Learn more about why Nylabone products a are safe choice for your dog.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Frequently Asked Questions About Nylabone Products
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Frequently Asked Questions About Nylabone Products
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7caf2b5e-4265-447c-ac80-4e71d23d6880"
+    - ID: "9bf7a7f6-34f8-4c38-a3d7-2fd0470518b1"
+      Hint: HideInSearchResults
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220627T072616Z

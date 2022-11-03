@@ -1,0 +1,69 @@
+﻿---
+ID: "63b8d7cc-8367-4507-9aa1-b1a1c0ceb6ea"
+Parent: "d313f599-0871-4aa3-80a7-b712213bb0ec"
+Template: "a6ddac75-7d24-4bdb-b3f6-5f47fbb21379"
+Path: /sitecore/content/OneWeb/Pennington/Data/Accordions/Grass Seed FAQs/FAQ 1
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{09BD444B-FABC-47EA-981D-2C8271655469}">
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B5423143A-760D-4F0E-BA4D-0B02E649A778%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-title"
+          uid="{5C547953-DCBE-4E46-931D-BC08F7ABE150}" />
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-content"
+          uid="{89955A02-FB17-482A-A7C3-2809A6AAEBF0}" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{A9A2844A-F548-402E-B58B-7EB1FC2908BD}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220428T092155Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5a236869-e375-49c0-a92d-0c2f1db7788f"
+      Hint: Content
+      Value: |
+        <p>The steps to plant grass seed are amending the soil and prepping for optimal soil health, choosing the right type of seed and applying the seed according to the instructions on the packaging. Keeping the seeds moist during the germination period is the most important step to ensure seedling growth. Instructions will specify the right time of year to plant based on whether the grass seed is a warm-season or a cool-season variety.For a more detailed look at how to complete each step, read our article "<a href="~/link.aspx?_id=59FD490E7C224592949B73A03077CB91&amp;_z=z" target="_blank">How to Plant Grass Seed</a><span style="font-weight: lighter;">."</span></p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7240053b-9140-48ac-acea-abfccd7761a1"
+      Hint: Heading
+      Value: "How do you plant grass seed?"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "854039c7-5b2a-4f27-adbe-003621c27995"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220510T113713Z

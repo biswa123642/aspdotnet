@@ -1,0 +1,112 @@
+﻿---
+ID: "16d43b58-c317-4a08-aea4-e71f3e258c1e"
+Parent: "bca4bb60-e362-4105-bafc-c7581dc27ebb"
+Template: "7bdf7d45-c98f-4e4d-ac3a-ad8035780bbe"
+Path: "/sitecore/content/OneWeb/Pennington/Home/all-products/wildlife"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{43E6189D-5757-4927-9ECE-59E0C4A4DB14}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{F067922F-9E9A-4A9D-8E32-4F45985A3757}"
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B899419DA-87F9-479F-AC0C-53032595B4F7%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-product-group/row-2-1/container-3/row-2-4/row-2-5/row-1-7/row-1-12/food-plottool-ph" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "055a2c41-4d44-4441-b589-b86f39cc64e5"
+      Hint: HeroBannerContent
+      Value: Grow your food plots with superior seed products.
+    - ID: "237274d5-0911-4d4e-a9eb-48c2a8483ca1"
+      Hint: FeaturedChildList
+      Value: |
+        {121EA240-F356-4B91-8490-0C7F5A8746D8}
+        {09703144-C989-4B19-AE11-BAF191D0DF7C}
+        {8D6A6468-0156-42D7-98C6-86EA4EF51CD9}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220507T164437Z
+    - ID: "2ca620f3-0aa3-4b6a-83e0-946b831ce296"
+      Hint: CTAImage
+      Value: "{53B03EF9-0D4D-4A20-AE4E-EE7C23C67A91}"
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{823A7988-0C96-4545-A170-3B1C61449E29}" />
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "363cfc7c-aff0-4d45-8a1f-11c311fd36bc"
+      Hint: ShowTextWithOverlay
+      Value: 1
+    - ID: "41b17cd3-d543-4c7c-9bfa-b21765882326"
+      Hint: HeroImageMobile
+      Value: |
+        <image mediaid="{567557AF-FF46-4371-BD00-BC8FC433614F}" />
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Wildlife
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Through more than two decades of research and development, Pennington has been a leader in the field of wildlife management.
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: As thrilling as the actual hunt can be, there's also an excitement that comes with planning and planting your land or lease in hopes of attracting and retaining quality game. The most important piece of that puzzle is choosing the right food plots grown from the highest quality seed. That's where Pennington comes in. &nbsp;Through more than two decades of research and development, Pennington has been a leader in the field of wildlife management.
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Through more than two decades of research and development, Pennington has been a leader in the field of wildlife management.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Wildlife - Seed Mixes for Food Plots | Pennington"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Wildlife
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c87f8e73-bc08-4c51-921f-aa309bd29b08"
+    - ID: "92f32441-cec4-42a7-ba44-83e8bb569c74"
+      Hint: FacetAttributes
+      Value: "{BBCCA7FD-9AAA-4B2B-A9F8-0AFEA3DCA06B}|{0D765632-0228-43A6-8F04-9E97025F28E4}|{9E3F1110-16D8-42B7-96EF-8198158B4496}|{A520C7B3-423C-4F42-88EE-1534323C027C}|{17CBE9F5-A725-464C-A5DD-145518FFA04C}"
+    - ID: "a6772724-fc83-4e63-a2f6-a893b8329b9e"
+      Hint: HeroBannerAlignment
+      Value: "Right-Align"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: READY FOR THE HUNT
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{A35C85D1-982E-4CF5-BFE3-1858DBB4882A}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220602T115440Z
+    - ID: "f1115acb-7ba4-48e9-8262-cb95f1f52313"
+      Hint: OverlayColor
+      Value: "dark-brown-overlay"

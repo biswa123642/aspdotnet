@@ -1,0 +1,41 @@
+﻿---
+ID: "886d7c18-087f-4035-a535-e9a776b2ba5d"
+Parent: "2cb56dcd-2a96-4c4c-805d-50154c1b66d0"
+Template: "a14d9266-1924-4e7f-87cc-760e2f8429ce"
+Path: /sitecore/content/OneWeb/Pennington/Data/Feature Content Tiles/Contact Us Page/Agriculture Team
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220427T134939Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e3ee9119-412a-4f2a-b479-cd7b06875668"
+    - ID: "ac0ef552-e2a9-4e8f-8942-4b8ab5061e4b"
+      Hint: CTA
+      Value: |
+        <link linktype="internal" text="CONTACT" querystring="" target="" id="{FF4B7649-6594-4AD3-9959-DDEA5901601A}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d140070d-9058-400a-82ca-36aee31966d5"
+      Hint: Image
+      Value: |
+        <image mediaid="{6BBD09CB-CCAC-450F-A5BA-EB605F7311F7}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220504T131901Z
+    - ID: "f2995045-5047-4be3-be4a-dbe0a1530118"
+      Hint: Title
+      Value: AGRICULTURE TEAM

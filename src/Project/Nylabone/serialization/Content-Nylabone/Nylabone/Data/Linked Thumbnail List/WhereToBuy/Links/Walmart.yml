@@ -1,0 +1,34 @@
+﻿---
+ID: "5861e90c-0b98-4b54-a4db-27fe27532d62"
+Parent: "a580e8c0-e9ad-470e-b36f-02e75b8ef2af"
+Template: "20a8b875-b660-4893-91a7-b05f80e94666"
+Path: /sitecore/content/OneWeb/Nylabone/Data/Linked Thumbnail List/WhereToBuy/Links/Walmart
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220521T042130Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f441d82f-8693-470c-bf98-bcb6cf1d1d5f"
+    - ID: "8daa9cfe-2ab1-4f9a-86ac-b2092acc9fde"
+      Hint: Link
+      Value: |
+        <link text="Walmart" linktype="external" url="https://www.walmart.com/search/?facet=brand:Nylabone||brand:TFH+Publications-Nylabone&amp;page=1&amp;query=nylabone" anchor="" target="_blank" />
+    - ID: "9a5ce26a-e5f7-4528-b319-d23a1be1eede"
+      Hint: Description
+      Value: Walmart
+    - ID: "b3524bdb-f8ec-4d85-a20b-ef5f2837d74f"
+      Hint: Image
+      Value: |
+        <image mediaid="{1895AC51-CCFE-455F-83F5-B2F5DFC024E2}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220620T093534Z

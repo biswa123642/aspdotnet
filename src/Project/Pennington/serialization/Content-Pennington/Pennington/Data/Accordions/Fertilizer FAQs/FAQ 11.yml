@@ -1,0 +1,63 @@
+﻿---
+ID: "bbe6b1c3-eadf-40ef-80b6-285e17f781f5"
+Parent: "6a7f1e23-b953-4aa0-9a9f-c61e3b52c92d"
+Template: "a6ddac75-7d24-4bdb-b3f6-5f47fbb21379"
+Path: /sitecore/content/OneWeb/Pennington/Data/Accordions/Fertilizer FAQs/FAQ 11
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{09BD444B-FABC-47EA-981D-2C8271655469}">
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B5423143A-760D-4F0E-BA4D-0B02E649A778%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-title"
+          uid="{CA7BC223-5D9A-4271-A51F-C098C2875700}" />
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-content"
+          uid="{A92FF40C-61F0-457E-A9DD-D61A15C4111A}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220428T104523Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5a236869-e375-49c0-a92d-0c2f1db7788f"
+      Hint: Content
+      Value: |
+        Plants need nitrogen, phosphorus and potassium (NPK) which are 3 of the 17 nutrients essential to all plant life. The necessary NPK ratio can vary depending on the type of plant you are fertilizing, which you will usually see listed prominently on the packaging. While some all purpose fertilizers can be used on many different plant types, it is not advisable to use fertilizer on any plants that are not listed on the label. To learn more about what these ratios mean, visit our article "<a href="~/link.aspx?_id=98DA91B1C2114CBFA3D40E4F836434FF&amp;_z=z" target="_blank">Numbers to Grow By: Understanding Fertilizer Labels</a>."
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7240053b-9140-48ac-acea-abfccd7761a1"
+      Hint: Heading
+      Value: "Can lawn fertilizer be used on plants, trees or shrubs?"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4cd69997-accc-4cd4-a74e-28f0ffa6b914"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220526T135056Z

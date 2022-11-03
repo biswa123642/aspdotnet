@@ -1,0 +1,88 @@
+﻿---
+ID: "9833b9ec-be77-4d6b-8564-9bfdb7cf4f3f"
+Parent: "7673f425-9bb8-4631-9c45-09dc863ec684"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/NewBugFreeGrains/Home/ma-2019/M4/1-1b"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{C744A329-1166-4359-AB59-9BF88A39DCEA}"
+          p:before="*"
+          s:ds="{D0CE471C-8E5C-4084-B448-8339DAB1C403}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BC4A7FD1B-BDC1-4B95-B540-812249703041%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/container-1/column-2-2" />
+        <r
+          uid="{9C1153EE-4C0B-4E58-8A73-9E80927B03F2}"
+          p:after="r[@uid='{C744A329-1166-4359-AB59-9BF88A39DCEA}']"
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/container-1/column-1-2" />
+        <r
+          uid="{04099592-3079-4ABD-B5DF-23A34551EADC}"
+          p:after="r[@uid='{9C1153EE-4C0B-4E58-8A73-9E80927B03F2}']"
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B19EFEA92-650D-4786-96E4-5EC96CA47A57%7D&amp;ColumnWidth2=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B7AF5C340-8A60-4D59-A7A1-5DBAB391292C%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=2"
+          s:ph="/main/container-1" />
+        <r
+          uid="{C315A141-2CF1-4CC4-8B9F-9142AF24D1A2}"
+          p:after="*[1=2]"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D%7C%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220923T054243Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "1-1a"
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <h2>You Are Incorrect!</h2>
+        <p>Stored grain insect infestations cost the grain industry an estimated $2.5 billion each year, according to the USDA.</p>
+        <p>Controlling stored product pests on your operation is vital in protecting your profits. From start to finish, learn how to protect your stored grains and profits by completing the Bug Free Grains Training Module from Central Life Sciences.</p>
+        <div class="sxa-btn indent-bottom-sm indent-top-sm">
+        <a href="~/link.aspx?_id=C942B20379884771BA17EABC6945B552&amp;_z=z">Protect My Profits</a>&nbsp;</div>
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "You Are Incorrect!"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: "You Are Incorrect!"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ecbdc6ac-21ae-4dd4-a633-e0d48acc93b9"
+    - ID: "9bf7a7f6-34f8-4c38-a3d7-2fd0470518b1"
+      Hint: HideInSearchResults
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{54A870A2-A065-445E-BA5A-41C2B9DCD47A}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221003T054617Z

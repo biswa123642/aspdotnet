@@ -1,0 +1,105 @@
+﻿---
+ID: "5b556bbb-ea6b-4524-a949-76e58c5d8f71"
+Parent: "7673f425-9bb8-4631-9c45-09dc863ec684"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/NewBugFreeGrains/Home/ma-2019/M4/c"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{C16A1AD8-F09B-4B92-BAC2-FDDFDECD215B}"
+          p:before="*"
+          s:ds="{3DCB3F6C-0F25-4D9D-ACF6-F59B5BA64D69}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B45B01501-C549-43CA-A9C3-96BA64B7920B%7D&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/container-1/column-3-2" />
+        <r
+          uid="{CAC4EE0D-0BB4-4048-A992-A9BD8A4EA42B}"
+          p:after="r[@uid='{C16A1AD8-F09B-4B92-BAC2-FDDFDECD215B}']"
+          s:ds="{54EF3932-E0F2-4407-9A88-9418822F6FB7}"
+          s:id="{3C84ED23-7591-45E0-8850-1AE96D1342B1}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier"
+          s:ph="/main/container-1/column-2-2" />
+        <r
+          uid="{9C1153EE-4C0B-4E58-8A73-9E80927B03F2}"
+          p:after="r[@uid='{CAC4EE0D-0BB4-4048-A992-A9BD8A4EA42B}']"
+          s:ds=""
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/container-1/column-1-2" />
+        <r
+          uid="{04099592-3079-4ABD-B5DF-23A34551EADC}"
+          p:after="r[@uid='{9C1153EE-4C0B-4E58-8A73-9E80927B03F2}']"
+          s:ds=""
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth2=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;ColumnWidth3=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3&amp;Styles1=%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D%7C%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;Styles2&amp;Styles3=%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D%7C%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;DynamicPlaceholderId=2&amp;CacheClearingBehavior=Clear%20on%20publish"
+          s:ph="/main/container-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{C315A141-2CF1-4CC4-8B9F-9142AF24D1A2}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220923T054243Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "1-1a"
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Our team of experts is here for you. Grain protection from start to finish. 
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <h2>Achieve Optimal Results on Your Operation</h2>
+        <p>The Bug Free Grains team has put together a library of helpful resources to assist you in selecting the right product for your operation, so that you can achieve maximum results in defending commodities against profit-eating insects. Learn more by clicking the link below. </p>
+        <div class="sxa-btn indent-bottom-sm">
+        <a href="~/link.aspx?_id=31F99D71FBBF441080D77D935B12629E&amp;_z=z">See Resources</a>&nbsp;</div>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Our team of experts is here for you. Grain protection from start to finish. 
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Achieve Optimal Results on Your Operation
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Achieve Optimal Results on Your Operation
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "88e67826-1e3e-4483-9e80-f17795c06874"
+    - ID: "9bf7a7f6-34f8-4c38-a3d7-2fd0470518b1"
+      Hint: HideInSearchResults
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{54A870A2-A065-445E-BA5A-41C2B9DCD47A}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221007T100858Z

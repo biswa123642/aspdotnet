@@ -1,0 +1,85 @@
+﻿---
+ID: "6bcb355a-3184-48d4-9afa-0d2496d86840"
+Parent: "11543f9d-eb9c-470b-b418-de11507a09d3"
+Template: "6659b02d-bd4b-4821-b452-77fca1da6b43"
+Path: "/sitecore/content/OneWeb/Nylabone/Home/products/product-type/edible-chew-treats/healthy-edibles-broth-bone-all-natural-dog-treats-made-with-real-bone-broth/Variant Grouping/018214846987"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 30
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17cdad4b-b760-4682-b72d-fda00dd2e27d"
+      Hint: VariantDescription
+      Value: |
+        <ul style="list-style-type: disc;">
+            <li style="color: #131313;"><span>All Healthy Edibles treats are proudly made in the United States</span></li>
+            <li style="color: #131313;"><span>Made with real bone broth that's rich in amino acids to help support immune system and joint &amp; bone health</span></li>
+            <li style="color: #131313;"><span>Crafted with dehydrated whole foods</span></li>
+            <li style="color: #131313;"><span>Highly digestible dog chew treats contain no artificial ingredients</span></li>
+            <li style="color: #131313;"><span>Savory ham flavor offers rich taste dogs love</span></li>
+            <li style="color: #131313;"><span>Medium chew treats created for dogs up to 35 pounds</span></li>
+        </ul>
+        <div class="panel-group product-description-accordion" id="accordion">
+        <div>&nbsp;</div>
+        <div class="panel">
+        <div class="panel-heading">
+        <h4 class="panel-title" style="z-index: 1;"><a data-toggle="collapse" data-parent="#accordion" href="#Ingredients">Ingredients</a></h4>
+        </div>
+        <div id="Ingredients" class="panel-collapse collapse">
+        <div class="panel-body">
+        <p class="ingredients">Wheat Starch, Vegetable Glycerin, Potato Starch, Natural Flavor, Rice Flour, Beef Bone Broth, Powdered Cellulose, Lecithin, Natural Ham Flavor</p>
+        </div>
+        </div>
+        </div>
+        <div class="panel">
+        <div class="panel-heading">
+        <h4 class="panel-title" style="z-index: 1;"><a data-toggle="collapse" data-parent="#accordion" href="#Analysis">Analysis</a></h4>
+        </div>
+        <div id="Analysis" class="panel-collapse collapse">
+        <div class="panel-body">
+        <p class="analysis">Crude Protein (min): 1%, Crude Fat (min): 1%, Crude Fiber (max): 5%, Moisture (max): 15%</p>
+        </div>
+        </div>
+        </div>
+        </div>
+    - ID: "22cafc35-3f72-476d-aaed-34fbf9f40df6"
+      Hint: PrimaryVariationValue
+      Value: "Wolf - Up to 35 lbs."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220608T190133Z
+    - ID: "6951d151-0a70-4a96-9ae7-9ad5e8881216"
+      Hint: SecondaryVariationValue
+      Value: 2
+    - ID: "69ad85ef-73f1-44cf-9914-11f9bd56e901"
+      Hint: MediaList
+      Value: |
+        {6C485993-D3BE-4EA8-858E-1797B714040E}
+        {3F42FDEF-D8B1-4DF9-84E6-C56FFE0C8EF3}
+        {7D519C83-1EFE-4511-B6ED-D5797D83F6BB}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c32edec6-4c05-4cd8-96bf-85922acf35f5"
+    - ID: "915344f6-4f20-4302-9772-bef16cc60be7"
+      Hint: VariantSKU
+      Value: NEBB302TPP
+    - ID: "ab6b066d-6827-43a6-a71f-8c00b52d5046"
+      Hint: VariantTitle
+      Value: Healthy Edibles Broth Bone Natural Dog Treats
+    - ID: "b21616dc-9e40-44ea-8d25-46375182cdef"
+      Hint: VariantPrice
+      Value: 0
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c6a670f2-49c5-46e4-8241-c9e21eced0db"
+      Hint: VariantUPC
+      Value: 018214846987
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220623T195544Z

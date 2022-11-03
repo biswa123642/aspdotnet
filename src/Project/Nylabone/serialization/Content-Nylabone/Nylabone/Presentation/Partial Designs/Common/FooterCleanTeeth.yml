@@ -1,0 +1,68 @@
+﻿---
+ID: "b333156d-d049-4984-af5e-5ebd6787ca35"
+Parent: "6673f219-cf84-4a32-b6d0-f76b42a4603b"
+Template: "d68e3c5a-253d-4765-be54-b7b18c350cb1"
+Path: /sitecore/content/OneWeb/Nylabone/Presentation/Partial Designs/Common/FooterCleanTeeth
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: footer
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{191FB7A4-BCCC-4A0E-B39A-D08266DFA566}"
+          p:before="*"
+          s:ds="{316BBFBA-4F63-4C9E-90BC-7E2FEA33448F}"
+          s:id="{1A78A8D3-5F37-47DA-BD51-1835586142F1}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B2B83D338-1086-473E-A02C-4F56430F5D1C%7D&amp;Styles=%7BDC5CED1D-73CC-40CB-B2CB-1B6DD2809876%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="footer"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{DF8A7DE7-A725-414D-90B6-117C7BD020D8}"
+          p:after="r[@uid='{191FB7A4-BCCC-4A0E-B39A-D08266DFA566}']"
+          s:ds="{20AD0886-FD14-4B49-9219-37A38FC4079B}"
+          s:id="{4646BD4F-05FF-4A19-9600-4D74F2F1548B}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BE1562302-CBD4-4102-AAED-BF502BF48ACC%7D&amp;Styles=%7BDC5CED1D-73CC-40CB-B2CB-1B6DD2809876%7D&amp;TitleHeadingLevel=%7B6A44D9C6-61F0-4B69-8E1A-FDC27F96BA0F%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="footer"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{9D33623B-688E-44D8-809C-A4F70B4F797B}"
+          p:after="*[1=2]"
+          s:ds="{307B180A-E6CD-4AA9-B4F3-4467C0C61022}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BBC768634-7E98-408D-AB1F-FE0747580F69%7D&amp;Styles=%7BDC5CED1D-73CC-40CB-B2CB-1B6DD2809876%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="footer"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Footer Clean Teeth
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220401T102955Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8f25d8d1-a099-41bf-979d-c876d57d7459"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220615T095250Z

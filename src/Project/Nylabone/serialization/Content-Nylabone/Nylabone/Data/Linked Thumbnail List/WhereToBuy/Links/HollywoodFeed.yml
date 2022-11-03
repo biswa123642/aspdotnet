@@ -1,0 +1,42 @@
+﻿---
+ID: "f58c8b9b-3103-48bd-aa23-c6d17cb093f3"
+Parent: "a580e8c0-e9ad-470e-b36f-02e75b8ef2af"
+Template: "20a8b875-b660-4893-91a7-b05f80e94666"
+Path: /sitecore/content/OneWeb/Nylabone/Data/Linked Thumbnail List/WhereToBuy/Links/HollywoodFeed
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1400
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Hollywood Feed
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220521T045012Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9169936b-7521-4f2b-b2cd-41df15291d55"
+    - ID: "8daa9cfe-2ab1-4f9a-86ac-b2092acc9fde"
+      Hint: Link
+      Value: |
+        <link text="Hollywood Feed" linktype="external" url="https://www.hollywoodfeed.com/c/2569/shop-nylabone-products?&amp;so=5&amp;page=1" anchor="" target="_blank" />
+    - ID: "9a5ce26a-e5f7-4528-b319-d23a1be1eede"
+      Hint: Description
+      Value: Hollywood Feed
+    - ID: "b3524bdb-f8ec-4d85-a20b-ef5f2837d74f"
+      Hint: Image
+      Value: |
+        <image mediaid="{13A73735-E17B-4F57-8A03-37F58BF4FE79}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220620T093708Z

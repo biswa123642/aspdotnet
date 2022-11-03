@@ -1,0 +1,131 @@
+﻿---
+ID: "9e418f82-8ca6-48c1-a3ab-7b178260f717"
+Parent: "1e5c6880-46ad-48fe-9009-f2dbcb62622b"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: /sitecore/content/OneWeb/NewBugFreeGrains/Home/about
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{F7249C52-9D72-48E0-9A44-C15B244F1053}"
+          p:before="*"
+          s:ds="{C9D69495-325D-441C-8463-FD80847595B1}"
+          s:id="{3C84ED23-7591-45E0-8850-1AE96D1342B1}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier"
+          s:ph="/main/row-2-1/container-7/column-2-8" />
+        <r
+          uid="{33CD3DDB-F7F9-4870-8F60-E53D2866F319}"
+          p:after="r[@uid='{F7249C52-9D72-48E0-9A44-C15B244F1053}']"
+          s:ds="{9AC81374-3753-489B-BD49-5163000B0EF3}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B45B01501-C549-43CA-A9C3-96BA64B7920B%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/row-2-1/container-7/column-1-8" />
+        <r
+          uid="{5C9E6738-C248-40B6-A618-D8F0839CFD6A}"
+          p:after="r[@uid='{33CD3DDB-F7F9-4870-8F60-E53D2866F319}']"
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D%7C%7B0EAC9805-FD77-48B9-9702-2FAF84028008%7D%7C%7BF72E39EB-4DD8-4836-8284-037CC1D62CA9%7D%7C%7B1F1806B8-AF04-4E9C-9FFE-304AB4218945%7D&amp;ColumnWidth2=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B0EAC9805-FD77-48B9-9702-2FAF84028008%7D%7C%7BDB5F8FAC-287E-4EC4-A031-0C48B7553A54%7D%7C%7B56CB7C57-68EC-4076-AE30-32FC842559B2%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=8"
+          s:ph="/main/row-2-1/container-7" />
+        <r
+          uid="{C45BBAAB-7DC3-479F-84BB-79449B4A670F}"
+          p:after="r[@uid='{5C9E6738-C248-40B6-A618-D8F0839CFD6A}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{E3DE3C0B-0CEE-4E70-B1F0-A582A7275B7D}"
+          p:after="r[@uid='{C45BBAAB-7DC3-479F-84BB-79449B4A670F}']"
+          s:ds="{B2EC317C-9B5E-4C1A-B246-41003CCA62F7}"
+          s:id="{3C84ED23-7591-45E0-8850-1AE96D1342B1}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier"
+          s:ph="/main/row-3-1/container-4/column-2-5" />
+        <r
+          uid="{4FE127BC-2785-48F4-B72B-E84D84AA40A9}"
+          p:after="r[@uid='{E3DE3C0B-0CEE-4E70-B1F0-A582A7275B7D}']"
+          s:ds="{9F2893C6-7B0F-459C-827C-1EB839BE8097}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B45B01501-C549-43CA-A9C3-96BA64B7920B%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-3-1/container-4/column-1-5" />
+        <r
+          uid="{2C303638-E129-4115-827F-373AC8ADF616}"
+          p:after="r[@uid='{4FE127BC-2785-48F4-B72B-E84D84AA40A9}']"
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D%7C%7B0EAC9805-FD77-48B9-9702-2FAF84028008%7D%7C%7BF72E39EB-4DD8-4836-8284-037CC1D62CA9%7D%7C%7BA372E54A-0E8C-4332-A226-6B369B8B52CF%7D&amp;ColumnWidth2=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B0EAC9805-FD77-48B9-9702-2FAF84028008%7D%7C%7BDB5F8FAC-287E-4EC4-A031-0C48B7553A54%7D%7C%7B921920A2-69EC-4570-AB1C-CCF80EE6447E%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-3-1/container-4" />
+        <r
+          uid="{D4644552-2714-4522-91D5-DB52E7EE387E}"
+          p:after="r[@uid='{2C303638-E129-4115-827F-373AC8ADF616}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-3-1" />
+        <r
+          uid="{E34E2F35-CCDC-4972-9189-66DA6BBAFAD2}"
+          p:after="r[@uid='{D4644552-2714-4522-91D5-DB52E7EE387E}']"
+          s:ds=""
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%3E&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B522CD03F-04F9-4510-90AC-12CC454E18E9%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-1-1/container-2" />
+        <r
+          uid="{FFE308E1-7EE1-44A3-A532-01110D38C6F9}"
+          p:after="r[@uid='{E34E2F35-CCDC-4972-9189-66DA6BBAFAD2}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{5614D85D-A3E0-44D5-9BF7-7CAE3616178B}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C3%2C2&amp;Styles1&amp;Styles2=%7BADDFB720-BE49-4750-BD0A-48FCBFDA5647%7D&amp;Styles3=%7BADDFB720-BE49-4750-BD0A-48FCBFDA5647%7D&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220920T051811Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: about
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Bug Free Grains professional grain protection products offer complete grain protection from start to finish to help reduce rejected grain.
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Bug Free Grains professional grain protection products offer complete grain protection from start to finish to help reduce rejected grain.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: About
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: About
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2a8cf198-2dc7-4c05-9cc0-ded46c72d6c8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{54A870A2-A065-445E-BA5A-41C2B9DCD47A}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221003T102602Z

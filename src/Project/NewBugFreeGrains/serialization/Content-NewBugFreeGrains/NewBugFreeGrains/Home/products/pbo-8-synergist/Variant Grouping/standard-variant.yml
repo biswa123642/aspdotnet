@@ -1,0 +1,40 @@
+﻿---
+ID: "5d75a729-6832-4a9e-bdf2-95b13c4ae41b"
+Parent: "b8618557-2362-49d9-a089-23d344d536b7"
+Template: "6659b02d-bd4b-4821-b452-77fca1da6b43"
+Path: "/sitecore/content/OneWeb/NewBugFreeGrains/Home/products/pbo-8-synergist/Variant Grouping/standard-variant"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 10
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220928T115252Z
+    - ID: "69ad85ef-73f1-44cf-9914-11f9bd56e901"
+      Hint: MediaList
+      Value: |
+        {4F2E172B-0FB4-4410-96B9-D5E42DCA02B5}
+        {5E1B60C5-1CCA-4C6E-A233-09E0F1218BC6}
+        {83D2F805-B5F6-41AA-8D73-E74786327A1F}
+        {9EDC5D08-9F09-42DF-AB3D-E6FBF37E495F}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e53fc009-7eda-47da-8b1f-77663a0c384f"
+    - ID: "ab6b066d-6827-43a6-a71f-8c00b52d5046"
+      Hint: VariantTitle
+      Value: "PBO-8® Synergist"
+    - ID: "b21616dc-9e40-44ea-8d25-46375182cdef"
+      Hint: VariantPrice
+      Value: 0
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221007T081443Z

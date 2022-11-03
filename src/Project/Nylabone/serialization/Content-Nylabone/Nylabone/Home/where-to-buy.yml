@@ -1,0 +1,163 @@
+﻿---
+ID: "cad31c6a-4cfc-48ef-8db6-58e4a1442535"
+Parent: "a1a06add-8681-402c-920f-bccb609596bf"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/Nylabone/Home/where-to-buy"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{BE0725D0-6671-4CB1-BB57-9403BDDE6DFE}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{16298891-C36E-482B-B53F-0DA68609DE2D}"
+          p:before="*"
+          s:ds="{5833E048-35D3-4CA8-980D-6CD722EC3E18}"
+          s:id="{F0DE3E5B-F5E0-4299-B3A2-59C234B985C3}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier"
+          s:ph="/main/container-3" />
+        <r
+          uid="{4DC923F2-920B-425A-88FD-CAE8BAAA6237}"
+          p:after="r[@uid='{16298891-C36E-482B-B53F-0DA68609DE2D}']"
+          s:ds="{1F1F0EE6-7F68-4AC9-90F7-288048B5EE11}"
+          s:id="{064D8EB1-51D4-41AA-90DD-166CA0D5F899}"
+          s:par="DynamicPlaceholderId=12&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;FieldNames&amp;Styles"
+          s:ph="/main/container-3/column-2-10"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{3EB5E6CC-FA5D-4D33-9561-D4D39946934B}"
+          p:after="r[@uid='{4DC923F2-920B-425A-88FD-CAE8BAAA6237}']"
+          s:ds="{A580E8C0-E9AD-470E-B36F-02E75B8EF2AF}"
+          s:id="{189D0B61-1B80-4180-8F7A-25BCD63692BB}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B1B7E81AF-A74E-4013-929B-E2ECF25B1ED8%7D&amp;Styles&amp;TitleHeadingLevel=%7B6A44D9C6-61F0-4B69-8E1A-FDC27F96BA0F%7D&amp;RenderingIdentifier=link-list-vertical&amp;DynamicPlaceholderId=11"
+          s:ph="/main/container-3/column-1-10"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{7C99EDE9-4F48-44E7-98EE-D14CD38894AC}"
+          p:after="r[@uid='{3EB5E6CC-FA5D-4D33-9561-D4D39946934B}']"
+          s:ds=""
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B5D74AF38-1A37-491A-A4BB-A9E251D862F3%7D&amp;ColumnWidth2=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D%7C%7B2AA00BBE-9366-43C7-8604-B6C431AEE01D%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;DynamicPlaceholderId=10"
+          s:ph="/main/container-3"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{3E228366-720F-4569-9210-8D7A9F6470A2}"
+          p:after="r[@uid='{7C99EDE9-4F48-44E7-98EE-D14CD38894AC}']"
+          s:ds=""
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%2F&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B4AD3C106-FA3E-45B9-A41D-48603132FD0E%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/container-1/row-1-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{55B11005-8F01-41CE-8C21-0B1785796CBB}"
+          p:after="r[@uid='{3E228366-720F-4569-9210-8D7A9F6470A2}']"
+          s:ds="{1013E53C-8449-46B1-9F2A-489304CDFE14}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BBC768634-7E98-408D-AB1F-FE0747580F69%7D&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/container-1/row-2-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{2865B4B0-0916-4BA2-9689-368C849DC508}"
+          p:after="r[@uid='{55B11005-8F01-41CE-8C21-0B1785796CBB}']"
+          s:ds="{8B743546-26F8-4885-9C8C-7BD13EB04D3C}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/container-4"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{0D6DB3B9-439B-47F2-9157-839D996BCCF0}"
+          p:after="r[@uid='{2865B4B0-0916-4BA2-9689-368C849DC508}']"
+          s:ds="{8D81BDD1-B6A0-457F-9FA3-958A6E04AC8B}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BBC768634-7E98-408D-AB1F-FE0747580F69%7D&amp;Styles=%7B79EF931B-D638-46F0-813E-1C48D7796873%7D%7C%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D%7C%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D%7C%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/container-5"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{50002569-8C5A-44AD-98E1-3CF50CF47AED}"
+          p:after="r[@uid='{0D6DB3B9-439B-47F2-9157-839D996BCCF0}']"
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=2"
+          s:ph="/main/container-1" />
+        <r
+          uid="{09C03FAE-7E0A-411F-8A7A-714FEABE9695}"
+          p:after="r[@uid='{50002569-8C5A-44AD-98E1-3CF50CF47AED}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{63FAB39D-E3F7-43E0-AB13-A90641220F51}"
+          p:after="r[@uid='{09C03FAE-7E0A-411F-8A7A-714FEABE9695}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7B748ABD0B-16B9-4091-B47D-579D7DFF989A%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3&amp;CacheClearingBehavior=Clear%20on%20publish"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{7E684A45-4EAC-4D8D-8A26-F3E0119F4F99}"
+          p:after="r[@uid='{63FAB39D-E3F7-43E0-AB13-A90641220F51}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{203AB9CF-8F13-4C21-9F25-89EDA31527B3}"
+          p:after="*[1=2]"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220506T085056Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "363cfc7c-aff0-4d45-8a1f-11c311fd36bc"
+      Hint: ShowTextWithOverlay
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Where to Buy Nylabone® Products Near You
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "Use our locator tool to discover where to buy Nylabone products online and in stores near you!"
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Where to Buy Nylabone Products | Find a Retailer
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Where to Buy Nylabone Products | Find a Retailer
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "041e1281-4708-4474-aee2-c6fcda930238"
+    - ID: "9bf7a7f6-34f8-4c38-a3d7-2fd0470518b1"
+      Hint: HideInSearchResults
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220627T072609Z

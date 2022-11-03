@@ -1,0 +1,72 @@
+﻿---
+ID: "01bbaa0f-e9e3-4c9e-8475-a8e61d90a89d"
+Parent: "15c79970-4da4-45e6-be8c-9a8ee2cfc785"
+Template: "057af325-c948-4918-a4e4-2c3f6cf04524"
+Path: "/sitecore/content/OneWeb/Nylabone/Home/dog101/thanksgiving-photo-contest"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{A533B1FC-D531-4B72-9CA7-DED21A657B63}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220609T145401Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "36aa965e-f5ea-4871-a55b-53e090d5026e"
+      Hint: ArticleType
+      Value: "{53905F34-278B-4652-96F3-7793BFB2898F}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Thanksgiving Photo Contest!"
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: "November 2018 Contest!"
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <div style="position: relative;  width: 100%; height: 100%; min-height: 5000px;"> <iframe scrolling="yes" seamless="seamless" src="//a.pgtb.me/ZFdVXz?embed=1&amp;v_offset=0&amp;autoscroll_p=1" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" class="campaign_embed" frameborder="0"></iframe> </div><script type='text/javascript'> (function(){ function loadScript(url, scriptId, callback) { if(document.getElementById(scriptId) != null) { return; } var script = document.createElement('script'); script.type = 'text/javascript'; if (script.readyState) { script.onreadystatechange = function() { if (script.readyState === 'loaded' || script.readyState === 'complete') { script.onreadystatechange = null; callback(); } }; } else { script.onload = function() { callback(); }; } var scriptIdAttr = document.createAttribute('id'); scriptIdAttr.value = scriptId; script.setAttributeNode(scriptIdAttr); script.src = url; document.getElementsByTagName('head')[0].appendChild(script); } function loadEmbed(){ var iframes = document.getElementsByClassName('campaign_embed'); for(var i = 0; i < iframes.length; i++) { iFrameResize({ enablePublicMethods: true }, iframes[i]); } } loadScript( '//d2xcq4qphg1ge9.cloudfront.net/javascript/responsive_embed/20150624/iframeResizer.min.js', 'campaignEmbedder', loadEmbed ); })(); </script>
+    - ID: "6dd157fe-8ea8-496a-b595-0e6a18489836"
+      Hint: ThumbnailImage
+      Value: |
+        <image mediaid="{130D579D-E051-4309-8AC7-F53761119A67}" />
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "November 2018 Contest!"
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Thanksgiving Photo Contest!"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: "Thanksgiving Photo Contest!"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e6330365-30d7-454c-8bbc-e8adb7fd452a"
+    - ID: "acf86c8a-ae9a-4d4a-8570-870673814f85"
+      Hint: ArticleShortDescription
+      Value: "October 2018 Contest!"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "bbf8fdb1-3f2b-4be5-9a08-a97bf605633f"
+      Hint: RelatedProductAlignment
+      Value: "related-product-vertical"
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{130D579D-E051-4309-8AC7-F53761119A67}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220616T111526Z
+    - ID: "eaaa3bf1-4f5c-4f65-9f61-c6f234ffc31f"
+      Hint: BlogPostTopic
+      Value: "{54F86601-BA46-4D6D-B2EC-CDE24C42E082}"

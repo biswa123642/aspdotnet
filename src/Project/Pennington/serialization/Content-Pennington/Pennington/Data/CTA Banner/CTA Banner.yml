@@ -1,0 +1,47 @@
+﻿---
+ID: "e7a84c0b-f3e4-4302-bfa2-ee9cd801e408"
+Parent: "c1ca895a-98cd-42d7-80f6-d36edea47a7a"
+Template: "c0ce1db0-e672-4902-9899-ac12391c0f37"
+Path: /sitecore/content/OneWeb/Pennington/Data/CTA Banner/CTA Banner
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1986501a-bafe-4fd1-8865-fdfc3ada93e2"
+      Hint: DelayTime
+      Value: 25000
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220606T070819Z
+    - ID: "3d553f70-0ab9-4ac7-8938-e35657cf6318"
+      Hint: Heading
+      Value: Enter your email address to receive lawn care, gardening, & pest control tips
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "818b77b9-97cc-490a-ae59-5f4fb9124663"
+      Hint: CTAText
+      Value: Subscribe Now
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "37847593-571a-451c-a9a2-e591cd202753"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220614T150441Z
+    - ID: "e1ee3d86-ba71-426f-b48f-8f74dbad1697"
+      Hint: HideCTABanner
+      Value: 
+    - ID: "eb3cbb2e-0373-4030-9d39-06f9db74590f"
+      Hint: CTALink
+      Value: |
+        <link text="Subscribe Now" anchor="" linktype="internal" class="" title=""  querystring="" id="{A9702BFD-B1E7-4BF4-AFD8-44CCC301F5BC}" />

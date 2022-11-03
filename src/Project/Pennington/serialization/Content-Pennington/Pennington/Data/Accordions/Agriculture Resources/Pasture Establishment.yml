@@ -1,0 +1,75 @@
+﻿---
+ID: "4a669285-3fd2-409c-9975-0d7c927aa3f5"
+Parent: "0a0dbb63-ba38-49c4-b70a-3c7ee4fb1d6c"
+Template: "a6ddac75-7d24-4bdb-b3f6-5f47fbb21379"
+Path: /sitecore/content/OneWeb/Pennington/Data/Accordions/Agriculture Resources/Pasture Establishment
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{09BD444B-FABC-47EA-981D-2C8271655469}">
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B5423143A-760D-4F0E-BA4D-0B02E649A778%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-title"
+          uid="{5868B3B5-410E-4B55-9336-ABA2F0C8FE64}" />
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-content"
+          uid="{63A95ABC-9889-42CD-B309-5EE2C0953EBE}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220516T094513Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5a236869-e375-49c0-a92d-0c2f1db7788f"
+      Hint: Content
+      Value: |
+        <a href="-/media/56A97616FE1146F2B49BD6E281098A4D.ashx" target="_blank">Balance All Nutrients for Optimum Forage Production</a><br />
+        <a href="-/media/0025FC8088FF4A1FB201D1941E18C2DC.ashx" target="_blank">First Year Management of Fescue Key to Long Stand Life</a><br />
+        <a href="-/media/82B5327D79084232B0160B3B7DCB0E4D.ashx" target="_blank">Fully Utilizing Pastures Key to Maximizing Beef Profits</a><br />
+        <a href="-/media/2727DA668D8D4E0195F4E067A6300ED6.ashx" target="_blank">Make Soil Tests Meaningful</a><br />
+        <a href="-/media/72FECC88280B44B88D4F3A7B36F075E1.ashx" target="_blank">Overemphasizing Seed Cost Can Lead to Poor Planting Decisions</a><br />
+        <a href="-/media/4733DE81CD474AFAA9264BAE75679452.ashx" target="_blank">Recycle Nutrients by Turning Cows into Manure Spreaders</a><br />
+        <a href="-/media/7D34EE071632478F8C74DE563D9DCA4E.ashx" target="_blank">Reduce Wintering Cost with Stockpiled Fescue</a><br />
+        <a href="-/media/27EDA925693741D9A4AD2AFBD275B59D.ashx" target="_blank">Rotational Grazing Increases Stocking Rate</a><br />
+        <a href="-/media/29D0E1CC79D94FE693BD1AB2A7EA6166.ashx" target="_blank">Soil Test to Determine Lime Needs</a><br />
+        <a href="-/media/EEB5E2879E1B4F32A1FABBBDBA857238.ashx" target="_blank">Developing a Pasture Renovation Plan for Horses</a><br />
+        <a href="-/media/EE0E2B9EA8C54848AD8ED3F6B2534EF8.ashx" target="_blank">Equine Forages &amp; Grazing Recommendations</a><br />
+        <a href="-/media/78072C6FB7834EAC9A4855FFCCA7C70E.ashx" target="_blank">Keep Horse Pastures Productive and Persistent</a><br />
+        <a href="-/media/A7B5B8BA37B64AC88903598A02344DDC.ashx" target="_blank">Maintaining Healthy Horse Pastures</a>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7240053b-9140-48ac-acea-abfccd7761a1"
+      Hint: Heading
+      Value: <h3><strong>Pasture Establishment</strong></h3>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "df9b251e-d77c-43fd-a0b9-bed268ebe440"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220516T094602Z

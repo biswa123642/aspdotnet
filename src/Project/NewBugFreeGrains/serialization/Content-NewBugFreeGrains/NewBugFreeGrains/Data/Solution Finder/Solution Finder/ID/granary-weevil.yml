@@ -1,0 +1,44 @@
+﻿---
+ID: "32ae6c12-c1a5-4274-a961-49d1e2b836a1"
+Parent: "733cc744-cfe7-47f7-b4ce-8e2e3c3b08c1"
+Template: "9874a4bd-a371-4049-85e6-0ed0ad713e54"
+Path: "/sitecore/content/OneWeb/NewBugFreeGrains/Data/Solution Finder/Solution Finder/ID/granary-weevil"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03b55013-fdf9-40f2-9e5b-88d26865df7b"
+      Hint: Image
+      Value: |
+        <image mediaid="{A9D8C23F-795D-4D29-842F-33B3F7E12944}" />
+    - ID: "0a9a0bf9-863c-4c36-8bc6-b576213cbad9"
+      Hint: Order
+      Value: 6
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221007T071415Z
+    - ID: "4d1593b6-8eac-4cd1-8383-16cbc881112e"
+      Hint: Title
+      Value: Granary Weevil
+    - ID: "51a7792c-e5b0-4f4e-b6ac-b1bbac2daa48"
+      Hint: NextQuestion
+      Value: "{C8FBFD49-4C30-473C-9C80-29FFC2CE29FE}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4d52df6f-ccef-4e30-975f-2af151495e45"
+    - ID: "967543d6-dddb-4b55-b6ff-ab2ca3fbe30c"
+      Hint: RequiredAnswers
+      Value: |
+        {6B2AC097-CC8F-4E22-BE4A-2471AF53E88A}
+        {F0673F60-AA38-4A5A-8A74-DDC8183683C2}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d53f6957-984b-4af6-a3c6-696f1ef8ec04"
+      Hint: Value
+      Value: "id-granary-weevil"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221007T071415Z

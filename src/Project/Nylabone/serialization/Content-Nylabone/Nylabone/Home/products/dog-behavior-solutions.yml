@@ -1,0 +1,96 @@
+﻿---
+ID: "70dac5a9-9679-4a2c-90dd-90e96e05a983"
+Parent: "f6287fe1-6535-4610-8fa0-d19f478ffaa4"
+Template: "7bdf7d45-c98f-4e4d-ac3a-ad8035780bbe"
+Path: "/sitecore/content/OneWeb/Nylabone/Home/products/dog-behavior-solutions"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{91002F26-F409-4D71-845D-D3CEA965AACF}"
+- ID: "76fb6ffd-4487-4028-a1cf-705fbe360cba"
+  Hint: Priority
+  Value: 0.5
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{1713C7AF-6876-4770-85FA-C1F5E5C479D2}"
+          s:ds="{F731B0E9-D3C0-4142-BEBF-20B8432759D0}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BBC768634-7E98-408D-AB1F-FE0747580F69%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-product-category/container-1/row-3-2" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "237274d5-0911-4d4e-a9eb-48c2a8483ca1"
+      Hint: FeaturedChildList
+      Value: |
+        {37FE9588-6DFD-4A2C-B7D8-38AFE5018C3D}
+        {FA21F6CB-F581-4C06-9BAE-37FC8504BF92}
+        {E9A2E674-718D-434F-A926-8B627D55C8BA}
+        {CC948A2A-1AB6-4877-A0C6-2E3A7A797608}
+        {87BA1A42-7E7F-4E0E-86AB-7990C18865E5}
+        {6F302282-3435-4DF9-970E-C3568700E41C}
+        {775AD846-1CE4-471E-B4E9-F6712D6AF585}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220510T115646Z
+    - ID: "2b413044-4890-48c9-a955-78565193a0b8"
+      Hint: HeroBannerDescription
+      Value: 
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Dog Behavior Solutions
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Resolve dog behavior issues and problems with Nylabone products. Dental care, destructive behaivor, boredom, stress & more.
+    - ID: "78351212-39c1-4f87-b066-1c09c6fd7b4c"
+      Hint: HeroBannerLogo
+      Value: |
+        <image mediaid="{31759633-F221-495B-AF4A-18EBD74A1610}" ></image>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Resolve dog behavior issues and problems with Nylabone products. Dental care, destructive behaivor, boredom, stress & more.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Dog Behavior Solutions | Nylabone
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Dog Behavior Solutions | Nylabone
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8534142f-fb4c-4480-b895-9bc8c2a345b6"
+    - ID: "92f32441-cec4-42a7-ba44-83e8bb569c74"
+      Hint: FacetAttributes
+      Value: "{F5CB3BB2-C0DE-4FC9-B296-5391BF3B0D0C}|{DF2F2F5E-FA60-494F-8397-83282BA86920}|{70045707-8A02-4F3D-A373-51371B9D4343}|{4096A818-5EDB-4BCF-A926-E5B7DCBEC3E7}"
+    - ID: "a6772724-fc83-4e63-a2f6-a893b8329b9e"
+      Hint: HeroBannerAlignment
+      Value: "Right-Align"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: Weight Management
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220609T213334Z

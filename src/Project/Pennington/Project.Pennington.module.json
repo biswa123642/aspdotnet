@@ -1,0 +1,26 @@
+{
+	"namespace": "Project.Pennington",
+	"references": [ "*Feature.*" ],
+	"items": {
+		"includes": [
+			//{
+			//	"name": "Content-Pennington",
+			//	"path": "/sitecore/content/OneWeb/Pennington",
+			//	"scope": "ItemAndDescendants",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//},
+			//{
+			//	"name": "Pennington-Forms",
+			//	"path": "/sitecore/Forms/OneWeb/Pennington",
+			//	"scope": "ItemAndDescendants",
+			//	"allowedPushOperations": "createUpdateAndDelete"
+			//},
+			{
+				"name": "MediaLibrary-Themes",
+				"path": "/sitecore/media library/Themes/OneWeb/Pennington",
+				"scope": "ItemAndDescendants",
+				"allowedPushOperations": "createUpdateAndDelete"
+			}
+		]
+	}
+}

@@ -1,0 +1,40 @@
+﻿---
+ID: "4e9eae08-300c-435b-b370-dafed2aac4bd"
+Parent: "46226d3a-895d-485b-a9dd-44c2069ee336"
+Template: "6659b02d-bd4b-4821-b452-77fca1da6b43"
+Path: "/sitecore/content/OneWeb/NewBugFreeGrains/Home/products/diacon-igr/Variant Grouping/standard-variant"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 10
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220928T115252Z
+    - ID: "69ad85ef-73f1-44cf-9914-11f9bd56e901"
+      Hint: MediaList
+      Value: |
+        {953F621B-ABA0-452F-B028-249E0D46EECF}
+        {6336EA14-3E65-4F8B-8331-7DC441873E07}
+        {B365142C-BE56-4C9E-BD9E-2E0CD6872C26}
+        {99BDFA54-7062-46D0-A55B-E7506B89277E}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2b4d90e6-309d-466a-8eb8-8ea8cc8dda39"
+    - ID: "ab6b066d-6827-43a6-a71f-8c00b52d5046"
+      Hint: VariantTitle
+      Value: Diacon® IGR
+    - ID: "b21616dc-9e40-44ea-8d25-46375182cdef"
+      Hint: VariantPrice
+      Value: 0
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221007T081018Z

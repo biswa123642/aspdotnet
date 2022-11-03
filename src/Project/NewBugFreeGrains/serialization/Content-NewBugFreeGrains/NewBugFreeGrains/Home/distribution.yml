@@ -1,0 +1,211 @@
+﻿---
+ID: "7e13ddf9-1250-40c1-9b92-261ed56cae2e"
+Parent: "1e5c6880-46ad-48fe-9009-f2dbcb62622b"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: /sitecore/content/OneWeb/NewBugFreeGrains/Home/distribution
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{BB3B4AD5-7AE6-4CFF-8134-F9FAAC37CC96}"
+          p:before="*"
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-3-1/container-6" />
+        <r
+          uid="{2C33C84E-4B38-474F-B236-17D16ADD4894}"
+          p:after="r[@uid='{BB3B4AD5-7AE6-4CFF-8134-F9FAAC37CC96}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-3-1" />
+        <r
+          uid="{6B9064EF-46BF-49DD-9FC1-6509B03D5C02}"
+          p:after="r[@uid='{2C33C84E-4B38-474F-B236-17D16ADD4894}']"
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B28C76009-CBBF-4D05-8911-94F9A74652F7%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-2-1/container-4" />
+        <r
+          uid="{5931C145-B1AA-490D-9FDC-BB9981B91BDC}"
+          p:after="r[@uid='{6B9064EF-46BF-49DD-9FC1-6509B03D5C02}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{ECB15938-6459-4684-ABE9-249F58CDE1D1}"
+          p:after="r[@uid='{5931C145-B1AA-490D-9FDC-BB9981B91BDC}']"
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%3E&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B522CD03F-04F9-4510-90AC-12CC454E18E9%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-1-1/container-2" />
+        <r
+          uid="{81ADF8D3-E0DC-4F90-B9C8-2619175906C8}"
+          p:after="r[@uid='{ECB15938-6459-4684-ABE9-249F58CDE1D1}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{34E974BD-B846-47F2-8482-956F3E8A493D}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3&amp;Styles1&amp;Styles2&amp;Styles3=%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D%7C%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220920T103424Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: distribution
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Click on one of our distributors to purchase Bug Free Grains products.
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <div class="cont-list">
+        <h3>Grain Protectant Products</h3>
+        <ul>
+            <li>
+            Cardinal Professional Products<br />
+            <a rel="noopener noreferrer" href="http://www.cardinalproproducts.com/" target="_blank">http://www.cardinalproproducts.com/</a>
+            </li>
+            <li>
+            Ecolab<br />
+            <a rel="noopener noreferrer" href="https://www.ecolab.com/" target="_blank">https://www.ecolab.com/</a>
+            </li>
+            <li>
+            Growmark FS<br />
+            <a rel="noopener noreferrer" href="https://www.growmark.com/" target="_blank">https://www.growmark.com/</a>
+            </li>
+            <li>
+            IFC (Industrial Fumigation Company)<br />
+            <a rel="noopener noreferrer" href="http://www.indfumco.com/" target="_blank">http://www.indfumco.com/</a>
+            </li>
+            <li>
+            MFA Incorporated<br />
+            <a rel="noopener noreferrer" href="https://mfa-inc.com/" target="_blank">https://mfa-inc.com/</a>
+            </li>
+            <li>
+            Real McCoy Enterprises<br />
+            <a rel="noopener noreferrer" href="http://realgrainprotectors.com/" target="_blank">http://realgrainprotectors.com/</a>
+            </li>
+            <li>
+            Wilbur-Ellis<br />
+            <a rel="noopener noreferrer" href="https://www.wilburellis.com/" target="_blank">https://www.wilburellis.com/</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+            CHS Agronomy<br />
+            <a rel="noopener noreferrer" href="https://chsagronomy.com/" target="_blank">https://chsagronomy.com/</a>
+            </li>
+            <li>
+            Entech Systems<br />
+            <a rel="noopener noreferrer" href="http://www.entech.cc/" target="_blank">http://www.entech.cc/</a>
+            </li>
+            <li>
+            Growmark Grain<br />
+            <a rel="noopener noreferrer" href="https://www.growmark.com/" target="_blank">https://www.growmark.com/</a>
+            </li>
+            <li>
+            M&amp;M Specialty Services, LLC<br />
+            <a rel="noopener noreferrer" href="https://www.mmservice.com/" target="_blank">https://www.mmservice.com/</a>
+            </li>
+            <li>
+            Triton Fumigation LLC <br />
+            <a rel="noopener noreferrer" href="http://www.tritonfumigation.com/" target="_blank">http://www.tritonfumigation.com/</a>
+            </li>
+            <li>
+            Van Diest Supply Company<br />
+            <a rel="noopener noreferrer" href="https://www.vdsc.com/" target="_blank">https://www.vdsc.com/</a>
+            </li>
+            <li>
+            WinField United<br />
+            <a rel="noopener noreferrer" href="https://www.winfieldunited.com/" target="_blank">https://www.winfieldunited.com/</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+            Degesch America, Inc.<br />
+            <a rel="noopener noreferrer" href="https://www.degeschamerica.com/" target="_blank">https://www.degeschamerica.com/</a>
+            </li>
+            <li>
+            Fumigation Service &amp; Supply, Inc. <br />
+            <a rel="noopener noreferrer" href="https://www.fumigationzone.com/" target="_blank">https://www.fumigationzone.com/</a>
+            </li>
+            <li>
+            Great Plains Chemicals &amp; Fumigation <br />
+            <a rel="noopener noreferrer" href="http://greatplainschemicals.com/" target="_blank">http://greatplainschemicals.com/</a>
+            </li>
+            <li>
+            Helena<br />
+            <a rel="noopener noreferrer" href="https://helenaagri.com/" target="_blank">https://helenaagri.com/</a>
+            </li>
+            <li>
+            The McGregor Company<br />
+            <a rel="noopener noreferrer" href="http://www.mcgregor.com/" target="_blank">http://www.mcgregor.com/</a>
+            </li>
+            <li>
+            Nutrien<br />
+            <a rel="noopener noreferrer" href="https://www.nutrien.com/" target="_blank">https://www.nutrien.com/</a>
+            </li>
+            <li>
+            WinField United Crop Nutrients<br />
+            <a rel="noopener noreferrer" href="http://www.unitedsuppliers.com/" target="_blank">http://www.unitedsuppliers.com/</a>
+            </li>
+        </ul>
+        <h3>Animal Feed Products </h3>
+        <h4>Diacon<sup>&reg;</sup>-D IGR:</h4>
+        <ul>
+            <li>
+            Nutra Blend, LLC<br />
+            <a rel="noopener noreferrer" href="https://www.nutrablend.com/" target="_blank">https://www.nutrablend.com/</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+            Provimi<br />
+            <a rel="noopener noreferrer" href="https://www.cargill.com/animal-nutrition/brands/provimi" target="_blank">https://www.cargill.com/</a>
+            </li>
+        </ul>
+        </div>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Click on one of our distributors to purchase Bug Free Grains products.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Distribution
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Distribution 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4ac9782c-16d4-4fe0-b523-f6b1d33f6dc5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{54A870A2-A065-445E-BA5A-41C2B9DCD47A}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221013T051916Z

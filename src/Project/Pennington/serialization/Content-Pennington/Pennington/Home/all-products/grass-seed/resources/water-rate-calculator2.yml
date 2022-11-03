@@ -1,0 +1,299 @@
+﻿---
+ID: "a37166f3-aa1c-4b9e-b28c-c611732cb47d"
+Parent: "ef485461-2e64-4ca6-990c-0c1832390434"
+Template: "057af325-c948-4918-a4e4-2c3f6cf04524"
+Path: "/sitecore/content/OneWeb/Pennington/Home/all-products/grass-seed/resources/water-rate-calculator2"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{45EF8D6C-C265-48C2-9640-C1C38966C885}"
+- ID: "9135200a-5626-4dd8-ab9d-d665b8c11748"
+  Hint: __Never publish
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220507T164414Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Lawn Watering Rate Calculator
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Use this water rate calculator to figure out how much and how often to water your lawn.
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <br /><h2 style="color: rgb(0, 0, 0); font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 18px; font-weight: 500; line-height: 26.4px; text-transform: none;">The Pennington Seed watering calculator uses some statistics about your location, real time weather and a couple pieces of information from you to calculate the best watering plan for your lawn.</h2>
+        <p>Proper watering is one of the most important factors in making a lawn beautiful. Fill out the inputs below to determine how long to water and get the best out of your lawn.</p><p><b style="font-size:18px;">To Get Started: Enter your ZIP code in the search bar below.</b></p>
+        
+        <br /><div>
+        <div class="mdl-card  mapcard ">
+        <div id="map" class="leaflet-container leaflet-fade-anim" tabindex="0">
+        <div id="busy-holder">
+        <div id="busy" style="display: none;"><em class="fa fa-spinner fa-pulse"></em>
+        </div>
+        <div id="legend">
+        <span class="map-title leaflet-control leaflet-control-attribution  ">Monthly Evapotranspiration (inches)</span>
+        <nav class="leaflet-control legend clearfix">
+        <label>0-1</label><span style="opacity: 0.7; background: #ffffe5;"></span>
+        <label>1-2</label><span style="opacity: 0.7; background: #fff7bc;"></span>
+        <label>2-4</label><span style="opacity: 0.7; background: #fee391;"></span>
+        <label>4-5</label><span style="opacity: 0.7; background: #fec44f;"></span>
+        <label>5-6</label><span style="opacity: 0.7; background: #fe9929;"></span>
+        <label>6-8</label><span style="opacity: 0.7; background: #ec7014;"></span>
+        <label>8-9</label><span style="opacity: 0.7; background: #cc4c02;"></span>
+        <label>9-12</label><span style="opacity: 0.7; background: #993404;"></span>
+        <label>12+</label><span style="opacity: 0.7; background: #662506;"></span>
+        </nav></div>
+        </div>
+        <div class="leaflet-map-pane" style="transform: translate3d(0px, 0px, 0px);">
+        <div class="leaflet-tile-pane">
+        <div class="leaflet-layer">
+        <div class="leaflet-tile-container">&nbsp;</div>
+        <div class="leaflet-tile-container leaflet-zoom-animated"><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://stamen-tiles-a.a.ssl.fastly.net/toner-lite/4/3/5.png" style="height: 256px; width: 256px; left: 188px; top: -151px;" /><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://stamen-tiles-b.a.ssl.fastly.net/toner-lite/4/4/5.png" style="height: 256px; width: 256px; left: 444px; top: -151px;" /><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://stamen-tiles-b.a.ssl.fastly.net/toner-lite/4/3/6.png" style="height: 256px; width: 256px; left: 188px; top: 105px;" /><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://stamen-tiles-c.a.ssl.fastly.net/toner-lite/4/4/6.png" style="height: 256px; width: 256px; left: 444px; top: 105px;" /><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://stamen-tiles-d.a.ssl.fastly.net/toner-lite/4/2/5.png" style="height: 256px; width: 256px; left: -68px; top: -151px;" /><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://stamen-tiles-c.a.ssl.fastly.net/toner-lite/4/5/5.png" style="height: 256px; width: 256px; left: 700px; top: -151px;" /><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://stamen-tiles-a.a.ssl.fastly.net/toner-lite/4/2/6.png" style="height: 256px; width: 256px; left: -68px; top: 105px;" /><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://stamen-tiles-d.a.ssl.fastly.net/toner-lite/4/5/6.png" style="height: 256px; width: 256px; left: 700px; top: 105px;" /></div>
+        </div>
+        <div class="leaflet-layer" style="opacity: 0.99;">
+        <div class="leaflet-tile-container">&nbsp;</div>
+        <div class="leaflet-tile-container leaflet-zoom-animated"><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://0.ashbu.cartocdn.com/upperleft/api/v1/map/78122733ee8f5da683bdac26ec34b7fc:1438041544814/0/4/3/5.png" style="height: 256px; width: 256px; left: 188px; top: -151px;" /><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://1.ashbu.cartocdn.com/upperleft/api/v1/map/78122733ee8f5da683bdac26ec34b7fc:1438041544814/0/4/4/5.png" style="height: 256px; width: 256px; left: 444px; top: -151px;" /><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://1.ashbu.cartocdn.com/upperleft/api/v1/map/78122733ee8f5da683bdac26ec34b7fc:1438041544814/0/4/3/6.png" style="height: 256px; width: 256px; left: 188px; top: 105px;" /><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://2.ashbu.cartocdn.com/upperleft/api/v1/map/78122733ee8f5da683bdac26ec34b7fc:1438041544814/0/4/4/6.png" style="height: 256px; width: 256px; left: 444px; top: 105px;" /><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://3.ashbu.cartocdn.com/upperleft/api/v1/map/78122733ee8f5da683bdac26ec34b7fc:1438041544814/0/4/2/5.png" style="height: 256px; width: 256px; left: -68px; top: -151px;" /><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://2.ashbu.cartocdn.com/upperleft/api/v1/map/78122733ee8f5da683bdac26ec34b7fc:1438041544814/0/4/5/5.png" style="height: 256px; width: 256px; left: 700px; top: -151px;" /><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://0.ashbu.cartocdn.com/upperleft/api/v1/map/78122733ee8f5da683bdac26ec34b7fc:1438041544814/0/4/2/6.png" style="height: 256px; width: 256px; left: -68px; top: 105px;" /><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://3.ashbu.cartocdn.com/upperleft/api/v1/map/78122733ee8f5da683bdac26ec34b7fc:1438041544814/0/4/5/6.png" style="height: 256px; width: 256px; left: 700px; top: 105px;" /></div>
+        </div>
+        </div>
+        <div class="leaflet-objects-pane">
+        <div class="leaflet-shadow-pane">&nbsp;</div>
+        <div class="leaflet-overlay-pane">&nbsp;</div>
+        <div class="leaflet-marker-pane">&nbsp;</div>
+        <div class="leaflet-popup-pane">&nbsp;</div>
+        </div>
+        </div>
+        <div class="leaflet-control-container">
+        <div class="leaflet-top leaflet-left">
+        <div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in" href="#" title="Zoom in">+</a><a class="leaflet-control-zoom-out" href="#" title="Zoom out">-</a></div>
+        <div class="leaflet-bar easy-button-container leaflet-control"><button class="easy-button-button leaflet-bar-part unnamed-state-active"><span class="fa fa-map-marker"></span></button></div>
+        </div>
+        <div class="leaflet-top leaflet-right">
+        <div class="leaflet-control-geocoder leaflet-bar leaflet-control leaflet-control-geocoder-expanded"><a class="leaflet-control-geocoder-icon">&nbsp;</a>
+        <form class="leaflet-control-geocoder-form">
+            <input class="undefined" type="text" placeholder="Search..." />
+        </form>
+        <div class="leaflet-control-geocoder-form-no-error">Nothing found.</div>
+        <ul class="leaflet-control-geocoder-alternatives leaflet-control-geocoder-alternatives-minimized"></ul>
+            </div>
+            </div>
+            <div class="leaflet-bottom leaflet-left">&nbsp;</div>
+            <div class="leaflet-bottom leaflet-right">
+            <div class="leaflet-control-attribution leaflet-control"><a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> | CartoDB <a href="https://cartodb.com/attributions" target="_blank">attribution</a></div>
+            </div>
+            </div>
+            <div class="cartodb-legend-stack" style="display: none;">&nbsp;</div>
+            <div class="cartodb-logo" style="position: absolute; bottom: 0px; left: 0px; display: block; border: none; z-index: 1000000;"><a href="https://www.cartodb.com" target="_blank"><img width="71" height="29" src="https://cartodb.s3.amazonaws.com/static/new_logo.png" style="position: absolute; bottom: 8px; left: 8px; display: block; border: none; outline: none; width: 71px !important; height: 29px !important;" alt="CartoDB" title="CartoDB" /></a></div>
+            <div class="leaflet-map-pane" style="transform: translate3d(-106px, 58px, 0px);">
+            <div class="leaflet-tile-pane">
+            <div class="leaflet-layer">
+            <div class="leaflet-tile-container">&nbsp;</div>
+            <div class="leaflet-tile-container leaflet-zoom-animated"><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://stamen-tiles-a.a.ssl.fastly.net/toner-lite/4/3/5.png" style="height: 256px; width: 256px; left: 188px; top: -151px;" /><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://stamen-tiles-b.a.ssl.fastly.net/toner-lite/4/4/5.png" style="height: 256px; width: 256px; left: 444px; top: -151px;" /><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://stamen-tiles-b.a.ssl.fastly.net/toner-lite/4/3/6.png" style="height: 256px; width: 256px; left: 188px; top: 105px;" /><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://stamen-tiles-c.a.ssl.fastly.net/toner-lite/4/4/6.png" style="height: 256px; width: 256px; left: 444px; top: 105px;" /><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://stamen-tiles-d.a.ssl.fastly.net/toner-lite/4/2/5.png" style="height: 256px; width: 256px; left: -68px; top: -151px;" /><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://stamen-tiles-c.a.ssl.fastly.net/toner-lite/4/5/5.png" style="height: 256px; width: 256px; left: 700px; top: -151px;" /><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://stamen-tiles-a.a.ssl.fastly.net/toner-lite/4/2/6.png" style="height: 256px; width: 256px; left: -68px; top: 105px;" /><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://stamen-tiles-d.a.ssl.fastly.net/toner-lite/4/5/6.png" style="height: 256px; width: 256px; left: 700px; top: 105px;" /></div>
+            </div>
+            <div class="leaflet-layer" style="opacity: 0.99;">
+            <div class="leaflet-tile-container">&nbsp;</div>
+            <div class="leaflet-tile-container leaflet-zoom-animated"><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://cartocdn-gusc.global.ssl.fastly.net/upperleft/api/v1/map/5dee50d3c37840c21feff959e8f51b65:1525359754546/0/4/3/5.png" style="height: 256px; width: 256px; left: 188px; top: -151px;" /><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://cartocdn-gusc.global.ssl.fastly.net/upperleft/api/v1/map/5dee50d3c37840c21feff959e8f51b65:1525359754546/0/4/4/5.png" style="height: 256px; width: 256px; left: 444px; top: -151px;" /><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://cartocdn-gusc.global.ssl.fastly.net/upperleft/api/v1/map/5dee50d3c37840c21feff959e8f51b65:1525359754546/0/4/3/6.png" style="height: 256px; width: 256px; left: 188px; top: 105px;" /><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://cartocdn-gusc.global.ssl.fastly.net/upperleft/api/v1/map/5dee50d3c37840c21feff959e8f51b65:1525359754546/0/4/4/6.png" style="height: 256px; width: 256px; left: 444px; top: 105px;" /><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://cartocdn-gusc.global.ssl.fastly.net/upperleft/api/v1/map/5dee50d3c37840c21feff959e8f51b65:1525359754546/0/4/2/5.png" style="height: 256px; width: 256px; left: -68px; top: -151px;" /><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://cartocdn-gusc.global.ssl.fastly.net/upperleft/api/v1/map/5dee50d3c37840c21feff959e8f51b65:1525359754546/0/4/5/5.png" style="height: 256px; width: 256px; left: 700px; top: -151px;" /><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://cartocdn-gusc.global.ssl.fastly.net/upperleft/api/v1/map/5dee50d3c37840c21feff959e8f51b65:1525359754546/0/4/2/6.png" style="height: 256px; width: 256px; left: -68px; top: 105px;" /><img alt="" class="leaflet-tile leaflet-tile-loaded" src="https://cartocdn-gusc.global.ssl.fastly.net/upperleft/api/v1/map/5dee50d3c37840c21feff959e8f51b65:1525359754546/0/4/5/6.png" style="height: 256px; width: 256px; left: 700px; top: 105px;" /></div>
+            </div>
+            </div>
+            <div class="leaflet-objects-pane">
+            <div class="leaflet-shadow-pane"><img alt="" src="https://cartodb-libs.global.ssl.fastly.net/cartodb.js/v3/3.15/themes/css/images/marker-shadow.png" class="leaflet-marker-shadow leaflet-zoom-animated" style="margin-left: -12px; margin-top: -41px; width: 41px; height: 41px; transform: translate3d(470px, 91px, 0px);" /></div>
+            <div class="leaflet-overlay-pane">&nbsp;</div>
+            <div class="leaflet-marker-pane"><img alt="" src="https://cartodb-libs.global.ssl.fastly.net/cartodb.js/v3/3.15/themes/css/images/marker-icon.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-clickable" tabindex="0" style="margin-left: -12px; margin-top: -41px; width: 25px; height: 41px; transform: translate3d(470px, 91px, 0px); z-index: 91;" /></div>
+            <div class="leaflet-popup-pane">&nbsp;</div>
+            </div>
+            </div>
+            <div class="leaflet-control-container">
+            <div class="leaflet-top leaflet-left">
+            <div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in" href="#" title="Zoom in">+</a><a class="leaflet-control-zoom-out" href="#" title="Zoom out">-</a></div>
+            <div class="leaflet-bar easy-button-container leaflet-control"><button class="easy-button-button leaflet-bar-part unnamed-state-active"><span class="fa fa-map-marker"></span></button></div>
+            </div>
+            <div class="leaflet-top leaflet-right">
+            <div class="leaflet-control-geocoder leaflet-bar leaflet-control-geocoder-expanded leaflet-control"><a class="leaflet-control-geocoder-icon" href="javascript:void(0);">&nbsp;</a>
+            <form class="leaflet-control-geocoder-form">
+                <input class="undefined" type="text" placeholder="Enter Your Zipcode." />
+            </form>
+            <div class="leaflet-control-geocoder-form-no-error">Nothing found.</div>
+            <ul class="leaflet-control-geocoder-alternatives leaflet-control-geocoder-alternatives-minimized"></ul>
+                </div>
+                </div>
+                <div class="leaflet-bottom leaflet-left">&nbsp;</div>
+                <div class="leaflet-bottom leaflet-right">
+                <div class="leaflet-control-attribution leaflet-control"><a href="http://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> | &copy; <a href="https://carto.com/attributions" target="_blank">CARTO</a></div>
+                </div>
+                </div>
+                <div class="cartodb-legend-stack" style="display: none;">&nbsp;</div>
+                </div>
+                </div>
+                </div>
+                <h6 class="noEvapotrans more-info" style="display: none;">
+                <em class="fa fa-spinner fa-pulse"></em> We are getting your local evapotranspiration.
+                </h6>
+                <h6 class="hasEvapotrans more-info" style="display: block;">
+                We have calculated the weekly evapotranspiration at your selected location to be<strong><span id="petinput" val="1.20">&nbsp;<strong>1.20</strong>&nbsp;</span></strong>inches per week.
+                </h6>
+                <div id="userInputs" class="mdl-cell mdl-cell--12-col">
+                <div class="mdl-grid">
+                <div class="mdl-cell mdl-cell--12-col  mdl-cell--12-col-tablet  mdl-cell--middle">
+                <h5>What type of grass are you watering?
+                </h5>
+                <h6 class="more-info ">
+                <div class="definition smalltext" id="typeoftext"><a>How can I tell what type of grass I have? <em class="fa fa-info-circle"></em></a></div>
+                <div class="typeof-more-info more-info hidden">
+                Take a look at the packaging&rsquo;s seed tag and refer to <a href="/resources/grass-seed/grass-101/learn-the-importance-of-a-seed-tag" target="_blank"> this article </a>for how to interpret.  Choose the most prevalent kind of grass in the mix for the calculator.  Don&rsquo;t have the bag anymore?  If your lawn goes brown or dormant during winter months, choose Warm Season; otherwise choose Cool Season.
+                </div>
+                </h6>
+                </div>
+                <div class="mdl-cell mdl-cell--12-col  mdl-cell--12-col-tablet  mdl-cell--middle commonParent form-cell">
+                <div class="select-style">
+                <select class="formInputs" id="seasonInput" value="0.8">
+                <option value="0.8" name="Tall Fescue">Tall Fescue
+                </option>
+                <option value="0.8" name="Kentucky Bluegrass">Kentucky Bluegrass
+                </option>
+                <option value="0.8" name="Perennial Ryegrass">Perennial Ryegrass
+                </option>
+                <option value="0.8" name="Annual Ryegrass">Annual Ryegrass
+                </option>
+                <option value="0.8" name="Kentucky 31">Kentucky 31
+                </option>
+                <option value="0.6" name="Bermudagrass">Bermudagrass
+                </option>
+                <option value="0.6" name="Centipede">Centipede
+                </option>
+                <option value="0.6" name="Zoysia">Zoysia
+                </option>
+                <option value="0.6" name="Bahiagrass">Bahiagrass
+                </option>
+                <option value="0.6" name="St. Augustine">St. Augustine
+                </option>
+                <option value="0.8" name="Cool Season">Cool Season
+                </option>
+                <option value="0.6" name="Warm Season">Warm Season
+                </option>
+                </select>
+                </div>
+                </div>
+                </div>
+                </div>
+                <div class="mdl-cell mdl-cell--12-col">
+                <div class="mdl-grid">
+                <div class="mdl-cell mdl-cell--12-col   mdl-cell--12-col-tablet  mdl-cell--middle">
+                <h5>How green do you want your lawn to be?</h5>
+                </div>
+                <div class="mdl-cell mdl-cell--12-col   mdl-cell--12-col-tablet  mdl-cell--middle commonParent form-cell">
+                <div class="select-style">
+                <select class="formInputs" id="adjustmentInput" value="0.6">
+                <option value="1">Professional
+                </option>
+                <option value="0.8">Premium
+                </option>
+                <option value="0.6">Homeowner
+                </option>
+                <option value="0.5">Good
+                </option>
+                <option value="0.4">Survival
+                </option>
+                </select>
+                </div>
+                </div>
+                </div>
+                </div>
+                <div class="mdl-cell mdl-cell--12-col">
+                <div class="mdl-grid">
+                <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet ">
+                <h5>How much rain did you get last week? (total inches)
+                </h5>
+                <h6 class="noPrecip more-info" style="display: none;">
+                <em class="fa fa-spinner fa-pulse"></em> We are getting your local precipitation.
+                </h6>
+                <span class="hasPrecip ">
+                </span>
+                <h6 class="more-info" id="preciptext">
+                We have calculated total rainfall for the last 7 days at your selected location to be<strong><span id="precipinput"></span></strong>inches. You can adjust this value to meet your specific effective rainfall estimate.
+                </h6>
+                </div>
+                <div class="mdl-cell mdl-cell--12-col  mdl-cell--12-col-tablet form-cell">
+                <input class="formInputs" type="number" id="precipinputUser" value="0" step="0.01" />
+                </div>
+                </div>
+                </div>
+                <div class="mdl-cell mdl-cell--12-col">
+                <div class="mdl-grid">
+                <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet ">
+                <h5>How much water does your irrigation system put out? (inches per hour)
+                </h5>
+                <h6 class="more-info ">
+                <div class="definition smalltext" id="outputtext"><a>How can I find out my water output? <em class="fa fa-info-circle"></em></a></div>
+                <div class="output-more-info more-info hidden">
+                1.22in/hr is a rough average rate across sprinkler system types and brands. For best results, enter the actual amount your system uses by visiting the manufacturer&rsquo;s website or by placing multiple tuna or cat food cans on the lawn (both are about an inch high). Run your sprinkler or irrigation systems for 15 minutes and measure the water in the catch basins.
+                </div>
+                </h6>
+                </div>
+                <div class="mdl-cell mdl-cell--12-col  mdl-cell--12-col-tablet form-cell">
+                <input class="formInputs" type="number" id="irrOutput" value="1" step="0.01" />
+                </div>
+                </div>
+                </div>
+                <div class="mdl-cell mdl-cell--12-col">
+                <div class="mdl-grid">
+                <div class="mdl-cell mdl-cell--12-col  mdl-cell--12-col-tablet">
+                <h5>How many times a week do you run your irrigation system?</h5>
+                </div>
+                <div class="mdl-cell mdl-cell--12-col  mdl-cell--12-col-tablet form-cell">
+                <input class=" formInputs" type="number" id="irrPerWeek" value="3" step="1" />
+                </div>
+                </div>
+                </div>
+                <div class="mdl-cell mdl-cell--12-col">
+                <div class="mdl-grid">
+                <div class="mdl-cell mdl-cell--12-col  mdl-cell--12-col-tablet">
+                <h2>RESULT: Water for
+                <span id="runtimePerIrr" class="resultfield"><strong>19</strong></span>
+                Minutes Per Irrigation
+                </h2>
+                </div>
+                </div>
+                </div>
+                <form>
+                    <input id="Evapo" class="formInputs" type="hidden" value="1.20" />
+                    <input id="Rainfall" class="formInputs" type="hidden" value="0" />
+                    <input id="Season" class="formInputs" type="hidden" value="0.8" />
+                    <input id="Adjust" class="formInputs" type="hidden" value="1" />
+                    <input id="IrrPrecip" class="formInputs" type="hidden" value="1" />
+                    <input id="IrrWeek" class="formInputs" type="hidden" value="3" />
+                    <input id="RunPerIrr" class="formInputs" type="hidden" value="19" />
+                </form>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Use this water rate calculator to figure out how much and how often to water your lawn.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Lawn Watering Rate Calculator
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Lawn Watering Rate Calculator
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2c04dbec-435b-4612-901a-e825872cf894"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "caaa6c5b-798c-4d26-8919-fe66d620f798"
+      Hint: Page Attributes
+      Value: "{7F33052A-ED81-4828-9E55-B36A7BF4EB3B}|{B6F9EFF9-820B-4535-8128-66F5570441B9}|{8CBCF440-D4F4-42A7-85BC-81D0846F98AB}"
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{C94BA26D-1219-499E-A36F-52CA7A4B6B06}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220602T140303Z

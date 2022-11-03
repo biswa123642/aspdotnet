@@ -1,0 +1,39 @@
+﻿---
+ID: "455d0458-4606-4771-a551-adccfe7b7980"
+Parent: "6366462c-f338-44b0-a409-0e3438675a57"
+Template: "20a8b875-b660-4893-91a7-b05f80e94666"
+Path: /sitecore/content/OneWeb/Nylabone/Data/Linked Thumbnail List/HomePage/Links/Link11
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1000
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Link 11
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220601T092513Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e53a492d-e0fd-4c57-96af-06196fcb73fa"
+    - ID: "8daa9cfe-2ab1-4f9a-86ac-b2092acc9fde"
+      Hint: Link
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{7D3E30E3-6802-4EAE-B094-700555AF3C14}" />
+    - ID: "b3524bdb-f8ec-4d85-a20b-ef5f2837d74f"
+      Hint: Image
+      Value: |
+        <image mediaid="{CE5B1CFF-9A5B-418D-AF27-BFE06102464A}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220604T095651Z

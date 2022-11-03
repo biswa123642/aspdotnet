@@ -1,0 +1,78 @@
+﻿---
+ID: "d80f3744-250c-4b51-a714-93b576a85400"
+Parent: "a1a06add-8681-402c-920f-bccb609596bf"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/Nylabone/Home/solution-finder"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{9FB7EA8B-DACA-410C-8606-98E419443D3A}"
+          p:before="*"
+          s:ds="{8D81BDD1-B6A0-457F-9FA3-958A6E04AC8B}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BBC768634-7E98-408D-AB1F-FE0747580F69%7D&amp;Styles=%7B79EF931B-D638-46F0-813E-1C48D7796873%7D%7C%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D%7C%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D%7C%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/container-1"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{A33546A9-9FD1-408F-8EA2-848CF315B9A1}"
+          p:after="r[@uid='{9FB7EA8B-DACA-410C-8606-98E419443D3A}']"
+          s:ds="{AAE59685-B63F-4931-974A-385EBF945609}"
+          s:id="{578F9567-E98B-4226-B382-81AD8F4B722D}"
+          s:par=""
+          s:ph="main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{1FAF483C-28CC-408C-BD13-53FCBFA7E080}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220521T073836Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "solution-finder"
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Visit Nylabone's product finder section to find dog chews, treats, and toys for your dog.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Dog Chew Toys, Edible & Product Finder | Nylabone
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Dog Chew Toys, Edible & Product Finder | Nylabone
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6e4e019b-f896-4bee-bfc1-156a9b03e003"
+    - ID: "9bf7a7f6-34f8-4c38-a3d7-2fd0470518b1"
+      Hint: HideInSearchResults
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220627T072534Z

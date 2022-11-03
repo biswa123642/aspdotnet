@@ -1,0 +1,81 @@
+﻿---
+ID: "e7e96aa4-887f-431e-afe2-bf61496293d7"
+Parent: "0a0dbb63-ba38-49c4-b70a-3c7ee4fb1d6c"
+Template: "a6ddac75-7d24-4bdb-b3f6-5f47fbb21379"
+Path: /sitecore/content/OneWeb/Pennington/Data/Accordions/Agriculture Resources/Tips and Guides
+BranchID: "bab1fb9b-58a3-4df8-9f05-204b25ddb8e0"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{09BD444B-FABC-47EA-981D-2C8271655469}">
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B5423143A-760D-4F0E-BA4D-0B02E649A778%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-title"
+          uid="{2D869409-43BF-4EAE-82B2-E80142E06268}" />
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-content"
+          uid="{75F76553-1BDB-4C18-98BC-F5D5433E47B3}" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{A9A2844A-F548-402E-B58B-7EB1FC2908BD}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220516T092957Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5a236869-e375-49c0-a92d-0c2f1db7788f"
+      Hint: Content
+      Value: |
+        <a href="~/link.aspx?_id=7DFC3529C0F14CE693C5BE590A175469&amp;_z=z">Clover Selection Guide </a><br />
+        <a href="~/link.aspx?_id=CCC302E06ACB45D5BF831F3B27D720E9&amp;_z=z">Forage Testing Guide for Hay </a><br />
+        <a href="~/link.aspx?_id=624BA9059D1D419C8AEA6DC105B1C3AC&amp;_z=z">Guide to Developing Profitable Pastures </a><br />
+        <a href="~/link.aspx?_id=E3B2221AFAD64A8FAC4052D87951BD0D&amp;_z=z">Guide to Interpreting Soil Tests </a><br />
+        <a href="~/link.aspx?_id=C33B7B670744426BA8D917773FFA6014&amp;_z=z">Soil Test Sampling Guide </a><br />
+        <a href="~/link.aspx?_id=E90CEB71C3CB4CB6B54B1F56BF13B6A0&amp;_z=z">Ten Keys to a Profitable Forage Program</a><br />
+        <a href="-/media/BCA7C5387E1D4066B73685D339276284.ashx" target="_blank">MaxQ Spring Establishment Guide</a><br />
+        <a href="-/media/326EA722B9D0456CAF652D5DE8CA76A7.ashx" target="_blank">MaxQ Fall Establishment Guide</a><br />
+        <a href="-/media/5792B040CF294269BFD8849453BB1510.ashx" target="_blank">Texoma MaxQ II User Guide</a><br />
+        <a href="-/media/3E15213E0C9B49FE822A15B1910B34AD.ashx" target="_blank">Forage Crop Weight Guide</a><br />
+        <a href="-/media/68A99FB21985419EB425ED832058440C.ashx" target="_blank">Guide to Successfully Frost Seeding Clover</a><br />
+        <a href="-/media/54220A2CB48349C6B2AEAAFF337378DB.ashx" target="_blank">Guide to Horse Pasture Management</a><br />
+        <a href="-/media/CD96C41D9DD446BFAA040AAF9DC2EA0D.ashx" target="_blank">Seed Planting Guide</a><br />
+        <a href="-/media/4BD079768EE542268B7B71D71CFE9AF9.ashx" target="_blank">Sucessfully Establishing Bermudagrass</a>&nbsp;<br />
+        <a href="-/media/BD573124EA7549DA80B6066AD0A086DA.ashx" target="_blank">Thickening Bermuda Stands by Reseeding</a>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7240053b-9140-48ac-acea-abfccd7761a1"
+      Hint: Heading
+      Value: <h3><strong>Tips &amp; Guides</strong></h3>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e9b46101-1fde-4a41-ad42-138bab6b152a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220520T114217Z

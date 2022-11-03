@@ -1,0 +1,173 @@
+﻿---
+ID: "0d740f47-84d1-45b0-b551-527197e8e102"
+Parent: "8088b0a0-73d5-468d-88d3-1a37f8d5227a"
+Template: "bc41b87d-2a9b-4689-9f51-80bb5b31a6e7"
+Path: "/sitecore/content/OneWeb/NewBugFreeGrains/Home/products/diacon-igr"
+SharedFields:
+- ID: "76fb6ffd-4487-4028-a1cf-705fbe360cba"
+  Hint: Priority
+  Value: 0.5
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: "{7549489F-8046-409D-B097-22D7F6133600}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{D196AF5B-BC2E-434B-A896-E0AF48ECD6DA}"
+          p:before="*"
+          s:ds="{81CBC8EF-39DF-45E0-81CB-1B9D85BFB792}"
+          s:id="{3972C278-7E7A-4C2B-A293-66AF860F5C3A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B38382AA7-F9A2-4CCA-BACC-08C85C91854E%7D&amp;Styles=%7BF980FEDF-75D5-40FC-B6A2-326BD14404E8%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-product-detail-partial/row-2-1/container-4/column-3-5" />
+        <r
+          uid="{4D05D820-5B1A-417A-BA93-B87AAC402737}"
+          p:after="r[@uid='{D196AF5B-BC2E-434B-A896-E0AF48ECD6DA}']"
+          s:ds="local:/Data/video 3"
+          s:id="{3C84ED23-7591-45E0-8850-1AE96D1342B1}"
+          s:par="Reset Caching Options&amp;GridParameters={908E2BC6-C110-4ED7-AF39-7EEACBB31A34}&amp;Styles&amp;CacheClearingBehavior=Clear on publish&amp;RenderingIdentifier"
+          s:ph="/main/sxa-product-detail-partial/row-3-1/container-11/column-3-12" />
+        <r
+          uid="{676D2939-9E77-456E-87F0-BA7BB55197CE}"
+          p:after="r[@uid='{4D05D820-5B1A-417A-BA93-B87AAC402737}']"
+          s:ds="local:/Data/video 2"
+          s:id="{3C84ED23-7591-45E0-8850-1AE96D1342B1}"
+          s:par="Reset Caching Options&amp;GridParameters={908E2BC6-C110-4ED7-AF39-7EEACBB31A34}&amp;Styles&amp;CacheClearingBehavior=Clear on publish&amp;RenderingIdentifier"
+          s:ph="/main/sxa-product-detail-partial/row-3-1/container-11/column-2-12" />
+        <r
+          uid="{49908708-3D8B-44F7-84FA-35014FEAC160}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/video 1"
+          s:id="{3C84ED23-7591-45E0-8850-1AE96D1342B1}"
+          s:par="Reset Caching Options&amp;GridParameters={908E2BC6-C110-4ED7-AF39-7EEACBB31A34}&amp;Styles&amp;CacheClearingBehavior=Clear on publish&amp;RenderingIdentifier"
+          s:ph="/main/sxa-product-detail-partial/row-3-1/container-11/column-1-12" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{953F621B-ABA0-452F-B028-249E0D46EECF}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220928T114500Z
+    - ID: "27aae902-36ee-42d6-a409-540b226404b0"
+      Hint: PDFDocuments
+      Value: |
+        {AE633D13-81A8-4767-9E4B-33C81AC327CE}
+        {2B092B2C-CC64-4967-B556-F33399F4AB30}
+        {13D59C1B-36DA-4D0F-9B6D-A9C7C98BF894}
+    - ID: "30b0a514-dc94-432c-9655-8c01e474023f"
+      Hint: ExtendedContent
+      Value: |
+        <p>A versatile liquid formulation that is excellent for control of lesser grain borers, Indian meal moths, saw-toothed grain beetles and other stored product insects.</p>
+        <ul>
+            <li>Labeled for all stored commodities</li>
+            <li>The active ingredient (S)-methoprene</li>
+            <li>Broad-spectrum control</li>
+            <li>Apply directly to grain stream</li>
+            <li>Apply as a fogging concentrate or a surface spray</li>
+            <li>CODEX Approved</li>
+            <li><strong><a href="-/media/313DD88D72BF49B5929068219ED3ADFE.ashx">CODEX Approved for Peanuts</a></strong></li>
+            <li>Perfect tank-mix partner with&nbsp;<a href="~/link.aspx?_id=C75C15245B4E46A191A87B6F252EB1CD&amp;_z=z">Centynal<sup>&trade;</sup> EC Insecticide</a></li>
+            <li>EPA Tolerance Exempt</li>
+        </ul>
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Diacon® IGR
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: "Diacon® IGR is approved virtually everywhere stored product insects are a problem. Diacon® IGR interrupts the life cycle, providing long-term control."
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: "Diacon&reg; IGR is approved virtually everywhere stored product insects are a problem. Diacon&reg; IGR interrupts the life cycle, providing long-term control."
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "Diacon® IGR is approved virtually everywhere stored product insects are a problem. Diacon® IGR interrupts the life cycle, providing long-term control."
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Diacon® IGR
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Diacon® IGR
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c45396cd-3685-470b-8c53-07c977aad068"
+    - ID: "95d893d1-43ae-4c07-bc1e-9839b5cffed5"
+      Hint: RelatedProducts
+      Value: |
+        {0555AA5A-5AF1-4B8B-B84E-CCC4016A5E2A}
+        {C75C1524-5B4E-46A1-91A8-7B6F252EB1CD}
+        {AF002163-4852-455C-8020-76CEBE7F7F7C}
+        {E187C744-5D1E-46A1-B80D-DF73A434E91B}
+    - ID: "ab818f97-8aa8-4d81-9e70-29c2d400c1fb"
+      Hint: RenderCanonicalTag
+      Value: 1
+    - ID: "b433c832-fadf-498e-b77b-e7933f19ba8e"
+      Hint: Accordion1Title
+      Value: APPLICATION TIPS
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "be107673-5a64-4a47-9472-c91e8312cb3d"
+      Hint: RelatedProductsLabel
+      Value: Related Products
+    - ID: "c95560b6-d1ef-47eb-b4bb-da582a84a444"
+      Hint: Accordion1
+      Value: "Application of Diacon<sup>®</sup> IGR is approved virtually everywhere stored product insects are a problem — farm storage, large silos, seed storage and more. It goes where stored product insects go, interrupting their life cycles, providing long-term control and profit protection.<br />"
+    - ID: "ca373527-0c18-4282-83b0-121b8a197598"
+      Hint: LongTitle
+      Value: Diacon® IGR
+    - ID: "cbab27c6-0f5a-4c0e-a054-d6da8e5cf37d"
+      Hint: Accordion3Title
+      Value: RESOURCES
+    - ID: "d359f5e1-8d09-4717-9920-5687aecee004"
+      Hint: Accordion3
+      Value: |
+        <ul>
+            <li><a href="-/media/1B1D8AAA98FA447A90125F86A095AC32.ashx" target="_blank">Bug Free Grains Catalog</a></li>
+            <li><a href="-/media/BA0C3B1803B94C4BB5E44C6EE2309D03.ashx" target="_blank">Bug Free Grains Product Brochure</a></li>
+            <li><a href="-/media/AD874754419F4FFB984983065460B59B.ashx" target="_blank">Bug Free Grains Product Q&amp;A</a></li>
+            <li><a href="-/media/95ED6310B6A24FD7B51A55ED9195BEBD.ashx" target="_blank">Diacon<sup>®</sup> IGR Brochure</a></li>
+            <li><a href="-/media/612D05026BDE48BCBF5CA6DE5F48E2E1.ashx" target="_blank">Diacon<sup>®</sup> IGR Milling Sell Sheet</a></li>
+            <li><a href="-/media/A3BB3F955CD0468C821B9E06443D3BF9.ashx" target="_blank">Diacon<sup>®</sup> IGR Peanut Sell Sheet</a></li>
+            <li><a href="-/media/42D0A979679B47AD9AD97BDC45F7E293.ashx" target="_blank">Diacon<sup>®</sup> IGR Sunflower Seed Sell Sheet</a></li>
+            <li><a href="-/media/896CA8DF8FE448929E0B2FEFDAA51E34.ashx" target="_blank">Diacon<sup>®</sup> IGR/Centynal<sup>™</sup> Insecticide/PBO-8<sup>®</sup> Synergist Stored Rice Sheet</a></li>
+            <li><a href="-/media/A7AA0D9B89B64227AB6F77021E66CAB3.ashx" target="_blank">Insect Identification Cards</a></li>
+            <li><a href="-/media/A014EA4B04064AAA8412BFE29622E941.ashx" target="_blank">Strategies to Control Weevils in Grain Storage Facilities</a></li>
+            <li><a href="-/media/8B9E578EC637496780BC8643E4FBC632.ashx" target="_blank">Tips and Tricks Fact Sheet</a></li>
+        </ul>
+    - ID: "d603a982-51bb-4898-8aed-d25e3c6c416c"
+      Hint: Accordion2
+      Value: |
+        <ul>
+            <li>4 oz per 1,000 bushels of commodity</li>
+            <li>1 ml treats 1,000 square feet of grain surface as a top dressing</li>
+            <li>3 ml treats 10,000 cubic feet of warehouse area</li>
+            <li>Always follow label directions</li><li>Application rates vary by commodity, see label for complete directions.&nbsp;<br /></li>
+        </ul>
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{953F621B-ABA0-452F-B028-249E0D46EECF}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221006T064742Z
+    - ID: "ee6a4f12-e8eb-4b34-9d07-d477e8ad63d4"
+      Hint: Accordion2Title
+      Value: APPLICATION RATES AND USAGE

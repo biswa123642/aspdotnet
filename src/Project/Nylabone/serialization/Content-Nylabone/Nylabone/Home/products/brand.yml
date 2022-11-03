@@ -1,0 +1,103 @@
+﻿---
+ID: "a704c967-70d1-4233-9b02-0644a02bf3a6"
+Parent: "f6287fe1-6535-4610-8fa0-d19f478ffaa4"
+Template: "7bdf7d45-c98f-4e4d-ac3a-ad8035780bbe"
+Path: /sitecore/content/OneWeb/Nylabone/Home/products/brand
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{78FEBB9F-8B58-4A7A-B02B-0CD76F9D3E4B}"
+- ID: "76fb6ffd-4487-4028-a1cf-705fbe360cba"
+  Hint: Priority
+  Value: 0.5
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{BE1A7F2E-FCCB-42E6-A0FA-76FC729947EC}"
+          s:ds="{580EF671-71EF-4F26-8C9B-F0D8BF167881}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BBC768634-7E98-408D-AB1F-FE0747580F69%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-product-category/container-1/row-3-2" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "237274d5-0911-4d4e-a9eb-48c2a8483ca1"
+      Hint: FeaturedChildList
+      Value: |
+        {6AE774AE-0968-43B0-A144-8B6C86612BD0}
+        {DA7A8CAF-9FC7-40C7-9161-A0602ABB3856}
+        {FF656D03-1956-4DEA-A859-4EA4D033931E}
+        {0016B369-F066-4A2C-ADD4-5324167E644D}
+        {BB734E64-7057-425C-97EA-DC69AD3F3D04}
+        {A726EBE9-E55A-4F5D-A153-91B1024329A7}
+        {B7FBF8F0-D10D-49E1-BE25-4E43412CFCB1}
+        {6AFB90C5-18AB-412D-A1C8-D1ABFF4FAD0C}
+        {A5EBD0CB-0ED1-48F0-A720-1D2AE2329876}
+        {F179D673-F427-45EC-97C7-C9C04DDF6100}
+        {B13075A2-21A0-48DB-A5EA-BBB5170F699C}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220510T115641Z
+    - ID: "2b413044-4890-48c9-a955-78565193a0b8"
+      Hint: HeroBannerDescription
+      Value: 
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "363cfc7c-aff0-4d45-8a1f-11c311fd36bc"
+      Hint: ShowTextWithOverlay
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Find by Brand
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: "Learn about our Nylabone brands ? Healthy Edibles, Nutri Dent, Advanced Oral Care & Nubz."
+    - ID: "78351212-39c1-4f87-b066-1c09c6fd7b4c"
+      Hint: HeroBannerLogo
+      Value: |
+        <image mediaid="{F5B9BA5B-5AB9-46DC-A575-4263F88F8379}" ></image>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "Learn about our Nylabone brands ? Healthy Edibles, Nutri Dent, Advanced Oral Care & Nubz."
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Nylabone Brands | Dog Chew Toy & Treat Brands
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Nylabone Brands | Dog Chew Toy & Treat Brands
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b3cdbe72-1a1a-49d9-baff-465f56d2b510"
+    - ID: "92f32441-cec4-42a7-ba44-83e8bb569c74"
+      Hint: FacetAttributes
+      Value: "{4096A818-5EDB-4BCF-A926-E5B7DCBEC3E7}|{70045707-8A02-4F3D-A373-51371B9D4343}|{F5CB3BB2-C0DE-4FC9-B296-5391BF3B0D0C}"
+    - ID: "a6772724-fc83-4e63-a2f6-a893b8329b9e"
+      Hint: HeroBannerAlignment
+      Value: "Right-Align"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: Nutri Dent
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220615T102400Z

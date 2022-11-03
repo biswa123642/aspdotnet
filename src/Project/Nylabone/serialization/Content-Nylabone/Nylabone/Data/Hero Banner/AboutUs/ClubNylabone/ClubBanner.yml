@@ -1,0 +1,44 @@
+﻿---
+ID: "5c82e917-259e-4c19-95dd-7b86bb2a5f0b"
+Parent: "7a4b75b0-21f5-44af-85c1-b16db47e25df"
+Template: "f3e6da4e-5d19-49b8-9737-2ee2e9067757"
+Path: /sitecore/content/OneWeb/Nylabone/Data/Hero Banner/AboutUs/ClubNylabone/ClubBanner
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Club Nylabone Banner
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220430T060827Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{C2C6C825-6A8E-44E8-920F-4C0A27D9FF7E}" alt="club-nylabone" height="" width="" hspace="" vspace="" ></image>
+    - ID: "41b17cd3-d543-4c7c-9bfa-b21765882326"
+      Hint: HeroImageMobile
+      Value: |
+        <image mediaid="{E0A0E502-3B5C-4B89-95C7-E7E24B6DC45A}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "03111436-006c-4850-a653-5c60ff0dea41"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: |
+        <div class="club-nylabone-heading">
+        <h1 style="display: inline-block;">Sign Up for Club</h1>
+        <img alt="" height="119" width="224" src="-/media/62292BFFACA543AB847053A6D341AD39.ashx" /></div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220530T053754Z

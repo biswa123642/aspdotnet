@@ -1,0 +1,158 @@
+﻿---
+ID: "21295643-3679-49eb-9e95-330061806096"
+Parent: "09eb88d3-ff17-4760-8dec-23b7f9c08dbd"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/NewBugFreeGrains/Home/insect-id/select-an-insect/confused-flour-beetle"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{F81E7551-72B2-4515-9D62-A5174255D1A5}"
+          p:before="*"
+          s:ds="{447E1274-940C-4FEE-B1E0-CB8299EF5432}"
+          s:id="{86FBA02B-2E9C-4A00-9CCF-DE607B1FCDC7}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass=col-md-3&amp;HideImage&amp;IsMobileCarousel&amp;IsDesktopCarousel&amp;ShowDescription=1&amp;FieldNames=%7B3C2CCCE6-6DC8-4816-A20B-8551B44E446C%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=13"
+          s:ph="/main/row-4-1/container-5"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{90CA33E4-A7C5-4786-A93F-F19B020FDDE9}"
+          p:after="r[@uid='{F81E7551-72B2-4515-9D62-A5174255D1A5}']"
+          s:ds="{A7B59C50-949C-4936-965C-FB272D4C5AA6}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BC4A7FD1B-BDC1-4B95-B540-812249703041%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=12"
+          s:ph="/main/row-3-1/container-4/column-2-8/row-2-9" />
+        <r
+          uid="{32DC12B7-E229-4DB2-82C8-8B61E2C90362}"
+          p:after="r[@uid='{90CA33E4-A7C5-4786-A93F-F19B020FDDE9}']"
+          s:ds="{3492ED92-D537-4888-964C-9703D60C1CCB}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BC4A7FD1B-BDC1-4B95-B540-812249703041%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
+          s:ph="/main/row-3-1/container-4/column-2-8/row-1-9" />
+        <r
+          uid="{5ED1B1F7-AED5-4FAF-8D52-15BB345626C7}"
+          p:after="r[@uid='{32DC12B7-E229-4DB2-82C8-8B61E2C90362}']"
+          s:ds="{20F59A49-95EE-44D4-8E62-E32F7EC498D5}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;FieldNames=%7B45B01501-C549-43CA-A9C3-96BA64B7920B%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/row-3-1/container-4/column-1-8" />
+        <r
+          uid="{B94DA4C0-B7FC-4AF0-84B8-8C2A5FD7411F}"
+          p:after="r[@uid='{5ED1B1F7-AED5-4FAF-8D52-15BB345626C7}']"
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=9"
+          s:ph="/main/row-3-1/container-4/column-2-8" />
+        <r
+          uid="{DF9CC049-74F0-4341-8FB9-AFD81EA3C98C}"
+          p:after="r[@uid='{B94DA4C0-B7FC-4AF0-84B8-8C2A5FD7411F}']"
+          s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+          s:par="ColumnWidth1=%7B9AD9D6FB-28FC-43C5-8DA4-4A6A63CE802F%7D%7C%7BF72E39EB-4DD8-4836-8284-037CC1D62CA9%7D%7C%7BA372E54A-0E8C-4332-A226-6B369B8B52CF%7D&amp;ColumnWidth2=%7B9AD9D6FB-28FC-43C5-8DA4-4A6A63CE802F%7D%7C%7BDB5F8FAC-287E-4EC4-A031-0C48B7553A54%7D%7C%7B921920A2-69EC-4570-AB1C-CCF80EE6447E%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=8"
+          s:ph="/main/row-3-1/container-4" />
+        <r
+          uid="{5B75C1F9-9376-40F5-A9EA-ACBE41375D23}"
+          p:after="r[@uid='{DF9CC049-74F0-4341-8FB9-AFD81EA3C98C}']"
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles=%7B26C7610E-337D-4F2E-8659-A22C76F38526%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/row-2-1/container-3" />
+        <r
+          uid="{19331380-DAE2-46BE-83F0-744A58894B3A}"
+          p:after="r[@uid='{5B75C1F9-9376-40F5-A9EA-ACBE41375D23}']"
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%3E&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B522CD03F-04F9-4510-90AC-12CC454E18E9%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/row-1-1/container-2" />
+        <r
+          uid="{69603576-F67A-4D87-A534-4A8D7C72537A}"
+          p:after="r[@uid='{19331380-DAE2-46BE-83F0-744A58894B3A}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/row-4-1" />
+        <r
+          uid="{0ED2FAD7-C1B5-422E-8C92-946697C3736B}"
+          p:after="r[@uid='{69603576-F67A-4D87-A534-4A8D7C72537A}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/row-3-1" />
+        <r
+          uid="{52037CDE-7B7C-4E05-A4A1-FBBBD1830E28}"
+          p:after="r[@uid='{0ED2FAD7-C1B5-422E-8C92-946697C3736B}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/row-2-1" />
+        <r
+          uid="{A6E68F28-729C-455A-B575-A300B5326115}"
+          p:after="r[@uid='{52037CDE-7B7C-4E05-A4A1-FBBBD1830E28}']"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/row-1-1" />
+        <r
+          uid="{D464566B-04A4-4A3D-948D-C31DD2C702EA}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3%2C4&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4=%7BA62B13D5-B743-4609-9C11-A7093A14FF8E%7D&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=1&amp;Background Image&amp;Stretch mode=%7BB56A9527-EEA9-4780-A06B-F822782126A3%7D"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{5F0DE566-89FD-4B74-8F43-CBFD9413AB1A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T121145Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: confused flour beetle
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: "Reddish-brown body 1/8” long; antennae gradually expand toward end; flightless."
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: |
+        <h1>Confused Flour Beetle</h1>
+        <h2><em>(Tribolium confusum)</em></h2>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "Reddish-brown body 1/8” long; antennae gradually expand toward end; flightless."
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Confused Flour Beetle
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Confused Flour Beetle 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d94cc90c-69e9-4c93-8578-0c3b7673dbd1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{5F0DE566-89FD-4B74-8F43-CBFD9413AB1A}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221010T064909Z

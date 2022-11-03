@@ -1,0 +1,84 @@
+﻿---
+ID: "1f7a49ea-86cd-4aef-b283-d033c4fa2fd3"
+Parent: "bca4bb60-e362-4105-bafc-c7581dc27ebb"
+Template: "7bdf7d45-c98f-4e4d-ac3a-ad8035780bbe"
+Path: "/sitecore/content/OneWeb/Pennington/Home/all-products/agriculture"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{43E6189D-5757-4927-9ECE-59E0C4A4DB14}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "055a2c41-4d44-4441-b589-b86f39cc64e5"
+      Hint: HeroBannerContent
+      Value: Pennington has a tradition of serving the agriculture community with quality products.
+    - ID: "237274d5-0911-4d4e-a9eb-48c2a8483ca1"
+      Hint: FeaturedChildList
+      Value: |
+        {58921992-9B03-4119-8EC5-CA01B550484C}
+        {1C998110-3904-4FB6-8CD3-03AB2E3040FA}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220507T164343Z
+    - ID: "2f396e45-5464-485c-a98c-091f8848fb6a"
+      Hint: HeroImageDesktop
+      Value: |
+        <image mediaid="{6BBD09CB-CCAC-450F-A5BA-EB605F7311F7}" />
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "363cfc7c-aff0-4d45-8a1f-11c311fd36bc"
+      Hint: ShowTextWithOverlay
+      Value: 
+    - ID: "41b17cd3-d543-4c7c-9bfa-b21765882326"
+      Hint: HeroImageMobile
+      Value: |
+        <image mediaid="{D3C85B38-E8CD-4A13-A285-B84E1F33C88B}" />
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Agriculture Products
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Pennington has a tradition of serving both farmers and hunters with quality products.
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Pennington has a tradition of serving both farmers and hunters with quality products.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Agriculture - Seed Mixes | Pennington"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Agriculture
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "42b8c434-83f1-4a8f-92ef-fa25a151740c"
+    - ID: "92f32441-cec4-42a7-ba44-83e8bb569c74"
+      Hint: FacetAttributes
+      Value: "{BBCCA7FD-9AAA-4B2B-A9F8-0AFEA3DCA06B}|{9E3F1110-16D8-42B7-96EF-8198158B4496}|{0D765632-0228-43A6-8F04-9E97025F28E4}|{A520C7B3-423C-4F42-88EE-1534323C027C}|{17CBE9F5-A725-464C-A5DD-145518FFA04C}"
+    - ID: "a6772724-fc83-4e63-a2f6-a893b8329b9e"
+      Hint: HeroBannerAlignment
+      Value: "Right-Align"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: SERVING FARMERS SINCE 1945
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{6BBD09CB-CCAC-450F-A5BA-EB605F7311F7}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220524T125857Z
+    - ID: "f1115acb-7ba4-48e9-8262-cb95f1f52313"
+      Hint: OverlayColor
+      Value: "dark-overlay"

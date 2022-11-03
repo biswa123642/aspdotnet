@@ -1,0 +1,147 @@
+﻿---
+ID: "09805034-7f32-4e12-8d30-7ce5412247cd"
+Parent: "c334e612-a02a-4c36-ae6a-c59c27deb403"
+Template: "bc41b87d-2a9b-4689-9f51-80bb5b31a6e7"
+Path: "/sitecore/content/OneWeb/Pennington/Home/all-products/grass-seed/pennington-one-step-complete-bermuda"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{772D99D8-DEC9-4A2C-A5D1-4F84B9914BA3}"
+- ID: "961cadd8-8f7d-4b12-b0da-7af04b54b22d"
+  Hint: OpenGraphType
+  Value: Product
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 2200
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: "{BB655F3A-AB7A-4943-A960-0FBEDF1993E4}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{21F88DF5-A0ED-4429-945C-C64603B2FC7E}"
+          p:before="*"
+          s:ds="{C0D38672-7BF0-40B2-873F-F7047284A11B}"
+          s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass&amp;FieldNames=%7BDD2A67DD-2C78-484F-9B69-9E17B40C4BD1%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-product-detail/container-1/row-1-4/row-1-14" />
+        <r
+          uid="{FF53AE46-1715-4D6A-A2EF-1B05F678C84D}"
+          p:after="r[@uid='{21F88DF5-A0ED-4429-945C-C64603B2FC7E}']"
+          s:ds="local:/Data/Images/3-step Image"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B89B3FF34-D880-427D-87FC-FCE6D2465861%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/sxa-product-detail/container-1/row-1-4/row-1-14" />
+        <r
+          uid="{EB3D3B72-AE76-48DF-BB23-BB8091370C85}"
+          p:after="*[1=2]"
+          s:ds="{7211A0B0-98FA-463D-834C-AF59E8DF79E0}"
+          s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass&amp;FieldNames=%7BDD2A67DD-2C78-484F-9B69-9E17B40C4BD1%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/sxa-product-detail/container-1/row-1-4/row-1-14" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02a41838-168c-4858-bafd-f0031b877ddc"
+      Hint: ProductAttributes
+      Value: "{A415B303-6159-4E8C-B75F-340311545D11}|{69DB193C-3C85-4198-AACC-D33C329D8D84}|{FDE71420-AD17-42D1-940C-DA9BE38C0C3F}|{73CD56D9-D338-4E38-95DA-2FB0EB43AB07}|{88F9B5D7-3E98-4D9E-9BD5-10B1327856D2}|{1D17CBAE-8581-493A-B6B8-2A42F388FA9F}|{F3911507-75D0-4AE4-8882-E447C2424FAF}|{153FD433-3458-43EF-8544-88A108120D92}|{72383853-DAF7-4481-8B5E-83BB435B938F}|{D9CA246A-3D41-4073-8ADA-820C2A97459F}|{56D57C6B-053C-4DDB-A29B-298FC7F0FBF2}|{5B9CDF99-FE32-4E1F-9883-447295FDA85C}|{D0311806-2FD2-47B6-83EA-7DAEE500CA5D}|{940A78A6-F230-4F1E-801F-C040585D5619}"
+    - ID: "1e2f8b03-c529-4fee-8663-5ec9f6b6a701"
+      Hint: SecondaryCategories
+      Value: "{0F5752E9-557D-4D51-A01A-0AAF15CFA0DA}|{6393DC56-7BCC-4CB4-A895-38A2A10EA28B}|{C334E612-A02A-4C36-AE6A-C59C27DEB403}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220507T164418Z
+    - ID: "30b0a514-dc94-432c-9655-8c01e474023f"
+      Hint: ExtendedContent
+      Value: |
+        <P>Repair bare spots and thin or pet-damaged areas in your Bermudagrass lawn in just three weeks or less* with Pennington One Step Complete Bermudagrass. This easy-to-use, pre-mixed product provides everything you need for quick and simple lawn repairs. With One Step Complete Bermudagrass, you get premium Bermudagrass seed, professional-grade fertilizer and natural wood mulch in one product. Plus, Pennington's exclusive Penkoted seed technology protects seed from disease and ensures healthier, better seedling growth.</p>
+        
+        <ul>
+        <li>Repairs bare spots in three weeks or less*</li>
+        <li>Combination wood mulch, premium Pennington grass seed and fertilizer</li>
+        <li>Grows beautiful, healthy, thick grass</li>
+        <li>If the bare spot was caused by dog urine, be sure to water thoroughly prior to planting. Flushing the area will dilute the concentrated salts and help the seed fully establish.</li>
+        <li>GUARANTEED TO GROW</li></ul>
+        *Subject to proper growing conditions
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: One Step Complete Bermuda
+    - ID: "50094021-6c44-4bb3-b384-f4e2bc0262ea"
+      Hint: RelatedArticlesAndProducts
+      Value: |
+        {12F27AEE-7F52-4954-8CC4-C48C7BA1B3DA}
+        {8B832BE0-60A8-4712-8826-904BCF0DDA32}
+        {E16FF002-F438-49D1-B87F-4A13B44FF61F}
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: "Combination premium Smart Seed grass seed and professional-grade fertilizer and mulch that is formulated with grasses that thrive in sunny and moderately shady areas."
+    - ID: "54a1450c-b9d8-42ce-b085-8c9109daaf37"
+      Hint: RelatedArticlesandProductsLabel
+      Value: RELATED ARTICLES & PRODUCTS
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: "Combination premium Smart Seed grass seed and professional-grade fertilizer and mulch that is formulated with grasses that thrive in sunny and moderately shady areas."
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "Combination premium Smart Seed grass seed and professional-grade fertilizer and mulch that is formulated with grasses that thrive in sunny and moderately shady areas."
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "One Step Complete Bermudagrass - Grass Seed Repair Mix | Pennington"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: One Step Complete Bermuda
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9baa3864-33b2-4b24-9a05-79f5d911ffcc"
+    - ID: "b433c832-fadf-498e-b77b-e7933f19ba8e"
+      Hint: Accordion1Title
+      Value: Planting Specifications
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c95560b6-d1ef-47eb-b4bb-da582a84a444"
+      Hint: Accordion1
+      Value: |
+        <p>Daily Light Required: Full sun (8+ hrs of daily sun)</p> <p>Sun Tolerance: Excellent</p> <p> Shade Tolerance:&nbsp;Low</p> <p>Grass Color:&nbsp;Medium to dark green</p> <p> Grass Texture:&nbsp;Moderately fine</p> <p>Drought Tolerance: Excellent</p> <p>Disease Resistance: Very good</p> <p>Traffic Tolerance: Excellent</p> <p>Planting Zones: B, M, H, I, J, K, L</p> <p>Recommended Planting Dates: Late spring through summer</p> <p>Planting Rates:</p> <ul>     <li>New Lawns: 1 lb/20 sq ft</li>     <li>Overseeding: Extended Results (up to 25% damage): 1 lb./15 sq. ft.</li> </ul> <p>Planting Depth:&nbsp;No more than 1/8"</p> <p>Germination:&nbsp;7-21 days</p> <p>Mowing Height:&nbsp;1"&ndash;1 1/2"</p>
+    - ID: "ca373527-0c18-4282-83b0-121b8a197598"
+      Hint: LongTitle
+      Value: One Step Complete Bermuda
+    - ID: "caaa6c5b-798c-4d26-8919-fe66d620f798"
+      Hint: Page Attributes
+      Value: "{D4DAF455-B85A-4D5C-BDC3-8A57112C2054}|{4D1303DF-A072-42E5-AFCD-FF9BC4EB25FB}|{54D58871-6FDB-4113-A7A3-F9D93CDB751F}|{A175ACD3-18CD-478B-B258-4CA5577092B0}|{B6F9EFF9-820B-4535-8128-66F5570441B9}"
+    - ID: "cbab27c6-0f5a-4c0e-a054-d6da8e5cf37d"
+      Hint: Accordion3Title
+      Value: Planting &amp; Growing Instructions
+    - ID: "d359f5e1-8d09-4717-9920-5687aecee004"
+      Hint: Accordion3
+      Value: |
+        <p><strong>Prepare</strong><br /> Remove debris, then rake the soil to loosen and smooth the top layer.</p> <p><strong>Apply</strong><br /> For optimal results: Spread seeding mix approximately 1 cup/sq.ft. everywhere healthy beautiful grass is desired.<br /> For extended results for grass up to 25% damage: Spread seeding mix approximately 1 cup/15 sq.ft. everywhere healthy beautiful grass is desired.</p> <p><strong>Water</strong><br /> Keep the soil moist by watering daily (twice a day, if needed) until grass sprouts and reaches about 3&rdquo; tall. The wood mulch turns a darker color when properly watered. Once it turns a lighter color, it&rsquo;s time to water again.<span style="font-weight: lighter;"><br /> </span></p> <p>Check out planting tips from our blog! <a href="/all-products/grass-seed/resources/how-to-plant-grass-seed" target="_blank">How to Plant Grass Seed</a> and <a href="/all-products/grass-seed/resources/how-to-repair-bare-spots-in-your-lawn" target="_blank">How to Repair Bare Spots in Your Lawn</a></p>
+    - ID: "d603a982-51bb-4898-8aed-d25e3c6c416c"
+      Hint: Accordion2
+      Value: "Planting Zones: B, M, H, I, J, K, L<p><img alt='map-all' src='-/media/8704E0E5A2784EE4ABCD00B0CF0E384B.ashx' /></p>"
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{87D81B67-AF64-4A8F-92C3-F76ABE766518}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220608T083637Z
+    - ID: "ee6a4f12-e8eb-4b34-9d07-d477e8ad63d4"
+      Hint: Accordion2Title
+      Value: Planting Zones

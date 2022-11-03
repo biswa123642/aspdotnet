@@ -1,0 +1,76 @@
+﻿---
+ID: "d5f44e31-49bd-4b01-83d5-94b7f461a3b6"
+Parent: "0a0dbb63-ba38-49c4-b70a-3c7ee4fb1d6c"
+Template: "a6ddac75-7d24-4bdb-b3f6-5f47fbb21379"
+Path: /sitecore/content/OneWeb/Pennington/Data/Accordions/Agriculture Resources/Technical Sheets
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{09BD444B-FABC-47EA-981D-2C8271655469}">
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B5423143A-760D-4F0E-BA4D-0B02E649A778%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-title"
+          uid="{9DA1F101-3819-4155-8CB6-DB17DF3588EF}" />
+        <r
+          ds=""
+          id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          par="FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+          ph="section-content"
+          uid="{99AF072C-BF5D-4508-BCFE-B073AC7CD353}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220516T094027Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5a236869-e375-49c0-a92d-0c2f1db7788f"
+      Hint: Content
+      Value: |
+        <a href="-/media/BAB86DC1FF224A2B8465950206EB331D.ashx" target="_blank">Sahara II Forage Tech Sheet</a><br />
+        <a href="-/media/200BA5DDC29343F3B0DC3A012C67A6DD.ashx" target="_blank">AU Sunrise Technical Sheet</a><br />
+        <a href="-/media/6048EBF273564C92B3CD8FC4D857162A.ashx" target="_blank">Tierra Verde Technical Sheet</a><br />
+        <a href="-/media/236D5A70FB5249DA8D207EC7D2C42F9B.ashx" target="_blank">Pennington Forage Bermudagrass Products</a><br />
+        <a href="-/media/501187E0792A4D9083F618F766E33882.ashx" target="_blank">Cheyenne II Technical Sheet</a><br />
+        <a href="-/media/73389CAB6B3247B3AE98164246B83876.ashx" target="_blank">Durana Clover Technical Sheet</a><br />
+        <a href="-/media/C73464D487DF4FC39A75196E286ADC37.ashx" target="_blank">Jesup Max Q Technical Sheet</a><br />
+        <a href="-/media/C23852284E974AA5AA5DB0735BDCFAF5.ashx" target="_blank">Mohawk Technical Sheet</a><br />
+        <a href="-/media/48B2CFA123EF46AD9BB5398484C04B35.ashx" target="_blank">Olympia Orchardgrass Technical Sheet</a><br />
+        <a href="-/media/280EDA27FBB5471DBD0E864D5BB6DCCE.ashx" target="_blank">Passerel Plus Technical Sheet</a><br />
+        <a href="-/media/09D879CD164941A18C0B0F90102F5495.ashx" target="_blank">Patriot Technical Sheet</a><br />
+        <a href="-/media/C73464D487DF4FC39A75196E286ADC37.ashx" target="_blank">Texoma MaxQ II Technical Sheet</a><br />
+        <a href="-/media/0EB3DF5605F043AB8C913EAC874C8156.ashx" target="_blank">Wintergrazer 70 Cover Crop Production Technical Sheet</a><br />
+        <a href="-/media/1F252095D5F542F6B72501D3DAEF87B5.ashx" target="_blank">Wintergrazer 70 Forage Production Technical Sheet</a>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7240053b-9140-48ac-acea-abfccd7761a1"
+      Hint: Heading
+      Value: <h3><strong>Technical Sheets</strong></h3>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "366afafe-f5f8-4a82-8f30-5d7a115a13e1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220520T113102Z

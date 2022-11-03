@@ -1,0 +1,34 @@
+﻿---
+ID: "0650fb26-1e7c-4320-a2cd-ff4b89d1a38f"
+Parent: "5473bf63-24c7-44b7-a0a4-08e539185e49"
+Template: "e229ce6c-561d-41d9-b521-efbf47d00b6c"
+Path: /sitecore/content/OneWeb/Pennington/Data/Two Level Navigation Menu/Wildlife
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F75C8541-EAE2-45C8-873D-ABE4A09CCD3A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220228T083736Z
+    - ID: "2d366fb9-cb2f-48ab-bafa-c29c581934c5"
+      Hint: Link
+      Value: |
+        <link text="WILDLIFE" anchor="" linktype="internal" class="" title=""  querystring="" id="{16D43B58-C317-4A08-AEA4-E71F3E258C1E}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "617f679d-6317-4662-96ff-b953ce92abfe"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220509T071844Z

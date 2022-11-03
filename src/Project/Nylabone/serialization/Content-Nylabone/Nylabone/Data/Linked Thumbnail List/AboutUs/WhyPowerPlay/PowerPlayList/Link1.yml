@@ -1,0 +1,38 @@
+﻿---
+ID: "26647ad0-a2ea-4005-8f29-b104be5731df"
+Parent: "239da42f-de03-4764-a225-b048721098eb"
+Template: "20a8b875-b660-4893-91a7-b05f80e94666"
+Path: /sitecore/content/OneWeb/Nylabone/Data/Linked Thumbnail List/AboutUs/WhyPowerPlay/PowerPlayList/Link1
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Link 1
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220429T103949Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "df826f19-7cae-4a40-b446-57a65f971371"
+    - ID: "8daa9cfe-2ab1-4f9a-86ac-b2092acc9fde"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="https://www.amazon.com/stores/page/5276D11F-1B09-44B6-9FB4-8571CE00406A?ingress=2&amp;visitId=67ba0993-5e17-4f9e-8b2d-d29be538f0ff&amp;ref_=bl_dp_s_web_2597615011" anchor="" target="" />
+    - ID: "b3524bdb-f8ec-4d85-a20b-ef5f2837d74f"
+      Hint: Image
+      Value: |
+        <image mediaid="{EF5BC70C-0970-4FB4-AD18-8B25DF6EE82C}" alt="img_1" height="" width="" hspace="" vspace="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220506T131359Z

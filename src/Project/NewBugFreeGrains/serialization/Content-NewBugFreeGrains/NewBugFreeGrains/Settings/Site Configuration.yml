@@ -1,0 +1,65 @@
+﻿---
+ID: "be4b7db0-c916-41f6-abcd-17b53b787ed5"
+Parent: "c87081c2-dc38-44ff-98ad-205cec7e7536"
+Template: "77820909-82a2-4308-9e62-f54e15110ef3"
+Path: /sitecore/content/OneWeb/NewBugFreeGrains/Settings/Site Configuration
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "e86000b0-2a64-4152-9178-6591115b5265"
+  Hint: BlogPostTopicAttributeLocation
+  Value: "{DACC43D7-274C-4AF4-AE5E-F123F54FC66F}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{45DE997D-E6EF-4843-82B9-9DEA69672CFC}"
+- ID: "f885a9cc-d0c1-431b-8afe-85b73f80db86"
+  Hint: ArticleTypeAttributeLocation
+  Value: "{4598ED26-C848-4C3D-95E9-F6D2369B6902}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220917T184422Z
+    - ID: "37cbf5a7-e02d-42f8-9cd1-7bbf37e23773"
+      Hint: GAIdGlobal
+      Value: "UA-145039385-1"
+    - ID: "4762f3c8-900d-44ff-ba2e-d44e57e8f5fb"
+      Hint: BrandName
+      Value: Bug Free Grains
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0c5009d0-4c4f-4faa-923c-a96169cacbc4"
+    - ID: "9e24eada-2dbd-4c64-964d-da5d755fa5ad"
+      Hint: GAId
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c07be27b-fcb2-44eb-9162-a1e183ee79b9"
+      Hint: BrandLogo
+      Value: |
+        <image mediaid="{54A870A2-A065-445E-BA5A-41C2B9DCD47A}" />
+    - ID: "d7d037d1-e378-40fe-a22d-7d9e73ba75a3"
+      Hint: GTMId
+      Value: "GTM-P5SCPB8"
+    - ID: "d8692e4f-d312-490e-881b-84059310d731"
+      Hint: OneTrustCookiesID
+      Value: "69fbed19-004a-4bd3-b8c6-68f3e229fd82"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221010T050904Z
+    - ID: "ec3719f3-58b4-4504-8545-df1af5aef83d"
+      Hint: EnableSeoSchema
+      Value: 1
+    - ID: "f6a9e708-acdf-411a-a685-9d9cbf9252c1"
+      Hint: SelectSeoSchema
+      Value: |
+        {E485C1AD-741F-40A7-847F-4278082FA82E}
+        {5A6884B5-B433-458B-960F-A6959A28206E}
+        {61FE73DD-0B53-447B-8071-917CAF2B9161}
+        {258F3385-A91A-4F85-91BE-23754F010FCB}
+        {1E8390B0-6166-4E1E-81E2-FBEDE861C90F}
+        {31906487-4CE4-42A4-97E4-4AF3390A11C5}

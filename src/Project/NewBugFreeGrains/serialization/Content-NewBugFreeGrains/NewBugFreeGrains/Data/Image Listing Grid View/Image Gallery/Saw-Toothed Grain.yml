@@ -1,0 +1,41 @@
+﻿---
+ID: "c1bada48-1d60-477f-8143-212645fc08ec"
+Parent: "f915f690-8f74-47fa-ba51-0e6875d4b283"
+Template: "78eaf4cb-0300-4ecd-be80-3a1afdd4fe32"
+Path: "/sitecore/content/OneWeb/NewBugFreeGrains/Data/Image Listing Grid View/Image Gallery/Saw-Toothed Grain"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 188
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "100dd90d-1e9c-44b4-a8ce-35ea4bcc2f1a"
+      Hint: Image
+      Value: |
+        <image mediaid="{CF145EC6-E126-4D8C-BBDB-A82CABC20A74}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220925T062617Z
+    - ID: "43744896-2016-4a47-8200-4a43438399e2"
+      Hint: Title
+      Value: "Saw-Toothed Grain Beetle"
+    - ID: "78a8fe40-6c78-47e1-a69a-386baee8a0c7"
+      Hint: CTA
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{CBBB79DF-8F3F-4A13-BC58-C6FBE0E8CDD4}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0ada68dd-4193-480f-b55b-d0824b2f091d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220928T072353Z

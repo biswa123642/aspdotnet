@@ -1,0 +1,55 @@
+﻿---
+ID: "8a49e57a-c179-4626-9ed4-05d9b4c45dc2"
+Parent: "931a5939-2b00-4c8f-8050-6ae3ee1d8aaa"
+Template: "b8f5894c-b493-4016-bf78-4090b0a2fd16"
+Path: /sitecore/content/OneWeb/Nylabone/Data/Texts/SalesSupport/SalesSupport
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220607T054532Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e1605f34-cfe1-4441-ae2e-3e715fe4b94c"
+    - ID: "b3635965-6786-457c-9dee-28de73c0a331"
+      Hint: Text
+      Value: |
+        <div class="caption">
+        <div class="catalogs-n-logos">
+        <div class="score score-center">
+        <div class="inner-wrap">
+        <div class="body-copy">
+        <h2>Nylabone Catalog</h2>
+        <a href="-/media/6EA5A70A624E457288330771E39A43E1.ashx">VIEW</a>&nbsp;
+        <h2>Four Paws Catalog</h2>
+        <a href="-/media/338A19DCFF394A4B960E3C44E8EE6526.ashx">VIEW</a>&nbsp;
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220617T134820Z

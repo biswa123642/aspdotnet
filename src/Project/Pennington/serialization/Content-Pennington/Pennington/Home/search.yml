@@ -1,0 +1,103 @@
+﻿---
+ID: "6f4a65f8-402e-4b9a-8abf-6c07822d9c6b"
+Parent: "d85b5557-1199-42f8-a36c-ee664fb477e5"
+Template: "efbf7280-8143-4b8b-a17f-fa201718310c"
+Path: /sitecore/content/OneWeb/Pennington/Home/search
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{F02C7691-03E6-444E-948C-40844D466722}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{E018C285-CC44-454D-A880-39A8739CC9A5}"
+          p:before="*"
+          s:ds=""
+          s:id="{C0AF3E6F-ADD6-4910-B7F2-34061B225E3C}"
+          s:par="SearchType=others&amp;NumberOfScrolls=0"
+          s:ph="/main/sxa-content-page/container-1/row-2-2/row-2-3/others-loadmore"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{52ED118D-C85B-41EF-83D8-8A137AC13F8F}"
+          p:after="r[@uid='{E018C285-CC44-454D-A880-39A8739CC9A5}']"
+          s:ds=""
+          s:id="{C0AF3E6F-ADD6-4910-B7F2-34061B225E3C}"
+          s:par="SearchType=article&amp;NumberOfScrolls=0"
+          s:ph="/main/sxa-content-page/container-1/row-2-2/row-2-3/article-loadmore"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{31955873-9185-4055-BB73-C6A9F59A5CDF}"
+          p:after="r[@uid='{52ED118D-C85B-41EF-83D8-8A137AC13F8F}']"
+          s:ds=""
+          s:id="{C0AF3E6F-ADD6-4910-B7F2-34061B225E3C}"
+          s:par="SearchType=product&amp;NumberOfScrolls=0"
+          s:ph="/main/sxa-content-page/container-1/row-2-2/row-2-3/pdp-loadmore"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{73C64517-860F-41D8-9762-13AD15F7C338}"
+          p:after="r[@uid='{31955873-9185-4055-BB73-C6A9F59A5CDF}']"
+          s:ds=""
+          s:id="{75B22CF3-346E-4614-BB38-E0983ED52A3E}"
+          s:par="GridSelection=col-lg-3&amp;HideSearchFilter&amp;HideDescriptionOnTiles"
+          s:ph="/main/sxa-content-page/container-1/row-2-2/row-2-3"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{32A43ED0-0B26-4764-B201-3D38611AFA5E}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{7F06A24A-1051-4B98-9347-22616A582210}"
+          s:par="PlaceholderText=Search%20here..&amp;DisableSearchTextBox&amp;DisableAutoSugession&amp;SearchResultPage&amp;MinSuggestionsTriggerCharacterCount&amp;MaxPredictiveResultsCount&amp;MaxProductResultsCount&amp;MaxArticleResultsCount&amp;MaxOthersResultCount"
+          s:ph="/main/sxa-content-page/container-1/row-2-2/row-2-3/internal-search-box"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220509T185350Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Search
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Search for Pennington products and solutions.
+    - ID: "60e2c942-b696-452b-b9c7-b6f71d14b3c3"
+      Hint: SearchFacetAttributes
+      Value: "{9B375C55-2BCB-457C-9B45-748EC91C5525}|{66B11145-2775-46EA-B667-BD6C72305938}|{90CED114-9B25-4D5C-8287-B3D0B88D5439}|{E1AF8346-EC69-4812-9EA8-3FE462380757}|{378DE9E5-E6DF-417E-904D-1C20DBF1114F}"
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Search for Pennington products and solutions.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Pennington Search Results
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Search
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5815d524-2fa5-40fe-a93d-5a6c0cb42e9c"
+    - ID: "ab818f97-8aa8-4d81-9e70-29c2d400c1fb"
+      Hint: RenderCanonicalTag
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220616T092637Z

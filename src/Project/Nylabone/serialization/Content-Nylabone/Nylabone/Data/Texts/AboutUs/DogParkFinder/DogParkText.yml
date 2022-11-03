@@ -1,0 +1,48 @@
+﻿---
+ID: "2829f0b4-d2d0-4869-884f-dd070a34e11d"
+Parent: "fdcb0f97-ddc9-4968-ace9-f6da69ce531c"
+Template: "b8f5894c-b493-4016-bf78-4090b0a2fd16"
+Path: /sitecore/content/OneWeb/Nylabone/Data/Texts/AboutUs/DogParkFinder/DogParkText
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Dog Park Text
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220504T093055Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "513d3ce4-d41c-4fbf-b54e-de5060c0dece"
+    - ID: "b3635965-6786-457c-9dee-28de73c0a331"
+      Hint: Text
+      Value: |
+        <div class="dog-park-finder">
+        <h1>Dog Park Finder</h1>
+        <p>When visiting your local dog park, please follow the posted rules. Each park's individually posted rules
+        and regulations will help keep dog parks safe and open/available to all dogs.
+        Don't see your local dog park, or do you see a dog park listing that has moved? Let us know and we’ll
+        add or update it!</p>
+        </div>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220512T135547Z

@@ -1,0 +1,81 @@
+﻿---
+ID: "f6287fe1-6535-4610-8fa0-d19f478ffaa4"
+Parent: "a1a06add-8681-402c-920f-bccb609596bf"
+Template: "80ed8527-6794-4b69-8c25-035c6b33eeef"
+Path: /sitecore/content/OneWeb/Nylabone/Home/products
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{43920340-4F1B-4D12-B058-672D94967288}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{B1F1F96B-8960-4157-B5D7-557287085C76}"
+          s:ds="{4AE2C594-81A4-4208-8F06-0249301F279D}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BBC768634-7E98-408D-AB1F-FE0747580F69%7D&amp;Styles=%7B8D38663D-4028-4440-96C6-BCAA6062E23B%7D%7C%7BFAF28AF7-0575-40E0-9EE8-3C33FB91AC01%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-product-group-page/container-1/row-2-2" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220502T115222Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: All Products
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Nylabone carries a variety of dog dental health products including chew toys, treats and mouth hygiene aids.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Shop Dog Chew Toys, Edibles & Dental Products at Nylabone
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Shop Dog Chew Toys, Edibles & Dental Products at Nylabone
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9fc5507c-6c3f-4616-a2aa-e15cf3395ef6"
+    - ID: "92f32441-cec4-42a7-ba44-83e8bb569c74"
+      Hint: FacetAttributes
+      Value: "{F5CB3BB2-C0DE-4FC9-B296-5391BF3B0D0C}|{DF2F2F5E-FA60-494F-8397-83282BA86920}|{70045707-8A02-4F3D-A373-51371B9D4343}|{4096A818-5EDB-4BCF-A926-E5B7DCBEC3E7}"
+    - ID: "b0c26a8e-ed75-4fac-9729-461caba576a0"
+      Hint: ProductDetailsAttributes
+      Value: "{4096A818-5EDB-4BCF-A926-E5B7DCBEC3E7}|{70045707-8A02-4F3D-A373-51371B9D4343}|{F5CB3BB2-C0DE-4FC9-B296-5391BF3B0D0C}|{DF2F2F5E-FA60-494F-8397-83282BA86920}|{DB85E543-8F0F-4AA5-B1BC-1A69C243AA91}|{AECC44A3-8C88-419B-A969-05B6A8DD2716}|{4F65D3CD-F3DB-4F13-87F9-913A7E6AAA49}|{72A73DA2-1AF7-45FC-8A06-EF7E812E8DCF}|{7C001062-D9BB-497D-9426-0AA86D44AD56}|{C2985833-B2CA-4B30-B210-F6025A618D3E}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220607T045739Z

@@ -1,0 +1,129 @@
+﻿---
+ID: "58d2412e-b60a-41f5-b078-bce1e29a134c"
+Parent: "31fe5a46-fcf5-4b21-b473-0e9684b7b254"
+Template: "bc41b87d-2a9b-4689-9f51-80bb5b31a6e7"
+Path: "/sitecore/content/OneWeb/Pennington/Home/all-products/fertilizer/pennington-fast-acting-lime"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{772D99D8-DEC9-4A2C-A5D1-4F84B9914BA3}"
+- ID: "961cadd8-8f7d-4b12-b0da-7af04b54b22d"
+  Hint: OpenGraphType
+  Value: Product
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 2700
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: "{64989EED-CB59-40C8-B83C-FD24DD7CFA7D}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{F0AD7858-A3FA-4F2F-8E69-67E2871AB93D}"
+          p:before="*"
+          s:ds="local:/Data/Youtube Video"
+          s:id="{3C84ED23-7591-45E0-8850-1AE96D1342B1}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier"
+          s:ph="/main/sxa-product-detail/container-1/row-1-4/row-1-14" />
+        <r
+          uid="{6C6D7F28-0B13-438E-AB5E-EBFD7191E27D}"
+          p:after="r[@uid='{F0AD7858-A3FA-4F2F-8E69-67E2871AB93D}']"
+          s:ds="local:/Data/when-to-apply-lime"
+          s:id="{4A0D4E0B-BC20-4F2E-BD84-A4BD35834E86}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;FieldNames=%7B89B3FF34-D880-427D-87FC-FCE6D2465861%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/sxa-product-detail/container-1/row-1-4/row-1-14"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{739B15B1-A0D4-4AB7-8189-CD7D5B565A7E}"
+          p:after="*[1=2]"
+          s:ds="{A70913DE-74E2-4CEB-865C-9EB01A3CD185}"
+          s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass&amp;FieldNames=%7BDD2A67DD-2C78-484F-9B69-9E17B40C4BD1%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-product-detail/container-1/row-1-4/row-1-14" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02a41838-168c-4858-bafd-f0031b877ddc"
+      Hint: ProductAttributes
+      Value: "{226C4D8E-363C-4AEB-AE4C-3EB97A71E4A1}|{1D64BE1B-DC99-4348-9B51-4890A316FB51}|{A05DDF04-23EA-429C-A569-391185185C27}|{A415B303-6159-4E8C-B75F-340311545D11}|{17532AFF-148C-4784-97E3-B5144EDD997D}|{F326370F-AD56-4305-9D48-BC21BB417857}|{85A1C477-BFFF-45A2-829F-86D839D9801E}|{CF9A5FD0-27CB-4142-8138-CC523387BABA}|{679F21BC-4EC6-42D0-A153-E2FD42581CA4}|{D81E4ADB-1366-4E86-8F28-644EC9A67AB1}|{8D089B56-71BF-409C-B277-528AB9E7E14F}|{1FBE467E-E370-44BA-A408-933BEE2907B1}"
+    - ID: "1e2f8b03-c529-4fee-8663-5ec9f6b6a701"
+      Hint: SecondaryCategories
+      Value: "{31FE5A46-FCF5-4B21-B473-0E9684B7B254}|{7B0CF5F7-FEB0-4AB5-9CEE-07DEDEFC8865}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220507T164402Z
+    - ID: "30b0a514-dc94-432c-9655-8c01e474023f"
+      Hint: ExtendedContent
+      Value: |
+        <ul>
+            <li>Starts working immediately </li>
+            <li>Raises soil pH quicker than regular lime </li>
+            <li>Encourages a healthier, thicker, greener lawn</li>
+        </ul>
+        <h3>About This Product</h3>
+        <p>Low pH can cause moss, bare spots and weeds to grow in your grass. Lime helps balance soil pH and create a better soil environment for your lawn, which significantly reduces these problems. Pennington Fast Acting Lime goes to work the instant it touches water, so you&rsquo;re sure to see fast results. This unique product combines Advanced Soil Technology (AST) with high-quality lime to maximize the nutrient benefit to the soil.</p>
+        <p><strong>Works Best On</strong></p>
+        <ul>
+            <li>Grass</li>
+        </ul>
+        <p><strong>How To Use</strong></p>
+        <p>Apply only as directed on the product package. Easy to apply with any spreader.</p>
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Pennington Fast Acting Lime
+    - ID: "50094021-6c44-4bb3-b384-f4e2bc0262ea"
+      Hint: RelatedArticlesAndProducts
+      Value: |
+        {58D2412E-B60A-41F5-B078-BCE1E29A134C}
+        {D67B8F38-D6C7-484D-B63A-2267E67EB4E7}
+        {A9C4E0AA-E845-4C9C-BC6D-320EE685DECA}
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Fast Acting Lime encourages a greener lawn and raises soil pH quicker than regular lime.
+    - ID: "54a1450c-b9d8-42ce-b085-8c9109daaf37"
+      Hint: RelatedArticlesandProductsLabel
+      Value: RELATED ARTICLES & PRODUCTS
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: <p>Fast Acting Lime encourages a greener lawn and raises soil pH quicker than regular lime.</p>
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Fast Acting Lime encourages a greener lawn and raises soil pH quicker than regular lime.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "Pennington Fast Acting Lime - Soil Amendments | Pennington"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Pennington Fast Acting Lime
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a438f6b9-f384-415b-ba54-1bfe3b79a6f4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "ca373527-0c18-4282-83b0-121b8a197598"
+      Hint: LongTitle
+      Value: Pennington Fast Acting Lime
+    - ID: "caaa6c5b-798c-4d26-8919-fe66d620f798"
+      Hint: Page Attributes
+      Value: "{2019214E-5E19-4AAC-91D2-B84A4AE6629B}|{2D4EDA96-A4DA-4863-BEEF-A2A8C2701FCE}|{3D75F954-FFDD-40F1-AE94-077EE82C0B34}|{4D1303DF-A072-42E5-AFCD-FF9BC4EB25FB}|{54D58871-6FDB-4113-A7A3-F9D93CDB751F}|{29756A66-1C8C-4DD9-B10B-FE048E0B2406}|{A175ACD3-18CD-478B-B258-4CA5577092B0}|{1762C736-CF42-4241-A979-57FA23E4D49C}"
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{E807CF73-5428-4F59-A1D8-EF7B903E8AE7}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220529T032239Z

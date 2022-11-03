@@ -1,0 +1,98 @@
+﻿---
+ID: "c40361e0-05d7-4294-aeb0-a9d324fc7099"
+Parent: "f6287fe1-6535-4610-8fa0-d19f478ffaa4"
+Template: "7bdf7d45-c98f-4e4d-ac3a-ad8035780bbe"
+Path: "/sitecore/content/OneWeb/Nylabone/Home/products/product-type"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{91002F26-F409-4D71-845D-D3CEA965AACF}"
+- ID: "76fb6ffd-4487-4028-a1cf-705fbe360cba"
+  Hint: Priority
+  Value: 0.5
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{B2E00620-0D91-4F3A-A172-F86C930F3178}"
+          s:ds="{3EBD53DE-BEAB-4D86-B3D9-E9FF376B27C4}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BBC768634-7E98-408D-AB1F-FE0747580F69%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-product-category/container-1/row-3-2" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "237274d5-0911-4d4e-a9eb-48c2a8483ca1"
+      Hint: FeaturedChildList
+      Value: |
+        {D9D43BC1-7EF2-4C51-87A6-B61FF6219B97}
+        {514F0C62-81EC-4726-B877-CBAE4A400865}
+        {887082C3-A025-43DF-842E-13C1ACB226D2}
+        {44630C7E-6654-4638-9B02-6173CB21FF34}
+        {966B329C-9504-47C6-961B-5FC9254DFD9D}
+        {7D3E30E3-6802-4EAE-B094-700555AF3C14}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220510T115644Z
+    - ID: "2b413044-4890-48c9-a955-78565193a0b8"
+      Hint: HeroBannerDescription
+      Value: 
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "363cfc7c-aff0-4d45-8a1f-11c311fd36bc"
+      Hint: ShowTextWithOverlay
+      Value: 1
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Find by Product Type
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Find the perfect chew toy, treat or dog dental care product for your dog or puppy at Nylabone. Explore our selection of chews today.
+    - ID: "78351212-39c1-4f87-b066-1c09c6fd7b4c"
+      Hint: HeroBannerLogo
+      Value: |
+        <image mediaid="{65240F29-D7D3-4D43-9553-E91E79F07570}" />
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Find the perfect chew toy, treat or dog dental care product for your dog or puppy at Nylabone. Explore our selection of chews today.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Dog & Puppy Chew Toys, Treats, Dental Care Products | Nylabone
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Dog & Puppy Chew Toys, Treats, Dental Care Products | Nylabone
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bc08a79f-88a5-46b4-98e4-b68bf46a7ace"
+    - ID: "92f32441-cec4-42a7-ba44-83e8bb569c74"
+      Hint: FacetAttributes
+      Value: "{70045707-8A02-4F3D-A373-51371B9D4343}|{4096A818-5EDB-4BCF-A926-E5B7DCBEC3E7}|{DF2F2F5E-FA60-494F-8397-83282BA86920}"
+    - ID: "a6772724-fc83-4e63-a2f6-a893b8329b9e"
+      Hint: HeroBannerAlignment
+      Value: "Right-Align"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c4294fa3-7849-4f74-bdbe-0fee45ae32fe"
+      Hint: HeroBannerTitle
+      Value: play toys
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220609T213334Z

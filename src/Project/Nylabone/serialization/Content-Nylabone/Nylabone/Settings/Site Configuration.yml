@@ -1,0 +1,94 @@
+﻿---
+ID: "bc578c75-83e3-4449-8cdb-8836ed6d42e5"
+Parent: "ae1c896a-6637-4f59-a414-2f4df9c8f070"
+Template: "77820909-82a2-4308-9e62-f54e15110ef3"
+Path: /sitecore/content/OneWeb/Nylabone/Settings/Site Configuration
+SharedFields:
+- ID: "2da26fe5-8b7b-4912-a2fc-f683e630d5bb"
+  Hint: ProductAttributeLocation
+  Value: "{2F2B563C-62FC-4B0B-B00F-69F25436E813}"
+- ID: "668b8710-8e39-4b7b-87b5-3d7b68a13f5b"
+  Hint: Pagesize
+  Value: 10
+- ID: "e4acfb78-8493-4948-af51-35da5b417a4d"
+  Hint: NumberOfScrolls
+  Value: 2
+- ID: "e86000b0-2a64-4152-9178-6591115b5265"
+  Hint: BlogPostTopicAttributeLocation
+  Value: "{C28E958F-D075-4463-90B2-22E93DFCC173}"
+- ID: "f885a9cc-d0c1-431b-8afe-85b73f80db86"
+  Hint: ArticleTypeAttributeLocation
+  Value: "{0D882A72-C4B5-4C15-AF36-A57B6F7A4F91}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220518T102029Z
+    - ID: "342e9e22-02af-42ea-9b73-c725c67e9f0a"
+      Hint: Select Users
+      Value: "10fc32f7-59c3-414e-bb10-e2c712f7c858|78eb53ff-63db-4fdc-a588-42393c7537fe"
+    - ID: "4762f3c8-900d-44ff-ba2e-d44e57e8f5fb"
+      Hint: BrandName
+      Value: Nylabone Dog Toys, Chews, Treats & Edible Dental Chews
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "87b4ff45-c3bf-40ed-a8ae-3ea258a35a15"
+    - ID: "9b7bb2ea-cc16-4ef0-862a-b5da3537a938"
+      Hint: PriceSpiderAccount
+      Value: 1747
+    - ID: "9d9e1e41-2e26-496b-936e-dfcf5fc5dd80"
+      Hint: Select Password Only Authentication User
+      Value: "10fc32f7-59c3-414e-bb10-e2c712f7c858"
+    - ID: "9e24eada-2dbd-4c64-964d-da5d755fa5ad"
+      Hint: GAId
+      Value: "UA-145039385-1"
+    - ID: "b1ab2b86-16b2-441e-b0d2-404c8c139e3d"
+      Hint: DisableGA
+      Value: 1
+    - ID: "b3a292cb-7334-4a12-a807-10d38b8df488"
+      Hint: Password Only Authentication
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "be547b09-1b5f-4ed9-8772-2f79b5e64d83"
+      Hint: PriceSpiderConfig
+      Value: 595438f57e479e884abf7405
+    - ID: "be8f8860-29bc-4c1e-854d-f5c93641e70c"
+      Hint: ExternalBrandConfig
+      Value: 60d4d5381543fd003be22a08
+    - ID: "c07be27b-fcb2-44eb-9162-a1e183ee79b9"
+      Hint: BrandLogo
+      Value: |
+        <image mediaid="{77C3E54D-F519-4598-A609-44013CB8271A}" />
+    - ID: "d01ab4f5-7dd1-48f4-ae48-a45c1c3bf458"
+      Hint: DisableGTM
+      Value: 1
+    - ID: "d5ffc3a1-1d5e-41b2-b824-3143a122b4e9"
+      Hint: Enable User Login
+      Value: 1
+    - ID: "d7d037d1-e378-40fe-a22d-7d9e73ba75a3"
+      Hint: GTMId
+      Value: "GTM-7R4H"
+    - ID: "d8692e4f-d312-490e-881b-84059310d731"
+      Hint: OneTrustCookiesID
+      Value: "3c21d268-da11-4650-9d6b-48e1ccff84d7"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220726T155403Z
+    - ID: "ec3719f3-58b4-4504-8545-df1af5aef83d"
+      Hint: EnableSeoSchema
+      Value: 1
+    - ID: "f6a9e708-acdf-411a-a685-9d9cbf9252c1"
+      Hint: SelectSeoSchema
+      Value: |
+        {31906487-4CE4-42A4-97E4-4AF3390A11C5}
+        {258F3385-A91A-4F85-91BE-23754F010FCB}
+        {1E8390B0-6166-4E1E-81E2-FBEDE861C90F}
+        {5A6884B5-B433-458B-960F-A6959A28206E}
+        {61FE73DD-0B53-447B-8071-917CAF2B9161}
+        {E485C1AD-741F-40A7-847F-4278082FA82E}

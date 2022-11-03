@@ -1,0 +1,123 @@
+﻿---
+ID: "f8cf94fb-c384-4b25-8b5c-dc8996ae406a"
+Parent: "483c47aa-973c-41fb-a9dc-6a0172832b1b"
+Template: "057af325-c948-4918-a4e4-2c3f6cf04524"
+Path: "/sitecore/content/OneWeb/Pennington/Home/all-products/fertilizer/resources/plant-propagation-with-our-very-own-clare"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{ECE90BF7-610B-42BC-91F9-B7D610DD6DCE}"
+- ID: "961cadd8-8f7d-4b12-b0da-7af04b54b22d"
+  Hint: OpenGraphType
+  Value: article
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: "{FBDDC24B-2154-422D-9188-A980EBC84471}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{B42A0C1D-EE32-4655-8B7D-4C27782FB024}"
+          p:before="*"
+          s:ds="local:/Data/Image/Claire Image"
+          s:id="{4A0D4E0B-BC20-4F2E-BD84-A4BD35834E86}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;FieldNames=%7B89B3FF34-D880-427D-87FC-FCE6D2465861%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-article-detail-page-without-body/container-1/row-2-2/row-1-5/column-1-21/row-3-22"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{6A9D03CD-26BF-4784-8239-F107AB6CCAC9}"
+          p:after="r[@uid='{B42A0C1D-EE32-4655-8B7D-4C27782FB024}']"
+          s:ds="local:/Data/Paragraph/Para 1"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7BFACA8842-7EAD-438B-A68B-FEC32F56F9B9%7D&amp;FieldNames=%7B2CC0D2A2-3276-46F7-9C5A-1C6AEF3DEEB1%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/sxa-article-detail-page-without-body/container-1/row-2-2/row-1-5/column-1-21/row-3-22"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{3C9C1492-7872-493F-8BF1-174B51909B52}"
+          p:after="r[@uid='{6A9D03CD-26BF-4784-8239-F107AB6CCAC9}']"
+          s:ds="local:/Data/Image/homepage map"
+          s:id="{4A0D4E0B-BC20-4F2E-BD84-A4BD35834E86}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B89B3FF34-D880-427D-87FC-FCE6D2465861%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/sxa-article-detail-page-without-body/container-1/row-2-2/row-1-5/column-1-21/row-3-22"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{6FCAD9FC-CD1D-4F1A-AD6C-B29BBB2F9E96}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Paragraph/Para 2"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2CC0D2A2-3276-46F7-9C5A-1C6AEF3DEEB1%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/sxa-article-detail-page-without-body/container-1/row-2-2/row-1-5/column-1-21/row-3-22"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{94C93644-CFF8-4F9B-855C-9504345D55AE}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220507T164357Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: When to Start Indoor Vegetable Seeds
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: Learn how and when to start growing vegetables indoors to get the most out of the growing season.
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: 
+    - ID: "6dd157fe-8ea8-496a-b595-0e6a18489836"
+      Hint: ThumbnailImage
+      Value: |
+        <image mediaid="{8FB5B7D6-74AE-45EE-9EF2-D497C9E16599}" />
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Learn how and when to start growing vegetables indoors to get the most out of the growing season.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: When to Start Indoor Vegetable Seeds
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: When to Start Indoor Vegetable Seeds
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ef9c7121-aacc-4aca-9eb3-d00ebbe74296"
+    - ID: "acf86c8a-ae9a-4d4a-8570-870673814f85"
+      Hint: ArticleShortDescription
+      Value: "Join us as we follow Clare, an avid gardener, plant propagator and Atlanta-based Central Garden &amp; Pet employee, as she starts to prepare her gardens for harvest."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "caaa6c5b-798c-4d26-8919-fe66d620f798"
+      Hint: Page Attributes
+      Value: "{7F33052A-ED81-4828-9E55-B36A7BF4EB3B}|{29756A66-1C8C-4DD9-B10B-FE048E0B2406}|{EFB587AA-2329-41B1-A425-B013C0D7BC2A}|{9D69D0E9-8440-42C1-AAE8-68725EB6440F}"
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{8FB5B7D6-74AE-45EE-9EF2-D497C9E16599}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220519T140840Z
+    - ID: "fb742e87-7bf7-4c72-97a9-987a40989ece"
+      Hint: RelatedArticles
+      Value: |
+        {8C15E7AB-4010-4417-96A3-12721214B1A4}
+        {54BA1B51-22F5-4F52-AC84-45162FD82DAB}
+        {43E5D0C7-12EC-4614-9D39-480A64E26927}
+        {9E3EBECB-808D-475F-91DA-AD2CDED683E2}

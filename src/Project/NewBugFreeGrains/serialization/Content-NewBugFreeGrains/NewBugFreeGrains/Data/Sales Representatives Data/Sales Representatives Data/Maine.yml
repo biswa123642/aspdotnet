@@ -1,0 +1,36 @@
+﻿---
+ID: "28c96044-4424-426b-8c53-827f0c0ea451"
+Parent: "df4d8390-c24f-4f3b-876e-0a52147463be"
+Template: "6e7840e3-5d65-44e8-b1dd-f418b11653d8"
+Path: /sitecore/content/OneWeb/NewBugFreeGrains/Data/Sales Representatives Data/Sales Representatives Data/Maine
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1800
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220429T043842Z
+    - ID: "89588acd-1d0d-4092-90c9-8831be0f26f0"
+      Hint: StateName
+      Value: Maine
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ef17760a-20a5-468d-b772-883922ee2455"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220929T133548Z
+    - ID: "e4c426fe-7336-4e80-8c2d-f89f02659a76"
+      Hint: SalesRepList
+      Value: "{339F93A0-8B19-4590-90DF-CFBC2EE93BE3}"
+    - ID: "fe92cf46-537c-4e47-8d4a-e418794d9780"
+      Hint: StateCode
+      Value: ME

@@ -1,0 +1,37 @@
+﻿---
+ID: "4118cd01-41d5-4145-a1a2-f9554ff71f07"
+Parent: "a580e8c0-e9ad-470e-b36f-02e75b8ef2af"
+Template: "20a8b875-b660-4893-91a7-b05f80e94666"
+Path: /sitecore/content/OneWeb/Nylabone/Data/Linked Thumbnail List/WhereToBuy/Links/Petco
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220518T100438Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6a731584-7885-483b-b765-28edd2f9a4c0"
+    - ID: "8daa9cfe-2ab1-4f9a-86ac-b2092acc9fde"
+      Hint: Link
+      Value: |
+        <link text="Petco" linktype="external" url="https://www.petco.com/shop/en/petcostore/brand/nylabone" anchor="" target="_blank" />
+    - ID: "9a5ce26a-e5f7-4528-b319-d23a1be1eede"
+      Hint: Description
+      Value: Petco
+    - ID: "b3524bdb-f8ec-4d85-a20b-ef5f2837d74f"
+      Hint: Image
+      Value: |
+        <image mediaid="{9ABE842E-F22E-46CB-8915-BD27B6F13CFC}" ></image>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220620T093526Z

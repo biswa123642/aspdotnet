@@ -1,0 +1,175 @@
+﻿---
+ID: "a9fa47fc-a4a1-4ec7-b953-91bc25efe88b"
+Parent: "abaa70ba-e506-452b-9c84-af898f327555"
+Template: "aa977b10-c924-4446-8b15-a7d26aa6c93f"
+Path: "/sitecore/content/OneWeb/Nylabone/Home/about-us/nylabone-cares"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{BE0725D0-6671-4CB1-BB57-9403BDDE6DFE}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{765420E6-1F2D-48C7-A5F6-14AF46C1FFCB}"
+          p:before="*"
+          s:ds="{BEFD95FB-698A-40F1-8E17-372ED2565798}"
+          s:id="{0CFDA4AE-936C-4C05-890A-6A96058D566E}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BF4A3B677-D927-482A-84FD-E1EE073E1B98%7D&amp;Styles=%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=14&amp;CacheClearingBehavior=Clear%20on%20publish"
+          s:ph="/main/container-1/row-6-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{8E35BC10-0DE6-4881-B66C-5836F728DE1E}"
+          p:after="r[@uid='{765420E6-1F2D-48C7-A5F6-14AF46C1FFCB}']"
+          s:ds="{8D81BDD1-B6A0-457F-9FA3-958A6E04AC8B}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BBC768634-7E98-408D-AB1F-FE0747580F69%7D&amp;Styles=%7B79EF931B-D638-46F0-813E-1C48D7796873%7D%7C%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D%7C%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D%7C%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=13"
+          s:ph="/main/container-12"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{14AF02DF-AB05-42FE-9D84-FF18CD92C0ED}"
+          p:after="r[@uid='{8E35BC10-0DE6-4881-B66C-5836F728DE1E}']"
+          s:ds="{316357EA-30C5-425A-9482-FA891ABC6685}"
+          s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass=col-md-4&amp;FieldNames=%7B99EE7040-5ACF-434E-9637-3A9058AE4096%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
+          s:ph="/main/container-10"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{A4726C6B-11DA-4934-89CB-EE9C23114E85}"
+          p:after="r[@uid='{14AF02DF-AB05-42FE-9D84-FF18CD92C0ED}']"
+          s:ds="{0C82F0BB-5BB7-4A13-92B2-8B561CA44D02}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BBC768634-7E98-408D-AB1F-FE0747580F69%7D&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/container-1/row-8-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{996C40CB-A958-43B3-9488-E26F25EE9BA2}"
+          p:after="r[@uid='{A4726C6B-11DA-4934-89CB-EE9C23114E85}']"
+          s:ds="{1DA04D0D-D05E-4005-998D-FE12ADC61C4C}"
+          s:id="{1A78A8D3-5F37-47DA-BD51-1835586142F1}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2849E06C-F7A7-495F-824C-440F0421590C%7D&amp;Styles&amp;Utility Navigation&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/container-1/row-7-2" />
+        <r
+          uid="{25D15C7A-CA7B-4D32-9835-084A93188490}"
+          p:after="r[@uid='{996C40CB-A958-43B3-9488-E26F25EE9BA2}']"
+          s:ds="{985F6631-C5E2-4BBE-AE7F-CB35CA4CEB6C}"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B130DECB4-A5D1-499A-849D-BB28CF037B05%7D&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D%7C%7B8FF92F97-BAAC-46BE-86FC-6528F96FD2AB%7D%7C%7B51E28D4E-3E33-464E-8C4F-34140CA632AD%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/container-1/row-5-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{514B7666-BE68-476E-AD18-627489F38BDB}"
+          p:after="r[@uid='{25D15C7A-CA7B-4D32-9835-084A93188490}']"
+          s:ds="{FF62CDA8-DA13-4905-8E5C-3AE16A7359CB}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BBC768634-7E98-408D-AB1F-FE0747580F69%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/container-1/row-4-2" />
+        <r
+          uid="{48D56BFB-81BD-4992-99CD-D0C3E79495EA}"
+          p:after="r[@uid='{514B7666-BE68-476E-AD18-627489F38BDB}']"
+          s:ds="{543D557A-FFF3-4376-A44E-B32186F66E7F}"
+          s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BBC768634-7E98-408D-AB1F-FE0747580F69%7D&amp;Styles=%7BC75BEFE4-8DA3-41C6-B011-89DBFDF05B04%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/container-1/row-3-2" />
+        <r
+          uid="{867ABB42-2BE2-4D3C-A87E-8DB34E13499A}"
+          p:after="r[@uid='{48D56BFB-81BD-4992-99CD-D0C3E79495EA}']"
+          s:ds=""
+          s:id="{4BEF244C-0EB9-4DF8-BC2C-DEBE2256A2ED}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BEB97EC7C-7A08-4D35-835C-AA9365EE9319%7D&amp;Styles=%7B48194A28-1F87-4086-AADC-E2B09B8EA318%7D%7C%7BADDFB720-BE49-4750-BD0A-48FCBFDA5647%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4&amp;CacheClearingBehavior=Clear%20on%20publish"
+          s:ph="/main/container-1/row-2-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{B4692405-257E-4E41-B732-D347A857278D}"
+          p:after="r[@uid='{867ABB42-2BE2-4D3C-A87E-8DB34E13499A}']"
+          s:ds=""
+          s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}"
+          s:par="BreadcrumbRoot&amp;Separator=%2F&amp;IsNavigation&amp;Filter&amp;Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B4AD3C106-FA3E-45B9-A41D-48603132FD0E%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/container-1/row-1-2"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{A0BA5069-996C-4418-94EB-7297C178E137}"
+          p:after="r[@uid='{B4692405-257E-4E41-B732-D347A857278D}']"
+          s:ds=""
+          s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+          s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3%2C4%2C5%2C6%2C7%2C8&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=2"
+          s:ph="/main/container-1" />
+        <r
+          uid="{5BB26902-0713-4C05-A607-FD53F053F731}"
+          p:after="r[@uid='{A0BA5069-996C-4418-94EB-7297C178E137}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{C7727E5A-D79B-4767-99BE-BCD7B4A9AB63}"
+          p:after="r[@uid='{5BB26902-0713-4C05-A607-FD53F053F731}']"
+          s:ds=""
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{101AC218-232B-4818-8921-A7E96871C87B}"
+          p:after="*[1=2]"
+          s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=12"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "06e34e6f-1cbe-4a99-b264-03222fe0a1f2"
+      Hint: DesktopImage
+      Value: |
+        <image mediaid="{EB90A939-E5B1-42CF-BA8C-7153B834B9DA}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220430T091427Z
+    - ID: "35e88ae3-c7f1-4bfb-8c16-b791316320cb"
+      Hint: HideFeatureTitle
+      Value: 
+    - ID: "363cfc7c-aff0-4d45-8a1f-11c311fd36bc"
+      Hint: ShowTextWithOverlay
+      Value: 
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: nylabone cares
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: Nylabone Cares donates chew toys to shelter dogs so they can learn healthy chewing habits while feeling less anxious & stressed.
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: Nylabone Cares | Donating to Dog Shelters
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: Nylabone Cares | Donating to Dog Shelters
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "034d9640-fb25-4d56-a4c7-017ccc03c0df"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220613T044520Z

@@ -1,0 +1,145 @@
+﻿---
+ID: "95cee8bf-2117-4167-9438-73739b699a07"
+Parent: "c334e612-a02a-4c36-ae6a-c59c27deb403"
+Template: "bc41b87d-2a9b-4689-9f51-80bb5b31a6e7"
+Path: "/sitecore/content/OneWeb/Pennington/Home/all-products/grass-seed/pennington-one-step-complete-sands"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{772D99D8-DEC9-4A2C-A5D1-4F84B9914BA3}"
+- ID: "961cadd8-8f7d-4b12-b0da-7af04b54b22d"
+  Hint: OpenGraphType
+  Value: Product
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 2400
+- ID: "db51d4e9-c24d-4670-af0e-62c8aa08e2b6"
+  Hint: LocalData
+  Value: "{FAFC8AFD-4109-4115-A591-13B0CDAEB6CD}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{0B23A121-3DD6-4CE7-9E6E-006ABE817F78}"
+          p:before="*"
+          s:ds="{194DD52F-AD83-4871-88A6-ACD697B9AE16}"
+          s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass&amp;FieldNames=%7BDD2A67DD-2C78-484F-9B69-9E17B40C4BD1%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="/main/sxa-product-detail/container-1/row-1-4/row-1-14" />
+        <r
+          uid="{5A1D62C5-5677-4007-96CA-DACF4294527D}"
+          p:after="r[@uid='{0B23A121-3DD6-4CE7-9E6E-006ABE817F78}']"
+          s:ds="local:/Data/Images/3-step Image"
+          s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B89B3FF34-D880-427D-87FC-FCE6D2465861%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/sxa-product-detail/container-1/row-1-4/row-1-14" />
+        <r
+          uid="{FC7C3423-35C8-4859-B3BB-E9A2055F7389}"
+          p:after="*[1=2]"
+          s:ds="{7211A0B0-98FA-463D-834C-AF59E8DF79E0}"
+          s:id="{13E3446D-E00F-4EB8-8BF6-F707EC8F04FA}"
+          s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;RenderingClass&amp;FieldNames=%7BDD2A67DD-2C78-484F-9B69-9E17B40C4BD1%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/sxa-product-detail/container-1/row-1-4/row-1-14" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02a41838-168c-4858-bafd-f0031b877ddc"
+      Hint: ProductAttributes
+      Value: "{A415B303-6159-4E8C-B75F-340311545D11}|{69DB193C-3C85-4198-AACC-D33C329D8D84}|{FDE71420-AD17-42D1-940C-DA9BE38C0C3F}|{F3911507-75D0-4AE4-8882-E447C2424FAF}|{8484450D-06DF-4CB4-AD18-5A6181B49F40}|{153FD433-3458-43EF-8544-88A108120D92}|{72383853-DAF7-4481-8B5E-83BB435B938F}|{73CD56D9-D338-4E38-95DA-2FB0EB43AB07}|{FDA0C447-2615-424C-9C4F-2132EDCA525D}|{B41A7822-F5DC-4070-9BD0-E7F7DD4157D3}|{46D298CC-766D-4289-BA43-C3147D0FC2B3}|{074DF946-A0EC-4025-A44A-0C04D656CD66}|{8C98463F-1837-44F0-AD41-D5F0A8658D46}|{88F9B5D7-3E98-4D9E-9BD5-10B1327856D2}|{1D17CBAE-8581-493A-B6B8-2A42F388FA9F}|{BA8ADD5A-CA67-4508-9EC4-43C5CB0A4B75}|{56D57C6B-053C-4DDB-A29B-298FC7F0FBF2}|{AB83F472-57AB-4BDC-9B1A-A231C0501B93}|{A0C5C47F-BB2A-4588-8340-4497314F23EC}|{1630B260-688F-4715-85A3-EDC6A63E5531}|{940A78A6-F230-4F1E-801F-C040585D5619}"
+    - ID: "1e2f8b03-c529-4fee-8663-5ec9f6b6a701"
+      Hint: SecondaryCategories
+      Value: "{6393DC56-7BCC-4CB4-A895-38A2A10EA28B}|{0F5752E9-557D-4D51-A01A-0AAF15CFA0DA}|{C334E612-A02A-4C36-AE6A-C59C27DEB403}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220507T164418Z
+    - ID: "30b0a514-dc94-432c-9655-8c01e474023f"
+      Hint: ExtendedContent
+      Value: |
+        <p>Take the guesswork and the waiting out of bare spot repairs with Pennington One Step Complete Sun and Shade. With this versatile all-in-one mulch, seed and fertilizer product, you can patch and repair bare spots, pet damage or thin lawn areas in full sun to medium shade and get results in just two weeks or less.*</p>
+        
+        <ul>
+        <li>Repairs bare spots in two weeks or less*</li>
+        <li>Combination premium Smart Seed grass seed and professional-grade fertilizer and mulch</li>
+        <li>Formulated with grasses that thrive in sunny and moderately shady areas</li>
+        <li>Grows beautiful, healthy, thick grass</li>
+        <li>Contains Pennington's exclusive Penkoted technology to ensure better plant growth</li>
+        <li>GUARANTEED TO GROW</li></ul>
+        *Subject to proper growing conditions
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: One Step Complete Sun & Shade
+    - ID: "50094021-6c44-4bb3-b384-f4e2bc0262ea"
+      Hint: RelatedArticlesAndProducts
+      Value: |
+        {B0631420-AD4C-43AA-B8F0-9F0F92637CAA}
+        {8B64434F-3D9B-4DA8-A5CB-97DAD578F559}
+        {97FE2686-7040-4F81-9239-2AE6B82E58AE}
+        {D33580DE-7C2D-42CD-A7CD-A5587CA9A937}
+    - ID: "528986cc-6ff9-4383-8bee-514f0e8172cf"
+      Hint: MetaDescription
+      Value: "Combination premium Smart Seed grass seed and professional-grade fertilizer and mulch that is formulated with grasses that thrive in sunny and moderately shady areas."
+    - ID: "54a1450c-b9d8-42ce-b085-8c9109daaf37"
+      Hint: RelatedArticlesandProductsLabel
+      Value: RELATED ARTICLES & PRODUCTS
+    - ID: "625f32a7-8b24-4b35-8f6f-1464da77bc40"
+      Hint: Content
+      Value: "Combination premium Smart Seed grass seed and professional-grade fertilizer and mulch that is formulated with grasses that thrive in sunny and moderately shady areas."
+    - ID: "7bddc8b8-1f77-46d8-9d7f-46e20e041f74"
+      Hint: OpenGraphDescription
+      Value: "Combination premium Smart Seed grass seed and professional-grade fertilizer and mulch that is formulated with grasses that thrive in sunny and moderately shady areas."
+    - ID: "7d988161-3991-465a-a88c-280bc65542a0"
+      Hint: OpenGraphTitle
+      Value: "One Step Complete Sun & Shade - Grass Seed Repair Mix | Pennington"
+    - ID: "8ccbb921-d330-4712-95b3-f77a0ff02cb4"
+      Hint: Title
+      Value: One Step Complete Sun & Shade
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ff07d300-b7c9-4ebd-aed9-3b151c5994a4"
+    - ID: "b433c832-fadf-498e-b77b-e7933f19ba8e"
+      Hint: Accordion1Title
+      Value: Planting Specifications
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c95560b6-d1ef-47eb-b4bb-da582a84a444"
+      Hint: Accordion1
+      Value: |
+        <p>Daily Light Required: Full sun to med shade (4-8 hrs sun)</p> <p>Sun Tolerance: Very good</p> <p>Shade Tolerance: Very good</p> <p>Grass Color: Medium to dark green</p> <p>Grass Texture: Fine</p> <p>Drought Tolerance: Excellent</p> <p>Disease Resistance: Very good</p> <p>Traffic Tolerance: Excellent</p> <p>Planting Zones: A - M</p> <p>Recommended Planting Dates: Early spring or early fall</p> Planting Rates:&nbsp;<br /> <ul>     <li>New Lawns: Optimum Results: 1 cup/sq. ft.</li>     <li>Overseeding: Extended Results (up to 25% damage): 1 lb/15 sq. ft.</li> </ul> <p>Planting Depth: No more than 1/4&rdquo;</p> <p>Germination: 7-14 days</p> <p>Mowing Height: 2 1/4" - 3&rdquo;</p>
+    - ID: "ca373527-0c18-4282-83b0-121b8a197598"
+      Hint: LongTitle
+      Value: One Step Complete Sun & Shade
+    - ID: "caaa6c5b-798c-4d26-8919-fe66d620f798"
+      Hint: Page Attributes
+      Value: "{B6F9EFF9-820B-4535-8128-66F5570441B9}|{D4DAF455-B85A-4D5C-BDC3-8A57112C2054}|{2019214E-5E19-4AAC-91D2-B84A4AE6629B}|{2D4EDA96-A4DA-4863-BEEF-A2A8C2701FCE}|{3D75F954-FFDD-40F1-AE94-077EE82C0B34}|{4D1303DF-A072-42E5-AFCD-FF9BC4EB25FB}|{54D58871-6FDB-4113-A7A3-F9D93CDB751F}|{A175ACD3-18CD-478B-B258-4CA5577092B0}"
+    - ID: "cbab27c6-0f5a-4c0e-a054-d6da8e5cf37d"
+      Hint: Accordion3Title
+      Value: Planting &amp; Growing Instructions
+    - ID: "d359f5e1-8d09-4717-9920-5687aecee004"
+      Hint: Accordion3
+      Value: "<p><strong>Prepare</strong><br /> Remove debris, then rake the soil to loosen and smooth the top layer.</p> <p> <strong>Apply</strong><br /> For optimal results: Spread seeding mix approximately 1 cup/sq.ft. everywhere healthy beautiful grass is desired.<br /> For extended results for grass up to 25% damage: Spread seeding mix approximately 1 cup/15 sq.ft. everywhere healthy beautiful grass is desired..</p> <p> <strong>Water</strong><br /> Keep the soil moist by watering daily (twice a day, if needed) until grass sprouts and reaches about 3&rdquo; tall. The wood mulch turns a darker color when properly watered. Once it turns a lighter color, it&rsquo;s time to water again.</p>"
+    - ID: "d603a982-51bb-4898-8aed-d25e3c6c416c"
+      Hint: Accordion2
+      Value: "Planting Zones:&nbsp; A - M<p><img alt='map-all' src='-/media/8704E0E5A2784EE4ABCD00B0CF0E384B.ashx' /></p>"
+    - ID: "d8b38dd7-e9a0-4410-9f17-d436b0c8635a"
+      Hint: OpenGraphImageUrl
+      Value: |
+        <image mediaid="{3F919A4F-04E7-4646-B189-A796DA938562}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220529T032239Z
+    - ID: "ee6a4f12-e8eb-4b34-9d07-d477e8ad63d4"
+      Hint: Accordion2Title
+      Value: Planting Zones

@@ -1,0 +1,31 @@
+﻿---
+ID: "4d979fb3-d7b0-443d-9ce0-903530d4cad0"
+Parent: "d85b5557-1199-42f8-a36c-ee664fb477e5"
+Template: "9ce871ef-0a1e-497d-ba48-6245acd12eb1"
+Path: "/sitecore/content/OneWeb/Pennington/Home/pennington-lawn-takeover"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1150
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "22753447-be25-4035-a3c9-7f875afe8e57"
+      Hint: RedirectUrl
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{D85B5557-1199-42F8-A36C-EE664FB477E5}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220609T112745Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fc9a34a6-37d1-45f3-9262-52dadc6be1ff"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220609T113003Z
