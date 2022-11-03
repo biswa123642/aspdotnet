@@ -14,45 +14,45 @@ pipeline {
         buildDiscarder(logRotator(numToKeepStr: '60'))
     }
 	
-	stages {
+    stages {
         stage('Checkout') {
-			steps {
-				print "SCM Checkout"
-				checkout scm
-			}
-		} 
+	    steps {
+		print "SCM Checkout"
+		checkout scm
+	    }
+        } 
 		
-		stage('Nuget_Restore') {
-			steps {
-			print "Restoring Nuget Packages on sln"
-			powershell '''
-				C:\\nuget\\nuget.exe restore .\\CernerComSitecore.sln -PackagesDirectory  .\\packages  
-				'''
-			}
-		}
+	stage('Nuget_Restore') {
+	    steps {
+	    print "Restoring Nuget Packages on sln"
+	    powershell '''
+		C:\\nuget\\nuget.exe restore .\\CernerComSitecore.sln -PackagesDirectory  .\\packages  
+		'''
+	    }
+	}
 		
-		stage('Build') {
+	stage('Build') {
             steps {
-				print "Building Solution"
+		print "Building Solution"
                 powershell '''
                         if (Test-Path "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\MSBuild\\15.0\\Bin\\MSBuild.exe") {
                             Set-Alias msbuild ${env:msBuildPath}\\MSBuild.exe -Scope Script
                         } else {
                             Write-Error "Cannot find VS 2017 MSBuild"
                         }
-						msbuild $ENV:WORKSPACE\\CernerComSitecore.sln `
-						/p:DeployOnBuild=true `
-						/p:Configuration=Release `
-						/p:WebPublishMethod=FileSystem `
-						/p:SkipInvalidConfigurations=true `
-						/p:TransformOnBuild=false `
-						/p:PublishUrl=$ENV:WORKSPACE\\Build_Artifacts_Jenkins `
-						/p:DeployDefaultTarget=WebPublish `
-						/p:BuildProjectReferences=true `
-						/p:AllowedReferenceRelatedFileExtensions=.pdb
+			msbuild $ENV:WORKSPACE\\CernerComSitecore.sln `
+			/p:DeployOnBuild=true `
+			/p:Configuration=Release `
+			/p:WebPublishMethod=FileSystem `
+			/p:SkipInvalidConfigurations=true `
+			/p:TransformOnBuild=false `
+			/p:PublishUrl=$ENV:WORKSPACE\\Build_Artifacts_Jenkins `
+			/p:DeployDefaultTarget=WebPublish `
+			/p:BuildProjectReferences=true `
+			/p:AllowedReferenceRelatedFileExtensions=.pdb
                     '''
             }
         }
-	}
+   }
   
 }
