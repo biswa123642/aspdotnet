@@ -35,7 +35,7 @@ pipeline {
             steps {
 		print "Building Solution"
                 powershell '''
-                        if (Test-Path "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\amd64\MSBuild.exe") {
+                        if (Test-Path "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.exe") {
                         } else {
                             Write-Error "Cannot find VS 2019 MSBuild"
                         }
