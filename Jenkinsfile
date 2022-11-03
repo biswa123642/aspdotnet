@@ -73,6 +73,12 @@ pipeline {
 		'''
 	    }
         }
+	    
+	stage('Publish Artifacts to Jenkins Dashboard') {
+	    steps{
+                archiveArtifacts artifacts: "Build_Package\\${env:BUILD_NUMBER}.zip",  onlyIfSuccessful: true
+	    }
+	}    
     }
   
 }
