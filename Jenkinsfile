@@ -27,7 +27,7 @@ pipeline {
 	    }
         } 
 		
-	stage('Nuget_Restore') {
+	stage('Nuget Restore') {
 	    steps {
 	    print "Restoring Nuget Packages on sln"
 	    powershell '''
@@ -52,7 +52,7 @@ pipeline {
 	    }
 	}
 		
-	stage('Build') {
+	stage('Build Solution') {
             steps {
 		print "Building Solution"
                 powershell '''
@@ -84,7 +84,7 @@ pipeline {
             }
         }
 	    
-	stage('Removing_PDB_Files') {
+	stage('Remove PDB Files') {
             steps {
 	    print "Removed .Pdb Files"
             powershell '''
@@ -95,7 +95,7 @@ pipeline {
 	    }
 	}
 	    
-    	stage('Archive_Artifacts') {
+    	stage('Archive Artifacts') {
             steps {
             powershell '''
 		Compress-Archive -Path $ENV:WORKSPACE\\Build_Artifacts_Jenkins `
@@ -104,7 +104,7 @@ pipeline {
 	    }
         }
 	    
-	stage('Publish Artifacts to Jenkins Dashboard') {
+	stage('Publish Artifacts To Jenkins Dashboard') {
 	    steps{
                 archiveArtifacts artifacts: "Build_Package\\${env:BUILD_NUMBER}.zip",  onlyIfSuccessful: true
 	    }
