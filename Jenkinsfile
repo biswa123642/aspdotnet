@@ -64,7 +64,7 @@ pipeline {
 			        /k:${env.project-key} `
 				/d:sonar.login=${env.sonarqube} `
 				/d:sonar.host.url=http://localhost:9000/ `
-                                ${env.MSBUILD_SONAR_HOME}\\SonarScanner.MSBuild.exe end `
+                            ${env.MSBUILD_SONAR_HOME}\\SonarScanner.MSBuild.exe end `
 			        /d:sonar.login=${env.sonarqube}
                         """
                     }
