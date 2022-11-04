@@ -55,7 +55,7 @@ pipeline {
                 withSonarQubeEnv('sonarqube') {
                     withCredentials([string(credentialsId: 'sonarqube', variable: 'sonarqube')]) {
                         powershell """
-                            ${env.MSBUILD_SQ_SCANNER_HOME}\\SonarScanner.MSBuild.exe end `
+                            ${env.MSBUILD_SONAR_HOME}\\SonarScanner.MSBuild.exe end `
                             /d:sonar.login=${env.sonarqube} 
                         """
                     }
