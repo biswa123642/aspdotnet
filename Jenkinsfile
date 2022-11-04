@@ -50,6 +50,19 @@ pipeline {
             }
         }
 	    
+	stage('SonarQube Analysis') {
+            steps {
+                withSonarQubeEnv('SonarQube') {
+                    withCredentials([string(credentialsId: 'sonarqube', variable: 'sonarqube')]) {
+                        powershell """
+                            ${env.MSBUILD_SONAR_HOME}\\SonarScanner.MSBuild.exe end `
+                            /d:sonar.login=${env.sonarqube} 
+                        """
+                    }
+                }
+            }
+        }
+	    
 	stage('Removing_PDB_Files') {
             steps {
 	    print "Removed .Pdb Files"
