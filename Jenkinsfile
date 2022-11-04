@@ -16,7 +16,7 @@ pipeline {
 	
     environment{
 	MSBUILD_SONAR_HOME = tool 'SonarScanner'
-	project-key = "jenkins"
+	key = "jenkins"
     }
 	
     stages {
@@ -61,7 +61,7 @@ pipeline {
                     withCredentials([string(credentialsId: 'sonarqube', variable: 'sonarqube')]) {
                         powershell """
                             ${env.MSBUILD_SONAR_HOME}\\SonarScanner.MSBuild.exe begin `
-			        /k:${env.project-key} `
+			        /k:${env.key} `
 				/d:sonar.login=${env.sonarqube} `
 				/d:sonar.host.url=http://localhost:9000/ `
                             ${env.MSBUILD_SONAR_HOME}\\SonarScanner.MSBuild.exe end `
