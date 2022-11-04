@@ -52,7 +52,7 @@ pipeline {
 	    
 	stage('SonarQube Analysis') {
             steps {
-                withSonarQubeEnv('SonarQube') {
+                withSonarQubeEnv('sonarqube') {
                     withCredentials([string(credentialsId: 'sonarqube', variable: 'sonarqube')]) {
                         powershell """
                             ${env.MSBUILD_SONAR_HOME}\\SonarScanner.MSBuild.exe end `
