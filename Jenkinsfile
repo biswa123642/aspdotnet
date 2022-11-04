@@ -35,6 +35,22 @@ pipeline {
 		'''
 	    }
 	}
+	    
+	stage('Start Sonarqube Scanner') {
+	    steps {
+		print "Sonarqube Analysis Start"
+                withSonarQubeEnv('sonarqube') {
+                    withCredentials([string(credentialsId: 'sonarqube', variable: 'sonarqube')]) {
+                        powershell """
+                            ${env.MSBUILD_SONAR_HOME}\\SonarScanner.MSBuild.exe begin `
+			    	/k:${env.key} `
+				/d:sonar.login=${env.sonarqube} `
+				/d:sonar.host.url=http://localhost:9000/
+			"""
+		    }
+		}
+	    }
+	}
 		
 	stage('Build') {
             steps {
@@ -60,12 +76,8 @@ pipeline {
                 withSonarQubeEnv('sonarqube') {
                     withCredentials([string(credentialsId: 'sonarqube', variable: 'sonarqube')]) {
                         powershell """
-                            ${env.MSBUILD_SONAR_HOME}\\SonarScanner.MSBuild.exe begin `
-			        /k:${env.key} `
-				/d:sonar.login=${env.sonarqube} `
-				/d:sonar.host.url=http://localhost:9000/ `
                             ${env.MSBUILD_SONAR_HOME}\\SonarScanner.MSBuild.exe end `
-			        /d:sonar.login=${env.sonarqube}
+			    /d:sonar.login=${env.sonarqube}
                         """
                     }
                 }
