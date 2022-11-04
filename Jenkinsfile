@@ -15,7 +15,7 @@ pipeline {
     }
 	
     environment{
-	MSBUILD_SONAR_HOME = tool 'Sonarqube'
+	MSBUILD_SONAR_HOME = tool 'SonarScanner'
     }
 	
     stages {
