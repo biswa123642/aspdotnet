@@ -14,6 +14,10 @@ pipeline {
         buildDiscarder(logRotator(numToKeepStr: '60'))
     }
 	
+    environment{
+	MSBUILD_SONAR_HOME = tool 'Sonarqube'
+    }
+	
     stages {
         stage('Checkout') {
 	    steps {
