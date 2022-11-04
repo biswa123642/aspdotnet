@@ -54,25 +54,26 @@ pipeline {
 		
 	stage('Build Solution') {
             steps {
-		print "Building Solution"
-                powershell '''
-                        if (Test-Path "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.exe") {
-                        } else {
-                            Write-Error "Cannot find VS 2019 MSBuild"
-                        }
-			msbuild $ENV:WORKSPACE\\CGP.sln `
-			/p:DeployOnBuild=true `
-			/p:Configuration=Release `
-			/p:WebPublishMethod=FileSystem `
-			/p:SkipInvalidConfigurations=true `
-			/p:PublishUrl=$ENV:WORKSPACE\\Build_Artifacts_Jenkins `
-			/p:DeployDefaultTarget=WebPublish 
-                    '''
+	    print "Building Solution"
+            powershell '''
+                if (Test-Path "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.exe") {
+                } else {
+                Write-Error "Cannot find VS 2019 MSBuild"
+                }
+	        msbuild $ENV:WORKSPACE\\CGP.sln `
+		/p:DeployOnBuild=true `
+		/p:Configuration=Release `
+		/p:WebPublishMethod=FileSystem `
+		/p:SkipInvalidConfigurations=true `
+		/p:PublishUrl=$ENV:WORKSPACE\\Build_Artifacts_Jenkins `
+		/p:DeployDefaultTarget=WebPublish 
+                '''
             }
         }
 	    
 	stage('SonarQube Analysis') {
             steps {
+		print "Sonarqube Analysis End"
                 withSonarQubeEnv('sonarqube') {
                     withCredentials([string(credentialsId: 'sonarqube', variable: 'sonarqube')]) {
                         powershell """
