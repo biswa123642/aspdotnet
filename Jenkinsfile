@@ -17,6 +17,11 @@ pipeline {
     environment{
 	MSBUILD_SONAR_HOME = tool 'SonarScanner'
 	key = "jenkins"
+	OCTOPUS_SERVER_URL = 'http://localhost:80'
+	OCTOPUS_ENVIRONMENT = "Development"
+	OCTOPUS_CHANNEL = "OctopusChannel"
+	OCTOPUS_PROJECT = "DOTNET"
+	OCTOPUS_SPACE = "Default"
     }
 	
     stages {
@@ -103,6 +108,33 @@ pipeline {
 		-DestinationPath $ENV:WORKSPACE\\Build_Package\\$ENV:BUILD_NUMBER.zip
 		'''
 	    }
+        }
+	    
+	stage('Push Packages') {
+            steps {
+	       print "Pushing Package"
+                withCredentials([string(credentialsId: 'Octo_API_Key', variable: 'OCTOPUS_API_KEY')]) {
+		    powershell '''
+			octo push `
+			--package $ENV:WORKSPACE\\Build_Package\\$ENV:BUILD_NUMBER.zip `
+			--server $ENV:OCTOPUS_SERVER_URL `
+			--apiKey $env:OCTOPUS_API_KEY 
+		    '''
+		}
+            }
+        }
+		
+	stage('Octopus Release') {
+	    steps {
+		print "Creating Release"
+                withCredentials([string(credentialsId: 'Octo_API_Key', variable: 'OCTOPUS_API_KEY')]) {
+                    powershell '''
+			octo create-release --server $ENV:OCTOPUS_SERVER_URL `
+			--apikey $env:OCTOPUS_API_KEY --space $ENV:OCTOPUS_SPACE --project $ENV:OCTOPUS_PROJECT --version "$ENV:BUILD_NUMBER" `
+			--channel $ENV:OCTOPUS_CHANNEL --deployto $ENV:OCTOPUS_ENVIRONMENT
+		    '''
+		}
+            }
         }
 	    
 	stage('Publish Artifacts To Jenkins Dashboard') {
