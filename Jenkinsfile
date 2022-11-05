@@ -115,7 +115,7 @@ pipeline {
 	       print "Pushing Package"
                 withCredentials([string(credentialsId: 'Octo_API_Key', variable: 'OCTOPUS_API_KEY')]) {
 		    powershell '''
-			octo push `
+			C:\\OctopusTools\\octo.exe push `
 			--package $ENV:WORKSPACE\\Build_Package\\$ENV:BUILD_NUMBER.zip `
 			--server $ENV:OCTOPUS_SERVER_URL `
 			--apiKey $env:OCTOPUS_API_KEY 
@@ -129,7 +129,7 @@ pipeline {
 		print "Creating Release"
                 withCredentials([string(credentialsId: 'Octo_API_Key', variable: 'OCTOPUS_API_KEY')]) {
                     powershell '''
-			octo create-release --server $ENV:OCTOPUS_SERVER_URL `
+			C:\\OctopusTools\\octo.exe create-release --server $ENV:OCTOPUS_SERVER_URL `
 			--apikey $env:OCTOPUS_API_KEY --space $ENV:OCTOPUS_SPACE --project $ENV:OCTOPUS_PROJECT --version "$ENV:BUILD_NUMBER" `
 			--channel $ENV:OCTOPUS_CHANNEL --deployto $ENV:OCTOPUS_ENVIRONMENT
 		    '''
