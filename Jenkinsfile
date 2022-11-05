@@ -105,7 +105,7 @@ pipeline {
             steps {
             powershell '''
 		Compress-Archive -Path $ENV:WORKSPACE\\Build_Artifacts_Jenkins `
-		-DestinationPath $ENV:WORKSPACE\\Build_Package\\$ENV:BUILD_NUMBER.zip
+		-DestinationPath $ENV:WORKSPACE\\Build_Package\\MyPackage.$ENV:BUILD_TIMESTAMP.$ENV:BUILD_NUMBER.zip
 		'''
 	    }
         }
