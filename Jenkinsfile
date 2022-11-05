@@ -105,7 +105,7 @@ pipeline {
             steps {
             powershell '''
 		Compress-Archive -Path $ENV:WORKSPACE\\Build_Artifacts_Jenkins `
-		-DestinationPath $ENV:WORKSPACE\\Build_Package\\MyPackage.$ENV:BUILD_TIMESTAMP.$ENV:BUILD_NUMBER.zip
+		-DestinationPath $ENV:WORKSPACE\\Build_Package\\MyPackage.$ENV:BUILD_TIMESTAMP.$ENV:BUILD_NUMBER-beta.zip
 		'''
 	    }
         }
@@ -116,7 +116,7 @@ pipeline {
                 withCredentials([string(credentialsId: 'Octo_API_Key', variable: 'OCTOPUS_API_KEY')]) {
 		    powershell '''
 			C:\\OctopusTools\\octo.exe push `
-			--package $ENV:WORKSPACE\\Build_Package\\MyPackage.$ENV:BUILD_TIMESTAMP.$ENV:BUILD_NUMBER.zip `
+			--package $ENV:WORKSPACE\\Build_Package\\MyPackage.$ENV:BUILD_TIMESTAMP.$ENV:BUILD_NUMBER-beta.zip `
 			--server $ENV:OCTOPUS_SERVER_URL `
 			--apiKey $env:OCTOPUS_API_KEY 
 		    '''
@@ -139,7 +139,7 @@ pipeline {
 	    
 	stage('Publish Artifacts To Jenkins Dashboard') {
 	    steps{
-                archiveArtifacts artifacts: "Build_Package\\${env:BUILD_NUMBER}.zip",  onlyIfSuccessful: true
+                archiveArtifacts artifacts: "Build_Package\\MyPackage.$ENV:BUILD_TIMESTAMP.$ENV:BUILD_NUMBER-beta.zip",  onlyIfSuccessful: true
 	    }
 	}    
     }
