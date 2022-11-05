@@ -116,7 +116,7 @@ pipeline {
                 withCredentials([string(credentialsId: 'Octo_API_Key', variable: 'OCTOPUS_API_KEY')]) {
 		    powershell '''
 			C:\\OctopusTools\\octo.exe push `
-			--package $ENV:WORKSPACE\\Build_Package\\$ENV:BUILD_NUMBER.zip `
+			--package $ENV:WORKSPACE\\Build_Package\\MyPackage.$ENV:BUILD_TIMESTAMP.$ENV:BUILD_NUMBER.zip `
 			--server $ENV:OCTOPUS_SERVER_URL `
 			--apiKey $env:OCTOPUS_API_KEY 
 		    '''
