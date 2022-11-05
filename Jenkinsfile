@@ -116,7 +116,7 @@ pipeline {
                 withCredentials([string(credentialsId: 'Octo_API_Key', variable: 'OCTOPUS_API_KEY')]) {
 		    powershell '''
 			C:\\OctopusTools\\octo.exe push `
-			--package $ENV:WORKSPACE\\Build_Package\\MyPackage.$ENV:BUILD_TIMESTAMP.$ENV:BUILD_NUMBER-beta.zip `
+			--package $ENV:WORKSPACE\\Build_Package\\MyPackage.$ENV:BUILD_NUMBER-alpha.zip `
 			--server $ENV:OCTOPUS_SERVER_URL `
 			--apiKey $env:OCTOPUS_API_KEY 
 		    '''
@@ -139,7 +139,7 @@ pipeline {
 	    
 	stage('Publish Artifacts To Jenkins Dashboard') {
 	    steps{
-                archiveArtifacts artifacts: "Build_Package\\MyPackage.$ENV:BUILD_TIMESTAMP.$ENV:BUILD_NUMBER-beta.zip",  onlyIfSuccessful: true
+                archiveArtifacts artifacts: "Build_Package\\MyPackage.$ENV:BUILD_NUMBER-alpha.zip",  onlyIfSuccessful: true
 	    }
 	}    
     }
