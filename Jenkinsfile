@@ -139,7 +139,7 @@ pipeline {
 	    
 	stage('Publish Artifacts To Jenkins Dashboard') {
 	    steps{
-                archiveArtifacts artifacts: "Build_Package\\MyPackage.$ENV:BUILD_NUMBER-alpha.zip",  onlyIfSuccessful: true
+		archiveArtifacts artifacts: "Build_Package\\MyPackage.${env:BUILD_NUMBER}-alpha.zip",  onlyIfSuccessful: true
 	    }
 	}    
     }
