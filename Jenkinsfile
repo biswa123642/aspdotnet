@@ -57,6 +57,7 @@ pipeline {
         Get-ChildItem -Path ${WORKSPACE}\\Build_Artifacts_Jenkins *.pdb -Recurse | foreach { Remove-Item -Path $_.FullName -Force }
         Remove-Item -Path ${WORKSPACE}\\Build_Artifacts_Jenkins\\bin\\roslyn -Recurse -Force
         md -path ${WORKSPACE}\\Build_Package
+        Copy-Item -Path ${WORKSPACE}\\Build_Artifacts_Jenkins -Destination ${WORKSPACE}\\Build_Package -Recurse
         '''
       }
     }
