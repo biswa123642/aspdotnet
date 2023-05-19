@@ -22,7 +22,7 @@ pipeline {
     stage('Start Sonarqube Scanner') {
       steps {
         withSonarQubeEnv('sonarqube') {
-          bat "${env.MSBUILD_SONAR_HOME}\\SonarScanner.MSBuild.exe begin /k:${env.key}"
+          bat "${MSBUILD_SONAR_HOME}\\SonarScanner.MSBuild.exe begin /k:${key}"
         }
       }
     }
@@ -34,7 +34,7 @@ pipeline {
     stage('SonarQube Analysis') {
       steps {
         withSonarQubeEnv('sonarqube') {
-          bat "${env.MSBUILD_SONAR_HOME}\\SonarScanner.MSBuild.exe end"
+          bat "${MSBUILD_SONAR_HOME}\\SonarScanner.MSBuild.exe end"
         }
       }
     }
