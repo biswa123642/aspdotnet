@@ -16,7 +16,7 @@ pipeline {
   stages {
     stage('Nuget Restore') {
       steps {
-        bat "C:\\nuget\\nuget.exe restore $ENV:WORKSPACE\\CGP.sln"
+        bat "nuget restore $env:WORKSPACE\\CGP.sln"
       }
     }
     stage('Start Sonarqube Scanner') {
@@ -28,7 +28,7 @@ pipeline {
     }
     stage('Build Solution') {
       steps {
-        bat "msbuild $ENV:WORKSPACE\\CGP.sln /p:DeployOnBuild=true /p:Configuration=Release /p:WebPublishMethod=FileSystem /p:SkipInvalidConfigurations=true /p:DeployDefaultTarget=WebPublish /p:PublishUrl=$ENV:WORKSPACE\\Build_Artifacts_Jenkins"
+        bat "msbuild $env:WORKSPACE\\CGP.sln /p:DeployOnBuild=true /p:Configuration=Release /p:WebPublishMethod=FileSystem /p:SkipInvalidConfigurations=true /p:DeployDefaultTarget=WebPublish /p:PublishUrl=$ENV:WORKSPACE\\Build_Artifacts_Jenkins"
       }
     }
     stage('SonarQube Analysis') {
@@ -40,7 +40,7 @@ pipeline {
     }
     stage('Publish Artifacts To Jenkins Dashboard') {
       steps{
-        archiveArtifacts artifacts: "Build_Package.$ENV:BUILD_NUMBER",  onlyIfSuccessful: true
+        archiveArtifacts artifacts: "Build_Package.$env:BUILD_NUMBER",  onlyIfSuccessful: true
       }
     }
   }
