@@ -40,13 +40,21 @@ pipeline {
       steps {
         powershell '''
         Remove-Item -Path ${WORKSPACE}\\Build_Artifacts_Jenkins\\bin\\roslyn -Recurse -Force
-        md -path ${WORKSPACE}\\Build_Package.${BUILD_NUMBER}
+        md -path ${WORKSPACE}\\Build_Package
+        '''
+      }
+    }
+    stage('Archive Artifacts') {
+      steps {
+        powershell '''
+        Compress-Archive -Path ${WORKSPACE}\\Build_Package `
+        -DestinationPath ${WORKSPACE}\\Build_Package\\${BUILD_NUMBER}.zip
         '''
       }
     }
     stage('Publish Artifacts To Jenkins Dashboard') {
       steps{
-        archiveArtifacts artifacts: "Build_Package.${BUILD_NUMBER}",  onlyIfSuccessful: true
+        archiveArtifacts artifacts: "Build_Package\\${BUILD_NUMBER}.zip",  onlyIfSuccessful: true
       }
     }
   }
