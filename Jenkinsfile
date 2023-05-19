@@ -16,7 +16,7 @@ pipeline {
   stages {
     stage('Nuget Restore') {
       steps {
-        bat "nuget restore $ENV:WORKSPACE\\CGP.sln"
+        bat "C:\\nuget\\nuget.exe restore $ENV:WORKSPACE\\CGP.sln"
       }
     }
     stage('Start Sonarqube Scanner') {
