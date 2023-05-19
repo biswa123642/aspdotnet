@@ -28,7 +28,7 @@ pipeline {
     }
     stage('Build Solution') {
       steps {
-        bat "msbuild $env:WORKSPACE\\CGP.sln /p:DeployOnBuild=true /p:Configuration=Release /p:WebPublishMethod=FileSystem /p:SkipInvalidConfigurations=true /p:DeployDefaultTarget=WebPublish /p:PublishUrl=$ENV:WORKSPACE\\Build_Artifacts_Jenkins"
+        bat "msbuild CGP.sln /p:DeployOnBuild=true /p:Configuration=Release /p:WebPublishMethod=FileSystem /p:SkipInvalidConfigurations=true /p:DeployDefaultTarget=WebPublish /p:PublishUrl=$ENV:WORKSPACE\\Build_Artifacts_Jenkins"
       }
     }
     stage('SonarQube Analysis') {
