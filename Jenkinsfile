@@ -62,15 +62,15 @@ pipeline {
     stage('Archive Artifacts') {
       steps {
         powershell '''
-        md -path ${WORKSPACE}\\Build_Artifacts_Jenkins\\Artifacts
+        if (!(test-path -path ${WORKSPACE}\\Build_Artifacts_Jenkins\\Artifacts)) {new-item -path ${WORKSPACE}\\Build_Artifacts_Jenkins\\Artifacts -itemtype directory}
         Compress-Archive -Path ${WORKSPACE}\\Build_Artifacts_Jenkins `
-        -DestinationPath ${WORKSPACE}\\Build_Artifacts_Jenkins\\Artifacts\\MyPackage.${BUILD_NUMBER}.zip
+        -DestinationPath ${WORKSPACE}\\Build_Artifacts_Jenkins\\Artifacts\\$BUILD_NUMBER.zip
         '''
       }
     }
     stage('Publish Artifacts To Jenkins Dashboard') {
       steps{
-        archiveArtifacts artifacts: "Build_Artifacts_Jenkins\\Artifacts\\MyPackage.${BUILD_NUMBER}.zip",  onlyIfSuccessful: true
+        archiveArtifacts(artifacts: "**/$BUILD_NUMBER.zip",  onlyIfSuccessful: true)
       }
     }
   }
