@@ -57,13 +57,13 @@ pipeline {
       steps {
         powershell '''
         Compress-Archive -Path ${WORKSPACE}\\Build_Package `
-        -DestinationPath ${WORKSPACE}\\Build_Package\\${BUILD_NUMBER}.zip
+        -DestinationPath ${WORKSPACE}\\Build_Package\\MyPackage.${BUILD_NUMBER}.zip
         '''
       }
     }
     stage('Publish Artifacts To Jenkins Dashboard') {
       steps{
-        archiveArtifacts artifacts: "Build_Package\\${BUILD_NUMBER}.zip",  onlyIfSuccessful: true
+        archiveArtifacts artifacts: "${WORKSPACE}\\Build_Package\\MyPackage.${BUILD_NUMBER}.zip",  onlyIfSuccessful: true
       }
     }
   }
