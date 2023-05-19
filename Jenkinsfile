@@ -34,7 +34,7 @@ pipeline {
     stage('Build Solution') {
       steps {
         powershell '''
-        msbuild $ENV:WORKSPACE\\CGP.sln `
+        msbuild CGP.sln `
         /p:DeployOnBuild=true `
         /p:Configuration=Release `
         /p:WebPublishMethod=FileSystem `
@@ -54,24 +54,22 @@ pipeline {
     stage('Remove PDB Files') {
       steps {
         powershell '''
-        Get-ChildItem -Path ${WORKSPACE}\\Build_Artifacts_Jenkins *.pdb -Recurse | foreach { Remove-Item -Path $_.FullName -Force }
+        #Get-ChildItem ${WORKSPACE}\\Build_Artifacts_Jenkins *.pdb -Recurse | foreach { Remove-Item -Path $_.FullName -Force }
         Remove-Item -Path ${WORKSPACE}\\Build_Artifacts_Jenkins\\bin\\roslyn -Recurse -Force
-        md -path ${WORKSPACE}\\Build_Package
-        Copy-Item -Path ${WORKSPACE}\\Build_Artifacts_Jenkins -Destination ${WORKSPACE}\\Build_Package -Recurse
         '''
       }
     }
     stage('Archive Artifacts') {
       steps {
         powershell '''
-        Compress-Archive -Path ${WORKSPACE}\\Build_Package `
-        -DestinationPath ${WORKSPACE}\\Build_Package\\MyPackage.${BUILD_NUMBER}.zip
+        Compress-Archive -Path ${WORKSPACE}\\Build_Artifacts_Jenkins `
+        -DestinationPath ${WORKSPACE}\\Build_Artifacts_Jenkins\\Artifacts\\MyPackage.${BUILD_NUMBER}.zip
         '''
       }
     }
     stage('Publish Artifacts To Jenkins Dashboard') {
       steps{
-        archiveArtifacts artifacts: "MyPackage.${BUILD_NUMBER}.zip",  onlyIfSuccessful: true
+        archiveArtifacts artifacts: "Build_Artifacts_Jenkins\\Artifacts\\MyPackage.${BUILD_NUMBER}.zip",  onlyIfSuccessful: true
       }
     }
   }
