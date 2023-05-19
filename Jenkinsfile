@@ -54,7 +54,7 @@ pipeline {
     stage('Remove PDB Files') {
       steps {
         powershell '''
-        #Get-ChildItem ${WORKSPACE}\\Build_Artifacts_Jenkins *.pdb -Recurse | foreach { Remove-Item -Path $_.FullName -Force }
+        Get-ChildItem -Path ${WORKSPACE}\\Build_Artifacts_Jenkins *.pdb -Recurse | foreach { Remove-Item -Path $_.FullName -Force }
         Remove-Item -Path ${WORKSPACE}\\Build_Artifacts_Jenkins\\bin\\roslyn -Recurse -Force
         md -path ${WORKSPACE}\\Build_Package
         '''
