@@ -4,6 +4,8 @@ pipeline {
   options {
     timeout(time: 1, unit: 'HOURS')
     timestamps()
+    disableConcurrentBuilds()
+    buildDiscarder(logRotator(numToKeepStr: '60'))
   }
 
   environment{
@@ -12,6 +14,11 @@ pipeline {
   }
 
   stages {
+    stage('Checkout') {
+      steps {
+        checkout scm
+      }
+    }
     stage('Nuget Restore') {
       steps {
         bat "nuget restore CGP.sln"
@@ -63,7 +70,7 @@ pipeline {
     }
     stage('Publish Artifacts To Jenkins Dashboard') {
       steps{
-        archiveArtifacts artifacts: "${WORKSPACE}\\Build_Package\\MyPackage.${BUILD_NUMBER}.zip",  onlyIfSuccessful: true
+        archiveArtifacts artifacts: "MyPackage.${BUILD_NUMBER}.zip",  onlyIfSuccessful: true
       }
     }
   }
