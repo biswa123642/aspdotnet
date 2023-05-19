@@ -38,9 +38,18 @@ pipeline {
         }
       }
     }
+    stage('Remove PDB Files') {
+      steps {
+        powershell '''
+        Get-ChildItem ${WORKSPACE}\\Build_Artifacts_Jenkins *.pdb -Recurse | foreach { Remove-Item -Path $_.FullName -Force }
+        Remove-Item -Path ${WORKSPACE}\\Build_Artifacts_Jenkins\\bin\\roslyn -Recurse -Force
+        md -path ${WORKSPACE}\\Build_Package.${BUILD_NUMBER}
+        '''
+      }
+    }
     stage('Publish Artifacts To Jenkins Dashboard') {
       steps{
-        archiveArtifacts artifacts: "Build_Package.$env:BUILD_NUMBER",  onlyIfSuccessful: true
+        archiveArtifacts artifacts: "Build_Package.${BUILD_NUMBER}",  onlyIfSuccessful: true
       }
     }
   }
