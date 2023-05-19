@@ -26,7 +26,15 @@ pipeline {
     }
     stage('Build Solution') {
       steps {
-        bat "msbuild CGP.sln /p:DeployOnBuild=true /p:Configuration=Release /p:WebPublishMethod=FileSystem /p:SkipInvalidConfigurations=true /p:DeployDefaultTarget=WebPublish /p:PublishUrl=${WORKSPACE}\\Build_Artifacts_Jenkins"
+        powershell '''
+        msbuild $ENV:WORKSPACE\\CGP.sln `
+        /p:DeployOnBuild=true `
+        /p:Configuration=Release `
+        /p:WebPublishMethod=FileSystem `
+        /p:SkipInvalidConfigurations=true `
+        /p:PublishUrl=${WORKSPACE}\\Build_Artifacts_Jenkins `
+        /p:DeployDefaultTarget=WebPublish
+        '''
       }
     }
     stage('SonarQube Analysis') {
@@ -39,6 +47,7 @@ pipeline {
     stage('Remove PDB Files') {
       steps {
         powershell '''
+        #Get-ChildItem ${WORKSPACE}\\Build_Artifacts_Jenkins *.pdb -Recurse | foreach { Remove-Item -Path $_.FullName -Force }
         Remove-Item -Path ${WORKSPACE}\\Build_Artifacts_Jenkins\\bin\\roslyn -Recurse -Force
         md -path ${WORKSPACE}\\Build_Package
         '''
