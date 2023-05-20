@@ -64,14 +64,14 @@ pipeline {
     stage('Archive Artifacts') {
       steps {
         script {
-          zip zipFile: '${env.PACKAGE_VERSION}', archive: true, dir: 'Build_Artifacts_Jenkins'
+          zip zipFile: $PACKAGE_VERSION, archive: true, dir: 'Build_Artifacts_Jenkins'
         }
 
       }
     }
     stage('Publish Artifacts To Jenkins Dashboard') {
       steps{
-        archiveArtifacts artifacts: '${env.PACKAGE_VERSION}', fingerprint: true
+        archiveArtifacts artifacts: $PACKAGE_VERSION, fingerprint: true
       }
     }
   }
