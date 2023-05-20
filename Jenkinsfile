@@ -39,7 +39,7 @@ pipeline {
         /p:Configuration=Release `
         /p:WebPublishMethod=FileSystem `
         /p:SkipInvalidConfigurations=true `
-        /p:PublishUrl=${WORKSPACE}\\Build_Artifacts_Jenkins `
+        /p:PublishUrl=Build_Artifacts_Jenkins `
         /p:DeployDefaultTarget=WebPublish
         '''
       }
@@ -54,23 +54,23 @@ pipeline {
     stage('Remove PDB Files') {
       steps {
         powershell '''
-        Get-ChildItem -Path ${WORKSPACE}\\Build_Artifacts_Jenkins *.pdb -Recurse | foreach { Remove-Item -Path $_.FullName -Force }
-        Remove-Item -Path ${WORKSPACE}\\Build_Artifacts_Jenkins\\bin\\roslyn -Recurse -Force
+        Get-ChildItem -Path Build_Artifacts_Jenkins *.pdb -Recurse | foreach { Remove-Item -Path $_.FullName -Force }
+        Remove-Item -Path Build_Artifacts_Jenkins\\bin\\roslyn -Recurse -Force
+        #if (!(test-path -path Artifacts)) {new-item -path Artifacts -itemtype directory}
         '''
       }
     }
     stage('Archive Artifacts') {
       steps {
-        powershell '''
-        if (!(test-path -path ${WORKSPACE}\\Build_Artifacts_Jenkins\\Artifacts)) {new-item -path ${WORKSPACE}\\Build_Artifacts_Jenkins\\Artifacts -itemtype directory}
-        Compress-Archive -Path ${WORKSPACE}\\Build_Artifacts_Jenkins `
-        -DestinationPath ${WORKSPACE}\\Build_Artifacts_Jenkins\\Artifacts\\$ENV:BUILD_NUMBER.zip
-        '''
+        script {
+          zip zipFile: '$ENV:BUILD_NUMBER.zip', archive: true, dir: 'Build_Artifacts_Jenkins'
+        }
+
       }
     }
     stage('Publish Artifacts To Jenkins Dashboard') {
       steps{
-        archiveArtifacts artifacts: "Build_Artifacts_Jenkins\\Artifacts\\$ENV:BUILD_NUMBER.zip",  onlyIfSuccessful: true
+        archiveArtifacts artifacts: "$ENV:BUILD_NUMBER.zip", fingerprint: true
       }
     }
   }
