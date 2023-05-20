@@ -60,14 +60,14 @@ pipeline {
         powershell '''
         if (!(test-path -path $ENV:WORKSPACE\\Package)) {new-item -path $ENV:WORKSPACE\\Package -itemtype directory}
         Compress-Archive -Path $ENV:WORKSPACE\\Artifacts\\* `
-        -DestinationPath $ENV:WORKSPACE\\Package\\Package.${BUILD_NUMBER}.zip
+        -DestinationPath $ENV:WORKSPACE\\Package\\$ENV:BUILD_NUMBER.zip
         '''
       }
     }
     stage('Publish Artifacts To Jenkins Dashboard') {
       steps{
         dir('Package') {
-          archiveArtifacts artifacts: 'Package.${BUILD_NUMBER}.zip', fingerprint: true, onlyIfSuccessful: true
+          archiveArtifacts artifacts: "$ENV:BUILD_NUMBER.zip", fingerprint: true, onlyIfSuccessful: true
         }
       }
     }
