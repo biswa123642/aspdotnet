@@ -63,14 +63,14 @@ pipeline {
     stage('Archive Artifacts') {
       steps {
         script {
-          zip zipFile: '$ENV:BUILD_NUMBER.zip', archive: true, dir: 'Build_Artifacts_Jenkins'
+          zip zipFile: '${env.BUILD_NUMBER}.zip', archive: true, dir: 'Build_Artifacts_Jenkins'
         }
 
       }
     }
     stage('Publish Artifacts To Jenkins Dashboard') {
       steps{
-        archiveArtifacts artifacts: "$ENV:BUILD_NUMBER.zip", fingerprint: true
+        archiveArtifacts artifacts: '${env.BUILD_NUMBER}.zip', fingerprint: true
       }
     }
   }
