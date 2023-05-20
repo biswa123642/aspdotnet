@@ -66,7 +66,7 @@ pipeline {
     }
     stage('Publish Artifacts To Jenkins Dashboard') {
       steps{
-        dir('$ENV:WORKSPACE\Package') {
+        dir('Package') {
           archiveArtifacts artifacts: 'Package.$ENV:BUILD_NUMBER.zip', fingerprint: true
       }
     }
