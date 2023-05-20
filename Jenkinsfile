@@ -11,15 +11,9 @@ pipeline {
   environment{
     MSBUILD_SONAR_HOME = tool 'SonarScanner'
     key = "jenkins"
-    PACKAGE_VERSION="${BUILD_NUMBER}.zip"
   }
 
   stages {
-    stage('Checkout') {
-      steps {
-        checkout scm
-      }
-    }
     stage('Nuget Restore') {
       steps {
         bat "nuget restore CGP.sln"
@@ -64,14 +58,14 @@ pipeline {
     stage('Archive Artifacts') {
       steps {
         script {
-          zip zipFile: $PACKAGE_VERSION, archive: true, dir: 'Build_Artifacts_Jenkins'
+          zip zipFile: '"${BUILD_NUMBER}".zip', archive: true, dir: 'Build_Artifacts_Jenkins'
         }
 
       }
     }
     stage('Publish Artifacts To Jenkins Dashboard') {
       steps{
-        archiveArtifacts artifacts: $PACKAGE_VERSION, fingerprint: true
+        archiveArtifacts artifacts: '"${BUILD_NUMBER}".zip', fingerprint: true
       }
     }
   }
