@@ -68,6 +68,7 @@ pipeline {
       steps{
         dir('Package') {
           archiveArtifacts artifacts: 'Package.$ENV:BUILD_NUMBER.zip', fingerprint: true, onlyIfSuccessful: true
+        }
       }
     }
   }
