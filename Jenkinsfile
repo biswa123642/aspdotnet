@@ -51,7 +51,6 @@ pipeline {
         powershell '''
         Get-ChildItem -Path $ENV:WORKSPACE\\Build_Artifacts_Jenkins *.pdb -Recurse | foreach { Remove-Item -Path $_.FullName -Force }
         Remove-Item -Path Build_Artifacts_Jenkins\\bin\\roslyn -Recurse -Force
-        Copy-Item -Path $ENV:WORKSPACE\\Build_Artifacts_Jenkins\\* -Destination $ENV:WORKSPACE\\Artifacts -Recurse -Force
         '''
       }
     }
@@ -59,7 +58,7 @@ pipeline {
       steps {
         powershell '''
         if (!(test-path -path $ENV:WORKSPACE\\Package)) {new-item -path $ENV:WORKSPACE\\Package -itemtype directory}
-        Compress-Archive -Path $ENV:WORKSPACE\\Artifacts\\* `
+        Compress-Archive -Path $ENV:WORKSPACE\\Build_Artifacts_Jenkins\\* `
         -DestinationPath $ENV:WORKSPACE\\Package\\$ENV:BUILD_NUMBER.zip
         '''
       }
