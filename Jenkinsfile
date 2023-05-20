@@ -46,7 +46,7 @@ pipeline {
         }
       }
     }
-    stage('Remove PDB Files') {
+    stage('Remove Extraneous Packages') {
       steps {
         powershell '''
         Get-ChildItem -Path $ENV:WORKSPACE\\Build_Artifacts_Jenkins *.pdb -Recurse | foreach { Remove-Item -Path $_.FullName -Force }
@@ -55,7 +55,7 @@ pipeline {
         '''
       }
     }
-    stage('Archive Artifacts') {
+    stage('Archive Build Artifacts') {
       steps {
         powershell '''
         if (!(test-path -path $ENV:WORKSPACE\\Package)) {new-item -path $ENV:WORKSPACE\\Package -itemtype directory}
@@ -64,7 +64,7 @@ pipeline {
         '''
       }
     }
-    stage('Publish Artifacts To Jenkins Dashboard') {
+    stage('Publish Build Artifacts') {
       steps{
         dir('Package') {
           archiveArtifacts artifacts: "${BUILD_NUMBER}.zip", fingerprint: true, onlyIfSuccessful: true
