@@ -11,6 +11,7 @@ pipeline {
   environment{
     MSBUILD_SONAR_HOME = tool 'SonarScanner'
     key = "jenkins"
+    PACKAGE_VERSION="${BUILD_NUMBER}.zip"
   }
 
   stages {
@@ -63,14 +64,14 @@ pipeline {
     stage('Archive Artifacts') {
       steps {
         script {
-          zip zipFile: '$BUILD_NUMBER.zip', archive: true, dir: 'Build_Artifacts_Jenkins'
+          zip zipFile: '${env.PACKAGE_VERSION}', archive: true, dir: 'Build_Artifacts_Jenkins'
         }
 
       }
     }
     stage('Publish Artifacts To Jenkins Dashboard') {
       steps{
-        archiveArtifacts artifacts: '$BUILD_NUMBER.zip', fingerprint: true
+        archiveArtifacts artifacts: '${env.PACKAGE_VERSION}', fingerprint: true
       }
     }
   }
